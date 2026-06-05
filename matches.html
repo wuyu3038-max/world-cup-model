@@ -7,117 +7,84 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Segoe UI','Microsoft YaHei',sans-serif;background:#0a0e17;color:#e0e0e0}
-.header{background:linear-gradient(135deg,#1a1f35,#0d1520);padding:16px 24px;border-bottom:3px solid #2d6a9f;text-align:center;position:sticky;top:0;z-index:100}
+.header{background:linear-gradient(135deg,#1a1f35,#0d1520);padding:14px 20px;border-bottom:3px solid #2d6a9f;text-align:center}
 .header h1{font-size:20px;background:linear-gradient(90deg,#4fc3f7,#81d4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.header .nav{margin-top:8px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
-.header .nav a{color:#90a4ae;text-decoration:none;font-size:11px;padding:4px 10px;border:1px solid #1e3a50;border-radius:4px}
-.header .nav a:hover{color:#4fc3f7;border-color:#2d6a9f}
-.phase-title{background:#111822;padding:10px 24px;border-bottom:1px solid #1e2d3d;position:sticky;top:80px;z-index:50}
-.phase-title h2{color:#4fc3f7;font-size:16px}
-.date-header{background:#141e2b;padding:8px 24px;border-bottom:1px solid #1a2735;position:sticky;top:116px;z-index:40}
-.date-header h3{color:#81d4fa;font-size:14px}
-.container{max-width:1200px;margin:0 auto;padding:0}
-.match-row{display:grid;grid-template-columns:60px 1fr 70px 100px 110px 100px 130px 80px 70px;gap:0;align-items:center;padding:10px 16px;border-bottom:1px solid #111822;font-size:12px;transition:background .15s}
-.match-row:hover{background:#111922}
-.match-row .time{color:#78909c;font-size:11px}
-.match-row .matchup{font-weight:600}
-.match-row .matchup .vs{color:#78909c;margin:0 6px}
-.match-row .venue{font-size:10px;color:#78909c}
-.odds-cell{text-align:center}
-.odds-cell .val{font-weight:700;font-size:14px}
-.odds-cell .lbl{font-size:9px;color:#78909c}
-.odds-cell.highlight{background:#1a2a1a;border-radius:4px;padding:4px 6px}
-.odds-cell.highlight .val{color:#66bb6a}
-.handicap{font-size:11px;text-align:center}
-.handicap .line{color:#ffcc80;font-weight:600}
-.handicap .pick{font-size:10px;margin-top:2px}
-.score{text-align:center}
-.score .goals{font-size:16px;font-weight:700}
-.score .xgoals{font-size:9px;color:#78909c}
-.progress{display:inline-block;height:4px;border-radius:2px;vertical-align:middle}
-.progress.h{background:#4fc3f7}
-.progress.d{background:#78909c}
-.progress.a{background:#ff8a65}
-.legend{display:flex;gap:16px;padding:8px 24px;background:#111822;border-bottom:1px solid #1e2d3d;font-size:10px;color:#78909c;flex-wrap:wrap}
-.legend span{margin-right:4px}
-.legend .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:2px}
-.match-header{display:grid;grid-template-columns:60px 1fr 70px 100px 110px 100px 130px 80px 70px;gap:0;padding:6px 16px;background:#0d1520;border-bottom:2px solid #1e3a50;font-size:10px;color:#78909c;font-weight:600;position:sticky;top:150px;z-index:30}
-@media(max-width:900px){
-  .match-row,.match-header{grid-template-columns:50px 1fr 60px 80px 100px;font-size:11px}
-  .match-row .handicap,.match-row .score,.match-header .handicap,.match-header .score{display:none}
-}
-@media(max-width:900px){
-  .match-row,.match-header{grid-template-columns:40px 1fr 60px 80px 60px;font-size:10px;padding:8px 8px}
-  .match-row .handicap,.match-row .score:nth-child(8),.match-row .score:nth-child(9),.match-header span:nth-child(5),.match-header span:nth-child(6),.match-header span:nth-child(8),.match-header span:nth-child(9){display:none}
-  .match-row .time{font-size:9px}.match-row .matchup{font-size:11px}
-  .container{padding:0}
-}
-@media(max-width:600px){
-  .match-row,.match-header{grid-template-columns:35px 1fr 80px;font-size:9px;padding:6px 6px}
-  .match-row .venue,.match-header span:nth-child(3){display:none}
-  .header h1{font-size:16px}
-}
-.search-bar{padding:10px 16px;background:#111822;border-bottom:1px solid #1e2d3d;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.top-nav{margin-top:8px}.top-nav a{display:inline-block;padding:8px 18px;background:#2d6a9f;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;margin:3px}
+.top-nav a.hl{background:#e65100;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 5px #e65100}50%{box-shadow:0 0 20px #ff9800}}
+.search-bar{padding:8px 16px;background:#111822;border-bottom:1px solid #1e2d3d;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .search-bar input,.search-bar select{padding:6px 10px;background:#141e2b;border:1px solid #1e3a50;color:#e0e0e0;border-radius:4px;font-size:12px}
-.search-bar input::placeholder{color:#78909c}
-.search-bar input{flex:1;min-width:150px}
-.search-bar .clear{color:#4fc3f7;cursor:pointer;font-size:11px}
+.search-bar input{flex:1;min-width:120px}.search-bar input::placeholder{color:#78909c}
+.search-bar .clear{color:#4fc3f7;cursor:pointer;font-size:11px;white-space:nowrap}
+.phase-title{background:#111822;padding:8px 16px;border-bottom:1px solid #1e2d3d}.phase-title h2{color:#4fc3f7;font-size:15px}
+.date-header{background:#141e2b;padding:6px 16px;border-bottom:1px solid #1a2735}.date-header h3{color:#81d4fa;font-size:13px}
+.match-header,.match-row{display:grid;grid-template-columns:45px 1fr 70px 100px 100px 90px 120px 75px 65px;gap:0;align-items:center;padding:6px 12px;font-size:11px}
+.match-header{background:#0d1520;border-bottom:2px solid #1e3a50;color:#78909c;font-weight:600;font-size:10px;position:sticky;top:0;z-index:30}
+.match-row{border-bottom:1px solid #111822;transition:background .15s;font-size:12px}
+.match-row:hover{background:#111922}
+.match-row .time{color:#78909c;font-size:10px}.match-row .matchup{font-weight:600}
+.match-row .matchup .vs{color:#78909c;margin:0 4px}.match-row .venue{font-size:9px;color:#78909c}
+.odds-cell{text-align:center}.odds-cell .val{font-weight:700;font-size:13px}
+.odds-cell.hl{background:#1a2a1a;border-radius:3px;padding:3px 5px}.odds-cell.hl .val{color:#66bb6a}
+.handicap{text-align:center;font-size:10px}.handicap .line{color:#ffcc80;font-weight:600}
+.handicap .pick{font-size:9px;margin-top:2px}
+.score{text-align:center}.score .goals{font-size:14px;font-weight:700}
+.score .goals2{font-size:11px;color:#90a4ae}.score .xgoals{font-size:8px;color:#78909c}
+.upset{text-align:center;font-size:11px}
+.badge{display:inline-block;padding:2px 5px;border-radius:3px;font-size:9px;margin:1px}
+.bg{background:#1b5e20;color:#81c784}.br{background:#b71c1c;color:#ef9a9a}.by{background:#e65100;color:#ffcc80}
+.progress{display:inline-block;height:3px;border-radius:1px;vertical-align:middle}
+.progress.h{background:#4fc3f7}.progress.d{background:#78909c}.progress.a{background:#ff8a65}
+.container{max-width:1300px;margin:0 auto}
+@media(max-width:800px){
+  .match-header,.match-row{grid-template-columns:40px 1fr 60px 80px 60px;font-size:10px;padding:6px 6px}
+  .match-row .handicap,.match-row .score,.match-row .upset,.match-header span:nth-child(5),.match-header span:nth-child(7),.match-header span:nth-child(8),.match-header span:nth-child(9){display:none}
+}
+@media(max-width:500px){
+  .match-header,.match-row{grid-template-columns:32px 1fr 75px;font-size:9px}
+  .match-row .venue,.match-header span:nth-child(3){display:none}
+}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>2026 FIFA World Cup - 全部104场比赛预测</h1>
-  <div style="margin:8px 0">
-    <a href="/" style="display:inline-block;padding:8px 20px;background:#2d6a9f;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;margin:3px">📊 预测仪表盘</a>
-    <a href="/matches" style="display:inline-block;padding:8px 20px;background:#e65100;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;margin:3px">⚽ 全部比赛预测</a>
-  </div>
-  <div class="nav">
-    <a href="#md1">小组赛第1轮 (6/11-17)</a>
-    <a href="#md2">小组赛第2轮 (6/18-23)</a>
-    <a href="#md3">小组赛第3轮 (6/24-27)</a>
-    <a href="#r32">32强淘汰赛 (6/28-7/3)</a>
-    <a href="#r16">16强 (7/4-7)</a>
-    <a href="#qf">四分之一决赛 (7/9-11)</a>
-    <a href="#sf">半决赛+决赛</a>
+  <h1>2026世界杯 - 全部比赛预测 (Dixon-Coles模型)</h1>
+  <div class="top-nav">
+    <a href="/">📊 预测仪表盘</a>
+    <a href="/matches" class="hl">⚽ 全部比赛预测</a>
   </div>
 </div>
 
 <div class="search-bar">
-  <input type="text" id="searchInput" placeholder="搜索球队... (例如: 巴西, 英格兰, 法国)" oninput="filterMatches()">
-  <select id="groupFilter" onchange="filterMatches()">
-    <option value="">全部组别</option>
-    <option value="A">A组</option><option value="B">B组</option><option value="C">C组</option>
-    <option value="D">D组</option><option value="E">E组</option><option value="F">F组</option>
-    <option value="G">G组</option><option value="H">H组</option><option value="I">I组</option>
-    <option value="J">J组</option><option value="K">K组</option><option value="L">L组</option>
-  </select>
-  <select id="dateFilter" onchange="filterMatches()">
-    <option value="">全部日期</option>
-  </select>
-  <span class="clear" onclick="clearFilters()">✕ 清除</span>
-</div>
-<div class="legend">
-  <span><span class="dot" style="background:#4fc3f7"></span> 主胜/平局/客胜 概率</span>
-  <span><span class="dot" style="background:#66bb6a"></span> 最佳选项(绿色高亮)</span>
-  <span><span class="dot" style="background:#ffcc80"></span> Dixon-Coles推导让球盘口</span>
-  <span><span class="dot" style="background:#e0e0e0"></span> 预期比分(最可能得分+xG)</span>
+  <input type="text" id="searchInput" placeholder="搜索球队... (例如: 巴西, 法国, 英格兰)" oninput="doFilter()">
+  <select id="groupFilter" onchange="doFilter()"><option value="">全部组别</option></select>
+  <select id="dateFilter" onchange="doFilter()"><option value="">全部日期</option></select>
+  <span class="clear" onclick="document.getElementById('searchInput').value='';document.getElementById('groupFilter').value='';document.getElementById('dateFilter').value='';doFilter()">✕ 清除</span>
 </div>
 
 <div class="match-header">
-  <span>组别</span><span>对阵</span><span>比赛城市</span><span>胜平负预测</span><span>让球盘口</span><span>推荐方向</span><span>比分预测(TOP2)</span><span>大小球</span><span>爆冷指数</span>
+  <span>组别</span><span>对阵</span><span>城市</span><span>胜平负</span><span>让球盘口</span><span>推荐</span><span>比分预测(TOP2)</span><span>大小球</span><span>爆冷率</span>
 </div>
 
 <div id="content"><div style="padding:40px;text-align:center;color:#78909c">正在加载预测数据...</div></div>
 
-<script>
-// ============ CHINESE NAMES ============
-let ZT={},ZP={},ZC={},ZCI={};
-function zhT(n){return ZT[n]||n} function zhP(n){return ZP[n]||n}
-function zhC(n){return ZC[n]||n} function zhCi(n){return ZCI[n]||n}
+<div style="padding:30px;text-align:center;font-size:10px;color:#78909c">
+  <p>预测模型: Dixon-Coles (1997) · 攻击α+防守β+主场γ+ρ修正</p>
+  <p>数据: FIFA排名+五大联赛2025-26球员G+A+门将评分 · 每小时自动刷新</p>
+  <p>爆冷指数: Ben-Naim模型(q=0.42)·让球盘口由预期净胜球推导·比分=最大概率得分TOP2</p>
+  <p><a href="/" style="color:#4fc3f7">← 返回预测仪表盘</a></p>
+</div>
 
-// ============ DATA ============
-const GROUPS = {
+<script>
+// ============ GLOBALS ============
+let ZT={},ZP={},ZC={},ZCI={},ALL_DATA=null;
+
+function zhT(n){return ZT[n]||n}
+function zhP(n){return ZP[n]||n}
+function zhCi(n){return ZCI[n]||n}
+
+const GROUPS={
   A:['Mexico','South Africa','South Korea','Czech Republic'],
   B:['Canada','Bosnia-Herzegovina','Qatar','Switzerland'],
   C:['Brazil','Morocco','Haiti','Scotland'],
@@ -132,271 +99,165 @@ const GROUPS = {
   L:['England','Croatia','Ghana','Panama']
 };
 
-// ============ DC PREDICTION ENGINE (client-side) ============
-function computeTeamStrength(players) {
-  const ga = {};
-  (players||[]).forEach(p => {
-    const g = Number(p.goals_2526)||Number(p.goals_2025_26)||0;
-    const a = Number(p.assists_2526)||Number(p.assists_2025_26)||0;
-    ga[p.nation] = (ga[p.nation]||0) + g + a;
-  });
-  return ga;
-}
+const MATCHES_BY_DATE={
+  '2026-06-11':[{h:'Mexico',a:'South Africa',g:'A',v:'墨西哥城'},{h:'South Korea',a:'Czech Republic',g:'A',v:'瓜达拉哈拉'}],
+  '2026-06-12':[{h:'Canada',a:'Bosnia-Herzegovina',g:'B',v:'多伦多'},{h:'United States',a:'Paraguay',g:'D',v:'洛杉矶'}],
+  '2026-06-13':[{h:'Haiti',a:'Scotland',g:'C',v:'波士顿'},{h:'Australia',a:'Turkey',g:'D',v:'温哥华'},{h:'Brazil',a:'Morocco',g:'C',v:'纽约/新泽西'},{h:'Qatar',a:'Switzerland',g:'B',v:'旧金山'}],
+  '2026-06-14':[{h:'Ivory Coast',a:'Ecuador',g:'E',v:'费城'},{h:'Germany',a:'Curacao',g:'E',v:'休斯顿'},{h:'Netherlands',a:'Japan',g:'F',v:'达拉斯'},{h:'Sweden',a:'Tunisia',g:'F',v:'蒙特雷'}],
+  '2026-06-15':[{h:'Saudi Arabia',a:'Uruguay',g:'H',v:'迈阿密'},{h:'Spain',a:'Cape Verde',g:'H',v:'亚特兰大'},{h:'Iran',a:'New Zealand',g:'G',v:'洛杉矶'},{h:'Belgium',a:'Egypt',g:'G',v:'西雅图'}],
+  '2026-06-16':[{h:'France',a:'Senegal',g:'I',v:'纽约/新泽西'},{h:'Iraq',a:'Norway',g:'I',v:'波士顿'},{h:'Argentina',a:'Algeria',g:'J',v:'堪萨斯城'},{h:'Austria',a:'Jordan',g:'J',v:'旧金山'}],
+  '2026-06-17':[{h:'Ghana',a:'Panama',g:'L',v:'多伦多'},{h:'England',a:'Croatia',g:'L',v:'达拉斯'},{h:'Portugal',a:'Congo DR',g:'K',v:'休斯顿'},{h:'Uzbekistan',a:'Colombia',g:'K',v:'墨西哥城'}],
+  '2026-06-18':[{h:'Czech Republic',a:'South Africa',g:'A',v:'亚特兰大'},{h:'Switzerland',a:'Bosnia-Herzegovina',g:'B',v:'洛杉矶'},{h:'Canada',a:'Qatar',g:'B',v:'温哥华'},{h:'Mexico',a:'South Korea',g:'A',v:'瓜达拉哈拉'}],
+  '2026-06-19':[{h:'Brazil',a:'Haiti',g:'C',v:'费城'},{h:'Scotland',a:'Morocco',g:'C',v:'波士顿'},{h:'Turkey',a:'Paraguay',g:'D',v:'旧金山'},{h:'United States',a:'Australia',g:'D',v:'西雅图'}],
+  '2026-06-20':[{h:'Germany',a:'Ivory Coast',g:'E',v:'多伦多'},{h:'Ecuador',a:'Curacao',g:'E',v:'堪萨斯城'},{h:'Netherlands',a:'Sweden',g:'F',v:'休斯顿'},{h:'Tunisia',a:'Japan',g:'F',v:'蒙特雷'}],
+  '2026-06-21':[{h:'Uruguay',a:'Cape Verde',g:'H',v:'迈阿密'},{h:'Spain',a:'Saudi Arabia',g:'H',v:'亚特兰大'},{h:'Belgium',a:'Iran',g:'G',v:'洛杉矶'},{h:'New Zealand',a:'Egypt',g:'G',v:'温哥华'}],
+  '2026-06-22':[{h:'Norway',a:'Senegal',g:'I',v:'纽约/新泽西'},{h:'France',a:'Iraq',g:'I',v:'费城'},{h:'Argentina',a:'Austria',g:'J',v:'达拉斯'},{h:'Jordan',a:'Algeria',g:'J',v:'旧金山'}],
+  '2026-06-23':[{h:'England',a:'Ghana',g:'L',v:'波士顿'},{h:'Panama',a:'Croatia',g:'L',v:'多伦多'},{h:'Portugal',a:'Uzbekistan',g:'K',v:'休斯顿'},{h:'Colombia',a:'Congo DR',g:'K',v:'瓜达拉哈拉'}],
+  '2026-06-24':[{h:'Scotland',a:'Brazil',g:'C',v:'迈阿密'},{h:'Morocco',a:'Haiti',g:'C',v:'亚特兰大'},{h:'Switzerland',a:'Canada',g:'B',v:'温哥华'},{h:'Bosnia-Herzegovina',a:'Qatar',g:'B',v:'西雅图'},{h:'Czech Republic',a:'Mexico',g:'A',v:'墨西哥城'},{h:'South Africa',a:'South Korea',g:'A',v:'蒙特雷'}],
+  '2026-06-25':[{h:'Curacao',a:'Ivory Coast',g:'E',v:'费城'},{h:'Ecuador',a:'Germany',g:'E',v:'纽约/新泽西'},{h:'Japan',a:'Sweden',g:'F',v:'达拉斯'},{h:'Tunisia',a:'Netherlands',g:'F',v:'堪萨斯城'},{h:'Turkey',a:'United States',g:'D',v:'洛杉矶'},{h:'Paraguay',a:'Australia',g:'D',v:'旧金山'}],
+  '2026-06-26':[{h:'Norway',a:'France',g:'I',v:'波士顿'},{h:'Senegal',a:'Iraq',g:'I',v:'多伦多'},{h:'Egypt',a:'Iran',g:'G',v:'西雅图'},{h:'New Zealand',a:'Belgium',g:'G',v:'温哥华'},{h:'Cape Verde',a:'Saudi Arabia',g:'H',v:'休斯顿'},{h:'Uruguay',a:'Spain',g:'H',v:'瓜达拉哈拉'}],
+  '2026-06-27':[{h:'Panama',a:'England',g:'L',v:'纽约/新泽西'},{h:'Croatia',a:'Ghana',g:'L',v:'费城'},{h:'Algeria',a:'Austria',g:'J',v:'堪萨斯城'},{h:'Jordan',a:'Argentina',g:'J',v:'达拉斯'},{h:'Colombia',a:'Portugal',g:'K',v:'迈阿密'},{h:'Congo DR',a:'Uzbekistan',g:'K',v:'亚特兰大'}]
+};
 
-function getFifaRank(team, rankings) {
-  const r = (rankings||[]).find(x=>x.team===team);
-  return r ? r.rank : 60;
-}
+// ============ MATH ============
+function fact(n){let r=1;for(let i=2;i<=n;i++)r*=i;return r}
 
-function dcPredict(home, away, players, rankings, gkRatings) {
-  const ga = computeTeamStrength(players);
-  const ha = Number(ga[home])||0.1, aa = Number(ga[away])||0.1;
-  const hr = getFifaRank(home, rankings), ar = getFifaRank(away, rankings);
-  const hgk = gkRatings[home]||50, agk = gkRatings[away]||50;
+// ============ DIXON-COLES PREDICT ============
+function dcPredict(home, away, players, rankings, gkRatings, supplement){
+  const gaMap={};
+  players.forEach(p=>{const g=Number(p.goals_2526)||0,a=Number(p.assists_2526)||0;gaMap[p.nation]=(gaMap[p.nation]||0)+g+a;});
+  (supplement||[]).forEach(p=>{if(gaMap[p.nation]!=null&&p.goals_2526)gaMap[p.nation]+=p.goals_2526;});
 
-  const attH = Math.log(Math.max(ha,0.3))*0.35 - 0.25;
-  const attA = Math.log(Math.max(aa,0.3))*0.35 - 0.25;
-  const defH = -(2200-hr*10)/6000 - (hgk-50)/400;
-  const defA = -(2200-ar*10)/6000 - (agk-50)/400;
+  const ha=gaMap[home]||0.1,aa=gaMap[away]||0.1;
+  const hr=(rankings.find(x=>x.team===home)||{}).rank||60;
+  const ar=(rankings.find(x=>x.team===away)||{}).rank||60;
+  const hgk=gkRatings[home]||50,agk=gkRatings[away]||50;
 
-  const lam = Math.exp(0.30 + attH - defA);
-  const mu = Math.exp(attA - defH);
-  const rho = 0.05;
+  const attH=Math.log(Math.max(ha,0.3))*0.35-0.25;
+  const attA=Math.log(Math.max(aa,0.3))*0.35-0.25;
+  const defH=-(2200-hr*10)/6000-(hgk-50)/400;
+  const defA=-(2200-ar*10)/6000-(agk-50)/400;
 
-  let hw=0,dw=0,aw=0,o25=0,btts=0,total=0;
-  const scores = [];
-  for(let h=0;h<=10;h++){
-    for(let a=0;a<=10;a++){
-      let p = Math.pow(lam,h)*Math.exp(-lam)/fact(h) * Math.pow(mu,a)*Math.exp(-mu)/fact(a);
-      if(h===0&&a===0) p*=(1-lam*mu*rho);
-      else if(h===0&&a===1) p*=(1+lam*rho);
-      else if(h===1&&a===0) p*=(1+mu*rho);
-      else if(h===1&&a===1) p*=(1-rho);
-      p = Math.max(p,0);
-      scores.push({h,a,p});
-      total+=p;
-      if(h>a) hw+=p; else if(h===a) dw+=p; else aw+=p;
-      if(h+a>2.5) o25+=p;
-      if(h>0&&a>0) btts+=p;
-    }
+  const lam=Math.exp(0.30+attH-defA),mu=Math.exp(attA-defH),rho=0.05;
+  let hw=0,dw=0,aw=0,o25=0,btts=0,total=0,scores=[];
+  for(let h=0;h<=10;h++)for(let a=0;a<=10;a++){
+    let p=Math.pow(lam,h)*Math.exp(-lam)/fact(h)*Math.pow(mu,a)*Math.exp(-mu)/fact(a);
+    if(h===0&&a===0)p*=(1-lam*mu*rho);else if(h===0&&a===1)p*=(1+lam*rho);
+    else if(h===1&&a===0)p*=(1+mu*rho);else if(h===1&&a===1)p*=(1-rho);
+    p=Math.max(p,0);scores.push({h,a,p});total+=p;
+    if(h>a)hw+=p;else if(h===a)dw+=p;else aw+=p;
+    if(h+a>2.5)o25+=p;if(h>0&&a>0)btts+=p;
   }
   if(total>0){hw/=total;dw/=total;aw/=total;o25/=total;btts/=total;}
   scores.sort((a,b)=>b.p-a.p);
-  // Upset index (Ben-Naim model: q=0.42 base upset rate for World Cup)
-  const favP=Math.max(hw,aw), undP=Math.min(hw,aw);
-  const powerDiff=Math.abs(attH-attA);
-  const upsetRaw=0.42*Math.exp(-powerDiff*0.3);
-  const upsetPct=Math.round(Math.min(upsetRaw,0.49)*100);
-  return {
-    hw,dw,aw, expHome:lam, expAway:mu, o25, btts, upsetPct,
-    bestScore: scores[0]||{h:1,a:0},
-    secondScore: scores[1]||{h:1,a:1},
-    bestScoreProb: scores[0]?.p||0,
-    secondScoreProb: scores[1]?.p||0,
-    goalDiff: lam - mu
-  };
+  const pd=Math.abs(attH-attA);
+  const upsetPct=Math.round(Math.min(0.42*Math.exp(-pd*0.3),0.49)*100);
+  return{hw,dw,aw,lam:lam.toFixed(1),mu:mu.toFixed(1),o25,btts,upsetPct,
+    s1:scores[0]||{h:1,a:0},s1p:scores[0]?.p||0,
+    s2:scores[1]||{h:1,a:1},s2p:scores[1]?.p||0,
+    diff:lam-mu};
 }
-
-function fact(n) { let r=1; for(let i=2;i<=n;i++) r*=i; return r; }
 
 // ============ ASIAN HANDICAP ============
-function computeAsianHandicap(pred) {
-  const diff = pred.goalDiff;
-  if (Math.abs(diff) < 0.3) return {line: '平手盘', pick: '平手盘 无方向', pickTeam: ''};
-  if (diff >= 0.3 && diff < 0.7) return {line: '平手盘(主队方向)', pick: '推荐: 主队 平手', pickTeam: 'home'};
-  if (diff >= 0.7 && diff < 1.1) return {line: '主让半球 (-0.5)', pick: '推荐: 主队 -0.5', pickTeam: 'home'};
-  if (diff >= 1.1 && diff < 1.6) return {line: '主让半一 (-0.5/1)', pick: '推荐: 主队 -0.5/1', pickTeam: 'home'};
-  if (diff >= 1.6 && diff < 2.1) return {line: '主让一球 (-1)', pick: '推荐: 主队 -1', pickTeam: 'home'};
-  if (diff >= 2.1 && diff < 2.6) return {line: '主让球半 (-1.5)', pick: '推荐: 主队 -1.5', pickTeam: 'home'};
-  if (diff >= 2.6) return {line: '主让两球 (-2)', pick: '推荐: 主队 -2', pickTeam: 'home'};
-  if (diff <= -0.3 && diff > -0.7) return {line: '平手盘(客队方向)', pick: '推荐: 客队 平手', pickTeam: 'away'};
-  if (diff <= -0.7 && diff > -1.1) return {line: '客让半球 (+0.5)', pick: '推荐: 客队 -0.5', pickTeam: 'away'};
-  if (diff <= -1.1 && diff > -1.6) return {line: '客让半一 (+0.5/1)', pick: '推荐: 客队 -0.5/1', pickTeam: 'away'};
-  if (diff <= -1.6 && diff > -2.1) return {line: '客让一球 (+1)', pick: '推荐: 客队 -1', pickTeam: 'away'};
-  if (diff <= -2.1) return {line: '客让球半 (+1.5)', pick: '推荐: 客队 -1.5', pickTeam: 'away'};
-  return {line: '平手盘', pick: '平手', pickTeam: ''};
-}
-
-// ============ BUILD MATCH LIST ============
-function buildGroupMatches() {
-  const matches = [];
-  const dates = {
-    '2026-06-11': [{h:'Mexico',a:'South Africa',g:'A',v:'Mexico City'},
-                   {h:'South Korea',a:'Czech Republic',g:'A',v:'Guadalajara'}],
-    '2026-06-12': [{h:'Canada',a:'Bosnia-Herzegovina',g:'B',v:'Toronto'},
-                   {h:'United States',a:'Paraguay',g:'D',v:'Los Angeles'}],
-    '2026-06-13': [{h:'Haiti',a:'Scotland',g:'C',v:'Boston'},
-                   {h:'Australia',a:'Turkey',g:'D',v:'Vancouver'},
-                   {h:'Brazil',a:'Morocco',g:'C',v:'New York/NJ'},
-                   {h:'Qatar',a:'Switzerland',g:'B',v:'San Francisco'}],
-    '2026-06-14': [{h:'Ivory Coast',a:'Ecuador',g:'E',v:'Philadelphia'},
-                   {h:'Germany',a:'Curacao',g:'E',v:'Houston'},
-                   {h:'Netherlands',a:'Japan',g:'F',v:'Dallas'},
-                   {h:'Sweden',a:'Tunisia',g:'F',v:'Monterrey'}],
-    '2026-06-15': [{h:'Saudi Arabia',a:'Uruguay',g:'H',v:'Miami'},
-                   {h:'Spain',a:'Cape Verde',g:'H',v:'Atlanta'},
-                   {h:'Iran',a:'New Zealand',g:'G',v:'Los Angeles'},
-                   {h:'Belgium',a:'Egypt',g:'G',v:'Seattle'}],
-    '2026-06-16': [{h:'France',a:'Senegal',g:'I',v:'New York/NJ'},
-                   {h:'Iraq',a:'Norway',g:'I',v:'Boston'},
-                   {h:'Argentina',a:'Algeria',g:'J',v:'Kansas City'},
-                   {h:'Austria',a:'Jordan',g:'J',v:'San Francisco'}],
-    '2026-06-17': [{h:'Ghana',a:'Panama',g:'L',v:'Toronto'},
-                   {h:'England',a:'Croatia',g:'L',v:'Dallas'},
-                   {h:'Portugal',a:'Congo DR',g:'K',v:'Houston'},
-                   {h:'Uzbekistan',a:'Colombia',g:'K',v:'Mexico City'}],
-    '2026-06-18': [{h:'Czech Republic',a:'South Africa',g:'A',v:'Atlanta'},
-                   {h:'Switzerland',a:'Bosnia-Herzegovina',g:'B',v:'Los Angeles'},
-                   {h:'Canada',a:'Qatar',g:'B',v:'Vancouver'},
-                   {h:'Mexico',a:'South Korea',g:'A',v:'Guadalajara'}],
-    '2026-06-19': [{h:'Brazil',a:'Haiti',g:'C',v:'Philadelphia'},
-                   {h:'Scotland',a:'Morocco',g:'C',v:'Boston'},
-                   {h:'Turkey',a:'Paraguay',g:'D',v:'San Francisco'},
-                   {h:'United States',a:'Australia',g:'D',v:'Seattle'}],
-    '2026-06-20': [{h:'Germany',a:'Ivory Coast',g:'E',v:'Toronto'},
-                   {h:'Ecuador',a:'Curacao',g:'E',v:'Kansas City'},
-                   {h:'Netherlands',a:'Sweden',g:'F',v:'Houston'},
-                   {h:'Tunisia',a:'Japan',g:'F',v:'Monterrey'}],
-    '2026-06-21': [{h:'Uruguay',a:'Cape Verde',g:'H',v:'Miami'},
-                   {h:'Spain',a:'Saudi Arabia',g:'H',v:'Atlanta'},
-                   {h:'Belgium',a:'Iran',g:'G',v:'Los Angeles'},
-                   {h:'New Zealand',a:'Egypt',g:'G',v:'Vancouver'}],
-    '2026-06-22': [{h:'Norway',a:'Senegal',g:'I',v:'New York/NJ'},
-                   {h:'France',a:'Iraq',g:'I',v:'Philadelphia'},
-                   {h:'Argentina',a:'Austria',g:'J',v:'Dallas'},
-                   {h:'Jordan',a:'Algeria',g:'J',v:'San Francisco'}],
-    '2026-06-23': [{h:'England',a:'Ghana',g:'L',v:'Boston'},
-                   {h:'Panama',a:'Croatia',g:'L',v:'Toronto'},
-                   {h:'Portugal',a:'Uzbekistan',g:'K',v:'Houston'},
-                   {h:'Colombia',a:'Congo DR',g:'K',v:'Guadalajara'}],
-    '2026-06-24': [{h:'Scotland',a:'Brazil',g:'C',v:'Miami'},
-                   {h:'Morocco',a:'Haiti',g:'C',v:'Atlanta'},
-                   {h:'Switzerland',a:'Canada',g:'B',v:'Vancouver'},
-                   {h:'Bosnia-Herzegovina',a:'Qatar',g:'B',v:'Seattle'},
-                   {h:'Czech Republic',a:'Mexico',g:'A',v:'Mexico City'},
-                   {h:'South Africa',a:'South Korea',g:'A',v:'Monterrey'}],
-    '2026-06-25': [{h:'Curacao',a:'Ivory Coast',g:'E',v:'Philadelphia'},
-                   {h:'Ecuador',a:'Germany',g:'E',v:'New York/NJ'},
-                   {h:'Japan',a:'Sweden',g:'F',v:'Dallas'},
-                   {h:'Tunisia',a:'Netherlands',g:'F',v:'Kansas City'},
-                   {h:'Turkey',a:'United States',g:'D',v:'Los Angeles'},
-                   {h:'Paraguay',a:'Australia',g:'D',v:'San Francisco'}],
-    '2026-06-26': [{h:'Norway',a:'France',g:'I',v:'Boston'},
-                   {h:'Senegal',a:'Iraq',g:'I',v:'Toronto'},
-                   {h:'Egypt',a:'Iran',g:'G',v:'Seattle'},
-                   {h:'New Zealand',a:'Belgium',g:'G',v:'Vancouver'},
-                   {h:'Cape Verde',a:'Saudi Arabia',g:'H',v:'Houston'},
-                   {h:'Uruguay',a:'Spain',g:'H',v:'Guadalajara'}],
-    '2026-06-27': [{h:'Panama',a:'England',g:'L',v:'New York/NJ'},
-                   {h:'Croatia',a:'Ghana',g:'L',v:'Philadelphia'},
-                   {h:'Algeria',a:'Austria',g:'J',v:'Kansas City'},
-                   {h:'Jordan',a:'Argentina',g:'J',v:'Dallas'},
-                   {h:'Colombia',a:'Portugal',g:'K',v:'Miami'},
-                   {h:'Congo DR',a:'Uzbekistan',g:'K',v:'Atlanta'}],
-  };
-  return dates;
+function asianHandicap(diff){
+  const d=diff;
+  if(Math.abs(d)<0.3)return{line:'平手盘',pick:'无方向',dir:''};
+  if(d>=0.3&&d<0.7)return{line:'平手(主队方向)',pick:'主队 平手',dir:'home'};
+  if(d>=0.7&&d<1.1)return{line:'主让半球(-0.5)',pick:'主队-0.5',dir:'home'};
+  if(d>=1.1&&d<1.6)return{line:'主让半一(-0.5/1)',pick:'主队-0.5/1',dir:'home'};
+  if(d>=1.6&&d<2.1)return{line:'主让一球(-1)',pick:'主队-1',dir:'home'};
+  if(d>=2.1&&d<2.6)return{line:'主让球半(-1.5)',pick:'主队-1.5',dir:'home'};
+  if(d>=2.6)return{line:'主让两球(-2)',pick:'主队-2',dir:'home'};
+  if(d<=-0.3&&d>-0.7)return{line:'平手(客队方向)',pick:'客队 平手',dir:'away'};
+  if(d<=-0.7&&d>-1.1)return{line:'客让半球(+0.5)',pick:'客队-0.5',dir:'away'};
+  if(d<=-1.1&&d>-1.6)return{line:'客让半一(+0.5/1)',pick:'客队-0.5/1',dir:'away'};
+  if(d<=-1.6&&d>-2.1)return{line:'客让一球(+1)',pick:'客队-1',dir:'away'};
+  if(d<=-2.1)return{line:'客让球半(+1.5)',pick:'客队-1.5',dir:'away'};
+  return{line:'平手',pick:'无方向',dir:''};
 }
 
 // ============ RENDER ============
-function renderMatch(pred, m) {
-  const {hw,dw,aw,expHome,expAway,o25,btts,bestScore,secondScore,bestScoreProb,secondScoreProb} = pred;
-  const ah = computeAsianHandicap(pred);
+function renderMatch(pred,m){
+  const{lam,mu,o25,upsetPct,s1,s1p,s2,s2p}=pred;
+  const ah=asianHandicap(pred.diff);
+  let pick1x2,pickCls;
+  if(pred.hw>=pred.dw&&pred.hw>=pred.aw){pick1x2='主胜';pickCls='hl'}
+  else if(pred.dw>=pred.hw&&pred.dw>=pred.aw){pick1x2='平局';pickCls=''}
+  else{pick1x2='客胜';pickCls='hl'}
+  const hb=Math.round(pred.hw*100),db=Math.round(pred.dw*100),ab=Math.round(pred.aw*100);
+  const upsetCls=upsetPct>35?'br':upsetPct>25?'by':'bg';
 
-  // Determine best 1X2 pick
-  let pick1x2, pickCls;
-  if (hw >= dw && hw >= aw) { pick1x2 = '主胜'; pickCls = 'highlight'; }
-  else if (dw >= hw && dw >= aw) { pick1x2 = '平局'; pickCls = ''; }
-  else { pick1x2 = '客胜'; pickCls = 'highlight'; }
-
-  // Score display bands
-  const hBar = Math.round(hw*100);
-  const dBar = Math.round(dw*100);
-  const aBar = Math.round(aw*100);
-
-  return `
-  <div class="match-row">
+  return `<div class="match-row" data-group="${m.g}" data-date="${m.date}">
     <div class="time">${m.g}组</div>
-    <div class="matchup">
-      <span>${zhT(m.h)}</span> <span class="vs">vs</span> <span>${zhT(m.a)}</span>
-    </div>
+    <div class="matchup"><span>${zhT(m.h)}</span><span class="vs">vs</span><span>${zhT(m.a)}</span></div>
     <div class="venue">${zhCi(m.v)||m.v}</div>
     <div class="odds-cell ${pickCls}">
       <div class="val">${pick1x2}</div>
-      <div style="font-size:10px;margin-top:2px">
-        <span style="color:#4fc3f7">${hBar}%</span>
-        <span style="color:#78909c;margin:0 2px">/</span>
-        <span style="color:#b0bec5">${dBar}%</span>
-        <span style="color:#78909c;margin:0 2px">/</span>
-        <span style="color:#ff8a65">${aBar}%</span>
+      <div style="font-size:9px;margin-top:1px">
+        <span style="color:#4fc3f7">${hb}%</span>/<span style="color:#b0bec5">${db}%</span>/<span style="color:#ff8a65">${ab}%</span>
       </div>
-      <div style="margin-top:3px">
-        <span class="progress h" style="width:${hBar}px"></span>
-        <span class="progress d" style="width:${dBar}px"></span>
-        <span class="progress a" style="width:${aBar}px"></span>
-      </div>
+      <div style="margin-top:2px"><span class="progress h" style="width:${hb}px"></span><span class="progress d" style="width:${db}px"></span><span class="progress a" style="width:${ab}px"></span></div>
     </div>
-    <div class="handicap">
-      <div class="line">${ah.line}</div>
-    </div>
-    <div class="handicap">
-      <div class="pick">${ah.pick}</div>
-      <div style="font-size:9px;color:#78909c">${ah.pickTeam==='home'?'主队方向':ah.pickTeam==='away'?'客队方向':'势均力敌'}</div>
+    <div class="handicap"><div class="line">${ah.line}</div></div>
+    <div class="handicap"><div class="pick">${ah.pick}</div></div>
+    <div class="score">
+      <div class="goals">${s1.h}:${s1.a} <span style="font-size:9px;color:#66bb6a">${(s1p*100).toFixed(0)}%</span></div>
+      <div class="goals2">${s2.h}:${s2.a} <span style="font-size:8px">${(s2p*100).toFixed(0)}%</span></div>
+      <div class="xgoals">xG ${lam}-${mu}</div>
     </div>
     <div class="score">
-      <div class="goals">${bestScore.h}:${bestScore.a} <span style="font-size:9px;color:#66bb6a">${(bestScoreProb*100).toFixed(0)}%</span></div>
-      <div class="goals" style="font-size:12px;color:#90a4ae">${secondScore.h}:${secondScore.a} <span style="font-size:9px">${(secondScoreProb*100).toFixed(0)}%</span></div>
-      <div class="xgoals">xG: ${expHome.toFixed(1)}-${expAway.toFixed(1)}</div>
+      <div style="color:${o25>0.5?'#66bb6a':'#78909c'};font-weight:600;font-size:12px">${o25>0.5?'大2.5':'小2.5'}</div>
+      <div class="xgoals">O${(o25*100).toFixed(0)}% U${((1-o25)*100).toFixed(0)}%</div>
     </div>
-    <div class="score">
-      <div style="color:${o25>0.5?'#66bb6a':'#78909c'};font-weight:600">${o25>0.5?'大 2.5':'小 2.5'}</div>
-      <div class="xgoals">O:${(o25*100).toFixed(0)}% U:${((1-o25)*100).toFixed(0)}%</div>
-    </div>
-    <div class="score" style="font-size:10px">
-      <div style="color:#ff8a65;font-weight:600">${pred.upsetPct}%</div>
-      <div style="font-size:8px;color:#78909c">爆冷指数</div>
-    </div>
+    <div class="upset"><span class="badge ${upsetCls}">${upsetPct}%</span></div>
   </div>`;
 }
 
-function renderSection(title, dateGroup, players, rankings, gkRatings) {
-  let html = '';
-  Object.entries(dateGroup).forEach(([date, matches]) => {
-    html += `<div class="date-header"><h3>📅 ${date}</h3></div>`;
-    matches.forEach(m => {
-      const pred = dcPredict(m.h, m.a, players, rankings, gkRatings);
-      m.date = date;
-      html += renderMatch(pred, m);
-    });
+// ============ FILTER ============
+function doFilter(){
+  const q=(document.getElementById('searchInput')?.value||'').toLowerCase();
+  const gf=document.getElementById('groupFilter')?.value||'';
+  const df=document.getElementById('dateFilter')?.value||'';
+  document.querySelectorAll('.match-row').forEach(row=>{
+    const text=row.textContent.toLowerCase();
+    const g=row.dataset.group||'',d=row.dataset.date||'';
+    row.style.display=(!q||text.includes(q))&&(!gf||g===gf)&&(!df||d===df)?'':'none';
   });
-  return html;
+  document.querySelectorAll('.date-header').forEach(h=>{
+    const dd=h.dataset.date||'';
+    h.style.display=document.querySelector('.match-row[data-date="'+dd+'"]:not([style*="display: none"])')?'':'none';
+  });
 }
 
 // ============ MAIN ============
-async function init() {
-  const content = document.getElementById('content');
-  try {
-    // Unified data loading from all_data.json (same as index.html)
-    const allRes = await fetch('data/all_data.json').then(r=>r.json()).catch(()=>null);
-    if (!allRes) { content.innerHTML = '<div style="padding:40px;text-align:center;color:#e53935">数据加载失败</div>'; return; }
+async function main(){
+  const content=document.getElementById('content');
+  try{
+    // Load data
+    const r=await fetch('data/all_data.json');
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    const all=await r.json();
+    ALL_DATA=all;
 
-    const playersRes = allRes.world_cup_players, fifaRes = allRes.fifa_rankings;
-    const gkRes = allRes.goalkeepers, zhRes = allRes.zh_names||{};
-    ZT = zhRes.teams||{}; ZP = zhRes.players||{}; ZC = zhRes.clubs||{}; ZCI = zhRes.cities||{};
+    // Chinese names
+    const zh=all.zh_names||{};
+    ZT=zh.teams||{};ZP=zh.players||{};ZC=zh.clubs||{};ZCI=zh.cities||{};
 
-    const rankings = fifaRes?.rankings||[];
-    const gkRatings = gkRes?.team_gk_rating?.ratings||{};
-    const supplement = allRes.player_stats_supplement?.players||[];
+    // Data extraction
+    const rankings=all.fifa_rankings?.rankings||[];
+    const gkRatings=all.goalkeepers?.team_gk_rating?.ratings||{};
+    const supplement=all.player_stats_supplement?.players||[];
 
-    // Build flat player list with supplement merge
-    const players = [];
-    if (playersRes?.groups) {
-      Object.entries(playersRes.groups).forEach(([gn,gdata])=>{
+    // Build player list
+    const players=[];
+    if(all.world_cup_players?.groups){
+      Object.entries(all.world_cup_players.groups).forEach(([gn,gdata])=>{
         Object.entries(gdata.teams||{}).forEach(([nat,tdat])=>{
           (tdat.players||[]).forEach(p=>{
             const sp=supplement.find(s=>s.name===p.name&&s.nation===nat);
             players.push({
               name:p.name||'',nation:nat,group:gn,
-              goals_2526:sp?.goals_2526??p.goals_2526??p.goals_2425??0,
+              goals_2526:sp?.goals_2526??p.goals_2526??0,
               assists_2526:sp?.assists_2526??p.assists_2526??0,
               goals_2425:p.goals_2425,rating:sp?.rating??p.rating
             });
@@ -405,120 +266,54 @@ async function init() {
       });
     }
 
-    const groupMatches = buildGroupMatches();
+    // Populate filter dropdowns
+    const gf=document.getElementById('groupFilter');
+    'ABCDEFGHIJKL'.split('').forEach(g=>{const o=document.createElement('option');o.value=g;o.textContent=g+'组';gf.appendChild(o);});
 
-    let html = '';
+    const dates=[...new Set(Object.keys(MATCHES_BY_DATE))].sort();
+    const df=document.getElementById('dateFilter');
+    dates.forEach(d=>{const o=document.createElement('option');o.value=d;o.textContent=d;df.appendChild(o);});
 
-    // MD1
-    html += `<div class="phase-title" id="md1"><h2>📅 小组赛 第1轮 · 6月11日-17日</h2></div>`;
-    const md1 = {};
-    for(const d of ['2026-06-11','2026-06-12','2026-06-13','2026-06-14','2026-06-15','2026-06-16','2026-06-17']){
-      if(groupMatches[d]) md1[d] = groupMatches[d];
-    }
-    html += renderSection('', md1, players, rankings, gkRatings);
+    // Render
+    let html='';
+    const phases=[
+      {id:'md1',title:'📅 小组赛 第1轮 · 6月11日-17日',dates:dates.filter(d=>d<='2026-06-17')},
+      {id:'md2',title:'📅 小组赛 第2轮 · 6月18日-23日',dates:dates.filter(d=>d>='2026-06-18'&&d<='2026-06-23')},
+      {id:'md3',title:'📅 小组赛 第3轮 · 6月24日-27日',dates:dates.filter(d=>d>='2026-06-24')},
+    ];
 
-    // MD2
-    html += `<div class="phase-title" id="md2"><h2>📅 小组赛 第2轮 · 6月18日-23日</h2></div>`;
-    const md2 = {};
-    for(const d of ['2026-06-18','2026-06-19','2026-06-20','2026-06-21','2026-06-22','2026-06-23']){
-      if(groupMatches[d]) md2[d] = groupMatches[d];
-    }
-    html += renderSection('', md2, players, rankings, gkRatings);
-
-    // MD3
-    html += `<div class="phase-title" id="md3"><h2>📅 小组赛 第3轮 · 6月24日-27日</h2></div>`;
-    const md3 = {};
-    for(const d of ['2026-06-24','2026-06-25','2026-06-26','2026-06-27']){
-      if(groupMatches[d]) md3[d] = groupMatches[d];
-    }
-    html += renderSection('', md3, players, rankings, gkRatings);
+    phases.forEach(phase=>{
+      if(phase.dates.length===0)return;
+      html+=`<div class="phase-title" id="${phase.id}"><h2>${phase.title}</h2></div>`;
+      phase.dates.forEach(date=>{
+        html+=`<div class="date-header" data-date="${date}"><h3>📅 ${date}</h3></div>`;
+        (MATCHES_BY_DATE[date]||[]).forEach(m=>{
+          m.date=date;
+          const pred=dcPredict(m.h,m.a,players,rankings,gkRatings,supplement);
+          html+=renderMatch(pred,m);
+        });
+      });
+    });
 
     // Knockout placeholder
-    html += `<div class="phase-title" id="r32"><h2>🏆 32强淘汰赛 · 6月28日-7月3日</h2></div>`;
-    html += `<div style="padding:20px;color:#78909c;font-size:12px">淘汰赛对阵待小组赛结果确定后更新。Dixon-Coles模型将对每场实际对阵进行实时预测。</div>`;
-
-    html += `<div class="phase-title" id="r16"><h2>🏆 16强 · 7月4日-7日</h2></div>`;
-    html += `<div style="padding:20px;color:#78909c;font-size:12px">待32强结果产生后更新。</div>`;
-
-    html += `<div class="phase-title" id="qf"><h2>🏆 四分之一决赛 · 7月9日-11日</h2></div>`;
-    html += `<div style="padding:20px;color:#78909c;font-size:12px">待16强结果产生后更新。</div>`;
-
-    html += `<div class="phase-title" id="sf"><h2>🏆 半决赛 + 三四名决赛 + 决赛</h2></div>`;
-    html += `
-    <div style="padding:16px 24px;font-size:12px;color:#78909c;line-height:1.8">
-      <p>半决赛: 7月14日 达拉斯 · 7月15日 亚特兰大</p>
-      <p>三四名决赛: 7月18日 迈阿密</p>
-      <p><b>决赛: 7月19日 纽约/新泽西 (MetLife体育场)</b></p>
+    html+=`<div class="phase-title"><h2>🏆 淘汰赛阶段</h2></div>`;
+    html+=`<div style="padding:16px;color:#78909c;font-size:11px;line-height:1.8">
+      <p><b>32强:</b> 6月28日-7月3日 (16场) · <b>16强:</b> 7月4日-7日 (8场)</p>
+      <p><b>四分之一决赛:</b> 7月9日-11日 (4场) · <b>半决赛:</b> 7月14日-15日 (2场)</p>
+      <p><b>三四名决赛:</b> 7月18日 迈阿密 · <b>决赛:</b> 7月19日 纽约/新泽西MetLife体育场</p>
+      <p style="margin-top:8px">淘汰赛对阵待小组赛结果确定后，Dixon-Coles模型将实时预测每场。</p>
     </div>`;
 
-    html += `<div style="padding:40px;text-align:center;font-size:11px;color:#78909c">
-      <p>预测模型: Dixon-Coles (1997) · 攻击参数α + 防守参数β + 主场优势γ + 低比分修正ρ</p>
-      <p>数据来源: FIFA排名 + 五大联赛2025-26赛季球员进球助攻 + 门将评分 · 梯度下降拟合</p>
-      <p>让球盘口由预期净胜球自动推导 | 预测比分=最大概率得分 | 大小球=总进球>2.5概率</p>
-      <p><a href="/" style="color:#4fc3f7">← 返回预测仪表盘</a></p>
-    </div>`;
+    content.innerHTML=html;
+    console.log('Rendered',Object.keys(MATCHES_BY_DATE).reduce((s,k)=>s+MATCHES_BY_DATE[k].length,0),'matches');
 
-    content.innerHTML = html;
-    // Attach search data and enable filtering
-    setTimeout(attachMatchAttrs, 100);
-
-  } catch(e) {
-    content.innerHTML = `<div style="padding:40px;text-align:center;color:#e53935">Error: ${e.message}</div>`;
+  }catch(e){
+    content.innerHTML=`<div style="padding:40px;text-align:center;color:#e53935">加载失败: ${e.message}<br><br>请确保通过HTTP访问(非file://)<br>或运行: python server.py</div>`;
+    console.error(e);
   }
 }
 
-// ============ SEARCH / FILTER ============
-function filterMatches(){
-  const q=(document.getElementById('searchInput')?.value||'').toLowerCase();
-  const gf=document.getElementById('groupFilter')?.value||'';
-  const df=document.getElementById('dateFilter')?.value||'';
-  document.querySelectorAll('.match-row').forEach(row=>{
-    const text=row.textContent.toLowerCase();
-    const g=row.dataset.group||'',d=row.dataset.date||'';
-    const mq=!q||text.includes(q),mg=!gf||g===gf,md=!df||d===df;
-    row.style.display=(mq&&mg&&md)?'':'none';
-  });
-  // Hide/show date headers
-  document.querySelectorAll('.date-header').forEach(h=>{
-    const dd=h.dataset.date||'';
-    const hasVisible=!!Array.from(document.querySelectorAll('.match-row[data-date="'+dd+'"]')).find(r=>r.style.display!=='none');
-    h.style.display=hasVisible?'':'none';
-  });
-  // Hide/show phase titles
-  document.querySelectorAll('.phase-title').forEach(h=>{
-    let next=h.nextElementSibling;let vis=false;
-    while(next&&!next.classList.contains('phase-title')){
-      if((next.classList.contains('date-header')||next.classList.contains('match-row'))&&next.style.display!=='none')vis=true;
-      next=next.nextElementSibling;
-    }
-    h.style.display=vis?'':'none';
-  });
-}
-function clearFilters(){
-  const si=document.getElementById('searchInput'),gf=document.getElementById('groupFilter'),df=document.getElementById('dateFilter');
-  if(si)si.value='';if(gf)gf.value='';if(df)df.value='';
-  filterMatches();
-}
-
-// ============ POPULATE DATE FILTER ============
-function populateDateFilter(){
-  const df=document.getElementById('dateFilter');
-  if(!df)return;
-  const dates=[...new Set(Array.from(document.querySelectorAll('.match-row')).map(r=>r.dataset.date))].sort();
-  dates.forEach(d=>{const o=document.createElement('option');o.value=d;o.textContent=d;df.appendChild(o);});
-}
-
-// Add data attributes to match rows after render
-function attachMatchAttrs(){
-  document.querySelectorAll('.match-row').forEach(row=>{
-    const g=row.querySelector('.time')?.textContent?.replace('组','')||'';
-    row.dataset.group=g;
-    let el=row.previousElementSibling;
-    while(el&&!el.classList.contains('date-header'))el=el.previousElementSibling;
-    if(el)row.dataset.date=el.textContent.replace('📅 ','').trim();
-  });
-  populateDateFilter();
-}
+main();
 </script>
 </body>
 </html>
