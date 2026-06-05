@@ -81,6 +81,11 @@ body{font-family:'Segoe UI','Microsoft YaHei',sans-serif;background:#0a0e17;colo
 <div id="content"><div style="padding:40px;text-align:center;color:#78909c">正在加载预测数据...</div></div>
 
 <script>
+// ============ CHINESE NAMES ============
+let ZT={},ZP={},ZC={},ZCI={};
+function zhT(n){return ZT[n]||n} function zhP(n){return ZP[n]||n}
+function zhC(n){return ZC[n]||n} function zhCi(n){return ZCI[n]||n}
+
 // ============ DATA ============
 const GROUPS = {
   A:['Mexico','South Africa','South Korea','Czech Republic'],
@@ -274,9 +279,9 @@ function renderMatch(pred, m) {
   <div class="match-row">
     <div class="time">${m.g}组</div>
     <div class="matchup">
-      <span>${m.h}</span> <span class="vs">vs</span> <span>${m.a}</span>
+      <span>${zhT(m.h)}</span> <span class="vs">vs</span> <span>${zhT(m.a)}</span>
     </div>
-    <div class="venue">${m.v}</div>
+    <div class="venue">${zhCi(m.v)||m.v}</div>
     <div class="odds-cell ${pickCls}">
       <div class="val">${pick1x2}</div>
       <div style="font-size:10px;margin-top:2px">
@@ -327,11 +332,13 @@ function renderSection(title, dateGroup, players, rankings, gkRatings) {
 async function init() {
   const content = document.getElementById('content');
   try {
-    const [playersRes, fifaRes, gkRes] = await Promise.all([
+    const [playersRes, fifaRes, gkRes, zhRes] = await Promise.all([
       fetch('/api/players').then(r=>r.json()),
       fetch('/api/fifa').then(r=>r.json()),
-      fetch('/api/goalkeepers').then(r=>r.json())
+      fetch('/api/goalkeepers').then(r=>r.json()),
+      fetch('/api/zh_names').then(r=>r.json()).catch(()=>({}))
     ]);
+    if (zhRes) { ZT = zhRes.teams || {}; ZP = zhRes.players || {}; ZC = zhRes.clubs || {}; ZCI = zhRes.cities || {}; }
 
     const players = [];
     if (playersRes?.groups) {
