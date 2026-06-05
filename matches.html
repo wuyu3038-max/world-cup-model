@@ -57,28 +57,28 @@ body{font-family:'Segoe UI','Microsoft YaHei',sans-serif;background:#0a0e17;colo
     <a href="/matches" style="display:inline-block;padding:8px 20px;background:#e65100;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;margin:3px">⚽ 全部比赛预测</a>
   </div>
   <div class="nav">
-    <a href="#md1">小组赛MD1 (6/11-17)</a>
-    <a href="#md2">小组赛MD2 (6/18-23)</a>
-    <a href="#md3">小组赛MD3 (6/24-27)</a>
-    <a href="#r32">32强 (6/28-7/3)</a>
+    <a href="#md1">小组赛第1轮 (6/11-17)</a>
+    <a href="#md2">小组赛第2轮 (6/18-23)</a>
+    <a href="#md3">小组赛第3轮 (6/24-27)</a>
+    <a href="#r32">32强淘汰赛 (6/28-7/3)</a>
     <a href="#r16">16强 (7/4-7)</a>
-    <a href="#qf">8强 (7/9-11)</a>
+    <a href="#qf">四分之一决赛 (7/9-11)</a>
     <a href="#sf">半决赛+决赛</a>
   </div>
 </div>
 
 <div class="legend">
-  <span><span class="dot" style="background:#4fc3f7"></span> 胜平负概率</span>
-  <span><span class="dot" style="background:#66bb6a"></span> 最高概率选项</span>
-  <span><span class="dot" style="background:#ffcc80"></span> 让球盘口</span>
-  <span><span class="dot" style="background:#e0e0e0"></span> 预期比分(xG)</span>
+  <span><span class="dot" style="background:#4fc3f7"></span> 主胜/平局/客胜 概率</span>
+  <span><span class="dot" style="background:#66bb6a"></span> 最佳选项(绿色高亮)</span>
+  <span><span class="dot" style="background:#ffcc80"></span> Dixon-Coles推导让球盘口</span>
+  <span><span class="dot" style="background:#e0e0e0"></span> 预期比分(最可能得分+xG)</span>
 </div>
 
 <div class="match-header">
-  <span>时间</span><span>对阵</span><span>场地</span><span>胜平负</span><span>让球盘</span><span>让球推荐</span><span>预测比分</span><span>大小球</span>
+  <span>组别</span><span>对阵</span><span>比赛城市</span><span>胜平负预测</span><span>让球盘口</span><span>推荐方向</span><span>预测比分</span><span>大小球</span>
 </div>
 
-<div id="content"><div style="padding:40px;text-align:center;color:#78909c">Loading predictions...</div></div>
+<div id="content"><div style="padding:40px;text-align:center;color:#78909c">正在加载预测数据...</div></div>
 
 <script>
 // ============ DATA ============
@@ -159,19 +159,19 @@ function fact(n) { let r=1; for(let i=2;i<=n;i++) r*=i; return r; }
 // ============ ASIAN HANDICAP ============
 function computeAsianHandicap(pred) {
   const diff = pred.goalDiff;
-  if (Math.abs(diff) < 0.3) return {line: '0 (平手)', pick: '平手盘', pickTeam: ''};
-  if (diff >= 0.3 && diff < 0.7) return {line: '0 (平手)', pick: '主队 平手', pickTeam: 'home'};
-  if (diff >= 0.7 && diff < 1.1) return {line: '-0.5 (主让半球)', pick: '主队 -0.5', pickTeam: 'home'};
-  if (diff >= 1.1 && diff < 1.6) return {line: '-0.5/1 (主让半一)', pick: '主队 -0.5/1', pickTeam: 'home'};
-  if (diff >= 1.6 && diff < 2.1) return {line: '-1 (主让一球)', pick: '主队 -1', pickTeam: 'home'};
-  if (diff >= 2.1 && diff < 2.6) return {line: '-1.5 (主让球半)', pick: '主队 -1.5', pickTeam: 'home'};
-  if (diff >= 2.6) return {line: '-2 (主让两球)', pick: '主队 -2', pickTeam: 'home'};
-  if (diff <= -0.3 && diff > -0.7) return {line: '0 (平手)', pick: '客队 平手', pickTeam: 'away'};
-  if (diff <= -0.7 && diff > -1.1) return {line: '+0.5 (客让半球)', pick: '客队 -0.5', pickTeam: 'away'};
-  if (diff <= -1.1 && diff > -1.6) return {line: '+0.5/1 (客让半一)', pick: '客队 -0.5/1', pickTeam: 'away'};
-  if (diff <= -1.6 && diff > -2.1) return {line: '+1 (客让一球)', pick: '客队 -1', pickTeam: 'away'};
-  if (diff <= -2.1) return {line: '+1.5 (客让球半)', pick: '客队 -1.5', pickTeam: 'away'};
-  return {line: '0', pick: '平手', pickTeam: ''};
+  if (Math.abs(diff) < 0.3) return {line: '平手盘', pick: '平手盘 无方向', pickTeam: ''};
+  if (diff >= 0.3 && diff < 0.7) return {line: '平手盘(主队方向)', pick: '推荐: 主队 平手', pickTeam: 'home'};
+  if (diff >= 0.7 && diff < 1.1) return {line: '主让半球 (-0.5)', pick: '推荐: 主队 -0.5', pickTeam: 'home'};
+  if (diff >= 1.1 && diff < 1.6) return {line: '主让半一 (-0.5/1)', pick: '推荐: 主队 -0.5/1', pickTeam: 'home'};
+  if (diff >= 1.6 && diff < 2.1) return {line: '主让一球 (-1)', pick: '推荐: 主队 -1', pickTeam: 'home'};
+  if (diff >= 2.1 && diff < 2.6) return {line: '主让球半 (-1.5)', pick: '推荐: 主队 -1.5', pickTeam: 'home'};
+  if (diff >= 2.6) return {line: '主让两球 (-2)', pick: '推荐: 主队 -2', pickTeam: 'home'};
+  if (diff <= -0.3 && diff > -0.7) return {line: '平手盘(客队方向)', pick: '推荐: 客队 平手', pickTeam: 'away'};
+  if (diff <= -0.7 && diff > -1.1) return {line: '客让半球 (+0.5)', pick: '推荐: 客队 -0.5', pickTeam: 'away'};
+  if (diff <= -1.1 && diff > -1.6) return {line: '客让半一 (+0.5/1)', pick: '推荐: 客队 -0.5/1', pickTeam: 'away'};
+  if (diff <= -1.6 && diff > -2.1) return {line: '客让一球 (+1)', pick: '推荐: 客队 -1', pickTeam: 'away'};
+  if (diff <= -2.1) return {line: '客让球半 (+1.5)', pick: '推荐: 客队 -1.5', pickTeam: 'away'};
+  return {line: '平手盘', pick: '平手', pickTeam: ''};
 }
 
 // ============ BUILD MATCH LIST ============
@@ -272,7 +272,7 @@ function renderMatch(pred, m) {
 
   return `
   <div class="match-row">
-    <div class="time">G.${m.g}</div>
+    <div class="time">${m.g}组</div>
     <div class="matchup">
       <span>${m.h}</span> <span class="vs">vs</span> <span>${m.a}</span>
     </div>
@@ -297,7 +297,7 @@ function renderMatch(pred, m) {
     </div>
     <div class="handicap">
       <div class="pick">${ah.pick}</div>
-      <div style="font-size:9px;color:#78909c">${ah.pickTeam==='home'?'主队让球':ah.pickTeam==='away'?'客队让球':'无让球'}</div>
+      <div style="font-size:9px;color:#78909c">${ah.pickTeam==='home'?'主队方向':ah.pickTeam==='away'?'客队方向':'势均力敌'}</div>
     </div>
     <div class="score">
       <div class="goals">${bestScore.h} - ${bestScore.a}</div>
@@ -357,7 +357,7 @@ async function init() {
     let html = '';
 
     // MD1
-    html += `<div class="phase-title" id="md1"><h2>小组赛 第1轮 · June 11-17</h2></div>`;
+    html += `<div class="phase-title" id="md1"><h2>📅 小组赛 第1轮 · 6月11日-17日</h2></div>`;
     const md1 = {};
     for(const d of ['2026-06-11','2026-06-12','2026-06-13','2026-06-14','2026-06-15','2026-06-16','2026-06-17']){
       if(groupMatches[d]) md1[d] = groupMatches[d];
@@ -365,7 +365,7 @@ async function init() {
     html += renderSection('', md1, players, rankings, gkRatings);
 
     // MD2
-    html += `<div class="phase-title" id="md2"><h2>小组赛 第2轮 · June 18-23</h2></div>`;
+    html += `<div class="phase-title" id="md2"><h2>📅 小组赛 第2轮 · 6月18日-23日</h2></div>`;
     const md2 = {};
     for(const d of ['2026-06-18','2026-06-19','2026-06-20','2026-06-21','2026-06-22','2026-06-23']){
       if(groupMatches[d]) md2[d] = groupMatches[d];
@@ -373,7 +373,7 @@ async function init() {
     html += renderSection('', md2, players, rankings, gkRatings);
 
     // MD3
-    html += `<div class="phase-title" id="md3"><h2>小组赛 第3轮 · June 24-27</h2></div>`;
+    html += `<div class="phase-title" id="md3"><h2>📅 小组赛 第3轮 · 6月24日-27日</h2></div>`;
     const md3 = {};
     for(const d of ['2026-06-24','2026-06-25','2026-06-26','2026-06-27']){
       if(groupMatches[d]) md3[d] = groupMatches[d];
@@ -381,27 +381,28 @@ async function init() {
     html += renderSection('', md3, players, rankings, gkRatings);
 
     // Knockout placeholder
-    html += `<div class="phase-title" id="r32"><h2>32强淘汰赛 · June 28 – July 3</h2></div>`;
-    html += `<div style="padding:20px;color:#78909c;font-size:12px">淘汰赛对阵待小组赛结果确定后更新。Dixon-Coles模型将对每场实际对阵实时预测。</div>`;
+    html += `<div class="phase-title" id="r32"><h2>🏆 32强淘汰赛 · 6月28日-7月3日</h2></div>`;
+    html += `<div style="padding:20px;color:#78909c;font-size:12px">淘汰赛对阵待小组赛结果确定后更新。Dixon-Coles模型将对每场实际对阵进行实时预测。</div>`;
 
-    html += `<div class="phase-title" id="r16"><h2>16强 · July 4-7</h2></div>`;
-    html += `<div style="padding:20px;color:#78909c;font-size:12px">待32强结果后更新。</div>`;
+    html += `<div class="phase-title" id="r16"><h2>🏆 16强 · 7月4日-7日</h2></div>`;
+    html += `<div style="padding:20px;color:#78909c;font-size:12px">待32强结果产生后更新。</div>`;
 
-    html += `<div class="phase-title" id="qf"><h2>四分之一决赛 · July 9-11</h2></div>`;
-    html += `<div style="padding:20px;color:#78909c;font-size:12px">待16强结果后更新。</div>`;
+    html += `<div class="phase-title" id="qf"><h2>🏆 四分之一决赛 · 7月9日-11日</h2></div>`;
+    html += `<div style="padding:20px;color:#78909c;font-size:12px">待16强结果产生后更新。</div>`;
 
-    html += `<div class="phase-title" id="sf"><h2>半决赛 + 三四名决赛 + 决赛</h2></div>`;
+    html += `<div class="phase-title" id="sf"><h2>🏆 半决赛 + 三四名决赛 + 决赛</h2></div>`;
     html += `
     <div style="padding:16px 24px;font-size:12px;color:#78909c;line-height:1.8">
-      <p>半决赛: 7月14日 Dallas · 7月15日 Atlanta</p>
-      <p>三四名决赛: 7月18日 Miami</p>
-      <p><b>决赛: 7月19日 New York/New Jersey (MetLife Stadium)</b></p>
+      <p>半决赛: 7月14日 达拉斯 · 7月15日 亚特兰大</p>
+      <p>三四名决赛: 7月18日 迈阿密</p>
+      <p><b>决赛: 7月19日 纽约/新泽西 (MetLife体育场)</b></p>
     </div>`;
 
     html += `<div style="padding:40px;text-align:center;font-size:11px;color:#78909c">
-      <p>预测模型: Dixon-Coles (1997) · 攻击参数α + 防守参数β + 主场优势γ + ρ低比分修正</p>
-      <p>数据源: FIFA排名 + 五大联赛2025-26球员G+A + 门将评分 · 梯度下降拟合</p>
-      <p><a href="/" style="color:#4fc3f7">← 返回仪表盘</a></p>
+      <p>预测模型: Dixon-Coles (1997) · 攻击参数α + 防守参数β + 主场优势γ + 低比分修正ρ</p>
+      <p>数据来源: FIFA排名 + 五大联赛2025-26赛季球员进球助攻 + 门将评分 · 梯度下降拟合</p>
+      <p>让球盘口由预期净胜球自动推导 | 预测比分=最大概率得分 | 大小球=总进球>2.5概率</p>
+      <p><a href="/" style="color:#4fc3f7">← 返回预测仪表盘</a></p>
     </div>`;
 
     content.innerHTML = html;
