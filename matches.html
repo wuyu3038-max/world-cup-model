@@ -459,6 +459,8 @@ async function init() {
     </div>`;
 
     content.innerHTML = html;
+    // Attach search data and enable filtering
+    setTimeout(attachMatchAttrs, 100);
 
   } catch(e) {
     content.innerHTML = `<div style="padding:40px;text-align:center;color:#e53935">Error: ${e.message}</div>`;
@@ -506,23 +508,17 @@ function populateDateFilter(){
   dates.forEach(d=>{const o=document.createElement('option');o.value=d;o.textContent=d;df.appendChild(o);});
 }
 
-// Patch renderSection to add data attributes
-const origRenderSection=renderSection;
-// Override: add data attributes via content wrapper
-const origInit=init;
-init=async function(){
-  await origInit();
+// Add data attributes to match rows after render
+function attachMatchAttrs(){
   document.querySelectorAll('.match-row').forEach(row=>{
     const g=row.querySelector('.time')?.textContent?.replace('组','')||'';
     row.dataset.group=g;
-    // Find date from nearest date-header
     let el=row.previousElementSibling;
     while(el&&!el.classList.contains('date-header'))el=el.previousElementSibling;
     if(el)row.dataset.date=el.textContent.replace('📅 ','').trim();
   });
   populateDateFilter();
-  filterMatches();
-};
+}
 </script>
 </body>
 </html>
