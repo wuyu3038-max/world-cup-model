@@ -1,0 +1,148 @@
+nation,group,player_name,position,age,caps,club,league,goals_2024_25,goals_2025_26,assists_2025_26,rating_2526,xg_2526,dribbles_2526,key_passes_2526,accurate_passes_2526,notes
+Mexico,A,Guillermo Ochoa,GK,40,150,—,—,0,0,0,,,,,,6th World Cup
+Mexico,A,Edson Álvarez,MF,28,85,West Ham,Premier League,,,,,,,,,
+Mexico,A,Santiago Giménez,FW,25,40,—,—,,,,,,,,,
+Mexico,A,Gilberto Mora,FW,17,5,—,—,0,,,,,,,Youngest player (17y 240d)
+South Africa,A,Ronwen Williams,GK,34,50,—,—,0,0,0,,,,,,
+South Africa,A,Lyle Foster,FW,25,20,Burnley,—,,,,,,,,,
+South Africa,A,Themba Zwane,FW,36,55,—,—,,,,,,,,,
+South Korea,A,Son Heung-min,FW,33,130,Tottenham,Premier League,,,,,,,,Captain
+South Korea,A,Kim Min-jae,DF,29,70,Bayern Munich,Bundesliga,,,,,,,,,
+South Korea,A,Lee Kang-in,MF,25,45,PSG,Ligue 1,,,,,,,,,
+Czech Republic,A,Tomáš Souček,MF,31,80,West Ham,Premier League,,,,,,,,Captain
+Czech Republic,A,Patrik Schick,FW,30,45,Bayer Leverkusen,Bundesliga,21,10,,6.92,,,,,every 80.3min per goal (24-25)
+Czech Republic,A,Vladimír Coufal,DF,33,55,West Ham,Premier League,0,0,,,,,,
+Canada,B,Alphonso Davies,DF,25,55,Bayern Munich,Bundesliga,,,,,,,,,
+Canada,B,Jonathan David,FW,26,60,Lille,Ligue 1,16,,,,,,,,2024-25 Ligue 1 4th top scorer
+Canada,B,Cyle Larin,FW,31,75,—,—,,,,,,,,,
+Bosnia-Herzegovina,B,Edin Džeko,FW,40,135,—,—,,,,,,,,,
+Bosnia-Herzegovina,B,Ermedin Demirović,FW,28,35,VfB Stuttgart,Bundesliga,15,,,,,,,,,
+Bosnia-Herzegovina,B,Sead Kolašinac,DF,32,65,—,—,0,0,,,,,,
+Qatar,B,Akram Afif,FW,29,120,Al Sadd,Qatar Stars League,,,,,,,,,
+Qatar,B,Almoez Ali,FW,29,115,Al Duhail,Qatar Stars League,,,,,,,,,
+Switzerland,B,Granit Xhaka,MF,33,135,Bayer Leverkusen,Bundesliga,,,,,,,,Captain
+Switzerland,B,Manuel Akanji,DF,30,75,Manchester City,Premier League,0,0,,,,,,
+Switzerland,B,Breel Embolo,FW,29,80,—,—,,,,,,,,,
+Switzerland,B,Gregor Kobel,GK,28,25,Borussia Dortmund,Bundesliga,0,0,0,,,,,
+Brazil,C,Neymar,FW,34,130,—,—,,,,,,,,Returns to NT; manager Ancelotti
+Brazil,C,Vinícius Júnior,FW,25,40,Real Madrid,La Liga,11,16,6,7.50,,87,,,G+A=22; form UP +45%
+Brazil,C,Raphinha,FW,29,35,Barcelona,La Liga,18,,,,,,,,2024-25 UCL Golden Boot(13G)
+Brazil,C,Gabriel Martinelli,FW,24,20,Arsenal,Premier League,,,,,,,,,6 UCL goals 2025-26
+Brazil,C,Alisson,GK,33,75,Liverpool,Premier League,0,0,0,,,,,
+Brazil,C,Casemiro,MF,34,85,Manchester United,Premier League,,,,,,7.03 interceptions/g,,,
+Morocco,C,Achraf Hakimi,DF,27,85,PSG,Ligue 1,,,,,,,,,
+Morocco,C,Brahim Díaz,FW,26,15,Real Madrid,La Liga,,,,,,,,,
+Morocco,C,Yassine Bounou,GK,35,75,—,—,0,0,0,,,,,
+Haiti,C,Jean-Ricner Bellegarde,MF,27,20,Wolves,Premier League,,,,,,,,,
+Haiti,C,Frantzdy Pierrot,FW,31,45,—,—,,,,,,,,,
+Scotland,C,Andy Robertson,DF,32,85,Liverpool,Premier League,,,,,,,,Captain
+Scotland,C,Scott McTominay,MF,29,65,Napoli,Serie A,12,10,,,,,,
+Scotland,C,John McGinn,MF,31,75,Aston Villa,Premier League,,,,,,,,,
+United States,D,Christian Pulisic,FW,27,80,AC Milan,Serie A,11,,,,,,,,Manager Pochettino
+United States,D,Folarin Balogun,FW,24,25,Monaco,Ligue 1,,13,,,,,,
+United States,D,Weston McKennie,MF,27,65,Juventus,Serie A,,,,,,,,,
+United States,D,Tyler Adams,MF,27,55,—,—,,,,,,,,,
+Paraguay,D,Miguel Almirón,MF,32,70,Newcastle,Premier League,,,,,,,,,
+Paraguay,D,Julio Enciso,FW,22,25,—,—,,,,,,,,,
+Australia,D,Harry Souttar,DF,27,40,—,—,,,,,,,,,
+Australia,D,Nestory Irankunda,FW,20,15,—,—,,,,,,,,,
+Turkey,D,Hakan Çalhanoğlu,MF,32,95,Inter Milan,Serie A,,,,,,,,,UCL pass accuracy 94.84%
+Turkey,D,Arda Güler,FW,21,25,Real Madrid,La Liga,,,,,,,,,
+Turkey,D,Kenan Yıldız,FW,21,20,Juventus,Serie A,,10,,,78,,,,78 successful dribbles
+Germany,E,Manuel Neuer,GK,40,130,Bayern Munich,Bundesliga,0,0,0,,,,,Returns to NT
+Germany,E,Jamal Musiala,FW,23,45,Bayern Munich,Bundesliga,12,,,,,,,,,
+Germany,E,Florian Wirtz,MF,23,40,Liverpool,Premier League,,,,,,58,,,58 key passes PL
+Germany,E,Kai Havertz,FW,26,60,Arsenal,Premier League,,,,,,,,,
+Germany,E,Joshua Kimmich,MF,31,100,Bayern Munich,Bundesliga,,,,,,,2448,2448 accurate passes
+Curacao,E,Riechedly Bazoer,DF,29,15,—,—,,,,,,,,,Debut nation
+Curacao,E,Jurgen Locadia,FW,32,10,—,—,,,,,,,,,
+Ivory Coast,E,Franck Kessié,MF,29,85,—,—,,,,,,,,,
+Ivory Coast,E,Simon Adingra,FW,24,20,Brighton,Premier League,,,,,,,,,
+Ivory Coast,E,Nicolas Pépé,FW,30,55,—,—,,,,,,,,,
+Ivory Coast,E,Amad Diallo,FW,23,20,Manchester United,Premier League,,,,,,,,,
+Ecuador,E,Moisés Caicedo,MF,24,55,Chelsea,Premier League,,,,,,,,,58 interceptions (2nd in PL)
+Ecuador,E,Piero Hincapié,DF,24,45,Bayer Leverkusen,Bundesliga,,,,,,,,,
+Ecuador,E,Kendry Páez,MF,19,20,—,—,,,,,,,,,
+Ecuador,E,Enner Valencia,FW,36,95,—,—,,,,,,,,,
+Netherlands,F,Virgil van Dijk,DF,34,85,Liverpool,Premier League,,,,,,,2482,2482 accurate passes; Captain
+Netherlands,F,Frenkie de Jong,MF,29,65,Barcelona,La Liga,,,,,,,,,
+Netherlands,F,Cody Gakpo,FW,27,40,Liverpool,Premier League,,,,,,21 shots on target,,,54 shots
+Netherlands,F,Memphis Depay,FW,32,100,—,—,,,,,,,,,
+Japan,F,Takehiro Tomiyasu,DF,27,55,Arsenal,Premier League,,,,,,,,,
+Japan,F,Wataru Endo,MF,33,70,Liverpool,Premier League,,,,,,,,,
+Japan,F,Daizen Maeda,FW,28,30,Celtic,Scottish Premiership,,,,,,,,,
+Sweden,F,Alexander Isak,FW,26,55,Newcastle,Premier League,23,,,,,,,,2024-25 PL 2nd top scorer; Manager Potter
+Sweden,F,Viktor Gyökeres,FW,28,30,Arsenal,Premier League,,14,,,,,,Kulusevski out injured
+Sweden,F,Anthony Elanga,FW,24,25,—,—,,,,,,,,,
+Tunisia,F,Hannibal Mejbri,MF,23,40,—,—,,,,,,,,,
+Tunisia,F,Ellyes Skhiri,MF,31,75,—,—,,,,,,,,,
+Belgium,G,Kevin De Bruyne,MF,34,110,Manchester City,Premier League,,,,,,,,Captain
+Belgium,G,Romelu Lukaku,FW,33,125,Napoli,Serie A,14,,,,,,,,,
+Belgium,G,Thibaut Courtois,GK,34,105,Real Madrid,La Liga,0,0,0,,,,,
+Belgium,G,Jérémy Doku,FW,24,35,Manchester City,Premier League,,,,,,84,,,84 successful dribbles
+Egypt,G,Mohamed Salah,FW,33,105,Liverpool,Premier League,29,,,,18(24-25),,,,2024-25: G+A=47 (PL Golden Boot + Playmaker); Captain
+Egypt,G,Omar Marmoush,FW,27,40,Manchester City,Premier League,15,,,,,,,,15G before mid-season Man City transfer
+Iran,G,Mehdi Taremi,FW,33,90,—,—,,,,,,,,,
+Iran,G,Sardar Azmoun,FW,31,85,—,—,,,,,,,,,NOT in final squad
+New Zealand,G,Chris Wood,FW,34,80,Nottingham Forest,Premier League,20,,,,,,,,2024-25: career best 20G
+Spain,H,Lamine Yamal,FW,18,30,Barcelona,La Liga,6,16,12,7.93,,133,,,⭐ HIGHEST rating top 5 leagues; 28 G+A; youngest La Liga double-double
+Spain,H,Pedri,MF,23,35,Barcelona,La Liga,,,,,7.56,,,,,
+Spain,H,Rodri,MF,29,65,Manchester City,Premier League,,,,,,,,,
+Spain,H,Nico Williams,FW,23,25,Athletic Bilbao,La Liga,,,,,,,,,
+Spain,H,Pau Cubarsí,DF,19,10,Barcelona,La Liga,0,0,,,2628,,,2628 accurate passes (2nd in La Liga)
+Cape Verde,H,Logan Costa,DF,25,25,—,—,,,,,,,,,Debut nation
+Saudi Arabia,H,Salem Al-Dawsari,MF,34,95,Al Hilal,Saudi Pro League,,,,,,,,,
+Uruguay,H,Federico Valverde,MF,27,70,Real Madrid,La Liga,,,,,,,,Captain
+Uruguay,H,Darwin Núñez,FW,26,35,Liverpool,Premier League,,,,,,,,,
+Uruguay,H,Ronald Araújo,DF,27,30,Barcelona,La Liga,,,,,,,,,
+France,I,Kylian Mbappé,FW,27,96,Real Madrid,La Liga,31,25,5,7.74,23.24,78,,,La Liga Pichichi + UCL top scorer(15G); 4.8 shots/game; 56 intl goals
+France,I,Ousmane Dembélé,FW,29,60,PSG,Ligue 1,21,10,,,,,,,2024-25 Ligue 1 Golden Boot; form DOWN -52%
+France,I,Michael Olise,MF,24,15,Bayern Munich,Bundesliga,,15,21,7.87,,,,,🔥 21 assists (#1 ALL leagues); G+A=36 (#2)
+France,I,William Saliba,DF,25,35,Arsenal,Premier League,0,0,0,,,,,
+France,I,N'Golo Kanté,MF,35,65,—,—,,,,,,,,2018 WC winner
+France,I,Bradley Barcola,FW,23,15,PSG,Ligue 1,14,11,,,,,,,
+Senegal,I,Sadio Mané,FW,34,126,Al Nassr,Saudi Pro League,,,,,,,,,51G+35A in 129 games for Al Nassr
+Senegal,I,Kalidou Koulibaly,DF,34,95,—,—,0,0,0,,,,,Captain
+Senegal,I,Nicolas Jackson,FW,24,25,Chelsea,Premier League,,,,,,,,,
+Iraq,I,Aymen Hussein,FW,33,93,Al Karma,Iraq Stars League,,,,,,,,33 intl goals (5th all-time Iraq)
+Iraq,I,Zidane Iqbal,MF,23,15,—,—,,,,,,,,,
+Norway,I,Erling Haaland,FW,25,49,Manchester City,Premier League,22,27,8,7.44,25.20,,59 shots on target,,,PL Golden Boot; 55 intl goals/49 caps; form UP +23%
+Norway,I,Martin Ødegaard,MF,27,67,Arsenal,Premier League,,,,,,,,,Captain; youngest Norway debut (15y 253d)
+Norway,I,Alexander Sørloth,FW,30,65,Atlético Madrid,La Liga,20,,,,,,,,,6 UCL goals 2025-26
+Norway,I,Oscar Bobb,MF,22,15,Manchester City,Premier League,,,,,,,,,
+Argentina,J,Lionel Messi,FW,38,198,Inter Miami,MLS,,,,,,,,,6th World Cup; 116 intl goals; 8x Ballon d'Or; 2022 WC winner
+Argentina,J,Lautaro Martínez,FW,28,75,Inter Milan,Serie A,12,17,6,,,,,,2025-26 Capocannoniere; 36 intl goals; form UP +42%
+Argentina,J,Enzo Fernández,MF,25,35,Chelsea,Premier League,,,,,,68,,,xAG 7.10
+Argentina,J,Emiliano Martínez,GK,33,55,Aston Villa,Premier League,0,0,0,,,,,2022 WC Golden Glove
+Argentina,J,Cristian Romero,DF,28,45,Tottenham,Premier League,,,,,,,,,
+Algeria,J,Riyad Mahrez,FW,35,113,Al Ahli,Saudi Pro League,,,,,,,,,38 intl goals; 2019 AFCON winner
+Algeria,J,Rayan Aït-Nouri,DF,25,20,Wolves,Premier League,,,,,,,,,
+Algeria,J,Mohamed Amoura,FW,25,44,—,—,,,,,,,,,10 goals CAF WC qualifying (top scorer)
+Austria,J,David Alaba,DF,33,115,Real Madrid,La Liga,,,,,,,,Captain
+Austria,J,Marko Arnautović,FW,37,147,Red Star Belgrade,Serbian SuperLiga,,,,,,,,,Most-capped(147); all-time top scorer(47G)
+Austria,J,Konrad Laimer,MF,29,56,Bayern Munich,Bundesliga,,,,,,,,,7G+9A intl; double winner Bayern
+Jordan,J,Musa Al-Taamari,FW,28,90,Rennes,Ligue 1,,,,,,,,,24 intl goals; Debut nation
+Jordan,J,Ali Olwan,FW,25,77,—,—,,,,,,,,,27 intl goals; hat-trick sealed WC qualification
+Portugal,K,Cristiano Ronaldo,FW,41,226,—,—,,,,,,,,,6th World Cup; 143 intl goals (RECORD); 22 WC apps
+Portugal,K,Bruno Fernandes,MF,31,80,Manchester United,Premier League,,8,21,7.61,,,137,,,🔥 PL RECORD 21 assists; 137 key passes(#1 PL); xAG 10.94(#1)
+Portugal,K,Bernardo Silva,MF,31,105,Manchester City,Premier League,,,,,,,,,
+Portugal,K,Rafael Leão,FW,26,40,AC Milan,Serie A,,,,,,,,,
+Portugal,K,Rúben Dias,DF,29,70,Manchester City,Premier League,,,,,,,,,
+Congo DR,K,Yoane Wissa,FW,29,30,Brentford,Premier League,19,,,,,,,,,
+Congo DR,K,Aaron Wan-Bissaka,DF,28,10,—,—,,,,,,,,,
+Uzbekistan,K,Abdukodir Khusanov,DF,22,30,Manchester City,Premier League,,,,,,,,,Debut nation
+Colombia,K,Luis Díaz,FW,29,60,Bayern Munich,Bundesliga,,15,17,,,,,,🔥 G+A=32 (#4 overall); breakout season at Bayern
+Colombia,K,James Rodríguez,MF,34,105,—,—,,,,,,,,Captain
+England,L,Harry Kane,FW,32,105,Bayern Munich,Bundesliga,26,36,5,7.84,26.42,,,,,🏆 #1 SCORER Europe(36G); xG #1(26.42); 63G all comps; Captain; form UP +38%
+England,L,Jude Bellingham,MF,23,45,Real Madrid,La Liga,7,,,,,,,,,
+England,L,Bukayo Saka,FW,24,50,Arsenal,Premier League,,,,,,,,,
+England,L,Declan Rice,MF,27,65,Arsenal,Premier League,,,,,,56,,,xAG 7.24; 56 key passes PL
+England,L,Jordan Pickford,GK,32,75,Everton,Premier League,0,0,0,,,,,
+Croatia,L,Luka Modrić,MF,40,185,AC Milan,Serie A,,,,,,,2006,2006 accurate passes; Captain
+Croatia,L,Joško Gvardiol,DF,24,45,Manchester City,Premier League,,,,,,,,,
+Croatia,L,Mateo Kovačić,MF,32,115,Manchester City,Premier League,,,,,,,,,
+Croatia,L,Andrej Kramarić,FW,35,100,TSG Hoffenheim,Bundesliga,,10,,,,,,,
+Ghana,L,Antoine Semenyo,FW,26,25,Manchester City,Premier League,,17,4,,,,,10G for Bournemouth + 7G for Man City
+Ghana,L,Thomas Partey,MF,33,55,Arsenal,Premier League,,,,,,,,,
+Ghana,L,Iñaki Williams,FW,31,25,Athletic Bilbao,La Liga,,,,,,,,,
+Panama,L,Adalberto Carrasquilla,MF,27,60,—,—,,,,,,,,,

@@ -1,0 +1,351 @@
+{
+  "_meta": {
+    "description": "Top 5 European Leagues + UCL — Goal Statistics 2024-25 & 2025-26 Seasons",
+    "seasons": ["2024-25", "2025-26"],
+    "last_updated": "2026-06-05"
+  },
+  "leagues": {
+    "premier_league": {
+      "country": "England",
+      "2024-25": {
+        "champion": "Liverpool",
+        "total_goals": 1115,
+        "avg_goals_per_match": 2.93,
+        "golden_boot": {"player": "Mohamed Salah", "club": "Liverpool", "goals": 29},
+        "top_scorers": [
+          {"rank": 1, "player": "Mohamed Salah", "club": "Liverpool", "goals": 29, "assists": 18, "g_a": 47},
+          {"rank": 2, "player": "Alexander Isak", "club": "Newcastle United", "goals": 23},
+          {"rank": 3, "player": "Erling Haaland", "club": "Manchester City", "goals": 22},
+          {"rank": 4, "player": "Bryan Mbeumo", "club": "Brentford", "goals": 20},
+          {"rank": 5, "player": "Chris Wood", "club": "Nottingham Forest", "goals": 20},
+          {"rank": 6, "player": "Yoane Wissa", "club": "Brentford", "goals": 19},
+          {"rank": 7, "player": "Ollie Watkins", "club": "Aston Villa", "goals": 16},
+          {"rank": 8, "player": "Matheus Cunha", "club": "Wolves", "goals": 15},
+          {"rank": 9, "player": "Cole Palmer", "club": "Chelsea", "goals": 15},
+          {"rank": 10, "player": "Jean-Philippe Mateta", "club": "Crystal Palace", "goals": 14}
+        ],
+        "hat_tricks_notable": ["Erling Haaland (3)", "Cole Palmer (2)", "Bryan Mbeumo (1)"]
+      },
+      "2025-26": {
+        "champion": "Arsenal",
+        "champion_points": 85,
+        "total_goals": null,
+        "team_goals_leader": "Manchester City (77 goals)",
+        "golden_boot": {"player": "Erling Haaland", "club": "Manchester City", "goals": 27},
+        "top_scorers": [
+          {"rank": 1, "player": "Erling Haaland", "club": "Manchester City", "goals": 27, "assists": 8, "g_a": 35, "xg": 25.20, "rating": 7.44, "shots_on_target": 59},
+          {"rank": 2, "player": "Igor Thiago", "club": "Brentford", "goals": 22, "shots_on_target": 43},
+          {"rank": 3, "player": "Antoine Semenyo", "club": "Bournemouth / Manchester City", "goals": 17},
+          {"rank": 4, "player": "Ollie Watkins", "club": "Aston Villa", "goals": 16},
+          {"rank": 5, "player": "João Pedro", "club": "Chelsea", "goals": 15},
+          {"rank": 6, "player": "Morgan Gibbs-White", "club": "Nottingham Forest", "goals": 15},
+          {"rank": 7, "player": "Viktor Gyökeres", "club": "Arsenal", "goals": 14},
+          {"rank": 8, "player": "Dominic Calvert-Lewin", "club": "Leeds United", "goals": 14},
+          {"rank": 9, "player": "Eli Junior Kroupi", "club": "Bournemouth", "goals": 13},
+          {"rank": 10, "player": "Danny Welbeck", "club": "Brighton", "goals": 13}
+        ],
+        "assist_leader": {"player": "Bruno Fernandes", "club": "Manchester United", "assists": 21, "key_passes": 137, "xag": 10.94},
+        "top_assists": [
+          {"player": "Bruno Fernandes", "club": "Manchester United", "assists": 21, "key_passes": 137},
+          {"player": "Rayan Cherki", "club": "Manchester City", "assists": 12},
+          {"player": "Jarrod Bowen", "club": "West Ham", "assists": 11},
+          {"player": "Erling Haaland", "club": "Manchester City", "assists": 8},
+          {"player": "Dominik Szoboszlai", "club": "Liverpool", "assists": 7}
+        ],
+        "stat_leaders": {
+          "most_shots": {"player": "Erling Haaland", "value": 102},
+          "most_shots_on_target": {"player": "Erling Haaland", "value": 59},
+          "most_passes": {"player": "Virgil van Dijk", "value": 2482},
+          "most_key_passes": {"player": "Bruno Fernandes", "value": 137},
+          "most_clean_sheets": {"player": "David Raya", "value": 19},
+          "most_interceptions": {"player": "James Garner", "value": 60}
+        },
+        "notable_exclusions": ["Ollie Watkins (16G) - left out of England WC squad"]
+      }
+    },
+    "la_liga": {
+      "country": "Spain",
+      "2024-25": {
+        "champion": "Barcelona",
+        "total_goals": null,
+        "pichichi": {"player": "Kylian Mbappé", "club": "Real Madrid", "goals": 31},
+        "top_scorers": [
+          {"rank": 1, "player": "Kylian Mbappé", "club": "Real Madrid", "goals": 31},
+          {"rank": 2, "player": "Robert Lewandowski", "club": "Barcelona", "goals": 27},
+          {"rank": 3, "player": "Ante Budimir", "club": "Osasuna", "goals": 21},
+          {"rank": 4, "player": "Alexander Sørloth", "club": "Atlético Madrid", "goals": 20},
+          {"rank": 5, "player": "Ayoze Pérez", "club": "Villarreal", "goals": 19},
+          {"rank": 6, "player": "Raphinha", "club": "Barcelona", "goals": 18},
+          {"rank": 7, "player": "Julián Álvarez", "club": "Atlético Madrid", "goals": 17},
+          {"rank": 8, "player": "Oihan Sancet", "club": "Athletic Bilbao", "goals": 15},
+          {"rank": 9, "player": "Kike García", "club": "Alavés", "goals": 12},
+          {"rank": 10, "player": "Vinícius Júnior", "club": "Real Madrid", "goals": 11}
+        ]
+      },
+      "2025-26": {
+        "champion": "Barcelona",
+        "champion_points": 94,
+        "total_goals": 1024,
+        "avg_goals_per_match": 2.69,
+        "pichichi": {"player": "Kylian Mbappé", "club": "Real Madrid", "goals": 25},
+        "top_scorers": [
+          {"rank": 1, "player": "Kylian Mbappé", "club": "Real Madrid", "goals": 25, "assists": 5, "matches": 31, "rating": 7.74, "xg": 23.24},
+          {"rank": 2, "player": "Vedat Muriqi", "club": "Mallorca", "goals": 23, "assists": 1, "matches": 37},
+          {"rank": 3, "player": "Ante Budimir", "club": "Osasuna", "goals": 17, "assists": 0, "matches": 37},
+          {"rank": 4, "player": "Ferran Torres", "club": "Barcelona", "goals": 16, "assists": 2, "matches": 33},
+          {"rank": 5, "player": "Vinícius Júnior", "club": "Real Madrid", "goals": 16, "assists": 5, "matches": 36, "rating": 7.50},
+          {"rank": 6, "player": "Lamine Yamal", "club": "Barcelona", "goals": 16, "assists": 12, "matches": 28, "rating": 7.93},
+          {"rank": 7, "player": "Mikel Oyarzabal", "club": "Real Sociedad", "goals": 15, "assists": 4, "matches": 34},
+          {"rank": 8, "player": "Borja Iglesias", "club": "Celta Vigo", "goals": 14, "assists": 2, "matches": 35},
+          {"rank": 9, "player": "Robert Lewandowski", "club": "Barcelona", "goals": 14, "assists": 2, "matches": 31},
+          {"rank": 10, "player": "Toni Martínez", "club": "Alavés", "goals": 14, "assists": 3, "matches": 37}
+        ],
+        "assist_leader": {"player": "Lamine Yamal", "club": "Barcelona", "assists": 11},
+        "stat_leaders": {
+          "most_dribbles": {"player": "Lamine Yamal", "value": 133},
+          "highest_rating": {"player": "Lamine Yamal", "value": 7.93},
+          "most_passes": {"player": "Pau Cubarsí", "value": 2628}
+        }
+      }
+    },
+    "bundesliga": {
+      "country": "Germany",
+      "2024-25": {
+        "champion": "Bayern Munich",
+        "total_goals": 959,
+        "avg_goals_per_match": 3.13,
+        "torjagerkanone": {"player": "Harry Kane", "club": "Bayern Munich", "goals": 26},
+        "top_scorers": [
+          {"rank": 1, "player": "Harry Kane", "club": "Bayern Munich", "goals": 26, "assists": 10, "g_a": 36},
+          {"rank": 2, "player": "Serhou Guirassy", "club": "Borussia Dortmund", "goals": 21},
+          {"rank": 3, "player": "Patrik Schick", "club": "Bayer Leverkusen", "goals": 21},
+          {"rank": 4, "player": "Jonathan Burkardt", "club": "Mainz 05", "goals": 18},
+          {"rank": 5, "player": "Tim Kleindienst", "club": "Borussia M'gladbach", "goals": 16},
+          {"rank": 6, "player": "Omar Marmoush", "club": "Eintracht Frankfurt / Man City", "goals": 15},
+          {"rank": 7, "player": "Hugo Ekitiké", "club": "Eintracht Frankfurt", "goals": 15},
+          {"rank": 8, "player": "Ermedin Demirović", "club": "VfB Stuttgart", "goals": 15},
+          {"rank": 9, "player": "Benjamin Šeško", "club": "RB Leipzig", "goals": 13},
+          {"rank": 10, "player": "Jamal Musiala", "club": "Bayern Munich", "goals": 12}
+        ]
+      },
+      "2025-26": {
+        "champion": "Bayern Munich",
+        "champion_points": 89,
+        "total_goals": 990,
+        "avg_goals_per_match": 3.24,
+        "team_goals": 122,
+        "torjagerkanone": {"player": "Harry Kane", "club": "Bayern Munich", "goals": 36},
+        "top_scorers": [
+          {"rank": 1, "player": "Harry Kane", "club": "Bayern Munich", "goals": 36, "assists": 5, "g_a": 41, "rating": 7.84, "xg": 26.42, "matches": 31, "penalties": 10},
+          {"rank": 2, "player": "Deniz Undav", "club": "VfB Stuttgart", "goals": 19, "assists": 6, "g_a": 25},
+          {"rank": 3, "player": "Michael Olise", "club": "Bayern Munich", "goals": 15, "assists": 21, "g_a": 36, "rating": 7.87},
+          {"rank": 4, "player": "Luis Díaz", "club": "Bayern Munich", "goals": 15, "assists": 17, "g_a": 32},
+          {"rank": 5, "player": "Christoph Baumgartner", "club": "RB Leipzig", "goals": 13, "assists": 9, "g_a": 22},
+          {"rank": 6, "player": "Yan Diomande", "club": "RB Leipzig", "goals": 12, "assists": 9, "g_a": 21},
+          {"rank": 7, "player": "Serhou Guirassy", "club": "Borussia Dortmund", "goals": 17, "xg": 17.98},
+          {"rank": 8, "player": "Patrik Schick", "club": "Bayer Leverkusen", "goals": 10, "xg": 17.87, "rating": 6.92},
+          {"rank": 9, "player": "Andrej Kramarić", "club": "TSG Hoffenheim", "goals": 10},
+          {"rank": 10, "player": "Saïd El Mala", "club": "1. FC Köln", "goals": 10}
+        ],
+        "assist_leader": {"player": "Michael Olise", "club": "Bayern Munich", "assists": 21},
+        "top_assists": [
+          {"player": "Michael Olise", "club": "Bayern Munich", "assists": 21},
+          {"player": "Luis Díaz", "club": "Bayern Munich", "assists": 17},
+          {"player": "Julian Ryerson", "club": "Borussia Dortmund", "assists": 15},
+          {"player": "Christoph Baumgartner", "club": "RB Leipzig", "assists": 9},
+          {"player": "Yan Diomande", "club": "RB Leipzig", "assists": 9}
+        ],
+        "stat_leaders": {
+          "most_passes": {"player": "Aleix García", "club": "Bayer Leverkusen", "value": 2819},
+          "most_key_passes": {"player": "David Raum", "club": "RB Leipzig", "value": 98}
+        },
+        "notable": "Bayern Munich 3 players in top 5 G+A (Kane, Olise, Díaz) — combined 109 G+A"
+      }
+    },
+    "serie_a": {
+      "country": "Italy",
+      "2024-25": {
+        "champion": "Napoli",
+        "champion_points": 82,
+        "total_goals": 973,
+        "avg_goals_per_match": 2.56,
+        "capocannoniere": {"player": "Mateo Retegui", "club": "Atalanta", "goals": 25},
+        "top_scorers": [
+          {"rank": 1, "player": "Mateo Retegui", "club": "Atalanta", "goals": 25, "assists": 8, "g_a": 33},
+          {"rank": 2, "player": "Moise Kean", "club": "Fiorentina", "goals": 19},
+          {"rank": 3, "player": "Ademola Lookman", "club": "Atalanta", "goals": 15},
+          {"rank": 4, "player": "Riccardo Orsolini", "club": "Bologna", "goals": 15},
+          {"rank": 5, "player": "Romelu Lukaku", "club": "Napoli", "goals": 14},
+          {"rank": 6, "player": "Marcus Thuram", "club": "Inter Milan", "goals": 14},
+          {"rank": 7, "player": "Artem Dovbyk", "club": "Roma", "goals": 12},
+          {"rank": 8, "player": "Lautaro Martínez", "club": "Inter Milan", "goals": 12},
+          {"rank": 9, "player": "Scott McTominay", "club": "Napoli", "goals": 12},
+          {"rank": 10, "player": "Christian Pulisic", "club": "AC Milan", "goals": 11}
+        ]
+      },
+      "2025-26": {
+        "champion": "Inter Milan",
+        "champion_points": 87,
+        "capocannoniere": {"player": "Lautaro Martínez", "club": "Inter Milan", "goals": 17},
+        "top_scorers": [
+          {"rank": 1, "player": "Lautaro Martínez", "club": "Inter Milan", "goals": 17, "assists": 6, "g_a": 23},
+          {"rank": 2, "player": "Tasos Douvikas", "club": "Como", "goals": 14},
+          {"rank": 3, "player": "Donyell Malen", "club": "Roma", "goals": 14},
+          {"rank": 4, "player": "Marcus Thuram", "club": "Inter Milan", "goals": 13},
+          {"rank": 5, "player": "Rasmus Højlund", "club": "Napoli", "goals": 12},
+          {"rank": 6, "player": "Nico Paz", "club": "Como", "goals": 12, "assists": 7, "g_a": 19},
+          {"rank": 7, "player": "Giovanni Simeone", "club": "Torino", "goals": 11},
+          {"rank": 8, "player": "Federico Bonazzoli", "club": "Cremonese", "goals": 10},
+          {"rank": 9, "player": "Keinan Davis", "club": "Udinese", "goals": 10},
+          {"rank": 10, "player": "Nikola Krstović", "club": "Atalanta", "goals": 10},
+          {"rank": 11, "player": "Scott McTominay", "club": "Napoli", "goals": 10},
+          {"rank": 12, "player": "Riccardo Orsolini", "club": "Bologna", "goals": 10},
+          {"rank": 13, "player": "Gianluca Scamacca", "club": "Atalanta", "goals": 10},
+          {"rank": 14, "player": "Kenan Yıldız", "club": "Juventus", "goals": 10}
+        ],
+        "assist_leader": {"player": "Federico Dimarco", "club": "Inter Milan", "assists": 17, "key_passes": 96},
+        "stat_leaders": {
+          "most_passes": {"player": "Manuel Locatelli", "club": "Juventus", "value": 2473},
+          "most_key_passes": {"player": "Federico Dimarco", "club": "Inter Milan", "value": 96}
+        },
+        "notable": "Como breakout (Nico Paz 12G+7A, Douvikas 14G); Lowest-scoring top 5 league (17G won Golden Boot)"
+      }
+    },
+    "ligue_1": {
+      "country": "France",
+      "2024-25": {
+        "champion": "Paris Saint-Germain",
+        "total_goals": 911,
+        "avg_goals_per_match": 2.98,
+        "golden_boot": {"player": "Ousmane Dembélé", "club": "PSG", "goals": 21, "note": "Won on tiebreaker (fewer penalties: 1 vs 7)"},
+        "top_scorers": [
+          {"rank": 1, "player": "Ousmane Dembélé", "club": "PSG", "goals": 21, "assists": 6},
+          {"rank": 2, "player": "Mason Greenwood", "club": "Marseille", "goals": 21, "assists": 5},
+          {"rank": 3, "player": "Arnaud Kalimuendo", "club": "Rennes", "goals": 17},
+          {"rank": 4, "player": "Jonathan David", "club": "Lille", "goals": 16},
+          {"rank": 5, "player": "Alexandre Lacazette", "club": "Lyon", "goals": 15},
+          {"rank": 6, "player": "Bradley Barcola", "club": "PSG", "goals": 14},
+          {"rank": 7, "player": "Emanuel Emegha", "club": "Strasbourg", "goals": 14},
+          {"rank": 8, "player": "Ludovic Ajorque", "club": "Brest", "goals": 13},
+          {"rank": 9, "player": "Mika Biereth", "club": "Monaco", "goals": 13},
+          {"rank": 10, "player": "Amine Gouiri", "club": "Rennes / Marseille", "goals": 13}
+        ]
+      },
+      "2025-26": {
+        "champion": "Paris Saint-Germain",
+        "champion_points": 76,
+        "total_goals": 863,
+        "avg_goals_per_match": 2.82,
+        "golden_boot": {"player": "Esteban Lepaul", "club": "Angers / Rennes", "goals": 21, "note": "1G for Angers, 20G for Rennes after MD2 transfer"},
+        "top_scorers": [
+          {"rank": 1, "player": "Esteban Lepaul", "club": "Angers / Rennes", "goals": 21, "assists": 5, "g_a": 26},
+          {"rank": 2, "player": "Mason Greenwood", "club": "Marseille", "goals": 16, "assists": 7, "g_a": 23},
+          {"rank": 3, "player": "Joaquín Panichelli", "club": "Strasbourg", "goals": 16},
+          {"rank": 4, "player": "Folarin Balogun", "club": "Monaco", "goals": 13},
+          {"rank": 5, "player": "Odsonne Édouard", "club": "Lens", "goals": 12},
+          {"rank": 6, "player": "Wesley Saïd", "club": "Lens", "goals": 12},
+          {"rank": 7, "player": "Lassine Sinayoko", "club": "Auxerre", "goals": 12},
+          {"rank": 8, "player": "Bradley Barcola", "club": "PSG", "goals": 11},
+          {"rank": 9, "player": "Ansu Fati", "club": "Monaco", "goals": 11},
+          {"rank": 10, "player": "Pavel Šulc", "club": "Lyon", "goals": 11},
+          {"rank": 11, "player": "Florian Thauvin", "club": "Lens", "goals": 11},
+          {"rank": 12, "player": "Corentin Tolisso", "club": "Lyon", "goals": 11},
+          {"rank": 13, "player": "Ousmane Dembélé", "club": "PSG", "goals": 10},
+          {"rank": 14, "player": "Pierre-Emerick Aubameyang", "club": "Marseille", "goals": 10}
+        ]
+      }
+    },
+    "champions_league": {
+      "2024-25": {
+        "champion": "Paris Saint-Germain",
+        "final": "PSG 5-0 Inter Milan",
+        "total_goals": 618,
+        "avg_goals_per_match": 3.27,
+        "golden_boot": [
+          {"player": "Raphinha", "club": "Barcelona", "goals": 13},
+          {"player": "Serhou Guirassy", "club": "Borussia Dortmund", "goals": 13}
+        ],
+        "top_scorers": [
+          {"rank": 1, "player": "Raphinha", "club": "Barcelona", "goals": 13},
+          {"rank": 1, "player": "Serhou Guirassy", "club": "Borussia Dortmund", "goals": 13},
+          {"rank": 3, "player": "Harry Kane", "club": "Bayern Munich", "goals": 11},
+          {"rank": 3, "player": "Robert Lewandowski", "club": "Barcelona", "goals": 11},
+          {"rank": 5, "player": "Lautaro Martínez", "club": "Inter Milan", "goals": 9},
+          {"rank": 6, "player": "Ousmane Dembélé", "club": "PSG", "goals": 8},
+          {"rank": 6, "player": "Erling Haaland", "club": "Manchester City", "goals": 8},
+          {"rank": 6, "player": "Vinícius Júnior", "club": "Real Madrid", "goals": 8}
+        ]
+      },
+      "2025-26": {
+        "golden_boot": {"player": "Kylian Mbappé", "club": "Real Madrid", "goals": 15, "note": "Eliminated in QF by Bayern, but still leads"},
+        "top_scorers": [
+          {"rank": 1, "player": "Kylian Mbappé", "club": "Real Madrid", "goals": 15},
+          {"rank": 2, "player": "Harry Kane", "club": "Bayern Munich", "goals": 14},
+          {"rank": 3, "player": "Khvicha Kvaratskhelia", "club": "PSG", "goals": 10},
+          {"rank": 3, "player": "Anthony Gordon", "club": "Newcastle United", "goals": 10},
+          {"rank": 3, "player": "Julián Álvarez", "club": "Atlético Madrid", "goals": 10},
+          {"rank": 3, "player": "Erling Haaland", "club": "Manchester City", "goals": 10},
+          {"rank": 7, "player": "Luis Díaz", "club": "Liverpool", "goals": 7},
+          {"rank": 8, "player": "Victor Osimhen", "club": "Galatasaray", "goals": 7},
+          {"rank": 9, "player": "Fermín López", "club": "Barcelona", "goals": 6},
+          {"rank": 9, "player": "Lamine Yamal", "club": "Barcelona", "goals": 6}
+        ]
+      }
+    }
+  },
+  "european_top_scorers_2025_26": {
+    "description": "Top 20 players by G+A across all top 5 leagues + UCL (all competitions)",
+    "players": [
+      {"rank": 1, "player": "Harry Kane", "club": "Bayern Munich", "goals": 36, "assists": 5, "g_a": 41, "xg": 26.42, "rating": 7.84},
+      {"rank": 2, "player": "Michael Olise", "club": "Bayern Munich", "goals": 15, "assists": 21, "g_a": 36, "rating": 7.87},
+      {"rank": 3, "player": "Erling Haaland", "club": "Manchester City", "goals": 27, "assists": 8, "g_a": 35, "xg": 25.20, "rating": 7.44},
+      {"rank": 4, "player": "Luis Díaz", "club": "Bayern Munich", "goals": 15, "assists": 17, "g_a": 32},
+      {"rank": 5, "player": "Kylian Mbappé", "club": "Real Madrid", "goals": 25, "assists": 5, "g_a": 30, "xg": 23.24, "rating": 7.74},
+      {"rank": 6, "player": "Lamine Yamal", "club": "Barcelona", "goals": 16, "assists": 12, "g_a": 28, "rating": 7.93},
+      {"rank": 7, "player": "Bruno Fernandes", "club": "Manchester United", "goals": 8, "assists": 21, "g_a": 29, "rating": 7.61},
+      {"rank": 8, "player": "Esteban Lepaul", "club": "Rennes", "goals": 21, "assists": 5, "g_a": 26},
+      {"rank": 9, "player": "Deniz Undav", "club": "Stuttgart", "goals": 19, "assists": 6, "g_a": 25},
+      {"rank": 10, "player": "Federico Dimarco", "club": "Inter Milan", "goals": 6, "assists": 18, "g_a": 24},
+      {"rank": 11, "player": "Vedat Muriqi", "club": "Mallorca", "goals": 23, "assists": 1, "g_a": 24},
+      {"rank": 12, "player": "João Pedro", "club": "Chelsea", "goals": 15, "assists": 8, "g_a": 23},
+      {"rank": 13, "player": "Lautaro Martínez", "club": "Inter Milan", "goals": 17, "assists": 6, "g_a": 23},
+      {"rank": 14, "player": "Mason Greenwood", "club": "Marseille", "goals": 16, "assists": 7, "g_a": 23},
+      {"rank": 15, "player": "Igor Thiago", "club": "Brentford", "goals": 22, "assists": 1, "g_a": 23},
+      {"rank": 16, "player": "Vinícius Júnior", "club": "Real Madrid", "goals": 16, "assists": 6, "g_a": 22, "rating": 7.50},
+      {"rank": 17, "player": "Christoph Baumgartner", "club": "RB Leipzig", "goals": 13, "assists": 9, "g_a": 22},
+      {"rank": 18, "player": "Yan Diomande", "club": "RB Leipzig", "goals": 12, "assists": 9, "g_a": 21},
+      {"rank": 19, "player": "Antoine Semenyo", "club": "Manchester City", "goals": 17, "assists": 4, "g_a": 21},
+      {"rank": 20, "player": "Nico Paz", "club": "Como", "goals": 12, "assists": 7, "g_a": 19}
+    ]
+  },
+  "stat_kings_2025_26": {
+    "description": "Statistical leaders across all top 5 European leagues 2025-26",
+    "goals": {"player": "Harry Kane", "value": 36, "league": "Bundesliga"},
+    "assists": {"player": "Bruno Fernandes", "value": 21, "league": "Premier League"},
+    "g_a": {"player": "Harry Kane", "value": 41, "league": "Bundesliga"},
+    "xg": {"player": "Harry Kane", "value": 26.42, "league": "Bundesliga"},
+    "shots_on_target": {"player": "Erling Haaland", "value": 59, "league": "Premier League"},
+    "dribbles": {"player": "Lamine Yamal", "value": 133, "league": "La Liga"},
+    "key_passes": {"player": "Bruno Fernandes", "value": 137, "league": "Premier League"},
+    "accurate_passes": {"player": "Aleix García", "value": 2819, "league": "Bundesliga"},
+    "rating": {"player": "Lamine Yamal", "value": 7.93, "league": "La Liga"},
+    "interceptions": {"player": "James Garner", "value": 60, "league": "Premier League"},
+    "clean_sheets": {"player": "David Raya", "value": 19, "league": "Premier League"},
+    "ucl_goals": {"player": "Kylian Mbappé", "value": 15, "league": "Champions League"}
+  },
+  "player_form_trends": {
+    "description": "Goal-scoring comparison 2024-25 → 2025-26 for key World Cup players",
+    "trends": [
+      {"player": "Harry Kane", "nation": "England", "goals_2425": 26, "goals_2526": 36, "change_pct": 38, "trend": "UP"},
+      {"player": "Kylian Mbappé", "nation": "France", "goals_2425": 31, "goals_2526": 25, "change_pct": -19, "trend": "DOWN"},
+      {"player": "Erling Haaland", "nation": "Norway", "goals_2425": 22, "goals_2526": 27, "change_pct": 23, "trend": "UP"},
+      {"player": "Lamine Yamal", "nation": "Spain", "goals_2425": 6, "goals_2526": 16, "change_pct": 167, "trend": "UP"},
+      {"player": "Lautaro Martínez", "nation": "Argentina", "goals_2425": 12, "goals_2526": 17, "change_pct": 42, "trend": "UP"},
+      {"player": "Ousmane Dembélé", "nation": "France", "goals_2425": 21, "goals_2526": 10, "change_pct": -52, "trend": "DOWN"},
+      {"player": "Vinícius Júnior", "nation": "Brazil", "goals_2425": 11, "goals_2526": 16, "change_pct": 45, "trend": "UP"},
+      {"player": "Mason Greenwood", "nation": "England (not called)", "goals_2425": 21, "goals_2526": 16, "change_pct": -24, "trend": "DOWN"},
+      {"player": "Patrik Schick", "nation": "Czech Republic", "goals_2425": 21, "goals_2526": 10, "change_pct": -52, "trend": "DOWN"},
+      {"player": "Alexander Isak", "nation": "Sweden", "goals_2425": 23, "goals_2526": null, "change_pct": null, "trend": "DATA_MISSING"}
+    ]
+  }
+}

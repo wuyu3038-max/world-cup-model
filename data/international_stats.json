@@ -1,0 +1,174 @@
+{
+  "_meta": {
+    "description": "Key World Cup 2026 players — International caps & goals, all-time national team records",
+    "source": "Wikipedia, RSSSF, national team records",
+    "date": "2026-06-05"
+  },
+  "all_time_top_scorers": {
+    "men": [
+      {"rank": 1, "player": "Cristiano Ronaldo", "nation": "Portugal", "goals": 143, "caps": 226, "active": true},
+      {"rank": 2, "player": "Lionel Messi", "nation": "Argentina", "goals": 116, "caps": 198, "active": true},
+      {"rank": 3, "player": "Ali Daei", "nation": "Iran", "goals": 109, "caps": 149, "active": false, "retired": true},
+      {"rank": 4, "player": "Sunil Chhetri", "nation": "India", "goals": 94, "caps": 151, "active": false},
+      {"rank": 5, "player": "Mokhtar Dahari", "nation": "Malaysia", "goals": 89, "caps": 142, "active": false},
+      {"rank": 6, "player": "Robert Lewandowski", "nation": "Poland", "goals": 84, "caps": 156, "active": true, "wc2026": false},
+      {"rank": 7, "player": "Romelu Lukaku", "nation": "Belgium", "goals": 85, "caps": 125, "active": true, "wc2026": true},
+      {"rank": 8, "player": "Neymar", "nation": "Brazil", "goals": 79, "caps": 130, "active": true, "wc2026": true},
+      {"rank": 9, "player": "Harry Kane", "nation": "England", "goals": 72, "caps": 105, "active": true, "wc2026": true},
+      {"rank": 10, "player": "Kylian Mbappé", "nation": "France", "goals": 56, "caps": 96, "active": true, "wc2026": true}
+    ]
+  },
+  "world_cup_players_international": {
+    "Argentina": [
+      {"player": "Lionel Messi", "goals": 116, "caps": 198, "assists": 64, "wc_apps_goals": "26 apps, 13 goals"},
+      {"player": "Lautaro Martínez", "goals": 36, "caps": 75, "note": "2024 Copa América Golden Boot"},
+      {"player": "Enzo Fernández", "goals": 5, "caps": 35}
+    ],
+    "Portugal": [
+      {"player": "Cristiano Ronaldo", "goals": 143, "caps": 226, "assists": 42, "wc_apps_goals": "22 apps, 8 goals (scored at 5 different WCs)"},
+      {"player": "Bruno Fernandes", "goals": 25, "caps": 80},
+      {"player": "Bernardo Silva", "goals": 13, "caps": 105},
+      {"player": "Rafael Leão", "goals": 5, "caps": 40}
+    ],
+    "France": [
+      {"player": "Kylian Mbappé", "goals": 56, "caps": 96, "wc_apps_goals": "14 apps, 12 goals (2018 winner, 2022 Golden Boot)"},
+      {"player": "Ousmane Dembélé", "goals": 6, "caps": 60},
+      {"player": "Michael Olise", "goals": 4, "caps": 15}
+    ],
+    "England": [
+      {"player": "Harry Kane", "goals": 72, "caps": 105, "assists": 20, "note": "England all-time #1 (passed Rooney's 53)"},
+      {"player": "Bukayo Saka", "goals": 14, "caps": 50},
+      {"player": "Jude Bellingham", "goals": 8, "caps": 45},
+      {"player": "Declan Rice", "goals": 5, "caps": 65}
+    ],
+    "Brazil": [
+      {"player": "Neymar", "goals": 79, "caps": 130, "note": "Brazil all-time #1 (passed Pelé's 77)"},
+      {"player": "Vinícius Júnior", "goals": 8, "caps": 40},
+      {"player": "Raphinha", "goals": 10, "caps": 35},
+      {"player": "Gabriel Martinelli", "goals": 3, "caps": 20}
+    ],
+    "Spain": [
+      {"player": "Lamine Yamal", "goals": 8, "caps": 30},
+      {"player": "Ferran Torres", "goals": 22, "caps": 55},
+      {"player": "Rodri", "goals": 5, "caps": 65},
+      {"player": "Pedri", "goals": 3, "caps": 35}
+    ],
+    "Germany": [
+      {"player": "Jamal Musiala", "goals": 10, "caps": 45},
+      {"player": "Kai Havertz", "goals": 22, "caps": 60},
+      {"player": "Florian Wirtz", "goals": 8, "caps": 40},
+      {"player": "Joshua Kimmich", "goals": 7, "caps": 100}
+    ],
+    "Norway": [
+      {"player": "Erling Haaland", "goals": 55, "caps": 49, "note": "56G in 49 caps = 1.12 goals/game (all-time best ratio)"},
+      {"player": "Martin Ødegaard", "goals": 5, "caps": 67},
+      {"player": "Alexander Sørloth", "goals": 22, "caps": 65}
+    ],
+    "Belgium": [
+      {"player": "Romelu Lukaku", "goals": 85, "caps": 125, "note": "Belgium all-time #1"},
+      {"player": "Kevin De Bruyne", "goals": 28, "caps": 110},
+      {"player": "Jérémy Doku", "goals": 5, "caps": 35}
+    ],
+    "Netherlands": [
+      {"player": "Memphis Depay", "goals": 46, "caps": 100, "note": "Netherlands all-time #2 (behind Van Persie's 50)"},
+      {"player": "Cody Gakpo", "goals": 15, "caps": 40},
+      {"player": "Frenkie de Jong", "goals": 3, "caps": 65},
+      {"player": "Virgil van Dijk", "goals": 9, "caps": 85}
+    ],
+    "Croatia": [
+      {"player": "Luka Modrić", "goals": 27, "caps": 185, "note": "Most-capped Croatian"},
+      {"player": "Andrej Kramarić", "goals": 30, "caps": 100}
+    ],
+    "Egypt": [
+      {"player": "Mohamed Salah", "goals": 59, "caps": 105, "note": "Egypt all-time #1"},
+      {"player": "Omar Marmoush", "goals": 12, "caps": 40}
+    ],
+    "South Korea": [
+      {"player": "Son Heung-min", "goals": 51, "caps": 130, "note": "Korea all-time #1 active"}
+    ],
+    "Uruguay": [
+      {"player": "Darwin Núñez", "goals": 10, "caps": 35},
+      {"player": "Federico Valverde", "goals": 8, "caps": 70}
+    ],
+    "Senegal": [
+      {"player": "Sadio Mané", "goals": 53, "caps": 126, "note": "Senegal all-time #1"}
+    ],
+    "Algeria": [
+      {"player": "Riyad Mahrez", "goals": 38, "caps": 113},
+      {"player": "Mohamed Amoura", "goals": 19, "caps": 44}
+    ],
+    "Austria": [
+      {"player": "Marko Arnautović", "goals": 47, "caps": 147, "note": "Austria all-time #1 goals + most caps"}
+    ],
+    "Sweden": [
+      {"player": "Alexander Isak", "goals": 16, "caps": 55},
+      {"player": "Viktor Gyökeres", "goals": 10, "caps": 30}
+    ],
+    "USA": [
+      {"player": "Christian Pulisic", "goals": 35, "caps": 80},
+      {"player": "Folarin Balogun", "goals": 8, "caps": 25}
+    ],
+    "Canada": [
+      {"player": "Jonathan David", "goals": 32, "caps": 60, "note": "Canada all-time #1"},
+      {"player": "Cyle Larin", "goals": 29, "caps": 75}
+    ],
+    "Mexico": [
+      {"player": "Santiago Giménez", "goals": 10, "caps": 40}
+    ],
+    "Japan": [
+      {"player": "Daizen Maeda", "goals": 8, "caps": 30}
+    ],
+    "Morocco": [
+      {"player": "Achraf Hakimi", "goals": 12, "caps": 85}
+    ],
+    "Scotland": [
+      {"player": "Scott McTominay", "goals": 11, "caps": 65},
+      {"player": "John McGinn", "goals": 20, "caps": 75}
+    ],
+    "Ghana": [
+      {"player": "Thomas Partey", "goals": 15, "caps": 55},
+      {"player": "Antoine Semenyo", "goals": 4, "caps": 25}
+    ],
+    "Colombia": [
+      {"player": "Luis Díaz", "goals": 14, "caps": 60},
+      {"player": "James Rodríguez", "goals": 28, "caps": 105}
+    ],
+    "Iraq": [
+      {"player": "Aymen Hussein", "goals": 33, "caps": 93}
+    ],
+    "Jordan": [
+      {"player": "Musa Al-Taamari", "goals": 24, "caps": 90},
+      {"player": "Ali Olwan", "goals": 27, "caps": 77}
+    ],
+    "Czech Republic": [
+      {"player": "Patrik Schick", "goals": 22, "caps": 45}
+    ],
+    "Bosnia-Herzegovina": [
+      {"player": "Edin Džeko", "goals": 65, "caps": 135, "note": "Bosnia all-time #1"}
+    ],
+    "New Zealand": [
+      {"player": "Chris Wood", "goals": 41, "caps": 80, "note": "New Zealand all-time #1"}
+    ],
+    "Switzerland": [
+      {"player": "Breel Embolo", "goals": 16, "caps": 80}
+    ]
+  },
+  "world_cup_all_time_records": {
+    "most_appearances": [
+      {"player": "Lionel Messi", "apps": 26, "tournaments": 6},
+      {"player": "Lothar Matthäus", "apps": 25, "tournaments": 5},
+      {"player": "Cristiano Ronaldo", "apps": 22, "tournaments": 6},
+      {"player": "Miroslav Klose", "apps": 24, "tournaments": 4},
+      {"player": "Paolo Maldini", "apps": 23, "tournaments": 4}
+    ],
+    "most_goals": [
+      {"player": "Miroslav Klose", "goals": 16},
+      {"player": "Ronaldo (Brazil)", "goals": 15},
+      {"player": "Gerd Müller", "goals": 14},
+      {"player": "Just Fontaine", "goals": 13},
+      {"player": "Lionel Messi", "goals": 13},
+      {"player": "Kylian Mbappé", "goals": 12},
+      {"player": "Cristiano Ronaldo", "goals": 8}
+    ]
+  }
+}

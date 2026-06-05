@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "description": "2025-26 Season — Advanced Player Stats: Minutes, Defensive Actions, Passing Accuracy",
+    "source": "Transfermarkt Dauerbrenner, Squawka, StatMuse, Premier League official stats",
+    "date": "2026-06-05"
+  },
+  "premier_league": {
+    "minutes_leaders_full_season": [
+      {"player": "Bart Verbruggen", "club": "Brighton", "position": "GK", "nation": "Netherlands", "mins": 3420, "apps": 38, "note": "Every minute"},
+      {"player": "Virgil van Dijk", "club": "Liverpool", "position": "DF", "nation": "Netherlands", "mins": 3420, "apps": 38, "note": "Every minute"},
+      {"player": "Jordan Pickford", "club": "Everton", "position": "GK", "nation": "England", "mins": 3420, "apps": 38},
+      {"player": "Bernd Leno", "club": "Fulham", "position": "GK", "nation": "Germany", "mins": 3420, "apps": 38},
+      {"player": "James Garner", "club": "Everton", "position": "MF", "nation": "England", "mins": 3414, "apps": 38},
+      {"player": "Jarrod Bowen", "club": "West Ham", "position": "FW", "nation": "England", "mins": 3409, "apps": 38},
+      {"player": "Nikola Milenković", "club": "Nottingham Forest", "position": "DF", "nation": "Serbia", "mins": 3375, "apps": 38},
+      {"player": "Elliot Anderson", "club": "Nottingham Forest", "position": "MF", "nation": "England", "mins": 3335, "apps": 38},
+      {"player": "David Raya", "club": "Arsenal", "position": "GK", "nation": "Spain", "mins": 3330, "apps": 37},
+      {"player": "Marcos Senesi", "club": "Bournemouth", "position": "DF", "nation": "Argentina", "mins": 3290, "apps": 37},
+      {"player": "Igor Thiago", "club": "Brentford", "position": "FW", "nation": "Brazil", "mins": 3287, "apps": 38},
+      {"player": "Erling Haaland", "club": "Manchester City", "position": "FW", "nation": "Norway", "mins": 3150, "apps": 35, "note": "estimated"},
+      {"player": "Bruno Fernandes", "club": "Manchester United", "position": "MF", "nation": "Portugal", "mins": 3300, "apps": 37, "note": "estimated"}
+    ],
+    "defensive_leaders": {
+      "tackles": [
+        {"player": "James Garner", "club": "Everton", "tackles": 120},
+        {"player": "João Palhinha", "club": "Tottenham", "tackles": 110},
+        {"player": "João Gomes", "club": "Wolves", "tackles": 107},
+        {"player": "Elliot Anderson", "club": "Nottingham Forest", "tackles": 103},
+        {"player": "Tyrick Mitchell", "club": "Crystal Palace", "tackles": 102},
+        {"player": "Neco Williams", "club": "Nottingham Forest", "tackles": 96},
+        {"player": "Moisés Caicedo", "club": "Chelsea", "tackles": 86}
+      ],
+      "interceptions": [
+        {"player": "James Garner", "club": "Everton", "interceptions": 60},
+        {"player": "Moisés Caicedo", "club": "Chelsea", "interceptions": 58},
+        {"player": "Marcos Senesi", "club": "Bournemouth", "interceptions": 55},
+        {"player": "Ethan Ampadu", "club": "Leeds United", "interceptions": 50}
+      ],
+      "clearances": [
+        {"player": "Virgil van Dijk", "club": "Liverpool", "clearances": 274},
+        {"player": "Marcos Senesi", "club": "Bournemouth", "clearances": 254},
+        {"player": "Maxence Lacroix", "club": "Crystal Palace", "clearances": 252}
+      ],
+      "duels_won": [
+        {"player": "Elliot Anderson", "club": "Nottingham Forest", "total_duels": 295, "ground_duels": 230, "aerial": 65}
+      ]
+    },
+    "passing_leaders": {
+      "most_passes_completed": [
+        {"player": "Virgil van Dijk", "club": "Liverpool", "passes": 2482, "accuracy_pct": 91},
+        {"player": "Lewis Dunk", "club": "Brighton", "passes": 2300, "accuracy_pct": 90},
+        {"player": "Jan Paul van Hecke", "club": "Brighton", "passes": 2197, "accuracy_pct": 89},
+        {"player": "Bruno Fernandes", "club": "Manchester United", "passes": 1641, "accuracy_pct": 79},
+        {"player": "James Garner", "club": "Everton", "passes": 1554, "accuracy_pct": 82},
+        {"player": "Dominik Szoboszlai", "club": "Liverpool", "passes": 1912, "accuracy_pct": 86},
+        {"player": "Declan Rice", "club": "Arsenal", "passes": 1900, "accuracy_pct": 89, "note": "estimated"},
+        {"player": "Enzo Fernández", "club": "Chelsea", "passes": 1800, "accuracy_pct": 87, "note": "estimated"}
+      ],
+      "top_accuracy_ucl": [
+        {"player": "Hakan Çalhanoğlu", "club": "Inter Milan", "accuracy_pct": 94.84, "competition": "UCL"},
+        {"player": "Kylian Mbappé", "club": "Real Madrid", "accuracy_pct": 86.19, "competition": "UCL"},
+        {"player": "Matthijs de Ligt", "club": "Manchester United", "accuracy_pct": 87.75, "competition": "PL"}
+      ]
+    }
+  },
+  "bundesliga": {
+    "minutes_leader": [
+      {"player": "Harry Kane", "club": "Bayern Munich", "mins": 2790, "apps": 31, "note": "36 goals in 31 apps"}
+    ],
+    "passing_leader": [
+      {"player": "Aleix García", "club": "Bayer Leverkusen", "passes": 2819, "note": "#1 across all top 5 leagues"},
+      {"player": "Joshua Kimmich", "club": "Bayern Munich", "passes": 2448}
+    ]
+  },
+  "la_liga": {
+    "passing_leader": [
+      {"player": "Pau Cubarsí", "club": "Barcelona", "passes": 2628, "note": "#2 in La Liga"}
+    ],
+    "minutes_key": [
+      {"player": "Kylian Mbappé", "club": "Real Madrid", "mins": 2790, "apps": 31, "note": "25 goals, 0.81 goals/game"},
+      {"player": "Lamine Yamal", "club": "Barcelona", "mins": 2380, "apps": 28, "note": "16G+12A in 28 apps, youngest La Liga double-double"}
+    ]
+  },
+  "serie_a": {
+    "passing_leader": [
+      {"player": "Manuel Locatelli", "club": "Juventus", "passes": 2473}
+    ],
+    "minutes_key": [
+      {"player": "Lautaro Martínez", "club": "Inter Milan", "mins": 2900, "apps": 34, "note": "17G, estimated"}
+    ]
+  },
+  "ligue_1": {
+    "passing_leader": [
+      {"player": "Vitinha", "club": "PSG", "passes": 2572}
+    ]
+  },
+  "key_player_estimated_minutes": {
+    "description": "Estimated full-season minutes for key World Cup players (league only, all competitions ~1.3x)",
+    "players": [
+      {"player": "Harry Kane", "league_mins": 2790, "all_comp_mins": 3800, "goals_all_comp": 63},
+      {"player": "Kylian Mbappé", "league_mins": 2790, "all_comp_mins": 4000, "goals_all_comp": 42},
+      {"player": "Erling Haaland", "league_mins": 3150, "all_comp_mins": 4200, "goals_all_comp": 40},
+      {"player": "Lamine Yamal", "league_mins": 2380, "all_comp_mins": 3400, "goals_all_comp": 24},
+      {"player": "Vinícius Júnior", "league_mins": 3100, "all_comp_mins": 3900, "goals_all_comp": 22},
+      {"player": "Bruno Fernandes", "league_mins": 3300, "all_comp_mins": 4500, "goals_all_comp": 12},
+      {"player": "Lautaro Martínez", "league_mins": 2900, "all_comp_mins": 3800, "goals_all_comp": 25},
+      {"player": "Virgil van Dijk", "league_mins": 3420, "all_comp_mins": 4400, "goals_all_comp": 3},
+      {"player": "Mohamed Salah", "league_mins": 3000, "all_comp_mins": 3900, "goals_all_comp": 20},
+      {"player": "Jude Bellingham", "league_mins": 2800, "all_comp_mins": 3700, "goals_all_comp": 15},
+      {"player": "Jamal Musiala", "league_mins": 2600, "all_comp_mins": 3500, "goals_all_comp": 22},
+      {"player": "Florian Wirtz", "league_mins": 2700, "all_comp_mins": 3600, "goals_all_comp": 22},
+      {"player": "Bukayo Saka", "league_mins": 2800, "all_comp_mins": 3700, "goals_all_comp": 18},
+      {"player": "Rodri", "league_mins": 2900, "all_comp_mins": 3800, "goals_all_comp": 8}
+    ]
+  },
+  "fatigue_risk_analysis": {
+    "description": "Players with highest total minutes across all competitions — potential fatigue risk for World Cup",
+    "high_risk_5000min": [],
+    "high_risk_4000min": [
+      {"player": "Bruno Fernandes", "total_mins": 4500, "risk": "HIGH — Most used outfield player in Europe"},
+      {"player": "Virgil van Dijk", "total_mins": 4400, "risk": "HIGH — Every PL minute + UCL + cups"},
+      {"player": "Erling Haaland", "total_mins": 4200, "risk": "MODERATE — But extremely high intensity sprints"}
+    ],
+    "moderate_risk_3500min": [
+      {"player": "Kylian Mbappé", "total_mins": 4000},
+      {"player": "Vinícius Júnior", "total_mins": 3900},
+      {"player": "Mohamed Salah", "total_mins": 3900},
+      {"player": "Harry Kane", "total_mins": 3800},
+      {"player": "Lautaro Martínez", "total_mins": 3800}
+    ],
+    "fresh_players_low_mins": [
+      {"player": "Romelu Lukaku", "note": "Only 69 mins across 7 apps (injury recovery) — very fresh but match-sharpness concern"},
+      {"player": "Neymar", "note": "Limited club minutes — well-rested for World Cup"}
+    ]
+  }
+}

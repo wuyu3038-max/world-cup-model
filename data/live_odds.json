@@ -1,0 +1,183 @@
+{
+  "updated": "2026-06-05T18:27:34.810342",
+  "source": "reference_odds",
+  "matches": {
+    "Mexico_vs_South Africa": {
+      "date": "2026-06-11",
+      "group": "A",
+      "matchday": 1,
+      "bet365": {
+        "1X2": [
+          1.53,
+          4.0,
+          5.5
+        ],
+        "over_under_2.5": [
+          1.85,
+          1.95
+        ],
+        "asian_handicap_-1": [
+          2.05,
+          1.8
+        ],
+        "btts_yes": 2.1,
+        "btts_no": 1.67
+      }
+    },
+    "Brazil_vs_Morocco": {
+      "date": "2026-06-14",
+      "group": "C",
+      "matchday": 1,
+      "bet365": {
+        "1X2": [
+          1.4,
+          4.5,
+          7.0
+        ],
+        "over_under_2.5": [
+          1.73,
+          2.1
+        ],
+        "asian_handicap_-1": [
+          1.8,
+          2.05
+        ],
+        "btts_yes": 1.91,
+        "btts_no": 1.8
+      }
+    },
+    "Germany_vs_Curacao": {
+      "date": "2026-06-15",
+      "group": "E",
+      "matchday": 1,
+      "bet365": {
+        "1X2": [
+          1.12,
+          9.0,
+          17.0
+        ],
+        "over_under_3.5": [
+          1.8,
+          2.0
+        ],
+        "asian_handicap_-3": [
+          1.95,
+          1.9
+        ],
+        "btts_yes": 3.5,
+        "btts_no": 1.29
+      }
+    },
+    "Spain_vs_Cape Verde": {
+      "date": "2026-06-17",
+      "group": "H",
+      "matchday": 1,
+      "bet365": {
+        "1X2": [
+          1.08,
+          11.0,
+          21.0
+        ],
+        "over_under_3.5": [
+          1.73,
+          2.1
+        ],
+        "asian_handicap_-3": [
+          1.9,
+          1.95
+        ],
+        "btts_yes": 4.0,
+        "btts_no": 1.22
+      }
+    },
+    "France_vs_Senegal": {
+      "date": "2026-06-17",
+      "group": "I",
+      "matchday": 1,
+      "bet365": {
+        "1X2": [
+          1.44,
+          4.2,
+          6.5
+        ],
+        "over_under_2.5": [
+          1.8,
+          2.0
+        ],
+        "asian_handicap_-1": [
+          1.91,
+          1.95
+        ],
+        "btts_yes": 1.8,
+        "btts_no": 1.91
+      }
+    },
+    "Argentina_vs_Algeria": {
+      "date": "2026-06-18",
+      "group": "J",
+      "matchday": 1,
+      "bet365": {
+        "1X2": [
+          1.36,
+          4.75,
+          7.5
+        ],
+        "over_under_2.5": [
+          1.83,
+          1.98
+        ],
+        "asian_handicap_-1.5": [
+          2.05,
+          1.8
+        ],
+        "btts_yes": 1.91,
+        "btts_no": 1.8
+      }
+    },
+    "Portugal_vs_Congo DR": {
+      "date": "2026-06-18",
+      "group": "K",
+      "matchday": 1,
+      "bet365": {
+        "1X2": [
+          1.25,
+          5.5,
+          10.0
+        ],
+        "over_under_2.5": [
+          1.73,
+          2.1
+        ],
+        "asian_handicap_-1.5": [
+          1.8,
+          2.05
+        ],
+        "btts_yes": 2.2,
+        "btts_no": 1.62
+      }
+    },
+    "England_vs_Croatia": {
+      "date": "2026-06-19",
+      "group": "L",
+      "matchday": 1,
+      "bet365": {
+        "1X2": [
+          1.73,
+          3.5,
+          4.75
+        ],
+        "over_under_2.5": [
+          2.0,
+          1.8
+        ],
+        "asian_handicap_-0.5": [
+          1.85,
+          2.0
+        ],
+        "btts_yes": 1.83,
+        "btts_no": 1.83
+      }
+    }
+  },
+  "api_error": "No API key. Set ODDS_API_KEY env var or sign up at the-odds-api.com"
+}

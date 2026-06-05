@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "description": "Key historical head-to-head records for 2026 World Cup group stage matchups",
+    "source": "worldfootball.net, englandstats.com, 11v11.com, national-football-teams.com",
+    "date": "2026-06-05"
+  },
+  "head_to_head": {
+    "England_vs_Croatia": {
+      "total": 11, "eng_wins": 6, "draws": 2, "cro_wins": 3,
+      "last_5": "W D W L D",
+      "wc_meetings": "2018 SF: Croatia 2-1 England (AET)",
+      "biggest_win": "England 5-1 Croatia (2009 WCQ)",
+      "note": "England dominant in qualifying, Croatia won the one that mattered"
+    },
+    "Brazil_vs_Morocco": {
+      "total": 3, "bra_wins": 2, "draws": 0, "mar_wins": 1,
+      "last_meeting": "2023 Friendly: Morocco 2-1 Brazil",
+      "wc_meetings": "1998 Group: Brazil 3-0 Morocco",
+      "note": "Morocco beat Brazil in 2023 — psychological edge"
+    },
+    "France_vs_Senegal": {
+      "total": 1, "fra_wins": 0, "draws": 0, "sen_wins": 1,
+      "wc_meetings": "2002 Opening Match: Senegal 1-0 France (iconic upset)",
+      "note": "Only meeting was one of biggest World Cup upsets ever"
+    },
+    "Argentina_vs_Algeria": {
+      "total": 1, "arg_wins": 1, "draws": 0, "alg_wins": 0,
+      "last_meeting": "2007 Friendly: Argentina 4-3 Algeria",
+      "note": "No competitive meetings"
+    },
+    "Germany_vs_Curacao": {
+      "total": 0, "note": "First-ever meeting — Curacao's World Cup debut"
+    },
+    "Spain_vs_Uruguay": {
+      "total": 10, "esp_wins": 5, "draws": 4, "uru_wins": 1,
+      "last_meeting": "2013 Confederations Cup: Spain 2-1 Uruguay",
+      "note": "Spain dominant historically but only 1 of last 4 was a Spain win"
+    },
+    "Netherlands_vs_Japan": {
+      "total": 3, "ned_wins": 2, "draws": 1, "jpn_wins": 0,
+      "last_meeting": "2013 Friendly: Japan 2-2 Netherlands",
+      "wc_meetings": "2010 Group: Netherlands 1-0 Japan",
+      "note": "Netherlands never lost but Japan getting closer"
+    },
+    "Portugal_vs_Colombia": {
+      "total": 2, "por_wins": 0, "draws": 0, "col_wins": 2,
+      "last_meeting": "2014 Friendly: Colombia 1-0 Portugal",
+      "note": "Colombia have won both meetings — psychological edge"
+    },
+    "Belgium_vs_Egypt": {
+      "total": 3, "bel_wins": 2, "draws": 1, "egy_wins": 0,
+      "last_meeting": "2018 Friendly: Belgium 3-0 Egypt",
+      "wc_meetings": "1934 R16: Belgium 2-4 Egypt (only competitive meeting)",
+      "note": "Belgium dominant recently but Egypt won the only competitive match (1934)"
+    },
+    "USA_vs_Paraguay": {
+      "total": 4, "usa_wins": 2, "draws": 1, "par_wins": 1,
+      "last_meeting": "2016 Copa América: USA 1-0 Paraguay",
+      "note": "Home advantage USA; Paraguay have never beaten USA on US soil"
+    },
+    "Mexico_vs_South_Africa": {
+      "total": 4, "mex_wins": 2, "draws": 1, "rsa_wins": 1,
+      "wc_meetings": "2010 Opening Match: South Africa 1-1 Mexico",
+      "note": "Familiar opening match opponents; Mexico 2-0 on neutral ground in 2005"
+    },
+    "Canada_vs_Bosnia-Herzegovina": {
+      "total": 0, "note": "First-ever meeting"
+    },
+    "Norway_vs_France": {
+      "total": 16, "nor_wins": 4, "draws": 4, "fra_wins": 8,
+      "last_meeting": "2024 Friendly: France 3-1 Norway",
+      "note": "France historically dominant but Norway beat them in 1998 WC warmup"
+    },
+    "Argentina_vs_Austria": {
+      "total": 3, "arg_wins": 2, "draws": 1, "aut_wins": 0,
+      "last_meeting": "2007 Friendly: Argentina 1-1 Austria",
+      "wc_meetings": "1978 Group: Argentina 2-0 Austria; 1982 Group: Argentina 2-2 Austria",
+      "note": "Argentina unbeaten but meetings are old"
+    },
+    "Scotland_vs_Haiti": {
+      "total": 0, "note": "First-ever meeting"
+    },
+    "Iran_vs_New_Zealand": {
+      "total": 6, "irn_wins": 3, "draws": 2, "nzl_wins": 1,
+      "last_meeting": "2015 Friendly: Iran 2-0 New Zealand",
+      "note": "Asian vs Oceania — Iran typically dominant"
+    },
+    "Sweden_vs_Tunisia": {
+      "total": 1, "swe_wins": 1, "draws": 0, "tun_wins": 0,
+      "wc_meetings": "1978 Group: Sweden 1-0 Tunisia",
+      "note": "Only meeting was 48 years ago"
+    }
+  },
+  "rivalry_games": [
+    {"match": "England vs Croatia", "type": "2018 WC SF rematch", "intensity": "HIGH"},
+    {"match": "Brazil vs Morocco", "type": "2023 upset rematch", "intensity": "HIGH"},
+    {"match": "France vs Senegal", "type": "2002 opening match rematch", "intensity": "VERY HIGH"},
+    {"match": "Spain vs Uruguay", "type": "Historic football nations", "intensity": "MEDIUM"},
+    {"match": "Portugal vs Colombia", "type": "Colombia psychological edge", "intensity": "MEDIUM"},
+    {"match": "Norway vs France", "type": "Mbappé vs Haaland narrative", "intensity": "VERY HIGH"},
+    {"match": "Uruguay vs Spain", "type": "Group H decider", "intensity": "HIGH"},
+    {"match": "Argentina vs Algeria", "type": "Messi's final campaign", "intensity": "MEDIUM"}
+  ]
+}

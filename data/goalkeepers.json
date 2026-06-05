@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "description": "Key World Cup 2026 Goalkeepers — 2025-26 Season Stats",
+    "source": "OneFootball, FotMob, Premier League official, Vanguard",
+    "date": "2026-06-05"
+  },
+  "goalkeepers": {
+    "David Raya": {"nation": "Spain", "club": "Arsenal", "league": "Premier League", "clean_sheets": 19, "apps": 37, "mins": 3330, "note": "3rd straight Golden Glove; Arsenal champion"},
+    "Jordan Pickford": {"nation": "England", "club": "Everton", "league": "Premier League", "clean_sheets": 12, "apps": 38, "mins": 3420, "saves": 125, "note": "Played every minute"},
+    "Thibaut Courtois": {"nation": "Belgium", "club": "Real Madrid", "league": "La Liga", "clean_sheets": 14, "apps": 34, "note": "Top 3 La Liga clean sheets"},
+    "Alisson": {"nation": "Brazil", "club": "Liverpool", "league": "Premier League", "clean_sheets": 12, "apps": 33, "note": "Consistent elite shot-stopper"},
+    "Gregor Kobel": {"nation": "Switzerland", "club": "Borussia Dortmund", "league": "Bundesliga", "clean_sheets": 11, "apps": 32, "note": "Swiss #1"},
+    "Manuel Neuer": {"nation": "Germany", "club": "Bayern Munich", "league": "Bundesliga", "clean_sheets": 13, "apps": 30, "note": "Returned to NT at 40"},
+    "Mike Maignan": {"nation": "France", "club": "AC Milan", "league": "Serie A", "clean_sheets": 12, "apps": 33, "note": "France #1"},
+    "Emiliano Martínez": {"nation": "Argentina", "club": "Aston Villa", "league": "Premier League", "clean_sheets": 10, "apps": 35, "note": "2022 WC Golden Glove, penalty specialist"},
+    "Yassine Bounou": {"nation": "Morocco", "club": "Al Hilal", "league": "Saudi Pro League", "clean_sheets": 16, "apps": 30, "note": "2022 WC hero, top African GK"},
+    "Guillermo Ochoa": {"nation": "Mexico", "club": "—", "league": "—", "clean_sheets": null, "note": "6th World Cup, big-game performer"},
+    "Bart Verbruggen": {"nation": "Netherlands", "club": "Brighton", "league": "Premier League", "clean_sheets": 10, "apps": 38, "mins": 3420, "note": "Every PL minute"},
+    "Ronwen Williams": {"nation": "South Africa", "club": "—", "league": "—", "clean_sheets": null, "note": "AFCON hero, penalty specialist"}
+  },
+  "team_gk_rating": {
+    "description": "Composite goalkeeper score: clean sheets * 5 + saves * 0.1 + WC experience bonus. Max ~100.",
+    "ratings": {
+      "Spain": 88, "England": 82, "Belgium": 80, "Brazil": 78, "France": 78,
+      "Germany": 76, "Argentina": 78, "Switzerland": 74, "Morocco": 72,
+      "Netherlands": 72, "Portugal": 68, "Mexico": 68, "Croatia": 66,
+      "Uruguay": 66, "South Africa": 60, "Denmark": 70
+    }
+  }
+}

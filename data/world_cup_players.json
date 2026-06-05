@@ -1,0 +1,498 @@
+{
+  "_meta": {
+    "description": "2026 FIFA World Cup - All 48 Teams Squad Data with 2024-25 & 2025-26 Club Performance",
+    "tournament": "2026 FIFA World Cup",
+    "dates": "June 11 – July 19, 2026",
+    "hosts": ["USA", "Canada", "Mexico"],
+    "total_teams": 48,
+    "total_players": 1248,
+    "format": "16 groups of 3 teams, top 2 advance to Round of 32",
+    "data_sources": ["Transfermarkt", "Sofascore", "Squawka", "Premier League", "La Liga", "Bundesliga", "Serie A", "Ligue 1", "UEFA", "OneFootball"],
+    "last_updated": "2026-06-05"
+  },
+  "groups": {
+    "A": {
+      "teams": {
+        "Mexico": {
+          "fifa_rank": 15,
+          "confederation": "CONCACAF",
+          "players": [
+            {"name": "Guillermo Ochoa", "position": "GK", "age": 40, "caps": 150, "club": "—", "league": "—", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": "6th World Cup"},
+            {"name": "Edson Álvarez", "position": "MF", "age": 28, "caps": 85, "club": "West Ham", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Santiago Giménez", "position": "FW", "age": 25, "caps": 40, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Gilberto Mora", "position": "FW", "age": 17, "caps": 5, "club": "—", "league": "—", "goals_2425": 0, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Youngest player (17y 240d)"}
+          ]
+        },
+        "South Africa": {
+          "fifa_rank": 67,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Ronwen Williams", "position": "GK", "age": 34, "caps": 50, "club": "—", "league": "—", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": ""},
+            {"name": "Lyle Foster", "position": "FW", "age": 25, "caps": 20, "club": "Burnley", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Themba Zwane", "position": "FW", "age": 36, "caps": 55, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "South Korea": {
+          "fifa_rank": 23,
+          "confederation": "AFC",
+          "players": [
+            {"name": "Son Heung-min", "position": "FW", "age": 33, "caps": 130, "club": "Tottenham", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Captain"},
+            {"name": "Kim Min-jae", "position": "DF", "age": 29, "caps": 70, "club": "Bayern Munich", "league": "Bundesliga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Lee Kang-in", "position": "MF", "age": 25, "caps": 45, "club": "PSG", "league": "Ligue 1", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Czech Republic": {
+          "fifa_rank": 35,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Tomáš Souček", "position": "MF", "age": 31, "caps": 80, "club": "West Ham", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Captain"},
+            {"name": "Patrik Schick", "position": "FW", "age": 30, "caps": 45, "club": "Bayer Leverkusen", "league": "Bundesliga", "goals_2425": 21, "goals_2526": 10, "assists_2526": null, "rating": 6.92, "notes": "2024-25: 21G in 19 starts, every 80.3min per goal"},
+            {"name": "Vladimír Coufal", "position": "DF", "age": 33, "caps": 55, "club": "West Ham", "league": "Premier League", "goals_2425": 0, "goals_2526": 0, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        }
+      }
+    },
+    "B": {
+      "teams": {
+        "Canada": {
+          "fifa_rank": 49,
+          "confederation": "CONCACAF",
+          "players": [
+            {"name": "Alphonso Davies", "position": "DF", "age": 25, "caps": 55, "club": "Bayern Munich", "league": "Bundesliga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Jonathan David", "position": "FW", "age": 26, "caps": 60, "club": "Lille", "league": "Ligue 1", "goals_2425": 16, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "2024-25 Ligue 1 4th top scorer"},
+            {"name": "Cyle Larin", "position": "FW", "age": 31, "caps": 75, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Bosnia-Herzegovina": {
+          "fifa_rank": 58,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Edin Džeko", "position": "FW", "age": 40, "caps": 135, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Ermedin Demirović", "position": "FW", "age": 28, "caps": 35, "club": "VfB Stuttgart", "league": "Bundesliga", "goals_2425": 15, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Sead Kolašinac", "position": "DF", "age": 32, "caps": 65, "club": "—", "league": "—", "goals_2425": 0, "goals_2526": 0, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Qatar": {
+          "fifa_rank": 60,
+          "confederation": "AFC",
+          "players": [
+            {"name": "Akram Afif", "position": "FW", "age": 29, "caps": 120, "club": "Al Sadd", "league": "Qatar Stars League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Almoez Ali", "position": "FW", "age": 29, "caps": 115, "club": "Al Duhail", "league": "Qatar Stars League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Switzerland": {
+          "fifa_rank": 14,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Granit Xhaka", "position": "MF", "age": 33, "caps": 135, "club": "Bayer Leverkusen", "league": "Bundesliga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Captain"},
+            {"name": "Manuel Akanji", "position": "DF", "age": 30, "caps": 75, "club": "Manchester City", "league": "Premier League", "goals_2425": 0, "goals_2526": 0, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Breel Embolo", "position": "FW", "age": 29, "caps": 80, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Gregor Kobel", "position": "GK", "age": 28, "caps": 25, "club": "Borussia Dortmund", "league": "Bundesliga", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": ""}
+          ]
+        }
+      }
+    },
+    "C": {
+      "teams": {
+        "Brazil": {
+          "fifa_rank": 3,
+          "confederation": "CONMEBOL",
+          "players": [
+            {"name": "Neymar", "position": "FW", "age": 34, "caps": 130, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Returns to NT; manager: Carlo Ancelotti"},
+            {"name": "Vinícius Júnior", "position": "FW", "age": 25, "caps": 40, "club": "Real Madrid", "league": "La Liga", "goals_2425": 11, "goals_2526": 16, "assists_2526": 6, "rating": 7.50, "notes": "G+A 22; 87 dribbles; form UP +45%"},
+            {"name": "Raphinha", "position": "FW", "age": 29, "caps": 35, "club": "Barcelona", "league": "La Liga", "goals_2425": 18, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "2024-25 UCL Golden Boot (13G); 2024-25 La Liga 18G"},
+            {"name": "Gabriel Martinelli", "position": "FW", "age": 24, "caps": 20, "club": "Arsenal", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "6 UCL goals 2025-26"},
+            {"name": "Alisson", "position": "GK", "age": 33, "caps": 75, "club": "Liverpool", "league": "Premier League", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": ""},
+            {"name": "Casemiro", "position": "MF", "age": 34, "caps": 85, "club": "Manchester United", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "7.03 interceptions/game"}
+          ]
+        },
+        "Morocco": {
+          "fifa_rank": 11,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Achraf Hakimi", "position": "DF", "age": 27, "caps": 85, "club": "PSG", "league": "Ligue 1", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Brahim Díaz", "position": "FW", "age": 26, "caps": 15, "club": "Real Madrid", "league": "La Liga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Yassine Bounou", "position": "GK", "age": 35, "caps": 75, "club": "—", "league": "—", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": ""}
+          ]
+        },
+        "Haiti": {
+          "fifa_rank": 87,
+          "confederation": "CONCACAF",
+          "players": [
+            {"name": "Jean-Ricner Bellegarde", "position": "MF", "age": 27, "caps": 20, "club": "Wolves", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Frantzdy Pierrot", "position": "FW", "age": 31, "caps": 45, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Scotland": {
+          "fifa_rank": 42,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Andy Robertson", "position": "DF", "age": 32, "caps": 85, "club": "Liverpool", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Captain"},
+            {"name": "Scott McTominay", "position": "MF", "age": 29, "caps": 65, "club": "Napoli", "league": "Serie A", "goals_2425": 12, "goals_2526": 10, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "John McGinn", "position": "MF", "age": 31, "caps": 75, "club": "Aston Villa", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        }
+      }
+    },
+    "D": {
+      "teams": {
+        "United States": {
+          "fifa_rank": 11,
+          "confederation": "CONCACAF",
+          "players": [
+            {"name": "Christian Pulisic", "position": "FW", "age": 27, "caps": 80, "club": "AC Milan", "league": "Serie A", "goals_2425": 11, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Manager: Mauricio Pochettino"},
+            {"name": "Folarin Balogun", "position": "FW", "age": 24, "caps": 25, "club": "Monaco", "league": "Ligue 1", "goals_2425": null, "goals_2526": 13, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Weston McKennie", "position": "MF", "age": 27, "caps": 65, "club": "Juventus", "league": "Serie A", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Tyler Adams", "position": "MF", "age": 27, "caps": 55, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Paraguay": {
+          "fifa_rank": 52,
+          "confederation": "CONMEBOL",
+          "players": [
+            {"name": "Miguel Almirón", "position": "MF", "age": 32, "caps": 70, "club": "Newcastle", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Julio Enciso", "position": "FW", "age": 22, "caps": 25, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Australia": {
+          "fifa_rank": 38,
+          "confederation": "AFC",
+          "players": [
+            {"name": "Harry Souttar", "position": "DF", "age": 27, "caps": 40, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Nestory Irankunda", "position": "FW", "age": 20, "caps": 15, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Turkey": {
+          "fifa_rank": 32,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Hakan Çalhanoğlu", "position": "MF", "age": 32, "caps": 95, "club": "Inter Milan", "league": "Serie A", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "UCL pass accuracy 94.84%"},
+            {"name": "Arda Güler", "position": "FW", "age": 21, "caps": 25, "club": "Real Madrid", "league": "La Liga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Kenan Yıldız", "position": "FW", "age": 21, "caps": 20, "club": "Juventus", "league": "Serie A", "goals_2425": null, "goals_2526": 10, "assists_2526": null, "rating": null, "notes": "78 successful dribbles"}
+          ]
+        }
+      }
+    },
+    "E": {
+      "teams": {
+        "Germany": {
+          "fifa_rank": 10,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Manuel Neuer", "position": "GK", "age": 40, "caps": 130, "club": "Bayern Munich", "league": "Bundesliga", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": "Returns to NT"},
+            {"name": "Jamal Musiala", "position": "FW", "age": 23, "caps": 45, "club": "Bayern Munich", "league": "Bundesliga", "goals_2425": 12, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Florian Wirtz", "position": "MF", "age": 23, "caps": 40, "club": "Liverpool", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "58 key passes PL 2025-26"},
+            {"name": "Kai Havertz", "position": "FW", "age": 26, "caps": 60, "club": "Arsenal", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Joshua Kimmich", "position": "MF", "age": 31, "caps": 100, "club": "Bayern Munich", "league": "Bundesliga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "2448 accurate passes"}
+          ]
+        },
+        "Curacao": {
+          "fifa_rank": 90,
+          "confederation": "CONCACAF",
+          "players": [
+            {"name": "Riechedly Bazoer", "position": "DF", "age": 29, "caps": 15, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Debut nation"},
+            {"name": "Jurgen Locadia", "position": "FW", "age": 32, "caps": 10, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Ivory Coast": {
+          "fifa_rank": 45,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Franck Kessié", "position": "MF", "age": 29, "caps": 85, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Simon Adingra", "position": "FW", "age": 24, "caps": 20, "club": "Brighton", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Nicolas Pépé", "position": "FW", "age": 30, "caps": 55, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Amad Diallo", "position": "FW", "age": 23, "caps": 20, "club": "Manchester United", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Ecuador": {
+          "fifa_rank": 36,
+          "confederation": "CONMEBOL",
+          "players": [
+            {"name": "Moisés Caicedo", "position": "MF", "age": 24, "caps": 55, "club": "Chelsea", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "58 interceptions (2nd in PL)"},
+            {"name": "Piero Hincapié", "position": "DF", "age": 24, "caps": 45, "club": "Bayer Leverkusen", "league": "Bundesliga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Kendry Páez", "position": "MF", "age": 19, "caps": 20, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Enner Valencia", "position": "FW", "age": 36, "caps": 95, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        }
+      }
+    },
+    "F": {
+      "teams": {
+        "Netherlands": {
+          "fifa_rank": 6,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Virgil van Dijk", "position": "DF", "age": 34, "caps": 85, "club": "Liverpool", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "2482 accurate passes; Captain"},
+            {"name": "Frenkie de Jong", "position": "MF", "age": 29, "caps": 65, "club": "Barcelona", "league": "La Liga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Cody Gakpo", "position": "FW", "age": 27, "caps": 40, "club": "Liverpool", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "54 shots, 21 on target"},
+            {"name": "Memphis Depay", "position": "FW", "age": 32, "caps": 100, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Japan": {
+          "fifa_rank": 18,
+          "confederation": "AFC",
+          "players": [
+            {"name": "Takehiro Tomiyasu", "position": "DF", "age": 27, "caps": 55, "club": "Arsenal", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Wataru Endo", "position": "MF", "age": 33, "caps": 70, "club": "Liverpool", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Daizen Maeda", "position": "FW", "age": 28, "caps": 30, "club": "Celtic", "league": "Scottish Premiership", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Sweden": {
+          "fifa_rank": 25,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Alexander Isak", "position": "FW", "age": 26, "caps": 55, "club": "Newcastle", "league": "Premier League", "goals_2425": 23, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Manager: Graham Potter; 2024-25 PL 2nd top scorer"},
+            {"name": "Viktor Gyökeres", "position": "FW", "age": 28, "caps": 30, "club": "Arsenal", "league": "Premier League", "goals_2425": null, "goals_2526": 14, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Anthony Elanga", "position": "FW", "age": 24, "caps": 25, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Kulusevski out injured"}
+          ]
+        },
+        "Tunisia": {
+          "fifa_rank": 39,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Hannibal Mejbri", "position": "MF", "age": 23, "caps": 40, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Ellyes Skhiri", "position": "MF", "age": 31, "caps": 75, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        }
+      }
+    },
+    "G": {
+      "teams": {
+        "Belgium": {
+          "fifa_rank": 5,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Kevin De Bruyne", "position": "MF", "age": 34, "caps": 110, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Captain"},
+            {"name": "Romelu Lukaku", "position": "FW", "age": 33, "caps": 125, "club": "Napoli", "league": "Serie A", "goals_2425": 14, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Thibaut Courtois", "position": "GK", "age": 34, "caps": 105, "club": "Real Madrid", "league": "La Liga", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": ""},
+            {"name": "Jérémy Doku", "position": "FW", "age": 24, "caps": 35, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "84 successful dribbles"}
+          ]
+        },
+        "Egypt": {
+          "fifa_rank": 33,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Mohamed Salah", "position": "FW", "age": 33, "caps": 105, "club": "Liverpool", "league": "Premier League", "goals_2425": 29, "goals_2526": null, "assists_2425": 18, "assists_2526": null, "rating": null, "notes": "2024-25: G+A=47, PL Golden Boot + Playmaker; Captain"},
+            {"name": "Omar Marmoush", "position": "FW", "age": 27, "caps": 40, "club": "Manchester City", "league": "Premier League", "goals_2425": 15, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "15G before mid-season transfer to Man City"}
+          ]
+        },
+        "Iran": {
+          "fifa_rank": 20,
+          "confederation": "AFC",
+          "players": [
+            {"name": "Mehdi Taremi", "position": "FW", "age": 33, "caps": 90, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Sardar Azmoun", "position": "FW", "age": 31, "caps": 85, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "NOT in squad (absent from listed names)"}
+          ]
+        },
+        "New Zealand": {
+          "fifa_rank": 105,
+          "confederation": "OFC",
+          "players": [
+            {"name": "Chris Wood", "position": "FW", "age": 34, "caps": 80, "club": "Nottingham Forest", "league": "Premier League", "goals_2425": 20, "goals_2526": null, "assists_2425": null, "assists_2526": null, "rating": null, "notes": "2024-25: 20G, career best"}
+          ]
+        }
+      }
+    },
+    "H": {
+      "teams": {
+        "Spain": {
+          "fifa_rank": 2,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Lamine Yamal", "position": "FW", "age": 18, "caps": 30, "club": "Barcelona", "league": "La Liga", "goals_2425": 6, "goals_2526": 16, "assists_2526": 12, "rating": 7.93, "notes": "⭐ HIGHEST rating in top 5 leagues (7.93); 133 dribbles (#1); 16G+12A=28 G+A; youngest double-double in La Liga history"},
+            {"name": "Pedri", "position": "MF", "age": 23, "caps": 35, "club": "Barcelona", "league": "La Liga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": 7.56, "notes": ""},
+            {"name": "Rodri", "position": "MF", "age": 29, "caps": 65, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Nico Williams", "position": "FW", "age": 23, "caps": 25, "club": "Athletic Bilbao", "league": "La Liga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Pau Cubarsí", "position": "DF", "age": 19, "caps": 10, "club": "Barcelona", "league": "La Liga", "goals_2425": 0, "goals_2526": 0, "assists_2526": null, "rating": null, "notes": "2628 accurate passes (2nd in La Liga)"}
+          ]
+        },
+        "Cape Verde": {
+          "fifa_rank": 72,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Logan Costa", "position": "DF", "age": 25, "caps": 25, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Debut nation"}
+          ]
+        },
+        "Saudi Arabia": {
+          "fifa_rank": 55,
+          "confederation": "AFC",
+          "players": [
+            {"name": "Salem Al-Dawsari", "position": "MF", "age": 34, "caps": 95, "club": "Al Hilal", "league": "Saudi Pro League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Uruguay": {
+          "fifa_rank": 13,
+          "confederation": "CONMEBOL",
+          "players": [
+            {"name": "Federico Valverde", "position": "MF", "age": 27, "caps": 70, "club": "Real Madrid", "league": "La Liga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Captain"},
+            {"name": "Darwin Núñez", "position": "FW", "age": 26, "caps": 35, "club": "Liverpool", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Ronald Araújo", "position": "DF", "age": 27, "caps": 30, "club": "Barcelona", "league": "La Liga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        }
+      }
+    },
+    "I": {
+      "teams": {
+        "France": {
+          "fifa_rank": 1,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Kylian Mbappé", "position": "FW", "age": 27, "caps": 96, "club": "Real Madrid", "league": "La Liga", "goals_2425": 31, "goals_2526": 25, "assists_2526": 5, "rating": 7.74, "notes": "2025-26: La Liga Pichichi(25G) + UCL top scorer(15G); xG 23.24; shots/game 4.8; 2018 WC winner; Career: 56 intl goals"},
+            {"name": "Ousmane Dembélé", "position": "FW", "age": 29, "caps": 60, "club": "PSG", "league": "Ligue 1", "goals_2425": 21, "goals_2526": 10, "assists_2526": null, "rating": null, "notes": "2024-25 Ligue 1 Golden Boot(21G); form DOWN -52%"},
+            {"name": "Michael Olise", "position": "MF", "age": 24, "caps": 15, "club": "Bayern Munich", "league": "Bundesliga", "goals_2425": null, "goals_2526": 15, "assists_2526": 21, "rating": 7.87, "notes": "🔥 ASSIST KING: 21 assists (#1 across top 5 leagues); G+A=36 (#2 overall); key passes 2nd in PL"},
+            {"name": "William Saliba", "position": "DF", "age": 25, "caps": 35, "club": "Arsenal", "league": "Premier League", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": ""},
+            {"name": "N'Golo Kanté", "position": "MF", "age": 35, "caps": 65, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "2018 WC winner"},
+            {"name": "Bradley Barcola", "position": "FW", "age": 23, "caps": 15, "club": "PSG", "league": "Ligue 1", "goals_2425": 14, "goals_2526": 11, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Senegal": {
+          "fifa_rank": 17,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Sadio Mané", "position": "FW", "age": 34, "caps": 126, "club": "Al Nassr", "league": "Saudi Pro League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "51G+35A in 129 games for Al Nassr"},
+            {"name": "Kalidou Koulibaly", "position": "DF", "age": 34, "caps": 95, "club": "—", "league": "—", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": "Captain"},
+            {"name": "Nicolas Jackson", "position": "FW", "age": 24, "caps": 25, "club": "Chelsea", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Iraq": {
+          "fifa_rank": 56,
+          "confederation": "AFC",
+          "players": [
+            {"name": "Aymen Hussein", "position": "FW", "age": 33, "caps": 93, "club": "Al Karma", "league": "Iraq Stars League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "33 intl goals (5th all-time Iraq)"},
+            {"name": "Zidane Iqbal", "position": "MF", "age": 23, "caps": 15, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Norway": {
+          "fifa_rank": 44,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Erling Haaland", "position": "FW", "age": 25, "caps": 49, "club": "Manchester City", "league": "Premier League", "goals_2425": 22, "goals_2526": 27, "assists_2526": 8, "rating": 7.44, "notes": "2025-26 PL Golden Boot(27G); xG 25.20(#2); 59 shots on target(#1 in PL); form UP +23%; 55 intl goals in 49 caps; 3rd straight 25+ G season"},
+            {"name": "Martin Ødegaard", "position": "MF", "age": 27, "caps": 67, "club": "Arsenal", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Captain; youngest Norway player ever (15y 253d)"},
+            {"name": "Alexander Sørloth", "position": "FW", "age": 30, "caps": 65, "club": "Atlético Madrid", "league": "La Liga", "goals_2425": 20, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "6 UCL goals 2025-26; 2024-25 La Liga 4th top scorer(20G)"},
+            {"name": "Oscar Bobb", "position": "MF", "age": 22, "caps": 15, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        }
+      }
+    },
+    "J": {
+      "teams": {
+        "Argentina": {
+          "fifa_rank": 4,
+          "confederation": "CONMEBOL",
+          "players": [
+            {"name": "Lionel Messi", "position": "FW", "age": 38, "caps": 198, "club": "Inter Miami", "league": "MLS", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "6th World Cup; 116 intl goals + 64 intl assists; 8x Ballon d'Or; 2022 WC Winner"},
+            {"name": "Lautaro Martínez", "position": "FW", "age": 28, "caps": 75, "club": "Inter Milan", "league": "Serie A", "goals_2425": 12, "goals_2526": 17, "assists_2526": 6, "rating": null, "notes": "2025-26 Capocannoniere(17G); 175G for Inter(3rd all-time); form UP +42%; 36 intl goals; 2024 Copa América Golden Boot"},
+            {"name": "Enzo Fernández", "position": "MF", "age": 25, "caps": 35, "club": "Chelsea", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "60 key passes, 7.10 xAG; 68 key passes PL"},
+            {"name": "Emiliano Martínez", "position": "GK", "age": 33, "caps": 55, "club": "Aston Villa", "league": "Premier League", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": "2022 WC Golden Glove"},
+            {"name": "Cristian Romero", "position": "DF", "age": 28, "caps": 45, "club": "Tottenham", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Algeria": {
+          "fifa_rank": 42,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Riyad Mahrez", "position": "FW", "age": 35, "caps": 113, "club": "Al Ahli", "league": "Saudi Pro League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "38 intl goals + 44 intl assists; 2019 AFCON winner"},
+            {"name": "Rayan Aït-Nouri", "position": "DF", "age": 25, "caps": 20, "club": "Wolves", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Mohamed Amoura", "position": "FW", "age": 25, "caps": 44, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "10 goals in CAF WC qualifying (top scorer)"}
+          ]
+        },
+        "Austria": {
+          "fifa_rank": 28,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "David Alaba", "position": "DF", "age": 33, "caps": 115, "club": "Real Madrid", "league": "La Liga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Captain"},
+            {"name": "Marko Arnautović", "position": "FW", "age": 37, "caps": 147, "club": "Red Star Belgrade", "league": "Serbian SuperLiga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Most-capped Austrian(147); all-time top scorer(47G); 8 qualifying goals"},
+            {"name": "Konrad Laimer", "position": "MF", "age": 29, "caps": 56, "club": "Bayern Munich", "league": "Bundesliga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "7G+9A intl; domestic double winner Bayern"}
+          ]
+        },
+        "Jordan": {
+          "fifa_rank": 98,
+          "confederation": "AFC",
+          "players": [
+            {"name": "Musa Al-Taamari", "position": "FW", "age": 28, "caps": 90, "club": "Rennes", "league": "Ligue 1", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "24 intl goals; 1st Jordanian to play+score in Big 5 league; Debut nation"},
+            {"name": "Ali Olwan", "position": "FW", "age": 25, "caps": 77, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "27 intl goals; hat-trick sealed WC qualification"}
+          ]
+        }
+      }
+    },
+    "K": {
+      "teams": {
+        "Portugal": {
+          "fifa_rank": 7,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Cristiano Ronaldo", "position": "FW", "age": 41, "caps": 226, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "6th World Cup; 143 intl goals (MEN'S RECORD); 22 WC apps; only player to score at 5 WCs"},
+            {"name": "Bruno Fernandes", "position": "MF", "age": 31, "caps": 80, "club": "Manchester United", "league": "Premier League", "goals_2425": null, "goals_2526": 8, "assists_2526": 21, "rating": 7.61, "notes": "🔥 ASSIST KING: PL RECORD 21 assists; 137 key passes (#1 PL); 103 total key passes; xAG 10.94 (#1 PL)"},
+            {"name": "Bernardo Silva", "position": "MF", "age": 31, "caps": 105, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Rafael Leão", "position": "FW", "age": 26, "caps": 40, "club": "AC Milan", "league": "Serie A", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Rúben Dias", "position": "DF", "age": 29, "caps": 70, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Congo DR": {
+          "fifa_rank": 62,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Yoane Wissa", "position": "FW", "age": 29, "caps": 30, "club": "Brentford", "league": "Premier League", "goals_2425": 19, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "2024-25: 19G PL"},
+            {"name": "Aaron Wan-Bissaka", "position": "DF", "age": 28, "caps": 10, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Uzbekistan": {
+          "fifa_rank": 68,
+          "confederation": "AFC",
+          "players": [
+            {"name": "Abdukodir Khusanov", "position": "DF", "age": 22, "caps": 30, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Debut nation"}
+          ]
+        },
+        "Colombia": {
+          "fifa_rank": 16,
+          "confederation": "CONMEBOL",
+          "players": [
+            {"name": "Luis Díaz", "position": "FW", "age": 29, "caps": 60, "club": "Bayern Munich", "league": "Bundesliga", "goals_2425": null, "goals_2526": 15, "assists_2526": 17, "rating": null, "notes": "🔥 BREAKOUT: G+A=32 (#4 overall); 15G+17A at Bayern"},
+            {"name": "James Rodríguez", "position": "MF", "age": 34, "caps": 105, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "Captain"}
+          ]
+        }
+      }
+    },
+    "L": {
+      "teams": {
+        "England": {
+          "fifa_rank": 8,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Harry Kane", "position": "FW", "age": 32, "caps": 105, "club": "Bayern Munich", "league": "Bundesliga", "goals_2425": 26, "goals_2526": 36, "assists_2526": 5, "rating": 7.84, "notes": "🏆 #1 SCORER: 36G Bundesliga(Golden Boot x3); xG 26.42(#1 Europe); 63G all comps; 4 hat-tricks; G+A=41(#1); form UP +38%; Captain"},
+            {"name": "Jude Bellingham", "position": "MF", "age": 23, "caps": 45, "club": "Real Madrid", "league": "La Liga", "goals_2425": 7, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Bukayo Saka", "position": "FW", "age": 24, "caps": 50, "club": "Arsenal", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Declan Rice", "position": "MF", "age": 27, "caps": 65, "club": "Arsenal", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "7.24 xAG, 56 key passes PL"},
+            {"name": "Jordan Pickford", "position": "GK", "age": 32, "caps": 75, "club": "Everton", "league": "Premier League", "goals_2425": 0, "goals_2526": 0, "assists_2526": 0, "rating": null, "notes": ""}
+          ]
+        },
+        "Croatia": {
+          "fifa_rank": 12,
+          "confederation": "UEFA",
+          "players": [
+            {"name": "Luka Modrić", "position": "MF", "age": 40, "caps": 185, "club": "AC Milan", "league": "Serie A", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": "2006 accurate passes; Captain"},
+            {"name": "Joško Gvardiol", "position": "DF", "age": 24, "caps": 45, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Mateo Kovačić", "position": "MF", "age": 32, "caps": 115, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Andrej Kramarić", "position": "FW", "age": 35, "caps": 100, "club": "TSG Hoffenheim", "league": "Bundesliga", "goals_2425": null, "goals_2526": 10, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Ghana": {
+          "fifa_rank": 50,
+          "confederation": "CAF",
+          "players": [
+            {"name": "Antoine Semenyo", "position": "FW", "age": 26, "caps": 25, "club": "Manchester City", "league": "Premier League", "goals_2425": null, "goals_2526": 17, "assists_2526": 4, "rating": null, "notes": "17G: 10 for Bournemouth + 7 for Man City after Jan transfer; form UP significantly"},
+            {"name": "Thomas Partey", "position": "MF", "age": 33, "caps": 55, "club": "Arsenal", "league": "Premier League", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""},
+            {"name": "Iñaki Williams", "position": "FW", "age": 31, "caps": 25, "club": "Athletic Bilbao", "league": "La Liga", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        },
+        "Panama": {
+          "fifa_rank": 61,
+          "confederation": "CONCACAF",
+          "players": [
+            {"name": "Adalberto Carrasquilla", "position": "MF", "age": 27, "caps": 60, "club": "—", "league": "—", "goals_2425": null, "goals_2526": null, "assists_2526": null, "rating": null, "notes": ""}
+          ]
+        }
+      }
+    }
+  }
+}

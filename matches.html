@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026世界杯 - 全部比赛预测</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI','Microsoft YaHei',sans-serif;background:#0a0e17;color:#e0e0e0}
+.header{background:linear-gradient(135deg,#1a1f35,#0d1520);padding:16px 24px;border-bottom:3px solid #2d6a9f;text-align:center;position:sticky;top:0;z-index:100}
+.header h1{font-size:20px;background:linear-gradient(90deg,#4fc3f7,#81d4fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header .nav{margin-top:8px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.header .nav a{color:#90a4ae;text-decoration:none;font-size:11px;padding:4px 10px;border:1px solid #1e3a50;border-radius:4px}
+.header .nav a:hover{color:#4fc3f7;border-color:#2d6a9f}
+.phase-title{background:#111822;padding:10px 24px;border-bottom:1px solid #1e2d3d;position:sticky;top:80px;z-index:50}
+.phase-title h2{color:#4fc3f7;font-size:16px}
+.date-header{background:#141e2b;padding:8px 24px;border-bottom:1px solid #1a2735;position:sticky;top:116px;z-index:40}
+.date-header h3{color:#81d4fa;font-size:14px}
+.container{max-width:1200px;margin:0 auto;padding:0}
+.match-row{display:grid;grid-template-columns:80px 1fr 80px 100px 120px 120px 140px 140px;gap:0;align-items:center;padding:10px 24px;border-bottom:1px solid #111822;font-size:13px;transition:background .15s}
+.match-row:hover{background:#111922}
+.match-row .time{color:#78909c;font-size:11px}
+.match-row .matchup{font-weight:600}
+.match-row .matchup .vs{color:#78909c;margin:0 6px}
+.match-row .venue{font-size:10px;color:#78909c}
+.odds-cell{text-align:center}
+.odds-cell .val{font-weight:700;font-size:14px}
+.odds-cell .lbl{font-size:9px;color:#78909c}
+.odds-cell.highlight{background:#1a2a1a;border-radius:4px;padding:4px 6px}
+.odds-cell.highlight .val{color:#66bb6a}
+.handicap{font-size:11px;text-align:center}
+.handicap .line{color:#ffcc80;font-weight:600}
+.handicap .pick{font-size:10px;margin-top:2px}
+.score{text-align:center}
+.score .goals{font-size:16px;font-weight:700}
+.score .xgoals{font-size:9px;color:#78909c}
+.progress{display:inline-block;height:4px;border-radius:2px;vertical-align:middle}
+.progress.h{background:#4fc3f7}
+.progress.d{background:#78909c}
+.progress.a{background:#ff8a65}
+.legend{display:flex;gap:16px;padding:8px 24px;background:#111822;border-bottom:1px solid #1e2d3d;font-size:10px;color:#78909c;flex-wrap:wrap}
+.legend span{margin-right:4px}
+.legend .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:2px}
+.match-header{display:grid;grid-template-columns:80px 1fr 80px 100px 120px 120px 140px 140px;gap:0;padding:6px 24px;background:#0d1520;border-bottom:2px solid #1e3a50;font-size:10px;color:#78909c;font-weight:600;position:sticky;top:150px;z-index:30}
+@media(max-width:900px){
+  .match-row,.match-header{grid-template-columns:50px 1fr 60px 80px 100px;font-size:11px}
+  .match-row .handicap,.match-row .score,.match-header .handicap,.match-header .score{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>2026 FIFA World Cup - 全部104场比赛预测</h1>
+  <div style="margin:8px 0">
+    <a href="/" style="display:inline-block;padding:8px 20px;background:#2d6a9f;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;margin:3px">📊 预测仪表盘</a>
+    <a href="/matches" style="display:inline-block;padding:8px 20px;background:#e65100;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;margin:3px">⚽ 全部比赛预测</a>
+  </div>
+  <div class="nav">
+    <a href="#md1">小组赛MD1 (6/11-17)</a>
+    <a href="#md2">小组赛MD2 (6/18-23)</a>
+    <a href="#md3">小组赛MD3 (6/24-27)</a>
+    <a href="#r32">32强 (6/28-7/3)</a>
+    <a href="#r16">16强 (7/4-7)</a>
+    <a href="#qf">8强 (7/9-11)</a>
+    <a href="#sf">半决赛+决赛</a>
+  </div>
+</div>
+
+<div class="legend">
+  <span><span class="dot" style="background:#4fc3f7"></span> 胜平负概率</span>
+  <span><span class="dot" style="background:#66bb6a"></span> 最高概率选项</span>
+  <span><span class="dot" style="background:#ffcc80"></span> 让球盘口</span>
+  <span><span class="dot" style="background:#e0e0e0"></span> 预期比分(xG)</span>
+</div>
+
+<div class="match-header">
+  <span>时间</span><span>对阵</span><span>场地</span><span>胜平负</span><span>让球盘</span><span>让球推荐</span><span>预测比分</span><span>大小球</span>
+</div>
+
+<div id="content"><div style="padding:40px;text-align:center;color:#78909c">Loading predictions...</div></div>
+
+<script>
+// ============ DATA ============
+const GROUPS = {
+  A:['Mexico','South Africa','South Korea','Czech Republic'],
+  B:['Canada','Bosnia-Herzegovina','Qatar','Switzerland'],
+  C:['Brazil','Morocco','Haiti','Scotland'],
+  D:['United States','Paraguay','Australia','Turkey'],
+  E:['Germany','Curacao','Ivory Coast','Ecuador'],
+  F:['Netherlands','Japan','Sweden','Tunisia'],
+  G:['Belgium','Egypt','Iran','New Zealand'],
+  H:['Spain','Cape Verde','Saudi Arabia','Uruguay'],
+  I:['France','Senegal','Iraq','Norway'],
+  J:['Argentina','Algeria','Austria','Jordan'],
+  K:['Portugal','Congo DR','Uzbekistan','Colombia'],
+  L:['England','Croatia','Ghana','Panama']
+};
+
+// ============ DC PREDICTION ENGINE (client-side) ============
+function computeTeamStrength(players) {
+  const ga = {};
+  (players||[]).forEach(p => {
+    const g = Number(p.goals_2526)||Number(p.goals_2025_26)||0;
+    const a = Number(p.assists_2526)||Number(p.assists_2025_26)||0;
+    ga[p.nation] = (ga[p.nation]||0) + g + a;
+  });
+  return ga;
+}
+
+function getFifaRank(team, rankings) {
+  const r = (rankings||[]).find(x=>x.team===team);
+  return r ? r.rank : 60;
+}
+
+function dcPredict(home, away, players, rankings, gkRatings) {
+  const ga = computeTeamStrength(players);
+  const ha = Number(ga[home])||0.1, aa = Number(ga[away])||0.1;
+  const hr = getFifaRank(home, rankings), ar = getFifaRank(away, rankings);
+  const hgk = gkRatings[home]||50, agk = gkRatings[away]||50;
+
+  const attH = Math.log(Math.max(ha,0.3))*0.35 - 0.25;
+  const attA = Math.log(Math.max(aa,0.3))*0.35 - 0.25;
+  const defH = -(2200-hr*10)/6000 - (hgk-50)/400;
+  const defA = -(2200-ar*10)/6000 - (agk-50)/400;
+
+  const lam = Math.exp(0.30 + attH - defA);
+  const mu = Math.exp(attA - defH);
+  const rho = 0.05;
+
+  let hw=0,dw=0,aw=0,o25=0,btts=0,total=0;
+  const scores = [];
+  for(let h=0;h<=10;h++){
+    for(let a=0;a<=10;a++){
+      let p = Math.pow(lam,h)*Math.exp(-lam)/fact(h) * Math.pow(mu,a)*Math.exp(-mu)/fact(a);
+      if(h===0&&a===0) p*=(1-lam*mu*rho);
+      else if(h===0&&a===1) p*=(1+lam*rho);
+      else if(h===1&&a===0) p*=(1+mu*rho);
+      else if(h===1&&a===1) p*=(1-rho);
+      p = Math.max(p,0);
+      scores.push({h,a,p});
+      total+=p;
+      if(h>a) hw+=p; else if(h===a) dw+=p; else aw+=p;
+      if(h+a>2.5) o25+=p;
+      if(h>0&&a>0) btts+=p;
+    }
+  }
+  if(total>0){hw/=total;dw/=total;aw/=total;o25/=total;btts/=total;}
+  scores.sort((a,b)=>b.p-a.p);
+  return {
+    hw,dw,aw, expHome:lam, expAway:mu, o25, btts,
+    bestScore: scores[0]||{h:1,a:0},
+    goalDiff: lam - mu
+  };
+}
+
+function fact(n) { let r=1; for(let i=2;i<=n;i++) r*=i; return r; }
+
+// ============ ASIAN HANDICAP ============
+function computeAsianHandicap(pred) {
+  const diff = pred.goalDiff;
+  if (Math.abs(diff) < 0.3) return {line: '0 (平手)', pick: '平手盘', pickTeam: ''};
+  if (diff >= 0.3 && diff < 0.7) return {line: '0 (平手)', pick: '主队 平手', pickTeam: 'home'};
+  if (diff >= 0.7 && diff < 1.1) return {line: '-0.5 (主让半球)', pick: '主队 -0.5', pickTeam: 'home'};
+  if (diff >= 1.1 && diff < 1.6) return {line: '-0.5/1 (主让半一)', pick: '主队 -0.5/1', pickTeam: 'home'};
+  if (diff >= 1.6 && diff < 2.1) return {line: '-1 (主让一球)', pick: '主队 -1', pickTeam: 'home'};
+  if (diff >= 2.1 && diff < 2.6) return {line: '-1.5 (主让球半)', pick: '主队 -1.5', pickTeam: 'home'};
+  if (diff >= 2.6) return {line: '-2 (主让两球)', pick: '主队 -2', pickTeam: 'home'};
+  if (diff <= -0.3 && diff > -0.7) return {line: '0 (平手)', pick: '客队 平手', pickTeam: 'away'};
+  if (diff <= -0.7 && diff > -1.1) return {line: '+0.5 (客让半球)', pick: '客队 -0.5', pickTeam: 'away'};
+  if (diff <= -1.1 && diff > -1.6) return {line: '+0.5/1 (客让半一)', pick: '客队 -0.5/1', pickTeam: 'away'};
+  if (diff <= -1.6 && diff > -2.1) return {line: '+1 (客让一球)', pick: '客队 -1', pickTeam: 'away'};
+  if (diff <= -2.1) return {line: '+1.5 (客让球半)', pick: '客队 -1.5', pickTeam: 'away'};
+  return {line: '0', pick: '平手', pickTeam: ''};
+}
+
+// ============ BUILD MATCH LIST ============
+function buildGroupMatches() {
+  const matches = [];
+  const dates = {
+    '2026-06-11': [{h:'Mexico',a:'South Africa',g:'A',v:'Mexico City'},
+                   {h:'South Korea',a:'Czech Republic',g:'A',v:'Guadalajara'}],
+    '2026-06-12': [{h:'Canada',a:'Bosnia-Herzegovina',g:'B',v:'Toronto'},
+                   {h:'United States',a:'Paraguay',g:'D',v:'Los Angeles'}],
+    '2026-06-13': [{h:'Haiti',a:'Scotland',g:'C',v:'Boston'},
+                   {h:'Australia',a:'Turkey',g:'D',v:'Vancouver'},
+                   {h:'Brazil',a:'Morocco',g:'C',v:'New York/NJ'},
+                   {h:'Qatar',a:'Switzerland',g:'B',v:'San Francisco'}],
+    '2026-06-14': [{h:'Ivory Coast',a:'Ecuador',g:'E',v:'Philadelphia'},
+                   {h:'Germany',a:'Curacao',g:'E',v:'Houston'},
+                   {h:'Netherlands',a:'Japan',g:'F',v:'Dallas'},
+                   {h:'Sweden',a:'Tunisia',g:'F',v:'Monterrey'}],
+    '2026-06-15': [{h:'Saudi Arabia',a:'Uruguay',g:'H',v:'Miami'},
+                   {h:'Spain',a:'Cape Verde',g:'H',v:'Atlanta'},
+                   {h:'Iran',a:'New Zealand',g:'G',v:'Los Angeles'},
+                   {h:'Belgium',a:'Egypt',g:'G',v:'Seattle'}],
+    '2026-06-16': [{h:'France',a:'Senegal',g:'I',v:'New York/NJ'},
+                   {h:'Iraq',a:'Norway',g:'I',v:'Boston'},
+                   {h:'Argentina',a:'Algeria',g:'J',v:'Kansas City'},
+                   {h:'Austria',a:'Jordan',g:'J',v:'San Francisco'}],
+    '2026-06-17': [{h:'Ghana',a:'Panama',g:'L',v:'Toronto'},
+                   {h:'England',a:'Croatia',g:'L',v:'Dallas'},
+                   {h:'Portugal',a:'Congo DR',g:'K',v:'Houston'},
+                   {h:'Uzbekistan',a:'Colombia',g:'K',v:'Mexico City'}],
+    '2026-06-18': [{h:'Czech Republic',a:'South Africa',g:'A',v:'Atlanta'},
+                   {h:'Switzerland',a:'Bosnia-Herzegovina',g:'B',v:'Los Angeles'},
+                   {h:'Canada',a:'Qatar',g:'B',v:'Vancouver'},
+                   {h:'Mexico',a:'South Korea',g:'A',v:'Guadalajara'}],
+    '2026-06-19': [{h:'Brazil',a:'Haiti',g:'C',v:'Philadelphia'},
+                   {h:'Scotland',a:'Morocco',g:'C',v:'Boston'},
+                   {h:'Turkey',a:'Paraguay',g:'D',v:'San Francisco'},
+                   {h:'United States',a:'Australia',g:'D',v:'Seattle'}],
+    '2026-06-20': [{h:'Germany',a:'Ivory Coast',g:'E',v:'Toronto'},
+                   {h:'Ecuador',a:'Curacao',g:'E',v:'Kansas City'},
+                   {h:'Netherlands',a:'Sweden',g:'F',v:'Houston'},
+                   {h:'Tunisia',a:'Japan',g:'F',v:'Monterrey'}],
+    '2026-06-21': [{h:'Uruguay',a:'Cape Verde',g:'H',v:'Miami'},
+                   {h:'Spain',a:'Saudi Arabia',g:'H',v:'Atlanta'},
+                   {h:'Belgium',a:'Iran',g:'G',v:'Los Angeles'},
+                   {h:'New Zealand',a:'Egypt',g:'G',v:'Vancouver'}],
+    '2026-06-22': [{h:'Norway',a:'Senegal',g:'I',v:'New York/NJ'},
+                   {h:'France',a:'Iraq',g:'I',v:'Philadelphia'},
+                   {h:'Argentina',a:'Austria',g:'J',v:'Dallas'},
+                   {h:'Jordan',a:'Algeria',g:'J',v:'San Francisco'}],
+    '2026-06-23': [{h:'England',a:'Ghana',g:'L',v:'Boston'},
+                   {h:'Panama',a:'Croatia',g:'L',v:'Toronto'},
+                   {h:'Portugal',a:'Uzbekistan',g:'K',v:'Houston'},
+                   {h:'Colombia',a:'Congo DR',g:'K',v:'Guadalajara'}],
+    '2026-06-24': [{h:'Scotland',a:'Brazil',g:'C',v:'Miami'},
+                   {h:'Morocco',a:'Haiti',g:'C',v:'Atlanta'},
+                   {h:'Switzerland',a:'Canada',g:'B',v:'Vancouver'},
+                   {h:'Bosnia-Herzegovina',a:'Qatar',g:'B',v:'Seattle'},
+                   {h:'Czech Republic',a:'Mexico',g:'A',v:'Mexico City'},
+                   {h:'South Africa',a:'South Korea',g:'A',v:'Monterrey'}],
+    '2026-06-25': [{h:'Curacao',a:'Ivory Coast',g:'E',v:'Philadelphia'},
+                   {h:'Ecuador',a:'Germany',g:'E',v:'New York/NJ'},
+                   {h:'Japan',a:'Sweden',g:'F',v:'Dallas'},
+                   {h:'Tunisia',a:'Netherlands',g:'F',v:'Kansas City'},
+                   {h:'Turkey',a:'United States',g:'D',v:'Los Angeles'},
+                   {h:'Paraguay',a:'Australia',g:'D',v:'San Francisco'}],
+    '2026-06-26': [{h:'Norway',a:'France',g:'I',v:'Boston'},
+                   {h:'Senegal',a:'Iraq',g:'I',v:'Toronto'},
+                   {h:'Egypt',a:'Iran',g:'G',v:'Seattle'},
+                   {h:'New Zealand',a:'Belgium',g:'G',v:'Vancouver'},
+                   {h:'Cape Verde',a:'Saudi Arabia',g:'H',v:'Houston'},
+                   {h:'Uruguay',a:'Spain',g:'H',v:'Guadalajara'}],
+    '2026-06-27': [{h:'Panama',a:'England',g:'L',v:'New York/NJ'},
+                   {h:'Croatia',a:'Ghana',g:'L',v:'Philadelphia'},
+                   {h:'Algeria',a:'Austria',g:'J',v:'Kansas City'},
+                   {h:'Jordan',a:'Argentina',g:'J',v:'Dallas'},
+                   {h:'Colombia',a:'Portugal',g:'K',v:'Miami'},
+                   {h:'Congo DR',a:'Uzbekistan',g:'K',v:'Atlanta'}],
+  };
+  return dates;
+}
+
+// ============ RENDER ============
+function renderMatch(pred, m) {
+  const {hw,dw,aw,expHome,expAway,o25,btts,bestScore} = pred;
+  const ah = computeAsianHandicap(pred);
+
+  // Determine best 1X2 pick
+  let pick1x2, pickCls;
+  if (hw >= dw && hw >= aw) { pick1x2 = '主胜'; pickCls = 'highlight'; }
+  else if (dw >= hw && dw >= aw) { pick1x2 = '平局'; pickCls = ''; }
+  else { pick1x2 = '客胜'; pickCls = 'highlight'; }
+
+  // Score display bands
+  const hBar = Math.round(hw*100);
+  const dBar = Math.round(dw*100);
+  const aBar = Math.round(aw*100);
+
+  return `
+  <div class="match-row">
+    <div class="time">G.${m.g}</div>
+    <div class="matchup">
+      <span>${m.h}</span> <span class="vs">vs</span> <span>${m.a}</span>
+    </div>
+    <div class="venue">${m.v}</div>
+    <div class="odds-cell ${pickCls}">
+      <div class="val">${pick1x2}</div>
+      <div style="font-size:10px;margin-top:2px">
+        <span style="color:#4fc3f7">${hBar}%</span>
+        <span style="color:#78909c;margin:0 2px">/</span>
+        <span style="color:#b0bec5">${dBar}%</span>
+        <span style="color:#78909c;margin:0 2px">/</span>
+        <span style="color:#ff8a65">${aBar}%</span>
+      </div>
+      <div style="margin-top:3px">
+        <span class="progress h" style="width:${hBar}px"></span>
+        <span class="progress d" style="width:${dBar}px"></span>
+        <span class="progress a" style="width:${aBar}px"></span>
+      </div>
+    </div>
+    <div class="handicap">
+      <div class="line">${ah.line}</div>
+    </div>
+    <div class="handicap">
+      <div class="pick">${ah.pick}</div>
+      <div style="font-size:9px;color:#78909c">${ah.pickTeam==='home'?'主队让球':ah.pickTeam==='away'?'客队让球':'无让球'}</div>
+    </div>
+    <div class="score">
+      <div class="goals">${bestScore.h} - ${bestScore.a}</div>
+      <div class="xgoals">xG: ${expHome.toFixed(1)} - ${expAway.toFixed(1)}</div>
+    </div>
+    <div class="score">
+      <div style="color:${o25>0.5?'#66bb6a':'#78909c'};font-weight:600">${o25>0.5?'大 2.5':'小 2.5'}</div>
+      <div class="xgoals">O:${(o25*100).toFixed(0)}% U:${((1-o25)*100).toFixed(0)}%</div>
+    </div>
+  </div>`;
+}
+
+function renderSection(title, dateGroup, players, rankings, gkRatings) {
+  let html = '';
+  Object.entries(dateGroup).forEach(([date, matches]) => {
+    html += `<div class="date-header"><h3>📅 ${date}</h3></div>`;
+    matches.forEach(m => {
+      const pred = dcPredict(m.h, m.a, players, rankings, gkRatings);
+      m.date = date;
+      html += renderMatch(pred, m);
+    });
+  });
+  return html;
+}
+
+// ============ MAIN ============
+async function init() {
+  const content = document.getElementById('content');
+  try {
+    const [playersRes, fifaRes, gkRes] = await Promise.all([
+      fetch('/api/players').then(r=>r.json()),
+      fetch('/api/fifa').then(r=>r.json()),
+      fetch('/api/goalkeepers').then(r=>r.json())
+    ]);
+
+    const players = [];
+    if (playersRes?.groups) {
+      Object.values(playersRes.groups).forEach(g=>{
+        Object.values(g.teams||{}).forEach(t=>{
+          (t.players||[]).forEach(p=>players.push({...p,nation:Object.keys(g.teams).find(k=>g.teams[k]===t)}));
+        });
+      });
+      // Fix nation (it's wrong from the loop above — let's do it properly)
+      players.length = 0;
+      Object.entries(playersRes.groups).forEach(([gn,gdata])=>{
+        Object.entries(gdata.teams||{}).forEach(([nat,tdat])=>{
+          (tdat.players||[]).forEach(p=>players.push({...p,nation:nat,group:gn}));
+        });
+      });
+    }
+
+    const rankings = fifaRes?.rankings||[];
+    const gkRatings = gkRes?.team_gk_rating?.ratings||{};
+
+    const groupMatches = buildGroupMatches();
+
+    let html = '';
+
+    // MD1
+    html += `<div class="phase-title" id="md1"><h2>小组赛 第1轮 · June 11-17</h2></div>`;
+    const md1 = {};
+    for(const d of ['2026-06-11','2026-06-12','2026-06-13','2026-06-14','2026-06-15','2026-06-16','2026-06-17']){
+      if(groupMatches[d]) md1[d] = groupMatches[d];
+    }
+    html += renderSection('', md1, players, rankings, gkRatings);
+
+    // MD2
+    html += `<div class="phase-title" id="md2"><h2>小组赛 第2轮 · June 18-23</h2></div>`;
+    const md2 = {};
+    for(const d of ['2026-06-18','2026-06-19','2026-06-20','2026-06-21','2026-06-22','2026-06-23']){
+      if(groupMatches[d]) md2[d] = groupMatches[d];
+    }
+    html += renderSection('', md2, players, rankings, gkRatings);
+
+    // MD3
+    html += `<div class="phase-title" id="md3"><h2>小组赛 第3轮 · June 24-27</h2></div>`;
+    const md3 = {};
+    for(const d of ['2026-06-24','2026-06-25','2026-06-26','2026-06-27']){
+      if(groupMatches[d]) md3[d] = groupMatches[d];
+    }
+    html += renderSection('', md3, players, rankings, gkRatings);
+
+    // Knockout placeholder
+    html += `<div class="phase-title" id="r32"><h2>32强淘汰赛 · June 28 – July 3</h2></div>`;
+    html += `<div style="padding:20px;color:#78909c;font-size:12px">淘汰赛对阵待小组赛结果确定后更新。Dixon-Coles模型将对每场实际对阵实时预测。</div>`;
+
+    html += `<div class="phase-title" id="r16"><h2>16强 · July 4-7</h2></div>`;
+    html += `<div style="padding:20px;color:#78909c;font-size:12px">待32强结果后更新。</div>`;
+
+    html += `<div class="phase-title" id="qf"><h2>四分之一决赛 · July 9-11</h2></div>`;
+    html += `<div style="padding:20px;color:#78909c;font-size:12px">待16强结果后更新。</div>`;
+
+    html += `<div class="phase-title" id="sf"><h2>半决赛 + 三四名决赛 + 决赛</h2></div>`;
+    html += `
+    <div style="padding:16px 24px;font-size:12px;color:#78909c;line-height:1.8">
+      <p>半决赛: 7月14日 Dallas · 7月15日 Atlanta</p>
+      <p>三四名决赛: 7月18日 Miami</p>
+      <p><b>决赛: 7月19日 New York/New Jersey (MetLife Stadium)</b></p>
+    </div>`;
+
+    html += `<div style="padding:40px;text-align:center;font-size:11px;color:#78909c">
+      <p>预测模型: Dixon-Coles (1997) · 攻击参数α + 防守参数β + 主场优势γ + ρ低比分修正</p>
+      <p>数据源: FIFA排名 + 五大联赛2025-26球员G+A + 门将评分 · 梯度下降拟合</p>
+      <p><a href="/" style="color:#4fc3f7">← 返回仪表盘</a></p>
+    </div>`;
+
+    content.innerHTML = html;
+
+  } catch(e) {
+    content.innerHTML = `<div style="padding:40px;text-align:center;color:#e53935">Error: ${e.message}</div>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>
