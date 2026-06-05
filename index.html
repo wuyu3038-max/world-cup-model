@@ -221,8 +221,8 @@ function getFlatPlayers(){
   return rows;
 }
 function getFifaRank(t){const r=(D.fifa?.rankings||[]).find(x=>x.team===t);return r?r.rank:60;}
-// Chinese name helpers
-const ZT=D.zh?.teams||{},ZP=D.zh?.players||{},ZC=D.zh?.clubs||{},ZCI=D.zh?.cities||{};
+// Chinese name helpers (data populated after loadAll)
+let ZT={},ZP={},ZC={},ZCI={};
 function zhT(n){return ZT[n]||n} function zhP(n){return ZP[n]||n}
 function zhC(n){return ZC[n]||n} function zhCi(n){return ZCI[n]||n}
 
@@ -396,6 +396,8 @@ function renderData(){
 
 // ============ INIT ============
 function init(){
+  // Populate Chinese name caches
+  ZT=D.zh?.teams||{}; ZP=D.zh?.players||{}; ZC=D.zh?.clubs||{}; ZCI=D.zh?.cities||{};
   renderOverview();renderTeams();renderGroups();renderKnockout();
   renderMatches();renderOdds();renderEnv();renderManagers();renderH2H();renderData();
 }
