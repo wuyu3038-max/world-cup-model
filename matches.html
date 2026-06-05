@@ -46,6 +46,22 @@ body{font-family:'Segoe UI','Microsoft YaHei',sans-serif;background:#0a0e17;colo
   .match-row,.match-header{grid-template-columns:50px 1fr 60px 80px 100px;font-size:11px}
   .match-row .handicap,.match-row .score,.match-header .handicap,.match-header .score{display:none}
 }
+@media(max-width:900px){
+  .match-row,.match-header{grid-template-columns:40px 1fr 60px 80px 60px;font-size:10px;padding:8px 8px}
+  .match-row .handicap,.match-row .score:nth-child(8),.match-row .score:nth-child(9),.match-header span:nth-child(5),.match-header span:nth-child(6),.match-header span:nth-child(8),.match-header span:nth-child(9){display:none}
+  .match-row .time{font-size:9px}.match-row .matchup{font-size:11px}
+  .container{padding:0}
+}
+@media(max-width:600px){
+  .match-row,.match-header{grid-template-columns:35px 1fr 80px;font-size:9px;padding:6px 6px}
+  .match-row .venue,.match-header span:nth-child(3){display:none}
+  .header h1{font-size:16px}
+}
+.search-bar{padding:10px 16px;background:#111822;border-bottom:1px solid #1e2d3d;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.search-bar input,.search-bar select{padding:6px 10px;background:#141e2b;border:1px solid #1e3a50;color:#e0e0e0;border-radius:4px;font-size:12px}
+.search-bar input::placeholder{color:#78909c}
+.search-bar input{flex:1;min-width:150px}
+.search-bar .clear{color:#4fc3f7;cursor:pointer;font-size:11px}
 </style>
 </head>
 <body>
@@ -67,6 +83,20 @@ body{font-family:'Segoe UI','Microsoft YaHei',sans-serif;background:#0a0e17;colo
   </div>
 </div>
 
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="搜索球队... (例如: 巴西, 英格兰, 法国)" oninput="filterMatches()">
+  <select id="groupFilter" onchange="filterMatches()">
+    <option value="">全部组别</option>
+    <option value="A">A组</option><option value="B">B组</option><option value="C">C组</option>
+    <option value="D">D组</option><option value="E">E组</option><option value="F">F组</option>
+    <option value="G">G组</option><option value="H">H组</option><option value="I">I组</option>
+    <option value="J">J组</option><option value="K">K组</option><option value="L">L组</option>
+  </select>
+  <select id="dateFilter" onchange="filterMatches()">
+    <option value="">全部日期</option>
+  </select>
+  <span class="clear" onclick="clearFilters()">✕ 清除</span>
+</div>
 <div class="legend">
   <span><span class="dot" style="background:#4fc3f7"></span> 主胜/平局/客胜 概率</span>
   <span><span class="dot" style="background:#66bb6a"></span> 最佳选项(绿色高亮)</span>
@@ -345,32 +375,35 @@ function renderSection(title, dateGroup, players, rankings, gkRatings) {
 async function init() {
   const content = document.getElementById('content');
   try {
-    const [playersRes, fifaRes, gkRes, zhRes] = await Promise.all([
-      fetch('/api/players').then(r=>r.json()),
-      fetch('/api/fifa').then(r=>r.json()),
-      fetch('/api/goalkeepers').then(r=>r.json()),
-      fetch('/api/zh_names').then(r=>r.json()).catch(()=>({}))
-    ]);
-    if (zhRes) { ZT = zhRes.teams || {}; ZP = zhRes.players || {}; ZC = zhRes.clubs || {}; ZCI = zhRes.cities || {}; }
+    // Unified data loading from all_data.json (same as index.html)
+    const allRes = await fetch('data/all_data.json').then(r=>r.json()).catch(()=>null);
+    if (!allRes) { content.innerHTML = '<div style="padding:40px;text-align:center;color:#e53935">数据加载失败</div>'; return; }
 
-    const players = [];
-    if (playersRes?.groups) {
-      Object.values(playersRes.groups).forEach(g=>{
-        Object.values(g.teams||{}).forEach(t=>{
-          (t.players||[]).forEach(p=>players.push({...p,nation:Object.keys(g.teams).find(k=>g.teams[k]===t)}));
-        });
-      });
-      // Fix nation (it's wrong from the loop above — let's do it properly)
-      players.length = 0;
-      Object.entries(playersRes.groups).forEach(([gn,gdata])=>{
-        Object.entries(gdata.teams||{}).forEach(([nat,tdat])=>{
-          (tdat.players||[]).forEach(p=>players.push({...p,nation:nat,group:gn}));
-        });
-      });
-    }
+    const playersRes = allRes.world_cup_players, fifaRes = allRes.fifa_rankings;
+    const gkRes = allRes.goalkeepers, zhRes = allRes.zh_names||{};
+    ZT = zhRes.teams||{}; ZP = zhRes.players||{}; ZC = zhRes.clubs||{}; ZCI = zhRes.cities||{};
 
     const rankings = fifaRes?.rankings||[];
     const gkRatings = gkRes?.team_gk_rating?.ratings||{};
+    const supplement = allRes.player_stats_supplement?.players||[];
+
+    // Build flat player list with supplement merge
+    const players = [];
+    if (playersRes?.groups) {
+      Object.entries(playersRes.groups).forEach(([gn,gdata])=>{
+        Object.entries(gdata.teams||{}).forEach(([nat,tdat])=>{
+          (tdat.players||[]).forEach(p=>{
+            const sp=supplement.find(s=>s.name===p.name&&s.nation===nat);
+            players.push({
+              name:p.name||'',nation:nat,group:gn,
+              goals_2526:sp?.goals_2526??p.goals_2526??p.goals_2425??0,
+              assists_2526:sp?.assists_2526??p.assists_2526??0,
+              goals_2425:p.goals_2425,rating:sp?.rating??p.rating
+            });
+          });
+        });
+      });
+    }
 
     const groupMatches = buildGroupMatches();
 
@@ -432,7 +465,64 @@ async function init() {
   }
 }
 
-init();
+// ============ SEARCH / FILTER ============
+function filterMatches(){
+  const q=(document.getElementById('searchInput')?.value||'').toLowerCase();
+  const gf=document.getElementById('groupFilter')?.value||'';
+  const df=document.getElementById('dateFilter')?.value||'';
+  document.querySelectorAll('.match-row').forEach(row=>{
+    const text=row.textContent.toLowerCase();
+    const g=row.dataset.group||'',d=row.dataset.date||'';
+    const mq=!q||text.includes(q),mg=!gf||g===gf,md=!df||d===df;
+    row.style.display=(mq&&mg&&md)?'':'none';
+  });
+  // Hide/show date headers
+  document.querySelectorAll('.date-header').forEach(h=>{
+    const dd=h.dataset.date||'';
+    const hasVisible=!!Array.from(document.querySelectorAll('.match-row[data-date="'+dd+'"]')).find(r=>r.style.display!=='none');
+    h.style.display=hasVisible?'':'none';
+  });
+  // Hide/show phase titles
+  document.querySelectorAll('.phase-title').forEach(h=>{
+    let next=h.nextElementSibling;let vis=false;
+    while(next&&!next.classList.contains('phase-title')){
+      if((next.classList.contains('date-header')||next.classList.contains('match-row'))&&next.style.display!=='none')vis=true;
+      next=next.nextElementSibling;
+    }
+    h.style.display=vis?'':'none';
+  });
+}
+function clearFilters(){
+  const si=document.getElementById('searchInput'),gf=document.getElementById('groupFilter'),df=document.getElementById('dateFilter');
+  if(si)si.value='';if(gf)gf.value='';if(df)df.value='';
+  filterMatches();
+}
+
+// ============ POPULATE DATE FILTER ============
+function populateDateFilter(){
+  const df=document.getElementById('dateFilter');
+  if(!df)return;
+  const dates=[...new Set(Array.from(document.querySelectorAll('.match-row')).map(r=>r.dataset.date))].sort();
+  dates.forEach(d=>{const o=document.createElement('option');o.value=d;o.textContent=d;df.appendChild(o);});
+}
+
+// Patch renderSection to add data attributes
+const origRenderSection=renderSection;
+// Override: add data attributes via content wrapper
+const origInit=init;
+init=async function(){
+  await origInit();
+  document.querySelectorAll('.match-row').forEach(row=>{
+    const g=row.querySelector('.time')?.textContent?.replace('组','')||'';
+    row.dataset.group=g;
+    // Find date from nearest date-header
+    let el=row.previousElementSibling;
+    while(el&&!el.classList.contains('date-header'))el=el.previousElementSibling;
+    if(el)row.dataset.date=el.textContent.replace('📅 ','').trim();
+  });
+  populateDateFilter();
+  filterMatches();
+};
 </script>
 </body>
 </html>

@@ -28,7 +28,8 @@ async function loadAll() {
       news: all.news_feed,
       liveOdds: all.live_odds,
       zh: all.zh_names || {},
-      sponsors: all.sponsors || {}
+      sponsors: all.sponsors || {},
+      players_supplement: all.player_stats_supplement || {}
     };
     console.log('数据加载完成:', Object.keys(D));
     init();
@@ -221,6 +222,17 @@ function getFlatPlayers(){
       }));
     }
   }
+  // Merge supplement data (33 additional players with 2025-26 stats)
+  const supp=D.players_supplement?.players||[];
+  supp.forEach(p=>{
+    const match=rows.find(r=>r.name===p.name&&r.nation===p.nation);
+    if(match){
+      if(p.goals_2526!=null)match.g2526=p.goals_2526;
+      if(p.assists_2526!=null)match.a2526=p.assists_2526;
+      if(p.rating!=null)match.rating=p.rating;
+      if(p.goals_2425!=null)match.g2425=p.goals_2425;
+    }
+  });
   return rows;
 }
 function getFifaRank(t){const r=(D.fifa?.rankings||[]).find(x=>x.team===t);return r?r.rank:60;}
