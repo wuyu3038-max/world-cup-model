@@ -27,7 +27,8 @@ async function loadAll() {
       adv: all.advanced_stats,
       news: all.news_feed,
       liveOdds: all.live_odds,
-      zh: all.zh_names || {}
+      zh: all.zh_names || {},
+      sponsors: all.sponsors || {}
     };
     console.log('数据加载完成:', Object.keys(D));
     init();
@@ -110,6 +111,8 @@ tr:hover td{background:#182230}
     <div class="card"><h3>📈 综合实力 Top 12</h3><div class="chart-wrap tall"><canvas id="c2"></canvas></div></div>
     <div class="card"><h3>⚔️ 12组实力对比</h3><div class="chart-wrap"><canvas id="c3"></canvas></div></div>
     <div class="card"><h3>💡 模型 vs 博彩市场</h3><div class="chart-wrap"><canvas id="c4"></canvas></div></div>
+    <div class="card"><h3>⚡ 爆冷指数 Top 15 (不被看好但可能赢)</h3><div class="chart-wrap"><canvas id="c7"></canvas></div></div>
+    <div class="card"><h3>👕 赞助商格局</h3><div class="chart-wrap"><canvas id="c8"></canvas></div></div>
   </div>
 </div>
 
@@ -270,6 +273,33 @@ function renderOverview(){
   const mvs=mkt.slice(0,8).map(m=>({team:m.team,market:m.market_prob,model:pw.find(x=>x.name===m.team)?.power||0}));
   chart('c4','bar',mvs.map(x=>x.team),[{label:'模型评分',data:mvs.map(x=>x.model.toFixed(1)),backgroundColor:'#2d6a9f'},
     {label:'市场概率%',data:mvs.map(x=>x.market),backgroundColor:'#f9a825'}]);
+
+  // Upset index (Ben-Naim model: q=0.42 for World Cup)
+  const powers=computePowers();
+  const upsetList=[];
+  // Compare each team vs group winner potential
+  'ABCDEFGHIJKL'.split('').forEach(g=>{
+    const t=getGroupTeams(g);const fav=t.reduce((a,b)=>(powers.find(x=>x.name===a)?.power||0)>(powers.find(x=>x.name===b)?.power||0)?a:b);
+    t.filter(x=>x!==fav).forEach(u=>{
+      const fp=powers.find(x=>x.name===fav)?.power||5,up=powers.find(x=>x.name===u)?.power||3;
+      const dp=Math.max(0,fp-up);const upsetProb=Math.round(0.42*Math.exp(-dp*0.3)*100);
+      const envBonus=(getGroupTeams(g).length>=3)?0:0;
+      upsetList.push({team:u,group:g,favorite:fav,upsetPct:upsetProb,powerDiff:dp.toFixed(1)});
+    });
+  });
+  upsetList.sort((a,b)=>b.upsetPct-a.upsetPct);
+  chart('c7','bar',upsetList.slice(0,15).map(x=>zhT(x.team)+'\nvs '+zhT(x.favorite)),[{
+    label:'爆冷概率%',data:upsetList.slice(0,15).map(x=>x.upsetPct),
+    backgroundColor:upsetList.slice(0,15).map(x=>x.upsetPct>35?'#e53935':x.upsetPct>25?'#fb8c00':'#2d6a9f')
+  }]);
+
+  // Sponsor breakdown
+  const sp=D.sponsors?.kit_sponsors||{};
+  const spCount={};Object.values(sp).forEach(b=>spCount[b]=(spCount[b]||0)+1);
+  chart('c8','doughnut',Object.keys(spCount),[{
+    data:Object.values(spCount),
+    backgroundColor:['#2d6a9f','#e53935','#fb8c00','#78909c','#66bb6a','#ab47bc','#26c6da','#ef5350','#8d6e63']
+  }]);
 }
 
 function renderTeams(){

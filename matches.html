@@ -17,7 +17,7 @@ body{font-family:'Segoe UI','Microsoft YaHei',sans-serif;background:#0a0e17;colo
 .date-header{background:#141e2b;padding:8px 24px;border-bottom:1px solid #1a2735;position:sticky;top:116px;z-index:40}
 .date-header h3{color:#81d4fa;font-size:14px}
 .container{max-width:1200px;margin:0 auto;padding:0}
-.match-row{display:grid;grid-template-columns:80px 1fr 80px 100px 120px 120px 140px 140px;gap:0;align-items:center;padding:10px 24px;border-bottom:1px solid #111822;font-size:13px;transition:background .15s}
+.match-row{display:grid;grid-template-columns:60px 1fr 70px 100px 110px 100px 130px 80px 70px;gap:0;align-items:center;padding:10px 16px;border-bottom:1px solid #111822;font-size:12px;transition:background .15s}
 .match-row:hover{background:#111922}
 .match-row .time{color:#78909c;font-size:11px}
 .match-row .matchup{font-weight:600}
@@ -41,7 +41,7 @@ body{font-family:'Segoe UI','Microsoft YaHei',sans-serif;background:#0a0e17;colo
 .legend{display:flex;gap:16px;padding:8px 24px;background:#111822;border-bottom:1px solid #1e2d3d;font-size:10px;color:#78909c;flex-wrap:wrap}
 .legend span{margin-right:4px}
 .legend .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:2px}
-.match-header{display:grid;grid-template-columns:80px 1fr 80px 100px 120px 120px 140px 140px;gap:0;padding:6px 24px;background:#0d1520;border-bottom:2px solid #1e3a50;font-size:10px;color:#78909c;font-weight:600;position:sticky;top:150px;z-index:30}
+.match-header{display:grid;grid-template-columns:60px 1fr 70px 100px 110px 100px 130px 80px 70px;gap:0;padding:6px 16px;background:#0d1520;border-bottom:2px solid #1e3a50;font-size:10px;color:#78909c;font-weight:600;position:sticky;top:150px;z-index:30}
 @media(max-width:900px){
   .match-row,.match-header{grid-template-columns:50px 1fr 60px 80px 100px;font-size:11px}
   .match-row .handicap,.match-row .score,.match-header .handicap,.match-header .score{display:none}
@@ -75,7 +75,7 @@ body{font-family:'Segoe UI','Microsoft YaHei',sans-serif;background:#0a0e17;colo
 </div>
 
 <div class="match-header">
-  <span>组别</span><span>对阵</span><span>比赛城市</span><span>胜平负预测</span><span>让球盘口</span><span>推荐方向</span><span>比分预测(TOP2)</span><span>大小球</span>
+  <span>组别</span><span>对阵</span><span>比赛城市</span><span>胜平负预测</span><span>让球盘口</span><span>推荐方向</span><span>比分预测(TOP2)</span><span>大小球</span><span>爆冷指数</span>
 </div>
 
 <div id="content"><div style="padding:40px;text-align:center;color:#78909c">正在加载预测数据...</div></div>
@@ -152,8 +152,13 @@ function dcPredict(home, away, players, rankings, gkRatings) {
   }
   if(total>0){hw/=total;dw/=total;aw/=total;o25/=total;btts/=total;}
   scores.sort((a,b)=>b.p-a.p);
+  // Upset index (Ben-Naim model: q=0.42 base upset rate for World Cup)
+  const favP=Math.max(hw,aw), undP=Math.min(hw,aw);
+  const powerDiff=Math.abs(attH-attA);
+  const upsetRaw=0.42*Math.exp(-powerDiff*0.3);
+  const upsetPct=Math.round(Math.min(upsetRaw,0.49)*100);
   return {
-    hw,dw,aw, expHome:lam, expAway:mu, o25, btts,
+    hw,dw,aw, expHome:lam, expAway:mu, o25, btts, upsetPct,
     bestScore: scores[0]||{h:1,a:0},
     secondScore: scores[1]||{h:1,a:1},
     bestScoreProb: scores[0]?.p||0,
@@ -315,6 +320,10 @@ function renderMatch(pred, m) {
     <div class="score">
       <div style="color:${o25>0.5?'#66bb6a':'#78909c'};font-weight:600">${o25>0.5?'大 2.5':'小 2.5'}</div>
       <div class="xgoals">O:${(o25*100).toFixed(0)}% U:${((1-o25)*100).toFixed(0)}%</div>
+    </div>
+    <div class="score" style="font-size:10px">
+      <div style="color:#ff8a65;font-weight:600">${pred.upsetPct}%</div>
+      <div style="font-size:8px;color:#78909c">爆冷指数</div>
     </div>
   </div>`;
 }

@@ -53,6 +53,8 @@ class APIHandler(http.server.SimpleHTTPRequestHandler):
             self.serve_json("live_odds.json")
         elif path == "/api/zh_names":
             self.serve_json("zh_names.json")
+        elif path == "/api/sponsors":
+            self.serve_json("sponsors.json")
         else:
             # Static files
             super().do_GET()

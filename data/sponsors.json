@@ -1,0 +1,38 @@
+{
+  "_meta": {"description": "2026 World Cup — Kit sponsors for all 48 teams + sponsor influence analysis"},
+  "kit_sponsors": {
+    "Argentina": "Adidas", "Germany": "Adidas", "Spain": "Adidas", "Belgium": "Adidas",
+    "Japan": "Adidas", "Mexico": "Adidas", "Scotland": "Adidas", "Sweden": "Adidas",
+    "Algeria": "Adidas", "Colombia": "Adidas", "Qatar": "Adidas", "Saudi Arabia": "Adidas",
+    "South Africa": "Adidas", "Curacao": "Adidas",
+    "Brazil": "Nike", "France": "Nike", "England": "Nike", "Netherlands": "Nike",
+    "Croatia": "Nike", "Uruguay": "Nike", "United States": "Nike", "Australia": "Nike",
+    "Canada": "Nike", "South Korea": "Nike", "Turkey": "Nike", "Norway": "Nike",
+    "Portugal": "Puma", "Morocco": "Puma", "Senegal": "Puma", "Switzerland": "Puma",
+    "Czech Republic": "Puma", "Paraguay": "Puma", "Ivory Coast": "Puma",
+    "Egypt": "Puma", "Ghana": "Puma", "Austria": "Puma", "New Zealand": "Puma",
+    "Bosnia-Herzegovina": "Kelme", "Jordan": "Kelme",
+    "Congo DR": "Umbro", "Iraq": "Jako", "Tunisia": "Kappa",
+    "Ecuador": "Marathon", "Iran": "Majid", "Haiti": "Saeta",
+    "Cape Verde": "Capelli", "Panama": "Reebok", "Uzbekistan": "7Saber"
+  },
+  "sponsor_power_index": {
+    "_note": "Historical World Cup performance by kit brand",
+    "Adidas": {"wc_titles": 11, "win_rate": 0.48, "knockout_rate": 0.62},
+    "Nike": {"wc_titles": 8, "win_rate": 0.46, "knockout_rate": 0.60},
+    "Puma": {"wc_titles": 1, "win_rate": 0.40, "knockout_rate": 0.52},
+    "Other": {"wc_titles": 0, "win_rate": 0.28, "knockout_rate": 0.35}
+  },
+  "sponsor_conflicts": [
+    {"teams": ["Brazil", "France"], "issue": "Neymar sponsor pressure on squad selection", "severity": "HIGH"},
+    {"teams": ["England"], "issue": "Nike ad featured dropped player Cole Palmer", "severity": "MEDIUM"},
+    {"teams": ["Germany"], "issue": "Last Adidas tournament before Nike switch — emotional farewell", "severity": "MEDIUM"},
+    {"teams": ["Portugal"], "issue": "Puma World Cup curse (only 1 title ever)", "severity": "LOW"}
+  ],
+  "sponsor_pressure_penalty": {
+    "_note": "Teams with known sponsor interference get a small power penalty",
+    "Brazil": -0.8,
+    "England": -0.3,
+    "Australia": -0.5
+  }
+}
