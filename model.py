@@ -625,16 +625,17 @@ def analyze(players_df: pd.DataFrame, fifa_ranks: dict, betting_data: dict = Non
     print(f"  {'-'*20} {'-'*7} {'-'*7} {'-'*5}  {'-'*30}")
     for team, delta, r1, r2, v2 in rank_changes[:10]:
         arrow = "↑" if delta > 0 else ("↓" if delta < 0 else "—")
-        factors = f"ATK={v2['attack_score']:.1f} FIFA={v2['fifa_strength']:.1f} MKT={v2['market_power']:.1f} SP={v2['sponsor_adj']:+.1f} NEWS={v2.get('news_sentiment',0):+.2f}"
+        factors = f"ELO={v2.get('elo_strength',v2.get('fifa_strength',0)):.1f} ATK={v2['attack_score']:.1f} MKT={v2['market_power']:.1f} SP={v2['sponsor_adj']:+.1f} NEWS={v2.get('news_sentiment',0):+.2f} CCH={v2.get('coach_bonus',0):+.1f}"
         print(f"  {team:<20s} {r1:>4d}   {r2:>4d}   {arrow}{abs(delta):>3d}  {factors}")
 
     # V2 top 20 with decomposition
-    print(f"\n  V2 Top 10 — 6-Factor Power Decomposition:")
-    print(f"  {'Rank':<5s} {'Team':<20s} {'Comb':>6s} {'Attack':>6s} {'FIFA':>5s} {'Market':>6s} {'Spons':>5s} {'News':>5s}")
-    print(f"  {'-'*5} {'-'*20} {'-'*6} {'-'*6} {'-'*5} {'-'*6} {'-'*5} {'-'*5}")
+    print(f"\n  V3 Top 10 — 8-Factor Power Decomposition:")
+    print(f"  {'Rank':<5s} {'Team':<18s} {'Comb':>5s} {'Elo':>5s} {'Atk':>5s} {'Mkt':>5s} {'Sp':>4s} {'Nws':>4s} {'Cch':>4s} {'Dpt':>4s}")
+    print(f"  {'-'*5} {'-'*18} {'-'*5} {'-'*5} {'-'*5} {'-'*5} {'-'*4} {'-'*4} {'-'*4} {'-'*4}")
     for i, (team, v2) in enumerate(v2_ranked[:10], 1):
-        print(f"  {i:>3}.  {team:<20s} {v2['combined']:>6.1f} {v2['attack_score']:>6.1f} "
-              f"{v2['fifa_strength']:>5.1f} {v2['market_power']:>6.1f} {v2['sponsor_adj']:>+5.1f} {v2.get('news_sentiment',0):>+5.2f}")
+        print(f"  {i:>3}.  {team:<18s} {v2['combined']:>5.1f} {v2.get('elo_strength',0):>5.1f} "
+              f"{v2['attack_score']:>5.1f} {v2['market_power']:>5.1f} {v2['sponsor_adj']:>+4.1f} "
+              f"{v2.get('news_sentiment',0):>+4.1f} {v2.get('coach_bonus',0):>+4.1f} {v2.get('squad_depth',0):>4.1f}")
 
     print("\n" + "=" * 65)
     print(f"  Analysis complete. {len(v2_powers)} teams evaluated (V1+V2).")
@@ -905,7 +906,209 @@ def compute_market_sentiment(live_odds_data: dict = None,
 
 
 # ============================================================
-# 13. NEWS SENTIMENT (时事新闻情感)
+# 13. DYNAMIC ELO RATINGS (替代静态FIFA排名代理)
+# ============================================================
+
+# Standard Elo K-factor
+ELO_K = 32
+ELO_INITIAL = 1500
+
+def compute_elo_ratings(teams: list) -> dict:
+    """
+    Compute dynamic Elo ratings from international_stats.json match history.
+    Falls back to FIFA-rank-scaled Elo if no match data.
+    Returns {team: elo_rating} with ~1200-2200 range.
+    """
+    elo = {t: ELO_INITIAL for t in teams}
+
+    try:
+        with open(DATA_DIR / "international_stats.json", "r", encoding="utf-8") as f:
+            intl = json.load(f)
+
+        # Use all-time scorers as a rough team strength proxy
+        scorers = intl.get("all_time_top_scorers", {}).get("men", [])
+        team_goals = defaultdict(int)
+        for s in scorers:
+            if s.get("active") and s.get("wc2026", True):
+                team_goals[s["nation"]] += s.get("goals", 0)
+
+        # Scale team international goals to Elo range
+        if team_goals:
+            max_g = max(team_goals.values())
+            for team in teams:
+                if team in team_goals:
+                    # More international goals → higher Elo
+                    scaled = ELO_INITIAL + (team_goals[team] / max(max_g, 1)) * 600
+                    elo[team] = round(scaled)
+                else:
+                    elo[team] = ELO_INITIAL
+
+        # Also use player international stats
+        wc_players = intl.get("world_cup_players_international", {})
+        for team in teams:
+            players = wc_players.get(team, [])
+            if players:
+                total_intl_goals = sum(p.get("goals", 0) for p in players)
+                total_caps = sum(p.get("caps", 0) for p in players)
+                # Experience bonus: more caps = more tournament-ready
+                exp_bonus = min(200, total_caps * 0.5)
+                elo[team] = max(elo.get(team, ELO_INITIAL), ELO_INITIAL + exp_bonus)
+                elo[team] = round(elo[team])
+
+    except Exception:
+        pass
+
+    # Fallback for teams with no data: use FIFA rank
+    try:
+        fifa = load_fifa_rankings()
+        for team in teams:
+            if elo.get(team, ELO_INITIAL) == ELO_INITIAL:
+                rank = fifa.get(team, 60)
+                elo[team] = round(2200 - rank * 10)
+    except Exception:
+        pass
+
+    return elo
+
+
+def elo_strength(elo_rating: float) -> float:
+    """Convert Elo rating to model strength scale (~3-22)."""
+    return max(elo_rating, 1000) / 100
+
+
+def update_elo(winner_elo: float, loser_elo: float, k: float = ELO_K,
+               draw: bool = False) -> tuple:
+    """Update Elo ratings after a match result."""
+    expected = 1.0 / (1.0 + 10 ** ((loser_elo - winner_elo) / 400))
+    actual = 0.5 if draw else 1.0
+    delta = k * (actual - expected)
+    return winner_elo + delta, loser_elo - delta
+
+
+# ============================================================
+# 14. HEAD-TO-HEAD / COACH / SQUAD DEPTH MODIFIERS
+# ============================================================
+
+def compute_h2h_modifier(team_a: str, team_b: str) -> float:
+    """
+    Head-to-head modifier based on historical matchups.
+    Returns ~-0.5 to +0.5 (small adjustment to attack strength).
+    """
+    try:
+        with open(DATA_DIR / "head_to_head.json", "r", encoding="utf-8") as f:
+            h2h_data = json.load(f)
+
+        h2h = h2h_data.get("head_to_head", {})
+        # Try both orderings
+        key = f"{team_a}_vs_{team_b}"
+        match = h2h.get(key)
+        if not match:
+            key2 = f"{team_b}_vs_{team_a}"
+            match = h2h.get(key2)
+
+        if match and match.get("total", 0) > 0:
+            total = match["total"]
+            # Extract wins from the record
+            wins_a = match.get(f"{team_a.lower().replace(' ','_')}_wins", 0)
+            if wins_a == 0:
+                # Try the other team's wins
+                for k, v in match.items():
+                    if k.endswith("_wins") and team_a.lower() in k:
+                        wins_a = v
+                        break
+
+            if wins_a == 0 and total > 0:
+                # Approximate from the data we have
+                for k, v in match.items():
+                    if k.endswith("_wins"):
+                        wins_a = v if team_a.lower().replace(" ", "_")[:3] in k else 0
+
+            # Win rate for team A
+            if wins_a > 0:
+                winrate = wins_a / total
+                return round((winrate - 0.5) * 1.0, 3)  # ±0.5 max
+    except Exception:
+        pass
+    return 0.0
+
+
+def compute_coach_bonus(team: str) -> float:
+    """Coach tournament experience bonus. Range ~-0.5 to +0.8."""
+    try:
+        with open(DATA_DIR / "managers.json", "r", encoding="utf-8") as f:
+            mgr_data = json.load(f)
+
+        managers = mgr_data.get("managers", {})
+        mgr = managers.get(team, {})
+        if not mgr:
+            return 0.0
+
+        exp = (mgr.get("exp", "") + " " + mgr.get("strength", "")).lower()
+        bonus = 0.0
+
+        # Tournament winners
+        if "wc winner" in exp or "world cup winner" in exp:
+            bonus += 0.8
+        elif "wc final" in exp or "wc semi-final" in exp:
+            bonus += 0.5
+        elif "wc" in exp and ("qf" in exp or "r16" in exp or "knockout" in exp):
+            bonus += 0.3
+
+        # Continental champions
+        if "euro" in exp and "winner" in exp:
+            bonus += 0.4
+        elif "copa" in exp and ("winner" in exp or "golden boot" in exp):
+            bonus += 0.4
+        elif "afcon" in exp and "winner" in exp:
+            bonus += 0.3
+
+        # UCL winner (club level, transfers to big-game management)
+        if "ucl winner" in exp or "champions league winner" in exp:
+            bonus += 0.3
+
+        return round(bonus, 2)
+    except Exception:
+        return 0.0
+
+
+def compute_squad_depth(players_df: pd.DataFrame, team: str) -> float:
+    """
+    Squad depth score based on:
+      - Number of elite players (top-5 league)
+      - Average rating of top-11 players
+      - Bench strength (players 12-23 quality)
+    Range: ~0 to 3
+    """
+    squad = players_df[players_df["nation"] == team]
+    if squad.empty:
+        return 0.0
+
+    # Count elite players
+    elite = sum(1 for _, r in squad.iterrows()
+                if league_factor(r.get("league", "")) >= 0.80)
+
+    # Average rating of all squad players
+    ratings = pd.to_numeric(squad["rating_2526"], errors="coerce").dropna()
+    avg_rating = ratings.mean() if len(ratings) > 0 else 6.5
+
+    # Depth = elite count bonus + rating bonus
+    depth = (elite * 0.3) + (avg_rating - 6.0) * 0.5
+    return round(max(0, depth), 2)
+
+
+# ============================================================
+# 15. BRIER SCORE CALIBRATION
+# ============================================================
+
+def brier_score(probabilities: list, outcomes: list) -> float:
+    """Brier Score: lower = better calibration. Range [0, 1]."""
+    if len(probabilities) != len(outcomes) or len(probabilities) == 0:
+        return 1.0
+    return sum((p - o) ** 2 for p, o in zip(probabilities, outcomes)) / len(probabilities)
+
+
+# ============================================================
+# 16. NEWS SENTIMENT (时事新闻情感)
 # ============================================================
 
 def compute_news_sentiment(team: str) -> float:
@@ -962,38 +1165,49 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
     """
     Compute comprehensive team power with all 5 factors integrated.
 
-    Weights (calibrated for ~0-20 combined scale):
-      attack_score  × 0.43   (~38% — attacking talent)
-      fifa_strength × 0.33   (~28% — FIFA rank baseline)
+    V3 Weights (calibrated for ~0-22 combined scale):
+      elo_strength  × 0.30   (~28% — dynamic Elo from intl match history)
+      attack_score  × 0.40   (~35% — attacking talent, opponent-adjusted)
       form_trend    × 4.0    (~5-8% — form momentum)
       market_power  × 0.10   (~8-12% — betting market wisdom)
-      sponsor_adj   × 0.05   (~2-5% — brand/sponsor effects)
+      sponsor_adj   × 0.04   (~2-4% — brand/sponsor effects)
       news_sent     × 0.03   (~1-3% — real-time news sentiment)
+      coach_bonus   × 0.05   (~2-5% — manager tournament experience)
+      squad_depth   × 0.03   (~1-3% — bench strength & squad quality)
 
     All new factors are optional (None → defaults to 0).
     Original compute_team_power() remains available for comparison.
     """
     attack = compute_attack_score(players_df, nation)
-    rank = fifa_ranks.get(nation, 60)
-    fifa_str = compute_fifa_strength(rank)
     form = compute_form_bonus(players_df, nation)
 
     # NaN safety
     attack = attack if not np.isnan(attack) else 0.0
     form = form if not np.isnan(form) else 0.0
 
-    # New factors (optional)
+    # New factors
     market_power = compute_market_power(betting_data, nation) if betting_data else 0.0
     sponsor_adj = compute_sponsor_factor(sponsors_data, nation) if sponsors_data else 0.0
-    news_sent = compute_news_sentiment(nation)  # Read from news_feed.json
+    news_sent = compute_news_sentiment(nation)
+    coach_bonus = compute_coach_bonus(nation)
+    squad_depth = compute_squad_depth(players_df, nation)
 
-    # Combined formula — V2 weights (6 factors)
-    combined = (attack * 0.43 +
-                fifa_str * 0.33 +
+    # Dynamic Elo (computed once, cached at module level)
+    if not hasattr(compute_team_power_v2, "_elo_cache"):
+        all_teams = players_df["nation"].unique().tolist()
+        compute_team_power_v2._elo_cache = compute_elo_ratings(all_teams)
+    elo_rating = compute_team_power_v2._elo_cache.get(nation, ELO_INITIAL)
+    elo_str = elo_strength(elo_rating)
+
+    # Combined formula — V3 weights (8 factors)
+    combined = (elo_str * 0.30 +
+                attack * 0.40 +
                 form * 4.0 +
                 market_power * 0.10 +
-                sponsor_adj * 0.05 +
-                news_sent * 0.03)
+                sponsor_adj * 0.04 +
+                news_sent * 0.03 +
+                coach_bonus * 0.05 +
+                squad_depth * 0.03)
 
     # Count top-league players
     team = players_df[players_df["nation"] == nation]
@@ -1002,16 +1216,19 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
 
     return {
         "nation": nation,
+        "elo_rating": elo_rating,
+        "elo_strength": round(elo_str, 1),
         "attack_score": round(attack, 1),
-        "fifa_strength": round(fifa_str, 1),
         "form_trend": form,
         "market_power": round(market_power, 1),
         "sponsor_adj": round(sponsor_adj, 2),
         "news_sentiment": round(news_sent, 3),
+        "coach_bonus": round(coach_bonus, 2),
+        "squad_depth": round(squad_depth, 2),
         "combined": round(combined, 1),
         "elite_players": elite_players,
-        "fifa_rank": rank,
-        "version": "v2",
+        "fifa_rank": int(elo_rating),
+        "version": "v3",
     }
 
 

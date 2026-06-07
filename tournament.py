@@ -21,7 +21,8 @@ from model import (
     load_sponsors, load_environment, load_match_schedule,
     compute_team_power, compute_team_power_v2,
     build_venue_lookup, compute_env_factor,
-    simulate_match
+    simulate_match, compute_elo_ratings, update_elo, ELO_INITIAL,
+    compute_h2h_modifier
 )
 
 DATA_DIR = Path(__file__).parent / "data"
@@ -85,7 +86,7 @@ SF_PAIRINGS = [(0, 1), (2, 3)]
 # ============================================================
 
 def play_group_stage(powers: dict, venue_map: dict = None,
-                     env_data: dict = None) -> dict:
+                     env_data: dict = None, elo_ratings: dict = None) -> dict:
     """Simulate one group stage and return qualifying teams."""
     group_results = {}
 
@@ -106,8 +107,29 @@ def play_group_stage(powers: dict, venue_map: dict = None,
                         h_env = compute_env_factor(env_data, city, roof, elev, t1)
                         a_env = compute_env_factor(env_data, city, roof, elev, t2)
 
-                hg, ag = simulate_match(powers.get(t1, 0.5), powers.get(t2, 0.5),
+                # Head-to-head modifier
+                h2h_mod = compute_h2h_modifier(t1, t2)
+
+                # Apply h2h to home power (home gets advantage if historically dominant)
+                h_power = powers.get(t1, 0.5) + h2h_mod
+                a_power = powers.get(t2, 0.5)
+
+                hg, ag = simulate_match(h_power, a_power,
                                         env_factor_home=h_env, env_factor_away=a_env)
+
+                # Update dynamic Elo
+                if elo_ratings:
+                    e1 = elo_ratings.get(t1, ELO_INITIAL)
+                    e2 = elo_ratings.get(t2, ELO_INITIAL)
+                    if hg > ag:
+                        e1_new, e2_new = update_elo(e1, e2)
+                    elif ag > hg:
+                        e2_new, e1_new = update_elo(e2, e1)
+                    else:
+                        e1_new, e2_new = update_elo(e1, e2, draw=True)
+                    elo_ratings[t1] = e1_new
+                    elo_ratings[t2] = e2_new
+
                 gd[t1] += hg - ag
                 gd[t2] += ag - hg
                 if hg > ag:
@@ -238,10 +260,12 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000,
                         sponsors_data: dict = None, environment_data: dict = None,
                         schedule_data: dict = None):
     """Run N complete tournament simulations and return all probabilities."""
-    # Pre-compute team powers
+    # Pre-compute team powers + dynamic Elo
     all_teams = []
     for teams in GROUPS.values():
         all_teams.extend(teams)
+
+    dynamic_elo = compute_elo_ratings(all_teams)
 
     powers = {}
     v2_details = {}
@@ -259,10 +283,18 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000,
         if use_v2:
             v2_details[team] = tp
 
-    # Build venue lookup for environmental factors
+    # Build venue lookup for environmental factors (group + knockout)
     venue_map = {}
     if environment_data and schedule_data:
         venue_map = build_venue_lookup(schedule_data)
+
+    # Build knockout venue map
+    ko_venues = {
+        "QF1": "Kansas City", "QF2": "Miami", "QF3": "Dallas", "QF4": "Atlanta",
+        "SF1": "Dallas", "SF2": "Atlanta",
+        "FINAL": "New York / New Jersey",
+        "3RD": "Miami",
+    }
 
     # Counters
     champions = defaultdict(int)
@@ -275,16 +307,20 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000,
     group_1st = defaultdict(int)
     group_2nd = defaultdict(int)
 
-    ver = "V2" if use_v2 else "V1"
+    ver = "V3" if use_v2 else "V1"
     print(f"  Running {n_sims} tournament simulations [{ver}]...")
 
     for sim in range(n_sims):
         if (sim + 1) % max(1, n_sims // 10) == 0:
             print(f"    {sim + 1}/{n_sims} ({100*(sim+1)//n_sims}%)")
 
-        # Group stage (with environmental factors when available)
+        # Reset Elo for each simulation
+        sim_elo = dict(dynamic_elo)
+
+        # Group stage (with environmental factors + h2h + dynamic Elo)
         group_results = play_group_stage(powers, venue_map=venue_map,
-                                         env_data=environment_data)
+                                         env_data=environment_data,
+                                         elo_ratings=sim_elo)
 
         # Track group stage outcomes
         for g_name, gr in group_results.items():
@@ -435,7 +471,7 @@ def export_results(results: dict, path: Path):
 # ============================================================
 
 if __name__ == "__main__":
-    n_sims = 5000
+    n_sims = 10000
     use_v2 = True
     for i, arg in enumerate(sys.argv[1:], 1):
         if arg == "--v1":
