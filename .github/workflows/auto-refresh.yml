@@ -10,11 +10,15 @@ on:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -37,10 +41,11 @@ jobs:
       - name: Merge all data
         run: python auto_refresh.py
 
-      - name: Deploy to Vercel
+      - name: Commit and push
         run: |
           git config user.name "WorldCup-Bot"
           git config user.email "bot@worldcup.local"
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           git add data/
           git diff --staged --quiet || git commit -m "auto-refresh: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
