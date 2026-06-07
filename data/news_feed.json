@@ -1,86 +1,14 @@
 {
-  "updated": "2026-06-07T16:30:04.327536",
-  "total_articles": 18,
+  "updated": "2026-06-07T15:03:08.926815",
+  "total_articles": 12,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 8,
-    "bbc_sport": 8,
+    "espn_fc": 0,
+    "bbc_sport": 10,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "47a246a4e163",
-      "title": "Is the USMNT ready for the World Cup? After loss t...",
-      "url": "https://www.espn.com/soccer/story/_/id/48986237/is-usmnt-ready-world-cup-loss-germany-jury-out",
-      "published_at": "Sun, 7 Jun 2026 04:22:43 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The U.S. provided reasons for both encouragement and frustration in the final tuneup before its World Cup opener June 12."
-    },
-    {
-      "id": "84ba86f6d921",
-      "title": "📈 Ranking all 48 World Cup squads",
-      "url": "https://www.espn.com/soccer/story/_/id/48941820/world-cup-final-squads-ranked-all-48-national-teams-win-summer",
-      "published_at": "Sat, 6 Jun 2026 23:01:35 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "We have the final 26-player squads that can win the FIFA World Cup, so let's go through all 48 teams and rank where they stand."
-    },
-    {
-      "id": "0d7a1d3ad453",
-      "title": "16 players who could use World Cup to get a big tr...",
-      "url": "https://www.espn.com/soccer/story/_/id/48956021/16-players-use-world-cup-get-big-transfer-europe",
-      "published_at": "Sun, 7 Jun 2026 04:15:46 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The World Cup is the biggest stage in sports, so which players can use it to get their next big transfer?"
-    },
-    {
-      "id": "34938a46959a",
-      "title": "Predicting how all 48 World Cup teams will do: A r...",
-      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
-      "published_at": "Sun, 7 Jun 2026 04:17:35 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Who will win the FIFA World Cup? Instead of predicting a final winner, we've picked every single result to show HOW our predicted winner will do it."
-    },
-    {
-      "id": "271bb978f167",
-      "title": "Simulating the World Cup: Who did EA Sports predic...",
-      "url": "https://www.espn.com/soccer/story/_/id/48965907/simulating-world-cup-did-ea-predict-winners-how-did-usmnt-get-on",
-      "published_at": "Sun, 7 Jun 2026 04:17:35 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "EA Sports has correctly predicted the winners for the past four World Cups. But who does it pick for 2026?"
-    },
-    {
-      "id": "27118842d650",
-      "title": "Get ready for the biggest World Cup ever! What you...",
-      "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
-      "published_at": "Sat, 6 Jun 2026 03:47:03 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The wait is almost over ... the 2026 FIFA World Cup is about to begin! ESPN's experts are here with what you need to know at a glance about all 48 teams."
-    },
-    {
-      "id": "6e6a726aedde",
-      "title": "Which World Cup records are most likely to be brok...",
-      "url": "https://www.espn.com/soccer/story/_/id/48891969/which-world-cup-records-most-likely-broken-2026",
-      "published_at": "Sat, 6 Jun 2026 03:47:02 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "This summer's expanded tournament in North America could be one to rewrite the record books."
-    },
-    {
-      "id": "193988c07a43",
-      "title": "Son has had quite the World Cup journey -- but wil...",
-      "url": "https://www.espn.com/soccer/story/_/id/48974192/2026-prove-son-heung-min-final-fifa-world-cup-hurrah",
-      "published_at": "Sun, 7 Jun 2026 01:27:42 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Son Heung-Min's previous 3 World Cups perfectly mirrored where he was in his career. What does 2026 hold?"
-    },
     {
       "id": "7d7e6eee8017",
       "title": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
@@ -91,6 +19,15 @@
       "summary": "Scotland thrash Bolivia and are in decent fettle one week out from the biggest game of their international lives."
     },
     {
+      "id": "b3be9f56bda0",
+      "title": "Pre-World Cup friendlies - Messi rested & Leao sent off",
+      "url": "https://www.bbc.com/sport/football/articles/cx24nglm5zeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 07 Jun 2026 09:49:42 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Argentina great Lionel Messi is rested against Honduras, while Brazil, Germany, Belgium and Portugal each win warm-up games prior to the World Cup."
+    },
+    {
       "id": "2cf2ec84484d",
       "title": "World Cup quiz: Can you name every host?",
       "url": "https://www.bbc.com/sport/football/articles/ckgpjpng8nzo?at_medium=RSS&at_campaign=rss",
@@ -98,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Countries far and wide have hosted the festival of football since the first tournament in 1930. How many countries can you name?"
+    },
+    {
+      "id": "832fa388dc87",
+      "title": "Iran's World Cup team lands in Mexico amid US visa row",
+      "url": "https://www.bbc.com/news/articles/c5yz3zdp3jqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 07 Jun 2026 13:24:50 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "All of Iran's group games are in the US, but players and support staff will have to fly in and out of the country on match day."
     },
     {
       "id": "f7ce6fee18ce",
@@ -145,13 +91,13 @@
       "summary": "When Desmond Armstrong faced the media at the World Cup in 1990, the first question he got was one that would stick in his mind for the wrong reasons."
     },
     {
-      "id": "6d7799647eb8",
-      "title": "Lightning halts pre-World Cup friendly in Texas for two hours",
-      "url": "https://www.bbc.com/sport/football/articles/c5yz3p6vjd1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 06 Jun 2026 10:56:09 GMT",
+      "id": "761818838891",
+      "title": "France's Camavinga attends Harvard after World Cup omission ",
+      "url": "https://www.bbc.com/sport/football/articles/cgk6y208pm2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 07 Jun 2026 09:49:19 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Saudi Arabia's World Cup warm-up game against Puerto Rico in Texas is halted for nearly two hours because of extreme weather."
+      "summary": "France midfielder Eduardo Camavinga takes a Harvard Business School course after missing out on Didier Deschamps' World Cup squad. "
     },
     {
       "id": "50842eeccd4d",
