@@ -1,0 +1,46 @@
+name: World Cup 2026 Auto Refresh
+
+on:
+  schedule:
+    - cron: '30 0 * * *'   # 08:30 北京时间 = 00:30 UTC
+    - cron: '30 8 * * *'   # 16:30 北京时间 = 08:30 UTC
+    - cron: '30 16 * * *'  # 00:30 北京时间 = 16:30 UTC
+  workflow_dispatch:        # 手动触发
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install numpy pandas
+
+      - name: Refresh news
+        run: python news_feed.py
+        continue-on-error: true
+
+      - name: Refresh Betfair index
+        run: python betfair_fetcher.py
+
+      - name: Run tournament simulation (500x)
+        run: python tournament.py 500
+
+      - name: Merge all data
+        run: python auto_refresh.py
+
+      - name: Deploy to Vercel
+        run: |
+          git config user.name "WorldCup-Bot"
+          git config user.email "bot@worldcup.local"
+          git add data/
+          git diff --staged --quiet || git commit -m "auto-refresh: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

@@ -451,6 +451,6 @@ if __name__ == "__main__":
             for a in result.get("articles", [])[:10]:
                 src = a["source"]
                 title = a["title"][:85]
-                print(f"    [{src}] {title}")
+                print(f"    [{src}] {title[:80]}")
 
         print(f"\n  Run 'python news_feed.py --team Spain' for team-specific news.")

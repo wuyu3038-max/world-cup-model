@@ -1,79 +1,97 @@
 {
-  "updated": "2026-06-05T18:35:12.223521",
-  "total_articles": 20,
+  "updated": "2026-06-07T12:54:24.617614",
+  "total_articles": 21,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 9,
-    "bbc_sport": 8,
-    "sky_sports": 3,
+    "espn_fc": 10,
+    "bbc_sport": 9,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "9b9639c85833",
-      "title": "Get ready for the biggest World Cup ever! What you...",
-      "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
-      "published_at": "Fri, 5 Jun 2026 03:49:35 EST",
+      "id": "47a246a4e163",
+      "title": "Is the USMNT ready for the World Cup? After loss t...",
+      "url": "https://www.espn.com/soccer/story/_/id/48986237/is-usmnt-ready-world-cup-loss-germany-jury-out",
+      "published_at": "Sat, 6 Jun 2026 19:56:53 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "The wait is almost over ... the 2026 FIFA World Cup is about to begin! ESPN's experts are here with what you need to know at a glance about all 48 teams."
+      "summary": "The U.S. provided reasons for both encouragement and frustration in the final tuneup before its World Cup opener June 12."
     },
     {
-      "id": "6d7714647343",
-      "title": "Which World Cup records are most likely to be brok...",
-      "url": "https://www.espn.com/soccer/story/_/id/48891969/which-world-cup-records-most-likely-broken-2026",
-      "published_at": "Fri, 5 Jun 2026 03:49:34 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "This summer's expanded tournament in North America could be one to rewrite the record books."
-    },
-    {
-      "id": "fbf70fe62158",
-      "title": "Shakira to perform at World Cup opening ceremony",
-      "url": "https://www.espn.com/soccer/story/_/id/48972437/shakira-burna-boy-perform-2026-world-cup-opening-ceremony-mexico",
-      "published_at": "Fri, 5 Jun 2026 05:26:51 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Shakira will headline the opening ceremony of the 2026 World Cup in Mexico City, with the Colombian superstar set to perform the tournament's official song"
-    },
-    {
-      "id": "498a0eae284d",
+      "id": "84ba86f6d921",
       "title": "📈 Ranking all 48 World Cup squads",
       "url": "https://www.espn.com/soccer/story/_/id/48941820/world-cup-final-squads-ranked-all-48-national-teams-win-summer",
-      "published_at": "Fri, 5 Jun 2026 05:26:51 EST",
+      "published_at": "Sat, 6 Jun 2026 23:01:35 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "We have the final 26-player squads that can win the FIFA World Cup, so let's go through all 48 teams and rank where they stand."
     },
     {
-      "id": "3de7647f2518",
-      "title": "Predicting every game of the entire World Cup: All the teams and all the winners",
+      "id": "34938a46959a",
+      "title": "Predicting how all 48 World Cup teams will do: A r...",
       "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
-      "published_at": "Fri, 5 Jun 2026 03:50:25 EST",
+      "published_at": "Sat, 6 Jun 2026 15:05:38 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "Who will win the FIFA World Cup? Instead of predicting a final winner, we've picked every single result to show *how* our predicted winner will do it."
+      "summary": "Who will win the FIFA World Cup? Instead of predicting a final winner, we've picked every single result to show HOW our predicted winner will do it."
     },
     {
-      "id": "322b3cc9c6fe",
+      "id": "271bb978f167",
+      "title": "Simulating the World Cup: Who did EA Sports predic...",
+      "url": "https://www.espn.com/soccer/story/_/id/48965907/simulating-world-cup-did-ea-predict-winners-how-did-usmnt-get-on",
+      "published_at": "Sat, 6 Jun 2026 15:05:38 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "EA Sports has correctly predicted the winners for the past four World Cups. But who does it pick for 2026?"
+    },
+    {
+      "id": "27118842d650",
+      "title": "Get ready for the biggest World Cup ever! What you...",
+      "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
+      "published_at": "Sat, 6 Jun 2026 03:47:03 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The wait is almost over ... the 2026 FIFA World Cup is about to begin! ESPN's experts are here with what you need to know at a glance about all 48 teams."
+    },
+    {
+      "id": "6e6a726aedde",
+      "title": "Which World Cup records are most likely to be brok...",
+      "url": "https://www.espn.com/soccer/story/_/id/48891969/which-world-cup-records-most-likely-broken-2026",
+      "published_at": "Sat, 6 Jun 2026 03:47:02 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "This summer's expanded tournament in North America could be one to rewrite the record books."
+    },
+    {
+      "id": "0d7a1d3ad453",
+      "title": "16 players who could use World Cup to get a big tr...",
+      "url": "https://www.espn.com/soccer/story/_/id/48956021/16-players-use-world-cup-get-big-transfer-europe",
+      "published_at": "Sat, 6 Jun 2026 04:14:44 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The World Cup is the biggest stage in sports, so which players can use it to get their next big transfer?"
+    },
+    {
+      "id": "321b23be15f5",
       "title": "World Cup sticker shock: The ugly cost of the game...",
       "url": "https://www.espn.com/soccer/story/_/id/48947095/2026-fifa-world-cup-sticker-shock-ugly-cost-beautiful-game-grand-event",
-      "published_at": "Fri, 5 Jun 2026 03:57:12 EST",
+      "published_at": "Sat, 6 Jun 2026 12:11:01 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "On FIFA's resale marketplace, World Cup ticket prices have soared into four to six figures. By pricing out ordinary fans, soccer's organizing body risks hurting the image of the tournament."
     },
     {
-      "id": "20cc6d474991",
+      "id": "009c7d0ff834",
       "title": "World Cup's new rules explained: VAR for corners, ...",
       "url": "https://www.espn.com/soccer/story/_/id/48954511/world-cup-new-rules-explained-var-corners-no-gk-outs-red-card-covering-your-mouth",
-      "published_at": "Fri, 5 Jun 2026 03:57:12 EST",
+      "published_at": "Sat, 6 Jun 2026 12:11:01 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "The International Football Association Board (IFAB) has made some big changes to soccer ahead of the World Cup. But what do they mean?"
+      "summary": "The IFAB has made some big changes to soccer ahead of the World Cup. But what do they mean?"
     },
     {
-      "id": "df9d7fbe201e",
+      "id": "1e2a5dabef8f",
       "title": "Reformer or ringleader: A decade on, what is Infantino's legacy as FIFA president?",
       "url": "https://www.espn.com/soccer/story/_/id/48913347/gianni-infantino-fifa-world-cup-president-decade-platini-blatter-saudi-arabia",
       "published_at": "Wed, 3 Jun 2026 03:52:13 EST",
@@ -82,121 +100,103 @@
       "summary": "Who is the FIFA president, and what has he done since taking over from the disgraced Sepp Blatter a decade ago? Talking to those around the game, the answer is more complicated than you think."
     },
     {
-      "id": "86bc6246d976",
-      "title": "Ranking the 21 best U21 players at the 2026 World ...",
-      "url": "https://www.espn.com/soccer/story/_/id/48786147/ranking-21-best-mens-u21-players-world-cup-yamal-guler-neves",
-      "published_at": "Thu, 4 Jun 2026 03:51:48 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Ahead of the 2026 World Cup, ESPN brings you our list of the tournament's next young stars aged 21 or under."
-    },
-    {
-      "id": "0aa30a8142e5",
-      "title": "Fifa demands fans pay after ticketing error offered free World Cup tickets",
-      "url": "https://www.bbc.com/sport/football/articles/cy828v7r5ydo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 05 Jun 2026 09:10:45 GMT",
+      "id": "7d7e6eee8017",
+      "title": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
+      "url": "https://www.bbc.com/sport/football/articles/clyrw74l269o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 06 Jun 2026 23:31:18 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa says fans who were mistakenly given free tickets to World Cup group stage matches in Toronto must pay for them within seven days or lose the seats."
+      "summary": "Scotland thrash Bolivia and are in decent fettle one week out from the biggest game of their international lives."
     },
     {
-      "id": "ed33e3ca487c",
-      "title": "Huge flags and pyrotechnics with World Cup anthems",
-      "url": "https://www.bbc.com/sport/football/articles/cjdpd094lzmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 05 Jun 2026 10:01:25 GMT",
+      "id": "7d0798a800ae",
+      "title": "The pioneer in an unlikely World Cup team",
+      "url": "https://www.bbc.com/sport/football/articles/cn4p4jw7pzko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 06 Jun 2026 06:11:06 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa has unveiled what it describes as a new \"unique, immersive experience\" pre-match ceremony for all matches at the 2026 World Cup."
+      "summary": "When Desmond Armstrong faced the media at the World Cup in 1990, the first question he got was one that would stick in his mind for the wrong reasons."
     },
     {
-      "id": "253f5603050b",
-      "title": "Celtic fan groups state opposition to Keane",
-      "url": "https://www.bbc.com/sport/football/articles/c33234zxvl8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 04 Jun 2026 20:53:13 GMT",
+      "id": "f7ce6fee18ce",
+      "title": "How to follow the World Cup on the BBC",
+      "url": "https://www.bbc.com/sport/football/articles/c62dy77g8e8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 02 Jun 2026 05:33:11 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Several Celtic supporters clubs put their names to a statement opposing the potential appointment of Robbie Keane as manager because of the Irishman's previous role as Maccabi Tel Aviv head coach."
+      "summary": "The biggest World Cup in history starts on 11 June and there are more ways to follow it on the BBC than ever before."
     },
     {
-      "id": "6e41da43d97d",
-      "title": "World Cup quiz: Name every player in England's squad",
-      "url": "https://www.bbc.com/sport/football/articles/c202yprg4z2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 05 Jun 2026 07:33:13 GMT",
+      "id": "b912eadfe884",
+      "title": "How to watch the World Cup on the BBC and ITV",
+      "url": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 06 Jun 2026 20:30:36 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "There are just 12 days until England play their World Cup opener against Croatia - but can you name ever member of the squad picked by Thomas Tuchel?"
+      "summary": "All the TV and radio details for each of the 2026 World Cup group games. "
     },
     {
-      "id": "65a4665d65ad",
-      "title": "From EFL to World Cup - 11 players to look out for",
-      "url": "https://www.bbc.com/sport/football/articles/cm2pdkjzw13o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 05 Jun 2026 08:05:54 GMT",
+      "id": "be26f39b95ab",
+      "title": "World Cup 2026: All 48 squads confirmed ",
+      "url": "https://www.bbc.com/sport/football/articles/cvgz43lgn15o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 02 Jun 2026 12:43:21 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport takes a look at 11 EFL players to watch out for at this summer's World Cup. "
+      "summary": "All 48 confirmed squads for the 2026 World Cup in the US, Canada and Mexico."
     },
     {
-      "id": "db162d0d6eef",
-      "title": "What is happening with World Cup ticket prices?",
-      "url": "https://www.bbc.com/sport/football/articles/ckgpv7v4p9lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 04 Jun 2026 16:12:16 GMT",
+      "id": "85bfe2469041",
+      "title": "Download your World Cup 2026 wallchart",
+      "url": "https://www.bbc.com/sport/football/articles/c4g51wd9px6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 02 Jun 2026 11:06:39 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "With falling prices, fluctuating availability and a lack of clarity, could the biggest World Cup ever see swathes of empty seats?"
+      "summary": "Get your essential piece of kit now by downloading the Fifa World Cup 2026 wallchart. "
     },
     {
-      "id": "e438fa37edd7",
-      "title": "Robodogs and helicopters: One Mexican city's approach to World Cup security",
-      "url": "https://www.bbc.com/news/videos/c4g4n4nzl2yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 04 Jun 2026 05:42:34 GMT",
+      "id": "6d7799647eb8",
+      "title": "Lightning halts pre-World Cup friendly in Texas for two hours",
+      "url": "https://www.bbc.com/sport/football/articles/c5yz3p6vjd1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 06 Jun 2026 10:56:09 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "In the shadow of cartel violence, BBC’s Will Grant got a first-hand look at security plans in Monterrey."
+      "summary": "Saudi Arabia's World Cup warm-up game against Puerto Rico in Texas is halted for nearly two hours because of extreme weather."
     },
     {
-      "id": "a3253fc86e16",
-      "title": "Diana Ross & 'GOAT' Ronaldo - Richards watches World Cup moments",
-      "url": "https://www.bbc.com/sport/football/videos/c1w2xy0r2r3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 03 Jun 2026 09:00:06 GMT",
+      "id": "643db909acf4",
+      "title": "Which World Cup team are you? Take our quiz",
+      "url": "https://www.bbc.com/sport/football/articles/ckgpy79y53eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 06 Jun 2026 06:52:15 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Former England defender and current pundit Micah Richards looks at some of the most memorable World Cup moments."
+      "summary": "Whether you're a neutral in need of a team to support or just fancy following a second side, BBC Sport has got you covered."
     },
     {
-      "id": "874b302eb0ec",
-      "title": "Farrell extends Ireland deal to 2031 World Cup",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13551022/andy-farrell-contract-ireland-head-coach-extends-deal-until-end-of-2031-rugby-world-cup",
-      "published_at": "Fri, 05 Jun 2026 09:39:00 BST",
+      "id": "265c26d51923",
+      "title": "Iran says staff blocked from entering US after players given World Cup visas",
+      "url": "https://www.bbc.com/news/articles/cy8286nqz87o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 06 Jun 2026 22:38:36 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Iranian officials say technical staff have been denied visas, hours after the US said players could enter the country."
+    },
+    {
+      "id": "50842eeccd4d",
+      "title": "Scotland thrash Bolivia ahead of World Cup opener",
+      "url": "https://www.skysports.com/football/bolivia-vs-scotland/report/555767",
+      "published_at": "Sat, 06 Jun 2026 22:58:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Andy Farrell has signed a contract extension to remain as Ireland head coach until the end of the 2031 Rugby World Cup."
+      "summary": "Che Adams scored twice as a dominant Scotland thrashed Bolivia 4-0 in New Jersey in their final friendly before getting their World Cup campaign under way next week. "
     },
     {
-      "id": "f885ca2bd9cc",
-      "title": "Robertson relishing chance to lead Scotland at World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13549779/world-cup-2026-scotland-captain-andy-robertson-on-pinch-yourself-moment-of-being-part-of-historic-squad",
-      "published_at": "Fri, 05 Jun 2026 08:00:00 BST",
+      "id": "554f1e0cbd63",
+      "title": "England beat New Zealand in first World Cup warm-up game",
+      "url": "https://www.skysports.com/football/england-vs-new-zealand/report/553972",
+      "published_at": "Fri, 05 Jun 2026 17:16:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Andy Robertson was expected to be named in Scotland's World Cup squad, but he admitted it was a \"huge pinch yourself moment\"when he was confirmed as one of Steve Clarke's 26-man party."
-    },
-    {
-      "id": "b366e7e36c35",
-      "title": "Celtic fan groups sign letter opposing Keane appointment",
-      "url": "https://www.skysports.com/football/news/12040/13550904/robbie-keane-to-celtic-fan-groups-sign-letter-opposing-appointment-due-to-maccabi-tel-aviv-links",
-      "published_at": "Thu, 04 Jun 2026 20:31:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Dozens of Celtic supporters clubs have put their names to a statement opposing the potential appointment of Robbie Keane as manager over his previous role with Maccabi Tel Aviv."
+      "summary": "Harry Kane's header gave England a 1-0 win over New Zealand in their first World Cup warm-up game in Tampa, Florida."
     }
-  ],
-  "team_filter": "Spain",
-  "team_articles": [],
-  "team_sentiment": {
-    "positive": 0,
-    "negative": 0,
-    "neutral": 0,
-    "total": 0,
-    "highlights": []
-  }
+  ]
 }
