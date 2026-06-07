@@ -31,6 +31,16 @@ def refresh_live_odds():
             json.dump(data, f, indent=2, ensure_ascii=False)
         print(f"  [OK] live_odds.json refreshed (#{data['refresh_count']})")
 
+def refresh_betfair_index():
+    """Run betfair_fetcher to update Betfair index data."""
+    try:
+        import betfair_fetcher
+        data = betfair_fetcher.fetch_betfair_index(use_live=False)
+        betfair_fetcher.save_betfair_index(data)
+        print(f"  [OK] betfair_index.json refreshed")
+    except Exception as e:
+        print(f"  [WARN] betfair_index refresh failed: {e}")
+
 def refresh_tournament_results():
     """Update tournament_results.json timestamp."""
     path = DATA_DIR / "tournament_results.json"
@@ -84,6 +94,7 @@ def deploy():
 if __name__ == "__main__":
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Auto-refresh started")
     refresh_live_odds()
+    refresh_betfair_index()
     refresh_tournament_results()
     merge_all_data()
 

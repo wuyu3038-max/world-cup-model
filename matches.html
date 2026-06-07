@@ -122,8 +122,24 @@ const MATCHES_BY_DATE={
 // ============ MATH ============
 function fact(n){let r=1;for(let i=2;i<=n;i++)r*=i;return r}
 
-// ============ DIXON-COLES PREDICT ============
-function dcPredict(home, away, players, rankings, gkRatings, supplement){
+// ============ DIXON-COLES PREDICT (V2 Enhanced) ============
+// Environmental factor: heat × altitude × roof
+function envFactor(cityName, roof, elevM, envCities){
+  if(roof) return 1.00; // indoor = climate controlled
+  const c = envCities[cityName] || {};
+  const risk = (c.heat_risk || 'LOW').toUpperCase();
+  let hf = 1.00;
+  if(risk.includes('EXTREME')) hf = 0.88;
+  else if(risk.includes('HIGH')) hf = 0.92;
+  else if(risk.includes('MODERATE')) hf = 0.96;
+  // Altitude
+  let af = 1.00;
+  if(elevM >= 1800) af = 0.90;
+  else if(elevM >= 1000) af = 0.95;
+  return hf * af;
+}
+
+function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPowers, envCities, venueInfo, betfairIndex, newsData){
   const gaMap={};
   players.forEach(p=>{const g=Number(p.goals_2526)||0,a=Number(p.assists_2526)||0;gaMap[p.nation]=(gaMap[p.nation]||0)+g+a;});
   (supplement||[]).forEach(p=>{if(gaMap[p.nation]!=null&&p.goals_2526)gaMap[p.nation]+=p.goals_2526;});
@@ -138,7 +154,78 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement){
   const defH=-(2200-hr*10)/6000-(hgk-50)/400;
   const defA=-(2200-ar*10)/6000-(agk-50)/400;
 
-  const lam=Math.exp(0.30+attH-defA),mu=Math.exp(attA-defH),rho=0.05;
+  // === V2 POWER ADJUSTMENT ===
+  // Blend V2 combined power into expected goals as a ratio modifier
+  let v2Boost = 1.0;
+  if(teamPowers && teamPowers[home] && teamPowers[away]){
+    const v2h = teamPowers[home].combined || 5;
+    const v2a = teamPowers[away].combined || 5;
+    // Ratio relative to average team (~mid-table, power ~8)
+    const avgPow = 8.0;
+    const hBoost = Math.max(0.7, Math.min(1.3, v2h / avgPow));
+    const aBoost = Math.max(0.7, Math.min(1.3, v2a / avgPow));
+    v2Boost = hBoost / aBoost; // relative strength ratio
+  }
+
+  // === ENVIRONMENTAL FACTOR ===
+  let envH = 1.0, envA = 1.0;
+  if(venueInfo && envCities){
+    const city = venueInfo.city || '';
+    const roof = venueInfo.roof || false;
+    const elev = venueInfo.elevation_m || 0;
+    envH = envFactor(city, roof, elev, envCities);
+    envA = envFactor(city, roof, elev, envCities);
+  }
+
+  // === BETFAIR MONEY FLOW (必发资金流) ===
+  let bfBoost = 1.0, mfH = 0, mfA = 0;
+  if(betfairIndex){
+    const runners = betfairIndex.runners || {};
+    for(const [key, info] of Object.entries(runners)){
+      if(typeof key === 'string'){
+        if(key.toLowerCase().includes(home.toLowerCase())) mfH = info.money_flow || 0;
+        if(key.toLowerCase().includes(away.toLowerCase())) mfA = info.money_flow || 0;
+      }
+    }
+    // Net money flow difference: + = money chasing home, - = money chasing away
+    const netFlow = mfH - mfA;
+    // Scale: ±0.3 flow → ±4.5% xG adjustment (small but meaningful)
+    bfBoost = 1.0 + netFlow * 0.15;
+    bfBoost = Math.max(0.88, Math.min(1.12, bfBoost)); // clamp ±12%
+  }
+
+  // === NEWS SENTIMENT (时事新闻情感) ===
+  let newsH = 0, newsA = 0;
+  if(newsData && newsData.articles){
+    // Simple keyword sentiment for each team (mirrors Python extract_news_sentiment)
+    const posWords = ['win','victory','confident','star','fit','return','boost','hat-trick','record','top','best','favorite','triumph'];
+    const negWords = ['injury','injured','doubt','loss','defeat','out','suspended','struggle','disappointing','blow','setback','worry','crisis'];
+    function teamNewsSent(team){
+      const kw = (newsData.team_keywords||{})[team] || [team.toLowerCase()];
+      let pos=0, neg=0, total=0;
+      (newsData.articles||[]).forEach(a=>{
+        const text = ((a.title||'')+' '+(a.summary||'')).toLowerCase();
+        if(kw.some(k=>text.includes(k.toLowerCase()))){
+          total++;
+          const pc = posWords.filter(w=>text.includes(w)).length;
+          const nc = negWords.filter(w=>text.includes(w)).length;
+          if(nc>pc) neg++; else if(pc>nc) pos++;
+        }
+      });
+      return total>0 ? (pos-neg)/total : 0;
+    }
+    newsH = teamNewsSent(home);
+    newsA = teamNewsSent(away);
+  }
+  // News boost: net positive sentiment lifts xG slightly
+  const newsBoost = 1.0 + (newsH - newsA) * 0.06;
+  const clampedNews = Math.max(0.92, Math.min(1.08, newsBoost)); // clamp ±8%
+
+  // Apply all modifiers to expected goals
+  let lam=Math.exp(0.30+attH-defA) * v2Boost * envH * bfBoost * clampedNews;
+  let mu=Math.exp(attA-defH) * envA;
+  const rho=0.05;
+
   let hw=0,dw=0,aw=0,o25=0,btts=0,total=0,scores=[];
   for(let h=0;h<=10;h++)for(let a=0;a<=10;a++){
     let p=Math.pow(lam,h)*Math.exp(-lam)/fact(h)*Math.pow(mu,a)*Math.exp(-mu)/fact(a);
@@ -155,7 +242,7 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement){
   return{hw,dw,aw,lam:lam.toFixed(1),mu:mu.toFixed(1),o25,btts,upsetPct,
     s1:scores[0]||{h:1,a:0},s1p:scores[0]?.p||0,
     s2:scores[1]||{h:1,a:1},s2p:scores[1]?.p||0,
-    diff:lam-mu};
+    diff:lam-mu, envH, envA, v2Boost, bfBoost, mfH, mfA, newsH, newsA, newsBoost:clampedNews};
 }
 
 // ============ ASIAN HANDICAP ============
@@ -186,10 +273,29 @@ function renderMatch(pred,m){
   else{pick1x2='客胜';pickCls='hl'}
   const hb=Math.round(pred.hw*100),db=Math.round(pred.dw*100),ab=Math.round(pred.aw*100);
   const upsetCls=upsetPct>35?'br':upsetPct>25?'by':'bg';
+  // Environmental/V2 impact badges (always show when data available)
+  const envH=pred.envH||1, envA=pred.envA||1;
+  const hasEnv = envH<0.98 || envA<0.98;
+  const envBadge=hasEnv?`<span class="badge br" style="font-size:9px;margin-left:4px" title="xG环境修正: 主${envH.toFixed(2)} 客${envA.toFixed(2)}">🌡️x${envH.toFixed(2)}</span>`:'';
+  const v2b=pred.v2Boost||1;
+  const hasV2 = Math.abs(v2b-1)>0.02;
+  const v2Label = v2b>1.02?`V2↑${((v2b-1)*100).toFixed(0)}%`:v2b<0.98?`V2↓${((1-v2b)*100).toFixed(0)}%`:'V2';
+  const v2Badge=hasV2?`<span class="badge bb" style="font-size:9px;margin-left:2px" title="V2五维力量比(攻击+FIFA+市场+赞助+状态): ${v2b.toFixed(3)}">${v2Label}</span>`:'';
+  // Betfair money flow badge
+  const bfB=pred.bfBoost||1, mfH=pred.mfH||0, mfA=pred.mfA||0;
+  const hasBF = Math.abs(bfB-1)>0.005;
+  const bfLabel = bfB>1.005?`必发↑${((bfB-1)*100).toFixed(0)}%`:bfB<0.995?`必发↓${((1-bfB)*100).toFixed(0)}%`:'';
+  // News sentiment badge
+  const newsB=pred.newsBoost||1, nH=pred.newsH||0, nA=pred.newsA||0;
+  const hasNews = Math.abs(nH)>0.1 || Math.abs(nA)>0.1;
+  const newsBadge=hasNews?`<span class="badge" style="font-size:9px;margin-left:2px;background:#004d40;color:#80cbc4" title="News sentiment: H${nH>0?'+':''}${(nH*100).toFixed(0)}% A${nA>0?'+':''}${(nA*100).toFixed(0)}%">NEWS${newsB>1.005?'+':newsB<0.995?'-':''}</span>`:'';
+
+  const bfBadge=hasBF?`<span class="badge" style="font-size:9px;margin-left:2px;background:#6a1b9a;color:#ce93d8" title="必发资金流: 主${mfH>0?'+':''}${(mfH*100).toFixed(0)}% vs 客${mfA>0?'+':''}${(mfA*100).toFixed(0)}% | xG修正: ${bfB.toFixed(3)}">${bfLabel}</span>`:'';
 
   return `<div class="match-row" data-group="${m.g}" data-date="${m.date}">
     <div class="time">${m.g}组</div>
-    <div class="matchup"><span>${zhT(m.h)}</span><span class="vs">vs</span><span>${zhT(m.a)}</span></div>
+
+    <div class="matchup"><span>${zhT(m.h)}</span><span class="vs">vs</span><span>${zhT(m.a)}</span>${envBadge}${v2Badge}${bfBadge}${newsBadge}</div>
     <div class="venue">${zhCi(m.v)||m.v}</div>
     <div class="odds-cell ${pickCls}">
       <div class="val">${pick1x2}</div>
@@ -247,6 +353,37 @@ async function main(){
     const rankings=all.fifa_rankings?.rankings||[];
     const gkRatings=all.goalkeepers?.team_gk_rating?.ratings||{};
     const supplement=all.player_stats_supplement?.players||[];
+    const teamPowers=all.tournament_results?.team_powers||{};
+    const envCities=all.environment?.cities||{};
+    const betfairIndex=all.betfair_index?.betfair_index||null;
+    const newsArticles = all.news_feed?.articles || [];
+    // Team keywords for news matching (sync with Python TEAM_KEYWORDS)
+    const TEAM_KW = {
+      'Spain':['spain','españa','yamal','rodri','pedri'],'France':['france','mbappé','mbappe','olise'],
+      'England':['england','kane','bellingham','saka'],'Brazil':['brazil','brasil','neymar','vinícius'],
+      'Argentina':['argentina','messi','lautaro'],'Portugal':['portugal','ronaldo','bruno'],
+      'Germany':['germany','musiala','wirtz'],'Netherlands':['netherlands','van dijk','gakpo'],
+      'Norway':['norway','haaland','odegaard'],'United States':['usa','united states','pulisic'],
+      'Mexico':['mexico','méxico','el tri'],'Japan':['japan','mitoma','kubo'],
+      'South Korea':['south korea','son heung'],'Croatia':['croatia','modrić','modric'],
+      'Belgium':['belgium','de bruyne','lukaku'],'Senegal':['senegal','mané','mane'],
+      'Morocco':['morocco','hakimi'],'Colombia':['colombia','luis díaz'],
+      'Uruguay':['uruguay','valverde','núñez'],'Sweden':['sweden','isak','gyökeres'],
+      'Egypt':['egypt','salah','marmoush'],'Canada':['canada','davies'],
+      'Scotland':['scotland','mctominay','robertson']
+    };
+
+    // Build venue lookup from match_schedule (city + roof + elevation per match)
+    const venueLookup = {};
+    const ms = all.match_schedule?.matches || {};
+    ['matchday_1','matchday_2','matchday_3'].forEach(md => {
+      (ms[md]||[]).forEach(m => {
+        const key = m.home + '|' + m.away;
+        venueLookup[key] = {city: m.city||'', roof: m.roof||false, elevation_m: m.elevation_m||0};
+        // Also store reverse
+        venueLookup[m.away + '|' + m.home] = {city: m.city||'', roof: m.roof||false, elevation_m: m.elevation_m||0};
+      });
+    });
 
     // Build player list
     const players=[];
@@ -289,7 +426,9 @@ async function main(){
         html+=`<div class="date-header" data-date="${date}"><h3>📅 ${date}</h3></div>`;
         (MATCHES_BY_DATE[date]||[]).forEach(m=>{
           m.date=date;
-          const pred=dcPredict(m.h,m.a,players,rankings,gkRatings,supplement);
+          const vKey = m.h + '|' + m.a;
+          const venueInfo = venueLookup[vKey] || {};
+          const pred=dcPredict(m.h,m.a,players,rankings,gkRatings,supplement,teamPowers,envCities,venueInfo,betfairIndex,{articles:newsArticles,team_keywords:TEAM_KW});
           html+=renderMatch(pred,m);
         });
       });

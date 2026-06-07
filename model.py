@@ -1,16 +1,24 @@
 """
-2026 FIFA World Cup Prediction Model — Enhanced Version
-=======================================================
+2026 FIFA World Cup Prediction Model — V2 (4-Factor Integrated)
+================================================================
 Data: world-cup-model/data/
   - world_cup_players.json   : Squad + individual player stats
   - league_stats.json        : League-level goal stats (2024-25 & 2025-26)
   - fifa_rankings.json       : FIFA World Rankings (June 2026)
+  - betting_odds.json        : Tournament winner / group / match odds
+  - sponsors.json            : Kit sponsors, brand power, pressure penalties
+  - environment.json         : 16 host city weather / altitude / WBGT data
+  - match_schedule.json      : 104-match schedule with venue mapping
 
 Features:
   - FIFA Elo proxy via rankings
   - Player G+A weighted by league quality
   - Form trend (2024-25 → 2025-26)
-  - Poisson match simulation
+  - Betting market prior (sqrt-scaled implied probability)
+  - Environmental xG multiplier (heat stress × altitude × roof)
+  - Sponsor brand bonus + pressure/conflict penalty
+  - Market sentiment placeholder (Betfair-ready)
+  - Poisson match simulation with env modifiers
   - Monte Carlo group stage (1000 iterations)
 """
 
@@ -109,6 +117,21 @@ def get_market_power(betting_data: dict) -> dict:
     winner_odds = betting_data.get("tournament_winner_raw_odds", [])
     return {item["team"]: item.get("implied_prob", 0) * 100  # as percentage
             for item in winner_odds}
+
+def load_sponsors() -> dict:
+    """Load kit sponsor data including brand power index and pressure penalties."""
+    with open(DATA_DIR / "sponsors.json", "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def load_environment() -> dict:
+    """Load venue/city environmental data (temperature, elevation, WBGT, roof)."""
+    with open(DATA_DIR / "environment.json", "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def load_match_schedule() -> dict:
+    """Load complete 104-match schedule with venue/city mappings."""
+    with open(DATA_DIR / "match_schedule.json", "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 # ============================================================
@@ -230,9 +253,17 @@ def compute_team_power(players_df: pd.DataFrame, fifa_ranks: dict, nation: str) 
 # ============================================================
 
 def simulate_match(home_power: float, away_power: float,
-                   home_advantage: float = 0.25) -> Tuple[int, int]:
+                   home_advantage: float = 0.25,
+                   env_factor_home: float = 1.0,
+                   env_factor_away: float = 1.0) -> Tuple[int, int]:
     """
     Simulate a single match score using Poisson distribution.
+
+    Parameters:
+      env_factor_home/away: xG multiplier for environmental conditions
+        - 1.0 = neutral (default, backward compatible)
+        - <1.0 = adverse conditions (heat, altitude, humidity)
+        - Indoor/roof venues always 1.0
     """
     LEAGUE_AVG = 1.40
 
@@ -243,8 +274,8 @@ def simulate_match(home_power: float, away_power: float,
     home_factor = 0.3 + hp / 8
     away_factor = 0.3 + ap / 8
 
-    home_xg = home_factor * LEAGUE_AVG + home_advantage
-    away_xg = away_factor * LEAGUE_AVG
+    home_xg = (home_factor * LEAGUE_AVG + home_advantage) * env_factor_home
+    away_xg = away_factor * LEAGUE_AVG * env_factor_away
 
     home_goals = np.random.poisson(max(home_xg, 0.05))
     away_goals = np.random.poisson(max(away_xg, 0.05))
@@ -329,7 +360,9 @@ def simulate_knockout(powers: dict, bracket: List[str],
 # 7. ANALYSIS & REPORTING
 # ============================================================
 
-def analyze(players_df: pd.DataFrame, fifa_ranks: dict, betting_data: dict = None) -> None:
+def analyze(players_df: pd.DataFrame, fifa_ranks: dict, betting_data: dict = None,
+            sponsors_data: dict = None, environment_data: dict = None,
+            schedule_data: dict = None) -> None:
     """Run comprehensive analysis."""
 
     print("=" * 65)
@@ -483,13 +516,507 @@ def analyze(players_df: pd.DataFrame, fifa_ranks: dict, betting_data: dict = Non
             signal = "(value)" if diff > 0.05 else ("(overvalued)" if diff < -0.05 else "")
             print(f"     Group {g_name}: {fav:<18s} Market={mkt_prob:.0%}  Model={model_prob:.0%}  {signal}")
 
+    # --- I. Environmental Impact ---
+    if environment_data and schedule_data:
+        print("\n" + "-" * 60)
+        print("  [9] ENVIRONMENTAL IMPACT — Venue Risk Assessment")
+        print("-" * 60)
+        cities = environment_data.get("cities", {})
+        venue_map = build_venue_lookup(schedule_data)
+
+        # Summarize risk levels
+        extreme_venues = []
+        high_venues = []
+        altitude_venues = []
+        for name, c in cities.items():
+            risk = c.get("heat_risk", "LOW")
+            elev = c.get("elevation_m", 0)
+            if "EXTREME" in risk.upper():
+                extreme_venues.append((name, c.get("wbgt_risk", "")))
+            elif "HIGH" in risk.upper():
+                high_venues.append(name)
+            if elev >= 1500:
+                altitude_venues.append((name, elev))
+
+        print(f"\n  EXTREME HEAT VENUES (factor ~0.88):")
+        for name, wbgt in extreme_venues:
+            print(f"    {name:<25s} — {wbgt}")
+        print(f"\n  HIGH HEAT VENUES (factor ~0.92):")
+        for name in high_venues:
+            c = cities[name]
+            print(f"    {name:<25s} — T={c.get('avg_temp_june_c','?')}C  RH={c.get('avg_humidity_pct','?')}%  "
+                  f"Roof: {'YES' if c.get('roof') else 'no'}")
+        print(f"\n  ALTITUDE VENUES:")
+        for name, elev in altitude_venues:
+            print(f"    {name:<25s} — {elev}m "
+                  f"({'MAJOR effect' if elev >= 2000 else 'MODERATE effect'})")
+
+        # Count affected matches
+        affected = sum(1 for v in venue_map.values()
+                       if cities.get(v["city"], {}).get("heat_risk", "") in ("EXTREME", "HIGH")
+                       and not v.get("roof", False))
+        total = len(venue_map) // 2  # venue_map has both forward and reverse keys
+        print(f"\n  Matches at HIGH+ heat risk (open air): ~{affected} out of ~{total}")
+        print(f"  Safest venues: Vancouver, Seattle, Toronto, Los Angeles, San Francisco")
+
+    # --- J. Sponsor Analysis ---
+    if sponsors_data:
+        print("\n" + "-" * 60)
+        print("  [10] SPONSOR INFLUENCE — Brand Power & Pressure Penalties")
+        print("-" * 60)
+        kit = sponsors_data.get("kit_sponsors", {})
+        brand_count = defaultdict(int)
+        for team, brand in kit.items():
+            brand_count[brand] += 1
+        print(f"\n  Brand Distribution (48 teams):")
+        for brand, count in sorted(brand_count.items(), key=lambda x: -x[1]):
+            bonus = BRAND_BONUS.get(brand, 0.0)
+            print(f"    {brand:<15s}: {count:>2d} teams  (bonus +{bonus:.1f})")
+
+        pressure = sponsors_data.get("sponsor_pressure_penalty", {})
+        # Filter out metadata keys (those starting with _)
+        pressure_teams = {k: v for k, v in pressure.items()
+                          if not k.startswith("_") and isinstance(v, (int, float))}
+        if pressure_teams:
+            print(f"\n  Pressure Penalties:")
+            for team, penalty in sorted(pressure_teams.items(), key=lambda x: x[1]):
+                print(f"    {team:<20s} {penalty:+.1f}")
+
+        conflicts = sponsors_data.get("sponsor_conflicts", [])
+        if conflicts:
+            print(f"\n  Active Sponsor Conflicts:")
+            for c in conflicts:
+                teams = ", ".join(c.get("teams", []))
+                print(f"    [{c.get('severity', '?')}] {teams}: {c.get('issue', '?')}")
+
+    # --- K. V2 vs V1 Comparison ---
+    print("\n" + "-" * 60)
+    print("  [11] V2 vs V1 — Power Rankings Comparison")
+    print("-" * 60)
+    v1_powers = {}
+    v2_powers = {}
+    for nat in sorted(players_df["nation"].unique()):
+        v1 = compute_team_power(players_df, fifa_ranks, nat)
+        if v1["combined"] > 0:
+            v1_powers[nat] = v1["combined"]
+        v2 = compute_team_power_v2(players_df, fifa_ranks, nat,
+                                   betting_data=betting_data,
+                                   sponsors_data=sponsors_data)
+        if v2["combined"] > 0:
+            v2_powers[nat] = v2
+
+    # Rank changes
+    v1_ranked = sorted(v1_powers.items(), key=lambda x: -x[1])
+    v1_rank_map = {team: i for i, (team, _) in enumerate(v1_ranked)}
+    v2_ranked = sorted(v2_powers.items(), key=lambda x: -x[1]["combined"])
+    v2_rank_map = {team: i for i, (team, _) in enumerate(v2_ranked)}
+
+    # Teams with biggest rank change
+    rank_changes = []
+    for team in v1_rank_map:
+        if team in v2_rank_map:
+            delta = v1_rank_map[team] - v2_rank_map[team]  # positive = moved up in V2
+            rank_changes.append((team, delta, v1_rank_map[team] + 1, v2_rank_map[team] + 1,
+                                 v2_powers[team]))
+    rank_changes.sort(key=lambda x: abs(x[1]), reverse=True)
+
+    print(f"  Top 10 ranking changes (V1 → V2):")
+    print(f"  {'Team':<20s} {'V1 Rank':>7s} {'V2 Rank':>7s} {'Δ':>5s}  {'V2 Factors'}")
+    print(f"  {'-'*20} {'-'*7} {'-'*7} {'-'*5}  {'-'*30}")
+    for team, delta, r1, r2, v2 in rank_changes[:10]:
+        arrow = "↑" if delta > 0 else ("↓" if delta < 0 else "—")
+        factors = f"ATK={v2['attack_score']:.1f} FIFA={v2['fifa_strength']:.1f} MKT={v2['market_power']:.1f} SP={v2['sponsor_adj']:+.1f} NEWS={v2.get('news_sentiment',0):+.2f}"
+        print(f"  {team:<20s} {r1:>4d}   {r2:>4d}   {arrow}{abs(delta):>3d}  {factors}")
+
+    # V2 top 20 with decomposition
+    print(f"\n  V2 Top 10 — 6-Factor Power Decomposition:")
+    print(f"  {'Rank':<5s} {'Team':<20s} {'Comb':>6s} {'Attack':>6s} {'FIFA':>5s} {'Market':>6s} {'Spons':>5s} {'News':>5s}")
+    print(f"  {'-'*5} {'-'*20} {'-'*6} {'-'*6} {'-'*5} {'-'*6} {'-'*5} {'-'*5}")
+    for i, (team, v2) in enumerate(v2_ranked[:10], 1):
+        print(f"  {i:>3}.  {team:<20s} {v2['combined']:>6.1f} {v2['attack_score']:>6.1f} "
+              f"{v2['fifa_strength']:>5.1f} {v2['market_power']:>6.1f} {v2['sponsor_adj']:>+5.1f} {v2.get('news_sentiment',0):>+5.2f}")
+
     print("\n" + "=" * 65)
-    print(f"  Analysis complete. {len(all_powers)} teams evaluated.")
+    print(f"  Analysis complete. {len(v2_powers)} teams evaluated (V1+V2).")
     print("=" * 65)
 
 
 # ============================================================
-# 8. ENTRY POINT
+# 8. MATCH-VENUE LOOKUP
+# ============================================================
+
+def build_venue_lookup(schedule_data: dict) -> dict:
+    """
+    Build a lookup table mapping (home_team, away_team) -> venue info.
+    Match schedule JSON already includes city, roof, elevation_m per match.
+    Returns dict with both forward and reverse keys for flexible lookup.
+    """
+    venue_map = {}
+    matches = schedule_data.get("matches", {})
+
+    for md_key in ["matchday_1", "matchday_2", "matchday_3"]:
+        for match in matches.get(md_key, []):
+            home = match.get("home", "")
+            away = match.get("away", "")
+            if not home or not away:
+                continue
+            info = {
+                "city": match.get("city", ""),
+                "roof": match.get("roof", False),
+                "elevation_m": match.get("elevation_m", 0),
+                "group": match.get("group", ""),
+                "match_num": match.get("match", 0),
+            }
+            venue_map[(home, away)] = info
+            # Also store reverse for lookup flexibility
+            venue_map[(away, home)] = info
+
+    return venue_map
+
+
+# ============================================================
+# 9. ENVIRONMENTAL FACTOR COMPUTATION
+# ============================================================
+
+# Acclimatized teams: nations with high-altitude home venues or experience
+ALTITUDE_TEAMS = {
+    "Mexico": 1.00,      # Full acclimatization (2250m home)
+    "Ecuador": 0.80,     # Strong acclimatization (Quito ~2850m)
+    "Colombia": 0.50,    # Partial acclimatization (Bogota ~2640m)
+    "Bolivia": 1.00,     # (not in WC but kept for completeness)
+}
+
+# Module-level cache for city env factors
+_ENV_CACHE: dict = {}
+
+
+def _heat_factor(heat_risk: str) -> float:
+    """Convert FIFA heat_risk category to xG multiplier."""
+    risk = (heat_risk or "").upper()
+    if "EXTREME" in risk:
+        return 0.88
+    elif "HIGH" in risk:
+        return 0.92
+    elif "MODERATE" in risk:
+        return 0.96
+    else:
+        return 1.00  # LOW or unknown
+
+
+def _altitude_factor(elevation_m: float, team: str) -> float:
+    """Altitude xG multiplier for a given team at a given elevation."""
+    if elevation_m < 1000:
+        return 1.00
+    elif elevation_m < 1800:
+        # Guadalajara level: 2-4% VO2max loss
+        base = 0.95
+    else:
+        # Mexico City level: 5-8% VO2max loss
+        base = 0.90
+
+    # Acclimatized teams get partial or full compensation
+    acclimatization = ALTITUDE_TEAMS.get(team, 0.0)
+    if acclimatization > 0:
+        # Recover up to 60% of the altitude penalty based on acclimatization level
+        recovery = (1.0 - base) * 0.60 * acclimatization
+        base = base + recovery
+
+    return base
+
+
+def compute_env_factor(environment_data: dict, city_name: str,
+                       roof: bool, elevation_m: float,
+                       team: str) -> float:
+    """
+    Compute environmental xG multiplier for a team at a specific venue.
+
+    Returns float in ~[0.85, 1.00] range:
+      1.00 = neutral/indoor/no adverse conditions
+      <1.00 = adverse conditions reduce expected goals
+
+    Factors multiply: heat_factor × altitude_factor
+    Roof=true eliminates heat penalty (climate controlled).
+    Results are cached per (city, roof, team) tuple.
+    """
+    cache_key = (city_name, roof, team)
+    if cache_key in _ENV_CACHE:
+        return _ENV_CACHE[cache_key]
+
+    # If roof is closed, heat risk is eliminated
+    if roof:
+        heat_f = 1.00
+    else:
+        city_data = environment_data.get("cities", {}).get(city_name, {})
+        heat_risk = city_data.get("heat_risk", "LOW")
+        heat_f = _heat_factor(heat_risk)
+
+    alt_f = _altitude_factor(elevation_m, team)
+
+    result = round(heat_f * alt_f, 4)
+    _ENV_CACHE[cache_key] = result
+    return result
+
+
+# ============================================================
+# 10. SPONSOR FACTOR COMPUTATION
+# ============================================================
+
+# Brand power bonus based on historical World Cup performance
+BRAND_BONUS = {
+    "Adidas": 1.2,
+    "Nike": 1.0,
+    "Puma": 0.6,
+}
+
+# Conflict severity penalty
+SEVERITY_PENALTY = {"HIGH": -0.5, "MEDIUM": -0.3, "LOW": -0.1}
+
+
+def compute_sponsor_factor(sponsors_data: dict, team: str) -> float:
+    """
+    Compute sponsor/brand influence on team power (~-1.3 to +1.2 range).
+
+    Components:
+      1. Brand bonus: Adidas (+1.2) > Nike (+1.0) > Puma (+0.6) > Other (0)
+      2. Pressure penalty: direct lookup from sponsor_pressure_penalty
+      3. Conflict penalty: from sponsor_conflicts list
+    """
+    if not sponsors_data:
+        return 0.0
+
+    kit_sponsors = sponsors_data.get("kit_sponsors", {})
+    brand = kit_sponsors.get(team, "Other")
+
+    # 1. Brand bonus
+    brand_bonus = BRAND_BONUS.get(brand, 0.0)
+
+    # 2. Pressure penalty (skip metadata keys)
+    pressure_dict = sponsors_data.get("sponsor_pressure_penalty", {})
+    pressure = pressure_dict.get(team, 0.0)
+    if not isinstance(pressure, (int, float)):
+        pressure = 0.0
+
+    # 3. Conflict penalty
+    conflict_penalty = 0.0
+    for conflict in sponsors_data.get("sponsor_conflicts", []):
+        if team in conflict.get("teams", []):
+            severity = conflict.get("severity", "LOW")
+            conflict_penalty += SEVERITY_PENALTY.get(severity, 0.0)
+
+    return round(brand_bonus + pressure + conflict_penalty, 2)
+
+
+# ============================================================
+# 11. MARKET POWER FROM BETTING ODDS
+# ============================================================
+
+def compute_market_power(betting_data: dict, team: str) -> float:
+    """
+    Convert tournament winner implied probability to model power scale.
+    Uses sqrt scaling to compress differences at the top:
+      market_power = sqrt(implied_prob * 100) * 2.5
+
+    Range: ~0.8 (Cape Verde 0.1%) to ~10.7 (Spain 18.2%)
+    Falls back to group odds or 0.001 for unlisted teams.
+    """
+    if not betting_data:
+        return 0.0
+
+    # Name mapping: betting odds JSON uses short names, players use full names
+    NAME_MAP = {
+        "USA": "United States",
+        "South Korea": "Korea Republic",  # for safety
+    }
+    lookup_names = {team}
+    if team in NAME_MAP:
+        lookup_names.add(NAME_MAP[team])
+    # Also check reverse mapping
+    for short, full in NAME_MAP.items():
+        if full == team:
+            lookup_names.add(short)
+
+    # 1. Try tournament winner odds
+    winner_odds = betting_data.get("tournament_winner_raw_odds", [])
+    for item in winner_odds:
+        if item.get("team") in lookup_names:
+            prob = item.get("implied_prob", 0.001)
+            return round(math.sqrt(max(prob, 0.0001) * 100) * 2.5, 1)
+
+    # 2. Try group winner odds
+    group_odds = betting_data.get("group_winners_odds", {})
+    for g_name, gw in group_odds.items():
+        if gw.get("favorite") == team:
+            return round(math.sqrt(max(gw.get("implied_prob", 0.02), 0.0001) * 100) * 2.5, 1)
+        others = gw.get("others", {})
+        if team in others:
+            prob = others[team]
+            return round(math.sqrt(max(prob, 0.0001) * 100) * 2.5, 1)
+
+    # 3. Fallback
+    return round(math.sqrt(0.1) * 2.5, 1)  # ~0.8 for unlisted teams
+
+
+# ============================================================
+# 12. MARKET SENTIMENT (BETFAIR PLACEHOLDER)
+# ============================================================
+
+def compute_market_sentiment(live_odds_data: dict = None,
+                             betting_data: dict = None,
+                             team_a: str = "", team_b: str = "") -> float:
+    """
+    Estimate market sentiment / money flow direction.
+
+    V2: Uses Betfair Exchange 必发指数 from betfair_index.json.
+    Falls back to 0.0 if no data available.
+
+    Range: ~-1 to +1 scale.
+      + = positive sentiment toward team_a (资金流入team_a)
+      - = positive sentiment toward team_b (资金流入team_b)
+
+    Data source: betfair_index.json (generated by betfair_fetcher.py)
+    """
+    try:
+        import json
+        from pathlib import Path
+        bf_path = Path(__file__).parent / "data" / "betfair_index.json"
+        if not bf_path.exists():
+            return 0.0
+
+        with open(bf_path, "r", encoding="utf-8") as f:
+            bf_data = json.load(f)
+
+        bf_index = bf_data.get("betfair_index", {})
+        runners = bf_index.get("runners", {})
+
+        # Get money_flow for each team from Betfair runners
+        mf_a = 0.0
+        mf_b = 0.0
+        for key, info in runners.items():
+            if isinstance(key, str):
+                if team_a.lower() in key.lower():
+                    mf_a = info.get("money_flow", 0)
+                if team_b.lower() in key.lower():
+                    mf_b = info.get("money_flow", 0)
+
+        # Net sentiment = team_a money flow - team_b money flow
+        return round(mf_a - mf_b, 4)
+    except Exception:
+        return 0.0
+
+
+# ============================================================
+# 13. NEWS SENTIMENT (时事新闻情感)
+# ============================================================
+
+def compute_news_sentiment(team: str) -> float:
+    """
+    Get team news sentiment score from latest news_feed.json.
+    Range: -1.0 (all negative news) to +1.0 (all positive news).
+    Returns 0.0 if no news data available.
+
+    Sentiment is computed by:
+      (positive_articles - negative_articles) / total_articles
+    using keyword-based scoring from news_feed.py.
+    """
+    try:
+        import json
+        from pathlib import Path
+
+        news_path = Path(__file__).parent / "data" / "news_feed.json"
+        if not news_path.exists():
+            return 0.0
+
+        with open(news_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        # Check if data already has sentiment for this team
+        if data.get("team_filter") == team and "team_sentiment" in data:
+            sent = data["team_sentiment"]
+            total = sent.get("total", 1) or 1
+            return round((sent["positive"] - sent["negative"]) / total, 3)
+
+        # Otherwise compute on the fly
+        articles = data.get("articles", [])
+        if not articles:
+            return 0.0
+
+        # Simple keyword-based sentiment matching
+        from news_feed import filter_team_news, extract_news_sentiment, TEAM_KEYWORDS
+
+        team_articles = filter_team_news(articles, team)
+        sent = extract_news_sentiment(team_articles)
+        total = sent.get("total", 1) or 1
+        return round((sent["positive"] - sent["negative"]) / total, 3)
+
+    except Exception:
+        return 0.0
+
+
+# ============================================================
+# 14. UNIFIED TEAM POWER V2
+# ============================================================
+
+def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
+                          nation: str, betting_data: dict = None,
+                          sponsors_data: dict = None) -> dict:
+    """
+    Compute comprehensive team power with all 5 factors integrated.
+
+    Weights (calibrated for ~0-20 combined scale):
+      attack_score  × 0.43   (~38% — attacking talent)
+      fifa_strength × 0.33   (~28% — FIFA rank baseline)
+      form_trend    × 4.0    (~5-8% — form momentum)
+      market_power  × 0.10   (~8-12% — betting market wisdom)
+      sponsor_adj   × 0.05   (~2-5% — brand/sponsor effects)
+      news_sent     × 0.03   (~1-3% — real-time news sentiment)
+
+    All new factors are optional (None → defaults to 0).
+    Original compute_team_power() remains available for comparison.
+    """
+    attack = compute_attack_score(players_df, nation)
+    rank = fifa_ranks.get(nation, 60)
+    fifa_str = compute_fifa_strength(rank)
+    form = compute_form_bonus(players_df, nation)
+
+    # NaN safety
+    attack = attack if not np.isnan(attack) else 0.0
+    form = form if not np.isnan(form) else 0.0
+
+    # New factors (optional)
+    market_power = compute_market_power(betting_data, nation) if betting_data else 0.0
+    sponsor_adj = compute_sponsor_factor(sponsors_data, nation) if sponsors_data else 0.0
+    news_sent = compute_news_sentiment(nation)  # Read from news_feed.json
+
+    # Combined formula — V2 weights (6 factors)
+    combined = (attack * 0.43 +
+                fifa_str * 0.33 +
+                form * 4.0 +
+                market_power * 0.10 +
+                sponsor_adj * 0.05 +
+                news_sent * 0.03)
+
+    # Count top-league players
+    team = players_df[players_df["nation"] == nation]
+    elite_players = sum(1 for _, r in team.iterrows()
+                        if league_factor(r.get("league", "")) >= 0.80)
+
+    return {
+        "nation": nation,
+        "attack_score": round(attack, 1),
+        "fifa_strength": round(fifa_str, 1),
+        "form_trend": form,
+        "market_power": round(market_power, 1),
+        "sponsor_adj": round(sponsor_adj, 2),
+        "news_sentiment": round(news_sent, 3),
+        "combined": round(combined, 1),
+        "elite_players": elite_players,
+        "fifa_rank": rank,
+        "version": "v2",
+    }
+
+
+# ============================================================
+# 14. ENTRY POINT
 # ============================================================
 
 if __name__ == "__main__":
@@ -498,18 +1025,28 @@ if __name__ == "__main__":
     fifa_ranks = load_fifa_rankings()
     league = load_league_stats()
     betting = load_betting_odds()
+    sponsors = load_sponsors()
+    environment = load_environment()
+    schedule = load_match_schedule()
 
     n_players = len(players)
     n_nations = len(players['nation'].unique())
     n_ranks = len(fifa_ranks)
     n_leagues = len(league['leagues'])
     n_odds = len(betting.get('tournament_winner_raw_odds', []))
+    n_sponsors = len(sponsors.get('kit_sponsors', {}))
+    n_cities = len(environment.get('cities', {}))
+    n_group_matches = sum(len(schedule.get('matches', {}).get(k, []))
+                          for k in ['matchday_1', 'matchday_2', 'matchday_3'])
     print(f"  [OK] {n_players} players from {n_nations} nations")
     print(f"  [OK] FIFA rankings loaded for {n_ranks} teams")
     print(f"  [OK] League stats for {n_leagues} competitions")
     print(f"  [OK] Betting odds for {n_odds} teams")
+    print(f"  [OK] Sponsor data for {n_sponsors} teams")
+    print(f"  [OK] Environment data for {n_cities} cities")
+    print(f"  [OK] Match schedule: {n_group_matches} group matches")
 
-    analyze(players, fifa_ranks, betting)
+    analyze(players, fifa_ranks, betting, sponsors, environment, schedule)
 
     print(f"\n  Data directory: {DATA_DIR.resolve()}")
     print("  Edit model.py to customize prediction logic.")

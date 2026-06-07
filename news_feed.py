@@ -142,7 +142,7 @@ def fetch_rss_feed(source_key: str) -> list:
             title_lower = title.lower()
             if any(kw in title_lower for kw in wc_keywords):
                 articles.append({
-                    "id": hashlib.md5(link.encode()).hexdigest()[:12],
+                    "id": hashlib.sha256(link.encode()).hexdigest()[:12],
                     "title": title,
                     "url": link,
                     "published_at": pub_date,

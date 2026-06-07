@@ -89,7 +89,8 @@ def fit_dixon_coles(matches, teams, lr=0.01, epochs=2000, verbose=False):
 # 3. PREDICTION
 # ============================================================
 
-def predict_match_dc(model, home, away, neutral=False, max_g=10):
+def predict_match_dc(model, home, away, neutral=False, max_g=10,
+                     env_factor_home=1.0, env_factor_away=1.0):
     att = model["attack"]; dfn = model["defence"]
     ha = 0.0 if neutral else model.get("home_advantage", 0.3)
     rho = model.get("rho", 0.0)
@@ -97,8 +98,8 @@ def predict_match_dc(model, home, away, neutral=False, max_g=10):
     ah = att.get(home, 0.0); aa = att.get(away, 0.0)
     dh = dfn.get(home, 0.0); da = dfn.get(away, 0.0)
 
-    lam = np.exp(ha + ah - da)
-    mu = np.exp(aa - dh)
+    lam = np.exp(ha + ah - da) * env_factor_home
+    mu = np.exp(aa - dh) * env_factor_away
 
     hw = dw = aw = o25 = btts = total = 0.0
     scores = {}
@@ -124,8 +125,11 @@ def predict_match_dc(model, home, away, neutral=False, max_g=10):
             "over_2.5_pct": round(o25,4), "btts_pct": round(btts,4),
             "most_likely_score": best_score}
 
-def simulate_match_dc(model, home, away, neutral=False):
-    p = predict_match_dc(model, home, away, neutral)
+def simulate_match_dc(model, home, away, neutral=False,
+                      env_factor_home=1.0, env_factor_away=1.0):
+    p = predict_match_dc(model, home, away, neutral,
+                         env_factor_home=env_factor_home,
+                         env_factor_away=env_factor_away)
     return np.random.poisson(p["expected_home_goals"]), np.random.poisson(p["expected_away_goals"])
 
 # ============================================================

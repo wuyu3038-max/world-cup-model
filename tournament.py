@@ -18,7 +18,10 @@ from pathlib import Path
 from collections import defaultdict
 from model import (
     load_players_from_json, load_fifa_rankings, load_betting_odds,
-    compute_team_power, simulate_match
+    load_sponsors, load_environment, load_match_schedule,
+    compute_team_power, compute_team_power_v2,
+    build_venue_lookup, compute_env_factor,
+    simulate_match
 )
 
 DATA_DIR = Path(__file__).parent / "data"
@@ -81,7 +84,8 @@ SF_PAIRINGS = [(0, 1), (2, 3)]
 # 2. GROUP STAGE
 # ============================================================
 
-def play_group_stage(powers: dict) -> dict:
+def play_group_stage(powers: dict, venue_map: dict = None,
+                     env_data: dict = None) -> dict:
     """Simulate one group stage and return qualifying teams."""
     group_results = {}
 
@@ -91,7 +95,19 @@ def play_group_stage(powers: dict) -> dict:
 
         for i, t1 in enumerate(teams):
             for t2 in teams[i + 1:]:
-                hg, ag = simulate_match(powers.get(t1, 0.5), powers.get(t2, 0.5))
+                # Get environmental factors for this venue
+                h_env, a_env = 1.0, 1.0
+                if venue_map and env_data:
+                    v = venue_map.get((t1, t2), {})
+                    city = v.get("city", "")
+                    roof = v.get("roof", False)
+                    elev = v.get("elevation_m", 0)
+                    if city:
+                        h_env = compute_env_factor(env_data, city, roof, elev, t1)
+                        a_env = compute_env_factor(env_data, city, roof, elev, t2)
+
+                hg, ag = simulate_match(powers.get(t1, 0.5), powers.get(t2, 0.5),
+                                        env_factor_home=h_env, env_factor_away=a_env)
                 gd[t1] += hg - ag
                 gd[t2] += ag - hg
                 if hg > ag:
@@ -118,11 +134,14 @@ def play_group_stage(powers: dict) -> dict:
 # ============================================================
 
 def play_knockout_match(powers: dict, team_a: str, team_b: str,
-                        is_neutral: bool = True) -> str:
+                        is_neutral: bool = True,
+                        env_factor_a: float = 1.0,
+                        env_factor_b: float = 1.0) -> str:
     """Simulate a knockout match. If draw, winner decided by power-weighted coin flip."""
     # Neutral venue: no home advantage
     home_adv = 0.0 if is_neutral else 0.25
-    ga, gb = simulate_match(powers.get(team_a, 0.5), powers.get(team_b, 0.5), home_adv)
+    ga, gb = simulate_match(powers.get(team_a, 0.5), powers.get(team_b, 0.5), home_adv,
+                            env_factor_home=env_factor_a, env_factor_away=env_factor_b)
 
     if ga > gb:
         return team_a
@@ -214,7 +233,10 @@ def play_tournament_knockout(powers: dict, group_results: dict) -> dict:
 # 4. FULL TOURNAMENT SIMULATION
 # ============================================================
 
-def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000):
+def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000,
+                        use_v2: bool = True, betting_data: dict = None,
+                        sponsors_data: dict = None, environment_data: dict = None,
+                        schedule_data: dict = None):
     """Run N complete tournament simulations and return all probabilities."""
     # Pre-compute team powers
     all_teams = []
@@ -222,12 +244,25 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000):
         all_teams.extend(teams)
 
     powers = {}
+    v2_details = {}
     for team in all_teams:
-        tp = compute_team_power(players_df, fifa_ranks, team)
+        if use_v2:
+            tp = compute_team_power_v2(players_df, fifa_ranks, team,
+                                       betting_data=betting_data,
+                                       sponsors_data=sponsors_data)
+        else:
+            tp = compute_team_power(players_df, fifa_ranks, team)
         p = tp["combined"]
         if np.isnan(p) or p <= 0:
             p = 0.5
         powers[team] = p
+        if use_v2:
+            v2_details[team] = tp
+
+    # Build venue lookup for environmental factors
+    venue_map = {}
+    if environment_data and schedule_data:
+        venue_map = build_venue_lookup(schedule_data)
 
     # Counters
     champions = defaultdict(int)
@@ -240,14 +275,16 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000):
     group_1st = defaultdict(int)
     group_2nd = defaultdict(int)
 
-    print(f"  Running {n_sims} tournament simulations...")
+    ver = "V2" if use_v2 else "V1"
+    print(f"  Running {n_sims} tournament simulations [{ver}]...")
 
     for sim in range(n_sims):
         if (sim + 1) % max(1, n_sims // 10) == 0:
             print(f"    {sim + 1}/{n_sims} ({100*(sim+1)//n_sims}%)")
 
-        # Group stage
-        group_results = play_group_stage(powers)
+        # Group stage (with environmental factors when available)
+        group_results = play_group_stage(powers, venue_map=venue_map,
+                                         env_data=environment_data)
 
         # Track group stage outcomes
         for g_name, gr in group_results.items():
@@ -277,6 +314,7 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000):
 
     return {
         "n_sims": n_sims,
+        "version": ver,
         "champion": dict(champions),
         "finalist": dict(finalists),
         "semifinalist": dict(semifinalists),
@@ -287,6 +325,7 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000):
         "group_2nd": dict(group_2nd),
         "group_exit": dict(group_exit),
         "powers": powers,
+        "v2_details": v2_details if use_v2 else {},
     }
 
 
@@ -362,6 +401,7 @@ def export_results(results: dict, path: Path):
     """Export simulation results to JSON."""
     export = {
         "n_simulations": results["n_sims"],
+        "version": results.get("version", "V1"),
         "champion_probability": {k: round(v / results["n_sims"], 4)
                                  for k, v in sorted(results["champion"].items(),
                                                     key=lambda x: -x[1])},
@@ -383,6 +423,7 @@ def export_results(results: dict, path: Path):
         "group_stage_exit_probability": {k: round(v / results["n_sims"], 4)
                                          for k, v in sorted(results["group_exit"].items(),
                                                             key=lambda x: -x[1])},
+        "team_powers": results.get("v2_details", {}),
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(export, f, indent=2, ensure_ascii=False)
@@ -394,13 +435,34 @@ def export_results(results: dict, path: Path):
 # ============================================================
 
 if __name__ == "__main__":
-    n_sims = int(sys.argv[1]) if len(sys.argv) > 1 else 5000
+    n_sims = 5000
+    use_v2 = True
+    for i, arg in enumerate(sys.argv[1:], 1):
+        if arg == "--v1":
+            use_v2 = False
+        elif arg.isdigit():
+            n_sims = int(arg)
 
-    print(f"Loading data for {n_sims}-simulation tournament...")
+    ver = "V2 (4-factor)" if use_v2 else "V1 (original)"
+    print(f"Loading data for {n_sims}-simulation tournament [{ver}]...")
     players = load_players_from_json()
     fifa_ranks = load_fifa_rankings()
 
-    results = simulate_tournament(players, fifa_ranks, n_sims=n_sims)
+    # Load new data sources for V2
+    betting_data = load_betting_odds() if use_v2 else None
+    sponsors_data = load_sponsors() if use_v2 else None
+    environment_data = load_environment() if use_v2 else None
+    schedule_data = load_match_schedule() if use_v2 else None
+
+    if use_v2:
+        print(f"  [V2] Market odds + Sponsors + Environment factors enabled")
+
+    results = simulate_tournament(players, fifa_ranks, n_sims=n_sims,
+                                  use_v2=use_v2,
+                                  betting_data=betting_data,
+                                  sponsors_data=sponsors_data,
+                                  environment_data=environment_data,
+                                  schedule_data=schedule_data)
     print_results(results)
 
     export_results(results, DATA_DIR / "tournament_results.json")

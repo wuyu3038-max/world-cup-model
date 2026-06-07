@@ -114,6 +114,7 @@ tr:hover td{background:#182230}
     <div class="card"><h3>💡 模型 vs 博彩市场</h3><div class="chart-wrap"><canvas id="c4"></canvas></div></div>
     <div class="card"><h3>⚡ 爆冷指数 Top 15 (不被看好但可能赢)</h3><div class="chart-wrap"><canvas id="c7"></canvas></div></div>
     <div class="card"><h3>👕 赞助商格局</h3><div class="chart-wrap"><canvas id="c8"></canvas></div></div>
+    <div class="card"><h3>💱 必发指数 (Betfair Index) Top 12</h3><div class="chart-wrap"><canvas id="c9"></canvas></div></div>
   </div>
 </div>
 
@@ -241,10 +242,30 @@ let ZT={},ZP={},ZC={},ZCI={};
 function zhT(n){return ZT[n]||n} function zhP(n){return ZP[n]||n}
 function zhC(n){return ZC[n]||n} function zhCi(n){return ZCI[n]||n}
 
-// ============ POWER COMPUTE ============
+// ============ POWER COMPUTE (V2) ============
 let PC=null;
 function computePowers(){
   if(PC)return PC;
+  // Try V2 pre-computed powers first (5-factor: attack+fifa+market+sponsor+form)
+  const tp = D.tournament?.team_powers || {};
+  if(Object.keys(tp).length >= 40) {
+    const list = Object.values(tp).map(v => ({
+      name: v.nation, nameZh: zhT(v.nation),
+      combined: v.combined || 0,
+      attack_score: v.attack_score || 0,
+      fifa_strength: v.fifa_strength || 0,
+      market_power: v.market_power || 0,
+      sponsor_adj: v.sponsor_adj || 0,
+      form_trend: v.form_trend || 0,
+      elite_players: v.elite_players || 0,
+      fifa: v.fifa_rank || 60,
+      power: v.combined || 0,
+      version: 'V2'
+    }));
+    list.sort((a,b)=>b.power-a.power);
+    PC=list; return list;
+  }
+  // Fallback: legacy V1 client-side power (attack*0.5 + rank*0.3 + bonus)
   const p=getFlatPlayers();
   const ga={};
   p.forEach(x=>{const g=Number(x.g2526)||0,a=Number(x.a2526)||0;ga[x.nation]=(ga[x.nation]||0)+g+a;});
@@ -255,7 +276,7 @@ function computePowers(){
     const att=Math.log(Math.max(v,0.3))*0.35-0.25;
     const def=-(2200-rk*10)/6000-(gk-50)/400;
     const power=Math.round((att*0.5+(100-rk)*0.3*0.4+(v>10?2:0))*10)/10;
-    return{name:n,nameZh:zhT(n),ga:v,att,def,power,fifa:rk,gk};
+    return{name:n,nameZh:zhT(n),ga:v,att,def,power,fifa:rk,gk,version:'V1'};
   });
   list.sort((a,b)=>b.power-a.power);
   PC=list;return list;
@@ -265,13 +286,15 @@ function computePowers(){
 function renderOverview(){
   const t=D.tournament,cp=t?.champion_probability||{};
   const top3=Object.entries(cp).sort((a,b)=>b[1]-a[1]).slice(0,3);
+  const ver = t?.version || 'V1';
   document.getElementById('statusBar').innerHTML=`
     <div class="stat-box"><div class="num">${t?.n_simulations||'N/A'}</div><div class="label">模拟次数</div></div>
-    <div class="stat-box"><div class="num">${top3[0]?top3[0][0]:'--'}</div><div class="label">🏆 预测冠军 ${top3[0]?(top3[0][1]*100).toFixed(1):0}%</div></div>
+    <div class="stat-box"><div class="num">${top3[0]?zhT(top3[0][0]):'--'}</div><div class="label">🏆 预测冠军 ${top3[0]?(top3[0][1]*100).toFixed(1):0}%</div></div>
     <div class="stat-box"><div class="num">48</div><div class="label">球队</div></div>
     <div class="stat-box"><div class="num">104</div><div class="label">总场次</div></div>
     <div class="stat-box"><div class="num">16</div><div class="label">主办城市</div></div>
-    <div class="stat-box"><div class="num">6/11</div><div class="label">开幕</div></div>`;
+    <div class="stat-box"><div class="num">6/11</div><div class="label">开幕</div></div>
+    <div class="stat-box"><div class="num" style="color:${ver==='V2'?'#4caf50':'#90a4ae'}">${ver}</div><div class="label">模型版本</div></div>`;
   const c1=Object.entries(cp).sort((a,b)=>b[1]-a[1]).slice(0,12);
   chart('c1','bar',c1.map(x=>zhT(x[0])),[{label:'夺冠概率',data:c1.map(x=>(x[1]*100).toFixed(1)),
     backgroundColor:['#f9a825','#90a4ae','#bf6f38','#2d6a9f','#2d6a9f','#2d6a9f','#2d6a9f','#2d6a9f','#2d6a9f','#2d6a9f','#2d6a9f','#2d6a9f']}],{indexAxis:'y'});
@@ -312,14 +335,34 @@ function renderOverview(){
     data:Object.values(spCount),
     backgroundColor:['#2d6a9f','#e53935','#fb8c00','#78909c','#66bb6a','#ab47bc','#26c6da','#ef5350','#8d6e63']
   }]);
+
+  // Betfair Index chart
+  const bf = D.betfair_index?.betfair_index?.runners || {};
+  let bfList = Object.entries(bf).map(([k,v])=>({name:k,index:v.betfair_index||0,money_flow:v.money_flow||0}));
+  // Filter out non-team entries
+  bfList = bfList.filter(x => x.index > 0.005);
+  bfList.sort((a,b)=>b.index-a.index);
+  const bfTop = bfList.slice(0,12);
+  chart('c9','bar',bfTop.map(x=>x.name),[
+    {label:'必发指数(成交量占比)',data:bfTop.map(x=>(x.index*100).toFixed(1)),backgroundColor:'#66bb6a'},
+    {label:'资金流向',data:bfTop.map(x=>(x.money_flow*100).toFixed(1)),backgroundColor:'#ff8a65'}
+  ],{indexAxis:'y'});
 }
 
 function renderTeams(){
   const pw=computePowers(),cp=D.tournament?.champion_probability||{},max=pw[0]?.power||1;
-  let h='<table><tr><th>#</th><th>球队</th><th>实力</th><th>进攻</th><th>防守</th><th>FIFA#</th><th>夺冠率</th><th>实力条</th></tr>';
-  pw.slice(0,48).forEach((p,i)=>{const prob=cp[p.name]?(cp[p.name]*100).toFixed(1)+'%':'--';
-    h+=`<tr><td>${rankEl(i+1)}</td><td><b>${p.nameZh}</b> <span style="font-size:9px;color:#78909c">${p.name}</span></td><td>${p.power}</td><td>${p.att.toFixed(2)}</td><td>${p.def.toFixed(2)}</td><td>#${p.fifa}</td><td>${prob}</td><td><span class="bar${i<3?' gold':i<5?' silver':''}" style="width:${Math.round(p.power/max*180)}px"></span></td></tr>`;});
-  h+='</table>';document.getElementById('t1').innerHTML=h;
+  const isV2 = pw[0]?.version === 'V2';
+  if(isV2) {
+    let h='<table><tr><th>#</th><th>球队</th><th>综合</th><th>进攻</th><th>FIFA</th><th>市场</th><th>赞助</th><th>夺冠率</th></tr>';
+    pw.slice(0,48).forEach((p,i)=>{const prob=cp[p.name]?(cp[p.name]*100).toFixed(1)+'%':'--';
+      h+=`<tr><td>${rankEl(i+1)}</td><td><b>${p.nameZh}</b></td><td style="color:#4fc3f7;font-weight:700">${p.combined?.toFixed(1)||p.power}</td><td>${p.attack_score?.toFixed(1)||'-'}</td><td>${p.fifa_strength?.toFixed(1)||'-'}</td><td>${p.market_power?.toFixed(1)||'-'}</td><td style="color:${(p.sponsor_adj||0)>=0?'#81c784':'#ef9a9a'}">${(p.sponsor_adj||0)>0?'+':''}${p.sponsor_adj?.toFixed(1)||'0.0'}</td><td>${prob}</td></tr>`;});
+    document.getElementById('t1').innerHTML=h;
+  } else {
+    let h='<table><tr><th>#</th><th>球队</th><th>实力</th><th>进攻</th><th>防守</th><th>FIFA#</th><th>夺冠率</th><th>实力条</th></tr>';
+    pw.slice(0,48).forEach((p,i)=>{const prob=cp[p.name]?(cp[p.name]*100).toFixed(1)+'%':'--';
+      h+=`<tr><td>${rankEl(i+1)}</td><td><b>${p.nameZh}</b> <span style="font-size:9px;color:#78909c">${p.name}</span></td><td>${p.power}</td><td>${p.att.toFixed(2)}</td><td>${p.def.toFixed(2)}</td><td>#${p.fifa}</td><td>${prob}</td><td><span class="bar${i<3?' gold':i<5?' silver':''}" style="width:${Math.round(p.power/max*180)}px"></span></td></tr>`;});
+    h+='</table>';document.getElementById('t1').innerHTML=h;
+  }
   const top=getFlatPlayers().map(p=>({...p,ga:(Number(p.g2526)||0)+(Number(p.a2526)||0)})).sort((a,b)=>b.ga-a.ga).slice(0,20);
   let p2='<table><tr><th>#</th><th>球员</th><th>国家</th><th>G+A</th><th>评分</th></tr>';
   top.forEach((p,i)=>{p2+=`<tr><td>${rankEl(i+1)}</td><td>${zhP(p.name)}</td><td>${zhT(p.nation)}</td><td>${p.g2526||0}G+${p.a2526||0}A=<b>${p.ga}</b></td><td>${p.rating||'--'}</td></tr>`;});
@@ -392,12 +435,34 @@ function renderOdds(){
 
 function renderEnv(){
   let h='';
+  const summary = D.env?.environmental_impact_summary || {};
+  const alt = D.env?.altitude_effects_on_performance || {};
+  // Summary banner
+  h+=`<div class="card" style="grid-column:1/-1"><h3>🌡️ 环境影响总结</h3>
+    <p style="font-size:11px;line-height:1.6">
+    🔥 <b>极端热风险:</b> ${(summary.extreme_heat_venues||[]).join(', ')}<br>
+    ⛰️ <b>高海拔:</b> ${(summary.altitude_venues||[]).join(', ')} — 球飞行+10%, VO2max -5~8%<br>
+    🏟️ <b>安全场馆:</b> ${(summary.safest_venues||[]).join(', ')}<br>
+    📋 <b>高温露天比赛:</b> ~${summary.open_air_high_risk_count||0}场 · ${summary.cooling_break_policy||''}
+    </p></div>`;
   Object.entries(D.env?.cities||{}).forEach(([c,d])=>{
     const rc=(d.heat_risk||'').includes('EXTREME')?'br':(d.heat_risk||'').includes('HIGH')?'by':'bg';
+    // Compute env impact factor display
+    let envFactor = '1.00';
+    if(d.roof) envFactor = '1.00 (室内)';
+    else {
+      const risk = d.heat_risk || '';
+      if(risk.includes('EXTREME')) envFactor = '0.88';
+      else if(risk.includes('HIGH')) envFactor = '0.92';
+      else if(risk.includes('MODERATE')) envFactor = '0.96';
+      else envFactor = '1.00';
+      if(d.elevation_m >= 1800) envFactor += ' ×0.90(海拔)';
+      else if(d.elevation_m >= 1000) envFactor += ' ×0.95(海拔)';
+    }
     h+=`<div class="card"><h3>${zhCi(c)||c} ${d.country==='Mexico'?'🇲🇽':d.country==='Canada'?'🇨🇦':'🇺🇸'}</h3>
       <p style="font-size:10px">${d.stadium} · ${(d.capacity||0).toLocaleString()}人</p>
       <div style="margin:4px 0"><span class="badge ${rc}">${d.heat_risk||'--'}</span>${d.roof?'<span class="badge bb">顶棚</span>':'<span class="badge by">露天</span>'}${d.elevation_m>1500?`<span class="badge br">${d.elevation_m}m</span>`:''}</div>
-      <table><tr><td>均温</td><td>${d.avg_temp_june_c}°C</td></tr><tr><td>湿度</td><td>${d.avg_humidity_pct}%</td></tr><tr><td>WBGT</td><td style="font-size:9px">${d.wbgt_risk||'--'}</td></tr></table>
+      <table><tr><td>均温</td><td>${d.avg_temp_june_c}°C</td></tr><tr><td>湿度</td><td>${d.avg_humidity_pct}%</td></tr><tr><td>WBGT</td><td style="font-size:9px">${d.wbgt_risk||'--'}</td></tr><tr><td>xG因子</td><td style="color:#4fc3f7;font-weight:700">${envFactor}</td></tr></table>
       ${d.key_matches?`<p style="font-size:9px;color:#78909c;margin-top:3px">${d.key_matches[0]||''}</p>`:''}</div>`;});
   document.getElementById('envCards').innerHTML=h;
 }
@@ -424,16 +489,19 @@ function renderData(){
     <tr><td>league_stats.json</td><td>五大联赛+欧冠双赛季</td></tr>
     <tr><td>fifa_rankings.json</td><td>48队FIFA排名</td></tr>
     <tr><td>betting_odds.json</td><td>夺冠/小组/晋级赔率</td></tr>
-    <tr><td>match_schedule.json</td><td>104场比赛赛程</td></tr>
-    <tr><td>environment.json</td><td>16城市环境数据</td></tr>
+    <tr><td>sponsors.json</td><td>48队赞助商+金主压力</td></tr>
+    <tr><td>match_schedule.json</td><td>104场比赛赛程+场馆</td></tr>
+    <tr><td>environment.json</td><td>16城市热/海拔/湿度</td></tr>
     <tr><td>managers.json</td><td>48队教练+战术</td></tr>
     <tr><td>goalkeepers.json</td><td>门将零封/扑救</td></tr>
     <tr><td>head_to_head.json</td><td>历史交锋记录</td></tr>
     <tr><td>international_stats.json</td><td>国家队进球/出场</td></tr>
     <tr><td>advanced_stats.json</td><td>防守/分钟/疲劳</td></tr>
-    <tr><td>tournament_results.json</td><td>1000次模拟结果</td></tr>
-    <tr><td>all_data.json</td><td>全部数据合并(148KB)</td></tr></table>`;
-  document.getElementById('d2').innerHTML=`<p><b>核心模型:</b> Dixon-Coles (1997)</p><p style="font-size:10px;margin:3px 0">攻击α+防守β+主场γ+低分修正ρ · 纯NumPy梯度下降</p><hr style="border-color:#1e2d3d;margin:6px 0"><p><b>模拟:</b> 蒙特卡洛1000次 · 小组→32强→决赛</p><hr style="border-color:#1e2d3d;margin:6px 0"><p style="font-size:10px">数据: Transfermarkt,Sofascore,StatMuse</p><p style="font-size:10px">赔率: DraftKings,FanDuel,Bet365</p><p style="font-size:10px">环境: NOAA,FIFA场馆数据</p>`;
+    <tr><td>tournament_results.json</td><td>1000次V2模拟结果</td></tr>
+    <tr><td>live_odds.json</td><td>实时赔率快照</td></tr>
+    <tr><td>all_data.json</td><td>全部15文件合并(176KB)</td></tr></table>`;
+  const ver = D.tournament?.version || 'V1';
+  document.getElementById('d2').innerHTML=`<p><b>核心模型:</b> Dixon-Coles (1997) + Poisson</p><p style="font-size:10px;margin:3px 0">攻击α+防守β+主场γ+低分修正ρ · 纯NumPy梯度下降</p><hr style="border-color:#1e2d3d;margin:6px 0"><p><b>${ver} 五维力量公式:</b></p><p style="font-size:10px;margin:3px 0">综合 = 攻击×0.45 + FIFA×0.35 + 状态×4.0 + 市场赔率×0.10 + 赞助商×0.05</p><hr style="border-color:#1e2d3d;margin:6px 0"><p><b>环境修正:</b> 热风险×海拔×屋顶 → xG乘数 [0.88~1.00]</p><p style="font-size:10px">蒙特卡洛模拟1000次 · 小组→32强→决赛</p><hr style="border-color:#1e2d3d;margin:6px 0"><p style="font-size:10px">数据: Transfermarkt,Sofascore,FBref,NOAA</p><p style="font-size:10px">赔率: DraftKings,FanDuel,Bet365 (市场先验)</p><p style="font-size:10px">赞助商: Adidas/Nike/Puma 品牌力+压力罚分</p><p style="font-size:10px">环境: 16城市 WBGT/海拔/屋顶 → 实时xG调整</p>`;
 }
 
 // ============ INIT ============
