@@ -1,22 +1,112 @@
 {
-  "updated": "2026-06-07T15:03:08.926815",
-  "total_articles": 12,
+  "updated": "2026-06-07T20:51:18.214701",
+  "total_articles": 22,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
+    "espn_fc": 10,
     "bbc_sport": 10,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "7d7e6eee8017",
-      "title": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
-      "url": "https://www.bbc.com/sport/football/articles/clyrw74l269o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 06 Jun 2026 23:31:18 GMT",
+      "id": "7ae3d8bbd819",
+      "title": "22 World Cup items, 22 stories",
+      "url": "https://www.espn.com/soccer/story/_/id/48945314/22-world-cup-items-previous-tournaments-22-stories",
+      "published_at": "Sun, 7 Jun 2026 04:31:08 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "It has been a long journey, but here we can tell the story of the previous 22 World Cups through 22 items of memorabilia."
+    },
+    {
+      "id": "94cacc616034",
+      "title": "Utd target Éderson called up to Brazil WC squad",
+      "url": "https://www.espn.com/soccer/story/_/id/48992759/man-united-transfer-target-ederson-brazil-world-cup-squad",
+      "published_at": "Sun, 7 Jun 2026 16:38:24 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Atalanta midfielder and Manchester United transfer target Éderson has been called up to Brazil's World Cup squad following an injury to Wesley."
+    },
+    {
+      "id": "bba857c48efd",
+      "title": "Iran player criticizes FIFA as team lands in Mexic...",
+      "url": "https://www.espn.com/soccer/story/_/id/48992542/iran-arrive-mexico-ahead-world-cup-defender-criticises-fifa-visas",
+      "published_at": "Sun, 7 Jun 2026 16:39:34 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Iran defender Ehsan Hajsafi has criticised FIFA after the team arrived in Mexico on Sunday with some members of their entourage still lacking U.S. visas."
+    },
+    {
+      "id": "498b30fe6384",
+      "title": "Kane: Heat 'won't be a factor' at World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/48991196/summer-heat-factor-england-world-cup-harry-kane",
+      "published_at": "Sun, 7 Jun 2026 16:38:24 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Harry Kane has said he thinks England's World Cup preparations means the much-publicised high temperatures at this summer's tournament \"won't be a factor.\""
+    },
+    {
+      "id": "0d7a1d3ad453",
+      "title": "👀Who could use World Cup to get big transfer?",
+      "url": "https://www.espn.com/soccer/story/_/id/48956021/16-players-use-world-cup-get-big-transfer-europe",
+      "published_at": "Sun, 7 Jun 2026 16:38:24 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The World Cup is the biggest stage in sports, so which players are hoping to use it to get their next big transfer?"
+    },
+    {
+      "id": "47a246a4e163",
+      "title": "Is the USMNT ready for the World Cup? After loss t...",
+      "url": "https://www.espn.com/soccer/story/_/id/48986237/is-usmnt-ready-world-cup-loss-germany-jury-out",
+      "published_at": "Sun, 7 Jun 2026 12:05:05 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The U.S. provided reasons for both encouragement and frustration in the final tuneup before its World Cup opener June 12."
+    },
+    {
+      "id": "a35a79aca6fb",
+      "title": "From golfing with Trump to the World Cup, Andrew G...",
+      "url": "https://www.espn.com/soccer/story/_/id/48968358/fifa-world-cup-2026-andrew-giuliani-security-white-house",
+      "published_at": "Sun, 7 Jun 2026 13:12:37 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Andrew Giuliani is best known for his famous father and his connection to Trump. Now he's leading the federal government's preparations for the World Cup."
+    },
+    {
+      "id": "27118842d650",
+      "title": "Get ready for the biggest World Cup ever! What you...",
+      "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
+      "published_at": "Sun, 7 Jun 2026 13:12:37 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "ESPN's experts are here with what you need to know at a glance about every team."
+    },
+    {
+      "id": "34938a46959a",
+      "title": "Predicting how all 48 World Cup teams will do: A r...",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
+      "published_at": "Sun, 7 Jun 2026 04:17:35 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Who will win the FIFA World Cup? Instead of predicting a final winner, we've picked every single result to show HOW our predicted winner will do it."
+    },
+    {
+      "id": "271bb978f167",
+      "title": "Simulating the World Cup: Who did EA Sports predic...",
+      "url": "https://www.espn.com/soccer/story/_/id/48965907/simulating-world-cup-did-ea-predict-winners-how-did-usmnt-get-on",
+      "published_at": "Sun, 7 Jun 2026 04:17:35 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "EA Sports has correctly predicted the winners for the past four World Cups. But who does it pick for 2026?"
+    },
+    {
+      "id": "65514b94eb4c",
+      "title": "Man Utd-bound Ederson replaces Wesley in Brazil squad",
+      "url": "https://www.bbc.com/sport/football/articles/c0ey82g18xjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 07 Jun 2026 18:13:06 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Scotland thrash Bolivia and are in decent fettle one week out from the biggest game of their international lives."
+      "summary": "Brazil full-back Wesley is ruled out of the World Cup because of a thigh injury, with Manchester United-bound midfielder Ederson called up to replace him."
     },
     {
       "id": "b3be9f56bda0",
@@ -26,15 +116,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Argentina great Lionel Messi is rested against Honduras, while Brazil, Germany, Belgium and Portugal each win warm-up games prior to the World Cup."
-    },
-    {
-      "id": "2cf2ec84484d",
-      "title": "World Cup quiz: Can you name every host?",
-      "url": "https://www.bbc.com/sport/football/articles/ckgpjpng8nzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 07 Jun 2026 07:15:51 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Countries far and wide have hosted the festival of football since the first tournament in 1930. How many countries can you name?"
     },
     {
       "id": "832fa388dc87",
@@ -82,13 +163,22 @@
       "summary": "Get your essential piece of kit now by downloading the Fifa World Cup 2026 wallchart. "
     },
     {
-      "id": "7d0798a800ae",
-      "title": "The pioneer in an unlikely World Cup team",
-      "url": "https://www.bbc.com/sport/football/articles/cn4p4jw7pzko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 06 Jun 2026 06:11:06 GMT",
+      "id": "2cf2ec84484d",
+      "title": "World Cup quiz: Can you name every host?",
+      "url": "https://www.bbc.com/sport/football/articles/ckgpjpng8nzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 07 Jun 2026 07:15:51 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "When Desmond Armstrong faced the media at the World Cup in 1990, the first question he got was one that would stick in his mind for the wrong reasons."
+      "summary": "Countries far and wide have hosted the festival of football since the first tournament in 1930. How many countries can you name?"
+    },
+    {
+      "id": "7d7e6eee8017",
+      "title": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
+      "url": "https://www.bbc.com/sport/football/articles/clyrw74l269o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 06 Jun 2026 23:31:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Scotland thrash Bolivia and are in decent fettle one week out from the biggest game of their international lives."
     },
     {
       "id": "761818838891",
@@ -100,22 +190,22 @@
       "summary": "France midfielder Eduardo Camavinga takes a Harvard Business School course after missing out on Didier Deschamps' World Cup squad. "
     },
     {
-      "id": "50842eeccd4d",
-      "title": "Scotland thrash Bolivia ahead of World Cup opener",
-      "url": "https://www.skysports.com/football/bolivia-vs-scotland/report/555767",
-      "published_at": "Sat, 06 Jun 2026 22:58:00 BST",
+      "id": "1b38e64545d2",
+      "title": "Man Utd latest: Ederson called up to Brazil World Cup squad",
+      "url": "https://www.skysports.com/football/live-blog/12040/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "published_at": "Sun, 07 Jun 2026 18:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Che Adams scored twice as a dominant Scotland thrashed Bolivia 4-0 in New Jersey in their final friendly before getting their World Cup campaign under way next week. "
+      "summary": ""
     },
     {
-      "id": "554f1e0cbd63",
-      "title": "England beat New Zealand in first World Cup warm-up game",
-      "url": "https://www.skysports.com/football/england-vs-new-zealand/report/553972",
-      "published_at": "Fri, 05 Jun 2026 17:16:00 BST",
+      "id": "021cc2c195c7",
+      "title": "Sciver-Brunt gives key fitness update at ICC Women's T20 World Cup launch ",
+      "url": "https://www.skysports.com/cricket/news/12040/13551695/icc-womens-t20-world-cup-england-captain-nat-sciver-brunt-gives-key-fitness-update-as-cricket-takes-over-waterloo-bridge",
+      "published_at": "Sun, 07 Jun 2026 16:06:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Harry Kane's header gave England a 1-0 win over New Zealand in their first World Cup warm-up game in Tampa, Florida."
+      "summary": "Nat Sciver-Brunt revealed she is set to return from injury and will play for England during their ICC Women's T20 World Cup warm-up match against Australia on Monday afternoon, live on Sky Sports and "
     }
   ]
 }
