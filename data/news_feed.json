@@ -1,104 +1,14 @@
 {
-  "updated": "2026-06-07T12:54:24.617614",
-  "total_articles": 21,
+  "updated": "2026-06-07T05:28:36.983812",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 10,
+    "espn_fc": 0,
     "bbc_sport": 9,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "47a246a4e163",
-      "title": "Is the USMNT ready for the World Cup? After loss t...",
-      "url": "https://www.espn.com/soccer/story/_/id/48986237/is-usmnt-ready-world-cup-loss-germany-jury-out",
-      "published_at": "Sat, 6 Jun 2026 19:56:53 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The U.S. provided reasons for both encouragement and frustration in the final tuneup before its World Cup opener June 12."
-    },
-    {
-      "id": "84ba86f6d921",
-      "title": "📈 Ranking all 48 World Cup squads",
-      "url": "https://www.espn.com/soccer/story/_/id/48941820/world-cup-final-squads-ranked-all-48-national-teams-win-summer",
-      "published_at": "Sat, 6 Jun 2026 23:01:35 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "We have the final 26-player squads that can win the FIFA World Cup, so let's go through all 48 teams and rank where they stand."
-    },
-    {
-      "id": "34938a46959a",
-      "title": "Predicting how all 48 World Cup teams will do: A r...",
-      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
-      "published_at": "Sat, 6 Jun 2026 15:05:38 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Who will win the FIFA World Cup? Instead of predicting a final winner, we've picked every single result to show HOW our predicted winner will do it."
-    },
-    {
-      "id": "271bb978f167",
-      "title": "Simulating the World Cup: Who did EA Sports predic...",
-      "url": "https://www.espn.com/soccer/story/_/id/48965907/simulating-world-cup-did-ea-predict-winners-how-did-usmnt-get-on",
-      "published_at": "Sat, 6 Jun 2026 15:05:38 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "EA Sports has correctly predicted the winners for the past four World Cups. But who does it pick for 2026?"
-    },
-    {
-      "id": "27118842d650",
-      "title": "Get ready for the biggest World Cup ever! What you...",
-      "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
-      "published_at": "Sat, 6 Jun 2026 03:47:03 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The wait is almost over ... the 2026 FIFA World Cup is about to begin! ESPN's experts are here with what you need to know at a glance about all 48 teams."
-    },
-    {
-      "id": "6e6a726aedde",
-      "title": "Which World Cup records are most likely to be brok...",
-      "url": "https://www.espn.com/soccer/story/_/id/48891969/which-world-cup-records-most-likely-broken-2026",
-      "published_at": "Sat, 6 Jun 2026 03:47:02 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "This summer's expanded tournament in North America could be one to rewrite the record books."
-    },
-    {
-      "id": "0d7a1d3ad453",
-      "title": "16 players who could use World Cup to get a big tr...",
-      "url": "https://www.espn.com/soccer/story/_/id/48956021/16-players-use-world-cup-get-big-transfer-europe",
-      "published_at": "Sat, 6 Jun 2026 04:14:44 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The World Cup is the biggest stage in sports, so which players can use it to get their next big transfer?"
-    },
-    {
-      "id": "321b23be15f5",
-      "title": "World Cup sticker shock: The ugly cost of the game...",
-      "url": "https://www.espn.com/soccer/story/_/id/48947095/2026-fifa-world-cup-sticker-shock-ugly-cost-beautiful-game-grand-event",
-      "published_at": "Sat, 6 Jun 2026 12:11:01 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "On FIFA's resale marketplace, World Cup ticket prices have soared into four to six figures. By pricing out ordinary fans, soccer's organizing body risks hurting the image of the tournament."
-    },
-    {
-      "id": "009c7d0ff834",
-      "title": "World Cup's new rules explained: VAR for corners, ...",
-      "url": "https://www.espn.com/soccer/story/_/id/48954511/world-cup-new-rules-explained-var-corners-no-gk-outs-red-card-covering-your-mouth",
-      "published_at": "Sat, 6 Jun 2026 12:11:01 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The IFAB has made some big changes to soccer ahead of the World Cup. But what do they mean?"
-    },
-    {
-      "id": "1e2a5dabef8f",
-      "title": "Reformer or ringleader: A decade on, what is Infantino's legacy as FIFA president?",
-      "url": "https://www.espn.com/soccer/story/_/id/48913347/gianni-infantino-fifa-world-cup-president-decade-platini-blatter-saudi-arabia",
-      "published_at": "Wed, 3 Jun 2026 03:52:13 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Who is the FIFA president, and what has he done since taking over from the disgraced Sepp Blatter a decade ago? Talking to those around the game, the answer is more complicated than you think."
-    },
     {
       "id": "7d7e6eee8017",
       "title": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
