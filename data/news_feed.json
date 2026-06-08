@@ -1,14 +1,131 @@
 {
-  "updated": "2026-06-08T18:14:44.463283",
-  "total_articles": 10,
+  "updated": "2026-06-08T22:15:42.789666",
+  "total_articles": 22,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 6,
-    "sky_sports": 4,
+    "espn_fc": 12,
+    "bbc_sport": 7,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "bcfc0ea5bc5e",
+      "title": "World Cup ref from Somalia denied entry to U.S.",
+      "url": "https://www.espn.com/soccer/story/_/id/49002985/somali-referee-world-cup-denied-entry-united-states",
+      "published_at": "Mon, 8 Jun 2026 17:17:29 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Somali referee Omar Artan has been denied entry into the United States after getting selected to officiate in the World Cup."
+    },
+    {
+      "id": "bb8f5fb7610a",
+      "title": "Cleared Platini files suit against FIFA's Infantin...",
+      "url": "https://www.espn.com/soccer/story/_/id/49001477/platini-files-criminal-complaint-fifa-infantino",
+      "published_at": "Mon, 8 Jun 2026 17:37:01 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "FIFA president Gianni Infantino was targeted with a revived criminal complaint in France on Monday by his former boss Michel Platini, who seemed destined to lead FIFA until being implicated in a finan"
+    },
+    {
+      "id": "0d7a1d3ad453",
+      "title": "👀Who could use World Cup to get big transfer?",
+      "url": "https://www.espn.com/soccer/story/_/id/48956021/16-players-use-world-cup-get-big-transfer-europe",
+      "published_at": "Mon, 8 Jun 2026 17:17:29 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The World Cup is the biggest stage in sports, so which players are hoping to use it to get their next big transfer?"
+    },
+    {
+      "id": "ef8e4f2fad96",
+      "title": "World Cup Rank: The 50 best players in the 2026 tournament",
+      "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
+      "published_at": "Mon, 8 Jun 2026 16:57:46 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
+    },
+    {
+      "id": "34938a46959a",
+      "title": "Predicting how all 48 men's World Cup teams will d...",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
+      "published_at": "Mon, 8 Jun 2026 07:59:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Who will win the FIFA World Cup? Instead of predicting a final winner, we've picked every single result to show HOW our predicted winner will do it."
+    },
+    {
+      "id": "271bb978f167",
+      "title": "Simulating the men's World Cup: Who did EA Sports ...",
+      "url": "https://www.espn.com/soccer/story/_/id/48965907/simulating-world-cup-did-ea-predict-winners-how-did-usmnt-get-on",
+      "published_at": "Mon, 8 Jun 2026 07:59:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "EA Sports has correctly predicted the winners for the past four World Cups. But who does it pick for 2026?"
+    },
+    {
+      "id": "09610b543746",
+      "title": "The World Cup is almost here! Time for the soccer ...",
+      "url": "https://www.espn.com/soccer/story/_/id/48998867/the-2026-fifa-world-cup-almost-here-soccer-do-talking",
+      "published_at": "Mon, 8 Jun 2026 10:01:49 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "All of the pretournament noise will be drowned out by events on the pitch when the 2026 World Cup finally -- finally! -- kicks off on Thursday."
+    },
+    {
+      "id": "27118842d650",
+      "title": "Get ready for biggest men's World Cup ever! What y...",
+      "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
+      "published_at": "Mon, 8 Jun 2026 10:01:49 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "ESPN's experts are here with what you need to know at a glance about every team."
+    },
+    {
+      "id": "88828b097bbb",
+      "title": "The World Cup record that will be broken three tim...",
+      "url": "https://www.espn.com/soccer/story/_/id/48948700/the-world-cup-record-broken-three-s-first-week-curacao-dick-advocaat-south-africa-hugo-broos-czechia-miroslav-koubek",
+      "published_at": "Mon, 8 Jun 2026 06:53:33 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "While the World Cup is always a chance to see bright new talents, 2026 also provides a chance to celebrate longevity both on the pitch and on the bench."
+    },
+    {
+      "id": "6e6a726aedde",
+      "title": "Which World Cup records are most likely to be brok...",
+      "url": "https://www.espn.com/soccer/story/_/id/48891969/which-world-cup-records-most-likely-broken-2026",
+      "published_at": "Mon, 8 Jun 2026 06:53:32 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The latest World Cup presents an opportunity to make history, and North America's expanded tournament this summer could be one to rewrite the record books."
+    },
+    {
+      "id": "7ae3d8bbd819",
+      "title": "22 World Cup items, 22 stories",
+      "url": "https://www.espn.com/soccer/story/_/id/48945314/22-world-cup-items-previous-tournaments-22-stories",
+      "published_at": "Sun, 7 Jun 2026 04:31:08 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "It has been a long journey, but here we can tell the story of the previous 22 World Cups through 22 items of memorabilia."
+    },
+    {
+      "id": "a35a79aca6fb",
+      "title": "From golfing with Trump to the men's World Cup, An...",
+      "url": "https://www.espn.com/soccer/story/_/id/48968358/fifa-world-cup-2026-andrew-giuliani-security-white-house",
+      "published_at": "Mon, 8 Jun 2026 09:59:02 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Andrew Giuliani is best known for his famous father and his connection to Trump. Now he's leading the federal government's preparations for the World Cup."
+    },
+    {
+      "id": "b84871e5d013",
+      "title": "Somali referee Artan to miss World Cup after being barred from entering US",
+      "url": "https://www.bbc.com/sport/football/articles/cnv9drg0qzgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 08 Jun 2026 21:42:25 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Omar Artan, who was set to be the first Somalian to referee at the World Cup finals, is dropped from the list of officials after he was denied entry to the United States."
+    },
     {
       "id": "b912eadfe884",
       "title": "How to watch the World Cup on the BBC and ITV",
@@ -37,6 +154,15 @@
       "summary": "Get your essential piece of kit now by downloading the Fifa World Cup 2026 wallchart. "
     },
     {
+      "id": "a15e8047f936",
+      "title": "Netherlands' Timber out of World Cup with injury",
+      "url": "https://www.bbc.com/sport/football/articles/c4gyrpve234o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 08 Jun 2026 19:21:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Arsenal defender Jurrien Timber is ruled out of the Netherlands' World Cup campaign with a groin injury, while Brazil's Neymar is making good progress from injury."
+    },
+    {
       "id": "a0ca1fb4d986",
       "title": "Who am I? Guess World Cup star No 1",
       "url": "https://www.bbc.com/sport/football/articles/cpwpn4kvd2do?at_medium=RSS&at_campaign=rss",
@@ -44,15 +170,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "2d30767e86c4",
-      "title": "How Emslie went from giving birth to World Cup qualifiers inside six months",
-      "url": "https://www.bbc.com/sport/football/articles/cx23kj5814po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 08 Jun 2026 13:20:51 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Scotland's Claire Emslie was back playing competitive football just five months after giving birth and is now targeting next year's World Cup finals in Brazil."
     },
     {
       "id": "ae30ff9185c6",
@@ -64,19 +181,19 @@
       "summary": "Watch behind-the-scenes footage as the Norway squad dress up as Vikings for a team photo before the World Cup."
     },
     {
+      "id": "ea0b081812be",
+      "title": "Will England pair Littler and Humphries right the wrongs at World Cup of Darts? ",
+      "url": "https://www.skysports.com/darts/news/12040/13552077/world-cup-of-darts-2026-will-englands-luke-littler-and-luke-humphries-right-the-wrongs-of-last-years-showing",
+      "published_at": "Mon, 08 Jun 2026 20:14:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "All eyes will be on the England partnership of Luke Littler and Luke Humphries as they prepare to right the wrongs of their 2025 showing at this year's World Cup of Darts. "
+    },
+    {
       "id": "1fe593909589",
       "title": "Can Littler and Humphries get it right this time and win World Cup of Darts?",
       "url": "https://www.skysports.com/darts/news/12288/11933951/love-the-darts-podcast-sky-sports",
       "published_at": "Mon, 08 Jun 2026 16:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "e71f7a323fa5",
-      "title": "Sciver-Brunt says England can learn from Capsey after World Cup warm-up defeat",
-      "url": "https://www.skysports.com/cricket/live-blog/12040/13551949/england-vs-australia-live-cricket-score-updates-video-analysis-from-icc-womens-t20-world-cup-warm-up-match-at-sophia-gardens-cardiff",
-      "published_at": "Mon, 08 Jun 2026 14:40:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
@@ -89,15 +206,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "England succumbed to a five-wicket defeat to rivals Australia in their first T20 World Cup warm-up game in Cardiff."
-    },
-    {
-      "id": "e0548b85b3f2",
-      "title": "The World Cup is here! 48 teams, 48 questions answered (yes, really!)",
-      "url": "https://www.skysports.com/football/news/12040/13548788/world-cup-2026-every-key-question-answered-about-this-summers-tournament-in-usa-canada-and-mexico",
-      "published_at": "Thu, 28 May 2026 16:16:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The wait is over. The World Cup is officially here! 48 teams, 48 key questions answered (yes, really!) to get you clued up for this summer's fiesta of football. It's going to be fun. "
     }
   ]
 }
