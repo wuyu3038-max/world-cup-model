@@ -1,41 +1,14 @@
 {
-  "updated": "2026-06-08T14:52:31.058260",
-  "total_articles": 8,
+  "updated": "2026-06-08T18:14:44.463283",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 7,
-    "sky_sports": 1,
+    "bbc_sport": 6,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "2d30767e86c4",
-      "title": "How Emslie went from giving birth to World Cup qualifiers inside six months",
-      "url": "https://www.bbc.com/sport/football/articles/cx23kj5814po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 08 Jun 2026 13:20:51 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Scotland's Claire Emslie was back playing competitive football just five months after giving birth and is now targeting next year's World Cup finals in Brazil."
-    },
-    {
-      "id": "a0ca1fb4d986",
-      "title": "Who am I? Guess World Cup star No 1",
-      "url": "https://www.bbc.com/sport/football/articles/cpwpn4kvd2do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 08 Jun 2026 05:47:05 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "f7ce6fee18ce",
-      "title": "How to follow the World Cup on the BBC",
-      "url": "https://www.bbc.com/sport/football/articles/c62dy77g8e8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 02 Jun 2026 05:33:11 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The biggest World Cup in history starts on 11 June and there are more ways to follow it on the BBC than ever before."
-    },
     {
       "id": "b912eadfe884",
       "title": "How to watch the World Cup on the BBC and ITV",
@@ -64,22 +37,67 @@
       "summary": "Get your essential piece of kit now by downloading the Fifa World Cup 2026 wallchart. "
     },
     {
-      "id": "9a279e31cf85",
-      "title": "Rice to be England's vice-captain at World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/cn4r74yjpxvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 07 Jun 2026 21:23:28 GMT",
+      "id": "a0ca1fb4d986",
+      "title": "Who am I? Guess World Cup star No 1",
+      "url": "https://www.bbc.com/sport/football/articles/cpwpn4kvd2do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 08 Jun 2026 05:47:05 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Arsenal midfielder Declan Rice will be England's vice-captain for the World Cup."
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "258401c81501",
-      "title": "Everything you need to know about Curacao - the World Cup's smallest ever nation",
-      "url": "https://www.skysports.com/football/news/12040/13545528/world-cup-2026-curacao-caribbean-nations-historic-first-appearance",
-      "published_at": "Mon, 08 Jun 2026 10:00:00 BST",
+      "id": "2d30767e86c4",
+      "title": "How Emslie went from giving birth to World Cup qualifiers inside six months",
+      "url": "https://www.bbc.com/sport/football/articles/cx23kj5814po?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 08 Jun 2026 13:20:51 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Scotland's Claire Emslie was back playing competitive football just five months after giving birth and is now targeting next year's World Cup finals in Brazil."
+    },
+    {
+      "id": "ae30ff9185c6",
+      "title": "Norway dress up as Vikings for World Cup",
+      "url": "https://www.bbc.com/sport/football/videos/ce8jv6j3km0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 08 Jun 2026 17:56:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch behind-the-scenes footage as the Norway squad dress up as Vikings for a team photo before the World Cup."
+    },
+    {
+      "id": "1fe593909589",
+      "title": "Can Littler and Humphries get it right this time and win World Cup of Darts?",
+      "url": "https://www.skysports.com/darts/news/12288/11933951/love-the-darts-podcast-sky-sports",
+      "published_at": "Mon, 08 Jun 2026 16:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "On Tuesday November 18 2025, Curacao travelled to Kingston to take on Jamaica in a winner-takes-all World Cup qualifier."
+      "summary": ""
+    },
+    {
+      "id": "e71f7a323fa5",
+      "title": "Sciver-Brunt says England can learn from Capsey after World Cup warm-up defeat",
+      "url": "https://www.skysports.com/cricket/live-blog/12040/13551949/england-vs-australia-live-cricket-score-updates-video-analysis-from-icc-womens-t20-world-cup-warm-up-match-at-sophia-gardens-cardiff",
+      "published_at": "Mon, 08 Jun 2026 14:40:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "563baf3b21f4",
+      "title": "England suffer five-wicket defeat to Australia in T20 World Cup warm-up",
+      "url": "https://www.skysports.com/cricket/news/12040/13552050/england-vs-australia-hosts-suffer-five-wicket-defeat-in-womens-t20-world-cup-warm-up-in-cardiff",
+      "published_at": "Mon, 08 Jun 2026 18:10:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England succumbed to a five-wicket defeat to rivals Australia in their first T20 World Cup warm-up game in Cardiff."
+    },
+    {
+      "id": "e0548b85b3f2",
+      "title": "The World Cup is here! 48 teams, 48 questions answered (yes, really!)",
+      "url": "https://www.skysports.com/football/news/12040/13548788/world-cup-2026-every-key-question-answered-about-this-summers-tournament-in-usa-canada-and-mexico",
+      "published_at": "Thu, 28 May 2026 16:16:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The wait is over. The World Cup is officially here! 48 teams, 48 key questions answered (yes, really!) to get you clued up for this summer's fiesta of football. It's going to be fun. "
     }
   ]
 }
