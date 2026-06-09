@@ -1,58 +1,31 @@
 {
-  "updated": "2026-06-09T17:29:05.691241",
-  "total_articles": 19,
+  "updated": "2026-06-09T22:14:08.627910",
+  "total_articles": 16,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 14,
-    "sky_sports": 5,
+    "bbc_sport": 13,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "1e8cc9e36561",
-      "title": "'Mazadona', 'Einstein', 'The Ant' - 20 new players to watch at the 2026 World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/cn0p0gkl90go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 06:42:53 GMT",
+      "id": "453c281cfa31",
+      "title": "Does referee case show Fifa has lost control of its own World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/clyr6drdl79o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 17:55:45 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport TV and radio commentators pick the players they think could be the breakout stars of the 2026 World Cup."
-    },
-    {
-      "id": "699861d838b6",
-      "title": "Ngumoha to leave England squad having made mark",
-      "url": "https://www.bbc.com/sport/football/articles/cddl48g7d94o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 15:01:08 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Rio Ngumoha will leave the US this week after impressing with England's World Cup squad but will return to the country for Liverpool's pre-season tour next month."
+      "summary": "With referee Omar Artan denied entry to the United States and worries over staff and supporters being turned back, what does this tell us about the World Cup?"
     },
     {
       "id": "6cd5c2bd9d05",
-      "title": "Risk of death to oldest man at World Cup - walking miracle Gordon",
+      "title": "From risk of death to oldest man at World Cup - walking miracle Gordon",
       "url": "https://www.bbc.com/sport/football/articles/c5yz5nnx2jro?at_medium=RSS&at_campaign=rss",
       "published_at": "Tue, 09 Jun 2026 15:10:56 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "How Craig Gordon's career has been a series of comebacks and the 43-year-old's World Cup inclusion for Scotland seemed an impossible dream only a few months ago."
-    },
-    {
-      "id": "f1435d912d7d",
-      "title": "Why super-sized and politicised World Cup comes at a cost",
-      "url": "https://www.bbc.com/sport/football/articles/cg4wqr2ev33o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 05:57:24 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Whatever one's perspective, it seems certain that away from the on-field spectacle, this super-sized World Cup could be among the most contentious ever. "
-    },
-    {
-      "id": "1d8dfda1ab0d",
-      "title": "'Gridlock alert days' and a race for tickets as US prepares to host World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/cx2jk042y7vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 16:48:33 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Is the US ready to handle the pressure of co-hosting what many see as the biggest global sporting event?"
     },
     {
       "id": "cbc509e4c224",
@@ -82,6 +55,42 @@
       "summary": "Get your essential piece of kit now by downloading the Fifa World Cup 2026 wallchart. "
     },
     {
+      "id": "f1435d912d7d",
+      "title": "Why super-sized and politicised World Cup comes at a cost",
+      "url": "https://www.bbc.com/sport/football/articles/cg4wqr2ev33o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 05:57:24 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Whatever one's perspective, it seems certain that away from the on-field spectacle, this super-sized World Cup could be among the most contentious ever. "
+    },
+    {
+      "id": "1e8cc9e36561",
+      "title": "'Mazadona', 'Einstein', 'The Ant' - 20 new players to watch at the 2026 World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cn0p0gkl90go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 06:42:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport TV and radio commentators pick the players they think could be the breakout stars of the 2026 World Cup."
+    },
+    {
+      "id": "699861d838b6",
+      "title": "Ngumoha to leave England squad having made mark",
+      "url": "https://www.bbc.com/sport/football/articles/cddl48g7d94o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 15:01:08 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Rio Ngumoha will leave the US this week after impressing with England's World Cup squad but will return to the country for Liverpool's pre-season tour next month."
+    },
+    {
+      "id": "6b19d8d82b2b",
+      "title": "Fifa working to resolve revoked Iran tickets",
+      "url": "https://www.bbc.com/sport/football/articles/c9q2vrdx0ewo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 17:50:37 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa has said it is working to \"maximise opportunities for Iranian supporters to attend matches\" after the country's World Cup group-stage ticket allocation was revoked just days before the tournament"
+    },
+    {
       "id": "205e7ea50e79",
       "title": "Who am I? Guess World Cup star No 2",
       "url": "https://www.bbc.com/sport/football/articles/c202d04y761o?at_medium=RSS&at_campaign=rss",
@@ -89,6 +98,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "1d8dfda1ab0d",
+      "title": "'Gridlock alert days' and a race for tickets as US prepares to host World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cx2jk042y7vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 16:48:33 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Is the US ready to handle the pressure of co-hosting what many see as the biggest global sporting event?"
+    },
+    {
+      "id": "1c1d99618ecf",
+      "title": "Highlights: Wales beat Czech Republic 3-1 to top group",
+      "url": "https://www.bbc.com/sport/football/videos/cm2r0828xleo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 19:27:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch highlights as Wales beat Czech Republic in Cardiff in Women's World Cup qualifying. "
     },
     {
       "id": "a0e16fc476fc",
@@ -100,42 +127,6 @@
       "summary": "Iran football fans living in Los Angeles explain why they want to wave Iran's pre-1979 Islamic revolution flag and dismiss the one that is on their team's shirt."
     },
     {
-      "id": "3b83372f2a3e",
-      "title": "Platini begins legal proceedings against Fifa",
-      "url": "https://www.bbc.com/sport/football/articles/c3ey9l4d0qdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 11:36:39 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Former Uefa president Michel Platini initiaites civil and legal proceedings against Fifa and current president Gianni Infantino over corruption allegations from 2015."
-    },
-    {
-      "id": "ae30ff9185c6",
-      "title": "Norway dress up as Vikings for World Cup",
-      "url": "https://www.bbc.com/sport/football/videos/ce8jv6j3km0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 08 Jun 2026 17:56:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch behind-the-scenes footage as the Norway squad dress up as Vikings for a team photo before the World Cup."
-    },
-    {
-      "id": "712822759fcd",
-      "title": "Meet the England fan who collected beer from every World Cup nation",
-      "url": "https://www.bbc.com/sport/football/articles/c4gy5nj5qgxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 17:16:06 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport meets England fan Gus Hully who has collected one beer from each of the 48 nations competing at the World Cup."
-    },
-    {
-      "id": "7ce77fa1b4d3",
-      "title": "Two brothers, two nations, one World Cup & how grief bound them",
-      "url": "https://www.bbc.com/sport/football/articles/c8r2dvdk6xxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 06:14:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "In July 2022, brothers Harry and John Souttar lost their hero, but as both prepare to represent different nations at the World Cup, his influence lives on."
-    },
-    {
       "id": "94c7e17939a8",
       "title": "England third favourites? Their real World Cup chances assessed",
       "url": "https://www.skysports.com/football/news/12040/13552254/englands-world-cup-chances-assessed-as-they-are-rated-third-favourites-behind-spain-and-france-between-the-lines",
@@ -145,40 +136,22 @@
       "summary": "The World Cup is finally upon us. Could it be England's year?"
     },
     {
-      "id": "ca30c8473ed4",
-      "title": "Can England really win the World Cup?",
-      "url": "https://www.skysports.com/watch/video/13552365/between-the-lines-can-england-really-win-the-world-cup",
-      "published_at": "Tue, 09 Jun 2026 15:29:00 BST",
+      "id": "8a92bf8443a6",
+      "title": "Lionesses forced to settle for World Cup play-off spot despite Ukraine win",
+      "url": "https://www.skysports.com/football/england-women-vs-ukraine-women/report/550130",
+      "published_at": "Tue, 09 Jun 2026 21:50:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Between the Lines takes a closer look at the numbers behind the World Cup and asks whether the stats suggest that England really can win the tournament for the first time in 60 years."
+      "summary": "England were forced to settle for a Women's World Cup play-off spot despite easing past Ukraine at the Hill Dickinson Stadium."
     },
     {
-      "id": "820be0a52f03",
-      "title": "World Cup's oldest player Gordon feared chance had passed him by",
-      "url": "https://www.skysports.com/football/news/12040/13552408/scotland-at-world-cup-craig-gordon-43-relishing-fantastic-feeling-after-fear-tournament-had-passed-him-by",
-      "published_at": "Tue, 09 Jun 2026 16:00:00 BST",
+      "id": "97ce2f5e0b43",
+      "title": "Tuchel: England 'not favourites' for World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13552469/world-cup-2026-england-boss-thomas-tuchel-says-three-lions-not-favourites-for-tournament",
+      "published_at": "Tue, 09 Jun 2026 18:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Craig Gordon admits he thought the chance to go to a World Cup with Scotland had \"passed him by\"."
-    },
-    {
-      "id": "45f044bf8bc3",
-      "title": "Ally Pally heroes Lim, Sakai, Leung and Kumar in World Cup of Darts action",
-      "url": "https://www.skysports.com/darts/news/12040/13551189/world-cup-of-darts-2026-players-to-watch-with-paul-lim-motomu-sakai-man-lok-leung-and-nitin-kumar-in-action",
-      "published_at": "Tue, 09 Jun 2026 07:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The World Cup of Darts is just around the corner and there will be some hidden gems taking part in Frankfurt from June 11-14, live on Sky Sports."
-    },
-    {
-      "id": "f2945432fe40",
-      "title": "All you need to know about the World Cup of Darts 2026",
-      "url": "https://www.skysports.com/darts/news/12040/13550719/world-cup-of-darts-2026-schedule-dates-group-stage-draw-as-luke-littler-and-luke-humphries-return-to-represent-england",
-      "published_at": "Tue, 09 Jun 2026 07:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "All you need to know about the BetVictor World Cup of Darts 2026 as No 1 Luke Littler joins forces with No 2 Luke Humphries to represent Team England."
+      "summary": "Thomas Tuchel has played down England's chances of winning the World Cup, admitting they are not among the favourites to end 60 years of hurt."
     }
   ]
 }
