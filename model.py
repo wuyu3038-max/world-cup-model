@@ -133,6 +133,22 @@ def load_match_schedule() -> dict:
     with open(DATA_DIR / "match_schedule.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
+def load_betfair_index() -> dict:
+    """Load Betfair Exchange index data (必发指数)."""
+    path = DATA_DIR / "betfair_index.json"
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def load_news_feed() -> dict:
+    """Load latest news feed data for sentiment analysis."""
+    path = DATA_DIR / "news_feed.json"
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
 
 # ============================================================
 # 2. LEAGUE QUALITY & FORM FACTORS
@@ -255,7 +271,9 @@ def compute_team_power(players_df: pd.DataFrame, fifa_ranks: dict, nation: str) 
 def simulate_match(home_power: float, away_power: float,
                    home_advantage: float = 0.25,
                    env_factor_home: float = 1.0,
-                   env_factor_away: float = 1.0) -> Tuple[int, int]:
+                   env_factor_away: float = 1.0,
+                   betfair_boost: float = 1.0,
+                   news_boost: float = 1.0) -> Tuple[int, int]:
     """
     Simulate a single match score using Poisson distribution.
 
@@ -264,6 +282,12 @@ def simulate_match(home_power: float, away_power: float,
         - 1.0 = neutral (default, backward compatible)
         - <1.0 = adverse conditions (heat, altitude, humidity)
         - Indoor/roof venues always 1.0
+      betfair_boost: xG multiplier from Betfair money flow difference
+        - 1.0 = neutral, >1.0 = money chasing home team (必发资金流入主队)
+        - Range [0.88, 1.12], default 1.0 (no data)
+      news_boost: xG multiplier from news sentiment difference
+        - 1.0 = neutral, >1.0 = positive news for home vs away (主队新闻占优)
+        - Range [0.92, 1.08], default 1.0 (no data)
     """
     LEAGUE_AVG = 1.40
 
@@ -274,7 +298,7 @@ def simulate_match(home_power: float, away_power: float,
     home_factor = 0.3 + hp / 8
     away_factor = 0.3 + ap / 8
 
-    home_xg = (home_factor * LEAGUE_AVG + home_advantage) * env_factor_home
+    home_xg = (home_factor * LEAGUE_AVG + home_advantage) * env_factor_home * betfair_boost * news_boost
     away_xg = away_factor * LEAGUE_AVG * env_factor_away
 
     home_goals = np.random.poisson(max(home_xg, 0.05))
@@ -903,6 +927,138 @@ def compute_market_sentiment(live_odds_data: dict = None,
         return round(mf_a - mf_b, 4)
     except Exception:
         return 0.0
+
+
+# ============================================================
+# 13a. BETFAIR MONEY FLOW BOOST (必发资金流 — per-match xG multiplier)
+# ============================================================
+
+def compute_betfair_boost(team_a: str, team_b: str,
+                          betfair_data: dict = None) -> float:
+    """
+    Compute per-match xG multiplier from Betfair money flow difference.
+
+    Mirrors website dcPredict() logic:
+      netFlow = money_flow_home - money_flow_away
+      bfBoost = 1.0 + netFlow * 0.15
+      Clamped to [0.88, 1.12]
+
+    Boost > 1.0 = money chasing team_a (home), increases home xG.
+    """
+    if not betfair_data:
+        return 1.0
+
+    runners = betfair_data.get("betfair_index", {}).get("runners", {})
+    if not runners:
+        return 1.0
+
+    mf_a = 0.0
+    mf_b = 0.0
+    for key, info in runners.items():
+        if isinstance(key, str):
+            key_lower = key.lower()
+            if team_a.lower() in key_lower:
+                mf_a = info.get("money_flow", 0)
+            if team_b.lower() in key_lower:
+                mf_b = info.get("money_flow", 0)
+
+    net_flow = mf_a - mf_b
+    boost = 1.0 + net_flow * 0.15
+    return max(0.88, min(1.12, boost))  # clamp ±12%
+
+
+# ============================================================
+# 13b. NEWS SENTIMENT BOOST (时事新闻 — per-match xG multiplier)
+# ============================================================
+
+# Positive/negative keyword lists matching website dcPredict()
+NEWS_POS_WORDS = ['win', 'victory', 'confident', 'star', 'fit', 'return',
+                  'boost', 'hat-trick', 'record', 'top', 'best',
+                  'favorite', 'triumph']
+NEWS_NEG_WORDS = ['injury', 'injured', 'doubt', 'loss', 'defeat', 'out',
+                  'suspended', 'struggle', 'disappointing', 'blow',
+                  'setback', 'worry', 'crisis']
+
+# Team keywords for news matching (sync with website TEAM_KW)
+NEWS_TEAM_KEYWORDS = {
+    'Spain': ['spain', 'españa', 'yamal', 'rodri', 'pedri'],
+    'France': ['france', 'mbappé', 'mbappe', 'olise'],
+    'England': ['england', 'kane', 'bellingham', 'saka'],
+    'Brazil': ['brazil', 'brasil', 'neymar', 'vinícius'],
+    'Argentina': ['argentina', 'messi', 'lautaro'],
+    'Portugal': ['portugal', 'ronaldo', 'bruno'],
+    'Germany': ['germany', 'musiala', 'wirtz'],
+    'Netherlands': ['netherlands', 'van dijk', 'gakpo'],
+    'Norway': ['norway', 'haaland', 'odegaard'],
+    'United States': ['usa', 'united states', 'pulisic'],
+    'Mexico': ['mexico', 'méxico', 'el tri'],
+    'Japan': ['japan', 'mitoma', 'kubo'],
+    'South Korea': ['south korea', 'son heung'],
+    'Croatia': ['croatia', 'modrić', 'modric'],
+    'Belgium': ['belgium', 'de bruyne', 'lukaku'],
+    'Senegal': ['senegal', 'mané', 'mane'],
+    'Morocco': ['morocco', 'hakimi'],
+    'Colombia': ['colombia', 'luis díaz'],
+    'Uruguay': ['uruguay', 'valverde', 'núñez'],
+    'Sweden': ['sweden', 'isak', 'gyökeres'],
+    'Egypt': ['egypt', 'salah', 'marmoush'],
+    'Canada': ['canada', 'davies'],
+    'Scotland': ['scotland', 'mctominay', 'robertson'],
+}
+
+
+def _team_news_sentiment(articles: list, team: str) -> float:
+    """Compute per-team news sentiment (-1 to +1) from articles."""
+    if not articles:
+        return 0.0
+
+    kw = NEWS_TEAM_KEYWORDS.get(team, [team.lower()])
+    pos_count = 0
+    neg_count = 0
+    total = 0
+
+    for a in articles:
+        text = ((a.get('title', '') or '') + ' ' +
+                (a.get('summary', '') or '')).lower()
+        # Check if article mentions this team
+        if any(k.lower() in text for k in kw):
+            total += 1
+            pc = sum(1 for w in NEWS_POS_WORDS if w in text)
+            nc = sum(1 for w in NEWS_NEG_WORDS if w in text)
+            if nc > pc:
+                neg_count += 1
+            elif pc > nc:
+                pos_count += 1
+
+    if total == 0:
+        return 0.0
+    return (pos_count - neg_count) / total
+
+
+def compute_news_boost(team_a: str, team_b: str,
+                       news_data: dict = None) -> float:
+    """
+    Compute per-match xG multiplier from news sentiment difference.
+
+    Mirrors website dcPredict() logic:
+      newsH = sentiment(team_a), newsA = sentiment(team_b)
+      newsBoost = 1.0 + (newsH - newsA) * 0.06
+      Clamped to [0.92, 1.08]
+
+    Boost > 1.0 = positive news for team_a relative to team_b.
+    """
+    if not news_data:
+        return 1.0
+
+    articles = news_data.get('articles', [])
+    if not articles:
+        return 1.0
+
+    sent_h = _team_news_sentiment(articles, team_a)
+    sent_a = _team_news_sentiment(articles, team_b)
+
+    boost = 1.0 + (sent_h - sent_a) * 0.06
+    return max(0.92, min(1.08, boost))  # clamp ±8%
 
 
 # ============================================================
