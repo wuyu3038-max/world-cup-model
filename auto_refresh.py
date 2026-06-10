@@ -1,15 +1,17 @@
 """
-Auto-refresh: update data sources and redeploy
-==============================================
-Run this script periodically to:
-1. Refresh betting odds from reference data
+Auto-refresh: full data pipeline for World Cup prediction
+==========================================================
+Run periodically (every 8h recommended) to:
+1. Refresh betting odds & Betfair index
 2. Run news feed aggregation
-3. Merge all data into all_data.json
-4. Commit + push to auto-deploy on Vercel
+3. Re-run full tournament simulation (5000 MC)
+4. Merge all data into all_data.json
+5. Optional: git push to deploy on Vercel
 
 Usage:
-    python auto_refresh.py           # One-time refresh
-    python auto_refresh.py --deploy  # Refresh + git push to redeploy
+    python auto_refresh.py              # Full refresh
+    python auto_refresh.py --quick      # Skip tournament sim (fast)
+    python auto_refresh.py --deploy     # Full refresh + git push
 """
 
 import sys
@@ -19,8 +21,9 @@ from datetime import datetime
 
 DATA_DIR = Path(__file__).parent / "data"
 
+
 def refresh_live_odds():
-    """Update live_odds.json with current timestamp and any new odds data."""
+    """Update live_odds.json timestamp."""
     path = DATA_DIR / "live_odds.json"
     if path.exists():
         with open(path, "r", encoding="utf-8") as f:
@@ -29,31 +32,61 @@ def refresh_live_odds():
         data["refresh_count"] = data.get("refresh_count", 0) + 1
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        print(f"  [OK] live_odds.json refreshed (#{data['refresh_count']})")
+        print(f"  [OK] live_odds.json (#{data['refresh_count']})")
+
 
 def refresh_betfair_index():
-    """Run betfair_fetcher to update Betfair index data."""
+    """Update Betfair index from bookmaker odds."""
     try:
         import betfair_fetcher
         data = betfair_fetcher.fetch_betfair_index(use_live=False)
         betfair_fetcher.save_betfair_index(data)
-        print(f"  [OK] betfair_index.json refreshed")
+        print(f"  [OK] betfair_index.json")
     except Exception as e:
-        print(f"  [WARN] betfair_index refresh failed: {e}")
+        print(f"  [WARN] betfair_index: {e}")
 
-def refresh_tournament_results():
-    """Update tournament_results.json timestamp."""
-    path = DATA_DIR / "tournament_results.json"
-    if path.exists():
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        data["_last_refreshed"] = datetime.now().isoformat()
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-        print(f"  [OK] tournament_results.json refreshed")
+
+def refresh_news():
+    """Run news_feed.py scraper."""
+    try:
+        import subprocess
+        result = subprocess.run(
+            ["python", "news_feed.py"],
+            cwd=Path(__file__).parent, capture_output=True, text=True, timeout=120
+        )
+        if result.returncode == 0:
+            print(f"  [OK] news_feed.json ({len(json.loads(Path(DATA_DIR/'news_feed.json').read_text(encoding='utf-8')).get('articles',[]))} articles)")
+        else:
+            print(f"  [WARN] news_feed: {result.stderr.strip()[:100]}")
+    except Exception as e:
+        print(f"  [WARN] news_feed: {e}")
+
+
+def run_tournament_simulation():
+    """Re-run full 5000-simulation Monte Carlo tournament."""
+    try:
+        import subprocess
+        print(f"  Running tournament simulation (5000 MC)...")
+        result = subprocess.run(
+            ["python", "tournament.py", "5000"],
+            cwd=Path(__file__).parent, capture_output=True, text=True, timeout=300
+        )
+        if result.returncode == 0:
+            # Extract champion name from output
+            for line in result.stdout.split("\n"):
+                if "Spain" in line and "%" in line and "1." in line:
+                    print(f"  [OK] tournament ({line.strip()[:60]})")
+                    break
+            else:
+                print(f"  [OK] tournament_results.json updated")
+        else:
+            print(f"  [WARN] tournament sim failed: {result.stderr.strip()[:150]}")
+    except Exception as e:
+        print(f"  [WARN] tournament sim: {e}")
+
 
 def merge_all_data():
-    """Merge all JSON data files into all_data.json for static serving."""
+    """Merge all JSON data files into all_data.json."""
     merged = {}
     for f in sorted(DATA_DIR.glob("*.json")):
         if f.name == "all_data.json":
@@ -66,17 +99,19 @@ def merge_all_data():
 
     merged["_meta"] = {
         "last_merged": datetime.now().isoformat(),
-        "description": "Merged data for World Cup 2026 prediction static site"
+        "description": "World Cup 2026 prediction — auto-refreshed"
     }
 
     with open(DATA_DIR / "all_data.json", "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False)
 
     size_kb = (DATA_DIR / "all_data.json").stat().st_size / 1024
-    print(f"  [OK] all_data.json merged ({size_kb:.1f} KB, {len(merged)} files)")
+    n = len(merged)
+    print(f"  [OK] all_data.json ({size_kb:.0f}KB, {n} files)")
+
 
 def deploy():
-    """Git commit + push to trigger Vercel redeploy."""
+    """Git commit + push to Vercel."""
     import subprocess
     root = Path(__file__).parent
     cmds = [
@@ -86,20 +121,49 @@ def deploy():
     ]
     for cmd in cmds:
         result = subprocess.run(cmd, cwd=root, capture_output=True, text=True)
-        status = "OK" if result.returncode == 0 else f"ERR({result.returncode})"
-        print(f"  [{status}] {' '.join(cmd)}")
-        if result.returncode != 0 and "nothing to commit" not in result.stdout + result.stderr:
-            print(f"    {result.stderr.strip()}")
+        ok = result.returncode == 0
+        tag = "OK" if ok else f"ERR({result.returncode})"
+        print(f"  [{tag}] {' '.join(cmd)}")
+        if not ok and "nothing to commit" not in result.stdout + result.stderr:
+            print(f"    {result.stderr.strip()[:200]}")
+
 
 if __name__ == "__main__":
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Auto-refresh started")
+    quick = "--quick" in sys.argv
+    do_deploy = "--deploy" in sys.argv
+    merge_only = "--merge-only" in sys.argv
+
+    if merge_only:
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] Merge only")
+        merge_all_data()
+        if do_deploy:
+            deploy()
+        sys.exit(0)
+
+    print(f"\n{'='*55}")
+    print(f"  World Cup Auto-Refresh [{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}]")
+    print(f"  Mode: {'quick (no sim)' if quick else 'full'}")
+    print(f"{'='*55}")
+
+    print("\n[1/4] Odds & Betfair")
     refresh_live_odds()
     refresh_betfair_index()
-    refresh_tournament_results()
+
+    print("\n[2/4] News Feed")
+    refresh_news()
+
+    if not quick:
+        print("\n[3/4] Tournament Simulation")
+        run_tournament_simulation()
+    else:
+        print("\n[3/4] Tournament Simulation  [SKIP]")
+
+    print("\n[4/4] Merge all_data.json")
     merge_all_data()
 
-    if "--deploy" in sys.argv:
+    if do_deploy:
+        print("\n[5/4] Deploy to Vercel")
         deploy()
-        print(f"\n  Site will update at: https://world-cup-model.vercel.app")
-    else:
-        print(f"\n  Run with --deploy to auto-push to Vercel")
+        print(f"\n  ▶ https://world-cup-model.vercel.app")
+
+    print(f"\n  Done. Next refresh: +8h\n")
