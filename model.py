@@ -149,6 +149,14 @@ def load_news_feed() -> dict:
             return json.load(f)
     return {}
 
+def load_head_to_head() -> dict:
+    """Load head-to-head historical match data."""
+    path = DATA_DIR / "head_to_head.json"
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
 
 # ============================================================
 # 2. LEAGUE QUALITY & FORM FACTORS
@@ -273,21 +281,21 @@ def simulate_match(home_power: float, away_power: float,
                    env_factor_home: float = 1.0,
                    env_factor_away: float = 1.0,
                    betfair_boost: float = 1.0,
-                   news_boost: float = 1.0) -> Tuple[int, int]:
+                   news_boost: float = 1.0,
+                   h2h_boost: float = 1.0) -> Tuple[int, int]:
     """
     Simulate a single match score using Poisson distribution.
 
     Parameters:
       env_factor_home/away: xG multiplier for environmental conditions
-        - 1.0 = neutral (default, backward compatible)
-        - <1.0 = adverse conditions (heat, altitude, humidity)
-        - Indoor/roof venues always 1.0
-      betfair_boost: xG multiplier from Betfair money flow difference
-        - 1.0 = neutral, >1.0 = money chasing home team (必发资金流入主队)
-        - Range [0.88, 1.12], default 1.0 (no data)
-      news_boost: xG multiplier from news sentiment difference
-        - 1.0 = neutral, >1.0 = positive news for home vs away (主队新闻占优)
-        - Range [0.92, 1.08], default 1.0 (no data)
+        - 1.0 = neutral, <1.0 = adverse (heat, altitude)
+      betfair_boost: xG multiplier from Betfair money flow (必发资金流)
+        - Range [0.88, 1.12], default 1.0
+      news_boost: xG multiplier from news sentiment (时事新闻)
+        - Range [0.92, 1.08], default 1.0
+      h2h_boost: xG multiplier from H2H history + common opponent analysis
+        - 1.0 = neutral, >1.0 = home has historical edge
+        - Range [0.95, 1.05] (direct H2H ±2.5% + common opp ±2%)
     """
     LEAGUE_AVG = 1.40
 
@@ -298,7 +306,7 @@ def simulate_match(home_power: float, away_power: float,
     home_factor = 0.3 + hp / 8
     away_factor = 0.3 + ap / 8
 
-    home_xg = (home_factor * LEAGUE_AVG + home_advantage) * env_factor_home * betfair_boost * news_boost
+    home_xg = (home_factor * LEAGUE_AVG + home_advantage) * env_factor_home * betfair_boost * news_boost * h2h_boost
     away_xg = away_factor * LEAGUE_AVG * env_factor_away
 
     home_goals = np.random.poisson(max(home_xg, 0.05))
@@ -329,7 +337,8 @@ GROUP_STRUCTURE_16x3 = {
 
 def simulate_group_stage(players_df: pd.DataFrame, fifa_ranks: dict,
                          n_sims: int = 1000) -> dict:
-    """Simulate group stage N times and return advancement probabilities."""
+    """Simulate group stage N times and return advancement probabilities.
+    Now includes H2H + common opponent modifiers per match."""
     # Pre-compute team powers (ensure no NaN)
     powers = {}
     for teams in GROUP_STRUCTURE_16x3.values():
@@ -337,19 +346,29 @@ def simulate_group_stage(players_df: pd.DataFrame, fifa_ranks: dict,
             tp = compute_team_power(players_df, fifa_ranks, team)
             p = tp["combined"]
             if np.isnan(p) or p <= 0:
-                p = 0.5  # fallback for teams with no data
+                p = 0.5
             powers[team] = p
+
+    # Load H2H data once
+    h2h_data = None
+    try:
+        h2h_data = load_head_to_head()
+    except Exception:
+        pass
 
     advancement = defaultdict(lambda: defaultdict(int))
 
     for sim in range(n_sims):
         for group_name, teams in GROUP_STRUCTURE_16x3.items():
-            # Round-robin (4 teams per group for now)
             points = {t: 0 for t in teams}
             for i, t1 in enumerate(teams):
                 for t2 in teams[i + 1:]:
-                    # Alternate home/away
-                    hg, ag = simulate_match(powers[t1], powers[t2])
+                    # H2H + common opponent boost
+                    h2h_mod = compute_h2h_modifier(t1, t2, h2h_data)
+                    co_mod = compute_common_opponent_modifier(t1, t2, h2h_data, fifa_ranks)
+                    h2h_boost = 1.0 + h2h_mod * 0.05 + co_mod * 0.02
+
+                    hg, ag = simulate_match(powers[t1], powers[t2], h2h_boost=h2h_boost)
                     if hg > ag:
                         points[t1] += 3
                     elif ag > hg:
@@ -1145,47 +1164,176 @@ def update_elo(winner_elo: float, loser_elo: float, k: float = ELO_K,
 # 14. HEAD-TO-HEAD / COACH / SQUAD DEPTH MODIFIERS
 # ============================================================
 
-def compute_h2h_modifier(team_a: str, team_b: str) -> float:
+def _find_h2h_match(h2h: dict, team_a: str, team_b: str) -> dict:
+    """Find H2H data for any pair, trying both key orderings."""
+    key1 = f"{team_a}_vs_{team_b}"
+    if key1 in h2h:
+        return h2h[key1]
+    key2 = f"{team_b}_vs_{team_a}"
+    if key2 in h2h:
+        return h2h[key2]
+    # Try with underscores (teams with spaces use _ in keys)
+    key1u = team_a.replace(" ", "_") + "_vs_" + team_b.replace(" ", "_")
+    key2u = team_b.replace(" ", "_") + "_vs_" + team_a.replace(" ", "_")
+    if key1u in h2h:
+        return h2h[key1u]
+    if key2u in h2h:
+        return h2h[key2u]
+    return {}
+
+
+# Mapping from full team name to 3-letter H2H key code
+TEAM_CODE_MAP = {
+    "Mexico": "mex", "South Africa": "rsa", "South Korea": "kor",
+    "Czech Republic": "cze", "Canada": "can", "Bosnia-Herzegovina": "bih",
+    "Qatar": "qat", "Switzerland": "sui", "Brazil": "bra", "Morocco": "mar",
+    "Haiti": "hai", "Scotland": "sco", "United States": "usa", "Paraguay": "par",
+    "Australia": "aus", "Turkey": "tur", "Germany": "ger", "Curacao": "cuw",
+    "Ivory Coast": "civ", "Ecuador": "ecu", "Netherlands": "ned", "Japan": "jpn",
+    "Sweden": "swe", "Tunisia": "tun", "Belgium": "bel", "Egypt": "egy",
+    "Iran": "irn", "New Zealand": "nzl", "Spain": "esp", "Cape Verde": "cpv",
+    "Saudi Arabia": "ksa", "Uruguay": "uru", "France": "fra", "Senegal": "sen",
+    "Iraq": "irq", "Norway": "nor", "Argentina": "arg", "Algeria": "alg",
+    "Austria": "aut", "Jordan": "jor", "Portugal": "por", "Congo DR": "cod",
+    "Uzbekistan": "uzb", "Colombia": "col", "England": "eng", "Croatia": "cro",
+    "Ghana": "gha", "Panama": "pan",
+}
+
+
+def _get_winrate(h2h_match: dict, team: str) -> float:
+    """Extract win rate for a specific team from an H2H match dict."""
+    total = h2h_match.get("total", 0)
+    if total <= 0:
+        return 0.5  # neutral
+
+    # Try lookup using known team code mapping
+    code = TEAM_CODE_MAP.get(team)
+    if code:
+        wins = h2h_match.get(f"{code}_wins", -1)
+        if wins >= 0:
+            return wins / total
+
+    # Fallback: try full name
+    team_key = team.lower().replace(" ", "_")
+    wins = h2h_match.get(f"{team_key}_wins", -1)
+    if wins >= 0:
+        return wins / total
+
+    # Last resort: compute from total - other_wins - draws
+    draws = h2h_match.get("draws", 0)
+    all_wins = sum(v for k, v in h2h_match.items() if k.endswith("_wins"))
+    # Our team's wins = total - opponent_wins - draws
+    opp_wins = all_wins  # only one other _wins key besides ours (which we can't find)
+    # Actually this is circular. Just return 0.5 if we couldn't find it.
+    return 0.5
+
+
+def compute_h2h_modifier(team_a: str, team_b: str,
+                         h2h_data: dict = None) -> float:
     """
     Head-to-head modifier based on historical matchups.
-    Returns ~-0.5 to +0.5 (small adjustment to attack strength).
+    Returns ~-0.5 to +0.5 (positive = team_a has historical edge).
+
+    If h2h_data is not provided, loads from file (cached across calls).
     """
-    try:
-        with open(DATA_DIR / "head_to_head.json", "r", encoding="utf-8") as f:
-            h2h_data = json.load(f)
+    if h2h_data is None:
+        if not hasattr(compute_h2h_modifier, "_cache"):
+            try:
+                with open(DATA_DIR / "head_to_head.json", "r", encoding="utf-8") as f:
+                    compute_h2h_modifier._cache = json.load(f)
+            except Exception:
+                compute_h2h_modifier._cache = {}
+        h2h_data = compute_h2h_modifier._cache
 
-        h2h = h2h_data.get("head_to_head", {})
-        # Try both orderings
-        key = f"{team_a}_vs_{team_b}"
-        match = h2h.get(key)
-        if not match:
-            key2 = f"{team_b}_vs_{team_a}"
-            match = h2h.get(key2)
+    h2h = h2h_data.get("head_to_head", {}) if isinstance(h2h_data, dict) else {}
+    match = _find_h2h_match(h2h, team_a, team_b)
 
-        if match and match.get("total", 0) > 0:
-            total = match["total"]
-            # Extract wins from the record
-            wins_a = match.get(f"{team_a.lower().replace(' ','_')}_wins", 0)
-            if wins_a == 0:
-                # Try the other team's wins
-                for k, v in match.items():
-                    if k.endswith("_wins") and team_a.lower() in k:
-                        wins_a = v
-                        break
+    if not match or match.get("total", 0) <= 0:
+        return 0.0
 
-            if wins_a == 0 and total > 0:
-                # Approximate from the data we have
-                for k, v in match.items():
-                    if k.endswith("_wins"):
-                        wins_a = v if team_a.lower().replace(" ", "_")[:3] in k else 0
+    wr_a = _get_winrate(match, team_a)
+    # winrate - 0.5 → range [-0.5, +0.5]
+    return round((wr_a - 0.5) * 1.0, 3)
 
-            # Win rate for team A
-            if wins_a > 0:
-                winrate = wins_a / total
-                return round((winrate - 0.5) * 1.0, 3)  # ±0.5 max
-    except Exception:
-        pass
-    return 0.0
+
+def compute_common_opponent_modifier(team_a: str, team_b: str,
+                                     h2h_data: dict = None,
+                                     fifa_ranks: dict = None) -> float:
+    """
+    Find common opponents both teams have played and compare performance.
+
+    For each team C that both A and B have played:
+      - Compare A's win rate vs C to B's win rate vs C
+      - Weight by C's strength (higher FIFA rank = more meaningful comparison)
+      - Aggregate into a normalized modifier
+
+    Returns ~-1.0 to +1.0:
+      + = team_a performed better against common opponents
+      - = team_b performed better against common opponents
+      0 = no common opponents found or equal performance
+    """
+    if h2h_data is None:
+        if not hasattr(compute_common_opponent_modifier, "_h2h_cache"):
+            try:
+                with open(DATA_DIR / "head_to_head.json", "r", encoding="utf-8") as f:
+                    compute_common_opponent_modifier._h2h_cache = json.load(f)
+            except Exception:
+                compute_common_opponent_modifier._h2h_cache = {}
+        h2h_data = compute_common_opponent_modifier._h2h_cache
+
+    h2h = h2h_data.get("head_to_head", {}) if isinstance(h2h_data, dict) else {}
+    if not h2h:
+        return 0.0
+
+    # Build opponent sets for both teams
+    def get_opponents(team):
+        opponents = {}
+        for key, match in h2h.items():
+            if not isinstance(key, str):
+                continue
+            teams = key.replace("_vs_", "|").split("|")
+            if len(teams) != 2:
+                continue
+            if team.replace(" ", "_") == teams[0].replace(" ", "_"):
+                other = teams[1].replace("_", " ")
+                opponents[other] = _get_winrate(match, team)
+            elif team.replace(" ", "_") == teams[1].replace(" ", "_"):
+                other = teams[0].replace("_", " ")
+                opponents[other] = _get_winrate(match, team)
+        return opponents
+
+    opp_a = get_opponents(team_a)
+    opp_b = get_opponents(team_b)
+
+    # Find common opponents
+    common = set(opp_a.keys()) & set(opp_b.keys())
+    if not common:
+        return 0.0
+
+    # Weighted comparison
+    if fifa_ranks is None:
+        fifa_ranks = {}
+    max_rank = max(fifa_ranks.values()) if fifa_ranks else 200
+    total_weight = 0.0
+    weighted_diff = 0.0
+
+    for c in common:
+        diff = opp_a[c] - opp_b[c]
+        # Weight: stronger opponents (lower rank number) get higher weight
+        rank = fifa_ranks.get(c, 100) if fifa_ranks else 100
+        weight = 1.0 - (rank / (max_rank + 50))  # ~0.2 to ~0.9
+        if weight < 0.1:
+            weight = 0.2  # minimum weight for any common opponent
+
+        weighted_diff += diff * weight
+        total_weight += weight
+
+    if total_weight <= 0:
+        return 0.0
+
+    modifier = weighted_diff / total_weight
+    # Clamp to ±1.0
+    return max(-1.0, min(1.0, round(modifier, 4)))
 
 
 def compute_coach_bonus(team: str) -> float:

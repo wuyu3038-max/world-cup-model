@@ -478,8 +478,47 @@ function renderManagers(){
 
 function renderH2H(){
   const h2h=D.h2h?.head_to_head||{},rv=D.h2h?.rivalry_games||[];
-  let h='';Object.entries(h2h).slice(0,12).forEach(([k,d])=>{const n=k.replace(/_/g,' '),it=rv.find(r=>k.includes(r.match?.replace(/ /g,'_')?.split('vs')[0]))?.intensity||'';
-    h+=`<div class="card"><h3>${n} ${it?`<span class="badge ${it.includes('VERY')?'br':'by'}">${it}</span>`:''}</h3><p style="font-size:10px;color:#78909c">${d.note||(d.total?'共'+d.total+'场':'')}</p>${d.total>0?`<table><tr><td>总场次</td><td>${d.total}</td></tr><tr><td>最近</td><td>${d.last_meeting||'--'}</td></tr><tr><td>世界杯</td><td>${d.wc_meetings||'--'}</td></tr></table>`:''}</div>`;});document.getElementById('h2hCards').innerHTML=h;
+  let h='<div style="grid-column:1/-1;margin-bottom:8px"><h3>📜 直接交锋 & 🔄 共同对手对比</h3></div>';
+  const groups='ABCDEFGHIJKL'.split('');
+  groups.forEach(g=>{
+    const teams=getGroupTeams(g);
+    h+=`<div class="card"><h3>G组 ${g}</h3><table style="font-size:10px"><tr><th>对阵</th><th>场次</th><th>战绩</th><th>共同对手</th></tr>`;
+    for(let i=0;i<teams.length;i++){
+      for(let j=i+1;j<teams.length;j++){
+        const a=teams[i],b=teams[j];
+        const k1=a+'_vs_'+b,k2=b+'_vs_'+a;
+        const k1u=a.replace(/ /g,'_')+'_vs_'+b.replace(/ /g,'_');
+        const k2u=b.replace(/ /g,'_')+'_vs_'+a.replace(/ /g,'_');
+        const d=h2h[k1]||h2h[k2]||h2h[k1u]||h2h[k2u]||{};
+        const total=d.total||0;
+        // Build opponent sets for common opponent count
+        const oa=new Set(),ob=new Set();
+        Object.entries(h2h).forEach(([k,m])=>{
+          const parts=k.split('_vs_');if(parts.length!==2)return;
+          const t1=parts[0].replace(/_/g,' '),t2=parts[1].replace(/_/g,' ');
+          if(t1===a)oa.add(t2);if(t2===a)oa.add(t1);
+          if(t1===b)ob.add(t2);if(t2===b)ob.add(t1);
+        });
+        let common=0;oa.forEach(c=>{if(ob.has(c))common++;});
+        const it=rv.find(r=>(r.match||'').includes(a)&&(r.match||'').includes(b))?.intensity||'';
+        const itBadge=it.includes('VERY')?'<span class="badge br">激烈</span>':it.includes('HIGH')?'<span class="badge by">关注</span>':'';
+        if(total>0){
+          // Find win keys
+          const winsKey=Object.keys(d).filter(k=>k.endsWith('_wins'));
+          let record='';
+          if(winsKey.length>=2){
+            const w1=d[winsKey[0]]||0,w2=d[winsKey[1]]||0;
+            record=`${w1}-${d.draws||0}-${w2}`;
+          }
+          h+=`<tr><td>${zhT(a)} vs ${zhT(b)} ${itBadge}</td><td>${total}场</td><td>${record||total+'场'}</td><td>${common>0?'🔄'+common+'队':'无'}</td></tr>`;
+        }else{
+          h+=`<tr><td>${zhT(a)} vs ${zhT(b)}</td><td style="color:#78909c">首遇</td><td>--</td><td>${common>0?'🔄'+common+'队':'无'}</td></tr>`;
+        }
+      }
+    }
+    h+='</table></div>';
+  });
+  document.getElementById('h2hCards').innerHTML=h;
 }
 
 function renderData(){

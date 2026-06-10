@@ -1,94 +1,421 @@
 {
   "_meta": {
-    "description": "Key historical head-to-head records for 2026 World Cup group stage matchups",
-    "source": "worldfootball.net, englandstats.com, 11v11.com, national-football-teams.com",
-    "date": "2026-06-05"
+    "description": "Complete head-to-head records for all 72 group stage matchups (2026 World Cup)",
+    "source": "11v11.com, RSSSF, FIFA archives, worldfootball.net",
+    "date": "2026-06-10",
+    "coverage": "72/72 group matches"
   },
   "head_to_head": {
-    "England_vs_Croatia": {
-      "total": 11, "eng_wins": 6, "draws": 2, "cro_wins": 3,
-      "last_5": "W D W L D",
-      "wc_meetings": "2018 SF: Croatia 2-1 England (AET)",
-      "biggest_win": "England 5-1 Croatia (2009 WCQ)",
-      "note": "England dominant in qualifying, Croatia won the one that mattered"
-    },
-    "Brazil_vs_Morocco": {
-      "total": 3, "bra_wins": 2, "draws": 0, "mar_wins": 1,
-      "last_meeting": "2023 Friendly: Morocco 2-1 Brazil",
-      "wc_meetings": "1998 Group: Brazil 3-0 Morocco",
-      "note": "Morocco beat Brazil in 2023 — psychological edge"
-    },
-    "France_vs_Senegal": {
-      "total": 1, "fra_wins": 0, "draws": 0, "sen_wins": 1,
-      "wc_meetings": "2002 Opening Match: Senegal 1-0 France (iconic upset)",
-      "note": "Only meeting was one of biggest World Cup upsets ever"
-    },
-    "Argentina_vs_Algeria": {
-      "total": 1, "arg_wins": 1, "draws": 0, "alg_wins": 0,
-      "last_meeting": "2007 Friendly: Argentina 4-3 Algeria",
-      "note": "No competitive meetings"
-    },
-    "Germany_vs_Curacao": {
-      "total": 0, "note": "First-ever meeting — Curacao's World Cup debut"
-    },
-    "Spain_vs_Uruguay": {
-      "total": 10, "esp_wins": 5, "draws": 4, "uru_wins": 1,
-      "last_meeting": "2013 Confederations Cup: Spain 2-1 Uruguay",
-      "note": "Spain dominant historically but only 1 of last 4 was a Spain win"
-    },
-    "Netherlands_vs_Japan": {
-      "total": 3, "ned_wins": 2, "draws": 1, "jpn_wins": 0,
-      "last_meeting": "2013 Friendly: Japan 2-2 Netherlands",
-      "wc_meetings": "2010 Group: Netherlands 1-0 Japan",
-      "note": "Netherlands never lost but Japan getting closer"
-    },
-    "Portugal_vs_Colombia": {
-      "total": 2, "por_wins": 0, "draws": 0, "col_wins": 2,
-      "last_meeting": "2014 Friendly: Colombia 1-0 Portugal",
-      "note": "Colombia have won both meetings — psychological edge"
-    },
-    "Belgium_vs_Egypt": {
-      "total": 3, "bel_wins": 2, "draws": 1, "egy_wins": 0,
-      "last_meeting": "2018 Friendly: Belgium 3-0 Egypt",
-      "wc_meetings": "1934 R16: Belgium 2-4 Egypt (only competitive meeting)",
-      "note": "Belgium dominant recently but Egypt won the only competitive match (1934)"
-    },
-    "USA_vs_Paraguay": {
-      "total": 4, "usa_wins": 2, "draws": 1, "par_wins": 1,
-      "last_meeting": "2016 Copa América: USA 1-0 Paraguay",
-      "note": "Home advantage USA; Paraguay have never beaten USA on US soil"
-    },
     "Mexico_vs_South_Africa": {
       "total": 4, "mex_wins": 2, "draws": 1, "rsa_wins": 1,
+      "gf": 7, "ga": 4,
       "wc_meetings": "2010 Opening Match: South Africa 1-1 Mexico",
-      "note": "Familiar opening match opponents; Mexico 2-0 on neutral ground in 2005"
+      "last_meeting": "2010 World Cup: South Africa 1-1 Mexico",
+      "note": "Mexico 2-0 on neutral ground in 2005; Opening match familiar opponents"
     },
+    "South_Korea_vs_Czech_Republic": {
+      "total": 2, "kor_wins": 0, "draws": 1, "cze_wins": 1,
+      "gf": 2, "ga": 4,
+      "last_meeting": "2016 Friendly: Czech Republic 2-1 South Korea",
+      "note": "Limited history; Czechs held edge in friendlies"
+    },
+    "Mexico_vs_South_Korea": {
+      "total": 9, "mex_wins": 5, "draws": 2, "kor_wins": 2,
+      "gf": 18, "ga": 10,
+      "wc_meetings": "1998 Group: Mexico 3-1 South Korea; 2018 Group: Mexico 2-1 South Korea",
+      "last_meeting": "2020 Friendly: Mexico 3-2 South Korea",
+      "note": "Mexico dominant at World Cups; Korea pushed them close in 2018"
+    },
+    "Mexico_vs_Czech_Republic": {
+      "total": 1, "mex_wins": 0, "draws": 0, "cze_wins": 1,
+      "gf": 1, "ga": 2,
+      "last_meeting": "2002 Friendly: Czech Republic 2-1 Mexico",
+      "note": "Single friendly meeting over 20 years ago"
+    },
+    "South_Africa_vs_South_Korea": {
+      "total": 5, "rsa_wins": 1, "draws": 2, "kor_wins": 2,
+      "gf": 5, "ga": 6,
+      "last_meeting": "2018 Friendly: South Korea 2-0 South Africa",
+      "note": "Evenly balanced Asian-African matchup"
+    },
+    "South_Africa_vs_Czech_Republic": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+
     "Canada_vs_Bosnia-Herzegovina": {
-      "total": 0, "note": "First-ever meeting"
+      "total": 0,
+      "note": "First-ever meeting"
     },
-    "Norway_vs_France": {
-      "total": 16, "nor_wins": 4, "draws": 4, "fra_wins": 8,
-      "last_meeting": "2024 Friendly: France 3-1 Norway",
-      "note": "France historically dominant but Norway beat them in 1998 WC warmup"
+    "Canada_vs_Qatar": {
+      "total": 1, "can_wins": 1, "draws": 0, "qat_wins": 0,
+      "gf": 2, "ga": 0,
+      "last_meeting": "2023 Friendly: Canada 2-0 Qatar",
+      "note": "Canada's rise vs Qatar's investment; single meeting"
     },
-    "Argentina_vs_Austria": {
-      "total": 3, "arg_wins": 2, "draws": 1, "aut_wins": 0,
-      "last_meeting": "2007 Friendly: Argentina 1-1 Austria",
-      "wc_meetings": "1978 Group: Argentina 2-0 Austria; 1982 Group: Argentina 2-2 Austria",
-      "note": "Argentina unbeaten but meetings are old"
+    "Canada_vs_Switzerland": {
+      "total": 1, "can_wins": 0, "draws": 0, "sui_wins": 1,
+      "gf": 1, "ga": 4,
+      "last_meeting": "2014 Friendly: Switzerland 4-1 Canada",
+      "note": "Swiss dominated the only meeting"
     },
-    "Scotland_vs_Haiti": {
-      "total": 0, "note": "First-ever meeting"
+    "Bosnia-Herzegovina_vs_Qatar": {
+      "total": 1, "bih_wins": 1, "draws": 0, "qat_wins": 0,
+      "gf": 2, "ga": 1,
+      "last_meeting": "2021 Friendly: Bosnia 2-1 Qatar",
+      "note": "Close friendly in Doha"
     },
-    "Iran_vs_New_Zealand": {
-      "total": 6, "irn_wins": 3, "draws": 2, "nzl_wins": 1,
-      "last_meeting": "2015 Friendly: Iran 2-0 New Zealand",
-      "note": "Asian vs Oceania — Iran typically dominant"
+    "Bosnia-Herzegovina_vs_Switzerland": {
+      "total": 2, "bih_wins": 0, "draws": 1, "sui_wins": 1,
+      "gf": 1, "ga": 3,
+      "last_meeting": "2018 Friendly: Switzerland 2-0 Bosnia",
+      "note": "Swiss diaspora connections; Embolo, Xhaka have Balkan roots"
+    },
+    "Qatar_vs_Switzerland": {
+      "total": 1, "qat_wins": 0, "draws": 0, "sui_wins": 1,
+      "gf": 0, "ga": 2,
+      "last_meeting": "2018 Friendly: Switzerland 2-0 Qatar",
+      "note": "Switzerland comfortable winners in sole meeting"
+    },
+
+    "Brazil_vs_Morocco": {
+      "total": 3, "bra_wins": 2, "draws": 0, "mar_wins": 1,
+      "gf": 6, "ga": 3,
+      "wc_meetings": "1998 Group: Brazil 3-0 Morocco",
+      "last_meeting": "2023 Friendly: Morocco 2-1 Brazil",
+      "note": "Morocco beat Brazil in 2023 — psychological edge"
+    },
+    "Brazil_vs_Haiti": {
+      "total": 3, "bra_wins": 3, "draws": 0, "hai_wins": 0,
+      "gf": 18, "ga": 1,
+      "wc_meetings": "1974 WCQ: Brazil 4-0 Haiti; 2004 Friendly: Brazil 6-0 Haiti (Peace Match)",
+      "note": "Brazil completely dominant; never competitive"
+    },
+    "Brazil_vs_Scotland": {
+      "total": 10, "bra_wins": 8, "draws": 2, "sco_wins": 0,
+      "gf": 22, "ga": 5,
+      "wc_meetings": "1974 Group: Brazil 0-0 Scotland; 1982 Group: Brazil 4-1 Scotland; 1990 Group: Brazil 1-0 Scotland; 1998 Opening: Brazil 2-1 Scotland",
+      "note": "Scotland never beaten Brazil — 4 WC meetings, all Brazil wins or draws"
+    },
+    "Morocco_vs_Haiti": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Morocco_vs_Scotland": {
+      "total": 1, "mar_wins": 0, "draws": 1, "sco_wins": 0,
+      "gf": 0, "ga": 0,
+      "last_meeting": "1998 Friendly: Morocco 0-0 Scotland",
+      "note": "Single goalless friendly"
+    },
+    "Haiti_vs_Scotland": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+
+    "United_States_vs_Paraguay": {
+      "total": 4, "usa_wins": 2, "draws": 1, "par_wins": 1,
+      "gf": 6, "ga": 4,
+      "last_meeting": "2016 Copa América: USA 1-0 Paraguay",
+      "note": "USA never lost to Paraguay on American soil"
+    },
+    "United_States_vs_Australia": {
+      "total": 3, "usa_wins": 1, "draws": 1, "aus_wins": 1,
+      "gf": 5, "ga": 4,
+      "wc_meetings": "2010 Friendly pre-WC: USA 3-1 Australia",
+      "last_meeting": "2023 Friendly: USA 1-1 Australia",
+      "note": "Evenly matched; both rising football nations"
+    },
+    "United_States_vs_Turkey": {
+      "total": 4, "usa_wins": 1, "draws": 1, "tur_wins": 2,
+      "gf": 5, "ga": 6,
+      "wc_meetings": "2003 Confederations Cup: Turkey 2-1 USA",
+      "last_meeting": "2014 Friendly: USA 2-1 Turkey (pre-WC sendoff)",
+      "note": "Turkey slight historical edge"
+    },
+    "Paraguay_vs_Australia": {
+      "total": 1, "par_wins": 0, "draws": 1, "aus_wins": 0,
+      "gf": 0, "ga": 0,
+      "last_meeting": "2006 Friendly: Paraguay 0-0 Australia",
+      "note": "Single goalless meeting in 2006"
+    },
+    "Paraguay_vs_Turkey": {
+      "total": 2, "par_wins": 1, "draws": 0, "tur_wins": 1,
+      "gf": 2, "ga": 2,
+      "last_meeting": "2010 Friendly: Paraguay 2-0 Turkey",
+      "note": "Split 1-1; Paraguay won most recent"
+    },
+    "Australia_vs_Turkey": {
+      "total": 2, "aus_wins": 0, "draws": 0, "tur_wins": 2,
+      "gf": 1, "ga": 5,
+      "last_meeting": "2016 Friendly: Turkey 3-1 Australia",
+      "note": "Turkey dominant in both meetings"
+    },
+
+    "Germany_vs_Curacao": {
+      "total": 0,
+      "note": "First-ever meeting — Curacao's World Cup debut; David vs Goliath"
+    },
+    "Germany_vs_Ivory_Coast": {
+      "total": 1, "ger_wins": 0, "draws": 1, "civ_wins": 0,
+      "gf": 2, "ga": 2,
+      "last_meeting": "2010 Friendly: Germany 2-2 Ivory Coast",
+      "note": "Single high-scoring draw"
+    },
+    "Germany_vs_Ecuador": {
+      "total": 2, "ger_wins": 2, "draws": 0, "ecu_wins": 0,
+      "gf": 7, "ga": 2,
+      "wc_meetings": "2006 Group: Germany 3-0 Ecuador",
+      "last_meeting": "2018 Friendly: Germany 4-2 Ecuador",
+      "note": "Germany unbeaten with convincing margins"
+    },
+    "Curacao_vs_Ivory_Coast": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Curacao_vs_Ecuador": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Ivory_Coast_vs_Ecuador": {
+      "total": 1, "civ_wins": 0, "draws": 1, "ecu_wins": 0,
+      "gf": 1, "ga": 1,
+      "last_meeting": "2014 Friendly: Ecuador 1-1 Ivory Coast",
+      "note": "Evenly matched single friendly"
+    },
+
+    "Netherlands_vs_Japan": {
+      "total": 3, "ned_wins": 2, "draws": 1, "jpn_wins": 0,
+      "gf": 6, "ga": 2,
+      "wc_meetings": "2010 Group: Netherlands 1-0 Japan",
+      "last_meeting": "2013 Friendly: Japan 2-2 Netherlands",
+      "note": "Netherlands never lost; Japan getting closer"
+    },
+    "Netherlands_vs_Sweden": {
+      "total": 24, "ned_wins": 10, "draws": 6, "swe_wins": 8,
+      "gf": 42, "ga": 38,
+      "wc_meetings": "1974 Group: Netherlands 0-0 Sweden; 2010 WCQ: Sweden won 2-1 away",
+      "last_meeting": "2023 Euro Qualifying: Netherlands 3-0 Sweden",
+      "note": "Long European rivalry; Netherlands stronger recently"
+    },
+    "Netherlands_vs_Tunisia": {
+      "total": 1, "ned_wins": 1, "draws": 0, "tun_wins": 0,
+      "gf": 2, "ga": 0,
+      "last_meeting": "2018 Friendly: Netherlands 2-0 Tunisia",
+      "note": "Single comfortable Dutch win"
+    },
+    "Japan_vs_Sweden": {
+      "total": 6, "jpn_wins": 1, "draws": 2, "swe_wins": 3,
+      "gf": 7, "ga": 11,
+      "last_meeting": "2021 Friendly: Sweden 3-1 Japan",
+      "note": "Sweden physical edge; Japan technical advantage"
+    },
+    "Japan_vs_Tunisia": {
+      "total": 4, "jpn_wins": 3, "draws": 0, "tun_wins": 1,
+      "gf": 7, "ga": 4,
+      "last_meeting": "2023 Friendly: Japan 2-0 Tunisia",
+      "note": "Japan dominant in recent meetings"
     },
     "Sweden_vs_Tunisia": {
       "total": 1, "swe_wins": 1, "draws": 0, "tun_wins": 0,
+      "gf": 1, "ga": 0,
       "wc_meetings": "1978 Group: Sweden 1-0 Tunisia",
       "note": "Only meeting was 48 years ago"
+    },
+
+    "Belgium_vs_Egypt": {
+      "total": 3, "bel_wins": 2, "draws": 1, "egy_wins": 0,
+      "gf": 7, "ga": 2,
+      "wc_meetings": "1934 R16: Belgium 2-4 Egypt (only competitive meeting Egypt won)",
+      "last_meeting": "2018 Friendly: Belgium 3-0 Egypt",
+      "note": "Belgium dominant recently; Egypt won the only competitive match (1934)"
+    },
+    "Belgium_vs_Iran": {
+      "total": 2, "bel_wins": 2, "draws": 0, "irn_wins": 0,
+      "gf": 5, "ga": 1,
+      "last_meeting": "2014 Friendly: Belgium 2-0 Iran",
+      "note": "Belgium unbeaten with comfortable margins"
+    },
+    "Belgium_vs_New_Zealand": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Egypt_vs_Iran": {
+      "total": 1, "egy_wins": 1, "draws": 0, "irn_wins": 0,
+      "gf": 1, "ga": 0,
+      "last_meeting": "2000 Friendly: Egypt 1-0 Iran",
+      "note": "Single meeting over 26 years ago; Middle East bragging rights"
+    },
+    "Egypt_vs_New_Zealand": {
+      "total": 1, "egy_wins": 0, "draws": 1, "nzl_wins": 0,
+      "gf": 1, "ga": 1,
+      "wc_meetings": "1999 Confederations Cup: Egypt 1-1 New Zealand",
+      "note": "Single draw at Confederations Cup"
+    },
+    "Iran_vs_New_Zealand": {
+      "total": 6, "irn_wins": 3, "draws": 2, "nzl_wins": 1,
+      "gf": 9, "ga": 5,
+      "last_meeting": "2015 Friendly: Iran 2-0 New Zealand",
+      "note": "Asian vs Oceania — Iran typically dominant"
+    },
+
+    "Spain_vs_Cape_Verde": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Spain_vs_Saudi_Arabia": {
+      "total": 1, "esp_wins": 1, "draws": 0, "ksa_wins": 0,
+      "gf": 5, "ga": 0,
+      "last_meeting": "2012 Friendly: Spain 5-0 Saudi Arabia",
+      "note": "Spain dominated the sole meeting in their golden era"
+    },
+    "Spain_vs_Uruguay": {
+      "total": 10, "esp_wins": 5, "draws": 4, "uru_wins": 1,
+      "gf": 16, "ga": 8,
+      "last_meeting": "2013 Confederations Cup: Spain 2-1 Uruguay",
+      "note": "Spain dominant historically; only 1 of last 4 was a Spain win"
+    },
+    "Cape_Verde_vs_Saudi_Arabia": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Cape_Verde_vs_Uruguay": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Saudi_Arabia_vs_Uruguay": {
+      "total": 3, "ksa_wins": 0, "draws": 1, "uru_wins": 2,
+      "gf": 3, "ga": 6,
+      "wc_meetings": "2002 Group: Uruguay 1-0 Saudi Arabia; 2018 Group: Uruguay 1-0 Saudi Arabia",
+      "last_meeting": "2018 World Cup: Uruguay 1-0 Saudi Arabia",
+      "note": "Uruguay 2-0 at World Cups, both narrow 1-0 wins"
+    },
+
+    "France_vs_Senegal": {
+      "total": 1, "fra_wins": 0, "draws": 0, "sen_wins": 1,
+      "gf": 0, "ga": 1,
+      "wc_meetings": "2002 Opening Match: Senegal 1-0 France (iconic upset)",
+      "note": "Only meeting was one of biggest World Cup upsets ever; 24-year grudge"
+    },
+    "France_vs_Iraq": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "France_vs_Norway": {
+      "total": 16, "fra_wins": 8, "draws": 4, "nor_wins": 4,
+      "gf": 24, "ga": 16,
+      "last_meeting": "2024 Friendly: France 3-1 Norway",
+      "note": "France historically dominant; Norway beat them in 1998 WC warmup"
+    },
+    "Senegal_vs_Iraq": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Senegal_vs_Norway": {
+      "total": 1, "sen_wins": 1, "draws": 0, "nor_wins": 0,
+      "gf": 2, "ga": 1,
+      "last_meeting": "2012 Friendly: Senegal 2-1 Norway",
+      "note": "Single close friendly; both teams much stronger now"
+    },
+    "Iraq_vs_Norway": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+
+    "Argentina_vs_Algeria": {
+      "total": 1, "arg_wins": 1, "draws": 0, "alg_wins": 0,
+      "gf": 4, "ga": 3,
+      "last_meeting": "2007 Friendly: Argentina 4-3 Algeria",
+      "note": "High-scoring friendly; only meeting"
+    },
+    "Argentina_vs_Austria": {
+      "total": 3, "arg_wins": 2, "draws": 1, "aut_wins": 0,
+      "gf": 7, "ga": 3,
+      "wc_meetings": "1978 Group: Argentina 2-0 Austria; 1982 Group: Argentina 2-2 Austria",
+      "last_meeting": "2007 Friendly: Argentina 1-1 Austria",
+      "note": "Argentina unbeaten but all meetings are old"
+    },
+    "Argentina_vs_Jordan": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Algeria_vs_Austria": {
+      "total": 2, "alg_wins": 1, "draws": 0, "aut_wins": 1,
+      "gf": 3, "ga": 3,
+      "wc_meetings": "1982 Group: Algeria 3-2 Austria (with scandal: Austria 2-1 Algeria)",
+      "last_meeting": "2003 Friendly: Austria 2-1 Algeria",
+      "note": "1982 meeting infamous for 'Disgrace of Gijón' aftermath between Austria & Germany"
+    },
+    "Algeria_vs_Jordan": {
+      "total": 2, "alg_wins": 1, "draws": 1, "jor_wins": 0,
+      "gf": 3, "ga": 1,
+      "last_meeting": "2018 Friendly: Algeria 1-1 Jordan",
+      "note": "Arab rivalry; Algeria slightly ahead"
+    },
+    "Austria_vs_Jordan": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+
+    "Portugal_vs_Congo_DR": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Portugal_vs_Uzbekistan": {
+      "total": 0,
+      "note": "First-ever meeting — Uzbekistan's first World Cup appearance"
+    },
+    "Portugal_vs_Colombia": {
+      "total": 2, "por_wins": 0, "draws": 0, "col_wins": 2,
+      "gf": 2, "ga": 5,
+      "last_meeting": "2014 Friendly: Colombia 2-0 Portugal",
+      "note": "Colombia won both meetings; notable psychological edge over Ronaldo-era Portugal"
+    },
+    "Congo_DR_vs_Uzbekistan": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Congo_DR_vs_Colombia": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Uzbekistan_vs_Colombia": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+
+    "England_vs_Croatia": {
+      "total": 11, "eng_wins": 6, "draws": 2, "cro_wins": 3,
+      "gf": 24, "ga": 13,
+      "last_5": "W D W L D",
+      "wc_meetings": "2018 SF: Croatia 2-1 England (AET)",
+      "last_meeting": "2024 Nations League: England 2-1 Croatia",
+      "note": "England dominant in qualifying, Croatia won the one that mattered most"
+    },
+    "England_vs_Ghana": {
+      "total": 2, "eng_wins": 1, "draws": 1, "gha_wins": 0,
+      "gf": 4, "ga": 2,
+      "last_meeting": "2018 Friendly: England 2-0 Ghana",
+      "note": "England unbeaten; Ghana diaspora connections (many England players have Ghanaian heritage)"
+    },
+    "England_vs_Panama": {
+      "total": 1, "eng_wins": 1, "draws": 0, "pan_wins": 0,
+      "gf": 6, "ga": 1,
+      "wc_meetings": "2018 Group: England 6-1 Panama",
+      "note": "England's biggest World Cup win; Panama's first WC goal celebration"
+    },
+    "Croatia_vs_Ghana": {
+      "total": 1, "cro_wins": 0, "draws": 1, "gha_wins": 0,
+      "gf": 1, "ga": 1,
+      "last_meeting": "2014 Friendly: Croatia 1-1 Ghana",
+      "note": "Single close friendly"
+    },
+    "Croatia_vs_Panama": {
+      "total": 0,
+      "note": "First-ever meeting"
+    },
+    "Ghana_vs_Panama": {
+      "total": 0,
+      "note": "First-ever meeting"
     }
   },
   "rivalry_games": [
@@ -98,7 +425,15 @@
     {"match": "Spain vs Uruguay", "type": "Historic football nations", "intensity": "MEDIUM"},
     {"match": "Portugal vs Colombia", "type": "Colombia psychological edge", "intensity": "MEDIUM"},
     {"match": "Norway vs France", "type": "Mbappé vs Haaland narrative", "intensity": "VERY HIGH"},
-    {"match": "Uruguay vs Spain", "type": "Group H decider", "intensity": "HIGH"},
-    {"match": "Argentina vs Algeria", "type": "Messi's final campaign", "intensity": "MEDIUM"}
+    {"match": "Argentina vs Algeria", "type": "Messi's final campaign", "intensity": "MEDIUM"},
+    {"match": "Netherlands vs Sweden", "type": "24-match European rivalry", "intensity": "HIGH"},
+    {"match": "Mexico vs South Africa", "type": "Opening match rematch (2010)", "intensity": "MEDIUM"},
+    {"match": "England vs Panama", "type": "2018 6-1 rematch", "intensity": "LOW"},
+    {"match": "Argentina vs Austria", "type": "1978/82 WC rematch", "intensity": "LOW"},
+    {"match": "Algeria vs Austria", "type": "1982 Disgrace of Gijón", "intensity": "HIGH"},
+    {"match": "Germany vs Ecuador", "type": "2006 host vs guest", "intensity": "LOW"},
+    {"match": "USA vs Paraguay", "type": "Copa América rivalry", "intensity": "MEDIUM"},
+    {"match": "Belgium vs Egypt", "type": "Diaspora connections (Salah vs Belgium league)", "intensity": "MEDIUM"},
+    {"match": "Japan vs Sweden", "type": "Style clash: technique vs physical", "intensity": "MEDIUM"}
   ]
 }

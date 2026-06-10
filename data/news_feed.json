@@ -1,112 +1,175 @@
 {
-  "updated": "2026-06-07T16:30:04.327536",
-  "total_articles": 18,
+  "updated": "2026-06-10T16:30:08.134051",
+  "total_articles": 29,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 8,
-    "bbc_sport": 8,
-    "sky_sports": 2,
+    "espn_fc": 12,
+    "bbc_sport": 13,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "47a246a4e163",
-      "title": "Is the USMNT ready for the World Cup? After loss t...",
-      "url": "https://www.espn.com/soccer/story/_/id/48986237/is-usmnt-ready-world-cup-loss-germany-jury-out",
-      "published_at": "Sun, 7 Jun 2026 04:22:43 EST",
+      "id": "fbdc3441900e",
+      "title": "Texas AG probes FIFA over WC ticket practices",
+      "url": "https://www.espn.com/soccer/story/_/id/49012713/texas-joins-ny-nj-california-probes-fifa-world-cup-ticket-prices",
+      "published_at": "Wed, 10 Jun 2026 04:25:57 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "The U.S. provided reasons for both encouragement and frustration in the final tuneup before its World Cup opener June 12."
+      "summary": "The Texas Attorney General's Office said it has opened an investigation into FIFA's World Cup ticket sale practices following complaints alleging fans were misled about seat locations for matches to b"
     },
     {
-      "id": "84ba86f6d921",
-      "title": "📈 Ranking all 48 World Cup squads",
-      "url": "https://www.espn.com/soccer/story/_/id/48941820/world-cup-final-squads-ranked-all-48-national-teams-win-summer",
-      "published_at": "Sat, 6 Jun 2026 23:01:35 EST",
+      "id": "27118842d650",
+      "title": "👀All you need to know about 48 World Cup teams",
+      "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
+      "published_at": "Wed, 10 Jun 2026 04:25:58 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "We have the final 26-player squads that can win the FIFA World Cup, so let's go through all 48 teams and rank where they stand."
+      "summary": "The wait is almost over ... the 2026 FIFA World Cup is about to begin! ESPN's experts are here with what you need to know at a glance about all 48 teams."
     },
     {
-      "id": "0d7a1d3ad453",
-      "title": "16 players who could use World Cup to get a big tr...",
-      "url": "https://www.espn.com/soccer/story/_/id/48956021/16-players-use-world-cup-get-big-transfer-europe",
-      "published_at": "Sun, 7 Jun 2026 04:15:46 EST",
+      "id": "9195a1764a8c",
+      "title": "Final World Cup Power Rankings before the tourname...",
+      "url": "https://www.espn.com/soccer/story/_/id/49001555/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina",
+      "published_at": "Wed, 10 Jun 2026 03:24:18 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "The World Cup is the biggest stage in sports, so which players can use it to get their next big transfer?"
+      "summary": "Our reporters ranked the top 15 contenders for this summer's top prize as they see it right now."
+    },
+    {
+      "id": "ef8e4f2fad96",
+      "title": "World Cup Rank: The 50 best players in the 2026 to...",
+      "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
+      "published_at": "Wed, 10 Jun 2026 03:24:18 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
+    },
+    {
+      "id": "a21b8aa7d59a",
+      "title": "Five questions facing the USMNT as World Cup kicko...",
+      "url": "https://www.espn.com/soccer/story/_/id/49000751/5-questions-facing-usmnt-world-cup-kickoff-approaches",
+      "published_at": "Wed, 10 Jun 2026 04:06:18 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Come Friday, the USMNT's World Cup journey will begin. With the tournament just days away, ESPN answers the biggest questions facing the co-hosts."
+    },
+    {
+      "id": "ec841298f5d0",
+      "title": "Ian Darke's World Cup preview: Favorites, surprise...",
+      "url": "https://www.espn.com/soccer/story/_/id/48991222/ian-darke-world-cup-preview-favorites-surprises-watch-brazil-win",
+      "published_at": "Tue, 9 Jun 2026 14:59:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "On the eve of the first 48-team World Cup, everyone can dream. But who will win the trophy? And who could surprise us all?"
+    },
+    {
+      "id": "09610b543746",
+      "title": "The World Cup is almost here! Time for the soccer ...",
+      "url": "https://www.espn.com/soccer/story/_/id/48998867/the-2026-fifa-world-cup-almost-here-soccer-do-talking",
+      "published_at": "Tue, 9 Jun 2026 14:59:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "All of the pre-tournament noise will be drowned out by events on the pitch when thing kick off on Thursday."
+    },
+    {
+      "id": "79163160aa50",
+      "title": "Everything you need to know about 2027 Women's World Cup: Format, who has qualified, more",
+      "url": "https://www.espn.com/soccer/story/_/id/48983407/everything-need-know-2027-womens-world-cup-format-qualified-more",
+      "published_at": "Wed, 10 Jun 2026 03:37:57 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The 2027 FIFA Women's World Cup in Brazil is fast approaching, so here is everything you need to know about the format and teams."
+    },
+    {
+      "id": "68512da6f9dd",
+      "title": "Rating the biggest 2026 World Cup ads: Adidas vs. ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49002681/rating-2026-fifa-world-cup-ads-adidas-nike-coke-pepsi",
+      "published_at": "Tue, 9 Jun 2026 09:20:57 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The World Cup is a chance for the world's biggest brands to throw everything into their ads."
+    },
+    {
+      "id": "88828b097bbb",
+      "title": "The World Cup record that will be broken three tim...",
+      "url": "https://www.espn.com/soccer/story/_/id/48948700/the-world-cup-record-broken-three-s-first-week-curacao-dick-advocaat-south-africa-hugo-broos-czechia-miroslav-koubek",
+      "published_at": "Tue, 9 Jun 2026 08:36:05 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "World Cup 2026 provides a chance to celebrate longevity both on the pitch and on the bench."
     },
     {
       "id": "34938a46959a",
-      "title": "Predicting how all 48 World Cup teams will do: A r...",
+      "title": "Predicting how all 48 men's World Cup teams will d...",
       "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
-      "published_at": "Sun, 7 Jun 2026 04:17:35 EST",
+      "published_at": "Mon, 8 Jun 2026 07:59:56 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Who will win the FIFA World Cup? Instead of predicting a final winner, we've picked every single result to show HOW our predicted winner will do it."
     },
     {
       "id": "271bb978f167",
-      "title": "Simulating the World Cup: Who did EA Sports predic...",
+      "title": "Simulating the men's World Cup: Who did EA Sports ...",
       "url": "https://www.espn.com/soccer/story/_/id/48965907/simulating-world-cup-did-ea-predict-winners-how-did-usmnt-get-on",
-      "published_at": "Sun, 7 Jun 2026 04:17:35 EST",
+      "published_at": "Mon, 8 Jun 2026 07:59:56 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "EA Sports has correctly predicted the winners for the past four World Cups. But who does it pick for 2026?"
     },
     {
-      "id": "27118842d650",
-      "title": "Get ready for the biggest World Cup ever! What you...",
-      "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
-      "published_at": "Sat, 6 Jun 2026 03:47:03 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The wait is almost over ... the 2026 FIFA World Cup is about to begin! ESPN's experts are here with what you need to know at a glance about all 48 teams."
-    },
-    {
-      "id": "6e6a726aedde",
-      "title": "Which World Cup records are most likely to be brok...",
-      "url": "https://www.espn.com/soccer/story/_/id/48891969/which-world-cup-records-most-likely-broken-2026",
-      "published_at": "Sat, 6 Jun 2026 03:47:02 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "This summer's expanded tournament in North America could be one to rewrite the record books."
-    },
-    {
-      "id": "193988c07a43",
-      "title": "Son has had quite the World Cup journey -- but wil...",
-      "url": "https://www.espn.com/soccer/story/_/id/48974192/2026-prove-son-heung-min-final-fifa-world-cup-hurrah",
-      "published_at": "Sun, 7 Jun 2026 01:27:42 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Son Heung-Min's previous 3 World Cups perfectly mirrored where he was in his career. What does 2026 hold?"
-    },
-    {
-      "id": "7d7e6eee8017",
-      "title": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
-      "url": "https://www.bbc.com/sport/football/articles/clyrw74l269o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 06 Jun 2026 23:31:18 GMT",
+      "id": "ee4046030f73",
+      "title": "Who will win the World Cup? BBC pundits make their predictions",
+      "url": "https://www.bbc.com/sport/football/articles/cg7485gyxz9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 05:24:53 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Scotland thrash Bolivia and are in decent fettle one week out from the biggest game of their international lives."
+      "summary": "Who will win, who might spring a surprise and how will England and Scotland do? BBC pundits predict what will happen at the 2026 World Cup."
     },
     {
-      "id": "2cf2ec84484d",
-      "title": "World Cup quiz: Can you name every host?",
-      "url": "https://www.bbc.com/sport/football/articles/ckgpjpng8nzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 07 Jun 2026 07:15:51 GMT",
+      "id": "197a339732b4",
+      "title": "Who am I? Guess World Cup star No 3",
+      "url": "https://www.bbc.com/sport/football/articles/c759x541vn9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 05:51:24 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Countries far and wide have hosted the festival of football since the first tournament in 1930. How many countries can you name?"
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "f7ce6fee18ce",
-      "title": "How to follow the World Cup on the BBC",
-      "url": "https://www.bbc.com/sport/football/articles/c62dy77g8e8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 02 Jun 2026 05:33:11 GMT",
+      "id": "823669678aea",
+      "title": "England miss out on automatic World Cup spot - so what happens now?",
+      "url": "https://www.bbc.com/sport/football/articles/cvg70dzg3ngo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 22:57:14 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The biggest World Cup in history starts on 11 June and there are more ways to follow it on the BBC than ever before."
+      "summary": "England beat Ukraine 3-0 on Tuesday night but it did not matter what they did as automatic qualification for the 2027 Women's World Cup was out of their hands."
+    },
+    {
+      "id": "453c281cfa31",
+      "title": "Does referee case show Fifa has lost control of its own World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/clyr6drdl79o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 17:55:45 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "With referee Omar Artan denied entry to the United States and worries over staff and supporters being turned back, what does this tell us about the World Cup?"
+    },
+    {
+      "id": "6cd5c2bd9d05",
+      "title": "From risk of death to oldest man at World Cup - walking miracle Gordon",
+      "url": "https://www.bbc.com/sport/football/articles/c5yz5nnx2jro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 15:10:56 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "How Craig Gordon's career has been a series of comebacks and the 43-year-old's World Cup inclusion for Scotland seemed an impossible dream only a few months ago."
+    },
+    {
+      "id": "cbc509e4c224",
+      "title": "Play BBC Sport's new World Cup predictor game",
+      "url": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 08:24:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
     },
     {
       "id": "b912eadfe884",
@@ -118,15 +181,6 @@
       "summary": "All the TV and radio details for each of the 2026 World Cup group games. "
     },
     {
-      "id": "be26f39b95ab",
-      "title": "World Cup 2026: All 48 squads confirmed ",
-      "url": "https://www.bbc.com/sport/football/articles/cvgz43lgn15o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 02 Jun 2026 12:43:21 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "All 48 confirmed squads for the 2026 World Cup in the US, Canada and Mexico."
-    },
-    {
       "id": "85bfe2469041",
       "title": "Download your World Cup 2026 wallchart",
       "url": "https://www.bbc.com/sport/football/articles/c4g51wd9px6o?at_medium=RSS&at_campaign=rss",
@@ -136,40 +190,85 @@
       "summary": "Get your essential piece of kit now by downloading the Fifa World Cup 2026 wallchart. "
     },
     {
-      "id": "7d0798a800ae",
-      "title": "The pioneer in an unlikely World Cup team",
-      "url": "https://www.bbc.com/sport/football/articles/cn4p4jw7pzko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 06 Jun 2026 06:11:06 GMT",
+      "id": "5b8da1753944",
+      "title": "World Cup 1982: Stein, Narey, Brazil & being a cartoon character",
+      "url": "https://www.bbc.com/sport/football/articles/c0l25wp3zdpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 07:47:21 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "When Desmond Armstrong faced the media at the World Cup in 1990, the first question he got was one that would stick in his mind for the wrong reasons."
+      "summary": "Joe Jordan, Gordon Strachan and John Wark recall Scotland's 1982 World Cup campaign."
     },
     {
-      "id": "6d7799647eb8",
-      "title": "Lightning halts pre-World Cup friendly in Texas for two hours",
-      "url": "https://www.bbc.com/sport/football/articles/c5yz3p6vjd1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 06 Jun 2026 10:56:09 GMT",
+      "id": "f87d1b0818d3",
+      "title": "'I designed football shirts for World cup winners'",
+      "url": "https://www.bbc.com/news/articles/cz0jm4vnnnjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 05:24:43 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Saudi Arabia's World Cup warm-up game against Puerto Rico in Texas is halted for nearly two hours because of extreme weather."
+      "summary": "Rob Warner created Italy's royal blue kit in which they lifted the trophy in 2006."
     },
     {
-      "id": "50842eeccd4d",
-      "title": "Scotland thrash Bolivia ahead of World Cup opener",
-      "url": "https://www.skysports.com/football/bolivia-vs-scotland/report/555767",
-      "published_at": "Sat, 06 Jun 2026 22:58:00 BST",
-      "source": "Sky Sports Football",
+      "id": "da2dd318a048",
+      "title": "Wales can reach Women's World Cup - Wilkinson",
+      "url": "https://www.bbc.com/sport/football/articles/c2ly99d4ljjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 20:27:54 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Che Adams scored twice as a dominant Scotland thrashed Bolivia 4-0 in New Jersey in their final friendly before getting their World Cup campaign under way next week. "
+      "summary": "Rhian Wilkinson says Wales have the potential to qualify for next year's Women's World Cup after they beat the Czech Republic to claim top spot in Group B1."
     },
     {
-      "id": "554f1e0cbd63",
-      "title": "England beat New Zealand in first World Cup warm-up game",
-      "url": "https://www.skysports.com/football/england-vs-new-zealand/report/553972",
-      "published_at": "Fri, 05 Jun 2026 17:16:00 BST",
+      "id": "579c5a3924e9",
+      "title": "Watch: Weir scores four as Scotland beat Israel to win group",
+      "url": "https://www.bbc.com/sport/videos/c0ky8873nr5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 19:56:34 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch the highlights as Scotland beat Israel 5-1, with Caroline Weir scoring four goals in Hungary to top their Women's World Cup qualifying group ahead of Belgium and win promotion to League A for th"
+    },
+    {
+      "id": "1c1d99618ecf",
+      "title": "Highlights: Wales beat Czech Republic 3-1 to top group",
+      "url": "https://www.bbc.com/sport/football/videos/cm2r0828xleo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 19:27:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch highlights as Wales beat Czech Republic in Cardiff in Women's World Cup qualifying. "
+    },
+    {
+      "id": "73f2761dc9f4",
+      "title": "World Cup of Darts 2026: Pundit predictions with Littler, Humphries, Rock in action",
+      "url": "https://www.skysports.com/darts/news/12040/13551187/world-cup-of-darts-2026-pundit-predictions-for-winners-dark-horses-best-pairings-with-luke-littler-luke-humphries-josh-rock-in-action",
+      "published_at": "Fri, 05 Jun 2026 16:08:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Harry Kane's header gave England a 1-0 win over New Zealand in their first World Cup warm-up game in Tampa, Florida."
+      "summary": "With the World Cup of Darts getting under way on Thursday June 11, live on Sky Sports, the pundits take a look at who are their favourites to win, the dark horses, and what looks to be the best pairin"
+    },
+    {
+      "id": "3424f64ac431",
+      "title": "Lionesses bemoan 'toughest group' as World Cup hopes hang in the balance",
+      "url": "https://www.skysports.com/football/news/12040/13552532/england-women-3-0-ukraine-women-lionesses-rue-spain-defeat-as-they-question-how-one-defeat-cost-them-automatic-world-cup-spot",
+      "published_at": "Tue, 09 Jun 2026 23:15:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Sarina Wiegman and multiple England stars rued the 'toughest' World Cup qualifying group after failing to earn an automatic spot in next year's tournament despite winning five of their six games."
+    },
+    {
+      "id": "94c7e17939a8",
+      "title": "England third favourites? Their real World Cup chances assessed",
+      "url": "https://www.skysports.com/football/news/12040/13552254/englands-world-cup-chances-assessed-as-they-are-rated-third-favourites-behind-spain-and-france-between-the-lines",
+      "published_at": "Tue, 09 Jun 2026 16:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The World Cup is finally upon us. Could it be England's year?"
+    },
+    {
+      "id": "a446204e0910",
+      "title": "Yapp: All four nations will comprise Lions squad, not just England",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13552577/british-and-irish-lions-head-coach-jo-yapp-says-says-all-four-nations-will-comprise-squad-for-inaugural-tour-of-new-zealand",
+      "published_at": "Wed, 10 Jun 2026 07:27:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "British and Irish Lions Women's head coach Jo Yapp insists the squad for next year's inaugural tour of New Zealand will include players from each of the four unions, not just the Red Roses."
     }
   ]
 }

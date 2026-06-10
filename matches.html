@@ -122,6 +122,79 @@ const MATCHES_BY_DATE={
 // ============ MATH ============
 function fact(n){let r=1;for(let i=2;i<=n;i++)r*=i;return r}
 
+// ============ H2H & COMMON OPPONENT ============
+const TEAM_CODE_MAP = {
+  'Mexico':'mex','South Africa':'rsa','South Korea':'kor','Czech Republic':'cze',
+  'Canada':'can','Bosnia-Herzegovina':'bih','Qatar':'qat','Switzerland':'sui',
+  'Brazil':'bra','Morocco':'mar','Haiti':'hai','Scotland':'sco',
+  'United States':'usa','Paraguay':'par','Australia':'aus','Turkey':'tur',
+  'Germany':'ger','Curacao':'cuw','Ivory Coast':'civ','Ecuador':'ecu',
+  'Netherlands':'ned','Japan':'jpn','Sweden':'swe','Tunisia':'tun',
+  'Belgium':'bel','Egypt':'egy','Iran':'irn','New Zealand':'nzl',
+  'Spain':'esp','Cape Verde':'cpv','Saudi Arabia':'ksa','Uruguay':'uru',
+  'France':'fra','Senegal':'sen','Iraq':'irq','Norway':'nor',
+  'Argentina':'arg','Algeria':'alg','Austria':'aut','Jordan':'jor',
+  'Portugal':'por','Congo DR':'cod','Uzbekistan':'uzb','Colombia':'col',
+  'England':'eng','Croatia':'cro','Ghana':'gha','Panama':'pan'
+};
+function getWinrate(match, team){
+  const t=team, total=match.total||0;
+  if(total<=0) return 0.5;
+  const code=TEAM_CODE_MAP[t]||t.toLowerCase().replace(/ /g,'_');
+  if(match[code+'_wins']!=null) return match[code+'_wins']/total;
+  // Fallback: search keys
+  for(const[k,v]of Object.entries(match)){
+    if(k.endsWith('_wins')){
+      const prefix=k.replace('_wins','');
+      if(code.startsWith(prefix)||prefix===code.slice(0,3)) return v/total;
+  }}
+  return 0.5;
+}
+function computeH2hBoost(home, away, h2hData){
+  if(!h2hData) return {boost:1.0, info:'', coInfo:'', h2hMod:0, coMod:0};
+  const h2h=h2hData.head_to_head||{};
+  const k1=home+'_vs_'+away, k2=away+'_vs_'+home;
+  const k1u=home.replace(/ /g,'_')+'_vs_'+away.replace(/ /g,'_');
+  const k2u=away.replace(/ /g,'_')+'_vs_'+home.replace(/ /g,'_');
+  const match=h2h[k1]||h2h[k2]||h2h[k1u]||h2h[k2u]||{};
+  const total=match.total||0;
+  let h2hMod=0, info='';
+  if(total>0){
+    const wr=getWinrate(match, home);
+    h2hMod=wr-0.5;
+    info=(h2hMod>0.01?'📜上风':'')+(h2hMod<-0.01?'📜劣势':'')+(Math.abs(h2hMod)<0.01?'📜均势':'');
+    info+=` ${total}场${Math.round(wr*100)}%`;
+  }else if(match.note){
+    info='🆕首遇';
+  }
+  // Common opponent
+  let coMod=0, coInfo='';
+  const oppsA=new Map(), oppsB=new Map();
+  for(const[k,m]of Object.entries(h2h)){
+    const parts=k.split('_vs_'); if(parts.length!==2) continue;
+    const t1=parts[0].replace(/_/g,' '), t2=parts[1].replace(/_/g,' ');
+    if(t1===home) oppsA.set(t2, getWinrate(m, home));
+    else if(t2===home) oppsA.set(t1, getWinrate(m, home));
+    if(t1===away) oppsB.set(t2, getWinrate(m, away));
+    else if(t2===away) oppsB.set(t1, getWinrate(m, away));
+  }
+  let wSum=0, tW=0;
+  for(const[c,wrA]of oppsA){
+    if(oppsB.has(c)){
+      const wrB=oppsB.get(c);
+      const diff=wrA-wrB;
+      const wt=0.4; // simplified weight
+      wSum+=diff*wt; tW+=wt;
+  }}
+  if(tW>0){ coMod=wSum/tW; coMod=Math.max(-1,Math.min(1,coMod)); }
+  if(oppsA.size>0&&oppsB.size>0){
+    let common=0; for(const[c]of oppsA){if(oppsB.has(c))common++;}
+    if(common>0) coInfo=`🔄${common}队共对${coMod>0.05?'↑':coMod<-0.05?'↓':'→'}`;
+  }
+  const boost=1.0+h2hMod*0.05+coMod*0.02;
+  return {boost:Math.max(0.95,Math.min(1.05,boost)), info, coInfo, h2hMod, coMod};
+}
+
 // ============ DIXON-COLES PREDICT (V2 Enhanced) ============
 // Environmental factor: heat × altitude × roof
 function envFactor(cityName, roof, elevM, envCities){
@@ -139,7 +212,7 @@ function envFactor(cityName, roof, elevM, envCities){
   return hf * af;
 }
 
-function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPowers, envCities, venueInfo, betfairIndex, newsData){
+function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPowers, envCities, venueInfo, betfairIndex, newsData, h2hData){
   const gaMap={};
   players.forEach(p=>{const g=Number(p.goals_2526)||0,a=Number(p.assists_2526)||0;gaMap[p.nation]=(gaMap[p.nation]||0)+g+a;});
   (supplement||[]).forEach(p=>{if(gaMap[p.nation]!=null&&p.goals_2526)gaMap[p.nation]+=p.goals_2526;});
@@ -221,8 +294,12 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPow
   const newsBoost = 1.0 + (newsH - newsA) * 0.06;
   const clampedNews = Math.max(0.92, Math.min(1.08, newsBoost)); // clamp ±8%
 
+  // === H2H & COMMON OPPONENT (交锋+共同对手) ===
+  const h2hRes = computeH2hBoost(home, away, h2hData);
+  const h2hBoost = h2hRes.boost;
+
   // Apply all modifiers to expected goals
-  let lam=Math.exp(0.30+attH-defA) * v2Boost * envH * bfBoost * clampedNews;
+  let lam=Math.exp(0.30+attH-defA) * v2Boost * envH * bfBoost * clampedNews * h2hBoost;
   let mu=Math.exp(attA-defH) * envA;
   const rho=0.05;
 
@@ -242,7 +319,8 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPow
   return{hw,dw,aw,lam:lam.toFixed(1),mu:mu.toFixed(1),o25,btts,upsetPct,
     s1:scores[0]||{h:1,a:0},s1p:scores[0]?.p||0,
     s2:scores[1]||{h:1,a:1},s2p:scores[1]?.p||0,
-    diff:lam-mu, envH, envA, v2Boost, bfBoost, mfH, mfA, newsH, newsA, newsBoost:clampedNews};
+    diff:lam-mu, envH, envA, v2Boost, bfBoost, mfH, mfA, newsH, newsA, newsBoost:clampedNews,
+    h2hBoost, h2hInfo:h2hRes.info, coInfo:h2hRes.coInfo, h2hMod:h2hRes.h2hMod, coMod:h2hRes.coMod};
 }
 
 // ============ ASIAN HANDICAP ============
@@ -289,13 +367,18 @@ function renderMatch(pred,m){
   const newsB=pred.newsBoost||1, nH=pred.newsH||0, nA=pred.newsA||0;
   const hasNews = Math.abs(nH)>0.1 || Math.abs(nA)>0.1;
   const newsBadge=hasNews?`<span class="badge" style="font-size:9px;margin-left:2px;background:#004d40;color:#80cbc4" title="News sentiment: H${nH>0?'+':''}${(nH*100).toFixed(0)}% A${nA>0?'+':''}${(nA*100).toFixed(0)}%">NEWS${newsB>1.005?'+':newsB<0.995?'-':''}</span>`:'';
-
   const bfBadge=hasBF?`<span class="badge" style="font-size:9px;margin-left:2px;background:#6a1b9a;color:#ce93d8" title="必发资金流: 主${mfH>0?'+':''}${(mfH*100).toFixed(0)}% vs 客${mfA>0?'+':''}${(mfA*100).toFixed(0)}% | xG修正: ${bfB.toFixed(3)}">${bfLabel}</span>`:'';
+  // H2H badge
+  const h2hInfo=pred.h2hInfo||'', coInfo=pred.coInfo||'';
+  const hasH2h=Math.abs((pred.h2hBoost||1)-1)>0.002 || h2hInfo;
+  const h2hMod=pred.h2hMod||0;
+  const h2hBadge=hasH2h?`<span class="badge" style="font-size:9px;margin-left:2px;background:${h2hMod>0.01?'#1b3a1b':h2hMod<-0.01?'#3a1b1b':'#1a2735'};color:${h2hMod>0.01?'#81c784':h2hMod<-0.01?'#ef9a9a':'#90a4ae'}" title="H2H: ${h2hInfo} | Common opp: ${coInfo||'none'} | xG boost: ${(pred.h2hBoost||1).toFixed(4)}">${h2hInfo||'📜'}${coInfo?' '+coInfo:''}</span>`:'';
+  const h2hBadge2=hasH2h?h2hBadge:'';
 
   return `<div class="match-row" data-group="${m.g}" data-date="${m.date}">
     <div class="time">${m.g}组</div>
 
-    <div class="matchup"><span>${zhT(m.h)}</span><span class="vs">vs</span><span>${zhT(m.a)}</span>${envBadge}${v2Badge}${bfBadge}${newsBadge}</div>
+    <div class="matchup"><span>${zhT(m.h)}</span><span class="vs">vs</span><span>${zhT(m.a)}</span>${envBadge}${v2Badge}${bfBadge}${newsBadge}${h2hBadge2}</div>
     <div class="venue">${zhCi(m.v)||m.v}</div>
     <div class="odds-cell ${pickCls}">
       <div class="val">${pick1x2}</div>
@@ -357,6 +440,7 @@ async function main(){
     const envCities=all.environment?.cities||{};
     const betfairIndex=all.betfair_index?.betfair_index||null;
     const newsArticles = all.news_feed?.articles || [];
+    const h2hData = all.head_to_head || null;
     // Team keywords for news matching (sync with Python TEAM_KEYWORDS)
     const TEAM_KW = {
       'Spain':['spain','españa','yamal','rodri','pedri'],'France':['france','mbappé','mbappe','olise'],
@@ -428,7 +512,7 @@ async function main(){
           m.date=date;
           const vKey = m.h + '|' + m.a;
           const venueInfo = venueLookup[vKey] || {};
-          const pred=dcPredict(m.h,m.a,players,rankings,gkRatings,supplement,teamPowers,envCities,venueInfo,betfairIndex,{articles:newsArticles,team_keywords:TEAM_KW});
+          const pred=dcPredict(m.h,m.a,players,rankings,gkRatings,supplement,teamPowers,envCities,venueInfo,betfairIndex,{articles:newsArticles,team_keywords:TEAM_KW},h2hData);
           html+=renderMatch(pred,m);
         });
       });

@@ -19,11 +19,11 @@ from collections import defaultdict
 from model import (
     load_players_from_json, load_fifa_rankings, load_betting_odds,
     load_sponsors, load_environment, load_match_schedule,
-    load_betfair_index, load_news_feed,
+    load_betfair_index, load_news_feed, load_head_to_head,
     compute_team_power, compute_team_power_v2,
     build_venue_lookup, compute_env_factor,
     simulate_match, compute_elo_ratings, update_elo, ELO_INITIAL,
-    compute_h2h_modifier,
+    compute_h2h_modifier, compute_common_opponent_modifier,
     compute_betfair_boost, compute_news_boost,
 )
 
@@ -89,7 +89,8 @@ SF_PAIRINGS = [(0, 1), (2, 3)]
 
 def play_group_stage(powers: dict, venue_map: dict = None,
                      env_data: dict = None, elo_ratings: dict = None,
-                     betfair_data: dict = None, news_data: dict = None) -> dict:
+                     betfair_data: dict = None, news_data: dict = None,
+                     h2h_data: dict = None, fifa_ranks: dict = None) -> dict:
     """Simulate one group stage and return qualifying teams."""
     group_results = {}
 
@@ -110,8 +111,11 @@ def play_group_stage(powers: dict, venue_map: dict = None,
                         h_env = compute_env_factor(env_data, city, roof, elev, t1)
                         a_env = compute_env_factor(env_data, city, roof, elev, t2)
 
-                # Head-to-head modifier
-                h2h_mod = compute_h2h_modifier(t1, t2)
+                # Head-to-head modifier (direct)
+                h2h_mod = compute_h2h_modifier(t1, t2, h2h_data)
+
+                # Common opponent modifier (indirect)
+                co_mod = compute_common_opponent_modifier(t1, t2, h2h_data, fifa_ranks)
 
                 # Betfair money flow boost (必发资金流)
                 bf_boost = compute_betfair_boost(t1, t2, betfair_data)
@@ -119,13 +123,17 @@ def play_group_stage(powers: dict, venue_map: dict = None,
                 # News sentiment boost (时事新闻情感)
                 nw_boost = compute_news_boost(t1, t2, news_data)
 
+                # Combined H2H boost: direct H2H ±2.5% + common opponent ±2%
+                h2h_boost = 1.0 + h2h_mod * 0.05 + co_mod * 0.02
+
                 # Apply h2h to home power (home gets advantage if historically dominant)
                 h_power = powers.get(t1, 0.5) + h2h_mod
                 a_power = powers.get(t2, 0.5)
 
                 hg, ag = simulate_match(h_power, a_power,
                                         env_factor_home=h_env, env_factor_away=a_env,
-                                        betfair_boost=bf_boost, news_boost=nw_boost)
+                                        betfair_boost=bf_boost, news_boost=nw_boost,
+                                        h2h_boost=h2h_boost)
 
                 # Update dynamic Elo
                 if elo_ratings:
@@ -269,7 +277,8 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000,
                         use_v2: bool = True, betting_data: dict = None,
                         sponsors_data: dict = None, environment_data: dict = None,
                         schedule_data: dict = None,
-                        betfair_data: dict = None, news_data: dict = None):
+                        betfair_data: dict = None, news_data: dict = None,
+                        h2h_data: dict = None):
     """Run N complete tournament simulations and return all probabilities."""
     # Pre-compute team powers + dynamic Elo
     all_teams = []
@@ -321,7 +330,9 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000,
     ver = "V3" if use_v2 else "V1"
     bf_label = "+必发" if betfair_data else ""
     nw_label = "+新闻" if news_data else ""
-    extra = f" [{bf_label}{'+' if bf_label and nw_label else ''}{nw_label}]" if (bf_label or nw_label) else ""
+    h2h_label = "+H2H" if h2h_data else ""
+    extra_parts = [p for p in [bf_label, nw_label, h2h_label] if p]
+    extra = f" [{'/'.join(extra_parts)}]" if extra_parts else ""
     print(f"  Running {n_sims} tournament simulations [{ver}{extra}]...")
 
     for sim in range(n_sims):
@@ -331,12 +342,14 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000,
         # Reset Elo for each simulation
         sim_elo = dict(dynamic_elo)
 
-        # Group stage (with environmental factors + h2h + dynamic Elo + betfair + news)
+        # Group stage (with all factors: env + h2h + common_opp + betfair + news)
         group_results = play_group_stage(powers, venue_map=venue_map,
                                          env_data=environment_data,
                                          elo_ratings=sim_elo,
                                          betfair_data=betfair_data,
-                                         news_data=news_data)
+                                         news_data=news_data,
+                                         h2h_data=h2h_data,
+                                         fifa_ranks=fifa_ranks)
 
         # Track group stage outcomes
         for g_name, gr in group_results.items():
@@ -507,6 +520,7 @@ if __name__ == "__main__":
     schedule_data = load_match_schedule() if use_v2 else None
     betfair_data = load_betfair_index() if use_v2 else None
     news_data = load_news_feed() if use_v2 else None
+    h2h_data = load_head_to_head() if use_v2 else None
 
     if use_v2:
         factors = ["Market odds", "Sponsors", "Environment"]
@@ -514,6 +528,9 @@ if __name__ == "__main__":
             factors.append("Betfair (必发)")
         if news_data:
             factors.append("News (新闻)")
+        if h2h_data:
+            h2h_count = len(h2h_data.get("head_to_head", {}))
+            factors.append(f"H2H ({h2h_count} pairs)")
         print(f"  [V2] {', '.join(factors)} enabled")
 
     results = simulate_tournament(players, fifa_ranks, n_sims=n_sims,
@@ -523,7 +540,8 @@ if __name__ == "__main__":
                                   environment_data=environment_data,
                                   schedule_data=schedule_data,
                                   betfair_data=betfair_data,
-                                  news_data=news_data)
+                                  news_data=news_data,
+                                  h2h_data=h2h_data)
     print_results(results)
 
     export_results(results, DATA_DIR / "tournament_results.json")
