@@ -1312,7 +1312,7 @@
       "form_trend": 0.417,
       "market_power": 7.5,
       "sponsor_adj": 1.2,
-      "news_sentiment": 1.0,
+      "news_sentiment": 0.0,
       "coach_bonus": 1.2,
       "squad_depth": 4.76,
       "injury_penalty": 1.835,
