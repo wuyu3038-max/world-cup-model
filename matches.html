@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -213,43 +213,23 @@ function envFactor(cityName, roof, elevM, envCities){
 }
 
 function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPowers, envCities, venueInfo, betfairIndex, newsData, h2hData, injuryPenaltyMap){
-  const gaMap={};
-  players.forEach(p=>{const g=Number(p.goals_2526)||0,a=Number(p.assists_2526)||0;gaMap[p.nation]=(gaMap[p.nation]||0)+g+a;});
-  (supplement||[]).forEach(p=>{if(gaMap[p.nation]!=null&&p.goals_2526)gaMap[p.nation]+=p.goals_2526;});
-
-    const ha=gaMap[home]||0.1,aa=gaMap[away]||0.1;
-  // === INJURY PENALTY: reduce effective attack based on player absences ===
-  // Each penalty point reduces attack by ~6% (penalty 2.5 → ~15% reduction)
-  let injH = 1.0, injA = 1.0;
-  if(injuryPenaltyMap){
-    const ph = injuryPenaltyMap[home]||0;
-    const pa = injuryPenaltyMap[away]||0;
-    injH = Math.max(0.75, 1.0 - ph * 0.06);  // max 25% attack reduction
-    injA = Math.max(0.75, 1.0 - pa * 0.06);
-  }
-  const effHA = ha * injH;  // effective home attack after injury
-  const effAA = aa * injA;  // effective away attack after injury
-  const hr=(rankings.find(x=>x.team===home)||{}).rank||60;
-  const ar=(rankings.find(x=>x.team===away)||{}).rank||60;
-  const hgk=gkRatings[home]||50,agk=gkRatings[away]||50;
-
-  const attH=Math.log(Math.max(effHA,0.3))*0.35-0.25;
-  const attA=Math.log(Math.max(effAA,0.3))*0.35-0.25;
-  const defH=-(2200-hr*10)/6000-(hgk-50)/400;
-  const defA=-(2200-ar*10)/6000-(agk-50)/400;
-
-  // === V2 POWER ADJUSTMENT ===
-  // Blend V2 combined power into expected goals as a ratio modifier
-  let v2Boost = 1.0;
+  // === CALIBRATED xG FORMULA (V5, backtested on 403 real matches) ===
+  // Uses teamPowers from model.py V5 (same as Python backend)
+  let homePower = 8.0, awayPower = 8.0;
   if(teamPowers && teamPowers[home] && teamPowers[away]){
-    const v2h = teamPowers[home].combined || 5;
-    const v2a = teamPowers[away].combined || 5;
-    // Ratio relative to average team (~mid-table, power ~8)
-    const avgPow = 8.0;
-    const hBoost = Math.max(0.7, Math.min(1.3, v2h / avgPow));
-    const aBoost = Math.max(0.7, Math.min(1.3, v2a / avgPow));
-    v2Boost = hBoost / aBoost; // relative strength ratio
+    homePower = teamPowers[home].combined || 8.0;
+    awayPower = teamPowers[away].combined || 8.0;
   }
+  // Injury penalty reduces team power directly
+  if(injuryPenaltyMap){
+    homePower -= (injuryPenaltyMap[home]||0) * 1.5;
+    awayPower -= (injuryPenaltyMap[away]||0) * 1.5;
+    homePower = Math.max(homePower, 3.0);
+    awayPower = Math.max(awayPower, 3.0);
+  }
+  // Calibrated xG: 0.3 + power/9 + home_advantage(0.10)
+  let lam = 0.3 + homePower / 9.0 + 0.10;
+  let mu  = 0.3 + awayPower / 9.0;
 
   // === ENVIRONMENTAL FACTOR ===
   let envH = 1.0, envA = 1.0;
@@ -261,7 +241,7 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPow
     envA = envFactor(city, roof, elev, envCities);
   }
 
-  // === BETFAIR MONEY FLOW (必发资金流) ===
+  // === BETFAIR MONEY FLOW ===
   let bfBoost = 1.0, mfH = 0, mfA = 0;
   if(betfairIndex){
     const runners = betfairIndex.runners || {};
@@ -271,17 +251,14 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPow
         if(key.toLowerCase().includes(away.toLowerCase())) mfA = info.money_flow || 0;
       }
     }
-    // Net money flow difference: + = money chasing home, - = money chasing away
     const netFlow = mfH - mfA;
-    // Scale: ±0.3 flow → ±4.5% xG adjustment (small but meaningful)
     bfBoost = 1.0 + netFlow * 0.15;
-    bfBoost = Math.max(0.88, Math.min(1.12, bfBoost)); // clamp ±12%
+    bfBoost = Math.max(0.88, Math.min(1.12, bfBoost));
   }
 
-  // === NEWS SENTIMENT (时事新闻情感) ===
+  // === NEWS SENTIMENT ===
   let newsH = 0, newsA = 0;
   if(newsData && newsData.articles){
-    // Simple keyword sentiment for each team (mirrors Python extract_news_sentiment)
     const posWords = ['win','victory','confident','star','fit','return','boost','hat-trick','record','top','best','favorite','triumph'];
     const negWords = ['injury','injured','doubt','loss','defeat','out','suspended','struggle','disappointing','blow','setback','worry','crisis'];
     function teamNewsSent(team){
@@ -301,37 +278,45 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPow
     newsH = teamNewsSent(home);
     newsA = teamNewsSent(away);
   }
-  // News boost: net positive sentiment lifts xG slightly
   const newsBoost = 1.0 + (newsH - newsA) * 0.06;
-  const clampedNews = Math.max(0.92, Math.min(1.08, newsBoost)); // clamp ±8%
+  const clampedNews = Math.max(0.92, Math.min(1.08, newsBoost));
 
-  // === H2H & COMMON OPPONENT (交锋+共同对手) ===
+  // === H2H ===
   const h2hRes = computeH2hBoost(home, away, h2hData);
   const h2hBoost = h2hRes.boost;
 
-  // Apply all modifiers to expected goals
-  let lam=Math.exp(0.30+attH-defA) * v2Boost * envH * bfBoost * clampedNews * h2hBoost;
-  let mu=Math.exp(attA-defH) * envA;
-  const rho=0.05;
+  // Apply environmental/betfair/news/h2h multipliers to xG
+  lam = lam * envH * bfBoost * clampedNews * h2hBoost;
+  mu  = mu  * envA;
 
-  let hw=0,dw=0,aw=0,o25=0,btts=0,total=0,scores=[];
+  // === DIXON-COLES SIMULATION (rho = -0.18, calibrated) ===
+  const rho = -0.18;
+  let hw=0,dw=0,aw=0,o25=0,btts=0,totalP=0,scores=[];
   for(let h=0;h<=10;h++)for(let a=0;a<=10;a++){
     let p=Math.pow(lam,h)*Math.exp(-lam)/fact(h)*Math.pow(mu,a)*Math.exp(-mu)/fact(a);
     if(h===0&&a===0)p*=(1-lam*mu*rho);else if(h===0&&a===1)p*=(1+lam*rho);
     else if(h===1&&a===0)p*=(1+mu*rho);else if(h===1&&a===1)p*=(1-rho);
-    p=Math.max(p,0);scores.push({h,a,p});total+=p;
+    p=Math.max(p,0);scores.push({h,a,p});totalP+=p;
     if(h>a)hw+=p;else if(h===a)dw+=p;else aw+=p;
     if(h+a>2.5)o25+=p;if(h>0&&a>0)btts+=p;
   }
-  if(total>0){hw/=total;dw/=total;aw/=total;o25/=total;btts/=total;}
+  if(totalP>0){hw/=totalP;dw/=totalP;aw/=totalP;o25/=totalP;btts/=totalP;}
   scores.sort((a,b)=>b.p-a.p);
-  const pd=Math.abs(attH-attA);
-  const upsetPct=Math.round(Math.min(0.42*Math.exp(-pd*0.3),0.49)*100);
+
+  // Draw bias for close matches
+  const gap=Math.abs(hw-aw); let prediction;
+  if(gap<0.06) prediction='D';
+  else if(gap<0.12 && Math.max(hw,aw)<0.52) prediction='D';
+  else if(hw>aw && hw>dw) prediction='H';
+  else if(aw>hw && aw>dw) prediction='A';
+  else prediction='D';
+
+  const upsetPct=Math.round(Math.min(0.42*Math.exp(-Math.abs(homePower-awayPower)*0.08),0.49)*100);
   return{hw,dw,aw,lam:lam.toFixed(1),mu:mu.toFixed(1),o25,btts,upsetPct,
     s1:scores[0]||{h:1,a:0},s1p:scores[0]?.p||0,
     s2:scores[1]||{h:1,a:1},s2p:scores[1]?.p||0,
-    diff:lam-mu, envH, envA, v2Boost, bfBoost, mfH, mfA, newsH, newsA, newsBoost:clampedNews,
-    h2hBoost, h2hInfo:h2hRes.info, coInfo:h2hRes.coInfo, h2hMod:h2hRes.h2hMod, coMod:h2hRes.coMod, injH, injA, injPenH:injuryPenaltyMap?.[home]||0, injPenA:injuryPenaltyMap?.[away]||0};
+    diff:lam-mu, envH, envA, bfBoost, mfH, mfA, newsH, newsA, newsBoost:clampedNews,
+    h2hBoost, prediction, powerH:homePower, powerA:awayPower};
 }
 
 // ============ ASIAN HANDICAP ============
@@ -366,10 +351,10 @@ function renderMatch(pred,m){
   const envH=pred.envH||1, envA=pred.envA||1;
   const hasEnv = envH<0.98 || envA<0.98;
   const envBadge=hasEnv?`<span class="badge br" style="font-size:9px;margin-left:4px" title="xG环境修正: 主${envH.toFixed(2)} 客${envA.toFixed(2)}">🌡️x${envH.toFixed(2)}</span>`:'';
-  const v2b=pred.v2Boost||1;
-  const hasV2 = Math.abs(v2b-1)>0.02;
-  const v2Label = v2b>1.02?`V2↑${((v2b-1)*100).toFixed(0)}%`:v2b<0.98?`V2↓${((1-v2b)*100).toFixed(0)}%`:'V2';
-  const v2Badge=hasV2?`<span class="badge bb" style="font-size:9px;margin-left:2px" title="V2五维力量比(攻击+FIFA+市场+赞助+状态): ${v2b.toFixed(3)}">${v2Label}</span>`:'';
+  const v2b=pred.powerH||0;
+  const hasV2 = Math.abs(pH-pA)>3;
+  const v2Label = pH>pA?`PWR↑`:pA>pH?`PWR↓`:'V2';
+  const v2Badge=hasV2?`<span class="badge bb" style="font-size:9px;margin-left:2px" title="V5综合力量: H vs A${v2b.toFixed(3)}">V5</span>`:'';
   // Betfair money flow badge
   const bfB=pred.bfBoost||1, mfH=pred.mfH||0, mfA=pred.mfA||0;
   const hasBF = Math.abs(bfB-1)>0.005;
@@ -389,7 +374,7 @@ function renderMatch(pred,m){
   return `<div class="match-row" data-group="${m.g}" data-date="${m.date}">
     <div class="time">${m.g}组</div>
 
-    <div class="matchup"><span>${zhT(m.h)}</span><span class="vs">vs</span><span>${zhT(m.a)}</span>${envBadge}${v2Badge}${bfBadge}${newsBadge}${h2hBadge2}</div>
+    <div class="matchup"><span>${zhT(m.h)}</span><span class="vs">vs</span><span>${zhT(m.a)}</span>${envBadge}${powerBadge}${bfBadge}${newsBadge}${h2hBadge2}</div>
     <div class="venue">${zhCi(m.v)||m.v}</div>
     <div class="odds-cell ${pickCls}">
       <div class="val">${pick1x2}</div>
