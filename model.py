@@ -319,11 +319,14 @@ def simulate_match(home_power: float, away_power: float,
     hp = max(home_power, 0.01)
     ap = max(away_power, 0.01)
 
-    home_factor = 0.3 + hp / 8
-    away_factor = 0.3 + ap / 8
+    # Realistic xG scaling: team power ~5-15 maps to xG ~0.8-2.2
+    # Base 0.5 + power/12 gives: power=5 → 0.92, power=15 → 1.75
+    home_xg = (0.5 + hp / 12.0) + home_advantage
+    away_xg = 0.5 + ap / 12.0
 
-    home_xg = (home_factor * LEAGUE_AVG + home_advantage) * env_factor_home * betfair_boost * news_boost * h2h_boost
-    away_xg = away_factor * LEAGUE_AVG * env_factor_away
+    # Apply all modifiers
+    home_xg = home_xg * env_factor_home * betfair_boost * news_boost * h2h_boost
+    away_xg = away_xg * env_factor_away
 
     home_goals = np.random.poisson(max(home_xg, 0.05))
     away_goals = np.random.poisson(max(away_xg, 0.05))
