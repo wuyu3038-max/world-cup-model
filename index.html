@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -29,7 +29,9 @@ async function loadAll() {
       liveOdds: all.live_odds,
       zh: all.zh_names || {},
       sponsors: all.sponsors || {},
-      players_supplement: all.player_stats_supplement || {}
+      players_supplement: all.player_stats_supplement || {},
+      injuries: all.injuries || {},
+      lineups: all.lineups || {}
     };
     console.log('数据加载完成:', Object.keys(D));
     init();
@@ -101,6 +103,7 @@ tr:hover td{background:#182230}
   <button onclick="showTab('environment')">🌡️ 环境</button>
   <button onclick="showTab('managers')">👔 教练</button>
   <button onclick="showTab('h2h')">📜 交锋</button>
+  <button onclick="showTab('injuries')">🤕 伤病</button>
   <button onclick="showTab('data')">📁 数据</button>
 </nav>
 
@@ -163,6 +166,13 @@ tr:hover td{background:#182230}
 </div>
 
 <div id="tab-h2h" class="section"><div class="grid grid-3" id="h2hCards"></div></div>
+
+<div id="tab-injuries" class="section">
+  <div class="grid grid-2">
+    <div class="card"><h3>🤕 球队伤病汇总 (Team Injury Summary)</h3><div id="injSummary"></div></div>
+    <div class="card"><h3>📋 伤病详情 (Injury Details)</h3><div id="injDetail"></div></div>
+  </div>
+</div>
 
 <div id="tab-data" class="section">
   <div class="grid grid-2">
@@ -538,9 +548,87 @@ function renderData(){
     <tr><td>advanced_stats.json</td><td>防守/分钟/疲劳</td></tr>
     <tr><td>tournament_results.json</td><td>1000次V2模拟结果</td></tr>
     <tr><td>live_odds.json</td><td>实时赔率快照</td></tr>
-    <tr><td>all_data.json</td><td>全部15文件合并(176KB)</td></tr></table>`;
-  const ver = D.tournament?.version || 'V1';
+    <tr><td>injuries.json</td><td>球员伤病追踪 (42+条)</td></tr>
+        <tr><td>lineups.json</td><td>比赛首发阵容</td></tr>
+        <tr><td>all_data.json</td><td>全部文件合并</td></tr></table>`;
+  const ver = D.tournament?.version || 'V4';
   document.getElementById('d2').innerHTML=`<p><b>核心模型:</b> Dixon-Coles (1997) + Poisson</p><p style="font-size:10px;margin:3px 0">攻击α+防守β+主场γ+低分修正ρ · 纯NumPy梯度下降</p><hr style="border-color:#1e2d3d;margin:6px 0"><p><b>${ver} 五维力量公式:</b></p><p style="font-size:10px;margin:3px 0">综合 = 攻击×0.45 + FIFA×0.35 + 状态×4.0 + 市场赔率×0.10 + 赞助商×0.05</p><hr style="border-color:#1e2d3d;margin:6px 0"><p><b>环境修正:</b> 热风险×海拔×屋顶 → xG乘数 [0.88~1.00]</p><p style="font-size:10px">蒙特卡洛模拟1000次 · 小组→32强→决赛</p><hr style="border-color:#1e2d3d;margin:6px 0"><p style="font-size:10px">数据: Transfermarkt,Sofascore,FBref,NOAA</p><p style="font-size:10px">赔率: DraftKings,FanDuel,Bet365 (市场先验)</p><p style="font-size:10px">赞助商: Adidas/Nike/Puma 品牌力+压力罚分</p><p style="font-size:10px">环境: 16城市 WBGT/海拔/屋顶 → 实时xG调整</p>`;
+}
+
+// ============ INJURY RENDER ============
+function renderInjuries(){
+  const inj = D.injuries;
+  if(!inj || !inj.injuries || inj.injuries.length===0){
+    document.getElementById('injSummary').innerHTML='<p style="color:#78909c">Loading injury data... Run python auto_refresh.py to update</p>';
+    document.getElementById('injDetail').innerHTML='';
+    return;
+  }
+
+  const sevColors = {critical:'#e53935',major:'#ff9800',moderate:'#ffc107',minor:'#4caf50'};
+  const sevLabels = {critical:'[Core]',major:'[Starter]',moderate:'[Rotation]',minor:'[Bench]'};
+  const statusColors = {out:'#e53935',doubtful:'#ff9800',questionable:'#ffc107',probable:'#4fc3f7',fit:'#4caf50'};
+  const statusLabels = {out:'OUT',doubtful:'Doubt',questionable:'Ques',probable:'Prob',fit:'Fit'};
+
+  // Build team summary
+  const teamMap = {};
+  for(const i of inj.injuries||[]){
+    const n = i.nation||'Unknown';
+    if(!teamMap[n]) teamMap[n] = {out:[],doubtful:[],probable:[],penalty:0};
+    if(i.status==='out') teamMap[n].out.push(i);
+    else if(i.status==='doubtful'||i.status==='questionable') teamMap[n].doubtful.push(i);
+    else if(i.status==='probable') teamMap[n].probable.push(i);
+  }
+
+  // Compute simplified penalty scores
+  for(const [team, data] of Object.entries(teamMap)){
+    let p = 0;
+    for(const i of data.out){ p += (i.severity==='critical'?1.0:i.severity==='major'?0.55:i.severity==='moderate'?0.25:0.08); }
+    for(const i of data.doubtful){ p += (i.severity==='critical'?1.0:i.severity==='major'?0.55:i.severity==='moderate'?0.25:0.08)*0.7; }
+    for(const i of data.probable){ p += (i.severity==='critical'?1.0:i.severity==='major'?0.55:i.severity==='moderate'?0.25:0.08)*0.15; }
+    data.penalty = Math.min(p, 2.5);
+  }
+
+  const sorted = Object.entries(teamMap).sort((a,b)=>b[1].penalty-a[1].penalty);
+
+  // Team summary table
+  let h='<table><tr><th>#</th><th>Team</th><th>Status</th><th>OUT</th><th>Doubt</th><th>Prob</th><th>Penalty</th></tr>';
+  let rank=0;
+  for(const [team, data] of sorted){
+    if(data.penalty<0.01) continue;
+    rank++;
+    const icon = data.penalty>=2.0?'[!!]':data.penalty>=1.0?'[!]':data.penalty>=0.3?'[*]':'[~]';
+    const barW = Math.min(data.penalty*40, 100);
+    const barColor = data.penalty>=2?'#e53935':data.penalty>=1?'#ff9800':'#ffc107';
+    h+='<tr><td>'+rank+'</td><td><b>'+team+'</b></td><td>'+icon+'</td>'
+      +'<td style="color:#e53935">'+data.out.length+'</td>'
+      +'<td style="color:#ff9800">'+data.doubtful.length+'</td>'
+      +'<td style="color:#4fc3f7">'+data.probable.length+'</td>'
+      +'<td>'+data.penalty.toFixed(2)+' <span class="bar" style="width:'+barW+'px;background:'+barColor+'"></span></td></tr>';
+  }
+  h+='</table>';
+  document.getElementById('injSummary').innerHTML=h;
+
+  // Injury detail table
+  const sortedInj = (inj.injuries||[]).sort((a,b)=>{var so={critical:0,major:1,moderate:2,minor:3};var st={out:0,doubtful:1,questionable:2,probable:3,fit:4};return (so[a.severity]||2)-(so[b.severity]||2)||(st[a.status]||2)-(st[b.status]||2)});
+
+  h='<table><tr><th>Player</th><th>Team</th><th>Pos</th><th>Status</th><th>Injury</th><th>Sev</th><th>Note</th></tr>';
+  for(const i of sortedInj.slice(0,40)){
+    const sc = sevColors[i.severity]||'#90a4ae';
+    const sl = sevLabels[i.severity]||'';
+    const stc = statusColors[i.status]||'#90a4ae';
+    const stl = statusLabels[i.status]||i.status;
+    const pos = i.position||'?';
+    const posCls = pos==='FW'?'br':pos==='MF'?'by':pos==='DF'?'bb':'bg';
+    h+='<tr><td><b>'+i.player+'</b></td>'
+      +'<td>'+i.nation+'</td>'
+      +'<td><span class="badge '+posCls+'">'+pos+'</span></td>'
+      +'<td style="color:'+stc+';font-weight:600">'+stl+'</td>'
+      +'<td style="font-size:10px">'+(i.injury_type||'?')+'</td>'
+      +'<td><span style="color:'+sc+'">'+sl+'</span></td>'
+      +'<td style="font-size:9px;max-width:180px">'+(i.notes||'').slice(0,60)+'</td></tr>';
+  }
+  h+='</table><p style="font-size:9px;color:#78909c;margin-top:4px">Sources: ESPN, BBC, Sky Sports, FotMob, Transfermarkt | Updated: '+(inj._meta?.last_updated||'N/A')+'</p>';
+  document.getElementById('injDetail').innerHTML=h;
 }
 
 // ============ INIT ============
@@ -548,7 +636,7 @@ function init(){
   // Populate Chinese name caches
   ZT=D.zh?.teams||{}; ZP=D.zh?.players||{}; ZC=D.zh?.clubs||{}; ZCI=D.zh?.cities||{};
   renderOverview();renderTeams();renderGroups();renderKnockout();
-  renderMatches();renderOdds();renderEnv();renderManagers();renderH2H();renderData();
+  renderMatches();renderOdds();renderEnv();renderManagers();renderH2H();renderData();renderInjuries();
 }
 
 loadAll();

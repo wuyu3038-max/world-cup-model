@@ -157,6 +157,22 @@ def load_head_to_head() -> dict:
             return json.load(f)
     return {}
 
+def load_injuries() -> dict:
+    """Load structured player injury data."""
+    path = DATA_DIR / "injuries.json"
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def load_lineups() -> dict:
+    """Load match lineup data (starting XI per match)."""
+    path = DATA_DIR / "lineups.json"
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
 
 # ============================================================
 # 2. LEAGUE QUALITY & FORM FACTORS
@@ -1401,6 +1417,183 @@ def compute_squad_depth(players_df: pd.DataFrame, team: str) -> float:
 
 
 # ============================================================
+# 15. INJURY PENALTY — Structured injury impact on team power
+# ============================================================
+
+# Severity weight: how much each injury level reduces team power
+INJURY_SEVERITY_WEIGHTS = {
+    "critical": 1.00,   # Star player / captain
+    "major": 0.55,      # Key starter
+    "moderate": 0.25,   # Rotation player
+    "minor": 0.08,      # Bench/depth player
+}
+
+# Status multiplier: how much the severity weight is applied based on status
+INJURY_STATUS_MULTIPLIER = {
+    "out": 1.00,        # Full penalty — player is absent
+    "doubtful": 0.70,   # 70% of penalty — unlikely to play
+    "questionable": 0.40,  # 40% — may play, uncertainty
+    "probable": 0.15,   # 15% — expected to play, slight concern
+    "fit": 0.0,         # No penalty
+}
+
+# Max penalty cap per team (prevents excessive stacking)
+MAX_INJURY_PENALTY = 2.5
+
+
+def compute_injury_penalty(team: str, injuries_data: dict = None) -> float:
+    """
+    Compute injury penalty for a team based on structured injuries.json data.
+
+    Formula:
+      penalty = sum(severity_weight × status_multiplier) for each injured player
+      Capped at MAX_INJURY_PENALTY to prevent excessive impact from stacking injuries.
+
+    Returns float in range [0, MAX_INJURY_PENALTY]:
+      0 = fully fit squad
+      2.5 = multiple critical players out (severe impact)
+
+    Examples:
+      Spain: no critical OUT → ~0.15 (Merino doubtful + Yamal probable)
+      Brazil: Rodrygo (critical OUT) + Militão (major OUT) + Neymar (critical doubtful)
+            → 1.0×1.0 + 0.55×1.0 + 1.0×0.70 = 2.25
+      Argentina: Romero (critical doubtful) + Molina (major doubtful) + Messi (critical probable)
+               → 1.0×0.70 + 0.55×0.70 + 1.0×0.15 = 1.235
+    """
+    if not injuries_data:
+        return 0.0
+
+    injuries = injuries_data.get("injuries", [])
+    if not injuries:
+        return 0.0
+
+    penalty = 0.0
+    for inj in injuries:
+        if inj.get("nation", "") != team:
+            continue
+
+        status = inj.get("status", "fit")
+        severity = inj.get("severity", "moderate")
+
+        sev_weight = INJURY_SEVERITY_WEIGHTS.get(severity, 0.25)
+        status_mult = INJURY_STATUS_MULTIPLIER.get(status, 0.0)
+
+        penalty += sev_weight * status_mult
+
+    return round(min(penalty, MAX_INJURY_PENALTY), 3)
+
+
+def get_team_injury_summary(team: str, injuries_data: dict = None) -> dict:
+    """
+    Get a human-readable summary of a team's injury situation.
+    Returns {out_players, doubtful_players, total_penalty, status_text}
+    """
+    if not injuries_data:
+        return {"out": [], "doubtful": [], "probable": [], "penalty": 0.0, "status": "✅ Clean bill of health"}
+
+    injuries = injuries_data.get("injuries", [])
+    out_players = []
+    doubtful_players = []
+    probable_players = []
+
+    for inj in injuries:
+        if inj.get("nation", "") != team:
+            continue
+        info = f"{inj['player']} ({inj.get('injury_type','?')})"
+        if inj["status"] == "out":
+            out_players.append(info)
+        elif inj["status"] in ("doubtful", "questionable"):
+            doubtful_players.append(info)
+        elif inj["status"] == "probable":
+            probable_players.append(info)
+
+    penalty = compute_injury_penalty(team, injuries_data)
+
+    if penalty >= 2.0:
+        status = "[CRISIS] — multiple key players out"
+    elif penalty >= 1.0:
+        status = "[SIGNIFICANT] — key absences affecting strength"
+    elif penalty >= 0.3:
+        status = "[MINOR] — some concerns but core intact"
+    elif penalty > 0:
+        status = "[MOSTLY FIT] — minor issues only"
+    else:
+        status = "[CLEAN] — Clean bill of health"
+
+    return {
+        "out": out_players,
+        "doubtful": doubtful_players,
+        "probable": probable_players,
+        "penalty": penalty,
+        "status": status,
+    }
+
+
+# ============================================================
+# 16. LINEUP-BASED ATTACK SCORE ADJUSTMENT
+# ============================================================
+
+def compute_lineup_attack_score(players_df: pd.DataFrame, team: str,
+                                lineup_data: dict = None,
+                                match_num: int = None) -> float:
+    """
+    Compute attack score based on CONFIRMED starting XI instead of full squad top-3.
+
+    When lineups are available (~1h before kickoff), this replaces the generic
+    compute_attack_score() which uses the best 3 players from the entire squad.
+
+    If no lineup available, falls back to the standard squad-based attack_score.
+    """
+    # Fallback to standard attack score if no lineup data
+    if not lineup_data or not match_num:
+        return compute_attack_score(players_df, team)
+
+    match_key = str(match_num)
+    match_lineups = lineup_data.get("lineups", {}).get(match_key)
+    if not match_lineups or match_lineups.get("status") != "confirmed":
+        return compute_attack_score(players_df, team)
+
+    # Determine which side (home/away) this team is
+    is_home = match_lineups.get("home") == team
+    side_key = "home_lineup" if is_home else "away_lineup"
+    lineup = match_lineups.get(side_key, {})
+
+    starting_xi = lineup.get("starting_xi", [])
+    if not starting_xi or len(starting_xi) < 7:  # Need at least 7 names
+        return compute_attack_score(players_df, team)
+
+    # Match starting XI names against player database
+    player_names = [p.get("name", "") for p in starting_xi]
+
+    squad = players_df[players_df["nation"] == team]
+    matched_players = squad[squad["player_name"].isin(player_names)]
+
+    if len(matched_players) < 3:
+        # Not enough players matched — fall back to squad-based
+        return compute_attack_score(players_df, team)
+
+    # Compute attack score from matched starting XI players
+    t = matched_players.copy()
+    t["goals_2025_26"] = pd.to_numeric(t["goals_2025_26"], errors="coerce").fillna(0)
+    t["assists_2025_26"] = pd.to_numeric(t["assists_2025_26"], errors="coerce").fillna(0)
+    t["g_a"] = t["goals_2025_26"] + t["assists_2025_26"]
+    t["rating_2526"] = pd.to_numeric(t["rating_2526"], errors="coerce").fillna(6.5)
+
+    top3 = t.nlargest(3, "g_a")
+
+    score = 0.0
+    weights = [0.5, 0.3, 0.2]
+    for i, (_, row) in enumerate(top3.iterrows()):
+        if i >= len(weights):
+            break
+        lf = league_factor(row.get("league", ""))
+        rating = row.get("rating_2526") or 6.5
+        score += row["g_a"] * lf * (rating / 7.0) * weights[i]
+
+    return round(score, 2)
+
+
+# ============================================================
 # 15. BRIER SCORE CALIBRATION
 # ============================================================
 
@@ -1465,36 +1658,52 @@ def compute_news_sentiment(team: str) -> float:
 
 def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
                           nation: str, betting_data: dict = None,
-                          sponsors_data: dict = None) -> dict:
+                          sponsors_data: dict = None,
+                          injuries_data: dict = None,
+                          lineups_data: dict = None,
+                          match_num: int = None) -> dict:
     """
-    Compute comprehensive team power with all 5 factors integrated.
+    Compute comprehensive team power with all factors integrated.
 
-    V3 Weights (calibrated for ~0-22 combined scale):
-      elo_strength  × 0.30   (~28% — dynamic Elo from intl match history)
-      attack_score  × 0.40   (~35% — attacking talent, opponent-adjusted)
-      form_trend    × 4.0    (~5-8% — form momentum)
-      market_power  × 0.10   (~8-12% — betting market wisdom)
-      sponsor_adj   × 0.04   (~2-4% — brand/sponsor effects)
-      news_sent     × 0.03   (~1-3% — real-time news sentiment)
-      coach_bonus   × 0.05   (~2-5% — manager tournament experience)
-      squad_depth   × 0.03   (~1-3% — bench strength & squad quality)
+    V4 Weights (calibrated for ~0-22 combined scale):
+      elo_strength    × 0.28   (~26% — dynamic Elo from intl match history)
+      attack_score    × 0.38   (~33% — attacking talent, opponent-adjusted)
+      form_trend      × 4.0    (~5-8% — form momentum)
+      market_power    × 0.10   (~8-12% — betting market wisdom)
+      sponsor_adj     × 0.04   (~2-4% — brand/sponsor effects)
+      news_sent       × 0.03   (~1-3% — real-time news sentiment)
+      coach_bonus     × 0.05   (~2-5% — manager tournament experience)
+      squad_depth     × 0.03   (~1-3% — bench strength & squad quality)
+      injury_penalty  × -0.15  (~-1-5% — player injuries/absences, NEGATIVE impact)
 
-    All new factors are optional (None → defaults to 0).
-    Original compute_team_power() remains available for comparison.
+    New in V4:
+      - injury_penalty: structured injury data reduces team power
+      - lineup-based attack: uses confirmed starting XI when available
     """
-    attack = compute_attack_score(players_df, nation)
+    # Use lineup-based attack score if available, otherwise squad-based
+    if lineups_data and match_num:
+        attack = compute_lineup_attack_score(players_df, nation, lineups_data, match_num)
+    else:
+        attack = compute_attack_score(players_df, nation)
+
     form = compute_form_bonus(players_df, nation)
 
     # NaN safety
     attack = attack if not np.isnan(attack) else 0.0
     form = form if not np.isnan(form) else 0.0
 
-    # New factors
+    # Core factors
     market_power = compute_market_power(betting_data, nation) if betting_data else 0.0
     sponsor_adj = compute_sponsor_factor(sponsors_data, nation) if sponsors_data else 0.0
     news_sent = compute_news_sentiment(nation)
     coach_bonus = compute_coach_bonus(nation)
     squad_depth = compute_squad_depth(players_df, nation)
+
+    # NEW: Injury penalty
+    if injuries_data:
+        injury_penalty = compute_injury_penalty(nation, injuries_data)
+    else:
+        injury_penalty = 0.0
 
     # Dynamic Elo (computed once, cached at module level)
     if not hasattr(compute_team_power_v2, "_elo_cache"):
@@ -1503,20 +1712,24 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
     elo_rating = compute_team_power_v2._elo_cache.get(nation, ELO_INITIAL)
     elo_str = elo_strength(elo_rating)
 
-    # Combined formula — V3 weights (8 factors)
-    combined = (elo_str * 0.30 +
-                attack * 0.40 +
+    # Combined formula — V4 weights (9 factors, including injury penalty)
+    combined = (elo_str * 0.28 +
+                attack * 0.38 +
                 form * 4.0 +
                 market_power * 0.10 +
                 sponsor_adj * 0.04 +
                 news_sent * 0.03 +
                 coach_bonus * 0.05 +
-                squad_depth * 0.03)
+                squad_depth * 0.03 -
+                injury_penalty * 0.15)
 
     # Count top-league players
     team = players_df[players_df["nation"] == nation]
     elite_players = sum(1 for _, r in team.iterrows()
                         if league_factor(r.get("league", "")) >= 0.80)
+
+    # Injury summary for display
+    injury_summary = get_team_injury_summary(nation, injuries_data) if injuries_data else {}
 
     return {
         "nation": nation,
@@ -1529,10 +1742,12 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
         "news_sentiment": round(news_sent, 3),
         "coach_bonus": round(coach_bonus, 2),
         "squad_depth": round(squad_depth, 2),
+        "injury_penalty": round(injury_penalty, 3),
+        "injury_summary": injury_summary,
         "combined": round(combined, 1),
         "elite_players": elite_players,
         "fifa_rank": int(elo_rating),
-        "version": "v3",
+        "version": "v4",
     }
 
 

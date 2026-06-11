@@ -1,0 +1,828 @@
+{
+  "_meta": {
+    "description": "2026 World Cup — Player Injuries & Availability Tracker",
+    "last_updated": "2026-06-11T15:52:43.649297",
+    "sources": [
+      "ESPN",
+      "BBC Sport",
+      "Sky Sports",
+      "FotMob",
+      "Transfermarkt",
+      "Official Team Announcements"
+    ],
+    "status_levels": {
+      "out": "Ruled out of tournament or match — will not play",
+      "doubtful": "Unlikely to play — fitness test pending, <50% chance",
+      "questionable": "May play — recovering, 50-75% chance",
+      "probable": "Expected to play — minor issue, >75% chance",
+      "fit": "Fully fit and available"
+    },
+    "severity_impact": {
+      "critical": "Star player / captain — massive team impact (5-10% power reduction)",
+      "major": "Key starter — significant impact (3-5% power reduction)",
+      "moderate": "Rotation player — moderate impact (1-3% power reduction)",
+      "minor": "Bench/depth player — minimal impact (<1% power reduction)"
+    }
+  },
+  "injuries": [
+    {
+      "player": "Rodrygo",
+      "nation": "Brazil",
+      "position": "FW",
+      "status": "out",
+      "injury_type": "Torn ACL + meniscus (right knee)",
+      "since": "2026-03-15",
+      "expected_return": null,
+      "severity": "critical",
+      "notes": "Out for rest of 2026. Real Madrid star — 12G+8A in 2025-26.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Éder Militão",
+      "nation": "Brazil",
+      "position": "DF",
+      "status": "out",
+      "injury_type": "Torn hamstring (surgery required)",
+      "since": "2026-04-01",
+      "expected_return": null,
+      "severity": "major",
+      "notes": "Brazil's best CB. Huge defensive loss.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Estêvão",
+      "nation": "Brazil",
+      "position": "FW",
+      "status": "out",
+      "injury_type": "Torn hamstring",
+      "since": "2026-05-01",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Chelsea wonderkid. Left off preliminary squad.",
+      "source": "BBC Sport"
+    },
+    {
+      "player": "Wesley",
+      "nation": "Brazil",
+      "position": "DF",
+      "status": "out",
+      "injury_type": "Thigh muscle / adductor",
+      "since": "2026-06-05",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Injured in friendly vs Egypt. Replaced by Ederson (Atalanta).",
+      "source": "BBC Sport"
+    },
+    {
+      "player": "Neymar",
+      "nation": "Brazil",
+      "position": "FW",
+      "status": "doubtful",
+      "injury_type": "Calf strain (Grade 2)",
+      "since": "2026-05-17",
+      "expected_return": "2026-06-18",
+      "severity": "critical",
+      "notes": "In squad. Expected to resume training. May miss opener vs Morocco (June 13).",
+      "source": "ESPN"
+    },
+    {
+      "player": "Hugo Ekitiké",
+      "nation": "France",
+      "position": "FW",
+      "status": "out",
+      "injury_type": "Torn Achilles tendon",
+      "since": "2026-04-15",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Replaced by Jean-Philippe Mateta. Liverpool striker.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Fermín López",
+      "nation": "Spain",
+      "position": "MF",
+      "status": "out",
+      "injury_type": "Metatarsal fracture (5th metatarsal)",
+      "since": "2026-05-17",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Barcelona midfielder. Surgery required.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Samu Aghehowa",
+      "nation": "Spain",
+      "position": "FW",
+      "status": "out",
+      "injury_type": "Torn ACL",
+      "since": "2026-04-01",
+      "expected_return": null,
+      "severity": "minor",
+      "notes": "Porto striker. Not a key starter for Spain.",
+      "source": "Transfermarkt"
+    },
+    {
+      "player": "Lamine Yamal",
+      "nation": "Spain",
+      "position": "FW",
+      "status": "probable",
+      "injury_type": "Partially torn hamstring (recovering)",
+      "since": "2026-04-10",
+      "expected_return": "2026-06-15",
+      "severity": "critical",
+      "notes": "Coach says he could play vs Cape Verde (June 15). Minutes may be managed. 18G+22A this season.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Mikel Merino",
+      "nation": "Spain",
+      "position": "MF",
+      "status": "doubtful",
+      "injury_type": "Stress fracture (foot)",
+      "since": "2026-02-15",
+      "expected_return": "2026-06-15",
+      "severity": "major",
+      "notes": "Arsenal midfielder. Targeting UCL final to prove fitness. Key starter.",
+      "source": "Sky Sports"
+    },
+    {
+      "player": "Xavi Simons",
+      "nation": "Netherlands",
+      "position": "MF",
+      "status": "out",
+      "injury_type": "Torn ACL",
+      "since": "2026-04-01",
+      "expected_return": null,
+      "severity": "critical",
+      "notes": "Tottenham star. One of Netherlands' most creative players. Massive loss.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Matthijs de Ligt",
+      "nation": "Netherlands",
+      "position": "DF",
+      "status": "out",
+      "injury_type": "Chronic back issue + surgery",
+      "since": "2026-03-01",
+      "expected_return": null,
+      "severity": "major",
+      "notes": "Man United CB. Long-standing back problem.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Jerdy Schouten",
+      "nation": "Netherlands",
+      "position": "MF",
+      "status": "out",
+      "injury_type": "Torn ACL",
+      "since": "2026-05-01",
+      "expected_return": null,
+      "severity": "major",
+      "notes": "PSV midfielder. Defensive midfield anchor.",
+      "source": "BBC Sport"
+    },
+    {
+      "player": "Jurriën Timber",
+      "nation": "Netherlands",
+      "position": "DF",
+      "status": "out",
+      "injury_type": "Groin injury",
+      "since": "2026-05-20",
+      "expected_return": null,
+      "severity": "major",
+      "notes": "Arsenal defender. Initially in squad, replaced by Lutsharel Geertruida after fitness test.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Serge Gnabry",
+      "nation": "Germany",
+      "position": "FW",
+      "status": "out",
+      "injury_type": "Torn adductor",
+      "since": "2026-04-15",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Bayern Munich winger. Not selected due to injury.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Marc-André ter Stegen",
+      "nation": "Germany",
+      "position": "GK",
+      "status": "out",
+      "injury_type": "Torn thigh muscle",
+      "since": "2026-05-01",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Barcelona/Girona GK. Not selected. Germany's GK depth still strong.",
+      "source": "Sky Sports"
+    },
+    {
+      "player": "Lennart Karl",
+      "nation": "Germany",
+      "position": "MF",
+      "status": "out",
+      "injury_type": "Torn thigh muscle (training)",
+      "since": "2026-06-05",
+      "expected_return": null,
+      "severity": "minor",
+      "notes": "Bayern Munich 18yo talent. Replaced by Assan Ouédraogo (RB Leipzig).",
+      "source": "ESPN"
+    },
+    {
+      "player": "Kaoru Mitoma",
+      "nation": "Japan",
+      "position": "FW",
+      "status": "out",
+      "injury_type": "Torn hamstring",
+      "since": "2026-04-01",
+      "expected_return": null,
+      "severity": "critical",
+      "notes": "Brighton star. Japan's best attacker. Not selected — medical team assessed no recovery in time.",
+      "source": "BBC Sport"
+    },
+    {
+      "player": "Takumi Minamino",
+      "nation": "Japan",
+      "position": "FW",
+      "status": "out",
+      "injury_type": "Torn ACL",
+      "since": "2025-12-15",
+      "expected_return": null,
+      "severity": "major",
+      "notes": "Monaco forward. Failed to convince selectors of fitness.",
+      "source": "BBC Sport"
+    },
+    {
+      "player": "Mohammed Kudus",
+      "nation": "Ghana",
+      "position": "FW",
+      "status": "doubtful",
+      "injury_type": "Quadriceps + hamstring setback",
+      "since": "2026-05-20",
+      "expected_return": null,
+      "severity": "critical",
+      "notes": "Tottenham star. Ghana's best player. Would be huge blow if misses out.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Billy Gilmour",
+      "nation": "Scotland",
+      "position": "MF",
+      "status": "out",
+      "injury_type": "Knee injury (friendly vs Curaçao)",
+      "since": "2026-06-05",
+      "expected_return": null,
+      "severity": "major",
+      "notes": "Napoli midfielder. Replaced by teenager Tyler Fletcher.",
+      "source": "Sky Sports"
+    },
+    {
+      "player": "Leonardo Balerdi",
+      "nation": "Argentina",
+      "position": "DF",
+      "status": "out",
+      "injury_type": "Muscle injury (right calf — training)",
+      "since": "2026-06-05",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Marseille defender. Ruled out of tournament.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Cristian Romero",
+      "nation": "Argentina",
+      "position": "DF",
+      "status": "doubtful",
+      "injury_type": "Partially torn MCL",
+      "since": "2026-05-20",
+      "expected_return": "2026-06-20",
+      "severity": "critical",
+      "notes": "Tottenham CB. Argentina's best defender. Racing to be fit. Tournament in jeopardy.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Nahuel Molina",
+      "nation": "Argentina",
+      "position": "DF",
+      "status": "doubtful",
+      "injury_type": "Thigh injury",
+      "since": "2026-05-25",
+      "expected_return": "2026-06-25",
+      "severity": "major",
+      "notes": "Expected to miss 2-3 weeks. Key RB for Argentina.",
+      "source": "Sky Sports"
+    },
+    {
+      "player": "Gonzalo Montiel",
+      "nation": "Argentina",
+      "position": "DF",
+      "status": "doubtful",
+      "injury_type": "Quadriceps",
+      "since": "2026-06-01",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Fitness doubt. 2022 WC final penalty hero.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Leandro Paredes",
+      "nation": "Argentina",
+      "position": "MF",
+      "status": "doubtful",
+      "injury_type": "Hamstring",
+      "since": "2026-06-01",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Fitness doubt for tournament start.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Lionel Messi",
+      "nation": "Argentina",
+      "position": "FW",
+      "status": "probable",
+      "injury_type": "Hamstring (mild strain / muscle fatigue)",
+      "since": "2026-06-05",
+      "expected_return": "2026-06-16",
+      "severity": "critical",
+      "notes": "Didn't play final friendly vs Honduras. Expected available for opener vs Algeria (June 16). Being carefully managed.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Johnny Cardoso",
+      "nation": "United States",
+      "position": "MF",
+      "status": "out",
+      "injury_type": "High-grade ankle sprain (surgery required)",
+      "since": "2026-05-01",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Atlético Madrid midfielder. Replaced by Alejandro Zendejas.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Patrick Agyemang",
+      "nation": "United States",
+      "position": "FW",
+      "status": "out",
+      "injury_type": "Torn Achilles",
+      "since": "2026-04-01",
+      "expected_return": null,
+      "severity": "minor",
+      "notes": "Depth striker. Not a key loss.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Chris Richards",
+      "nation": "United States",
+      "position": "DF",
+      "status": "probable",
+      "injury_type": "Sprained ankle",
+      "since": "2026-06-01",
+      "expected_return": "2026-06-12",
+      "severity": "major",
+      "notes": "USMNT defender. Missed final friendly but says 'ready' for opener vs Paraguay (June 12).",
+      "source": "ESPN"
+    },
+    {
+      "player": "Marcelo Flores",
+      "nation": "Canada",
+      "position": "FW",
+      "status": "out",
+      "injury_type": "Torn ACL (Concacaf Champions Cup final)",
+      "since": "2026-05-15",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Tigres winger. Major loss for Canada's attack depth.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Moïse Bombito",
+      "nation": "Canada",
+      "position": "DF",
+      "status": "out",
+      "injury_type": "Fractured tibia",
+      "since": "2026-05-20",
+      "expected_return": null,
+      "severity": "major",
+      "notes": "Expected to be replaced by Luc de Fougerolles.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Alphonso Davies",
+      "nation": "Canada",
+      "position": "DF",
+      "status": "doubtful",
+      "injury_type": "Hamstring",
+      "since": "2026-06-01",
+      "expected_return": "2026-06-18",
+      "severity": "critical",
+      "notes": "Canada's best player. Ruled out of opener vs Bosnia. Unclear if available for any group stage match.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Christoph Baumgartner",
+      "nation": "Austria",
+      "position": "MF",
+      "status": "out",
+      "injury_type": "Thigh injury (pre-match warmup)",
+      "since": "2026-06-05",
+      "expected_return": null,
+      "severity": "major",
+      "notes": "No replacement called. Key midfielder for Austria.",
+      "source": "Sky Sports"
+    },
+    {
+      "player": "Lewis Miller",
+      "nation": "Australia",
+      "position": "DF",
+      "status": "out",
+      "injury_type": "Torn Achilles",
+      "since": "2026-02-15",
+      "expected_return": null,
+      "severity": "minor",
+      "notes": "Blackburn defender. Depth player.",
+      "source": "BBC Sport"
+    },
+    {
+      "player": "Ahmed Yahya",
+      "nation": "Iraq",
+      "position": "MF",
+      "status": "out",
+      "injury_type": "Hamstring injury",
+      "since": "2026-06-01",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Replaced by Ahmed Hassan Makenzie.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Julio Enciso",
+      "nation": "Paraguay",
+      "position": "FW",
+      "status": "doubtful",
+      "injury_type": "Hamstring / thigh",
+      "since": "2026-06-05",
+      "expected_return": "2026-06-25",
+      "severity": "critical",
+      "notes": "Brighton star. Stretchered off in tears in final friendly. Targeting return by June 25 (vs Australia). Paraguay's best player.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Giorgian de Arrascaeta",
+      "nation": "Uruguay",
+      "position": "MF",
+      "status": "doubtful",
+      "injury_type": "Calf",
+      "since": "2026-06-01",
+      "expected_return": "2026-06-20",
+      "severity": "major",
+      "notes": "Will miss opener. Kept in squad in hopes he can contribute later.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Jose Giménez",
+      "nation": "Uruguay",
+      "position": "DF",
+      "status": "doubtful",
+      "injury_type": "Severe ankle sprain",
+      "since": "2026-05-25",
+      "expected_return": null,
+      "severity": "critical",
+      "notes": "Major doubt. Atlético Madrid CB. Uruguay's defensive leader.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Tino Livramento",
+      "nation": "England",
+      "position": "DF",
+      "status": "doubtful",
+      "injury_type": "Thigh",
+      "since": "2026-05-15",
+      "expected_return": null,
+      "severity": "moderate",
+      "notes": "Season ended early. In doubt for tournament.",
+      "source": "BBC Sport"
+    },
+    {
+      "player": "Bukayo Saka",
+      "nation": "England",
+      "position": "FW",
+      "status": "probable",
+      "injury_type": "Achilles (managed workload)",
+      "since": "2026-05-20",
+      "expected_return": "2026-06-17",
+      "severity": "critical",
+      "notes": "Expected to play but hasn't trained on consecutive days. Workload being managed.",
+      "source": "ESPN"
+    },
+    {
+      "player": "Abde Ezzalzouli",
+      "nation": "Morocco",
+      "position": "FW",
+      "status": "doubtful",
+      "injury_type": "Knee",
+      "since": "2026-06-01",
+      "expected_return": null,
+      "severity": "major",
+      "notes": "Expected to miss at least the opener vs Brazil (June 13).",
+      "source": "ESPN"
+    }
+  ],
+  "team_summary": {
+    "Brazil": {
+      "out": 4,
+      "doubtful": 1,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [
+        "Rodrygo"
+      ],
+      "critical_doubtful": [
+        "Neymar"
+      ],
+      "critical_probable": [],
+      "major_out": [
+        "Éder Militão"
+      ],
+      "major_doubtful": [],
+      "moderate_out": [
+        "Estêvão",
+        "Wesley"
+      ]
+    },
+    "France": {
+      "out": 1,
+      "doubtful": 0,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [],
+      "major_doubtful": [],
+      "moderate_out": [
+        "Hugo Ekitiké"
+      ]
+    },
+    "Spain": {
+      "out": 2,
+      "doubtful": 1,
+      "questionable": 0,
+      "probable": 1,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [
+        "Lamine Yamal"
+      ],
+      "major_out": [],
+      "major_doubtful": [
+        "Mikel Merino"
+      ],
+      "moderate_out": [
+        "Fermín López"
+      ]
+    },
+    "Netherlands": {
+      "out": 4,
+      "doubtful": 0,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [
+        "Xavi Simons"
+      ],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [
+        "Matthijs de Ligt",
+        "Jerdy Schouten",
+        "Jurriën Timber"
+      ],
+      "major_doubtful": [],
+      "moderate_out": []
+    },
+    "Germany": {
+      "out": 3,
+      "doubtful": 0,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [],
+      "major_doubtful": [],
+      "moderate_out": [
+        "Serge Gnabry",
+        "Marc-André ter Stegen"
+      ]
+    },
+    "Japan": {
+      "out": 2,
+      "doubtful": 0,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [
+        "Kaoru Mitoma"
+      ],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [
+        "Takumi Minamino"
+      ],
+      "major_doubtful": [],
+      "moderate_out": []
+    },
+    "Ghana": {
+      "out": 0,
+      "doubtful": 1,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [
+        "Mohammed Kudus"
+      ],
+      "critical_probable": [],
+      "major_out": [],
+      "major_doubtful": [],
+      "moderate_out": []
+    },
+    "Scotland": {
+      "out": 1,
+      "doubtful": 0,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [
+        "Billy Gilmour"
+      ],
+      "major_doubtful": [],
+      "moderate_out": []
+    },
+    "Argentina": {
+      "out": 1,
+      "doubtful": 4,
+      "questionable": 0,
+      "probable": 1,
+      "critical_out": [],
+      "critical_doubtful": [
+        "Cristian Romero"
+      ],
+      "critical_probable": [
+        "Lionel Messi"
+      ],
+      "major_out": [],
+      "major_doubtful": [
+        "Nahuel Molina"
+      ],
+      "moderate_out": [
+        "Leonardo Balerdi"
+      ]
+    },
+    "United States": {
+      "out": 2,
+      "doubtful": 0,
+      "questionable": 0,
+      "probable": 1,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [],
+      "major_doubtful": [],
+      "moderate_out": [
+        "Johnny Cardoso"
+      ]
+    },
+    "Canada": {
+      "out": 2,
+      "doubtful": 1,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [
+        "Alphonso Davies"
+      ],
+      "critical_probable": [],
+      "major_out": [
+        "Moïse Bombito"
+      ],
+      "major_doubtful": [],
+      "moderate_out": [
+        "Marcelo Flores"
+      ]
+    },
+    "Austria": {
+      "out": 1,
+      "doubtful": 0,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [
+        "Christoph Baumgartner"
+      ],
+      "major_doubtful": [],
+      "moderate_out": []
+    },
+    "Australia": {
+      "out": 1,
+      "doubtful": 0,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [],
+      "major_doubtful": [],
+      "moderate_out": []
+    },
+    "Iraq": {
+      "out": 1,
+      "doubtful": 0,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [],
+      "major_doubtful": [],
+      "moderate_out": [
+        "Ahmed Yahya"
+      ]
+    },
+    "Paraguay": {
+      "out": 0,
+      "doubtful": 1,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [
+        "Julio Enciso"
+      ],
+      "critical_probable": [],
+      "major_out": [],
+      "major_doubtful": [],
+      "moderate_out": []
+    },
+    "Uruguay": {
+      "out": 0,
+      "doubtful": 2,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [
+        "Jose Giménez"
+      ],
+      "critical_probable": [],
+      "major_out": [],
+      "major_doubtful": [
+        "Giorgian de Arrascaeta"
+      ],
+      "moderate_out": []
+    },
+    "England": {
+      "out": 0,
+      "doubtful": 1,
+      "questionable": 0,
+      "probable": 1,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [
+        "Bukayo Saka"
+      ],
+      "major_out": [],
+      "major_doubtful": [],
+      "moderate_out": []
+    },
+    "Morocco": {
+      "out": 0,
+      "doubtful": 1,
+      "questionable": 0,
+      "probable": 0,
+      "critical_out": [],
+      "critical_doubtful": [],
+      "critical_probable": [],
+      "major_out": [],
+      "major_doubtful": [
+        "Abde Ezzalzouli"
+      ],
+      "moderate_out": []
+    }
+  },
+  "_news_injury_alerts": [
+    {
+      "title": "Richards 'ready' for USMNT opener after injury",
+      "nations": [
+        "United States",
+        "Paraguay"
+      ],
+      "source": "ESPN FC",
+      "url": "https://www.espn.com/soccer/story/_/id/49020900/usa-chris-richards-injury-world-cup-2026-paraguay",
+      "summary": "USMNT defender Chris Richards says his recovery from a sprained ankle has progressed to the point where he's \"ready\" to face Paraguay in the team's World Cup opener on Friday.",
+      "published": "Thu, 11 Jun 2026 03:05:00 EST"
+    }
+  ]
+}

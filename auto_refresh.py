@@ -62,6 +62,42 @@ def refresh_news():
         print(f"  [WARN] news_feed: {e}")
 
 
+def refresh_injuries():
+    """Run injury_fetcher.py to update injury data."""
+    try:
+        import subprocess
+        result = subprocess.run(
+            ["python", "injury_fetcher.py", "--quick"],
+            cwd=Path(__file__).parent, capture_output=True, text=True, timeout=120
+        )
+        if result.returncode == 0:
+            with open(DATA_DIR / "injuries.json", "r", encoding="utf-8") as f:
+                n = len(json.load(f).get("injuries", []))
+            print(f"  [OK] injuries.json ({n} injuries)")
+        else:
+            print(f"  [WARN] injuries: {result.stderr.strip()[:100]}")
+    except Exception as e:
+        print(f"  [WARN] injuries: {e}")
+
+
+def refresh_lineups():
+    """Run lineup_fetcher.py to update starting XIs."""
+    try:
+        import subprocess
+        result = subprocess.run(
+            ["python", "lineup_fetcher.py"],
+            cwd=Path(__file__).parent, capture_output=True, text=True, timeout=120
+        )
+        if result.returncode == 0:
+            with open(DATA_DIR / "lineups.json", "r", encoding="utf-8") as f:
+                n = sum(1 for m in json.load(f).get("lineups", {}).values() if m.get("status") == "confirmed")
+            print(f"  [OK] lineups.json ({n} confirmed)")
+        else:
+            print(f"  [WARN] lineups: {result.stderr.strip()[:100]}")
+    except Exception as e:
+        print(f"  [WARN] lineups: {e}")
+
+
 def run_tournament_simulation():
     """Re-run full 5000-simulation Monte Carlo tournament."""
     try:
@@ -145,24 +181,28 @@ if __name__ == "__main__":
     print(f"  Mode: {'quick (no sim)' if quick else 'full'}")
     print(f"{'='*55}")
 
-    print("\n[1/4] Odds & Betfair")
+    print("\n[1/6] Odds & Betfair")
     refresh_live_odds()
     refresh_betfair_index()
 
-    print("\n[2/4] News Feed")
+    print("\n[2/6] News Feed")
     refresh_news()
 
+    print("\n[3/6] Injuries & Lineups")
+    refresh_injuries()
+    refresh_lineups()
+
     if not quick:
-        print("\n[3/4] Tournament Simulation")
+        print("\n[4/6] Tournament Simulation")
         run_tournament_simulation()
     else:
-        print("\n[3/4] Tournament Simulation  [SKIP]")
+        print("\n[4/6] Tournament Simulation  [SKIP]")
 
-    print("\n[4/4] Merge all_data.json")
+    print("\n[5/6] Merge all_data.json")
     merge_all_data()
 
     if do_deploy:
-        print("\n[5/4] Deploy to Vercel")
+        print("\n[6/6] Deploy to Vercel")
         deploy()
         print(f"\n  ▶ https://world-cup-model.vercel.app")
 

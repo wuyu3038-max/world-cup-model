@@ -20,6 +20,7 @@ from model import (
     load_players_from_json, load_fifa_rankings, load_betting_odds,
     load_sponsors, load_environment, load_match_schedule,
     load_betfair_index, load_news_feed, load_head_to_head,
+    load_injuries, load_lineups,
     compute_team_power, compute_team_power_v2,
     build_venue_lookup, compute_env_factor,
     simulate_match, compute_elo_ratings, update_elo, ELO_INITIAL,
@@ -278,7 +279,9 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000,
                         sponsors_data: dict = None, environment_data: dict = None,
                         schedule_data: dict = None,
                         betfair_data: dict = None, news_data: dict = None,
-                        h2h_data: dict = None):
+                        h2h_data: dict = None,
+                        injuries_data: dict = None,
+                        lineups_data: dict = None):
     """Run N complete tournament simulations and return all probabilities."""
     # Pre-compute team powers + dynamic Elo
     all_teams = []
@@ -293,7 +296,9 @@ def simulate_tournament(players_df, fifa_ranks: dict, n_sims: int = 5000,
         if use_v2:
             tp = compute_team_power_v2(players_df, fifa_ranks, team,
                                        betting_data=betting_data,
-                                       sponsors_data=sponsors_data)
+                                       sponsors_data=sponsors_data,
+                                       injuries_data=injuries_data,
+                                       lineups_data=lineups_data)
         else:
             tp = compute_team_power(players_df, fifa_ranks, team)
         p = tp["combined"]
@@ -521,6 +526,8 @@ if __name__ == "__main__":
     betfair_data = load_betfair_index() if use_v2 else None
     news_data = load_news_feed() if use_v2 else None
     h2h_data = load_head_to_head() if use_v2 else None
+    injuries_data = load_injuries() if use_v2 else None
+    lineups_data = load_lineups() if use_v2 else None
 
     if use_v2:
         factors = ["Market odds", "Sponsors", "Environment"]
@@ -531,6 +538,12 @@ if __name__ == "__main__":
         if h2h_data:
             h2h_count = len(h2h_data.get("head_to_head", {}))
             factors.append(f"H2H ({h2h_count} pairs)")
+        if injuries_data:
+            n_injuries = len(injuries_data.get("injuries", []))
+            factors.append(f"Injuries ({n_injuries} players)")
+        if lineups_data:
+            n_lineups = sum(1 for m in lineups_data.get("lineups", {}).values() if m.get("status") == "confirmed")
+            factors.append(f"Lineups ({n_lineups} matches)")
         print(f"  [V2] {', '.join(factors)} enabled")
 
     results = simulate_tournament(players, fifa_ranks, n_sims=n_sims,
@@ -541,7 +554,9 @@ if __name__ == "__main__":
                                   schedule_data=schedule_data,
                                   betfair_data=betfair_data,
                                   news_data=news_data,
-                                  h2h_data=h2h_data)
+                                  h2h_data=h2h_data,
+                                  injuries_data=injuries_data,
+                                  lineups_data=lineups_data)
     print_results(results)
 
     export_results(results, DATA_DIR / "tournament_results.json")

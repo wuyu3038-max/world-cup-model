@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-11T13:53:14.713275",
-  "total_articles": 20,
+  "updated": "2026-06-11T15:52:43.478758",
+  "total_articles": 33,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 15,
-    "bbc_sport": 0,
-    "sky_sports": 5,
+    "espn_fc": 12,
+    "bbc_sport": 12,
+    "sky_sports": 9,
     "goal_com": 0
   },
   "articles": [
@@ -13,25 +13,16 @@
       "id": "8fecd8de876a",
       "title": "World Cup predictions: 19 ESPN experts make their ...",
       "url": "https://www.espn.com/soccer/story/_/id/49011009/world-cup-2026-bold-predictions-winners-awards-golden-ball-breakout-stars-best-matches",
-      "published_at": "Thu, 11 Jun 2026 00:51:22 EST",
+      "published_at": "Thu, 11 Jun 2026 03:49:03 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The World Cup has arrived! It's time for ESPN's experts to make their picks for silverware, surprise results and everything in between."
     },
     {
-      "id": "a250e711a6a9",
-      "title": "World Cup Daily:  Live updates as Mexico prepare f...",
-      "url": "https://www.espn.com/soccer/story/_/id/49012679/world-cup-daily-one-day-go-mexico-prepare-opener",
-      "published_at": "Thu, 11 Jun 2026 00:51:22 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Re-live all of Wednesday's pre-tournament action as the world prepares to tune in to Mexico vs. South Africa in the World Cup opener."
-    },
-    {
       "id": "65d11457ce59",
       "title": "FIFA prez: People should 'chill' over WC visa issu...",
       "url": "https://www.espn.com/soccer/story/_/id/49021490/fifa-president-gianni-infantino-world-cup-visa-usa-ticket-prices",
-      "published_at": "Thu, 11 Jun 2026 00:05:42 EST",
+      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "FIFA president Gianni Infantino said the organization cannot dictate to the U.S. government who to allow into its country for the World Cup, saying that sometimes it is better to \"chill and relax\" ove"
@@ -40,7 +31,7 @@
       "id": "167259fbf7d8",
       "title": "Spain, France open World Cup as betting favorites",
       "url": "https://www.espn.com/soccer/story/_/id/49025269/spain-france-lead-world-cup-odds-usa-bettors-back-home-team",
-      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
+      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "France and Spain are the betting favorites to win the 2026 World Cup, while heavy backing for Team USA is creating massive liabilities for sportsbooks."
@@ -49,7 +40,7 @@
       "id": "9ffa8c7986bd",
       "title": "Richards 'ready' for USMNT opener after injury",
       "url": "https://www.espn.com/soccer/story/_/id/49020900/usa-chris-richards-injury-world-cup-2026-paraguay",
-      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
+      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "USMNT defender Chris Richards says his recovery from a sprained ankle has progressed to the point where he's \"ready\" to face Paraguay in the team's World Cup opener on Friday."
@@ -58,7 +49,7 @@
       "id": "38af6f49f7fa",
       "title": "Tuchel: England ready to 'come alive' at World Cup...",
       "url": "https://www.espn.com/soccer/story/_/id/49023366/tuchel-england-ready-come-alive-world-cup-dominant-win",
-      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
+      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "England coach Thomas Tuchel said after his team's dominant win over Costa Rica on Wednesday that the Three Lions are starting to \"click\" into gear ahead of the World Cup."
@@ -67,7 +58,7 @@
       "id": "b4184ac2725b",
       "title": "Fourth World Cup still has Son 'feeling like a kid...",
       "url": "https://www.espn.com/soccer/story/_/id/49023594/fourth-fifa-world-cup-south-korea-captain-son-heung-min-feeling-kid",
-      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
+      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "South Korea captain Son Heung-min says he feels like a \"kid\" as he enters his fourth World Cup, where he will debut against the Czech Republic in a Group A match in Guadalajara on Thursday."
@@ -76,46 +67,46 @@
       "id": "ef8e4f2fad96",
       "title": "📈 Ranking the 50 best players in the World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
+      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
     },
     {
-      "id": "b4efe9464f39",
-      "title": "USMNT World Cup bracket scenarios, odds to advance...",
-      "url": "https://www.espn.com/soccer/story/_/id/48953200/usmnt-usa-world-cup-scenarios-bracket-permutations-qualify-betting-odds-projections-predictions",
-      "published_at": "Wed, 10 Jun 2026 14:16:22 EST",
+      "id": "f7a0000a3125",
+      "title": "The World Cup of more: There's never been a tourna...",
+      "url": "https://www.espn.com/soccer/story/_/id/49020473/2026-fifa-world-cup-more-never-tournament-infantino-trump",
+      "published_at": "Thu, 11 Jun 2026 03:09:33 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "How can Team USA qualify for the World Cup knockout rounds? What's the likely path? What are the odds? What do projection models say?"
+      "summary": "Welcome to the 2026 World Cup, where everything is bigger and louder than ever before."
     },
     {
-      "id": "a21b8aa7d59a",
-      "title": "Five questions facing the USMNT as World Cup kicko...",
-      "url": "https://www.espn.com/soccer/story/_/id/49000751/5-questions-facing-usmnt-world-cup-kickoff-approaches",
-      "published_at": "Wed, 10 Jun 2026 14:16:22 EST",
+      "id": "a4ac0e03cbd8",
+      "title": "Six complaints about 2026 World Cup, and why it mi...",
+      "url": "https://www.espn.com/soccer/story/_/id/49021099/world-cup-2026-six-reasons-concern-six-counterarguments-gabriele-marcotti",
+      "published_at": "Thu, 11 Jun 2026 03:09:33 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "With the tournament just days away, ESPN answers the biggest questions facing the co-hosts."
+      "summary": "There are many fears swirling around the 2026 FIFA World Cup. Here are six issues, according to Gab Marcotti -- and six reasons why it still be a success."
+    },
+    {
+      "id": "e9e6ec8ccb11",
+      "title": "The U.S. is going to win the 2026 World Cup, and h...",
+      "url": "https://www.espn.com/soccer/story/_/id/49022498/13-stats-prove-usmnt-win-2026-world-cup-history-usa-champions",
+      "published_at": "Thu, 11 Jun 2026 03:07:30 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Think the U.S. isn't a World Cup favorite? Think again. Here are 13 stats that point to one conclusion: Team USA will win it all."
     },
     {
       "id": "10fdfcc6ead6",
       "title": "Mexico's Mora is poised to be World Cup's breakout...",
       "url": "https://www.espn.com/soccer/story/_/id/48999966/mexico-gilberto-mora-poised-world-cup-breakout-star-guy-different",
-      "published_at": "Wed, 10 Jun 2026 21:23:42 EST",
+      "published_at": "Thu, 11 Jun 2026 03:05:37 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Getting beyond the quarterfinals would be historic for Mexico. Lucky for El Tri, they have a 17-year-old who can't stop making history."
-    },
-    {
-      "id": "3e1e92c5d0bc",
-      "title": "Can South Korea overcome their poor World Cup open...",
-      "url": "https://www.espn.com/soccer/story/_/id/49013922/can-south-korea-overcome-their-poor-world-cup-opener-history",
-      "published_at": "Wed, 10 Jun 2026 21:23:43 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "On Thursday, South Korea will be looking to do what they haven't been able to since 2010 -- win their opener at the World Cup."
     },
     {
       "id": "9195a1764a8c",
@@ -127,22 +118,166 @@
       "summary": "Our reporters ranked the top 15 contenders for this summer's top prize as they see it right now."
     },
     {
-      "id": "34938a46959a",
-      "title": "Copy of Predicting how all 48 men's World Cup teams will d...",
-      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
-      "published_at": "Wed, 10 Jun 2026 10:59:13 EST",
-      "source": "ESPN FC",
+      "id": "4ec96f404929",
+      "title": "Infantino could have stood up for the World Cup - but he said 'chill, relax'",
+      "url": "https://www.bbc.com/sport/football/articles/cvgj40vymlyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 22:28:02 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Who will win the FIFA World Cup? Instead of predicting a final winner, we've picked every single result to show HOW our predicted winner will do it."
+      "summary": "Gianni Infantino faced the media for the first time in three years, but he did little to convince that Fifa has lost its grip on the organisation of the 2026 World Cup."
     },
     {
-      "id": "271bb978f167",
-      "title": "Copy of Simulating the men's World Cup: Who did EA Sports ...",
-      "url": "https://www.espn.com/soccer/story/_/id/48965907/simulating-world-cup-did-ea-predict-winners-how-did-usmnt-get-on",
-      "published_at": "Wed, 10 Jun 2026 10:59:13 EST",
-      "source": "ESPN FC",
+      "id": "22d827fcc859",
+      "title": "Messi, Maradona or Pele? Ranking the top 10 World Cup legends",
+      "url": "https://www.bbc.com/sport/football/articles/cgl34ne0g3eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 05:51:06 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "EA Sports has correctly predicted the winners for the past four World Cups. But who does it pick for 2026?"
+      "summary": "Who are the biggest World Cup legends of all time? From Pele to Lionel Messi, we attempt to name the top 10."
+    },
+    {
+      "id": "36df8ee33e79",
+      "title": "World Cup fever meets protest in Mexico City ",
+      "url": "https://www.bbc.com/sport/football/articles/cjrg4qxz7g4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 06:38:38 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "With Mexico City hosting the World Cup for an unprecedented third time, protesters are keen to use the platform to highlight their causes."
+    },
+    {
+      "id": "59d356739e17",
+      "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
+      "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 17:25:38 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup."
+    },
+    {
+      "id": "9004931d2403",
+      "title": "Who am I? Guess World Cup star No 4",
+      "url": "https://www.bbc.com/sport/football/articles/c4gv0g74656o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 05:45:44 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "679f045f61d1",
+      "title": "Follow World Cup 2026 with live lock screen updates on the BBC Sport app",
+      "url": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 13:28:47 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport has launched live match updates - bringing you your team's score directly to your phone lock screen."
+    },
+    {
+      "id": "e6dd431992a2",
+      "title": "Set up BBC Sport website and app to show you more Scotland this World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cdxp35lp7n5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 13:02:34 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "With Scotland at their first men's World Cup since 1998, BBC Sport is making it easier than ever to keep up with the national team's progress."
+    },
+    {
+      "id": "cbc509e4c224",
+      "title": "Play BBC Sport's new World Cup predictor game",
+      "url": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 08:24:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
+    },
+    {
+      "id": "ee4046030f73",
+      "title": "Who will win the World Cup? BBC pundits make their predictions",
+      "url": "https://www.bbc.com/sport/football/articles/cg7485gyxz9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 05:24:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Who will win, who might spring a surprise and how will England and Scotland do? BBC pundits predict what will happen at the 2026 World Cup."
+    },
+    {
+      "id": "9b890e0bbedc",
+      "title": "World Cup quiz: How well do you remember these opening games?",
+      "url": "https://www.bbc.com/sport/football/articles/c7v9l92pvqyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 21:24:55 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Test your knowledge of the past seven World Cup opening matches."
+    },
+    {
+      "id": "9f5abd07cead",
+      "title": "Haiti forced to alter kit design before World Cup opener",
+      "url": "https://www.bbc.com/sport/football/articles/clyrvpr5ywyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 21:58:21 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Haiti are forced to change their kit design just days before their World Cup opener against Scotland after the team shirt, depicting a war scene, fails to comply with Fifa rules."
+    },
+    {
+      "id": "9f2507f852f8",
+      "title": "'Have you lost control?' - BBC sports editor asks Fifa chief Infantino",
+      "url": "https://www.bbc.com/sport/football/videos/c9q2ldq4jn4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 20:59:00 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC sports editor Dan Roan quizzes Fifa president Gianni Infantino on the eve of the World Cup, after he told journalists to \"chill\" and \"relax\" over visa and ticketing issues."
+    },
+    {
+      "id": "f2945432fe40",
+      "title": "World Cup of Darts starts today! Who is playing and how does it work?",
+      "url": "https://www.skysports.com/darts/news/12040/13550719/world-cup-of-darts-2026-schedule-dates-group-stage-draw-as-luke-littler-and-luke-humphries-return-to-represent-england",
+      "published_at": "Tue, 09 Jun 2026 07:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "All you need to know about the BetVictor World Cup of Darts 2026 as No 1 Luke Littler joins forces with No 2 Luke Humphries to represent Team England."
+    },
+    {
+      "id": "bb7dd362e7b7",
+      "title": "'A huge moment' - Can England seize Women's T20 World Cup opportunity?",
+      "url": "https://www.skysports.com/cricket/news/12040/13551969/icc-womens-t20-world-cup-england-want-to-emulate-lionesses-and-inspire-more-women-and-girls-to-play-cricket-ahead-of-tournament",
+      "published_at": "Thu, 11 Jun 2026 08:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Women's cricket is on the rise. But this summer's ICC Women's T20 World Cup is set to bring even more eyes to the sport."
+    },
+    {
+      "id": "35598b78eedc",
+      "title": "'I got itchy feet' | Rice raring for World Cup after Arsenal's PL success",
+      "url": "https://www.skysports.com/watch/video/13552925/england-declan-rice-hungry-for-world-cup-after-arsenals-pl-glory",
+      "published_at": "Thu, 11 Jun 2026 07:11:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Declan Rice reacts to his first England match since lifting the Premier League with Arsenal and admits that it was hard to relax for too long on holiday with the World Cup around the corner. "
+    },
+    {
+      "id": "45f044bf8bc3",
+      "title": "World Cup of Darts: Meet the cult stars you MUST watch",
+      "url": "https://www.skysports.com/darts/news/12040/13551189/world-cup-of-darts-2026-players-to-watch-with-paul-lim-motomu-sakai-man-lok-leung-and-nitin-kumar-in-action",
+      "published_at": "Tue, 09 Jun 2026 07:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The World Cup of Darts is just around the corner and there will be some hidden gems taking part in Frankfurt from June 11-14, live on Sky Sports."
+    },
+    {
+      "id": "76eacef5e4e3",
+      "title": "'We want the next level' | Tuchel praises preparation as England eye World Cup",
+      "url": "https://www.skysports.com/watch/video/13552924/england-thomas-tuchel-praises-preparation-for-world-cup-but-demands-the-next-level",
+      "published_at": "Thu, 11 Jun 2026 07:10:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Thomas Tuchel reflects on England's final World Cup warm-up clash against Costa Rica and is in good spirits about the preparation made ahead of the tournament."
+    },
+    {
+      "id": "c34cc704c5b3",
+      "title": "Tuchel: England have 'set tone' for World Cup bid",
+      "url": "https://www.skysports.com/football/news/12040/13552929/thomas-tuchel-england-set-tone-for-world-cup-bid-in-convincing-costa-rica-win-says-three-lions-boss",
+      "published_at": "Thu, 11 Jun 2026 07:09:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England set the tone for their World Cup challenge  in their convincing 3-0 win over Costa Rica, according to boss Thomas Tuchel."
     },
     {
       "id": "7f687e0d8f53",
@@ -170,24 +305,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Declan Rice called it a \"top performance\" against Costa Rica. It left Thomas Tuchel \"very proud\". So are England now primed and ready to go on and win the World Cup?"
-    },
-    {
-      "id": "8c312b40ff93",
-      "title": "Williams' Queen's campaign in jeopardy after Mboko injury ",
-      "url": "https://www.skysports.com/tennis/news/12040/13552807/serena-williams-victoria-mboko-injury-puts-queens-club-doubles-campaign-in-jeopardy",
-      "published_at": "Wed, 10 Jun 2026 18:19:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Serena Williams' heroic return to tennis at the Queen's Club may be brought to a halt after her doubles partner Victoria Mboko retired from the singles tournament after suffering a knee injury."
-    },
-    {
-      "id": "f3671231fe81",
-      "title": "Gordon stars as England beat Costa Rica in final World Cup warm-up",
-      "url": "https://www.skysports.com/football/england-vs-costa-rica/report/553973",
-      "published_at": "Thu, 11 Jun 2026 00:13:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Anthony Gordon starred as England stepped up their World Cup preparations with a 3-0 win over Costa Rica in their final official friendly before the tournament."
     }
   ]
 }

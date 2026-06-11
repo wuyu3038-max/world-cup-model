@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "description": "2026 World Cup — Starting Lineups & Formations (per match)",
+    "last_updated": "2026-06-11T12:00:00",
+    "source": "FotMob / Sofascore / FIFA Official",
+    "note": "Lineups confirmed ~1 hour before kickoff. Data populated on match day.",
+    "total_matches": 104
+  },
+  "lineups": {
+    "1": {
+      "match": 1,
+      "date": "2026-06-11",
+      "group": "A",
+      "home": "Mexico",
+      "away": "South Africa",
+      "venue": "Estadio Azteca",
+      "status": "pending",
+      "home_lineup": {
+        "formation": null,
+        "starting_xi": [],
+        "bench": [],
+        "captain": null,
+        "confirmed": false
+      },
+      "away_lineup": {
+        "formation": null,
+        "starting_xi": [],
+        "bench": [],
+        "captain": null,
+        "confirmed": false
+      }
+    },
+    "2": {
+      "match": 2,
+      "date": "2026-06-11",
+      "group": "A",
+      "home": "South Korea",
+      "away": "Czech Republic",
+      "venue": "Estadio Akron",
+      "status": "pending",
+      "home_lineup": {"formation": null, "starting_xi": [], "bench": [], "captain": null, "confirmed": false},
+      "away_lineup": {"formation": null, "starting_xi": [], "bench": [], "captain": null, "confirmed": false}
+    },
+    "3": {
+      "match": 3,
+      "date": "2026-06-12",
+      "group": "B",
+      "home": "Canada",
+      "away": "Bosnia-Herzegovina",
+      "venue": "BMO Field",
+      "status": "pending",
+      "home_lineup": {"formation": null, "starting_xi": [], "bench": [], "captain": null, "confirmed": false},
+      "away_lineup": {"formation": null, "starting_xi": [], "bench": [], "captain": null, "confirmed": false}
+    },
+    "4": {
+      "match": 4,
+      "date": "2026-06-12",
+      "group": "D",
+      "home": "United States",
+      "away": "Paraguay",
+      "venue": "SoFi Stadium",
+      "status": "pending",
+      "home_lineup": {"formation": null, "starting_xi": [], "bench": [], "captain": null, "confirmed": false},
+      "away_lineup": {"formation": null, "starting_xi": [], "bench": [], "captain": null, "confirmed": false}
+    }
+  },
+  "team_defaults": {
+    "Spain": {"formation": "4-3-3", "captain": "Rodri"},
+    "France": {"formation": "4-3-3", "captain": "Kylian Mbappé"},
+    "England": {"formation": "3-4-2-1", "captain": "Harry Kane"},
+    "Brazil": {"formation": "4-2-3-1", "captain": "Neymar"},
+    "Germany": {"formation": "4-2-3-1", "captain": "Joshua Kimmich"},
+    "Argentina": {"formation": "4-3-3", "captain": "Lionel Messi"},
+    "Portugal": {"formation": "4-3-3", "captain": "Cristiano Ronaldo"},
+    "Netherlands": {"formation": "4-3-3", "captain": "Virgil van Dijk"},
+    "Belgium": {"formation": "4-2-3-1", "captain": "Kevin De Bruyne"},
+    "Uruguay": {"formation": "4-3-3", "captain": "Federico Valverde"},
+    "United States": {"formation": "4-2-3-1", "captain": "Christian Pulisic"},
+    "Mexico": {"formation": "4-3-3", "captain": "Guillermo Ochoa"},
+    "Croatia": {"formation": "4-3-3", "captain": "Luka Modrić"},
+    "Morocco": {"formation": "4-3-3", "captain": "Achraf Hakimi"},
+    "Japan": {"formation": "3-4-2-1", "captain": "Wataru Endo"},
+    "South Korea": {"formation": "4-4-2", "captain": "Son Heung-min"},
+    "Senegal": {"formation": "4-3-3", "captain": "Kalidou Koulibaly"},
+    "Colombia": {"formation": "4-2-3-1", "captain": "Luis Díaz"},
+    "Norway": {"formation": "4-3-3", "captain": "Martin Ødegaard"},
+    "Sweden": {"formation": "3-4-3", "captain": "Alexander Isak"},
+    "Egypt": {"formation": "4-3-3", "captain": "Mohamed Salah"},
+    "Canada": {"formation": "4-2-3-1", "captain": "Alphonso Davies"},
+    "Scotland": {"formation": "4-2-3-1", "captain": "Andrew Robertson"}
+  }
+}
