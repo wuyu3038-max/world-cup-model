@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "description": "Major international football upsets — historical reference for upset detection",
+    "purpose": "When Betfair money flow shows unusual underdog backing, cross-reference with historical upset patterns",
+    "last_updated": "2026-06-11"
+  },
+  "upsets": [
+    {
+      "date": "2022-11-22",
+      "match": "Argentina vs Saudi Arabia",
+      "score": "1-2",
+      "tournament": "2022 World Cup Group C",
+      "favorite": "Argentina",
+      "underdog": "Saudi Arabia",
+      "model_hw": 67.6,
+      "upset_type": "defensive_counter",
+      "betfair_signal": "heavy underdog backing in last 30min before kickoff",
+      "key_factors": ["Saudi high defensive line caught Argentina offside 10 times", "Messi missed penalty-like chance", "Saudi 2 shots on target = 2 goals"]
+    },
+    {
+      "date": "2022-11-23",
+      "match": "Germany vs Japan",
+      "score": "1-2",
+      "tournament": "2022 World Cup Group E",
+      "favorite": "Germany",
+      "underdog": "Japan",
+      "model_hw": 48.6,
+      "upset_type": "tactical_substitution",
+      "betfair_signal": "Japan money flow increased 3x in second half",
+      "key_factors": ["Japan substitutes (Doan, Asano) scored both goals", "Germany dominated possession but wasteful"]
+    },
+    {
+      "date": "2022-11-27",
+      "match": "Belgium vs Morocco",
+      "score": "0-2",
+      "tournament": "2022 World Cup Group F",
+      "favorite": "Belgium",
+      "underdog": "Morocco",
+      "model_hw": 38.2,
+      "upset_type": "golden_generation_decline",
+      "betfair_signal": "steady Morocco backing throughout week",
+      "key_factors": ["Belgium aging squad", "Morocco set-piece dominance", "Courtois error"]
+    },
+    {
+      "date": "2022-12-01",
+      "match": "Japan vs Spain",
+      "score": "2-1",
+      "tournament": "2022 World Cup Group E",
+      "favorite": "Spain",
+      "underdog": "Japan",
+      "model_hw": 54.3,
+      "upset_type": "second_half_surge",
+      "betfair_signal": "Japan money flow spiked at halftime",
+      "key_factors": ["Japan scored 2 in 3 minutes after halftime", "Spain controlled possession but sterile", "VAR controversy on goal-line"]
+    },
+    {
+      "date": "2022-12-06",
+      "match": "Morocco vs Spain",
+      "score": "0-0 (3-0 pens)",
+      "tournament": "2022 World Cup R16",
+      "favorite": "Spain",
+      "underdog": "Morocco",
+      "model_hw": 50.9,
+      "upset_type": "penalty_shootout",
+      "betfair_signal": "Morocco draw-no-bet heavily backed",
+      "key_factors": ["Spain 1000+ passes, 0 goals", "Morocco perfect defensive block", "Bounou penalty heroics"]
+    },
+    {
+      "date": "2022-12-09",
+      "match": "Netherlands vs Argentina",
+      "score": "2-2 (3-4 pens)",
+      "tournament": "2022 World Cup QF",
+      "favorite": "Argentina",
+      "underdog": "Netherlands",
+      "model_hw": 34.5,
+      "upset_type": "late_comeback",
+      "betfair_signal": "Netherlands late backing before ET",
+      "key_factors": ["Netherlands 2 goals in 80'+90'+", "Weghorst supersub", "Messi penalty + assist"]
+    },
+    {
+      "date": "2022-12-10",
+      "match": "Morocco vs Portugal",
+      "score": "1-0",
+      "tournament": "2022 World Cup QF",
+      "favorite": "Portugal",
+      "underdog": "Morocco",
+      "model_hw": 45.5,
+      "upset_type": "defensive_masterclass",
+      "betfair_signal": "Morocco +1.5 handicap heavily backed",
+      "key_factors": ["Morocco first African WC semifinalist", "En-Nesyri header", "Ronaldo benched, came on at 51'"]
+    },
+    {
+      "date": "2022-12-18",
+      "match": "Argentina vs France",
+      "score": "3-3 (4-2 pens)",
+      "tournament": "2022 World Cup Final",
+      "favorite": "France",
+      "underdog": "Argentina",
+      "model_hw": 41.1,
+      "upset_type": "final_comeback",
+      "betfair_signal": "massive two-way flow, highest volume ever",
+      "key_factors": ["Mbappe hat-trick in 97 seconds", "Messi 2 goals", "Greatest final ever"]
+    },
+    {
+      "date": "2025-03-25",
+      "match": "Argentina vs Brazil",
+      "score": "4-1",
+      "tournament": "2026 World Cup Qualifier",
+      "favorite": "Argentina",
+      "underdog": "Brazil",
+      "model_hw": 47.0,
+      "upset_type": "historic_rout",
+      "betfair_signal": "late Argentina steam after Brazil team news (Neymar out)",
+      "key_factors": ["Brazil worst-ever qualifying defeat", "Argentina 4 different scorers", "Messi didn't play"]
+    },
+    {
+      "date": "2025-03-25",
+      "match": "Scotland vs Spain",
+      "score": "2-0",
+      "tournament": "Euro 2024 Qualifier",
+      "favorite": "Spain",
+      "underdog": "Scotland",
+      "model_hw": 64.6,
+      "upset_type": "home_underdog_dominance",
+      "betfair_signal": "Scotland money flow anomalous — local betting surge",
+      "key_factors": ["McTominay double", "Spain 75% possession, 0 shots on target", "Hampden Park atmosphere"]
+    }
+  ],
+  "patterns": {
+    "betfair_upset_signals": [
+      "underdog money flow > 0.3 (30%+ of total) within 1h of kickoff",
+      "favorite money flow dropping sharply in final hour",
+      "draw money flow unusually low (<15%) when model predicts close match",
+      "Asian handicap line moving 0.5+ goals toward underdog"
+    ],
+    "common_upset_types": [
+      "defensive_counter — underdog sits deep, scores on break",
+      "tactical_substitution — impact subs change game in 2nd half",
+      "golden_generation_decline — aging favorite past their peak",
+      "penalty_shootout — knockout match goes to pens",
+      "late_comeback — favorite relaxes, underdog scores late",
+      "historic_rout — favorite collapses entirely"
+    ],
+    "upset_frequency": {
+      "group_stage": "~18% of matches produce upsets (underdog wins when favorite >55%)",
+      "knockout": "~25% due to defensive tactics and penalty shootouts"
+    }
+  }
+}

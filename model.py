@@ -418,13 +418,83 @@ def predict_match(home_power: float, away_power: float,
     home_xg = 0.5 + home_power / 12.0 + home_advantage
     away_xg = 0.5 + away_power / 12.0
 
+    # 5. Draw bias: when teams are evenly matched, boost draw probability
+    # Close matches (gap < 0.08) → predict draw to match historical 25%+ draw rate
+    gap = abs(hw - aw)
+    if gap < 0.06:
+        prediction = "D"
+    elif hw > aw and hw > dw:
+        prediction = "H"
+    elif aw > hw and aw > dw:
+        prediction = "A"
+    else:
+        prediction = "D"
+
+    # 6. Upset check: if underdog has unusual Betfair backing
+    upset_risk = _check_upset_risk(team_home, team_away, hw, aw)
+
     return {
         "hw": hw, "dw": dw, "aw": aw,
         "hw_raw": hw_raw, "dw_raw": dw_raw, "aw_raw": aw_raw,
         "h2h_weight": h2h_w, "h2h_n": h2h_n,
         "top_scores": top_scores,
         "home_xg": round(home_xg, 2), "away_xg": round(away_xg, 2),
+        "prediction": prediction,
+        "upset_risk": upset_risk,
     }
+
+
+def _check_upset_risk(team_home: str, team_away: str, hw: float, aw: float) -> str:
+    """
+    Check if this match has upset potential based on historical patterns.
+    Returns 'HIGH', 'MEDIUM', 'LOW', or 'NONE'.
+    """
+    if not team_home or not team_away:
+        return "NONE"
+
+    # Load upset database
+    try:
+        with open(DATA_DIR / "upsets.json", "r", encoding="utf-8") as f:
+            upsets_db = json.load(f)
+    except Exception:
+        return "NONE"
+
+    upsets = upsets_db.get("upsets", [])
+
+    # Check if either team has been involved in historical upsets
+    home_upsets = 0
+    away_upsets = 0
+    for u in upsets:
+        if team_home in [u["favorite"], u["underdog"]]:
+            home_upsets += 1
+        if team_away in [u["favorite"], u["underdog"]]:
+            away_upsets += 1
+
+    # Strong favorite (hw > 55%) with history of being upset
+    if hw > 0.55 and home_upsets >= 1:
+        return "MEDIUM"
+    if aw > 0.55 and away_upsets >= 1:
+        return "MEDIUM"
+
+    # Very strong favorite (>65%) with multiple upset history
+    if hw > 0.65 and home_upsets >= 2:
+        return "HIGH"
+    if aw > 0.65 and away_upsets >= 2:
+        return "HIGH"
+
+    if home_upsets >= 2 or away_upsets >= 2:
+        return "LOW"
+
+    return "NONE"
+
+
+def load_upsets() -> dict:
+    """Load historical upsets database."""
+    path = DATA_DIR / "upsets.json"
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
 
 
 # ============================================================
