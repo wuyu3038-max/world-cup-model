@@ -293,7 +293,7 @@ def compute_team_power(players_df: pd.DataFrame, fifa_ranks: dict, nation: str) 
 # ============================================================
 
 def simulate_match(home_power: float, away_power: float,
-                   home_advantage: float = 0.25,
+                   home_advantage: float = 0.10,
                    env_factor_home: float = 1.0,
                    env_factor_away: float = 1.0,
                    betfair_boost: float = 1.0,
