@@ -1,9 +1,9 @@
 {
-  "updated": "2026-06-11T11:53:16.312257",
-  "total_articles": 17,
+  "updated": "2026-06-11T12:53:13.839715",
+  "total_articles": 18,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 14,
+    "espn_fc": 15,
     "bbc_sport": 0,
     "sky_sports": 3,
     "goal_com": 0
@@ -13,7 +13,7 @@
       "id": "8fecd8de876a",
       "title": "World Cup predictions: 19 ESPN experts make their ...",
       "url": "https://www.espn.com/soccer/story/_/id/49011009/world-cup-2026-bold-predictions-winners-awards-golden-ball-breakout-stars-best-matches",
-      "published_at": "Wed, 10 Jun 2026 21:21:43 EST",
+      "published_at": "Thu, 11 Jun 2026 00:43:01 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The World Cup has arrived! It's time for ESPN's experts to make their picks for silverware, surprise results and everything in between."
@@ -22,7 +22,7 @@
       "id": "a250e711a6a9",
       "title": "World Cup Daily:  Live updates as Mexico prepare f...",
       "url": "https://www.espn.com/soccer/story/_/id/49012679/world-cup-daily-one-day-go-mexico-prepare-opener",
-      "published_at": "Wed, 10 Jun 2026 21:21:43 EST",
+      "published_at": "Thu, 11 Jun 2026 00:43:01 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Re-live all of Wednesday's pre-tournament action as the world prepares to tune in to Mexico vs. South Africa in the World Cup opener."
@@ -31,16 +31,25 @@
       "id": "65d11457ce59",
       "title": "FIFA prez: People should 'chill' over WC visa issu...",
       "url": "https://www.espn.com/soccer/story/_/id/49021490/fifa-president-gianni-infantino-world-cup-visa-usa-ticket-prices",
-      "published_at": "Wed, 10 Jun 2026 21:34:48 EST",
+      "published_at": "Thu, 11 Jun 2026 00:05:42 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "FIFA president Gianni Infantino said the organization cannot dictate to the U.S. government who to allow into its country for the World Cup, saying that sometimes it is better to \"chill and relax\" ove"
     },
     {
+      "id": "167259fbf7d8",
+      "title": "Spain, France open World Cup as betting favorites",
+      "url": "https://www.espn.com/soccer/story/_/id/49025269/spain-france-lead-world-cup-odds-usa-bettors-back-home-team",
+      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "France and Spain are the betting favorites to win the 2026 World Cup, while heavy backing for Team USA is creating massive liabilities for sportsbooks."
+    },
+    {
       "id": "9ffa8c7986bd",
       "title": "Richards 'ready' for USMNT opener after injury",
       "url": "https://www.espn.com/soccer/story/_/id/49020900/usa-chris-richards-injury-world-cup-2026-paraguay",
-      "published_at": "Wed, 10 Jun 2026 21:34:47 EST",
+      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "USMNT defender Chris Richards says his recovery from a sprained ankle has progressed to the point where he's \"ready\" to face Paraguay in the team's World Cup opener on Friday."
@@ -49,7 +58,7 @@
       "id": "38af6f49f7fa",
       "title": "Tuchel: England ready to 'come alive' at World Cup...",
       "url": "https://www.espn.com/soccer/story/_/id/49023366/tuchel-england-ready-come-alive-world-cup-dominant-win",
-      "published_at": "Wed, 10 Jun 2026 21:34:47 EST",
+      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "England coach Thomas Tuchel said after his team's dominant win over Costa Rica on Wednesday that the Three Lions are starting to \"click\" into gear ahead of the World Cup."
@@ -58,7 +67,7 @@
       "id": "b4184ac2725b",
       "title": "Fourth World Cup still has Son 'feeling like a kid...",
       "url": "https://www.espn.com/soccer/story/_/id/49023594/fourth-fifa-world-cup-south-korea-captain-son-heung-min-feeling-kid",
-      "published_at": "Wed, 10 Jun 2026 21:34:48 EST",
+      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "South Korea captain Son Heung-min says he feels like a \"kid\" as he enters his fourth World Cup, where he will debut against the Czech Republic in a Group A match in Guadalajara on Thursday."
@@ -67,7 +76,7 @@
       "id": "ef8e4f2fad96",
       "title": "📈 Ranking the 50 best players in the World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Wed, 10 Jun 2026 21:34:48 EST",
+      "published_at": "Thu, 11 Jun 2026 00:04:54 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
