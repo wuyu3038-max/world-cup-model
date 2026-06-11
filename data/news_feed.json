@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-11T12:53:13.839715",
-  "total_articles": 18,
+  "updated": "2026-06-11T13:53:14.713275",
+  "total_articles": 20,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 15,
     "bbc_sport": 0,
-    "sky_sports": 3,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
@@ -13,7 +13,7 @@
       "id": "8fecd8de876a",
       "title": "World Cup predictions: 19 ESPN experts make their ...",
       "url": "https://www.espn.com/soccer/story/_/id/49011009/world-cup-2026-bold-predictions-winners-awards-golden-ball-breakout-stars-best-matches",
-      "published_at": "Thu, 11 Jun 2026 00:43:01 EST",
+      "published_at": "Thu, 11 Jun 2026 00:51:22 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The World Cup has arrived! It's time for ESPN's experts to make their picks for silverware, surprise results and everything in between."
@@ -22,7 +22,7 @@
       "id": "a250e711a6a9",
       "title": "World Cup Daily:  Live updates as Mexico prepare f...",
       "url": "https://www.espn.com/soccer/story/_/id/49012679/world-cup-daily-one-day-go-mexico-prepare-opener",
-      "published_at": "Thu, 11 Jun 2026 00:43:01 EST",
+      "published_at": "Thu, 11 Jun 2026 00:51:22 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Re-live all of Wednesday's pre-tournament action as the world prepares to tune in to Mexico vs. South Africa in the World Cup opener."
@@ -143,6 +143,24 @@
       "source": "ESPN FC",
       "language": "en",
       "summary": "EA Sports has correctly predicted the winners for the past four World Cups. But who does it pick for 2026?"
+    },
+    {
+      "id": "7f687e0d8f53",
+      "title": "Complete guide to all 12 World Cup groups",
+      "url": "https://www.skysports.com/football/story-telling/12040/13550118/world-cup-2026-group-guides-england-and-scotland-group-analysis-fixtures-squads-and-everything-you-need-on-all-12-groups",
+      "published_at": "Tue, 02 Jun 2026 13:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "28a33c872d98",
+      "title": "World Cup 2026 fixture schedule - your day-by-day guide",
+      "url": "https://www.skysports.com/football/news/12040/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland",
+      "published_at": "Tue, 09 Dec 2025 09:23:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "With all 48 teams now qualified for the 2026 World Cup, here's your day-by-day breakdown of the 37-day tournament, which kicks off in Mexico on June 11 with 103 matches leading up to the World Cup fin"
     },
     {
       "id": "82448032c9f8",
