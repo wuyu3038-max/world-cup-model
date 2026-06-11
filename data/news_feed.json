@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-11T16:52:43.191247",
-  "total_articles": 33,
+  "updated": "2026-06-11T17:52:43.199575",
+  "total_articles": 36,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 13,
-    "bbc_sport": 11,
+    "espn_fc": 14,
+    "bbc_sport": 13,
     "sky_sports": 9,
     "goal_com": 0
   },
@@ -22,7 +22,7 @@
       "id": "65d11457ce59",
       "title": "FIFA prez: People should 'chill' over WC visa issu...",
       "url": "https://www.espn.com/soccer/story/_/id/49021490/fifa-president-gianni-infantino-world-cup-visa-usa-ticket-prices",
-      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
+      "published_at": "Thu, 11 Jun 2026 05:43:43 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "FIFA president Gianni Infantino said the organization cannot dictate to the U.S. government who to allow into its country for the World Cup, saying that sometimes it is better to \"chill and relax\" ove"
@@ -31,7 +31,7 @@
       "id": "167259fbf7d8",
       "title": "Spain, France open World Cup as betting favorites",
       "url": "https://www.espn.com/soccer/story/_/id/49025269/spain-france-lead-world-cup-odds-usa-bettors-back-home-team",
-      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
+      "published_at": "Thu, 11 Jun 2026 05:42:38 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "France and Spain are the betting favorites to win the 2026 World Cup, while heavy backing for Team USA is creating massive liabilities for sportsbooks."
@@ -40,7 +40,7 @@
       "id": "9ffa8c7986bd",
       "title": "Richards 'ready' for USMNT opener after injury",
       "url": "https://www.espn.com/soccer/story/_/id/49020900/usa-chris-richards-injury-world-cup-2026-paraguay",
-      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
+      "published_at": "Thu, 11 Jun 2026 05:42:38 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "USMNT defender Chris Richards says his recovery from a sprained ankle has progressed to the point where he's \"ready\" to face Paraguay in the team's World Cup opener on Friday."
@@ -49,25 +49,34 @@
       "id": "38af6f49f7fa",
       "title": "Tuchel: England ready to 'come alive' at World Cup...",
       "url": "https://www.espn.com/soccer/story/_/id/49023366/tuchel-england-ready-come-alive-world-cup-dominant-win",
-      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
+      "published_at": "Thu, 11 Jun 2026 05:42:38 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "England coach Thomas Tuchel said after his team's dominant win over Costa Rica on Wednesday that the Three Lions are starting to \"click\" into gear ahead of the World Cup."
     },
     {
-      "id": "b4184ac2725b",
-      "title": "Fourth World Cup still has Son 'feeling like a kid...",
-      "url": "https://www.espn.com/soccer/story/_/id/49023594/fourth-fifa-world-cup-south-korea-captain-son-heung-min-feeling-kid",
-      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
+      "id": "5450cb596c09",
+      "title": "Barcelona sign teenage Egypt World Cup striker",
+      "url": "https://www.espn.com/soccer/story/_/id/49027314/barcelona-sign-18-year-old-world-cup-striker-hamza-abdelkarim",
+      "published_at": "Thu, 11 Jun 2026 05:43:01 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "South Korea captain Son Heung-min says he feels like a \"kid\" as he enters his fourth World Cup, where he will debut against the Czech Republic in a Group A match in Guadalajara on Thursday."
+      "summary": "Barcelona have completed the signing of Egypt international Hamza Abdelkarim from Al Ahly for an initial fee of €1.5 million ($1.7m)."
+    },
+    {
+      "id": "e913e55f8a3d",
+      "title": "Morocco replace Aguerd, Ezzalzouli for World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/49027277/morocco-cut-injured-aguerd-ezzalzouli-last-minute-world-cup-reshuffle",
+      "published_at": "Thu, 11 Jun 2026 05:43:43 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Morocco have made two injury-enforced changes from their World Cup squad with Nayef Aguerd and Abde Ezzalzouli both being replaced."
     },
     {
       "id": "ef8e4f2fad96",
       "title": "📈 Ranking the 50 best players in the World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Thu, 11 Jun 2026 03:05:00 EST",
+      "published_at": "Thu, 11 Jun 2026 05:42:38 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
@@ -94,7 +103,7 @@
       "id": "e9e6ec8ccb11",
       "title": "The U.S. is going to win the 2026 World Cup, and h...",
       "url": "https://www.espn.com/soccer/story/_/id/49022498/13-stats-prove-usmnt-win-2026-world-cup-history-usa-champions",
-      "published_at": "Thu, 11 Jun 2026 03:07:30 EST",
+      "published_at": "Thu, 11 Jun 2026 05:20:42 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Think the U.S. isn't a World Cup favorite? Think again. Here are 13 stats that point to one conclusion: Team USA will win it all."
@@ -136,15 +145,6 @@
       "summary": "Who are the biggest World Cup legends of all time? From Pele to Lionel Messi, we attempt to name the top 10."
     },
     {
-      "id": "59d356739e17",
-      "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
-      "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 17:25:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup."
-    },
-    {
       "id": "4ec96f404929",
       "title": "Infantino could have stood up for the World Cup - but he said 'chill, relax'",
       "url": "https://www.bbc.com/sport/football/articles/cvgj40vymlyo?at_medium=RSS&at_campaign=rss",
@@ -154,13 +154,31 @@
       "summary": "Gianni Infantino faced the media for the first time in three years, but he did little to convince that Fifa has lost its grip on the organisation of the 2026 World Cup."
     },
     {
-      "id": "36df8ee33e79",
-      "title": "World Cup fever meets protest in Mexico City ",
-      "url": "https://www.bbc.com/sport/football/articles/cjrg4qxz7g4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 06:38:38 GMT",
+      "id": "59d356739e17",
+      "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
+      "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 17:25:38 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "With Mexico City hosting the World Cup for an unprecedented third time, protesters are keen to use the platform to highlight their causes."
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup."
+    },
+    {
+      "id": "242e080bf554",
+      "title": "Star players and World Cup history - your guide to Mexico",
+      "url": "https://www.bbc.com/sport/football/articles/czx2pqp57kgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 05 Jun 2026 15:01:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we take a closer look at Mexico."
+    },
+    {
+      "id": "0035165bda22",
+      "title": "All you need to know about South Africa before World Cup opener",
+      "url": "https://www.bbc.com/sport/football/articles/cj0p6n8r9q2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 05 Jun 2026 15:25:26 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we take a closer look at South Africa."
     },
     {
       "id": "9004931d2403",
@@ -208,13 +226,22 @@
       "summary": "Who will win, who might spring a surprise and how will England and Scotland do? BBC pundits predict what will happen at the 2026 World Cup."
     },
     {
-      "id": "9b890e0bbedc",
-      "title": "World Cup quiz: How well do you remember these opening games?",
-      "url": "https://www.bbc.com/sport/football/articles/c7v9l92pvqyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 21:24:55 GMT",
+      "id": "36df8ee33e79",
+      "title": "World Cup fever meets protest in Mexico City ",
+      "url": "https://www.bbc.com/sport/football/articles/cjrg4qxz7g4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 06:38:38 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Test your knowledge of the past seven World Cup opening matches."
+      "summary": "With Mexico City hosting the World Cup for an unprecedented third time, protesters are keen to use the platform to highlight their causes."
+    },
+    {
+      "id": "3b94f76aa426",
+      "title": "How will the weather affect the opening games of the World Cup?",
+      "url": "https://www.bbc.com/weather/articles/cn4rzgz24jxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 08:44:23 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Heat, humidity and storms all look set to play their part in making the 2026 World Cup memorable. Simon King outlines the what you can expect weather-wise in the first week of the tournament."
     },
     {
       "id": "9f2507f852f8",
