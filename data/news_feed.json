@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-11T15:52:43.478758",
+  "updated": "2026-06-11T16:52:43.191247",
   "total_articles": 33,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 12,
-    "bbc_sport": 12,
+    "espn_fc": 13,
+    "bbc_sport": 11,
     "sky_sports": 9,
     "goal_com": 0
   },
@@ -76,7 +76,7 @@
       "id": "f7a0000a3125",
       "title": "The World Cup of more: There's never been a tourna...",
       "url": "https://www.espn.com/soccer/story/_/id/49020473/2026-fifa-world-cup-more-never-tournament-infantino-trump",
-      "published_at": "Thu, 11 Jun 2026 03:09:33 EST",
+      "published_at": "Thu, 11 Jun 2026 04:11:09 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Welcome to the 2026 World Cup, where everything is bigger and louder than ever before."
@@ -85,7 +85,7 @@
       "id": "a4ac0e03cbd8",
       "title": "Six complaints about 2026 World Cup, and why it mi...",
       "url": "https://www.espn.com/soccer/story/_/id/49021099/world-cup-2026-six-reasons-concern-six-counterarguments-gabriele-marcotti",
-      "published_at": "Thu, 11 Jun 2026 03:09:33 EST",
+      "published_at": "Thu, 11 Jun 2026 04:11:09 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "There are many fears swirling around the 2026 FIFA World Cup. Here are six issues, according to Gab Marcotti -- and six reasons why it still be a success."
@@ -98,6 +98,15 @@
       "source": "ESPN FC",
       "language": "en",
       "summary": "Think the U.S. isn't a World Cup favorite? Think again. Here are 13 stats that point to one conclusion: Team USA will win it all."
+    },
+    {
+      "id": "7025c967ba74",
+      "title": "World Cup awards: Golden Ball, Golden Boot, Golden...",
+      "url": "https://www.espn.com/soccer/story/_/id/49024760/2026-world-cup-awards-golden-ball-golden-boot-golden-glove-trophies-revealed",
+      "published_at": "Thu, 11 Jun 2026 04:28:39 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
     },
     {
       "id": "10fdfcc6ead6",
@@ -118,15 +127,6 @@
       "summary": "Our reporters ranked the top 15 contenders for this summer's top prize as they see it right now."
     },
     {
-      "id": "4ec96f404929",
-      "title": "Infantino could have stood up for the World Cup - but he said 'chill, relax'",
-      "url": "https://www.bbc.com/sport/football/articles/cvgj40vymlyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 22:28:02 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Gianni Infantino faced the media for the first time in three years, but he did little to convince that Fifa has lost its grip on the organisation of the 2026 World Cup."
-    },
-    {
       "id": "22d827fcc859",
       "title": "Messi, Maradona or Pele? Ranking the top 10 World Cup legends",
       "url": "https://www.bbc.com/sport/football/articles/cgl34ne0g3eo?at_medium=RSS&at_campaign=rss",
@@ -136,15 +136,6 @@
       "summary": "Who are the biggest World Cup legends of all time? From Pele to Lionel Messi, we attempt to name the top 10."
     },
     {
-      "id": "36df8ee33e79",
-      "title": "World Cup fever meets protest in Mexico City ",
-      "url": "https://www.bbc.com/sport/football/articles/cjrg4qxz7g4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 06:38:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "With Mexico City hosting the World Cup for an unprecedented third time, protesters are keen to use the platform to highlight their causes."
-    },
-    {
       "id": "59d356739e17",
       "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
       "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
@@ -152,6 +143,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup."
+    },
+    {
+      "id": "4ec96f404929",
+      "title": "Infantino could have stood up for the World Cup - but he said 'chill, relax'",
+      "url": "https://www.bbc.com/sport/football/articles/cvgj40vymlyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 22:28:02 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Gianni Infantino faced the media for the first time in three years, but he did little to convince that Fifa has lost its grip on the organisation of the 2026 World Cup."
+    },
+    {
+      "id": "36df8ee33e79",
+      "title": "World Cup fever meets protest in Mexico City ",
+      "url": "https://www.bbc.com/sport/football/articles/cjrg4qxz7g4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 06:38:38 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "With Mexico City hosting the World Cup for an unprecedented third time, protesters are keen to use the platform to highlight their causes."
     },
     {
       "id": "9004931d2403",
@@ -206,15 +215,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Test your knowledge of the past seven World Cup opening matches."
-    },
-    {
-      "id": "9f5abd07cead",
-      "title": "Haiti forced to alter kit design before World Cup opener",
-      "url": "https://www.bbc.com/sport/football/articles/clyrvpr5ywyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 21:58:21 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Haiti are forced to change their kit design just days before their World Cup opener against Scotland after the team shirt, depicting a war scene, fails to comply with Fifa rules."
     },
     {
       "id": "9f2507f852f8",
