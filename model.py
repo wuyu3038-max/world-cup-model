@@ -418,11 +418,13 @@ def predict_match(home_power: float, away_power: float,
     home_xg = 0.5 + home_power / 12.0 + home_advantage
     away_xg = 0.5 + away_power / 12.0
 
-    # 5. Draw bias: when teams are evenly matched, boost draw probability
-    # Close matches (gap < 0.08) → predict draw to match historical 25%+ draw rate
+    # 5. Draw bias: calibrated against historical 29% draw rate
     gap = abs(hw - aw)
+
     if gap < 0.06:
         prediction = "D"
+    elif gap < 0.12 and max(hw, aw) < 0.52:
+        prediction = "D"  # Evenly matched mid-tier teams → likely draw
     elif hw > aw and hw > dw:
         prediction = "H"
     elif aw > hw and aw > dw:
