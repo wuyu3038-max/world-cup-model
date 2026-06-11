@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-11T18:52:43.288238",
-  "total_articles": 37,
+  "updated": "2026-06-11T19:52:44.617637",
+  "total_articles": 35,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 15,
     "bbc_sport": 14,
-    "sky_sports": 8,
+    "sky_sports": 6,
     "goal_com": 0
   },
   "articles": [
@@ -145,6 +145,24 @@
       "summary": "Our reporters ranked the top 15 contenders for this summer's top prize as they see it right now."
     },
     {
+      "id": "8adaf3ce8fe7",
+      "title": "Dalglish, Souness & Rod Stewart - Scotland's World Cup '86 remembered",
+      "url": "https://www.bbc.com/sport/football/articles/c62xqg7l6w9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 10:49:29 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Remembering Scotland's 1986 World Cup campaign, their fourth successive appearance at the tournament."
+    },
+    {
+      "id": "c4af920874ed",
+      "title": "The World Cup is bigger than ever - and BBC Sport has an app to match",
+      "url": "https://www.bbc.com/sport/football/articles/clypy5p44l9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 11:13:02 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport are launching a new, improved app experience for the Fifa World Cup 2026"
+    },
+    {
       "id": "22d827fcc859",
       "title": "Messi, Maradona or Pele? Ranking the top 10 World Cup legends",
       "url": "https://www.bbc.com/sport/football/articles/cgl34ne0g3eo?at_medium=RSS&at_campaign=rss",
@@ -152,15 +170,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Who are the biggest World Cup legends of all time? From Pele to Lionel Messi, we attempt to name the top 10."
-    },
-    {
-      "id": "4ec96f404929",
-      "title": "Infantino could have stood up for the World Cup - but he said 'chill, relax'",
-      "url": "https://www.bbc.com/sport/football/articles/cvgj40vymlyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 22:28:02 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Gianni Infantino faced the media for the first time in three years, but he did little to convince that Fifa has lost its grip on the organisation of the 2026 World Cup."
     },
     {
       "id": "59d356739e17",
@@ -172,31 +181,13 @@
       "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup."
     },
     {
-      "id": "242e080bf554",
-      "title": "Star players and World Cup history - your guide to Mexico",
-      "url": "https://www.bbc.com/sport/football/articles/czx2pqp57kgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 05 Jun 2026 15:01:19 GMT",
+      "id": "4ec96f404929",
+      "title": "Infantino could have stood up for the World Cup - but he said 'chill, relax'",
+      "url": "https://www.bbc.com/sport/football/articles/cvgj40vymlyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 22:28:02 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we take a closer look at Mexico."
-    },
-    {
-      "id": "0035165bda22",
-      "title": "All you need to know about South Africa before World Cup opener",
-      "url": "https://www.bbc.com/sport/football/articles/cj0p6n8r9q2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 05 Jun 2026 15:25:26 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we take a closer look at South Africa."
-    },
-    {
-      "id": "9004931d2403",
-      "title": "Who am I? Guess World Cup star No 4",
-      "url": "https://www.bbc.com/sport/football/articles/c4gv0g74656o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 05:45:44 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "Gianni Infantino faced the media for the first time in three years, but he did little to convince that Fifa has lost its grip on the organisation of the 2026 World Cup."
     },
     {
       "id": "679f045f61d1",
@@ -226,6 +217,15 @@
       "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
     },
     {
+      "id": "9004931d2403",
+      "title": "Who am I? Guess World Cup star No 4",
+      "url": "https://www.bbc.com/sport/football/articles/c4gv0g74656o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 05:45:44 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
       "id": "ee4046030f73",
       "title": "Who will win the World Cup? BBC pundits make their predictions",
       "url": "https://www.bbc.com/sport/football/articles/cg7485gyxz9o?at_medium=RSS&at_campaign=rss",
@@ -233,6 +233,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Who will win, who might spring a surprise and how will England and Scotland do? BBC pundits predict what will happen at the 2026 World Cup."
+    },
+    {
+      "id": "0035165bda22",
+      "title": "All you need to know about South Africa before World Cup opener",
+      "url": "https://www.bbc.com/sport/football/articles/cj0p6n8r9q2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 05 Jun 2026 15:25:26 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we take a closer look at South Africa."
+    },
+    {
+      "id": "242e080bf554",
+      "title": "Star players and World Cup history - your guide to Mexico",
+      "url": "https://www.bbc.com/sport/football/articles/czx2pqp57kgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 05 Jun 2026 15:01:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we take a closer look at Mexico."
     },
     {
       "id": "d39e8b4b1ce5",
@@ -244,24 +262,6 @@
       "summary": "Which World Cup stars have roots near you? Find out with our interactive lookup tool"
     },
     {
-      "id": "36df8ee33e79",
-      "title": "World Cup fever meets protest in Mexico City ",
-      "url": "https://www.bbc.com/sport/football/articles/cjrg4qxz7g4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 06:38:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "With Mexico City hosting the World Cup for an unprecedented third time, protesters are keen to use the platform to highlight their causes."
-    },
-    {
-      "id": "3b94f76aa426",
-      "title": "How will the weather affect the opening games of the World Cup?",
-      "url": "https://www.bbc.com/weather/articles/cn4rzgz24jxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 08:44:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Heat, humidity and storms all look set to play their part in making the 2026 World Cup memorable. Simon King outlines the what you can expect weather-wise in the first week of the tournament."
-    },
-    {
       "id": "9f2507f852f8",
       "title": "'Have you lost control?' - BBC sports editor asks Fifa chief Infantino",
       "url": "https://www.bbc.com/sport/football/videos/c9q2ldq4jn4o?at_medium=RSS&at_campaign=rss",
@@ -269,6 +269,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC sports editor Dan Roan quizzes Fifa president Gianni Infantino on the eve of the World Cup, after he told journalists to \"chill\" and \"relax\" over visa and ticketing issues."
+    },
+    {
+      "id": "ba1349a25877",
+      "title": "What have we learned from England's World Cup training camp?",
+      "url": "https://www.skysports.com/football/news/12040/13552984/jude-bellingham-over-morgan-rogers-at-no-10-what-weve-learned-from-englands-world-cup-training-camp-in-florida",
+      "published_at": "Thu, 11 Jun 2026 12:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England's preparation camp is drawing to a close."
     },
     {
       "id": "7216f08dd8e7",
@@ -314,33 +323,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Serena Williams is out of the Queen's Club doubles after her playing partner Victoria Mboko's knee injury forced the pair to withdraw from the tournament "
-    },
-    {
-      "id": "45f044bf8bc3",
-      "title": "World Cup of Darts: Meet the cult stars you MUST watch",
-      "url": "https://www.skysports.com/darts/news/12040/13551189/world-cup-of-darts-2026-players-to-watch-with-paul-lim-motomu-sakai-man-lok-leung-and-nitin-kumar-in-action",
-      "published_at": "Tue, 09 Jun 2026 07:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The World Cup of Darts is just around the corner and there will be some hidden gems taking part in Frankfurt from June 11-14, live on Sky Sports."
-    },
-    {
-      "id": "76eacef5e4e3",
-      "title": "'We want the next level' | Tuchel praises preparation as England eye World Cup",
-      "url": "https://www.skysports.com/watch/video/13552924/england-thomas-tuchel-praises-preparation-for-world-cup-but-demands-the-next-level",
-      "published_at": "Thu, 11 Jun 2026 07:10:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Thomas Tuchel reflects on England's final World Cup warm-up clash against Costa Rica and is in good spirits about the preparation made ahead of the tournament."
-    },
-    {
-      "id": "c34cc704c5b3",
-      "title": "Tuchel: England have 'set tone' for World Cup bid",
-      "url": "https://www.skysports.com/football/news/12040/13552929/thomas-tuchel-england-set-tone-for-world-cup-bid-in-convincing-costa-rica-win-says-three-lions-boss",
-      "published_at": "Thu, 11 Jun 2026 07:09:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England set the tone for their World Cup challenge  in their convincing 3-0 win over Costa Rica, according to boss Thomas Tuchel."
     }
   ]
 }
