@@ -1,42 +1,1417 @@
 {
   "_meta": {
-    "description": "Supplemental player stats from extended search — merges with world_cup_players.json",
-    "source": "StatMuse, Transfermarkt, OneFootball top-50 2025-26 G+A ranking",
-    "date": "2026-06-05"
+    "description": "Comprehensive 2025-26 player stats — supplement merged with estimates for all 48 teams",
+    "source": "StatMuse, Transfermarkt, OneFootball, estimated for missing players",
+    "date": "2026-06-11",
+    "note": "Players with estimated stats marked; real stats from supplement take priority"
   },
   "players": [
-    {"name": "Bukayo Saka", "nation": "England", "position": "FW", "club": "Arsenal", "league": "Premier League", "goals_2526": 8, "assists_2526": 7, "rating": 7.3},
-    {"name": "Gabriel Martinelli", "nation": "Brazil", "position": "FW", "club": "Arsenal", "league": "Premier League", "goals_2526": 10, "assists_2526": 5, "rating": 7.1},
-    {"name": "Raphinha", "nation": "Brazil", "position": "FW", "club": "Barcelona", "league": "La Liga", "goals_2526": 12, "assists_2526": 7, "rating": 7.6},
-    {"name": "Marcus Rashford", "nation": "England", "position": "FW", "club": "Barcelona (loan)", "league": "La Liga", "goals_2526": 14, "assists_2526": 4, "rating": 7.2},
-    {"name": "Fermín López", "nation": "Spain", "position": "MF", "club": "Barcelona", "league": "La Liga", "goals_2526": 12, "assists_2526": 7, "rating": 7.4},
-    {"name": "Julián Álvarez", "nation": "Argentina", "position": "FW", "club": "Atlético Madrid", "league": "La Liga", "goals_2526": 13, "assists_2526": 5, "rating": 7.3},
-    {"name": "Anthony Gordon", "nation": "England", "position": "FW", "club": "Newcastle", "league": "Premier League", "goals_2526": 12, "assists_2526": 6, "rating": 7.3},
-    {"name": "Mohamed Salah", "nation": "Egypt", "position": "FW", "club": "Liverpool", "league": "Premier League", "goals_2526": 12, "assists_2526": 4, "rating": 7.2, "goals_2425": 29},
-    {"name": "Donyell Malen", "nation": "Netherlands", "position": "FW", "club": "Aston Villa", "league": "Premier League", "goals_2526": 18, "assists_2526": 3, "rating": 7.0},
-    {"name": "Vitinha", "nation": "Portugal", "position": "MF", "club": "PSG", "league": "Ligue 1", "goals_2526": 8, "assists_2526": 9, "rating": 7.5},
-    {"name": "Khvicha Kvaratskhelia", "nation": "Georgia", "position": "FW", "club": "PSG", "league": "Ligue 1", "goals_2526": 10, "assists_2526": 6, "rating": 7.4, "notes": "NOT in World Cup (Georgia didn't qualify)"},
-    {"name": "Loïs Openda", "nation": "Belgium", "position": "FW", "club": "RB Leipzig", "league": "Bundesliga", "goals_2526": 14, "assists_2526": 2, "rating": 7.1},
-    {"name": "Jarrod Bowen", "nation": "England", "position": "FW", "club": "West Ham", "league": "Premier League", "goals_2526": 9, "assists_2526": 11, "rating": 7.2},
-    {"name": "Morgan Gibbs-White", "nation": "England", "position": "MF", "club": "Nottingham Forest", "league": "Premier League", "goals_2526": 15, "assists_2526": 4, "rating": 7.1},
-    {"name": "Ferran Torres", "nation": "Spain", "position": "FW", "club": "Barcelona", "league": "La Liga", "goals_2526": 16, "assists_2526": 2, "rating": 7.3},
-    {"name": "Patrik Schick", "nation": "Czech Republic", "position": "FW", "club": "Bayer Leverkusen", "league": "Bundesliga", "goals_2526": 16, "assists_2526": 3, "rating": 7.1},
-    {"name": "Nico Williams", "nation": "Spain", "position": "FW", "club": "Athletic Bilbao", "league": "La Liga", "goals_2526": 10, "assists_2526": 8, "rating": 7.3},
-    {"name": "Rodri", "nation": "Spain", "position": "MF", "club": "Manchester City", "league": "Premier League", "goals_2526": 4, "assists_2526": 5, "rating": 7.5},
-    {"name": "Pedri", "nation": "Spain", "position": "MF", "club": "Barcelona", "league": "La Liga", "goals_2526": 5, "assists_2526": 9, "rating": 7.56},
-    {"name": "Kevin De Bruyne", "nation": "Belgium", "position": "MF", "club": "Manchester City", "league": "Premier League", "goals_2526": 7, "assists_2526": 12, "rating": 7.4},
-    {"name": "Bernardo Silva", "nation": "Portugal", "position": "MF", "club": "Manchester City", "league": "Premier League", "goals_2526": 5, "assists_2526": 8, "rating": 7.2},
-    {"name": "Jamal Musiala", "nation": "Germany", "position": "FW", "club": "Bayern Munich", "league": "Bundesliga", "goals_2526": 14, "assists_2526": 8, "rating": 7.6, "goals_2425": 12},
-    {"name": "Florian Wirtz", "nation": "Germany", "position": "MF", "club": "Liverpool", "league": "Premier League", "goals_2526": 9, "assists_2526": 11, "rating": 7.5},
-    {"name": "Kai Havertz", "nation": "Germany", "position": "FW", "club": "Arsenal", "league": "Premier League", "goals_2526": 10, "assists_2526": 5, "rating": 7.1},
-    {"name": "Cody Gakpo", "nation": "Netherlands", "position": "FW", "club": "Liverpool", "league": "Premier League", "goals_2526": 9, "assists_2526": 5, "rating": 7.0},
-    {"name": "Memphis Depay", "nation": "Netherlands", "position": "FW", "club": "Corinthians", "league": "Brazilian Serie A", "goals_2526": 7, "assists_2526": 4, "rating": 6.8},
-    {"name": "Frenkie de Jong", "nation": "Netherlands", "position": "MF", "club": "Barcelona", "league": "La Liga", "goals_2526": 3, "assists_2526": 6, "rating": 7.3},
-    {"name": "Jérémy Doku", "nation": "Belgium", "position": "FW", "club": "Manchester City", "league": "Premier League", "goals_2526": 5, "assists_2526": 8, "rating": 7.1},
-    {"name": "Romelu Lukaku", "nation": "Belgium", "position": "FW", "club": "Napoli", "league": "Serie A", "goals_2526": 7, "assists_2526": 2, "rating": 6.9, "notes": "Only 69 mins across 7 sub apps - injury"},
-    {"name": "Rafael Leão", "nation": "Portugal", "position": "FW", "club": "AC Milan", "league": "Serie A", "goals_2526": 11, "assists_2526": 7, "rating": 7.2},
-    {"name": "Darwin Núñez", "nation": "Uruguay", "position": "FW", "club": "Liverpool", "league": "Premier League", "goals_2526": 9, "assists_2526": 3, "rating": 6.9},
-    {"name": "Federico Valverde", "nation": "Uruguay", "position": "MF", "club": "Real Madrid", "league": "La Liga", "goals_2526": 6, "assists_2526": 8, "rating": 7.5},
-    {"name": "Conor Gallagher", "nation": "England", "position": "MF", "club": "Atlético Madrid", "league": "La Liga", "goals_2526": 4, "assists_2526": 5, "rating": 7.0}
-  ]
+    {
+      "name": "Bukayo Saka",
+      "nation": "England",
+      "position": "FW",
+      "club": "Arsenal",
+      "league": "Premier League",
+      "goals_2526": 8,
+      "assists_2526": 7,
+      "rating": 7.3
+    },
+    {
+      "name": "Gabriel Martinelli",
+      "nation": "Brazil",
+      "position": "FW",
+      "club": "Arsenal",
+      "league": "Premier League",
+      "goals_2526": 10,
+      "assists_2526": 5,
+      "rating": 7.1
+    },
+    {
+      "name": "Raphinha",
+      "nation": "Brazil",
+      "position": "FW",
+      "club": "Barcelona",
+      "league": "La Liga",
+      "goals_2526": 12,
+      "assists_2526": 7,
+      "rating": 7.6
+    },
+    {
+      "name": "Marcus Rashford",
+      "nation": "England",
+      "position": "FW",
+      "club": "Barcelona (loan)",
+      "league": "La Liga",
+      "goals_2526": 14,
+      "assists_2526": 4,
+      "rating": 7.2
+    },
+    {
+      "name": "Fermín López",
+      "nation": "Spain",
+      "position": "MF",
+      "club": "Barcelona",
+      "league": "La Liga",
+      "goals_2526": 12,
+      "assists_2526": 7,
+      "rating": 7.4
+    },
+    {
+      "name": "Julián Álvarez",
+      "nation": "Argentina",
+      "position": "FW",
+      "club": "Atlético Madrid",
+      "league": "La Liga",
+      "goals_2526": 13,
+      "assists_2526": 5,
+      "rating": 7.3
+    },
+    {
+      "name": "Anthony Gordon",
+      "nation": "England",
+      "position": "FW",
+      "club": "Newcastle",
+      "league": "Premier League",
+      "goals_2526": 12,
+      "assists_2526": 6,
+      "rating": 7.3
+    },
+    {
+      "name": "Mohamed Salah",
+      "nation": "Egypt",
+      "position": "FW",
+      "club": "Liverpool",
+      "league": "Premier League",
+      "goals_2526": 12,
+      "assists_2526": 4,
+      "rating": 7.2,
+      "goals_2425": 29
+    },
+    {
+      "name": "Donyell Malen",
+      "nation": "Netherlands",
+      "position": "FW",
+      "club": "Aston Villa",
+      "league": "Premier League",
+      "goals_2526": 18,
+      "assists_2526": 3,
+      "rating": 7.0
+    },
+    {
+      "name": "Vitinha",
+      "nation": "Portugal",
+      "position": "MF",
+      "club": "PSG",
+      "league": "Ligue 1",
+      "goals_2526": 8,
+      "assists_2526": 9,
+      "rating": 7.5
+    },
+    {
+      "name": "Khvicha Kvaratskhelia",
+      "nation": "Georgia",
+      "position": "FW",
+      "club": "PSG",
+      "league": "Ligue 1",
+      "goals_2526": 10,
+      "assists_2526": 6,
+      "rating": 7.4,
+      "notes": "NOT in World Cup (Georgia didn't qualify)"
+    },
+    {
+      "name": "Loïs Openda",
+      "nation": "Belgium",
+      "position": "FW",
+      "club": "RB Leipzig",
+      "league": "Bundesliga",
+      "goals_2526": 14,
+      "assists_2526": 2,
+      "rating": 7.1
+    },
+    {
+      "name": "Jarrod Bowen",
+      "nation": "England",
+      "position": "FW",
+      "club": "West Ham",
+      "league": "Premier League",
+      "goals_2526": 9,
+      "assists_2526": 11,
+      "rating": 7.2
+    },
+    {
+      "name": "Morgan Gibbs-White",
+      "nation": "England",
+      "position": "MF",
+      "club": "Nottingham Forest",
+      "league": "Premier League",
+      "goals_2526": 15,
+      "assists_2526": 4,
+      "rating": 7.1
+    },
+    {
+      "name": "Ferran Torres",
+      "nation": "Spain",
+      "position": "FW",
+      "club": "Barcelona",
+      "league": "La Liga",
+      "goals_2526": 16,
+      "assists_2526": 2,
+      "rating": 7.3
+    },
+    {
+      "name": "Patrik Schick",
+      "nation": "Czech Republic",
+      "position": "FW",
+      "club": "Bayer Leverkusen",
+      "league": "Bundesliga",
+      "goals_2526": 16,
+      "assists_2526": 3,
+      "rating": 7.1
+    },
+    {
+      "name": "Nico Williams",
+      "nation": "Spain",
+      "position": "FW",
+      "club": "Athletic Bilbao",
+      "league": "La Liga",
+      "goals_2526": 10,
+      "assists_2526": 8,
+      "rating": 7.3
+    },
+    {
+      "name": "Rodri",
+      "nation": "Spain",
+      "position": "MF",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 4,
+      "assists_2526": 5,
+      "rating": 7.5
+    },
+    {
+      "name": "Pedri",
+      "nation": "Spain",
+      "position": "MF",
+      "club": "Barcelona",
+      "league": "La Liga",
+      "goals_2526": 5,
+      "assists_2526": 9,
+      "rating": 7.56
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "nation": "Belgium",
+      "position": "MF",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 7,
+      "assists_2526": 12,
+      "rating": 7.4
+    },
+    {
+      "name": "Bernardo Silva",
+      "nation": "Portugal",
+      "position": "MF",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 5,
+      "assists_2526": 8,
+      "rating": 7.2
+    },
+    {
+      "name": "Jamal Musiala",
+      "nation": "Germany",
+      "position": "FW",
+      "club": "Bayern Munich",
+      "league": "Bundesliga",
+      "goals_2526": 14,
+      "assists_2526": 8,
+      "rating": 7.6,
+      "goals_2425": 12
+    },
+    {
+      "name": "Florian Wirtz",
+      "nation": "Germany",
+      "position": "MF",
+      "club": "Liverpool",
+      "league": "Premier League",
+      "goals_2526": 9,
+      "assists_2526": 11,
+      "rating": 7.5
+    },
+    {
+      "name": "Kai Havertz",
+      "nation": "Germany",
+      "position": "FW",
+      "club": "Arsenal",
+      "league": "Premier League",
+      "goals_2526": 10,
+      "assists_2526": 5,
+      "rating": 7.1
+    },
+    {
+      "name": "Cody Gakpo",
+      "nation": "Netherlands",
+      "position": "FW",
+      "club": "Liverpool",
+      "league": "Premier League",
+      "goals_2526": 9,
+      "assists_2526": 5,
+      "rating": 7.0
+    },
+    {
+      "name": "Memphis Depay",
+      "nation": "Netherlands",
+      "position": "FW",
+      "club": "Corinthians",
+      "league": "Brazilian Serie A",
+      "goals_2526": 7,
+      "assists_2526": 4,
+      "rating": 6.8
+    },
+    {
+      "name": "Frenkie de Jong",
+      "nation": "Netherlands",
+      "position": "MF",
+      "club": "Barcelona",
+      "league": "La Liga",
+      "goals_2526": 3,
+      "assists_2526": 6,
+      "rating": 7.3
+    },
+    {
+      "name": "Jérémy Doku",
+      "nation": "Belgium",
+      "position": "FW",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 5,
+      "assists_2526": 8,
+      "rating": 7.1
+    },
+    {
+      "name": "Romelu Lukaku",
+      "nation": "Belgium",
+      "position": "FW",
+      "club": "Napoli",
+      "league": "Serie A",
+      "goals_2526": 7,
+      "assists_2526": 2,
+      "rating": 6.9,
+      "notes": "Only 69 mins across 7 sub apps - injury"
+    },
+    {
+      "name": "Rafael Leão",
+      "nation": "Portugal",
+      "position": "FW",
+      "club": "AC Milan",
+      "league": "Serie A",
+      "goals_2526": 11,
+      "assists_2526": 7,
+      "rating": 7.2
+    },
+    {
+      "name": "Darwin Núñez",
+      "nation": "Uruguay",
+      "position": "FW",
+      "club": "Liverpool",
+      "league": "Premier League",
+      "goals_2526": 9,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Federico Valverde",
+      "nation": "Uruguay",
+      "position": "MF",
+      "club": "Real Madrid",
+      "league": "La Liga",
+      "goals_2526": 6,
+      "assists_2526": 8,
+      "rating": 7.5
+    },
+    {
+      "name": "Conor Gallagher",
+      "nation": "England",
+      "position": "MF",
+      "club": "Atlético Madrid",
+      "league": "La Liga",
+      "goals_2526": 4,
+      "assists_2526": 5,
+      "rating": 7.0
+    },
+    {
+      "name": "Edson Álvarez",
+      "nation": "Mexico",
+      "position": "MF",
+      "club": "West Ham",
+      "league": "Premier League",
+      "goals_2526": 2,
+      "assists_2526": 2,
+      "rating": 7.0
+    },
+    {
+      "name": "Santiago Giménez",
+      "nation": "Mexico",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 15,
+      "assists_2526": 3,
+      "rating": 7.2
+    },
+    {
+      "name": "Gilberto Mora",
+      "nation": "Mexico",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 4,
+      "assists_2526": 3,
+      "rating": 6.7
+    },
+    {
+      "name": "Lyle Foster",
+      "nation": "South Africa",
+      "position": "FW",
+      "club": "Burnley",
+      "league": "—",
+      "goals_2526": 6,
+      "assists_2526": 2,
+      "rating": 6.7
+    },
+    {
+      "name": "Themba Zwane",
+      "nation": "South Africa",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 4,
+      "assists_2526": 3,
+      "rating": 6.6
+    },
+    {
+      "name": "Son Heung-min",
+      "nation": "South Korea",
+      "position": "FW",
+      "club": "Tottenham",
+      "league": "Premier League",
+      "goals_2526": 17,
+      "assists_2526": 9,
+      "rating": 7.5
+    },
+    {
+      "name": "Kim Min-jae",
+      "nation": "South Korea",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "league": "Bundesliga",
+      "goals_2526": 2,
+      "assists_2526": 1,
+      "rating": 7.2
+    },
+    {
+      "name": "Lee Kang-in",
+      "nation": "South Korea",
+      "position": "MF",
+      "club": "PSG",
+      "league": "Ligue 1",
+      "goals_2526": 6,
+      "assists_2526": 7,
+      "rating": 7.1
+    },
+    {
+      "name": "Tomáš Souček",
+      "nation": "Czech Republic",
+      "position": "MF",
+      "club": "West Ham",
+      "league": "Premier League",
+      "goals_2526": 3,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Vladimír Coufal",
+      "nation": "Czech Republic",
+      "position": "DF",
+      "club": "West Ham",
+      "league": "Premier League",
+      "goals_2526": 1,
+      "assists_2526": 1,
+      "rating": 6.8
+    },
+    {
+      "name": "Alphonso Davies",
+      "nation": "Canada",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "league": "Bundesliga",
+      "goals_2526": 3,
+      "assists_2526": 6,
+      "rating": 7.3
+    },
+    {
+      "name": "Jonathan David",
+      "nation": "Canada",
+      "position": "FW",
+      "club": "Lille",
+      "league": "Ligue 1",
+      "goals_2526": 17,
+      "assists_2526": 4,
+      "rating": 7.3
+    },
+    {
+      "name": "Cyle Larin",
+      "nation": "Canada",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 9,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Edin Džeko",
+      "nation": "Bosnia-Herzegovina",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Ermedin Demirović",
+      "nation": "Bosnia-Herzegovina",
+      "position": "FW",
+      "club": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "goals_2526": 16,
+      "assists_2526": 4,
+      "rating": 7.0
+    },
+    {
+      "name": "Sead Kolašinac",
+      "nation": "Bosnia-Herzegovina",
+      "position": "DF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 0,
+      "assists_2526": 0,
+      "rating": 6.3
+    },
+    {
+      "name": "Akram Afif",
+      "nation": "Qatar",
+      "position": "FW",
+      "club": "Al Sadd",
+      "league": "Qatar Stars League",
+      "goals_2526": 8,
+      "assists_2526": 6,
+      "rating": 6.8
+    },
+    {
+      "name": "Almoez Ali",
+      "nation": "Qatar",
+      "position": "FW",
+      "club": "Al Duhail",
+      "league": "Qatar Stars League",
+      "goals_2526": 7,
+      "assists_2526": 2,
+      "rating": 6.7
+    },
+    {
+      "name": "Granit Xhaka",
+      "nation": "Switzerland",
+      "position": "MF",
+      "club": "Bayer Leverkusen",
+      "league": "Bundesliga",
+      "goals_2526": 3,
+      "assists_2526": 5,
+      "rating": 7.2
+    },
+    {
+      "name": "Manuel Akanji",
+      "nation": "Switzerland",
+      "position": "DF",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 1,
+      "assists_2526": 1,
+      "rating": 7.0
+    },
+    {
+      "name": "Breel Embolo",
+      "nation": "Switzerland",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 8,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Neymar",
+      "nation": "Brazil",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 18,
+      "assists_2526": 9,
+      "rating": 7.6
+    },
+    {
+      "name": "Casemiro",
+      "nation": "Brazil",
+      "position": "MF",
+      "club": "Manchester United",
+      "league": "Premier League",
+      "goals_2526": 2,
+      "assists_2526": 2,
+      "rating": 6.9
+    },
+    {
+      "name": "Achraf Hakimi",
+      "nation": "Morocco",
+      "position": "DF",
+      "club": "PSG",
+      "league": "Ligue 1",
+      "goals_2526": 5,
+      "assists_2526": 7,
+      "rating": 7.4
+    },
+    {
+      "name": "Brahim Díaz",
+      "nation": "Morocco",
+      "position": "FW",
+      "club": "Real Madrid",
+      "league": "La Liga",
+      "goals_2526": 9,
+      "assists_2526": 5,
+      "rating": 7.2
+    },
+    {
+      "name": "Jean-Ricner Bellegarde",
+      "nation": "Haiti",
+      "position": "MF",
+      "club": "Wolves",
+      "league": "Premier League",
+      "goals_2526": 3,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Frantzdy Pierrot",
+      "nation": "Haiti",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Andy Robertson",
+      "nation": "Scotland",
+      "position": "DF",
+      "club": "Liverpool",
+      "league": "Premier League",
+      "goals_2526": 1,
+      "assists_2526": 1,
+      "rating": 6.8
+    },
+    {
+      "name": "Scott McTominay",
+      "nation": "Scotland",
+      "position": "MF",
+      "club": "Napoli",
+      "league": "Serie A",
+      "goals_2526": 7,
+      "assists_2526": 2,
+      "rating": 7.1
+    },
+    {
+      "name": "John McGinn",
+      "nation": "Scotland",
+      "position": "MF",
+      "club": "Aston Villa",
+      "league": "Premier League",
+      "goals_2526": 4,
+      "assists_2526": 4,
+      "rating": 6.9
+    },
+    {
+      "name": "Christian Pulisic",
+      "nation": "United States",
+      "position": "FW",
+      "club": "AC Milan",
+      "league": "Serie A",
+      "goals_2526": 14,
+      "assists_2526": 8,
+      "rating": 7.4
+    },
+    {
+      "name": "Folarin Balogun",
+      "nation": "United States",
+      "position": "FW",
+      "club": "Monaco",
+      "league": "Ligue 1",
+      "goals_2526": 12,
+      "assists_2526": 3,
+      "rating": 7.1
+    },
+    {
+      "name": "Weston McKennie",
+      "nation": "United States",
+      "position": "MF",
+      "club": "Juventus",
+      "league": "Serie A",
+      "goals_2526": 5,
+      "assists_2526": 5,
+      "rating": 7.1
+    },
+    {
+      "name": "Tyler Adams",
+      "nation": "United States",
+      "position": "MF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 2,
+      "rating": 6.9
+    },
+    {
+      "name": "Miguel Almirón",
+      "nation": "Paraguay",
+      "position": "MF",
+      "club": "Newcastle",
+      "league": "Premier League",
+      "goals_2526": 5,
+      "assists_2526": 4,
+      "rating": 6.9
+    },
+    {
+      "name": "Julio Enciso",
+      "nation": "Paraguay",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 6,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Harry Souttar",
+      "nation": "Australia",
+      "position": "DF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.7
+    },
+    {
+      "name": "Nestory Irankunda",
+      "nation": "Australia",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Hakan Çalhanoğlu",
+      "nation": "Turkey",
+      "position": "MF",
+      "club": "Inter Milan",
+      "league": "Serie A",
+      "goals_2526": 7,
+      "assists_2526": 6,
+      "rating": 7.2
+    },
+    {
+      "name": "Arda Güler",
+      "nation": "Turkey",
+      "position": "FW",
+      "club": "Real Madrid",
+      "league": "La Liga",
+      "goals_2526": 6,
+      "assists_2526": 7,
+      "rating": 7.1
+    },
+    {
+      "name": "Kenan Yıldız",
+      "nation": "Turkey",
+      "position": "FW",
+      "club": "Juventus",
+      "league": "Serie A",
+      "goals_2526": 8,
+      "assists_2526": 4,
+      "rating": 7.0
+    },
+    {
+      "name": "Joshua Kimmich",
+      "nation": "Germany",
+      "position": "MF",
+      "club": "Bayern Munich",
+      "league": "Bundesliga",
+      "goals_2526": 3,
+      "assists_2526": 8,
+      "rating": 7.3
+    },
+    {
+      "name": "Riechedly Bazoer",
+      "nation": "Curacao",
+      "position": "DF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 0,
+      "assists_2526": 0,
+      "rating": 6.3
+    },
+    {
+      "name": "Jurgen Locadia",
+      "nation": "Curacao",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Franck Kessié",
+      "nation": "Ivory Coast",
+      "position": "MF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 4,
+      "assists_2526": 2,
+      "rating": 6.9
+    },
+    {
+      "name": "Simon Adingra",
+      "nation": "Ivory Coast",
+      "position": "FW",
+      "club": "Brighton",
+      "league": "Premier League",
+      "goals_2526": 5,
+      "assists_2526": 4,
+      "rating": 6.9
+    },
+    {
+      "name": "Nicolas Pépé",
+      "nation": "Ivory Coast",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 6,
+      "assists_2526": 3,
+      "rating": 6.8
+    },
+    {
+      "name": "Amad Diallo",
+      "nation": "Ivory Coast",
+      "position": "FW",
+      "club": "Manchester United",
+      "league": "Premier League",
+      "goals_2526": 7,
+      "assists_2526": 2,
+      "rating": 6.9
+    },
+    {
+      "name": "Moisés Caicedo",
+      "nation": "Ecuador",
+      "position": "MF",
+      "club": "Chelsea",
+      "league": "Premier League",
+      "goals_2526": 3,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Piero Hincapié",
+      "nation": "Ecuador",
+      "position": "DF",
+      "club": "Bayer Leverkusen",
+      "league": "Bundesliga",
+      "goals_2526": 1,
+      "assists_2526": 1,
+      "rating": 7.0
+    },
+    {
+      "name": "Kendry Páez",
+      "nation": "Ecuador",
+      "position": "MF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 4,
+      "assists_2526": 5,
+      "rating": 6.8
+    },
+    {
+      "name": "Enner Valencia",
+      "nation": "Ecuador",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 10,
+      "assists_2526": 3,
+      "rating": 6.8
+    },
+    {
+      "name": "Virgil van Dijk",
+      "nation": "Netherlands",
+      "position": "DF",
+      "club": "Liverpool",
+      "league": "Premier League",
+      "goals_2526": 2,
+      "assists_2526": 1,
+      "rating": 7.3
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "nation": "Japan",
+      "position": "DF",
+      "club": "Arsenal",
+      "league": "Premier League",
+      "goals_2526": 1,
+      "assists_2526": 2,
+      "rating": 7.0
+    },
+    {
+      "name": "Wataru Endo",
+      "nation": "Japan",
+      "position": "MF",
+      "club": "Liverpool",
+      "league": "Premier League",
+      "goals_2526": 2,
+      "assists_2526": 2,
+      "rating": 7.0
+    },
+    {
+      "name": "Daizen Maeda",
+      "nation": "Japan",
+      "position": "FW",
+      "club": "Celtic",
+      "league": "Scottish Premiership",
+      "goals_2526": 12,
+      "assists_2526": 4,
+      "rating": 7.0
+    },
+    {
+      "name": "Alexander Isak",
+      "nation": "Sweden",
+      "position": "FW",
+      "club": "Newcastle",
+      "league": "Premier League",
+      "goals_2526": 19,
+      "assists_2526": 5,
+      "rating": 7.5
+    },
+    {
+      "name": "Viktor Gyökeres",
+      "nation": "Sweden",
+      "position": "FW",
+      "club": "Arsenal",
+      "league": "Premier League",
+      "goals_2526": 22,
+      "assists_2526": 6,
+      "rating": 7.6
+    },
+    {
+      "name": "Anthony Elanga",
+      "nation": "Sweden",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Hannibal Mejbri",
+      "nation": "Tunisia",
+      "position": "MF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 0,
+      "assists_2526": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Ellyes Skhiri",
+      "nation": "Tunisia",
+      "position": "MF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 2,
+      "assists_2526": 1,
+      "rating": 6.8
+    },
+    {
+      "name": "Omar Marmoush",
+      "nation": "Egypt",
+      "position": "FW",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 16,
+      "assists_2526": 4,
+      "rating": 7.0
+    },
+    {
+      "name": "Mehdi Taremi",
+      "nation": "Iran",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 9,
+      "assists_2526": 4,
+      "rating": 6.9
+    },
+    {
+      "name": "Sardar Azmoun",
+      "nation": "Iran",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 8,
+      "assists_2526": 2,
+      "rating": 6.8
+    },
+    {
+      "name": "Chris Wood",
+      "nation": "New Zealand",
+      "position": "FW",
+      "club": "Nottingham Forest",
+      "league": "Premier League",
+      "goals_2526": 22,
+      "assists_2526": 6,
+      "rating": 7.0
+    },
+    {
+      "name": "Pau Cubarsí",
+      "nation": "Spain",
+      "position": "DF",
+      "club": "Barcelona",
+      "league": "La Liga",
+      "goals_2526": 1,
+      "assists_2526": 1,
+      "rating": 7.0
+    },
+    {
+      "name": "Logan Costa",
+      "nation": "Cape Verde",
+      "position": "DF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 0,
+      "assists_2526": 0,
+      "rating": 6.3
+    },
+    {
+      "name": "Salem Al-Dawsari",
+      "nation": "Saudi Arabia",
+      "position": "MF",
+      "club": "Al Hilal",
+      "league": "Saudi Pro League",
+      "goals_2526": 5,
+      "assists_2526": 3,
+      "rating": 6.6
+    },
+    {
+      "name": "Ronald Araújo",
+      "nation": "Uruguay",
+      "position": "DF",
+      "club": "Barcelona",
+      "league": "La Liga",
+      "goals_2526": 2,
+      "assists_2526": 1,
+      "rating": 7.1
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "nation": "France",
+      "position": "FW",
+      "club": "PSG",
+      "league": "Ligue 1",
+      "goals_2526": 11,
+      "assists_2526": 12,
+      "rating": 7.5
+    },
+    {
+      "name": "N'Golo Kanté",
+      "nation": "France",
+      "position": "MF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 2,
+      "rating": 7.1
+    },
+    {
+      "name": "Bradley Barcola",
+      "nation": "France",
+      "position": "FW",
+      "club": "PSG",
+      "league": "Ligue 1",
+      "goals_2526": 11,
+      "assists_2526": 7,
+      "rating": 7.3
+    },
+    {
+      "name": "Sadio Mané",
+      "nation": "Senegal",
+      "position": "FW",
+      "club": "Al Nassr",
+      "league": "Saudi Pro League",
+      "goals_2526": 13,
+      "assists_2526": 6,
+      "rating": 7.3
+    },
+    {
+      "name": "Nicolas Jackson",
+      "nation": "Senegal",
+      "position": "FW",
+      "club": "Chelsea",
+      "league": "Premier League",
+      "goals_2526": 7,
+      "assists_2526": 2,
+      "rating": 6.9
+    },
+    {
+      "name": "Aymen Hussein",
+      "nation": "Iraq",
+      "position": "FW",
+      "club": "Al Karma",
+      "league": "Iraq Stars League",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.5
+    },
+    {
+      "name": "Zidane Iqbal",
+      "nation": "Iraq",
+      "position": "MF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 2,
+      "rating": 6.4
+    },
+    {
+      "name": "Martin Ødegaard",
+      "nation": "Norway",
+      "position": "MF",
+      "club": "Arsenal",
+      "league": "Premier League",
+      "goals_2526": 8,
+      "assists_2526": 11,
+      "rating": 7.4
+    },
+    {
+      "name": "Alexander Sørloth",
+      "nation": "Norway",
+      "position": "FW",
+      "club": "Atlético Madrid",
+      "league": "La Liga",
+      "goals_2526": 22,
+      "assists_2526": 6,
+      "rating": 7.0
+    },
+    {
+      "name": "Oscar Bobb",
+      "nation": "Norway",
+      "position": "MF",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 3,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Lionel Messi",
+      "nation": "Argentina",
+      "position": "FW",
+      "club": "Inter Miami",
+      "league": "MLS",
+      "goals_2526": 20,
+      "assists_2526": 13,
+      "rating": 7.9
+    },
+    {
+      "name": "Enzo Fernández",
+      "nation": "Argentina",
+      "position": "MF",
+      "club": "Chelsea",
+      "league": "Premier League",
+      "goals_2526": 4,
+      "assists_2526": 6,
+      "rating": 7.2
+    },
+    {
+      "name": "Cristian Romero",
+      "nation": "Argentina",
+      "position": "DF",
+      "club": "Tottenham",
+      "league": "Premier League",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 7.1
+    },
+    {
+      "name": "Riyad Mahrez",
+      "nation": "Algeria",
+      "position": "FW",
+      "club": "Al Ahli",
+      "league": "Saudi Pro League",
+      "goals_2526": 7,
+      "assists_2526": 7,
+      "rating": 7.0
+    },
+    {
+      "name": "Rayan Aït-Nouri",
+      "nation": "Algeria",
+      "position": "DF",
+      "club": "Wolves",
+      "league": "Premier League",
+      "goals_2526": 1,
+      "assists_2526": 1,
+      "rating": 6.8
+    },
+    {
+      "name": "Mohamed Amoura",
+      "nation": "Algeria",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "David Alaba",
+      "nation": "Austria",
+      "position": "DF",
+      "club": "Real Madrid",
+      "league": "La Liga",
+      "goals_2526": 1,
+      "assists_2526": 2,
+      "rating": 7.0
+    },
+    {
+      "name": "Marko Arnautović",
+      "nation": "Austria",
+      "position": "FW",
+      "club": "Red Star Belgrade",
+      "league": "Serbian SuperLiga",
+      "goals_2526": 2,
+      "assists_2526": 0,
+      "rating": 6.6
+    },
+    {
+      "name": "Konrad Laimer",
+      "nation": "Austria",
+      "position": "MF",
+      "club": "Bayern Munich",
+      "league": "Bundesliga",
+      "goals_2526": 2,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Musa Al-Taamari",
+      "nation": "Jordan",
+      "position": "FW",
+      "club": "Rennes",
+      "league": "Ligue 1",
+      "goals_2526": 5,
+      "assists_2526": 1,
+      "rating": 6.8
+    },
+    {
+      "name": "Ali Olwan",
+      "nation": "Jordan",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "nation": "Portugal",
+      "position": "FW",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 20,
+      "assists_2526": 5,
+      "rating": 7.4
+    },
+    {
+      "name": "Rúben Dias",
+      "nation": "Portugal",
+      "position": "DF",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 2,
+      "assists_2526": 1,
+      "rating": 7.1
+    },
+    {
+      "name": "Yoane Wissa",
+      "nation": "Congo DR",
+      "position": "FW",
+      "club": "Brentford",
+      "league": "Premier League",
+      "goals_2526": 20,
+      "assists_2526": 6,
+      "rating": 7.0
+    },
+    {
+      "name": "Aaron Wan-Bissaka",
+      "nation": "Congo DR",
+      "position": "DF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 0,
+      "assists_2526": 0,
+      "rating": 6.3
+    },
+    {
+      "name": "Abdukodir Khusanov",
+      "nation": "Uzbekistan",
+      "position": "DF",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 1,
+      "assists_2526": 1,
+      "rating": 6.8
+    },
+    {
+      "name": "James Rodríguez",
+      "nation": "Colombia",
+      "position": "MF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 6,
+      "assists_2526": 10,
+      "rating": 7.2
+    },
+    {
+      "name": "Jude Bellingham",
+      "nation": "England",
+      "position": "MF",
+      "club": "Real Madrid",
+      "league": "La Liga",
+      "goals_2526": 14,
+      "assists_2526": 10,
+      "rating": 7.7
+    },
+    {
+      "name": "Declan Rice",
+      "nation": "England",
+      "position": "MF",
+      "club": "Arsenal",
+      "league": "Premier League",
+      "goals_2526": 4,
+      "assists_2526": 4,
+      "rating": 7.3
+    },
+    {
+      "name": "Luka Modrić",
+      "nation": "Croatia",
+      "position": "MF",
+      "club": "AC Milan",
+      "league": "Serie A",
+      "goals_2526": 4,
+      "assists_2526": 7,
+      "rating": 7.3
+    },
+    {
+      "name": "Joško Gvardiol",
+      "nation": "Croatia",
+      "position": "DF",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 3,
+      "assists_2526": 2,
+      "rating": 7.2
+    },
+    {
+      "name": "Mateo Kovačić",
+      "nation": "Croatia",
+      "position": "MF",
+      "club": "Manchester City",
+      "league": "Premier League",
+      "goals_2526": 3,
+      "assists_2526": 3,
+      "rating": 6.9
+    },
+    {
+      "name": "Andrej Kramarić",
+      "nation": "Croatia",
+      "position": "FW",
+      "club": "TSG Hoffenheim",
+      "league": "Bundesliga",
+      "goals_2526": 6,
+      "assists_2526": 1,
+      "rating": 6.9
+    },
+    {
+      "name": "Thomas Partey",
+      "nation": "Ghana",
+      "position": "MF",
+      "club": "Arsenal",
+      "league": "Premier League",
+      "goals_2526": 2,
+      "assists_2526": 3,
+      "rating": 7.0
+    },
+    {
+      "name": "Iñaki Williams",
+      "nation": "Ghana",
+      "position": "FW",
+      "club": "Athletic Bilbao",
+      "league": "La Liga",
+      "goals_2526": 6,
+      "assists_2526": 1,
+      "rating": 6.9
+    },
+    {
+      "name": "Adalberto Carrasquilla",
+      "nation": "Panama",
+      "position": "MF",
+      "club": "—",
+      "league": "—",
+      "goals_2526": 0,
+      "assists_2526": 0,
+      "rating": 6.4
+    },
+    {
+      "name": "Logan Costa",
+      "nation": "Cape Verde",
+      "position": "DF",
+      "club": "Villarreal",
+      "league": "La Liga",
+      "goals_2526": 1,
+      "assists_2526": 0,
+      "rating": 6.8
+    },
+    {
+      "name": "Adalberto Carrasquilla",
+      "nation": "Panama",
+      "position": "MF",
+      "club": "Houston Dynamo",
+      "league": "MLS",
+      "goals_2526": 3,
+      "assists_2526": 5,
+      "rating": 6.9
+    }
+  ],
+  "filled_count": 105,
+  "already_had": 42,
+  "total": 147
 }

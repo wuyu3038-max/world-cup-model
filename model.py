@@ -705,11 +705,23 @@ def analyze(players_df: pd.DataFrame, fifa_ranks: dict, betting_data: dict = Non
 # 8. MATCH-VENUE LOOKUP
 # ============================================================
 
+# City name mapping: schedule uses short names, environment uses full names
+CITY_NAME_MAP = {
+    "Boston": "Boston / Foxborough",
+    "Los Angeles": "Los Angeles / Inglewood",
+    "San Francisco": "San Francisco / Santa Clara",
+    "New York / New Jersey": "New York / New Jersey",
+}
+
+
 def build_venue_lookup(schedule_data: dict) -> dict:
     """
     Build a lookup table mapping (home_team, away_team) -> venue info.
     Match schedule JSON already includes city, roof, elevation_m per match.
     Returns dict with both forward and reverse keys for flexible lookup.
+
+    Handles city name mismatches between schedule (short names) and
+    environment.json (full names like 'Boston / Foxborough').
     """
     venue_map = {}
     matches = schedule_data.get("matches", {})
@@ -720,8 +732,11 @@ def build_venue_lookup(schedule_data: dict) -> dict:
             away = match.get("away", "")
             if not home or not away:
                 continue
+            city = match.get("city", "")
+            # Map schedule city name to environment city name
+            env_city = CITY_NAME_MAP.get(city, city)
             info = {
-                "city": match.get("city", ""),
+                "city": env_city,
                 "roof": match.get("roof", False),
                 "elevation_m": match.get("elevation_m", 0),
                 "group": match.get("group", ""),

@@ -1,100 +1,19 @@
 {
-  "updated": "2026-06-11T19:52:44.617637",
-  "total_articles": 35,
+  "updated": "2026-06-11T20:52:44.842604",
+  "total_articles": 32,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 15,
-    "bbc_sport": 14,
-    "sky_sports": 6,
+    "bbc_sport": 12,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "8fecd8de876a",
-      "title": "World Cup predictions: 19 ESPN experts make their ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49011009/world-cup-2026-bold-predictions-winners-awards-golden-ball-breakout-stars-best-matches",
-      "published_at": "Thu, 11 Jun 2026 06:06:00 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The World Cup has arrived! It's time for ESPN's experts to make their picks for silverware, surprise results and everything in between."
-    },
-    {
-      "id": "234f2faa4767",
-      "title": "World Cup Daily: Finally, the biggest tournament e...",
-      "url": "https://www.espn.com/soccer/story/_/id/49012835/world-cup-daily-biggest-tournament-ever-begin-mexico-vs-sa",
-      "published_at": "Thu, 11 Jun 2026 05:46:52 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Enjoy all the updates from across North America on the first day of the 2026 FIFA World Cup."
-    },
-    {
-      "id": "65d11457ce59",
-      "title": "FIFA prez: People should 'chill' over WC visa issu...",
-      "url": "https://www.espn.com/soccer/story/_/id/49021490/fifa-president-gianni-infantino-world-cup-visa-usa-ticket-prices",
-      "published_at": "Thu, 11 Jun 2026 05:43:43 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "FIFA president Gianni Infantino said the organization cannot dictate to the U.S. government who to allow into its country for the World Cup, saying that sometimes it is better to \"chill and relax\" ove"
-    },
-    {
-      "id": "167259fbf7d8",
-      "title": "Spain, France open World Cup as betting favorites",
-      "url": "https://www.espn.com/soccer/story/_/id/49025269/spain-france-lead-world-cup-odds-usa-bettors-back-home-team",
-      "published_at": "Thu, 11 Jun 2026 05:42:38 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "France and Spain are the betting favorites to win the 2026 World Cup, while heavy backing for Team USA is creating massive liabilities for sportsbooks."
-    },
-    {
-      "id": "9ffa8c7986bd",
-      "title": "Richards 'ready' for USMNT opener after injury",
-      "url": "https://www.espn.com/soccer/story/_/id/49020900/usa-chris-richards-injury-world-cup-2026-paraguay",
-      "published_at": "Thu, 11 Jun 2026 05:42:38 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "USMNT defender Chris Richards says his recovery from a sprained ankle has progressed to the point where he's \"ready\" to face Paraguay in the team's World Cup opener on Friday."
-    },
-    {
-      "id": "38af6f49f7fa",
-      "title": "Tuchel: England ready to 'come alive' at World Cup...",
-      "url": "https://www.espn.com/soccer/story/_/id/49023366/tuchel-england-ready-come-alive-world-cup-dominant-win",
-      "published_at": "Thu, 11 Jun 2026 05:42:38 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "England coach Thomas Tuchel said after his team's dominant win over Costa Rica on Wednesday that the Three Lions are starting to \"click\" into gear ahead of the World Cup."
-    },
-    {
-      "id": "5450cb596c09",
-      "title": "Barcelona sign teenage Egypt World Cup striker",
-      "url": "https://www.espn.com/soccer/story/_/id/49027314/barcelona-sign-18-year-old-world-cup-striker-hamza-abdelkarim",
-      "published_at": "Thu, 11 Jun 2026 05:43:01 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Barcelona have completed the signing of Egypt international Hamza Abdelkarim from Al Ahly for an initial fee of €1.5 million ($1.7m)."
-    },
-    {
-      "id": "e913e55f8a3d",
-      "title": "Morocco replace Aguerd, Ezzalzouli for World Cup",
-      "url": "https://www.espn.com/soccer/story/_/id/49027277/morocco-cut-injured-aguerd-ezzalzouli-last-minute-world-cup-reshuffle",
-      "published_at": "Thu, 11 Jun 2026 05:43:43 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Morocco have made two injury-enforced changes from their World Cup squad with Nayef Aguerd and Abde Ezzalzouli both being replaced."
-    },
-    {
-      "id": "ef8e4f2fad96",
-      "title": "📈 Ranking the 50 best players in the World Cup",
-      "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Thu, 11 Jun 2026 05:42:38 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
-    },
-    {
       "id": "f7a0000a3125",
       "title": "The World Cup of more: There's never been a tourna...",
       "url": "https://www.espn.com/soccer/story/_/id/49020473/2026-fifa-world-cup-more-never-tournament-infantino-trump",
-      "published_at": "Thu, 11 Jun 2026 04:11:09 EST",
+      "published_at": "Thu, 11 Jun 2026 08:34:15 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Welcome to the 2026 World Cup, where everything is bigger and louder than ever before."
@@ -103,19 +22,109 @@
       "id": "a4ac0e03cbd8",
       "title": "Six complaints about 2026 World Cup, and why it mi...",
       "url": "https://www.espn.com/soccer/story/_/id/49021099/world-cup-2026-six-reasons-concern-six-counterarguments-gabriele-marcotti",
-      "published_at": "Thu, 11 Jun 2026 04:11:09 EST",
+      "published_at": "Thu, 11 Jun 2026 08:34:15 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "There are many fears swirling around the 2026 FIFA World Cup. Here are six issues, according to Gab Marcotti -- and six reasons why it still be a success."
     },
     {
+      "id": "65d11457ce59",
+      "title": "FIFA prez: People should 'chill' over WC visa issu...",
+      "url": "https://www.espn.com/soccer/story/_/id/49021490/fifa-president-gianni-infantino-world-cup-visa-usa-ticket-prices",
+      "published_at": "Thu, 11 Jun 2026 08:34:20 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "FIFA president Gianni Infantino said the organization cannot dictate to the U.S. government who to allow into its country for the World Cup, saying that sometimes it is better to \"chill and relax\" ove"
+    },
+    {
+      "id": "5450cb596c09",
+      "title": "Barcelona sign teenage Egypt World Cup striker",
+      "url": "https://www.espn.com/soccer/story/_/id/49027314/barcelona-sign-18-year-old-world-cup-striker-hamza-abdelkarim",
+      "published_at": "Thu, 11 Jun 2026 08:33:57 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Barcelona have completed the signing of Egypt international Hamza Abdelkarim from Al Ahly for an initial fee of €1.5 million ($1.7m)."
+    },
+    {
+      "id": "e913e55f8a3d",
+      "title": "Morocco replace Aguerd, Ezzalzouli for World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/49027277/morocco-cut-injured-aguerd-ezzalzouli-last-minute-world-cup-reshuffle",
+      "published_at": "Thu, 11 Jun 2026 08:34:20 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Morocco have made two injury-enforced changes from their World Cup squad with Nayef Aguerd and Abde Ezzalzouli both being replaced."
+    },
+    {
+      "id": "167259fbf7d8",
+      "title": "Spain, France open World Cup as betting favorites",
+      "url": "https://www.espn.com/soccer/story/_/id/49025269/spain-france-lead-world-cup-odds-usa-bettors-back-home-team",
+      "published_at": "Thu, 11 Jun 2026 08:33:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "France and Spain are the betting favorites to win the 2026 World Cup, while heavy backing for Team USA is creating massive liabilities for sportsbooks."
+    },
+    {
+      "id": "9ffa8c7986bd",
+      "title": "Richards 'ready' for USMNT opener after injury",
+      "url": "https://www.espn.com/soccer/story/_/id/49020900/usa-chris-richards-injury-world-cup-2026-paraguay",
+      "published_at": "Thu, 11 Jun 2026 08:33:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "USMNT defender Chris Richards says his recovery from a sprained ankle has progressed to the point where he's \"ready\" to face Paraguay in the team's World Cup opener on Friday."
+    },
+    {
+      "id": "38af6f49f7fa",
+      "title": "Tuchel: England ready to 'come alive' at World Cup...",
+      "url": "https://www.espn.com/soccer/story/_/id/49023366/tuchel-england-ready-come-alive-world-cup-dominant-win",
+      "published_at": "Thu, 11 Jun 2026 08:33:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "England coach Thomas Tuchel said after his team's dominant win over Costa Rica on Wednesday that the Three Lions are starting to \"click\" into gear ahead of the World Cup."
+    },
+    {
+      "id": "ef8e4f2fad96",
+      "title": "📈 Ranking the 50 best players in the World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
+      "published_at": "Thu, 11 Jun 2026 08:34:20 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
+    },
+    {
       "id": "e9e6ec8ccb11",
-      "title": "The U.S. is going to win the 2026 World Cup, and h...",
+      "title": "The U.S. is going to win the 2026 World Cup, and here are 13 stats that prove it",
       "url": "https://www.espn.com/soccer/story/_/id/49022498/13-stats-prove-usmnt-win-2026-world-cup-history-usa-champions",
-      "published_at": "Thu, 11 Jun 2026 05:20:42 EST",
+      "published_at": "Thu, 11 Jun 2026 08:07:41 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Think the U.S. isn't a World Cup favorite? Think again. Here are 13 stats that point to one conclusion: Team USA will win it all."
+    },
+    {
+      "id": "234f2faa4767",
+      "title": "World Cup Daily LIVE: Finally, the biggest tournam...",
+      "url": "https://www.espn.com/soccer/story/_/id/49012835/world-cup-daily-biggest-tournament-ever-begin-mexico-vs-sa",
+      "published_at": "Thu, 11 Jun 2026 08:40:41 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the updates from across North America on the first day of the 2026 FIFA World Cup."
+    },
+    {
+      "id": "8fecd8de876a",
+      "title": "World Cup predictions: 19 ESPN experts make their ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49011009/world-cup-2026-bold-predictions-winners-awards-golden-ball-breakout-stars-best-matches",
+      "published_at": "Thu, 11 Jun 2026 08:40:50 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The World Cup has arrived! It's time for ESPN's experts to make their picks for silverware, surprise results and everything in between."
+    },
+    {
+      "id": "10fdfcc6ead6",
+      "title": "Mexico's Mora is poised to be World Cup's breakout...",
+      "url": "https://www.espn.com/soccer/story/_/id/48999966/mexico-gilberto-mora-poised-world-cup-breakout-star-guy-different",
+      "published_at": "Thu, 11 Jun 2026 08:43:41 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Getting beyond the quarterfinals would be historic for Mexico. Lucky for El Tri, they have a 17-year-old who can't stop making history."
     },
     {
       "id": "7025c967ba74",
@@ -127,19 +136,10 @@
       "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
     },
     {
-      "id": "10fdfcc6ead6",
-      "title": "Mexico's Mora is poised to be World Cup's breakout...",
-      "url": "https://www.espn.com/soccer/story/_/id/48999966/mexico-gilberto-mora-poised-world-cup-breakout-star-guy-different",
-      "published_at": "Thu, 11 Jun 2026 03:05:37 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Getting beyond the quarterfinals would be historic for Mexico. Lucky for El Tri, they have a 17-year-old who can't stop making history."
-    },
-    {
       "id": "9195a1764a8c",
       "title": "Final World Cup Power Rankings before the tourname...",
       "url": "https://www.espn.com/soccer/story/_/id/49001555/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina",
-      "published_at": "Wed, 10 Jun 2026 03:24:18 EST",
+      "published_at": "Thu, 11 Jun 2026 08:46:34 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Our reporters ranked the top 15 contenders for this summer's top prize as they see it right now."
@@ -181,15 +181,6 @@
       "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup."
     },
     {
-      "id": "4ec96f404929",
-      "title": "Infantino could have stood up for the World Cup - but he said 'chill, relax'",
-      "url": "https://www.bbc.com/sport/football/articles/cvgj40vymlyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 22:28:02 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Gianni Infantino faced the media for the first time in three years, but he did little to convince that Fifa has lost its grip on the organisation of the 2026 World Cup."
-    },
-    {
       "id": "679f045f61d1",
       "title": "Follow World Cup 2026 with live lock screen updates on the BBC Sport app",
       "url": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
@@ -217,6 +208,15 @@
       "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
     },
     {
+      "id": "4ec96f404929",
+      "title": "Infantino could have stood up for the World Cup - but he said 'chill, relax'",
+      "url": "https://www.bbc.com/sport/football/articles/cvgj40vymlyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 22:28:02 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Gianni Infantino faced the media for the first time in three years, but he did little to convince that Fifa has lost its grip on the organisation of the 2026 World Cup."
+    },
+    {
       "id": "9004931d2403",
       "title": "Who am I? Guess World Cup star No 4",
       "url": "https://www.bbc.com/sport/football/articles/c4gv0g74656o?at_medium=RSS&at_campaign=rss",
@@ -226,13 +226,13 @@
       "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "ee4046030f73",
-      "title": "Who will win the World Cup? BBC pundits make their predictions",
-      "url": "https://www.bbc.com/sport/football/articles/cg7485gyxz9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 05:24:53 GMT",
+      "id": "d39e8b4b1ce5",
+      "title": "Find your local World Cup hero with our postcode lookup ",
+      "url": "https://www.bbc.com/news/articles/cn75y330kpjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 23:13:43 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Who will win, who might spring a surprise and how will England and Scotland do? BBC pundits predict what will happen at the 2026 World Cup."
+      "summary": "Which World Cup stars have roots near you? Find out with our interactive lookup tool"
     },
     {
       "id": "0035165bda22",
@@ -244,24 +244,6 @@
       "summary": "Get the lowdown on every team at the 2026 World Cup. Here we take a closer look at South Africa."
     },
     {
-      "id": "242e080bf554",
-      "title": "Star players and World Cup history - your guide to Mexico",
-      "url": "https://www.bbc.com/sport/football/articles/czx2pqp57kgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 05 Jun 2026 15:01:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we take a closer look at Mexico."
-    },
-    {
-      "id": "d39e8b4b1ce5",
-      "title": "Which World Cup stars have roots near you?",
-      "url": "https://www.bbc.com/news/articles/cn75y330kpjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 23:13:43 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Which World Cup stars have roots near you? Find out with our interactive lookup tool"
-    },
-    {
       "id": "9f2507f852f8",
       "title": "'Have you lost control?' - BBC sports editor asks Fifa chief Infantino",
       "url": "https://www.bbc.com/sport/football/videos/c9q2ldq4jn4o?at_medium=RSS&at_campaign=rss",
@@ -269,6 +251,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC sports editor Dan Roan quizzes Fifa president Gianni Infantino on the eve of the World Cup, after he told journalists to \"chill\" and \"relax\" over visa and ticketing issues."
+    },
+    {
+      "id": "210a8596257b",
+      "title": "Could visa issues continue to define the World Cup?",
+      "url": "https://www.skysports.com/watch/video/13553023/world-cup-could-visa-issues-continue-to-define-fifas-biggest-tournament",
+      "published_at": "Thu, 11 Jun 2026 13:12:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Sky Sports Geraint Hughes takes a look at the visa issues that have rocked the World Cup after Somalian referee Omar Artan was refused entry into the US."
     },
     {
       "id": "ba1349a25877",
@@ -305,24 +296,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Women's cricket is on the rise. But this summer's ICC Women's T20 World Cup is set to bring even more eyes to the sport."
-    },
-    {
-      "id": "35598b78eedc",
-      "title": "'I got itchy feet' | Rice raring for World Cup after Arsenal's PL success",
-      "url": "https://www.skysports.com/watch/video/13552925/england-declan-rice-hungry-for-world-cup-after-arsenals-pl-glory",
-      "published_at": "Thu, 11 Jun 2026 07:11:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Declan Rice reacts to his first England match since lifting the Premier League with Arsenal and admits that it was hard to relax for too long on holiday with the World Cup around the corner. "
-    },
-    {
-      "id": "f992a9bdd1e7",
-      "title": "Williams' Queen's doubles campaign ends after Mboko injury withdrawal",
-      "url": "https://www.skysports.com/tennis/news/12040/13552863/serena-williams-victoria-mboko-injury-withdrawal-ends-queens-club-doubles-campaign-on-return-to-tennis",
-      "published_at": "Thu, 11 Jun 2026 11:17:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Serena Williams is out of the Queen's Club doubles after her playing partner Victoria Mboko's knee injury forced the pair to withdraw from the tournament "
     }
   ]
 }

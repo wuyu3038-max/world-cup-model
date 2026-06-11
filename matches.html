@@ -487,9 +487,11 @@ async function main(){
     ['matchday_1','matchday_2','matchday_3'].forEach(md => {
       (ms[md]||[]).forEach(m => {
         const key = m.home + '|' + m.away;
-        venueLookup[key] = {city: m.city||'', roof: m.roof||false, elevation_m: m.elevation_m||0};
+        const cityMap2 = {'Boston':'Boston / Foxborough','Los Angeles':'Los Angeles / Inglewood','San Francisco':'San Francisco / Santa Clara'};
+        const envCity = cityMap2[m.city] || m.city || '';
+        venueLookup[key] = {city: envCity, roof: m.roof||false, elevation_m: m.elevation_m||0};
         // Also store reverse
-        venueLookup[m.away + '|' + m.home] = {city: m.city||'', roof: m.roof||false, elevation_m: m.elevation_m||0};
+        venueLookup[m.away + '|' + m.home] = {city: envCity, roof: m.roof||false, elevation_m: m.elevation_m||0};
       });
     });
 
