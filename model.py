@@ -334,6 +334,61 @@ def simulate_match(home_power: float, away_power: float,
     return home_goals, away_goals
 
 
+def predict_match(home_power: float, away_power: float,
+                  team_home: str = "", team_away: str = "",
+                  n_sims: int = 10000,
+                  home_advantage: float = 0.10,
+                  h2h_data: dict = None) -> dict:
+    """
+    Predict match outcome with H2H historical data blended in.
+    This is the PRIMARY prediction function — use this, not raw simulate_match.
+
+    Returns dict with:
+      - hw, dw, aw: blended win/draw/loss probabilities
+      - hw_raw, dw_raw, aw_raw: pure model probabilities (before H2H blend)
+      - h2h_weight: how much H2H influenced the blend (0-0.35)
+      - h2h_n: number of historical matches used
+      - top_scores: most likely scorelines
+      - home_xg, away_xg: expected goals
+    """
+    # 1. Pure model simulation
+    hw_raw = dw_raw = aw_raw = 0
+    scores = {}
+    for _ in range(n_sims):
+        hg, ag = simulate_match(home_power, away_power, home_advantage)
+        if hg > ag: hw_raw += 1
+        elif hg == ag: dw_raw += 1
+        else: aw_raw += 1
+        key = "%d-%d" % (hg, ag)
+        scores[key] = scores.get(key, 0) + 1
+
+    hw_raw /= n_sims; dw_raw /= n_sims; aw_raw /= n_sims
+
+    # 2. Blend with H2H historical data
+    if team_home and team_away and h2h_data:
+        hw, dw, aw, h2h_w, h2h_n = compute_h2h_blend(
+            team_home, team_away, hw_raw, dw_raw, aw_raw, h2h_data)
+    else:
+        hw, dw, aw = hw_raw, dw_raw, aw_raw
+        h2h_w, h2h_n = 0.0, 0
+
+    # 3. Top scorelines
+    top_scores = sorted(scores.items(), key=lambda x: -x[1])[:5]
+    top_scores = [(s, c/n_sims) for s, c in top_scores]
+
+    # 4. Expected goals
+    home_xg = 0.5 + home_power / 12.0 + home_advantage
+    away_xg = 0.5 + away_power / 12.0
+
+    return {
+        "hw": hw, "dw": dw, "aw": aw,
+        "hw_raw": hw_raw, "dw_raw": dw_raw, "aw_raw": aw_raw,
+        "h2h_weight": h2h_w, "h2h_n": h2h_n,
+        "top_scores": top_scores,
+        "home_xg": round(home_xg, 2), "away_xg": round(away_xg, 2),
+    }
+
+
 # ============================================================
 # 5. GROUP STAGE SIMULATION (16 groups of 3)
 # ============================================================
@@ -1281,6 +1336,61 @@ def compute_h2h_modifier(team_a: str, team_b: str,
     wr_a = _get_winrate(match, team_a)
     # winrate - 0.5 → range [-0.5, +0.5]
     return round((wr_a - 0.5) * 1.0, 3)
+
+
+def compute_h2h_blend(team_home: str, team_away: str,
+                      model_hw: float, model_dw: float, model_aw: float,
+                      h2h_data: dict = None) -> tuple:
+    """
+    Blend model predictions with historical H2H win rates.
+    Uses YOUR head_to_head.json data directly.
+
+    Blend weight = min(0.35, N/25) — up to 35% H2H influence for 9+ match samples.
+
+    Returns: (blended_hw, blended_dw, blended_aw, h2h_weight_used, h2h_sample_size)
+    """
+    if h2h_data is None:
+        if not hasattr(compute_h2h_blend, "_cache"):
+            try:
+                with open(DATA_DIR / "head_to_head.json", "r", encoding="utf-8") as f:
+                    compute_h2h_blend._cache = json.load(f)
+            except Exception:
+                compute_h2h_blend._cache = {}
+        h2h_data = compute_h2h_blend._cache
+
+    h2h = h2h_data.get("head_to_head", {}) if isinstance(h2h_data, dict) else {}
+    match = _find_h2h_match(h2h, team_home, team_away)
+
+    if not match:
+        return model_hw, model_dw, model_aw, 0.0, 0
+
+    total = match.get("total", 0)
+    if total < 3:
+        return model_hw, model_dw, model_aw, 0.0, total
+
+    # Extract historical win rates
+    h_code = TEAM_CODE_MAP.get(team_home, "")
+    a_code = TEAM_CODE_MAP.get(team_away, "")
+    h_wins = match.get(f"{h_code}_wins", 0)
+    a_wins = match.get(f"{a_code}_wins", 0)
+    draws = match.get("draws", 0)
+
+    if h_wins + a_wins + draws == 0:
+        return model_hw, model_dw, model_aw, 0.0, total
+
+    h_hist = h_wins / total
+    d_hist = draws / total
+    a_hist = a_wins / total
+
+    # Blend weight: more matches = more trust in history
+    w = min(0.35, total / 25.0)
+
+    # Blend model with history
+    blended_hw = model_hw * (1 - w) + h_hist * w
+    blended_dw = model_dw * (1 - w) + d_hist * w
+    blended_aw = model_aw * (1 - w) + a_hist * w
+
+    return blended_hw, blended_dw, blended_aw, w, total
 
 
 def compute_common_opponent_modifier(team_a: str, team_b: str,
