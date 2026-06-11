@@ -1738,23 +1738,19 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
     """
     Compute comprehensive team power with all factors integrated.
 
-    V5 Weights (calibrated for ~0-22 combined scale):
-      elo_strength    × 0.22   (~20% — FIFA-rank-based Elo)
-      attack_score    × 0.28   (~28% — attacking talent)
-      defense_score   × 0.12   (~10% — GK + defenders quality)  NEW
-      form_trend      × 2.5    (~4-6% — form momentum, reduced)
-      market_power    × 0.10   (~8-10% — betting market wisdom)
-      sponsor_adj     × 0.04   (~2-4% — brand/sponsor effects)
-      news_sent       × 0.03   (~1-3% — real-time news sentiment)
-      coach_bonus     × 0.05   (~2-5% — manager tournament experience)
-      squad_depth     × 0.03   (~1-3% — bench strength & squad quality)
-      injury_penalty  × -0.15  (~-1-5% — player injuries/absences)
+    V5 Weights (calibrated against Opta/betting market consensus):
+      elo_strength    × 0.30   (~30% — FIFA-rank-based Elo, primary factor)
+      attack_score    × 0.22   (~22% — attacking talent, capped at 25)
+      defense_score   × 0.15   (~12% — GK + defenders quality)
+      form_trend      × 2.0    (~4% — form momentum)
+      market_power    × 0.10   (~8% — betting market wisdom)
+      sponsor_adj     × 0.04   (~2% — brand/sponsor effects)
+      news_sent       × 0.03   (~1% — real-time news sentiment)
+      coach_bonus     × 0.05   (~3% — manager tournament experience)
+      squad_depth     × 0.03   (~1% — bench strength)
+      injury_penalty  × -0.10  (~-1-3% — player injuries, moderated)
 
-    Changes from V4:
-      - Elo: now FIFA-rank-based (not all-time goals) → fixed Portugal #1 bug
-      - Defense: NEW factor balances attack-heavy teams (Norway, etc.)
-      - Form: reduced from ×4.0 to ×2.5 to prevent Yamal +167% over-amplification
-      - Attack weight: reduced 0.38→0.28 to balance with defense
+    Targets: Spain ~18%, France ~17%, England ~13%, Brazil ~10%, Argentina ~9%
     """
     # Use lineup-based attack score if available, otherwise squad-based
     if lineups_data and match_num:
@@ -1791,17 +1787,21 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
     elo_rating = compute_team_power_v2._elo_cache.get(nation, ELO_INITIAL)
     elo_str = elo_strength(elo_rating)
 
-    # Combined formula — V5 weights (10 factors)
-    combined = (elo_str * 0.22 +
-                attack * 0.28 +
-                defense * 0.12 +
-                form * 2.5 +
+    # Cap attack score to prevent outlier dominance (Norway, Sweden, etc.)
+    attack_capped = min(attack, 25.0)
+
+    # Combined formula — V5 weights (calibrated to betting market consensus)
+    # Target: Spain 18%, France 17%, England 13%, Brazil 10%, Argentina 9%
+    combined = (elo_str * 0.30 +
+                attack_capped * 0.22 +
+                defense * 0.15 +
+                form * 2.0 +
                 market_power * 0.10 +
                 sponsor_adj * 0.04 +
                 news_sent * 0.03 +
                 coach_bonus * 0.05 +
                 squad_depth * 0.03 -
-                injury_penalty * 0.15)
+                injury_penalty * 0.10)
 
     # Count top-league players
     team = players_df[players_df["nation"] == nation]

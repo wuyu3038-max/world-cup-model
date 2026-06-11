@@ -4917,10 +4917,10 @@
               "caps": 30,
               "club": "Barcelona",
               "league": "La Liga",
-              "goals_2425": 6,
-              "goals_2526": 16,
-              "assists_2526": 12,
-              "rating": 7.93,
+              "goals_2425": 7,
+              "goals_2526": 12,
+              "assists_2526": 14,
+              "rating": 7.8,
               "notes": "⭐ HIGHEST rating in top 5 leagues (7.93); 133 dribbles (#1); 16G+12A=28 G+A; youngest double-double in La Liga history"
             },
             {
@@ -5126,9 +5126,9 @@
               "club": "Barcelona",
               "league": "La Liga",
               "goals_2425": null,
-              "goals_2526": 12,
-              "assists_2526": 2,
-              "rating": 7.0,
+              "goals_2526": 8,
+              "assists_2526": 3,
+              "rating": 6.9,
               "notes": ""
             },
             {
@@ -5609,9 +5609,9 @@
               "club": "Bayern Munich",
               "league": "Bundesliga",
               "goals_2425": null,
-              "goals_2526": 15,
-              "assists_2526": 21,
-              "rating": 7.87,
+              "goals_2526": 8,
+              "assists_2526": 10,
+              "rating": 7.3,
               "notes": "🔥 ASSIST KING: 21 assists (#1 across top 5 leagues); G+A=36 (#2 overall); key passes 2nd in PL"
             },
             {
@@ -7526,9 +7526,9 @@
               "club": "Bayern Munich",
               "league": "Bundesliga",
               "goals_2425": 26,
-              "goals_2526": 36,
+              "goals_2526": 22,
               "assists_2526": 5,
-              "rating": 7.84,
+              "rating": 7.5,
               "notes": "🏆 #1 SCORER: 36G Bundesliga(Golden Boot x3); xG 26.42(#1 Europe); 63G all comps; 4 hat-tricks; G+A=41(#1); form UP +38%; Captain"
             },
             {
@@ -7980,9 +7980,9 @@
               "club": "Manchester City",
               "league": "Premier League",
               "goals_2425": null,
-              "goals_2526": 17,
+              "goals_2526": 10,
               "assists_2526": 4,
-              "rating": null,
+              "rating": 7.0,
               "notes": "17G: 10 for Bournemouth + 7 for Man City after Jan transfer; form UP significantly"
             },
             {
