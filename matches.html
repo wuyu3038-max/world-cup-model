@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -212,18 +212,29 @@ function envFactor(cityName, roof, elevM, envCities){
   return hf * af;
 }
 
-function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPowers, envCities, venueInfo, betfairIndex, newsData, h2hData){
+function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPowers, envCities, venueInfo, betfairIndex, newsData, h2hData, injuryPenaltyMap){
   const gaMap={};
   players.forEach(p=>{const g=Number(p.goals_2526)||0,a=Number(p.assists_2526)||0;gaMap[p.nation]=(gaMap[p.nation]||0)+g+a;});
   (supplement||[]).forEach(p=>{if(gaMap[p.nation]!=null&&p.goals_2526)gaMap[p.nation]+=p.goals_2526;});
 
-  const ha=gaMap[home]||0.1,aa=gaMap[away]||0.1;
+    const ha=gaMap[home]||0.1,aa=gaMap[away]||0.1;
+  // === INJURY PENALTY: reduce effective attack based on player absences ===
+  // Each penalty point reduces attack by ~6% (penalty 2.5 → ~15% reduction)
+  let injH = 1.0, injA = 1.0;
+  if(injuryPenaltyMap){
+    const ph = injuryPenaltyMap[home]||0;
+    const pa = injuryPenaltyMap[away]||0;
+    injH = Math.max(0.75, 1.0 - ph * 0.06);  // max 25% attack reduction
+    injA = Math.max(0.75, 1.0 - pa * 0.06);
+  }
+  const effHA = ha * injH;  // effective home attack after injury
+  const effAA = aa * injA;  // effective away attack after injury
   const hr=(rankings.find(x=>x.team===home)||{}).rank||60;
   const ar=(rankings.find(x=>x.team===away)||{}).rank||60;
   const hgk=gkRatings[home]||50,agk=gkRatings[away]||50;
 
-  const attH=Math.log(Math.max(ha,0.3))*0.35-0.25;
-  const attA=Math.log(Math.max(aa,0.3))*0.35-0.25;
+  const attH=Math.log(Math.max(effHA,0.3))*0.35-0.25;
+  const attA=Math.log(Math.max(effAA,0.3))*0.35-0.25;
   const defH=-(2200-hr*10)/6000-(hgk-50)/400;
   const defA=-(2200-ar*10)/6000-(agk-50)/400;
 
@@ -320,7 +331,7 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPow
     s1:scores[0]||{h:1,a:0},s1p:scores[0]?.p||0,
     s2:scores[1]||{h:1,a:1},s2p:scores[1]?.p||0,
     diff:lam-mu, envH, envA, v2Boost, bfBoost, mfH, mfA, newsH, newsA, newsBoost:clampedNews,
-    h2hBoost, h2hInfo:h2hRes.info, coInfo:h2hRes.coInfo, h2hMod:h2hRes.h2hMod, coMod:h2hRes.coMod};
+    h2hBoost, h2hInfo:h2hRes.info, coInfo:h2hRes.coInfo, h2hMod:h2hRes.h2hMod, coMod:h2hRes.coMod, injH, injA, injPenH:injuryPenaltyMap?.[home]||0, injPenA:injuryPenaltyMap?.[away]||0};
 }
 
 // ============ ASIAN HANDICAP ============
@@ -439,6 +450,19 @@ async function main(){
     const teamPowers=all.tournament_results?.team_powers||{};
     const envCities=all.environment?.cities||{};
     const betfairIndex=all.betfair_index?.betfair_index||null;
+    // Injury data for match prediction accuracy
+    const injuriesData=all.injuries||{};
+    const teamInjuryPenalty={};
+    if(injuriesData.injuries){
+      // Compute per-team injury penalty (simplified, mirrors Python compute_injury_penalty)
+      const sevW = {critical:1.0, major:0.55, moderate:0.25, minor:0.08};
+      const statusM = {out:1.0, doubtful:0.7, questionable:0.4, probable:0.15, fit:0};
+      injuriesData.injuries.forEach(i=>{
+        if(!i.nation) return;
+        const w = (sevW[i.severity]||0.25) * (statusM[i.status]||0);
+        teamInjuryPenalty[i.nation] = Math.min((teamInjuryPenalty[i.nation]||0) + w, 2.5);
+      });
+    }
     const newsArticles = all.news_feed?.articles || [];
     const h2hData = all.head_to_head || null;
     // Team keywords for news matching (sync with Python TEAM_KEYWORDS)
@@ -512,7 +536,7 @@ async function main(){
           m.date=date;
           const vKey = m.h + '|' + m.a;
           const venueInfo = venueLookup[vKey] || {};
-          const pred=dcPredict(m.h,m.a,players,rankings,gkRatings,supplement,teamPowers,envCities,venueInfo,betfairIndex,{articles:newsArticles,team_keywords:TEAM_KW},h2hData);
+          const pred=dcPredict(m.h,m.a,players,rankings,gkRatings,supplement,teamPowers,envCities,venueInfo,betfairIndex,{articles:newsArticles,team_keywords:TEAM_KW},h2hData,teamInjuryPenalty);
           html+=renderMatch(pred,m);
         });
       });
