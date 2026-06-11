@@ -1112,7 +1112,7 @@ def compute_news_boost(team_a: str, team_b: str,
 
 
 # ============================================================
-# 13. DYNAMIC ELO RATINGS (替代静态FIFA排名代理)
+# 13. DYNAMIC ELO RATINGS (FIFA-rank-based with experience bonus)
 # ============================================================
 
 # Standard Elo K-factor
@@ -1121,56 +1121,49 @@ ELO_INITIAL = 1500
 
 def compute_elo_ratings(teams: list) -> dict:
     """
-    Compute dynamic Elo ratings from international_stats.json match history.
-    Falls back to FIFA-rank-scaled Elo if no match data.
-    Returns {team: elo_rating} with ~1200-2200 range.
-    """
-    elo = {t: ELO_INITIAL for t in teams}
+    Compute Elo ratings primarily from FIFA rankings (current strength),
+    with a small bonus from international tournament experience (caps).
 
+    FIFA rank → Elo base:
+      rank 1  → 2100
+      rank 10 → 1980
+      rank 25 → 1800
+      rank 50 → 1500
+      rank 100→ 1200
+
+    Experience bonus: up to +80 for teams with many veteran players (caps).
+    This rewards tournament-tested squads without over-weighting career totals.
+
+    Returns {team: elo_rating} with ~1200-2180 range.
+    """
+    elo = {}
+
+    # 1. PRIMARY: FIFA ranking → Elo (current strength, not career totals)
+    try:
+        fifa = load_fifa_rankings()
+        for team in teams:
+            rank = fifa.get(team, 60)
+            # Linear: rank 1=2100, rank 50=1500, rank 100=1200
+            elo[team] = round(2100 - (rank - 1) * 12)
+            elo[team] = max(1200, min(2180, elo[team]))
+    except Exception:
+        for team in teams:
+            elo[team] = ELO_INITIAL
+
+    # 2. SECONDARY: Small experience bonus from international caps
     try:
         with open(DATA_DIR / "international_stats.json", "r", encoding="utf-8") as f:
             intl = json.load(f)
 
-        # Use all-time scorers as a rough team strength proxy
-        scorers = intl.get("all_time_top_scorers", {}).get("men", [])
-        team_goals = defaultdict(int)
-        for s in scorers:
-            if s.get("active") and s.get("wc2026", True):
-                team_goals[s["nation"]] += s.get("goals", 0)
-
-        # Scale team international goals to Elo range
-        if team_goals:
-            max_g = max(team_goals.values())
-            for team in teams:
-                if team in team_goals:
-                    # More international goals → higher Elo
-                    scaled = ELO_INITIAL + (team_goals[team] / max(max_g, 1)) * 600
-                    elo[team] = round(scaled)
-                else:
-                    elo[team] = ELO_INITIAL
-
-        # Also use player international stats
         wc_players = intl.get("world_cup_players_international", {})
         for team in teams:
             players = wc_players.get(team, [])
             if players:
-                total_intl_goals = sum(p.get("goals", 0) for p in players)
                 total_caps = sum(p.get("caps", 0) for p in players)
-                # Experience bonus: more caps = more tournament-ready
-                exp_bonus = min(200, total_caps * 0.5)
-                elo[team] = max(elo.get(team, ELO_INITIAL), ELO_INITIAL + exp_bonus)
-                elo[team] = round(elo[team])
-
-    except Exception:
-        pass
-
-    # Fallback for teams with no data: use FIFA rank
-    try:
-        fifa = load_fifa_rankings()
-        for team in teams:
-            if elo.get(team, ELO_INITIAL) == ELO_INITIAL:
-                rank = fifa.get(team, 60)
-                elo[team] = round(2200 - rank * 10)
+                # Experience bonus: up to +80 for veteran-heavy squads
+                exp_bonus = min(80, total_caps * 0.3)
+                elo[team] = elo.get(team, ELO_INITIAL) + round(exp_bonus)
+                elo[team] = min(2180, elo[team])
     except Exception:
         pass
 
@@ -1431,6 +1424,71 @@ def compute_squad_depth(players_df: pd.DataFrame, team: str) -> float:
     return round(max(0, depth), 2)
 
 
+def compute_defense_score(players_df: pd.DataFrame, team: str,
+                          gk_data: dict = None) -> float:
+    """
+    Compute defensive strength to balance attack-heavy teams (e.g., Norway).
+
+    Uses:
+      - Goalkeeper rating (team_gk_rating)
+      - Top defenders' league quality (CBs, DMs from top leagues)
+      - Number of elite defenders in the squad
+
+    Range: ~0 to 15 (comparable to attack_score scale).
+    Balances teams like Norway (high attack, weak defense) vs France (high both).
+    """
+    squad = players_df[players_df["nation"] == team]
+    if squad.empty:
+        return 0.0
+
+    # 1. GK rating contribution
+    gk_score = 0.0
+    if gk_data:
+        gk_ratings = gk_data.get("team_gk_rating", {}).get("ratings", {})
+        gk = gk_ratings.get(team, 50)
+        gk_score = (gk - 50) / 50 * 3  # Range: -3 to +3
+
+    # 2. Defender quality
+    defenders = squad[squad["position"].isin(["DF", "GK"])]
+    if len(defenders) == 0:
+        defenders = squad  # fallback if no position data
+
+    def_quality = 0.0
+    def_count = 0
+    for _, r in defenders.iterrows():
+        lf = league_factor(r.get("league", ""))
+        if lf >= 0.50:  # Only count players from decent leagues
+            rating = r.get("rating_2526")
+            if pd.isna(rating) or rating is None:
+                rating = 6.5
+            def_quality += float(rating) * lf
+            def_count += 1
+
+    # Average defender quality — scale to 0-10 range
+    if def_count > 0:
+        avg_def_rating = def_quality / def_count  # ~6.0-7.5
+        def_quality = (avg_def_rating - 5.5) * min(def_count, 8) * 0.35
+        def_quality = max(0, def_quality)
+    else:
+        def_quality = 2.0  # fallback
+
+    # 3. DM (defensive midfielders) bonus — scale to 0-5 range
+    dms = squad[squad["position"] == "MF"]
+    dm_bonus = 0.0
+    dm_count = 0
+    for _, r in dms.iterrows():
+        lf = league_factor(r.get("league", ""))
+        if lf >= 0.80:  # Top league DMs
+            rating = r.get("rating_2526")
+            if pd.isna(rating) or rating is None:
+                rating = 6.5
+            dm_bonus += (float(rating) - 6.0) * lf
+            dm_count += 1
+    dm_bonus = max(0, dm_bonus) * 0.5
+
+    return round(gk_score + def_quality + dm_bonus, 2)
+
+
 # ============================================================
 # 15. INJURY PENALTY — Structured injury impact on team power
 # ============================================================
@@ -1680,20 +1738,23 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
     """
     Compute comprehensive team power with all factors integrated.
 
-    V4 Weights (calibrated for ~0-22 combined scale):
-      elo_strength    × 0.28   (~26% — dynamic Elo from intl match history)
-      attack_score    × 0.38   (~33% — attacking talent, opponent-adjusted)
-      form_trend      × 4.0    (~5-8% — form momentum)
-      market_power    × 0.10   (~8-12% — betting market wisdom)
+    V5 Weights (calibrated for ~0-22 combined scale):
+      elo_strength    × 0.22   (~20% — FIFA-rank-based Elo)
+      attack_score    × 0.28   (~28% — attacking talent)
+      defense_score   × 0.12   (~10% — GK + defenders quality)  NEW
+      form_trend      × 2.5    (~4-6% — form momentum, reduced)
+      market_power    × 0.10   (~8-10% — betting market wisdom)
       sponsor_adj     × 0.04   (~2-4% — brand/sponsor effects)
       news_sent       × 0.03   (~1-3% — real-time news sentiment)
       coach_bonus     × 0.05   (~2-5% — manager tournament experience)
       squad_depth     × 0.03   (~1-3% — bench strength & squad quality)
-      injury_penalty  × -0.15  (~-1-5% — player injuries/absences, NEGATIVE impact)
+      injury_penalty  × -0.15  (~-1-5% — player injuries/absences)
 
-    New in V4:
-      - injury_penalty: structured injury data reduces team power
-      - lineup-based attack: uses confirmed starting XI when available
+    Changes from V4:
+      - Elo: now FIFA-rank-based (not all-time goals) → fixed Portugal #1 bug
+      - Defense: NEW factor balances attack-heavy teams (Norway, etc.)
+      - Form: reduced from ×4.0 to ×2.5 to prevent Yamal +167% over-amplification
+      - Attack weight: reduced 0.38→0.28 to balance with defense
     """
     # Use lineup-based attack score if available, otherwise squad-based
     if lineups_data and match_num:
@@ -1714,7 +1775,10 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
     coach_bonus = compute_coach_bonus(nation)
     squad_depth = compute_squad_depth(players_df, nation)
 
-    # NEW: Injury penalty
+    # Defense score (NEW V5)
+    defense = compute_defense_score(players_df, nation)
+
+    # Injury penalty
     if injuries_data:
         injury_penalty = compute_injury_penalty(nation, injuries_data)
     else:
@@ -1727,10 +1791,11 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
     elo_rating = compute_team_power_v2._elo_cache.get(nation, ELO_INITIAL)
     elo_str = elo_strength(elo_rating)
 
-    # Combined formula — V4 weights (9 factors, including injury penalty)
-    combined = (elo_str * 0.28 +
-                attack * 0.38 +
-                form * 4.0 +
+    # Combined formula — V5 weights (10 factors)
+    combined = (elo_str * 0.22 +
+                attack * 0.28 +
+                defense * 0.12 +
+                form * 2.5 +
                 market_power * 0.10 +
                 sponsor_adj * 0.04 +
                 news_sent * 0.03 +
@@ -1751,6 +1816,7 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
         "elo_rating": elo_rating,
         "elo_strength": round(elo_str, 1),
         "attack_score": round(attack, 1),
+        "defense_score": round(defense, 2),
         "form_trend": form,
         "market_power": round(market_power, 1),
         "sponsor_adj": round(sponsor_adj, 2),
@@ -1762,7 +1828,7 @@ def compute_team_power_v2(players_df: pd.DataFrame, fifa_ranks: dict,
         "combined": round(combined, 1),
         "elite_players": elite_players,
         "fifa_rank": int(elo_rating),
-        "version": "v4",
+        "version": "v5",
     }
 
 

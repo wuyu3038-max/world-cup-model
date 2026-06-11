@@ -9,7 +9,7 @@
       "Mexico"
     ],
     "total_teams": 48,
-    "total_players": 716,
+    "total_players": 605,
     "format": "16 groups of 3 teams, top 2 advance to Round of 32",
     "data_sources": [
       "Transfermarkt",
@@ -23,8 +23,7 @@
       "UEFA",
       "OneFootball"
     ],
-    "last_updated": "2026-06-11 (full squads)",
-    "note": "Expanded from 147 to full squads using official FIFA squad lists"
+    "last_updated": "2026-06-11 V5 corrected"
   },
   "groups": {
     "A": {
@@ -86,11 +85,11 @@
               "notes": "Youngest player (17y 240d)"
             },
             {
-              "name": "Luis Malagón",
+              "name": "Luis Malagon",
               "position": "GK",
               "age": null,
               "caps": null,
-              "club": "América",
+              "club": "America",
               "league": "Liga MX",
               "goals_2425": null,
               "goals_2526": 0,
@@ -99,24 +98,24 @@
               "notes": ""
             },
             {
-              "name": "Carlos Acevedo",
-              "position": "GK",
+              "name": "Edson Alvarez",
+              "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Santos Laguna",
-              "league": "Liga MX",
+              "club": "West Ham",
+              "league": "Premier League",
               "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
-              "notes": ""
+              "goals_2526": 2,
+              "assists_2526": 2,
+              "rating": 7.0,
+              "notes": "Captain"
             },
             {
-              "name": "César Montes",
+              "name": "Cesar Montes",
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Almería",
+              "club": "Almeria",
               "league": "La Liga",
               "goals_2425": null,
               "goals_2526": 1,
@@ -125,7 +124,7 @@
               "notes": ""
             },
             {
-              "name": "Johan Vásquez",
+              "name": "Johan Vasquez",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -138,7 +137,7 @@
               "notes": ""
             },
             {
-              "name": "Jorge Sánchez",
+              "name": "Jorge Sanchez",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -164,7 +163,7 @@
               "notes": ""
             },
             {
-              "name": "Jesús Gallardo",
+              "name": "Jesus Gallardo",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -181,7 +180,7 @@
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "América",
+              "club": "America",
               "league": "Liga MX",
               "goals_2425": null,
               "goals_2526": 0,
@@ -203,7 +202,7 @@
               "notes": ""
             },
             {
-              "name": "Orbelín Pineda",
+              "name": "Orbelin Pineda",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -216,7 +215,7 @@
               "notes": ""
             },
             {
-              "name": "Carlos Rodríguez",
+              "name": "Carlos Rodriguez",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -229,11 +228,11 @@
               "notes": ""
             },
             {
-              "name": "Érick Sánchez",
+              "name": "Erick Sanchez",
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "América",
+              "club": "America",
               "league": "Liga MX",
               "goals_2425": null,
               "goals_2526": 3,
@@ -242,7 +241,7 @@
               "notes": ""
             },
             {
-              "name": "Sebastián Córdova",
+              "name": "Sebastian Cordova",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -255,20 +254,20 @@
               "notes": ""
             },
             {
-              "name": "Roberto Alvarado",
-              "position": "MF",
+              "name": "Santiago Gimenez",
+              "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Guadalajara",
-              "league": "Liga MX",
+              "club": "Feyenoord",
+              "league": "Eredivisie",
               "goals_2425": null,
-              "goals_2526": 4,
-              "assists_2526": 5,
-              "rating": 6.9,
+              "goals_2526": 15,
+              "assists_2526": 3,
+              "rating": 7.2,
               "notes": ""
             },
             {
-              "name": "Raúl Jiménez",
+              "name": "Raul Jimenez",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -378,19 +377,6 @@
               "notes": ""
             },
             {
-              "name": "Ricardo Goss",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "SuperSport United",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.1,
-              "notes": ""
-            },
-            {
               "name": "Siyanda Xulu",
               "position": "DF",
               "age": null,
@@ -443,32 +429,6 @@
               "notes": ""
             },
             {
-              "name": "Grant Kekana",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Mamelodi Sundowns",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Njabulo Blom",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Kaizer Chiefs",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
               "name": "Teboho Mokoena",
               "position": "MF",
               "age": null,
@@ -479,19 +439,6 @@
               "goals_2526": 3,
               "assists_2526": 2,
               "rating": 6.7,
-              "notes": ""
-            },
-            {
-              "name": "Sphephelo Sithole",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Tondela",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.3,
               "notes": ""
             },
             {
@@ -518,19 +465,6 @@
               "goals_2526": 5,
               "assists_2526": 2,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Mihlali Mayambela",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Aris Limassol",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 3,
-              "assists_2526": 2,
-              "rating": 6.4,
               "notes": ""
             },
             {
@@ -605,32 +539,6 @@
               "notes": ""
             },
             {
-              "name": "Jo Hyeon-woo",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Ulsan HD",
-              "league": "K League 1",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Song Bum-keun",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Jeonbuk",
-              "league": "K League 1",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
               "name": "Kim Young-gwon",
               "position": "DF",
               "age": null,
@@ -641,19 +549,6 @@
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Jung Seung-hyun",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Ulsan HD",
-              "league": "K League 1",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
               "notes": ""
             },
             {
@@ -668,45 +563,6 @@
               "assists_2526": 2,
               "rating": 6.6,
               "notes": ""
-            },
-            {
-              "name": "Kim Tae-hwan",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Jeonbuk",
-              "league": "K League 1",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Lee Ki-je",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Suwon",
-              "league": "K League 1",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 2,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Jens Castrop",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "FC Nürnberg",
-              "league": "2. Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.5,
-              "notes": "First dual-heritage player"
             },
             {
               "name": "Hwang In-beom",
@@ -748,16 +604,16 @@
               "notes": ""
             },
             {
-              "name": "Jung Woo-young",
+              "name": "Jens Castrop",
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Al Khaleej",
-              "league": "Saudi Pro League",
+              "club": "FC Nurnberg",
+              "league": "2. Bundesliga",
               "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.4,
+              "goals_2526": 2,
+              "assists_2526": 2,
+              "rating": 6.5,
               "notes": ""
             },
             {
@@ -845,7 +701,7 @@
               "notes": ""
             },
             {
-              "name": "Jindřich Staněk",
+              "name": "Jindrich Stanek",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -858,7 +714,7 @@
               "notes": ""
             },
             {
-              "name": "Matěj Kovář",
+              "name": "Matej Kovar",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -871,16 +727,16 @@
               "notes": ""
             },
             {
-              "name": "Tomáš Vaclík",
-              "position": "GK",
+              "name": "Vladimir Coufal",
+              "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Albacete",
-              "league": "—",
+              "club": "West Ham",
+              "league": "Premier League",
               "goals_2425": null,
               "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.3,
+              "assists_2526": 3,
+              "rating": 6.8,
               "notes": ""
             },
             {
@@ -888,7 +744,7 @@
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Aris Thessaloniki",
+              "club": "Aris",
               "league": "Greek Super League",
               "goals_2425": null,
               "goals_2526": 1,
@@ -897,7 +753,7 @@
               "notes": ""
             },
             {
-              "name": "Ladislav Krejčí",
+              "name": "Ladislav Krejci",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -923,33 +779,20 @@
               "notes": ""
             },
             {
-              "name": "Jaroslav Zelený",
-              "position": "DF",
+              "name": "Tomas Soucek",
+              "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Sparta Praha",
-              "league": "Czech First League",
+              "club": "West Ham",
+              "league": "Premier League",
               "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
+              "goals_2526": 3,
+              "assists_2526": 3,
+              "rating": 7.0,
+              "notes": "Captain"
             },
             {
-              "name": "Martin Vitík",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Sparta Praha",
-              "league": "Czech First League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Alex Král",
+              "name": "Alex Kral",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -962,7 +805,7 @@
               "notes": ""
             },
             {
-              "name": "Michal Sadílek",
+              "name": "Michal Sadilek",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -975,7 +818,7 @@
               "notes": ""
             },
             {
-              "name": "Antonín Barák",
+              "name": "Antonin Barak",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -988,7 +831,7 @@
               "notes": ""
             },
             {
-              "name": "Lukáš Provod",
+              "name": "Lukas Provod",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -1001,20 +844,7 @@
               "notes": ""
             },
             {
-              "name": "Ondřej Lingr",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Feyenoord",
-              "league": "Eredivisie",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Adam Hložek",
+              "name": "Adam Hlozek",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -1027,11 +857,11 @@
               "notes": ""
             },
             {
-              "name": "Tomáš Čvančara",
+              "name": "Tomas Cvancara",
               "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Borussia Mönchengladbach",
+              "club": "Borussia M'gladbach",
               "league": "Bundesliga",
               "goals_2425": null,
               "goals_2526": 4,
@@ -1102,7 +932,7 @@
               "notes": ""
             },
             {
-              "name": "Maxime Crépeau",
+              "name": "Maxime Crepeau",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -1125,19 +955,6 @@
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Jonathan Sirois",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "CF Montréal",
-              "league": "MLS",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.1,
               "notes": ""
             },
             {
@@ -1184,7 +1001,7 @@
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Malmö FF",
+              "club": "Malmo FF",
               "league": "Swedish Allsvenskan",
               "goals_2425": null,
               "goals_2526": 1,
@@ -1193,33 +1010,7 @@
               "notes": ""
             },
             {
-              "name": "Luc de Fougerolles",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Fulham",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Sam Adekugbe",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Vancouver Whitecaps",
-              "league": "MLS",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Stephen Eustáquio",
+              "name": "Stephen Eustaquio",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -1232,7 +1023,7 @@
               "notes": ""
             },
             {
-              "name": "Ismaël Koné",
+              "name": "Ismael Kone",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -1255,19 +1046,6 @@
               "goals_2526": 4,
               "assists_2526": 2,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Mathieu Choinière",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "CF Montréal",
-              "league": "MLS",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 3,
-              "rating": 6.5,
               "notes": ""
             },
             {
@@ -1294,19 +1072,6 @@
               "goals_2526": 4,
               "assists_2526": 3,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Jacen Russell-Rowe",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Columbus Crew",
-              "league": "MLS",
-              "goals_2425": null,
-              "goals_2526": 5,
-              "assists_2526": 2,
-              "rating": 6.5,
               "notes": ""
             }
           ]
@@ -1355,7 +1120,7 @@
               "notes": ""
             },
             {
-              "name": "Ibrahim Šehić",
+              "name": "Ibrahim Sehic",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -1368,20 +1133,20 @@
               "notes": ""
             },
             {
-              "name": "Nikola Vasilj",
-              "position": "GK",
+              "name": "Sead Kolasinac",
+              "position": "DF",
               "age": null,
               "caps": null,
-              "club": "St. Pauli",
-              "league": "Bundesliga",
+              "club": "Atalanta",
+              "league": "Serie A",
               "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
+              "goals_2526": 1,
+              "assists_2526": 1,
+              "rating": 6.8,
               "notes": ""
             },
             {
-              "name": "Anel Ahmedhodžić",
+              "name": "Anel Ahmedhodzic",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -1394,33 +1159,7 @@
               "notes": ""
             },
             {
-              "name": "Dennis Hadžikadunić",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Hamburger SV",
-              "league": "Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Jusuf Gazibegović",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Sturm Graz",
-              "league": "Austrian Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Amar Dedić",
+              "name": "Amar Dedic",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -1433,7 +1172,7 @@
               "notes": ""
             },
             {
-              "name": "Miralem Pjanić",
+              "name": "Miralem Pjanic",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -1446,11 +1185,11 @@
               "notes": ""
             },
             {
-              "name": "Rade Krunić",
+              "name": "Rade Krunic",
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Fenerbahçe",
+              "club": "Fenerbahce",
               "league": "Turkish Super Lig",
               "goals_2425": null,
               "goals_2526": 2,
@@ -1459,20 +1198,7 @@
               "notes": ""
             },
             {
-              "name": "Gojko Cimirot",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Al Feiha",
-              "league": "Saudi Pro League",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Benjamin Tahirović",
+              "name": "Benjamin Tahirovic",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -1485,29 +1211,29 @@
               "notes": ""
             },
             {
-              "name": "Amar Rahmanović",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Krylya Sovetov",
-              "league": "Russian PL",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Luka Menalo",
+              "name": "Edin Dzeko",
               "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Dinamo Zagreb",
-              "league": "Croatian HNL",
+              "club": "Fenerbahce",
+              "league": "Turkish Super Lig",
               "goals_2425": null,
-              "goals_2526": 3,
-              "assists_2526": 2,
-              "rating": 6.4,
+              "goals_2526": 8,
+              "assists_2526": 3,
+              "rating": 7.0,
+              "notes": "40yo captain"
+            },
+            {
+              "name": "Ermedin Demirovic",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "VfB Stuttgart",
+              "league": "Bundesliga",
+              "goals_2425": null,
+              "goals_2526": 10,
+              "assists_2526": 3,
+              "rating": 7.0,
               "notes": ""
             },
             {
@@ -1569,19 +1295,6 @@
               "notes": ""
             },
             {
-              "name": "Salah Zakaria",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Al Duhail",
-              "league": "Qatar Stars League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.0,
-              "notes": ""
-            },
-            {
               "name": "Tarek Salman",
               "position": "DF",
               "age": null,
@@ -1621,45 +1334,6 @@
               "notes": ""
             },
             {
-              "name": "Homam Ahmed",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Al Duhail",
-              "league": "Qatar Stars League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Sultan Al-Brake",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Al Duhail",
-              "league": "Qatar Stars League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
-              "name": "Jassem Gaber",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Al Arabi",
-              "league": "Qatar Stars League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
               "name": "Abdulaziz Hatem",
               "position": "MF",
               "age": null,
@@ -1686,32 +1360,6 @@
               "notes": ""
             },
             {
-              "name": "Mostafa Meshaal",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Al Sadd",
-              "league": "Qatar Stars League",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Ahmed Fathy",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Al Arabi",
-              "league": "Qatar Stars League",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
               "name": "Yusuf Abdurisag",
               "position": "FW",
               "age": null,
@@ -1722,19 +1370,6 @@
               "goals_2526": 3,
               "assists_2526": 2,
               "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Ahmed Alaaeldin",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Al Duhail",
-              "league": "Qatar Stars League",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 1,
-              "rating": 6.2,
               "notes": ""
             }
           ]
@@ -1809,24 +1444,11 @@
               "notes": ""
             },
             {
-              "name": "Yvon Mvogo",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Lorient",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
               "name": "Nico Elvedi",
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Borussia Mönchengladbach",
+              "club": "Borussia M'gladbach",
               "league": "Bundesliga",
               "goals_2425": null,
               "goals_2526": 1,
@@ -1835,7 +1457,7 @@
               "notes": ""
             },
             {
-              "name": "Ricardo Rodríguez",
+              "name": "Ricardo Rodriguez",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -1858,32 +1480,6 @@
               "goals_2526": 0,
               "assists_2526": 2,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Eray Cömert",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Valencia",
-              "league": "La Liga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Cédric Zesiger",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Wolfsburg",
-              "league": "Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
               "notes": ""
             },
             {
@@ -1923,19 +1519,6 @@
               "goals_2526": 2,
               "assists_2526": 3,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Michel Aebischer",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Bologna",
-              "league": "Serie A",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 2,
-              "rating": 6.5,
               "notes": ""
             },
             {
@@ -2079,19 +1662,6 @@
               "notes": ""
             },
             {
-              "name": "Bento",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Athletico Paranaense",
-              "league": "Brazilian Serie A",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
               "name": "Marquinhos",
               "position": "DF",
               "age": null,
@@ -2105,7 +1675,7 @@
               "notes": ""
             },
             {
-              "name": "Gabriel Magalhães",
+              "name": "Gabriel Magalhaes",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -2128,19 +1698,6 @@
               "goals_2526": 1,
               "assists_2526": 0,
               "rating": 7.0,
-              "notes": ""
-            },
-            {
-              "name": "Murillo",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Nottingham Forest",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.8,
               "notes": ""
             },
             {
@@ -2183,7 +1740,7 @@
               "notes": ""
             },
             {
-              "name": "Bruno Guimarães",
+              "name": "Bruno Guimaraes",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -2196,7 +1753,7 @@
               "notes": ""
             },
             {
-              "name": "João Gomes",
+              "name": "Joao Gomes",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -2209,20 +1766,7 @@
               "notes": ""
             },
             {
-              "name": "André",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Liverpool",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 2,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
-              "name": "Lucas Paquetá",
+              "name": "Lucas Paqueta",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -2232,6 +1776,19 @@
               "goals_2526": 4,
               "assists_2526": 5,
               "rating": 7.1,
+              "notes": ""
+            },
+            {
+              "name": "Vinicius Junior",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Real Madrid",
+              "league": "La Liga",
+              "goals_2425": null,
+              "goals_2526": 16,
+              "assists_2526": 6,
+              "rating": 7.5,
               "notes": ""
             },
             {
@@ -2259,6 +1816,19 @@
               "assists_2526": 4,
               "rating": 7.0,
               "notes": ""
+            },
+            {
+              "name": "Rodrygo",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Real Madrid",
+              "league": "La Liga",
+              "goals_2425": null,
+              "goals_2526": 8,
+              "assists_2526": 4,
+              "rating": 7.2,
+              "notes": "INJURED-Torn ACL"
             }
           ]
         },
@@ -2306,19 +1876,6 @@
               "notes": ""
             },
             {
-              "name": "Munir Mohand",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Al Wehda",
-              "league": "Saudi Pro League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
               "name": "Noussair Mazraoui",
               "position": "DF",
               "age": null,
@@ -2332,7 +1889,7 @@
               "notes": ""
             },
             {
-              "name": "Romain Saïss",
+              "name": "Romain Saiss",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -2355,32 +1912,6 @@
               "goals_2526": 1,
               "assists_2526": 0,
               "rating": 6.8,
-              "notes": ""
-            },
-            {
-              "name": "Yahya Attiat-Allah",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Al Ahly",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Chadi Riad",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Crystal Palace",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.5,
               "notes": ""
             },
             {
@@ -2423,29 +1954,16 @@
               "notes": ""
             },
             {
-              "name": "Amir Richardson",
+              "name": "Brahim Diaz",
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Reims",
-              "league": "Ligue 1",
+              "club": "Real Madrid",
+              "league": "La Liga",
               "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Ismaïl Saibari",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "PSV",
-              "league": "Eredivisie",
-              "goals_2425": null,
-              "goals_2526": 3,
-              "assists_2526": 3,
-              "rating": 6.7,
+              "goals_2526": 9,
+              "assists_2526": 5,
+              "rating": 7.2,
               "notes": ""
             },
             {
@@ -2453,7 +1971,7 @@
               "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Fenerbahçe",
+              "club": "Fenerbahce",
               "league": "Turkish Super Lig",
               "goals_2425": null,
               "goals_2526": 8,
@@ -2533,20 +2051,7 @@
               "notes": ""
             },
             {
-              "name": "Carlens Arcus",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Vitesse",
-              "league": "Eredivisie",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.0,
-              "notes": ""
-            },
-            {
-              "name": "Ricardo Adé",
+              "name": "Ricardo Ade",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -2559,29 +2064,16 @@
               "notes": ""
             },
             {
-              "name": "Alex Christian",
+              "name": "Carlens Arcus",
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "—",
-              "league": "—",
+              "club": "Vitesse",
+              "league": "Eredivisie",
               "goals_2425": null,
               "goals_2526": 0,
               "assists_2526": 0,
-              "rating": 5.8,
-              "notes": ""
-            },
-            {
-              "name": "Djimy Alexis",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.7,
+              "rating": 6.0,
               "notes": ""
             },
             {
@@ -2598,32 +2090,6 @@
               "notes": ""
             },
             {
-              "name": "Leverton Pierre",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 0,
-              "rating": 6.0,
-              "notes": ""
-            },
-            {
-              "name": "Carl Fred Sainté",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 5.9,
-              "notes": ""
-            },
-            {
               "name": "Duckens Nazon",
               "position": "FW",
               "age": null,
@@ -2634,7 +2100,7 @@
               "goals_2526": 4,
               "assists_2526": 1,
               "rating": 6.3,
-              "notes": "All-time top scorer"
+              "notes": "Top scorer"
             },
             {
               "name": "Wilson Isidor",
@@ -2647,19 +2113,6 @@
               "goals_2526": 5,
               "assists_2526": 2,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Mondy Prunier",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 0,
-              "rating": 6.0,
               "notes": ""
             }
           ]
@@ -2734,19 +2187,6 @@
               "notes": ""
             },
             {
-              "name": "Zander Clark",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Hearts",
-              "league": "Scottish Premiership",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.0,
-              "notes": ""
-            },
-            {
               "name": "Andrew Robertson",
               "position": "DF",
               "age": null,
@@ -2799,19 +2239,6 @@
               "notes": ""
             },
             {
-              "name": "Scott McKenna",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Nottingham Forest",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
               "name": "Nathan Patterson",
               "position": "DF",
               "age": null,
@@ -2822,19 +2249,6 @@
               "goals_2526": 0,
               "assists_2526": 1,
               "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Aaron Hickey",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Brentford",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 2,
-              "rating": 6.6,
               "notes": ""
             },
             {
@@ -2864,19 +2278,6 @@
               "notes": ""
             },
             {
-              "name": "Tyler Fletcher",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Manchester United U21",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.0,
-              "notes": "Replaced injured Gilmour"
-            },
-            {
               "name": "Lyndon Dykes",
               "position": "FW",
               "age": null,
@@ -2890,7 +2291,7 @@
               "notes": ""
             },
             {
-              "name": "Ché Adams",
+              "name": "Che Adams",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -2900,19 +2301,6 @@
               "goals_2526": 6,
               "assists_2526": 2,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Lawrence Shankland",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Hearts",
-              "league": "Scottish Premiership",
-              "goals_2425": null,
-              "goals_2526": 8,
-              "assists_2526": 1,
-              "rating": 6.7,
               "notes": ""
             }
           ]
@@ -2991,32 +2379,6 @@
               "notes": ""
             },
             {
-              "name": "Ethan Horvath",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Cardiff City",
-              "league": "Championship",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Gaga Slonina",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Chelsea",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
               "name": "Antonee Robinson",
               "position": "DF",
               "age": null,
@@ -3030,7 +2392,7 @@
               "notes": ""
             },
             {
-              "name": "Sergiño Dest",
+              "name": "Sergino Dest",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -3086,25 +2448,12 @@
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Borussia Mönchengladbach",
+              "club": "Borussia M'gladbach",
               "league": "Bundesliga",
               "goals_2425": null,
               "goals_2526": 0,
               "assists_2526": 1,
               "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Marlon Fossey",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Standard Liège",
-              "league": "Belgian Pro League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.4,
               "notes": ""
             },
             {
@@ -3131,19 +2480,6 @@
               "goals_2526": 3,
               "assists_2526": 4,
               "rating": 6.9,
-              "notes": ""
-            },
-            {
-              "name": "Luca de la Torre",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Celta Vigo",
-              "league": "La Liga",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.5,
               "notes": ""
             },
             {
@@ -3184,19 +2520,6 @@
               "assists_2526": 2,
               "rating": 6.9,
               "notes": ""
-            },
-            {
-              "name": "Alejandro Zendejas",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "América",
-              "league": "Liga MX",
-              "goals_2425": null,
-              "goals_2526": 5,
-              "assists_2526": 4,
-              "rating": 6.8,
-              "notes": "Replaced injured Cardoso"
             }
           ]
         },
@@ -3244,7 +2567,7 @@
               "notes": ""
             },
             {
-              "name": "Gustavo Gómez",
+              "name": "Gustavo Gomez",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -3257,7 +2580,7 @@
               "notes": "Captain"
             },
             {
-              "name": "Fabián Balbuena",
+              "name": "Fabian Balbuena",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -3270,7 +2593,7 @@
               "notes": ""
             },
             {
-              "name": "Júnior Alonso",
+              "name": "Junior Alonso",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -3283,24 +2606,24 @@
               "notes": ""
             },
             {
-              "name": "Omar Alderete",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Getafe",
-              "league": "La Liga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Mathías Villasanti",
+              "name": "Miguel Almiron",
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Grêmio",
+              "club": "Atlanta United",
+              "league": "MLS",
+              "goals_2425": null,
+              "goals_2526": 5,
+              "assists_2526": 4,
+              "rating": 6.9,
+              "notes": ""
+            },
+            {
+              "name": "Mathias Villasanti",
+              "position": "MF",
+              "age": null,
+              "caps": null,
+              "club": "Gremio",
               "league": "Brazilian Serie A",
               "goals_2425": null,
               "goals_2526": 2,
@@ -3309,20 +2632,7 @@
               "notes": ""
             },
             {
-              "name": "Richard Sánchez",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "América",
-              "league": "Liga MX",
-              "goals_2425": null,
-              "goals_2526": 3,
-              "assists_2526": 2,
-              "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Diego Gómez",
+              "name": "Diego Gomez",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -3335,7 +2645,7 @@
               "notes": ""
             },
             {
-              "name": "Ramón Sosa",
+              "name": "Ramon Sosa",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -3348,7 +2658,7 @@
               "notes": ""
             },
             {
-              "name": "Gabriel Ávalos",
+              "name": "Gabriel Avalos",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -3358,19 +2668,6 @@
               "goals_2526": 5,
               "assists_2526": 1,
               "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Alex Arce",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "LDU Quito",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 4,
-              "assists_2526": 1,
-              "rating": 6.4,
               "notes": ""
             }
           ]
@@ -3419,19 +2716,6 @@
               "notes": "Captain"
             },
             {
-              "name": "Joe Gauci",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Aston Villa",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
               "name": "Kye Rowles",
               "position": "DF",
               "age": null,
@@ -3455,19 +2739,6 @@
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Alessandro Circati",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Parma",
-              "league": "Serie A",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
               "notes": ""
             },
             {
@@ -3510,19 +2781,6 @@
               "notes": ""
             },
             {
-              "name": "Ajdin Hrustic",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Hellas Verona",
-              "league": "Serie A",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 2,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
               "name": "Cristian Volpato",
               "position": "MF",
               "age": null,
@@ -3533,7 +2791,7 @@
               "goals_2526": 2,
               "assists_2526": 2,
               "rating": 6.5,
-              "notes": "Switched from Italy"
+              "notes": ""
             },
             {
               "name": "Kusini Yengi",
@@ -3546,19 +2804,6 @@
               "goals_2526": 3,
               "assists_2526": 1,
               "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Brandon Borrello",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Western Sydney",
-              "league": "A-League",
-              "goals_2425": null,
-              "goals_2526": 3,
-              "assists_2526": 1,
-              "rating": 6.2,
               "notes": ""
             }
           ]
@@ -3607,11 +2852,11 @@
               "notes": "78 successful dribbles"
             },
             {
-              "name": "Mert Günok",
+              "name": "Mert Gunok",
               "position": "GK",
               "age": null,
               "caps": null,
-              "club": "Beşiktaş",
+              "club": "Besiktas",
               "league": "Turkish Super Lig",
               "goals_2425": null,
               "goals_2526": 0,
@@ -3620,7 +2865,7 @@
               "notes": ""
             },
             {
-              "name": "Uğurcan Çakır",
+              "name": "Ugurcan Cakir",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -3633,11 +2878,11 @@
               "notes": ""
             },
             {
-              "name": "Çağlar Söyüncü",
+              "name": "Caglar Soyuncu",
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Fenerbahçe",
+              "club": "Fenerbahce",
               "league": "Turkish Super Lig",
               "goals_2425": null,
               "goals_2526": 1,
@@ -3659,7 +2904,7 @@
               "notes": ""
             },
             {
-              "name": "Ferdi Kadıoğlu",
+              "name": "Ferdi Kadioglu",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -3672,7 +2917,7 @@
               "notes": ""
             },
             {
-              "name": "Zeki Çelik",
+              "name": "Zeki Celik",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -3685,20 +2930,20 @@
               "notes": ""
             },
             {
-              "name": "Abdülkerim Bardakcı",
-              "position": "DF",
+              "name": "Hakan Calhanoglu",
+              "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Galatasaray",
-              "league": "Turkish Super Lig",
+              "club": "Inter Milan",
+              "league": "Serie A",
               "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.5,
-              "notes": ""
+              "goals_2526": 7,
+              "assists_2526": 6,
+              "rating": 7.2,
+              "notes": "Captain"
             },
             {
-              "name": "Orkun Kökçü",
+              "name": "Orkun Kokcu",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -3711,7 +2956,7 @@
               "notes": ""
             },
             {
-              "name": "Salih Özcan",
+              "name": "Salih Ozcan",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -3724,20 +2969,33 @@
               "notes": ""
             },
             {
-              "name": "İsmail Yüksek",
+              "name": "Arda Guler",
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Fenerbahçe",
-              "league": "Turkish Super Lig",
+              "club": "Real Madrid",
+              "league": "La Liga",
               "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.5,
+              "goals_2526": 6,
+              "assists_2526": 7,
+              "rating": 7.1,
               "notes": ""
             },
             {
-              "name": "Kerem Aktürkoğlu",
+              "name": "Kenan Yildiz",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Juventus",
+              "league": "Serie A",
+              "goals_2425": null,
+              "goals_2526": 8,
+              "assists_2526": 4,
+              "rating": 7.0,
+              "notes": ""
+            },
+            {
+              "name": "Kerem Akturkoglu",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -3750,7 +3008,7 @@
               "notes": ""
             },
             {
-              "name": "Barış Alper Yılmaz",
+              "name": "Baris Alper Yilmaz",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -3838,7 +3096,7 @@
               "notes": "2448 accurate passes"
             },
             {
-              "name": "Alexander Nübel",
+              "name": "Alexander Nubel",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -3851,20 +3109,7 @@
               "notes": ""
             },
             {
-              "name": "Oliver Baumann",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Hoffenheim",
-              "league": "Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Antonio Rüdiger",
+              "name": "Antonio Rudiger",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -3929,20 +3174,7 @@
               "notes": ""
             },
             {
-              "name": "Waldemar Anton",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Borussia Dortmund",
-              "league": "Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "İlkay Gündoğan",
+              "name": "Ilkay Gundogan",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -3968,20 +3200,7 @@
               "notes": ""
             },
             {
-              "name": "Assan Ouédraogo",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "RB Leipzig",
-              "league": "Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.6,
-              "notes": "Replaced injured Karl"
-            },
-            {
-              "name": "Leroy Sané",
+              "name": "Leroy Sane",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -3994,7 +3213,7 @@
               "notes": ""
             },
             {
-              "name": "Niclas Füllkrug",
+              "name": "Niclas Fullkrug",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -4017,19 +3236,6 @@
               "goals_2526": 5,
               "assists_2526": 2,
               "rating": 6.7,
-              "notes": ""
-            },
-            {
-              "name": "Karim Adeyemi",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Borussia Dortmund",
-              "league": "Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 6,
-              "assists_2526": 3,
-              "rating": 6.9,
               "notes": ""
             }
           ]
@@ -4078,32 +3284,6 @@
               "notes": ""
             },
             {
-              "name": "Cuco Martina",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.8,
-              "notes": ""
-            },
-            {
-              "name": "Jurich Carolina",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Miedź Legnica",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.7,
-              "notes": ""
-            },
-            {
               "name": "Leandro Bacuna",
               "position": "MF",
               "age": null,
@@ -4117,19 +3297,6 @@
               "notes": "Captain"
             },
             {
-              "name": "Vurnon Anita",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 5.9,
-              "notes": ""
-            },
-            {
               "name": "Juninho Bacuna",
               "position": "MF",
               "age": null,
@@ -4140,19 +3307,6 @@
               "goals_2526": 2,
               "assists_2526": 2,
               "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Kenji Gorré",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.0,
               "notes": ""
             },
             {
@@ -4178,19 +3332,6 @@
               "goals_2425": null,
               "goals_2526": 2,
               "assists_2526": 0,
-              "rating": 6.0,
-              "notes": ""
-            },
-            {
-              "name": "Anthony van den Hurk",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 1,
               "rating": 6.0,
               "notes": ""
             }
@@ -4292,19 +3433,6 @@
               "notes": ""
             },
             {
-              "name": "Willy Boly",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Nottingham Forest",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
               "name": "Ghislain Konan",
               "position": "DF",
               "age": null,
@@ -4316,6 +3444,19 @@
               "assists_2526": 1,
               "rating": 6.3,
               "notes": ""
+            },
+            {
+              "name": "Franck Kessie",
+              "position": "MF",
+              "age": null,
+              "caps": null,
+              "club": "Al Ahli",
+              "league": "Saudi Pro League",
+              "goals_2425": null,
+              "goals_2526": 4,
+              "assists_2526": 2,
+              "rating": 6.9,
+              "notes": "Captain"
             },
             {
               "name": "Seko Fofana",
@@ -4331,7 +3472,7 @@
               "notes": ""
             },
             {
-              "name": "Ibrahim Sangaré",
+              "name": "Ibrahim Sangare",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -4344,7 +3485,20 @@
               "notes": ""
             },
             {
-              "name": "Sébastien Haller",
+              "name": "Nicolas Pepe",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Villarreal",
+              "league": "La Liga",
+              "goals_2425": null,
+              "goals_2526": 6,
+              "assists_2526": 3,
+              "rating": 6.8,
+              "notes": ""
+            },
+            {
+              "name": "Sebastien Haller",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -4354,19 +3508,6 @@
               "goals_2526": 8,
               "assists_2526": 2,
               "rating": 6.8,
-              "notes": ""
-            },
-            {
-              "name": "Jean-Philippe Krasso",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Saint-Étienne",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 4,
-              "assists_2526": 1,
-              "rating": 6.5,
               "notes": ""
             }
           ]
@@ -4428,16 +3569,29 @@
               "notes": ""
             },
             {
-              "name": "Hernán Galíndez",
+              "name": "Hernan Galindez",
               "position": "GK",
               "age": null,
               "caps": null,
-              "club": "Huracán",
+              "club": "Huracan",
               "league": "Argentine Primera",
               "goals_2425": null,
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 6.2,
+              "notes": ""
+            },
+            {
+              "name": "Piero Hincapie",
+              "position": "DF",
+              "age": null,
+              "caps": null,
+              "club": "Arsenal",
+              "league": "Premier League",
+              "goals_2425": null,
+              "goals_2526": 1,
+              "assists_2526": 1,
+              "rating": 7.0,
               "notes": ""
             },
             {
@@ -4454,7 +3608,7 @@
               "notes": ""
             },
             {
-              "name": "Félix Torres",
+              "name": "Felix Torres",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -4467,16 +3621,16 @@
               "notes": ""
             },
             {
-              "name": "Angelo Preciado",
-              "position": "DF",
+              "name": "Moises Caicedo",
+              "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Sparta Praha",
-              "league": "Czech First League",
+              "club": "Chelsea",
+              "league": "Premier League",
               "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.3,
+              "goals_2526": 2,
+              "assists_2526": 3,
+              "rating": 7.1,
               "notes": ""
             },
             {
@@ -4493,29 +3647,16 @@
               "notes": ""
             },
             {
-              "name": "Alan Franco",
+              "name": "Kendry Paez",
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Atlético Mineiro",
-              "league": "Brazilian Serie A",
+              "club": "Chelsea",
+              "league": "Premier League",
               "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Jeremy Sarmiento",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Ipswich",
-              "league": "Championship",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.4,
+              "goals_2526": 4,
+              "assists_2526": 5,
+              "rating": 6.8,
               "notes": ""
             },
             {
@@ -4532,7 +3673,7 @@
               "notes": ""
             },
             {
-              "name": "Kevin Rodríguez",
+              "name": "Kevin Rodriguez",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -4633,7 +3774,7 @@
               "notes": ""
             },
             {
-              "name": "Nathan Aké",
+              "name": "Nathan Ake",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -4685,32 +3826,6 @@
               "notes": ""
             },
             {
-              "name": "Quilindschy Hartman",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Feyenoord",
-              "league": "Eredivisie",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 2,
-              "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Stefan de Vrij",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Inter Milan",
-              "league": "Serie A",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
               "name": "Ryan Gravenberch",
               "position": "MF",
               "age": null,
@@ -4750,19 +3865,6 @@
               "notes": ""
             },
             {
-              "name": "Mats Wieffer",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Brighton",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 2,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
               "name": "Donyell Malen",
               "position": "FW",
               "age": null,
@@ -4770,7 +3872,7 @@
               "club": "Aston Villa",
               "league": "Premier League",
               "goals_2425": null,
-              "goals_2526": 18,
+              "goals_2526": 8,
               "assists_2526": 3,
               "rating": 7.0,
               "notes": ""
@@ -4787,6 +3889,19 @@
               "assists_2526": 2,
               "rating": 6.8,
               "notes": ""
+            },
+            {
+              "name": "Xavi Simons",
+              "position": "MF",
+              "age": null,
+              "caps": null,
+              "club": "Tottenham",
+              "league": "Premier League",
+              "goals_2425": null,
+              "goals_2526": 6,
+              "assists_2526": 5,
+              "rating": 7.1,
+              "notes": "INJURED-Torn ACL"
             }
           ]
         },
@@ -4847,19 +3962,6 @@
               "notes": ""
             },
             {
-              "name": "Keisuke Osako",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Sanfrecce Hiroshima",
-              "league": "J1 League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
               "name": "Hiroki Ito",
               "position": "DF",
               "age": null,
@@ -4877,7 +3979,7 @@
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Borussia Mönchengladbach",
+              "club": "Borussia M'gladbach",
               "league": "Bundesliga",
               "goals_2425": null,
               "goals_2526": 1,
@@ -4896,19 +3998,6 @@
               "goals_2526": 0,
               "assists_2526": 2,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Shogo Taniguchi",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Al Rayyan",
-              "league": "Qatar Stars League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.3,
               "notes": ""
             },
             {
@@ -4951,19 +4040,6 @@
               "notes": ""
             },
             {
-              "name": "Hidemasa Morita",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Sporting CP",
-              "league": "Liga Portugal",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
               "name": "Reo Hatate",
               "position": "MF",
               "age": null,
@@ -5001,6 +4077,19 @@
               "assists_2526": 2,
               "rating": 6.7,
               "notes": ""
+            },
+            {
+              "name": "Kaoru Mitoma",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Brighton",
+              "league": "Premier League",
+              "goals_2425": null,
+              "goals_2526": 5,
+              "assists_2526": 4,
+              "rating": 7.1,
+              "notes": "INJURED-Torn hamstring"
             }
           ]
         },
@@ -5061,7 +4150,7 @@
               "notes": ""
             },
             {
-              "name": "Victor Lindelöf",
+              "name": "Victor Lindelof",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -5084,19 +4173,6 @@
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Ludwig Augustinsson",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Anderlecht",
-              "league": "Belgian Pro League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.3,
               "notes": ""
             },
             {
@@ -5139,19 +4215,6 @@
               "notes": ""
             },
             {
-              "name": "Jens Cajuste",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Napoli",
-              "league": "Serie A",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 2,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
               "name": "Lucas Bergvall",
               "position": "MF",
               "age": null,
@@ -5165,29 +4228,16 @@
               "notes": ""
             },
             {
-              "name": "Hugo Larsson",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Eintracht Frankfurt",
-              "league": "Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
-              "name": "Niclas Eliasson",
+              "name": "Viktor Gyokeres",
               "position": "FW",
               "age": null,
               "caps": null,
-              "club": "AEK Athens",
-              "league": "Greek Super League",
+              "club": "Sporting CP",
+              "league": "Liga Portugal",
               "goals_2425": null,
-              "goals_2526": 3,
-              "assists_2526": 5,
-              "rating": 6.5,
+              "goals_2526": 22,
+              "assists_2526": 6,
+              "rating": 7.6,
               "notes": ""
             }
           ]
@@ -5223,7 +4273,7 @@
               "notes": ""
             },
             {
-              "name": "Bechir Ben Saïd",
+              "name": "Bechir Ben Said",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -5249,19 +4299,6 @@
               "notes": ""
             },
             {
-              "name": "Dylan Bronn",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Salernitana",
-              "league": "Serie B",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.1,
-              "notes": ""
-            },
-            {
               "name": "Yan Valery",
               "position": "DF",
               "age": null,
@@ -5275,20 +4312,7 @@
               "notes": ""
             },
             {
-              "name": "Ali Abdi",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Nice",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Aïssa Laïdouni",
+              "name": "Aissa Laidouni",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -5298,19 +4322,6 @@
               "goals_2526": 1,
               "assists_2526": 1,
               "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Anis Ben Slimane",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Sheffield United",
-              "league": "Championship",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 2,
-              "rating": 6.4,
               "notes": ""
             },
             {
@@ -5337,19 +4348,6 @@
               "goals_2526": 3,
               "assists_2526": 2,
               "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Elias Saad",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "St. Pauli",
-              "league": "Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 1,
-              "rating": 6.3,
               "notes": ""
             }
           ]
@@ -5413,19 +4411,6 @@
               "assists_2526": null,
               "rating": null,
               "notes": "84 successful dribbles"
-            },
-            {
-              "name": "Koen Casteels",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Al Qadsiah",
-              "league": "Saudi Pro League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.5,
-              "notes": ""
             },
             {
               "name": "Wout Faes",
@@ -5493,6 +4478,19 @@
               "notes": ""
             },
             {
+              "name": "Jeremy Doku",
+              "position": "MF",
+              "age": null,
+              "caps": null,
+              "club": "Manchester City",
+              "league": "Premier League",
+              "goals_2425": null,
+              "goals_2526": 5,
+              "assists_2526": 8,
+              "rating": 7.1,
+              "notes": ""
+            },
+            {
               "name": "Amadou Onana",
               "position": "MF",
               "age": null,
@@ -5532,19 +4530,6 @@
               "notes": ""
             },
             {
-              "name": "Orel Mangala",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Lyon",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 2,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
               "name": "Leandro Trossard",
               "position": "FW",
               "age": null,
@@ -5558,7 +4543,7 @@
               "notes": ""
             },
             {
-              "name": "Loïs Openda",
+              "name": "Lois Openda",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -5656,19 +4641,6 @@
               "notes": ""
             },
             {
-              "name": "Mohamed Hany",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Al Ahly",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
               "name": "Hamdi Fathi",
               "position": "MF",
               "age": null,
@@ -5695,20 +4667,7 @@
               "notes": ""
             },
             {
-              "name": "Marwan Attia",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Al Ahly",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Trézéguet",
+              "name": "Trezeguet",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -5771,7 +4730,7 @@
               "age": null,
               "caps": null,
               "club": "Persepolis",
-              "league": "Persian Gulf Pro League",
+              "league": "Persian Gulf PL",
               "goals_2425": null,
               "goals_2526": 0,
               "assists_2526": 0,
@@ -5784,20 +4743,7 @@
               "age": null,
               "caps": null,
               "club": "Persepolis",
-              "league": "Persian Gulf Pro League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
-              "name": "Shoja Khalilzadeh",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Tractor",
-              "league": "Persian Gulf Pro League",
+              "league": "Persian Gulf PL",
               "goals_2425": null,
               "goals_2526": 0,
               "assists_2526": 0,
@@ -5815,19 +4761,6 @@
               "goals_2526": 0,
               "assists_2526": 1,
               "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Saeid Ezatolahi",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Shabab Al Ahli",
-              "league": "UAE League",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.2,
               "notes": ""
             },
             {
@@ -5867,19 +4800,6 @@
               "goals_2526": 4,
               "assists_2526": 2,
               "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Shahriyar Moghanlou",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Sepahan",
-              "league": "Persian Gulf Pro League",
-              "goals_2425": null,
-              "goals_2526": 5,
-              "assists_2526": 1,
-              "rating": 6.3,
               "notes": ""
             }
           ]
@@ -5929,19 +4849,6 @@
               "notes": ""
             },
             {
-              "name": "Nando Pijnaker",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Sligo Rovers",
-              "league": "League of Ireland",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.8,
-              "notes": ""
-            },
-            {
               "name": "Liberato Cacace",
               "position": "DF",
               "age": null,
@@ -5952,19 +4859,6 @@
               "goals_2526": 0,
               "assists_2526": 1,
               "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Tim Payne",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Wellington Phoenix",
-              "league": "A-League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.9,
               "notes": ""
             },
             {
@@ -5994,19 +4888,6 @@
               "notes": ""
             },
             {
-              "name": "Marko Stamenic",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Nottingham Forest",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
               "name": "Ben Waine",
               "position": "FW",
               "age": null,
@@ -6017,19 +4898,6 @@
               "goals_2526": 3,
               "assists_2526": 1,
               "rating": 6.2,
-              "notes": ""
-            },
-            {
-              "name": "Callum McCowatt",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Silkeborg",
-              "league": "Danish Superliga",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 1,
-              "rating": 6.1,
               "notes": ""
             }
           ]
@@ -6108,7 +4976,7 @@
               "notes": "2628 accurate passes (2nd in La Liga)"
             },
             {
-              "name": "Unai Simón",
+              "name": "Unai Simon",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -6131,19 +4999,6 @@
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 7.3,
-              "notes": ""
-            },
-            {
-              "name": "Álex Remiro",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Real Sociedad",
-              "league": "La Liga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.7,
               "notes": ""
             },
             {
@@ -6173,7 +5028,7 @@
               "notes": ""
             },
             {
-              "name": "Fabián Ruiz",
+              "name": "Fabian Ruiz",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -6186,7 +5041,7 @@
               "notes": ""
             },
             {
-              "name": "Martín Zubimendi",
+              "name": "Martin Zubimendi",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -6199,7 +5054,7 @@
               "notes": ""
             },
             {
-              "name": "Álex Baena",
+              "name": "Alex Baena",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -6212,11 +5067,24 @@
               "notes": ""
             },
             {
+              "name": "Pau Cubarsi",
+              "position": "DF",
+              "age": null,
+              "caps": null,
+              "club": "Barcelona",
+              "league": "La Liga",
+              "goals_2425": null,
+              "goals_2526": 1,
+              "assists_2526": 1,
+              "rating": 7.0,
+              "notes": ""
+            },
+            {
               "name": "Robin Le Normand",
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Atlético Madrid",
+              "club": "Atletico Madrid",
               "league": "La Liga",
               "goals_2425": null,
               "goals_2526": 0,
@@ -6251,19 +5119,6 @@
               "notes": ""
             },
             {
-              "name": "Óscar Mingueza",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Celta Vigo",
-              "league": "La Liga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 2,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
               "name": "Ferran Torres",
               "position": "FW",
               "age": null,
@@ -6271,17 +5126,17 @@
               "club": "Barcelona",
               "league": "La Liga",
               "goals_2425": null,
-              "goals_2526": 16,
+              "goals_2526": 12,
               "assists_2526": 2,
-              "rating": 7.3,
+              "rating": 7.0,
               "notes": ""
             },
             {
-              "name": "Álvaro Morata",
+              "name": "Alvaro Morata",
               "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Atlético Madrid",
+              "club": "Atletico Madrid",
               "league": "La Liga",
               "goals_2425": null,
               "goals_2526": 8,
@@ -6335,32 +5190,6 @@
               "notes": ""
             },
             {
-              "name": "Stopira",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.6,
-              "notes": ""
-            },
-            {
-              "name": "Dylan Tavares",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.7,
-              "notes": ""
-            },
-            {
               "name": "Jamiro Monteiro",
               "position": "MF",
               "age": null,
@@ -6383,19 +5212,6 @@
               "goals_2425": null,
               "goals_2526": 1,
               "assists_2526": 1,
-              "rating": 5.9,
-              "notes": ""
-            },
-            {
-              "name": "Leandro Andrade",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 0,
               "rating": 5.9,
               "notes": ""
             },
@@ -6426,7 +5242,7 @@
               "notes": ""
             },
             {
-              "name": "Bebé",
+              "name": "Bebe",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -6436,19 +5252,6 @@
               "goals_2526": 2,
               "assists_2526": 1,
               "rating": 6.2,
-              "notes": ""
-            },
-            {
-              "name": "Lisandro Semedo",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 0,
-              "rating": 5.8,
               "notes": ""
             }
           ]
@@ -6523,19 +5326,6 @@
               "notes": ""
             },
             {
-              "name": "Yasser Al Shahrani",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Al Hilal",
-              "league": "Saudi Pro League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.1,
-              "notes": ""
-            },
-            {
               "name": "Salem Al Dawsari",
               "position": "MF",
               "age": null,
@@ -6562,19 +5352,6 @@
               "notes": ""
             },
             {
-              "name": "Abdulelah Al Malki",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Al Hilal",
-              "league": "Saudi Pro League",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
               "name": "Feras Al Brikan",
               "position": "FW",
               "age": null,
@@ -6598,19 +5375,6 @@
               "goals_2526": 4,
               "assists_2526": 1,
               "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Abdullah Radif",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Al Hilal",
-              "league": "Saudi Pro League",
-              "goals_2425": null,
-              "goals_2526": 3,
-              "assists_2526": 1,
-              "rating": 6.3,
               "notes": ""
             }
           ]
@@ -6672,11 +5436,24 @@
               "notes": ""
             },
             {
-              "name": "José María Giménez",
+              "name": "Ronald Araujo",
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Atlético Madrid",
+              "club": "Barcelona",
+              "league": "La Liga",
+              "goals_2425": null,
+              "goals_2526": 2,
+              "assists_2526": 1,
+              "rating": 7.1,
+              "notes": ""
+            },
+            {
+              "name": "Jose Maria Gimenez",
+              "position": "DF",
+              "age": null,
+              "caps": null,
+              "club": "Atletico Madrid",
               "league": "La Liga",
               "goals_2425": null,
               "goals_2526": 1,
@@ -6685,11 +5462,11 @@
               "notes": "Injury doubt"
             },
             {
-              "name": "Sebastián Cáceres",
+              "name": "Sebastian Caceres",
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "América",
+              "club": "America",
               "league": "Liga MX",
               "goals_2425": null,
               "goals_2526": 0,
@@ -6698,7 +5475,7 @@
               "notes": ""
             },
             {
-              "name": "Mathías Olivera",
+              "name": "Mathias Olivera",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -6711,7 +5488,7 @@
               "notes": ""
             },
             {
-              "name": "Nahitan Nández",
+              "name": "Nahitan Nandez",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -6763,41 +5540,28 @@
               "notes": "Injury doubt"
             },
             {
-              "name": "Facundo Pellistri",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Manchester United",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 3,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Federico Viñas",
+              "name": "Darwin Nunez",
               "position": "FW",
               "age": null,
               "caps": null,
-              "club": "León",
+              "club": "Liverpool",
+              "league": "Premier League",
+              "goals_2425": null,
+              "goals_2526": 9,
+              "assists_2526": 3,
+              "rating": 6.9,
+              "notes": ""
+            },
+            {
+              "name": "Federico Vinas",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Leon",
               "league": "Liga MX",
               "goals_2425": null,
               "goals_2526": 6,
               "assists_2526": 2,
-              "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Maximiliano Araújo",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Toluca",
-              "league": "Liga MX",
-              "goals_2425": null,
-              "goals_2526": 4,
-              "assists_2526": 3,
               "rating": 6.6,
               "notes": ""
             }
@@ -6916,7 +5680,7 @@
               "notes": ""
             },
             {
-              "name": "Ibrahima Konaté",
+              "name": "Ibrahima Konate",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -6942,7 +5706,7 @@
               "notes": ""
             },
             {
-              "name": "Théo Hernandez",
+              "name": "Theo Hernandez",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -6955,7 +5719,7 @@
               "notes": ""
             },
             {
-              "name": "Jules Koundé",
+              "name": "Jules Kounde",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -6968,20 +5732,7 @@
               "notes": ""
             },
             {
-              "name": "Jonathan Clauss",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Marseille",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 3,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
-              "name": "Aurélien Tchouaméni",
+              "name": "Aurelien Tchouameni",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -7007,7 +5758,7 @@
               "notes": ""
             },
             {
-              "name": "Warren Zaïre-Emery",
+              "name": "Warren Zaire-Emery",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -7017,6 +5768,19 @@
               "goals_2526": 2,
               "assists_2526": 3,
               "rating": 7.0,
+              "notes": ""
+            },
+            {
+              "name": "NGolo Kante",
+              "position": "MF",
+              "age": null,
+              "caps": null,
+              "club": "Al Ittihad",
+              "league": "Saudi Pro League",
+              "goals_2425": null,
+              "goals_2526": 1,
+              "assists_2526": 2,
+              "rating": 7.1,
               "notes": ""
             },
             {
@@ -7030,6 +5794,32 @@
               "goals_2526": 2,
               "assists_2526": 2,
               "rating": 6.8,
+              "notes": ""
+            },
+            {
+              "name": "Kylian Mbappe",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Real Madrid",
+              "league": "La Liga",
+              "goals_2425": null,
+              "goals_2526": 25,
+              "assists_2526": 5,
+              "rating": 7.9,
+              "notes": "Captain"
+            },
+            {
+              "name": "Ousmane Dembele",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "PSG",
+              "league": "Ligue 1",
+              "goals_2425": null,
+              "goals_2526": 11,
+              "assists_2526": 12,
+              "rating": 7.5,
               "notes": ""
             },
             {
@@ -7057,19 +5847,6 @@
               "assists_2526": 3,
               "rating": 7.1,
               "notes": ""
-            },
-            {
-              "name": "Jean-Philippe Mateta",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Crystal Palace",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 7,
-              "assists_2526": 2,
-              "rating": 6.8,
-              "notes": "Replaced injured Ekitiké"
             }
           ]
         },
@@ -7117,7 +5894,7 @@
               "notes": ""
             },
             {
-              "name": "Édouard Mendy",
+              "name": "Edouard Mendy",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -7143,20 +5920,7 @@
               "notes": ""
             },
             {
-              "name": "Ismaël Jakobs",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Monaco",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 2,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Moussa Niakhaté",
+              "name": "Moussa Niakhate",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -7208,20 +5972,20 @@
               "notes": ""
             },
             {
-              "name": "Pathé Ciss",
-              "position": "MF",
+              "name": "Sadio Mane",
+              "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Rayo Vallecano",
-              "league": "La Liga",
+              "club": "Al Nassr",
+              "league": "Saudi Pro League",
               "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.4,
+              "goals_2526": 13,
+              "assists_2526": 6,
+              "rating": 7.3,
               "notes": ""
             },
             {
-              "name": "Ismaïla Sarr",
+              "name": "Ismaila Sarr",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -7305,19 +6069,6 @@
               "notes": ""
             },
             {
-              "name": "Ali Adnan",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 5.8,
-              "notes": ""
-            },
-            {
               "name": "Amir Al Ammari",
               "position": "MF",
               "age": null,
@@ -7326,19 +6077,6 @@
               "league": "—",
               "goals_2425": null,
               "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 5.7,
-              "notes": ""
-            },
-            {
-              "name": "Ibrahim Bayesh",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
               "assists_2526": 1,
               "rating": 5.7,
               "notes": ""
@@ -7428,7 +6166,7 @@
               "notes": ""
             },
             {
-              "name": "Ørjan Nyland",
+              "name": "Orjan Nyland",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -7441,7 +6179,7 @@
               "notes": ""
             },
             {
-              "name": "Leo Østigård",
+              "name": "Leo Ostigard",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -7480,17 +6218,17 @@
               "notes": ""
             },
             {
-              "name": "David Møller Wolfe",
-              "position": "DF",
+              "name": "Martin Odegaard",
+              "position": "MF",
               "age": null,
               "caps": null,
-              "club": "AZ Alkmaar",
-              "league": "Eredivisie",
+              "club": "Arsenal",
+              "league": "Premier League",
               "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.4,
-              "notes": ""
+              "goals_2526": 8,
+              "assists_2526": 11,
+              "rating": 7.4,
+              "notes": "Captain"
             },
             {
               "name": "Sander Berge",
@@ -7519,20 +6257,20 @@
               "notes": ""
             },
             {
-              "name": "Kristian Thorstvedt",
-              "position": "MF",
+              "name": "Alexander Sorloth",
+              "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Sassuolo",
-              "league": "Serie A",
+              "club": "Atletico Madrid",
+              "league": "La Liga",
               "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.5,
+              "goals_2526": 10,
+              "assists_2526": 3,
+              "rating": 7.0,
               "notes": ""
             },
             {
-              "name": "Jørgen Strand Larsen",
+              "name": "Jorgen Strand Larsen",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -7620,20 +6358,20 @@
               "notes": ""
             },
             {
-              "name": "Gerónimo Rulli",
+              "name": "Emiliano Martinez",
               "position": "GK",
               "age": null,
               "caps": null,
-              "club": "Ajax",
-              "league": "Eredivisie",
+              "club": "Aston Villa",
+              "league": "Premier League",
               "goals_2425": null,
               "goals_2526": 0,
               "assists_2526": 0,
-              "rating": 6.5,
+              "rating": 7.3,
               "notes": ""
             },
             {
-              "name": "Nicolás Otamendi",
+              "name": "Nicolas Otamendi",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -7646,7 +6384,7 @@
               "notes": ""
             },
             {
-              "name": "Lisandro Martínez",
+              "name": "Lisandro Martinez",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -7659,30 +6397,30 @@
               "notes": ""
             },
             {
-              "name": "Marcos Acuña",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Sevilla",
-              "league": "La Liga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 2,
-              "rating": 6.6,
-              "notes": ""
-            },
-            {
               "name": "Nahuel Molina",
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Atlético Madrid",
+              "club": "Atletico Madrid",
               "league": "La Liga",
               "goals_2425": null,
               "goals_2526": 0,
               "assists_2526": 2,
               "rating": 6.8,
               "notes": "Injury doubt"
+            },
+            {
+              "name": "Enzo Fernandez",
+              "position": "MF",
+              "age": null,
+              "caps": null,
+              "club": "Chelsea",
+              "league": "Premier League",
+              "goals_2425": null,
+              "goals_2526": 4,
+              "assists_2526": 6,
+              "rating": 7.2,
+              "notes": ""
             },
             {
               "name": "Alexis Mac Allister",
@@ -7711,19 +6449,6 @@
               "notes": ""
             },
             {
-              "name": "Exequiel Palacios",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Bayer Leverkusen",
-              "league": "Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.8,
-              "notes": ""
-            },
-            {
               "name": "Leandro Paredes",
               "position": "MF",
               "age": null,
@@ -7737,11 +6462,24 @@
               "notes": "Injury doubt"
             },
             {
-              "name": "Julián Álvarez",
+              "name": "Lautaro Martinez",
               "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Atlético Madrid",
+              "club": "Inter Milan",
+              "league": "Serie A",
+              "goals_2425": null,
+              "goals_2526": 17,
+              "assists_2526": 6,
+              "rating": 7.5,
+              "notes": ""
+            },
+            {
+              "name": "Julian Alvarez",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Atletico Madrid",
               "league": "La Liga",
               "goals_2425": null,
               "goals_2526": 13,
@@ -7750,7 +6488,7 @@
               "notes": ""
             },
             {
-              "name": "Ángel Di María",
+              "name": "Angel Di Maria",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -7847,20 +6585,20 @@
               "notes": ""
             },
             {
-              "name": "Aïssa Mandi",
+              "name": "Rayan Ait-Nouri",
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Villarreal",
-              "league": "La Liga",
+              "club": "Manchester City",
+              "league": "Premier League",
               "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
+              "goals_2526": 1,
+              "assists_2526": 3,
+              "rating": 7.0,
               "notes": ""
             },
             {
-              "name": "Ismaël Bennacer",
+              "name": "Ismael Bennacer",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -7870,32 +6608,6 @@
               "goals_2526": 2,
               "assists_2526": 3,
               "rating": 6.8,
-              "notes": ""
-            },
-            {
-              "name": "Hicham Boudaoui",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Nice",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
-              "name": "Rayan Cherki",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Lyon",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 5,
-              "assists_2526": 6,
-              "rating": 7.0,
               "notes": ""
             },
             {
@@ -7912,6 +6624,19 @@
               "notes": ""
             },
             {
+              "name": "Rayan Cherki",
+              "position": "MF",
+              "age": null,
+              "caps": null,
+              "club": "Lyon",
+              "league": "Ligue 1",
+              "goals_2425": null,
+              "goals_2526": 5,
+              "assists_2526": 6,
+              "rating": 7.0,
+              "notes": ""
+            },
+            {
               "name": "Amine Gouiri",
               "position": "FW",
               "age": null,
@@ -7922,19 +6647,6 @@
               "goals_2526": 8,
               "assists_2526": 4,
               "rating": 7.0,
-              "notes": ""
-            },
-            {
-              "name": "Baghdad Bounedjah",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "Al Sadd",
-              "league": "Qatar Stars League",
-              "goals_2425": null,
-              "goals_2526": 5,
-              "assists_2526": 1,
-              "rating": 6.5,
               "notes": ""
             }
           ]
@@ -8009,19 +6721,6 @@
               "notes": ""
             },
             {
-              "name": "Maximilian Wöber",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Leeds United",
-              "league": "Championship",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
               "name": "Stefan Posch",
               "position": "DF",
               "age": null,
@@ -8061,29 +6760,16 @@
               "notes": ""
             },
             {
-              "name": "Xaver Schlager",
-              "position": "MF",
+              "name": "Marko Arnautovic",
+              "position": "FW",
               "age": null,
               "caps": null,
-              "club": "RB Leipzig",
-              "league": "Bundesliga",
+              "club": "Inter Milan",
+              "league": "Serie A",
               "goals_2425": null,
-              "goals_2526": 1,
+              "goals_2526": 5,
               "assists_2526": 2,
-              "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Carney Chukwuemeka",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Chelsea",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.6,
+              "rating": 6.7,
               "notes": ""
             },
             {
@@ -8168,19 +6854,6 @@
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 5.4,
-              "notes": ""
-            },
-            {
-              "name": "Ehsan Haddad",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Al Faisaly",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.3,
               "notes": ""
             },
             {
@@ -8311,20 +6984,20 @@
               "notes": ""
             },
             {
-              "name": "Rui Patrício",
-              "position": "GK",
+              "name": "Ruben Dias",
+              "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Roma",
-              "league": "Serie A",
+              "club": "Manchester City",
+              "league": "Premier League",
               "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.5,
+              "goals_2526": 2,
+              "assists_2526": 1,
+              "rating": 7.1,
               "notes": ""
             },
             {
-              "name": "Gonçalo Inácio",
+              "name": "Goncalo Inacio",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -8337,7 +7010,7 @@
               "notes": ""
             },
             {
-              "name": "António Silva",
+              "name": "Antonio Silva",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -8363,7 +7036,7 @@
               "notes": ""
             },
             {
-              "name": "João Cancelo",
+              "name": "Joao Cancelo",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -8373,19 +7046,6 @@
               "goals_2526": 1,
               "assists_2526": 4,
               "rating": 7.0,
-              "notes": ""
-            },
-            {
-              "name": "Diogo Dalot",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Manchester United",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 2,
-              "rating": 6.7,
               "notes": ""
             },
             {
@@ -8402,7 +7062,7 @@
               "notes": ""
             },
             {
-              "name": "João Palhinha",
+              "name": "Joao Palhinha",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -8415,20 +7075,20 @@
               "notes": ""
             },
             {
-              "name": "Otávio",
-              "position": "MF",
+              "name": "Rafael Leao",
+              "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Al Nassr",
-              "league": "Saudi Pro League",
+              "club": "AC Milan",
+              "league": "Serie A",
               "goals_2425": null,
-              "goals_2526": 3,
-              "assists_2526": 4,
-              "rating": 6.7,
+              "goals_2526": 11,
+              "assists_2526": 7,
+              "rating": 7.2,
               "notes": ""
             },
             {
-              "name": "Gonçalo Ramos",
+              "name": "Goncalo Ramos",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -8454,7 +7114,7 @@
               "notes": ""
             },
             {
-              "name": "Francisco Conceição",
+              "name": "Francisco Conceicao",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -8525,32 +7185,6 @@
               "notes": "Captain"
             },
             {
-              "name": "Axel Tuanzebe",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "West Ham",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Joris Kayembe",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Genk",
-              "league": "Belgian Pro League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.2,
-              "notes": ""
-            },
-            {
               "name": "Edo Kayembe",
               "position": "MF",
               "age": null,
@@ -8561,19 +7195,6 @@
               "goals_2526": 2,
               "assists_2526": 2,
               "rating": 6.4,
-              "notes": ""
-            },
-            {
-              "name": "Samuel Moutoussamy",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Nantes",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.3,
               "notes": ""
             },
             {
@@ -8590,7 +7211,7 @@
               "notes": ""
             },
             {
-              "name": "Cédric Bakambu",
+              "name": "Cedric Bakambu",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -8648,19 +7269,6 @@
               "notes": ""
             },
             {
-              "name": "Farrukh Sayfiev",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Pakhtakor",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.4,
-              "notes": ""
-            },
-            {
               "name": "Khojiakbar Alijonov",
               "position": "DF",
               "age": null,
@@ -8671,19 +7279,6 @@
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 5.3,
-              "notes": ""
-            },
-            {
-              "name": "Odiljon Hamrobekov",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Pakhtakor",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 5.5,
               "notes": ""
             },
             {
@@ -8705,7 +7300,7 @@
               "age": null,
               "caps": null,
               "club": "Persepolis",
-              "league": "Persian Gulf Pro League",
+              "league": "Persian Gulf PL",
               "goals_2425": null,
               "goals_2526": 2,
               "assists_2526": 1,
@@ -8784,7 +7379,7 @@
               "notes": ""
             },
             {
-              "name": "Daniel Muñoz",
+              "name": "Daniel Munoz",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -8797,7 +7392,7 @@
               "notes": ""
             },
             {
-              "name": "Davinson Sánchez",
+              "name": "Davinson Sanchez",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -8810,7 +7405,7 @@
               "notes": ""
             },
             {
-              "name": "Jhon Lucumí",
+              "name": "Jhon Lucumi",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -8820,19 +7415,6 @@
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 6.6,
-              "notes": ""
-            },
-            {
-              "name": "Johan Mojica",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Osasuna",
-              "league": "La Liga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 1,
-              "rating": 6.4,
               "notes": ""
             },
             {
@@ -8849,17 +7431,17 @@
               "notes": ""
             },
             {
-              "name": "Richard Ríos",
+              "name": "James Rodriguez",
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Palmeiras",
-              "league": "Brazilian Serie A",
+              "club": "Minnesota United",
+              "league": "MLS",
               "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 2,
-              "rating": 6.6,
-              "notes": ""
+              "goals_2526": 6,
+              "assists_2526": 10,
+              "rating": 7.2,
+              "notes": "Captain"
             },
             {
               "name": "Jhon Arias",
@@ -8875,7 +7457,20 @@
               "notes": ""
             },
             {
-              "name": "Rafael Santos Borré",
+              "name": "Luis Diaz",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Bayern Munich",
+              "league": "Bundesliga",
+              "goals_2425": null,
+              "goals_2526": 15,
+              "assists_2526": 9,
+              "rating": 7.5,
+              "notes": ""
+            },
+            {
+              "name": "Rafael Santos Borre",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -8888,7 +7483,7 @@
               "notes": ""
             },
             {
-              "name": "Jhon Durán",
+              "name": "Jhon Duran",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -9002,19 +7597,6 @@
               "notes": ""
             },
             {
-              "name": "Dean Henderson",
-              "position": "GK",
-              "age": null,
-              "caps": null,
-              "club": "Crystal Palace",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.5,
-              "notes": ""
-            },
-            {
               "name": "John Stones",
               "position": "DF",
               "age": null,
@@ -9028,7 +7610,7 @@
               "notes": ""
             },
             {
-              "name": "Marc Guéhi",
+              "name": "Marc Guehi",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -9080,19 +7662,6 @@
               "notes": ""
             },
             {
-              "name": "Rico Lewis",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Manchester City",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 2,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
               "name": "Levi Colwill",
               "position": "DF",
               "age": null,
@@ -9110,7 +7679,7 @@
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Atlético Madrid",
+              "club": "Atletico Madrid",
               "league": "La Liga",
               "goals_2425": null,
               "goals_2526": 4,
@@ -9129,19 +7698,6 @@
               "goals_2526": 2,
               "assists_2526": 3,
               "rating": 6.9,
-              "notes": ""
-            },
-            {
-              "name": "Morgan Gibbs-White",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Nottingham Forest",
-              "league": "Premier League",
-              "goals_2425": null,
-              "goals_2526": 15,
-              "assists_2526": 4,
-              "rating": 7.1,
               "notes": ""
             },
             {
@@ -9181,6 +7737,19 @@
               "goals_2526": 12,
               "assists_2526": 6,
               "rating": 7.3,
+              "notes": ""
+            },
+            {
+              "name": "Morgan Gibbs-White",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Nottingham Forest",
+              "league": "Premier League",
+              "goals_2425": null,
+              "goals_2526": 8,
+              "assists_2526": 7,
+              "rating": 6.9,
               "notes": ""
             }
           ]
@@ -9242,11 +7811,11 @@
               "notes": ""
             },
             {
-              "name": "Dominik Livaković",
+              "name": "Dominik Livakovic",
               "position": "GK",
               "age": null,
               "caps": null,
-              "club": "Fenerbahçe",
+              "club": "Fenerbahce",
               "league": "Turkish Super Lig",
               "goals_2425": null,
               "goals_2526": 0,
@@ -9255,7 +7824,20 @@
               "notes": ""
             },
             {
-              "name": "Josip Šutalo",
+              "name": "Josko Gvardiol",
+              "position": "DF",
+              "age": null,
+              "caps": null,
+              "club": "Manchester City",
+              "league": "Premier League",
+              "goals_2425": null,
+              "goals_2526": 3,
+              "assists_2526": 2,
+              "rating": 7.2,
+              "notes": ""
+            },
+            {
+              "name": "Josip Sutalo",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -9281,7 +7863,7 @@
               "notes": ""
             },
             {
-              "name": "Josip Stanišić",
+              "name": "Josip Stanisic",
               "position": "DF",
               "age": null,
               "caps": null,
@@ -9294,20 +7876,33 @@
               "notes": ""
             },
             {
-              "name": "Martin Erlić",
-              "position": "DF",
+              "name": "Luka Modric",
+              "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Sassuolo",
-              "league": "Serie A",
+              "club": "Real Madrid",
+              "league": "La Liga",
               "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.3,
+              "goals_2526": 4,
+              "assists_2526": 7,
+              "rating": 7.3,
+              "notes": "Captain, 6th WC"
+            },
+            {
+              "name": "Mateo Kovacic",
+              "position": "MF",
+              "age": null,
+              "caps": null,
+              "club": "Manchester City",
+              "league": "Premier League",
+              "goals_2425": null,
+              "goals_2526": 2,
+              "assists_2526": 3,
+              "rating": 7.0,
               "notes": ""
             },
             {
-              "name": "Marcelo Brozović",
+              "name": "Marcelo Brozovic",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -9333,20 +7928,7 @@
               "notes": ""
             },
             {
-              "name": "Martin Baturina",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Dinamo Zagreb",
-              "league": "Croatian HNL",
-              "goals_2425": null,
-              "goals_2526": 2,
-              "assists_2526": 3,
-              "rating": 6.7,
-              "notes": ""
-            },
-            {
-              "name": "Ivan Perišić",
+              "name": "Ivan Perisic",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -9356,6 +7938,19 @@
               "goals_2526": 4,
               "assists_2526": 4,
               "rating": 6.8,
+              "notes": ""
+            },
+            {
+              "name": "Andrej Kramaric",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Hoffenheim",
+              "league": "Bundesliga",
+              "goals_2425": null,
+              "goals_2526": 7,
+              "assists_2526": 3,
+              "rating": 6.9,
               "notes": ""
             },
             {
@@ -9460,25 +8055,12 @@
               "position": "DF",
               "age": null,
               "caps": null,
-              "club": "Fenerbahçe",
+              "club": "Fenerbahce",
               "league": "Turkish Super Lig",
               "goals_2425": null,
               "goals_2526": 0,
               "assists_2526": 0,
               "rating": 6.3,
-              "notes": ""
-            },
-            {
-              "name": "Gideon Mensah",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "Auxerre",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 6.2,
               "notes": ""
             },
             {
@@ -9495,19 +8077,6 @@
               "notes": "Injury doubt"
             },
             {
-              "name": "Elisha Owusu",
-              "position": "MF",
-              "age": null,
-              "caps": null,
-              "club": "Auxerre",
-              "league": "Ligue 1",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 1,
-              "rating": 6.3,
-              "notes": ""
-            },
-            {
               "name": "Ernest Nuamah",
               "position": "MF",
               "age": null,
@@ -9518,6 +8087,19 @@
               "goals_2526": 3,
               "assists_2526": 2,
               "rating": 6.5,
+              "notes": ""
+            },
+            {
+              "name": "Inaki Williams",
+              "position": "FW",
+              "age": null,
+              "caps": null,
+              "club": "Athletic Bilbao",
+              "league": "La Liga",
+              "goals_2425": null,
+              "goals_2526": 6,
+              "assists_2526": 4,
+              "rating": 6.9,
               "notes": ""
             },
             {
@@ -9566,7 +8148,7 @@
               "notes": ""
             },
             {
-              "name": "Luis Mejía",
+              "name": "Luis Mejia",
               "position": "GK",
               "age": null,
               "caps": null,
@@ -9592,20 +8174,7 @@
               "notes": ""
             },
             {
-              "name": "Andrés Andrade",
-              "position": "DF",
-              "age": null,
-              "caps": null,
-              "club": "LASK",
-              "league": "Austrian Bundesliga",
-              "goals_2425": null,
-              "goals_2526": 0,
-              "assists_2526": 0,
-              "rating": 5.8,
-              "notes": ""
-            },
-            {
-              "name": "Aníbal Godoy",
+              "name": "Anibal Godoy",
               "position": "MF",
               "age": null,
               "caps": null,
@@ -9618,11 +8187,11 @@
               "notes": ""
             },
             {
-              "name": "Édgar Bárcenas",
+              "name": "Edgar Barcenas",
               "position": "MF",
               "age": null,
               "caps": null,
-              "club": "Mazatlán",
+              "club": "Mazatlan",
               "league": "Liga MX",
               "goals_2425": null,
               "goals_2526": 2,
@@ -9631,7 +8200,7 @@
               "notes": ""
             },
             {
-              "name": "José Fajardo",
+              "name": "Jose Fajardo",
               "position": "FW",
               "age": null,
               "caps": null,
@@ -9644,29 +8213,16 @@
               "notes": ""
             },
             {
-              "name": "Ismael Díaz",
+              "name": "Ismael Diaz",
               "position": "FW",
               "age": null,
               "caps": null,
-              "club": "Universidad Católica",
+              "club": "Universidad Catolica",
               "league": "—",
               "goals_2425": null,
               "goals_2526": 1,
               "assists_2526": 0,
               "rating": 5.9,
-              "notes": ""
-            },
-            {
-              "name": "Cecilio Waterman",
-              "position": "FW",
-              "age": null,
-              "caps": null,
-              "club": "—",
-              "league": "—",
-              "goals_2425": null,
-              "goals_2526": 1,
-              "assists_2526": 0,
-              "rating": 5.8,
               "notes": ""
             }
           ]
