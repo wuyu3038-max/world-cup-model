@@ -1,19 +1,19 @@
 {
-  "updated": "2026-06-11T20:52:44.842604",
-  "total_articles": 32,
+  "updated": "2026-06-11T14:27:00.967434",
+  "total_articles": 30,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 15,
-    "bbc_sport": 12,
-    "sky_sports": 5,
+    "espn_fc": 13,
+    "bbc_sport": 13,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
     {
       "id": "f7a0000a3125",
-      "title": "The World Cup of more: There's never been a tourna...",
+      "title": "Why this will be a World Cup like no other",
       "url": "https://www.espn.com/soccer/story/_/id/49020473/2026-fifa-world-cup-more-never-tournament-infantino-trump",
-      "published_at": "Thu, 11 Jun 2026 08:34:15 EST",
+      "published_at": "Thu, 11 Jun 2026 10:08:42 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Welcome to the 2026 World Cup, where everything is bigger and louder than ever before."
@@ -31,7 +31,7 @@
       "id": "65d11457ce59",
       "title": "FIFA prez: People should 'chill' over WC visa issu...",
       "url": "https://www.espn.com/soccer/story/_/id/49021490/fifa-president-gianni-infantino-world-cup-visa-usa-ticket-prices",
-      "published_at": "Thu, 11 Jun 2026 08:34:20 EST",
+      "published_at": "Thu, 11 Jun 2026 09:30:04 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "FIFA president Gianni Infantino said the organization cannot dictate to the U.S. government who to allow into its country for the World Cup, saying that sometimes it is better to \"chill and relax\" ove"
@@ -40,7 +40,7 @@
       "id": "5450cb596c09",
       "title": "Barcelona sign teenage Egypt World Cup striker",
       "url": "https://www.espn.com/soccer/story/_/id/49027314/barcelona-sign-18-year-old-world-cup-striker-hamza-abdelkarim",
-      "published_at": "Thu, 11 Jun 2026 08:33:57 EST",
+      "published_at": "Thu, 11 Jun 2026 09:29:48 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Barcelona have completed the signing of Egypt international Hamza Abdelkarim from Al Ahly for an initial fee of €1.5 million ($1.7m)."
@@ -49,7 +49,7 @@
       "id": "e913e55f8a3d",
       "title": "Morocco replace Aguerd, Ezzalzouli for World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/49027277/morocco-cut-injured-aguerd-ezzalzouli-last-minute-world-cup-reshuffle",
-      "published_at": "Thu, 11 Jun 2026 08:34:20 EST",
+      "published_at": "Thu, 11 Jun 2026 09:30:04 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Morocco have made two injury-enforced changes from their World Cup squad with Nayef Aguerd and Abde Ezzalzouli both being replaced."
@@ -58,7 +58,7 @@
       "id": "167259fbf7d8",
       "title": "Spain, France open World Cup as betting favorites",
       "url": "https://www.espn.com/soccer/story/_/id/49025269/spain-france-lead-world-cup-odds-usa-bettors-back-home-team",
-      "published_at": "Thu, 11 Jun 2026 08:33:56 EST",
+      "published_at": "Thu, 11 Jun 2026 09:29:47 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "France and Spain are the betting favorites to win the 2026 World Cup, while heavy backing for Team USA is creating massive liabilities for sportsbooks."
@@ -67,25 +67,16 @@
       "id": "9ffa8c7986bd",
       "title": "Richards 'ready' for USMNT opener after injury",
       "url": "https://www.espn.com/soccer/story/_/id/49020900/usa-chris-richards-injury-world-cup-2026-paraguay",
-      "published_at": "Thu, 11 Jun 2026 08:33:56 EST",
+      "published_at": "Thu, 11 Jun 2026 09:29:47 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "USMNT defender Chris Richards says his recovery from a sprained ankle has progressed to the point where he's \"ready\" to face Paraguay in the team's World Cup opener on Friday."
     },
     {
-      "id": "38af6f49f7fa",
-      "title": "Tuchel: England ready to 'come alive' at World Cup...",
-      "url": "https://www.espn.com/soccer/story/_/id/49023366/tuchel-england-ready-come-alive-world-cup-dominant-win",
-      "published_at": "Thu, 11 Jun 2026 08:33:56 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "England coach Thomas Tuchel said after his team's dominant win over Costa Rica on Wednesday that the Three Lions are starting to \"click\" into gear ahead of the World Cup."
-    },
-    {
       "id": "ef8e4f2fad96",
       "title": "📈 Ranking the 50 best players in the World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Thu, 11 Jun 2026 08:34:20 EST",
+      "published_at": "Thu, 11 Jun 2026 09:30:04 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
@@ -119,12 +110,12 @@
     },
     {
       "id": "10fdfcc6ead6",
-      "title": "Mexico's Mora is poised to be World Cup's breakout...",
+      "title": "Mora poised to be World Cup breakout star: 'This g...",
       "url": "https://www.espn.com/soccer/story/_/id/48999966/mexico-gilberto-mora-poised-world-cup-breakout-star-guy-different",
-      "published_at": "Thu, 11 Jun 2026 08:43:41 EST",
+      "published_at": "Thu, 11 Jun 2026 10:01:37 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "Getting beyond the quarterfinals would be historic for Mexico. Lucky for El Tri, they have a 17-year-old who can't stop making history."
+      "summary": "null"
     },
     {
       "id": "7025c967ba74",
@@ -136,22 +127,22 @@
       "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
     },
     {
-      "id": "9195a1764a8c",
-      "title": "Final World Cup Power Rankings before the tourname...",
-      "url": "https://www.espn.com/soccer/story/_/id/49001555/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina",
-      "published_at": "Thu, 11 Jun 2026 08:46:34 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Our reporters ranked the top 15 contenders for this summer's top prize as they see it right now."
-    },
-    {
-      "id": "8adaf3ce8fe7",
-      "title": "Dalglish, Souness & Rod Stewart - Scotland's World Cup '86 remembered",
-      "url": "https://www.bbc.com/sport/football/articles/c62xqg7l6w9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 10:49:29 GMT",
+      "id": "83ae6de41952",
+      "title": "Artan to referee Uefa Super Cup after losing World Cup spot",
+      "url": "https://www.bbc.com/sport/football/articles/c2kyx0l0499o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 14:24:58 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Remembering Scotland's 1986 World Cup campaign, their fourth successive appearance at the tournament."
+      "summary": "Somali referee Omar Artan is appointed to take charge of the Uefa Super Cup match between Paris St-Germain and Aston Villa later this summer after being denied a spot at the World Cup."
+    },
+    {
+      "id": "d1bbb121968d",
+      "title": "Fatigue? The World Cup players with the toughest seasons",
+      "url": "https://www.bbc.com/sport/football/articles/c05yz1yr08mo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 13:55:27 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport examines which World Cup teams and players have played the most minutes since last summer, when the Club World Cup was kicking off in the United States."
     },
     {
       "id": "c4af920874ed",
@@ -208,6 +199,15 @@
       "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
     },
     {
+      "id": "8adaf3ce8fe7",
+      "title": "Dalglish, Souness & Rod Stewart - Scotland's World Cup '86 remembered",
+      "url": "https://www.bbc.com/sport/football/articles/c62xqg7l6w9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 10:49:29 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Remembering Scotland's 1986 World Cup campaign, their fourth successive appearance at the tournament."
+    },
+    {
       "id": "4ec96f404929",
       "title": "Infantino could have stood up for the World Cup - but he said 'chill, relax'",
       "url": "https://www.bbc.com/sport/football/articles/cvgj40vymlyo?at_medium=RSS&at_campaign=rss",
@@ -233,15 +233,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Which World Cup stars have roots near you? Find out with our interactive lookup tool"
-    },
-    {
-      "id": "0035165bda22",
-      "title": "All you need to know about South Africa before World Cup opener",
-      "url": "https://www.bbc.com/sport/football/articles/cj0p6n8r9q2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 05 Jun 2026 15:25:26 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we take a closer look at South Africa."
     },
     {
       "id": "9f2507f852f8",
@@ -287,15 +278,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "All you need to know about the BetVictor World Cup of Darts 2026 as No 1 Luke Littler joins forces with No 2 Luke Humphries to represent Team England."
-    },
-    {
-      "id": "bb7dd362e7b7",
-      "title": "'A huge moment' - Can England seize Women's T20 World Cup opportunity?",
-      "url": "https://www.skysports.com/cricket/news/12040/13551969/icc-womens-t20-world-cup-england-want-to-emulate-lionesses-and-inspire-more-women-and-girls-to-play-cricket-ahead-of-tournament",
-      "published_at": "Thu, 11 Jun 2026 08:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Women's cricket is on the rise. But this summer's ICC Women's T20 World Cup is set to bring even more eyes to the sport."
     }
   ]
 }
