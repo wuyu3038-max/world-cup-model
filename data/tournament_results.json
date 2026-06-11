@@ -355,7 +355,7 @@
     "Mexico": {
       "nation": "Mexico",
       "elo_rating": 1944,
-      "elo_strength": 19.4,
+      "elo_strength": 23.6,
       "attack_score": 10.7,
       "defense_score": 1.0,
       "form_trend": 0.0,
@@ -372,7 +372,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 8.7,
+      "combined": 11.5,
       "elite_players": 5,
       "fifa_rank": 1944,
       "version": "v5"
@@ -380,7 +380,7 @@
     "South Africa": {
       "nation": "South Africa",
       "elo_rating": 1392,
-      "elo_strength": 13.9,
+      "elo_strength": 9.8,
       "attack_score": 4.0,
       "defense_score": 0.0,
       "form_trend": 0.0,
@@ -397,7 +397,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 5.2,
+      "combined": 4.6,
       "elite_players": 0,
       "fifa_rank": 1392,
       "version": "v5"
@@ -405,7 +405,7 @@
     "South Korea": {
       "nation": "South Korea",
       "elo_rating": 1851,
-      "elo_strength": 18.5,
+      "elo_strength": 21.3,
       "attack_score": 19.3,
       "defense_score": 0.85,
       "form_trend": 0.0,
@@ -422,7 +422,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 10.2,
+      "combined": 12.0,
       "elite_players": 5,
       "fifa_rank": 1851,
       "version": "v5"
@@ -430,7 +430,7 @@
     "Czech Republic": {
       "nation": "Czech Republic",
       "elo_rating": 1634,
-      "elo_strength": 16.3,
+      "elo_strength": 15.8,
       "attack_score": 11.5,
       "defense_score": 1.47,
       "form_trend": -0.238,
@@ -447,7 +447,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 7.5,
+      "combined": 8.3,
       "elite_players": 11,
       "fifa_rank": 1634,
       "version": "v5"
@@ -455,7 +455,7 @@
     "Canada": {
       "nation": "Canada",
       "elo_rating": 1792,
-      "elo_strength": 17.9,
+      "elo_strength": 19.8,
       "attack_score": 12.2,
       "defense_score": 0.0,
       "form_trend": 0.062,
@@ -477,7 +477,7 @@
         "penalty": 1.5,
         "status": "[SIGNIFICANT] — key absences affecting strength"
       },
-      "combined": 8.3,
+      "combined": 9.9,
       "elite_players": 3,
       "fifa_rank": 1792,
       "version": "v5"
@@ -485,7 +485,7 @@
     "Bosnia-Herzegovina": {
       "nation": "Bosnia-Herzegovina",
       "elo_rating": 1384,
-      "elo_strength": 13.8,
+      "elo_strength": 9.6,
       "attack_score": 13.6,
       "defense_score": 0.0,
       "form_trend": 0.067,
@@ -502,7 +502,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 7.4,
+      "combined": 6.4,
       "elite_players": 4,
       "fifa_rank": 1384,
       "version": "v5"
@@ -510,7 +510,7 @@
     "Qatar": {
       "nation": "Qatar",
       "elo_rating": 1452,
-      "elo_strength": 14.5,
+      "elo_strength": 11.3,
       "attack_score": 4.1,
       "defense_score": 2.0,
       "form_trend": 0.0,
@@ -527,7 +527,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 5.7,
+      "combined": 5.5,
       "elite_players": 0,
       "fifa_rank": 1452,
       "version": "v5"
@@ -535,7 +535,7 @@
     "Switzerland": {
       "nation": "Switzerland",
       "elo_rating": 1908,
-      "elo_strength": 19.1,
+      "elo_strength": 22.7,
       "attack_score": 6.8,
       "defense_score": 2.61,
       "form_trend": 0.0,
@@ -552,7 +552,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 8.1,
+      "combined": 10.8,
       "elite_players": 13,
       "fifa_rank": 1908,
       "version": "v5"
@@ -560,7 +560,7 @@
     "Brazil": {
       "nation": "Brazil",
       "elo_rating": 2108,
-      "elo_strength": 21.1,
+      "elo_strength": 27.7,
       "attack_score": 18.5,
       "defense_score": 2.97,
       "form_trend": 0.061,
@@ -584,7 +584,7 @@
         "penalty": 2.5,
         "status": "[CRISIS] — multiple key players out"
       },
-      "combined": 11.7,
+      "combined": 15.3,
       "elite_players": 18,
       "fifa_rank": 2108,
       "version": "v5"
@@ -592,7 +592,7 @@
     "Morocco": {
       "nation": "Morocco",
       "elo_rating": 2054,
-      "elo_strength": 20.5,
+      "elo_strength": 26.4,
       "attack_score": 13.0,
       "defense_score": 1.93,
       "form_trend": 0.0,
@@ -611,7 +611,7 @@
         "penalty": 0.385,
         "status": "[MINOR] — some concerns but core intact"
       },
-      "combined": 9.7,
+      "combined": 13.1,
       "elite_players": 9,
       "fifa_rank": 2054,
       "version": "v5"
@@ -619,7 +619,7 @@
     "Haiti": {
       "nation": "Haiti",
       "elo_rating": 1200,
-      "elo_strength": 12.0,
+      "elo_strength": 5.0,
       "attack_score": 3.9,
       "defense_score": 0.45,
       "form_trend": 0.0,
@@ -636,7 +636,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 4.6,
+      "combined": 2.8,
       "elite_players": 1,
       "fifa_rank": 1200,
       "version": "v5"
@@ -644,7 +644,7 @@
     "Scotland": {
       "nation": "Scotland",
       "elo_rating": 1638,
-      "elo_strength": 16.4,
+      "elo_strength": 15.9,
       "attack_score": 7.0,
       "defense_score": 0.92,
       "form_trend": -0.417,
@@ -663,7 +663,7 @@
         "penalty": 0.55,
         "status": "[MINOR] — some concerns but core intact"
       },
-      "combined": 5.9,
+      "combined": 7.0,
       "elite_players": 5,
       "fifa_rank": 1638,
       "version": "v5"
@@ -671,7 +671,7 @@
     "United States": {
       "nation": "United States",
       "elo_rating": 1920,
-      "elo_strength": 19.2,
+      "elo_strength": 23.0,
       "attack_score": 15.3,
       "defense_score": 2.41,
       "form_trend": 0.273,
@@ -693,7 +693,7 @@
         "penalty": 0.413,
         "status": "[MINOR] — some concerns but core intact"
       },
-      "combined": 10.5,
+      "combined": 12.8,
       "elite_players": 11,
       "fifa_rank": 1920,
       "version": "v5"
@@ -701,7 +701,7 @@
     "Paraguay": {
       "nation": "Paraguay",
       "elo_rating": 1632,
-      "elo_strength": 16.3,
+      "elo_strength": 15.8,
       "attack_score": 6.7,
       "defense_score": 0.75,
       "form_trend": 0.0,
@@ -720,7 +720,7 @@
         "penalty": 0.7,
         "status": "[MINOR] — some concerns but core intact"
       },
-      "combined": 6.6,
+      "combined": 7.5,
       "elite_players": 2,
       "fifa_rank": 1632,
       "version": "v5"
@@ -728,7 +728,7 @@
     "Australia": {
       "nation": "Australia",
       "elo_rating": 1788,
-      "elo_strength": 17.9,
+      "elo_strength": 19.7,
       "attack_score": 3.3,
       "defense_score": 0.75,
       "form_trend": 0.0,
@@ -747,7 +747,7 @@
         "penalty": 0.08,
         "status": "[MOSTLY FIT] — minor issues only"
       },
-      "combined": 6.4,
+      "combined": 8.4,
       "elite_players": 3,
       "fifa_rank": 1788,
       "version": "v5"
@@ -755,7 +755,7 @@
     "Turkey": {
       "nation": "Turkey",
       "elo_rating": 1848,
-      "elo_strength": 18.5,
+      "elo_strength": 21.2,
       "attack_score": 11.7,
       "defense_score": 1.81,
       "form_trend": 0.0,
@@ -772,7 +772,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 8.8,
+      "combined": 10.9,
       "elite_players": 9,
       "fifa_rank": 1848,
       "version": "v5"
@@ -780,7 +780,7 @@
     "Germany": {
       "nation": "Germany",
       "elo_rating": 2066,
-      "elo_strength": 20.7,
+      "elo_strength": 26.6,
       "attack_score": 20.2,
       "defense_score": 3.9,
       "form_trend": 0.167,
@@ -801,7 +801,7 @@
         "penalty": 0.58,
         "status": "[MINOR] — some concerns but core intact"
       },
-      "combined": 12.4,
+      "combined": 15.5,
       "elite_players": 16,
       "fifa_rank": 2066,
       "version": "v5"
@@ -809,7 +809,7 @@
     "Curacao": {
       "nation": "Curacao",
       "elo_rating": 1200,
-      "elo_strength": 12.0,
+      "elo_strength": 5.0,
       "attack_score": 2.3,
       "defense_score": 0.0,
       "form_trend": 0.0,
@@ -826,7 +826,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 4.2,
+      "combined": 2.5,
       "elite_players": 0,
       "fifa_rank": 1200,
       "version": "v5"
@@ -834,7 +834,7 @@
     "Ivory Coast": {
       "nation": "Ivory Coast",
       "elo_rating": 1704,
-      "elo_strength": 17.0,
+      "elo_strength": 17.6,
       "attack_score": 7.9,
       "defense_score": 0.35,
       "form_trend": 0.0,
@@ -851,7 +851,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 7.2,
+      "combined": 8.5,
       "elite_players": 7,
       "fifa_rank": 1704,
       "version": "v5"
@@ -859,7 +859,7 @@
     "Ecuador": {
       "nation": "Ecuador",
       "elo_rating": 1824,
-      "elo_strength": 18.2,
+      "elo_strength": 20.6,
       "attack_score": 6.2,
       "defense_score": 1.4,
       "form_trend": 0.0,
@@ -876,7 +876,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 7.4,
+      "combined": 9.5,
       "elite_players": 6,
       "fifa_rank": 1824,
       "version": "v5"
@@ -884,7 +884,7 @@
     "Netherlands": {
       "nation": "Netherlands",
       "elo_rating": 2096,
-      "elo_strength": 21.0,
+      "elo_strength": 27.4,
       "attack_score": 15.8,
       "defense_score": 5.44,
       "form_trend": 0.0,
@@ -906,7 +906,7 @@
         "penalty": 2.5,
         "status": "[CRISIS] — multiple key players out"
       },
-      "combined": 11.1,
+      "combined": 14.7,
       "elite_players": 14,
       "fifa_rank": 2096,
       "version": "v5"
@@ -914,7 +914,7 @@
     "Japan": {
       "nation": "Japan",
       "elo_rating": 1905,
-      "elo_strength": 19.1,
+      "elo_strength": 22.6,
       "attack_score": 9.1,
       "defense_score": 2.35,
       "form_trend": 0.0,
@@ -934,7 +934,7 @@
         "penalty": 1.55,
         "status": "[SIGNIFICANT] — key absences affecting strength"
       },
-      "combined": 8.4,
+      "combined": 11.0,
       "elite_players": 9,
       "fifa_rank": 1905,
       "version": "v5"
@@ -942,7 +942,7 @@
     "Sweden": {
       "nation": "Sweden",
       "elo_rating": 1682,
-      "elo_strength": 16.8,
+      "elo_strength": 17.1,
       "attack_score": 26.3,
       "defense_score": 1.3,
       "form_trend": -0.174,
@@ -959,7 +959,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 10.7,
+      "combined": 11.3,
       "elite_players": 8,
       "fifa_rank": 1682,
       "version": "v5"
@@ -967,7 +967,7 @@
     "Tunisia": {
       "nation": "Tunisia",
       "elo_rating": 1560,
-      "elo_strength": 15.6,
+      "elo_strength": 14.0,
       "attack_score": 2.5,
       "defense_score": 0.23,
       "form_trend": 0.0,
@@ -984,7 +984,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 5.5,
+      "combined": 6.0,
       "elite_players": 4,
       "fifa_rank": 1560,
       "version": "v5"
@@ -992,7 +992,7 @@
     "Belgium": {
       "nation": "Belgium",
       "elo_rating": 2084,
-      "elo_strength": 20.8,
+      "elo_strength": 27.1,
       "attack_score": 17.8,
       "defense_score": 2.58,
       "form_trend": -0.5,
@@ -1009,7 +1009,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 10.2,
+      "combined": 13.9,
       "elite_players": 13,
       "fifa_rank": 2084,
       "version": "v5"
@@ -1017,7 +1017,7 @@
     "Egypt": {
       "nation": "Egypt",
       "elo_rating": 1808,
-      "elo_strength": 18.1,
+      "elo_strength": 20.2,
       "attack_score": 16.3,
       "defense_score": 0.0,
       "form_trend": -0.26,
@@ -1034,7 +1034,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 8.8,
+      "combined": 10.6,
       "elite_players": 4,
       "fifa_rank": 1808,
       "version": "v5"
@@ -1042,7 +1042,7 @@
     "Iran": {
       "nation": "Iran",
       "elo_rating": 1860,
-      "elo_strength": 18.6,
+      "elo_strength": 21.5,
       "attack_score": 5.2,
       "defense_score": 0.25,
       "form_trend": 0.0,
@@ -1059,7 +1059,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 6.9,
+      "combined": 9.3,
       "elite_players": 1,
       "fifa_rank": 1860,
       "version": "v5"
@@ -1067,7 +1067,7 @@
     "New Zealand": {
       "nation": "New Zealand",
       "elo_rating": 1224,
-      "elo_strength": 12.2,
+      "elo_strength": 5.6,
       "attack_score": 14.9,
       "defense_score": 0.0,
       "form_trend": 0.1,
@@ -1084,7 +1084,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 7.3,
+      "combined": 5.1,
       "elite_players": 2,
       "fifa_rank": 1224,
       "version": "v5"
@@ -1092,7 +1092,7 @@
     "Spain": {
       "nation": "Spain",
       "elo_rating": 2144,
-      "elo_strength": 21.4,
+      "elo_strength": 28.6,
       "attack_score": 22.7,
       "defense_score": 6.94,
       "form_trend": 0.714,
@@ -1116,7 +1116,7 @@
         "penalty": 0.865,
         "status": "[MINOR] — some concerns but core intact"
       },
-      "combined": 15.2,
+      "combined": 18.5,
       "elite_players": 19,
       "fifa_rank": 2144,
       "version": "v5"
@@ -1124,7 +1124,7 @@
     "Cape Verde": {
       "nation": "Cape Verde",
       "elo_rating": 1296,
-      "elo_strength": 13.0,
+      "elo_strength": 7.4,
       "attack_score": 1.9,
       "defense_score": 0.0,
       "form_trend": 0.0,
@@ -1141,7 +1141,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 4.4,
+      "combined": 3.3,
       "elite_players": 2,
       "fifa_rank": 1296,
       "version": "v5"
@@ -1149,7 +1149,7 @@
     "Saudi Arabia": {
       "nation": "Saudi Arabia",
       "elo_rating": 1380,
-      "elo_strength": 13.8,
+      "elo_strength": 9.5,
       "attack_score": 4.1,
       "defense_score": 0.0,
       "form_trend": 0.0,
@@ -1166,7 +1166,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 5.2,
+      "combined": 4.6,
       "elite_players": 1,
       "fifa_rank": 1380,
       "version": "v5"
@@ -1174,7 +1174,7 @@
     "Uruguay": {
       "nation": "Uruguay",
       "elo_rating": 1940,
-      "elo_strength": 19.4,
+      "elo_strength": 23.5,
       "attack_score": 13.0,
       "defense_score": 1.66,
       "form_trend": 0.0,
@@ -1194,7 +1194,7 @@
         "penalty": 1.085,
         "status": "[SIGNIFICANT] — key absences affecting strength"
       },
-      "combined": 9.3,
+      "combined": 12.0,
       "elite_players": 10,
       "fifa_rank": 1940,
       "version": "v5"
@@ -1202,7 +1202,7 @@
     "France": {
       "nation": "France",
       "elo_rating": 2151,
-      "elo_strength": 21.5,
+      "elo_strength": 28.8,
       "attack_score": 29.4,
       "defense_score": 4.26,
       "form_trend": -0.295,
@@ -1221,7 +1221,7 @@
         "penalty": 0.25,
         "status": "[MOSTLY FIT] — minor issues only"
       },
-      "combined": 13.3,
+      "combined": 17.1,
       "elite_players": 19,
       "fifa_rank": 2151,
       "version": "v5"
@@ -1229,7 +1229,7 @@
     "Senegal": {
       "nation": "Senegal",
       "elo_rating": 1982,
-      "elo_strength": 19.8,
+      "elo_strength": 24.6,
       "attack_score": 10.3,
       "defense_score": 1.03,
       "form_trend": 0.0,
@@ -1246,7 +1246,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 8.7,
+      "combined": 11.7,
       "elite_players": 7,
       "fifa_rank": 1982,
       "version": "v5"
@@ -1254,7 +1254,7 @@
     "Iraq": {
       "nation": "Iraq",
       "elo_rating": 1456,
-      "elo_strength": 14.6,
+      "elo_strength": 11.4,
       "attack_score": 1.1,
       "defense_score": 0.0,
       "form_trend": 0.0,
@@ -1273,7 +1273,7 @@
         "penalty": 0.25,
         "status": "[MOSTLY FIT] — minor issues only"
       },
-      "combined": 4.7,
+      "combined": 4.6,
       "elite_players": 0,
       "fifa_rank": 1456,
       "version": "v5"
@@ -1281,7 +1281,7 @@
     "Norway": {
       "nation": "Norway",
       "elo_rating": 1794,
-      "elo_strength": 17.9,
+      "elo_strength": 19.9,
       "attack_score": 30.6,
       "defense_score": 2.6,
       "form_trend": 0.164,
@@ -1298,7 +1298,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 12.2,
+      "combined": 13.4,
       "elite_players": 12,
       "fifa_rank": 1794,
       "version": "v5"
@@ -1306,7 +1306,7 @@
     "Argentina": {
       "nation": "Argentina",
       "elo_rating": 2156,
-      "elo_strength": 21.6,
+      "elo_strength": 28.9,
       "attack_score": 18.9,
       "defense_score": 4.5,
       "form_trend": 0.417,
@@ -1332,7 +1332,7 @@
         "penalty": 1.835,
         "status": "[SIGNIFICANT] — key absences affecting strength"
       },
-      "combined": 13.0,
+      "combined": 16.7,
       "elite_players": 14,
       "fifa_rank": 2156,
       "version": "v5"
@@ -1340,7 +1340,7 @@
     "Algeria": {
       "nation": "Algeria",
       "elo_rating": 1823,
-      "elo_strength": 18.2,
+      "elo_strength": 20.6,
       "attack_score": 8.5,
       "defense_score": 1.26,
       "form_trend": 0.0,
@@ -1357,7 +1357,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 7.8,
+      "combined": 9.8,
       "elite_players": 7,
       "fifa_rank": 1823,
       "version": "v5"
@@ -1365,7 +1365,7 @@
     "Austria": {
       "nation": "Austria",
       "elo_rating": 1880,
-      "elo_strength": 18.8,
+      "elo_strength": 22.0,
       "attack_score": 6.8,
       "defense_score": 1.17,
       "form_trend": 0.0,
@@ -1384,7 +1384,7 @@
         "penalty": 0.55,
         "status": "[MINOR] — some concerns but core intact"
       },
-      "combined": 7.7,
+      "combined": 10.2,
       "elite_players": 9,
       "fifa_rank": 1880,
       "version": "v5"
@@ -1392,7 +1392,7 @@
     "Jordan": {
       "nation": "Jordan",
       "elo_rating": 1406,
-      "elo_strength": 14.1,
+      "elo_strength": 10.2,
       "attack_score": 3.9,
       "defense_score": 0.0,
       "form_trend": 0.0,
@@ -1409,7 +1409,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 5.2,
+      "combined": 4.7,
       "elite_players": 2,
       "fifa_rank": 1406,
       "version": "v5"
@@ -1417,7 +1417,7 @@
     "Portugal": {
       "nation": "Portugal",
       "elo_rating": 2132,
-      "elo_strength": 21.3,
+      "elo_strength": 28.3,
       "attack_score": 22.9,
       "defense_score": 2.95,
       "form_trend": 0.0,
@@ -1434,7 +1434,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 12.8,
+      "combined": 16.4,
       "elite_players": 13,
       "fifa_rank": 2132,
       "version": "v5"
@@ -1442,7 +1442,7 @@
     "Congo DR": {
       "nation": "Congo DR",
       "elo_rating": 1572,
-      "elo_strength": 15.7,
+      "elo_strength": 14.3,
       "attack_score": 14.7,
       "defense_score": 0.0,
       "form_trend": 0.053,
@@ -1459,7 +1459,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 8.2,
+      "combined": 8.3,
       "elite_players": 2,
       "fifa_rank": 1572,
       "version": "v5"
@@ -1467,7 +1467,7 @@
     "Uzbekistan": {
       "nation": "Uzbekistan",
       "elo_rating": 1512,
-      "elo_strength": 15.1,
+      "elo_strength": 12.8,
       "attack_score": 3.4,
       "defense_score": 0.0,
       "form_trend": 0.0,
@@ -1484,7 +1484,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 5.4,
+      "combined": 5.6,
       "elite_players": 2,
       "fifa_rank": 1512,
       "version": "v5"
@@ -1492,7 +1492,7 @@
     "Colombia": {
       "nation": "Colombia",
       "elo_rating": 2006,
-      "elo_strength": 20.1,
+      "elo_strength": 25.1,
       "attack_score": 22.0,
       "defense_score": 0.35,
       "form_trend": 0.0,
@@ -1509,7 +1509,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 11.4,
+      "combined": 14.1,
       "elite_players": 8,
       "fifa_rank": 2006,
       "version": "v5"
@@ -1517,7 +1517,7 @@
     "England": {
       "nation": "England",
       "elo_rating": 2144,
-      "elo_strength": 21.4,
+      "elo_strength": 28.6,
       "attack_score": 24.7,
       "defense_score": 5.67,
       "form_trend": 0.423,
@@ -1538,7 +1538,7 @@
         "penalty": 0.325,
         "status": "[MINOR] — some concerns but core intact"
       },
-      "combined": 14.7,
+      "combined": 18.1,
       "elite_players": 18,
       "fifa_rank": 2144,
       "version": "v5"
@@ -1546,7 +1546,7 @@
     "Croatia": {
       "nation": "Croatia",
       "elo_rating": 2060,
-      "elo_strength": 20.6,
+      "elo_strength": 26.5,
       "attack_score": 9.9,
       "defense_score": 2.48,
       "form_trend": 0.0,
@@ -1563,7 +1563,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 9.2,
+      "combined": 12.8,
       "elite_players": 11,
       "fifa_rank": 2060,
       "version": "v5"
@@ -1571,7 +1571,7 @@
     "Ghana": {
       "nation": "Ghana",
       "elo_rating": 1260,
-      "elo_strength": 12.6,
+      "elo_strength": 6.5,
       "attack_score": 13.8,
       "defense_score": 1.3,
       "form_trend": 0.0,
@@ -1590,7 +1590,7 @@
         "penalty": 0.7,
         "status": "[MINOR] — some concerns but core intact"
       },
-      "combined": 7.2,
+      "combined": 5.4,
       "elite_players": 9,
       "fifa_rank": 1260,
       "version": "v5"
@@ -1598,7 +1598,7 @@
     "Panama": {
       "nation": "Panama",
       "elo_rating": 1716,
-      "elo_strength": 17.2,
+      "elo_strength": 17.9,
       "attack_score": 2.8,
       "defense_score": 0.0,
       "form_trend": 0.0,
@@ -1615,7 +1615,7 @@
         "penalty": 0.0,
         "status": "[CLEAN] — Clean bill of health"
       },
-      "combined": 5.8,
+      "combined": 7.4,
       "elite_players": 0,
       "fifa_rank": 1716,
       "version": "v5"
