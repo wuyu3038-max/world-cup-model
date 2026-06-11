@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-11T22:52:44.811980",
+    "last_updated": "2026-06-11T23:53:05.914095",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -812,27 +812,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Morocco replace Aguerd, Ezzalzouli for World Cup",
-      "nations": [
-        "Morocco"
-      ],
-      "source": "ESPN FC",
-      "url": "https://www.espn.com/soccer/story/_/id/49027277/morocco-cut-injured-aguerd-ezzalzouli-last-minute-world-cup-reshuffle",
-      "summary": "Morocco have made two injury-enforced changes from their World Cup squad with Nayef Aguerd and Abde Ezzalzouli both being replaced.",
-      "published": "Thu, 11 Jun 2026 09:30:04 EST"
-    },
-    {
-      "title": "Richards 'ready' for USMNT opener after injury",
-      "nations": [
-        "United States",
-        "Paraguay"
-      ],
-      "source": "ESPN FC",
-      "url": "https://www.espn.com/soccer/story/_/id/49020900/usa-chris-richards-injury-world-cup-2026-paraguay",
-      "summary": "USMNT defender Chris Richards says his recovery from a sprained ankle has progressed to the point where he's \"ready\" to face Paraguay in the team's World Cup opener on Friday.",
-      "published": "Thu, 11 Jun 2026 09:29:47 EST"
-    }
-  ]
+  "_news_injury_alerts": []
 }
