@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-11T17:52:43.199575",
-  "total_articles": 36,
+  "updated": "2026-06-11T18:52:43.288238",
+  "total_articles": 37,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 14,
-    "bbc_sport": 13,
-    "sky_sports": 9,
+    "espn_fc": 15,
+    "bbc_sport": 14,
+    "sky_sports": 8,
     "goal_com": 0
   },
   "articles": [
@@ -13,10 +13,19 @@
       "id": "8fecd8de876a",
       "title": "World Cup predictions: 19 ESPN experts make their ...",
       "url": "https://www.espn.com/soccer/story/_/id/49011009/world-cup-2026-bold-predictions-winners-awards-golden-ball-breakout-stars-best-matches",
-      "published_at": "Thu, 11 Jun 2026 03:49:03 EST",
+      "published_at": "Thu, 11 Jun 2026 06:06:00 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The World Cup has arrived! It's time for ESPN's experts to make their picks for silverware, surprise results and everything in between."
+    },
+    {
+      "id": "234f2faa4767",
+      "title": "World Cup Daily: Finally, the biggest tournament e...",
+      "url": "https://www.espn.com/soccer/story/_/id/49012835/world-cup-daily-biggest-tournament-ever-begin-mexico-vs-sa",
+      "published_at": "Thu, 11 Jun 2026 05:46:52 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the updates from across North America on the first day of the 2026 FIFA World Cup."
     },
     {
       "id": "65d11457ce59",
@@ -226,6 +235,15 @@
       "summary": "Who will win, who might spring a surprise and how will England and Scotland do? BBC pundits predict what will happen at the 2026 World Cup."
     },
     {
+      "id": "d39e8b4b1ce5",
+      "title": "Which World Cup stars have roots near you?",
+      "url": "https://www.bbc.com/news/articles/cn75y330kpjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 23:13:43 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Which World Cup stars have roots near you? Find out with our interactive lookup tool"
+    },
+    {
       "id": "36df8ee33e79",
       "title": "World Cup fever meets protest in Mexico City ",
       "url": "https://www.bbc.com/sport/football/articles/cjrg4qxz7g4o?at_medium=RSS&at_campaign=rss",
@@ -251,6 +269,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC sports editor Dan Roan quizzes Fifa president Gianni Infantino on the eve of the World Cup, after he told journalists to \"chill\" and \"relax\" over visa and ticketing issues."
+    },
+    {
+      "id": "7216f08dd8e7",
+      "title": "Mexico vs South Africa: Predict the score for the World Cup opener",
+      "url": "https://www.skysports.com/football/mexico-vs-south-africa/live/549767",
+      "published_at": "Thu, 11 Jun 2026 11:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     },
     {
       "id": "f2945432fe40",
@@ -280,6 +307,15 @@
       "summary": "Declan Rice reacts to his first England match since lifting the Premier League with Arsenal and admits that it was hard to relax for too long on holiday with the World Cup around the corner. "
     },
     {
+      "id": "f992a9bdd1e7",
+      "title": "Williams' Queen's doubles campaign ends after Mboko injury withdrawal",
+      "url": "https://www.skysports.com/tennis/news/12040/13552863/serena-williams-victoria-mboko-injury-withdrawal-ends-queens-club-doubles-campaign-on-return-to-tennis",
+      "published_at": "Thu, 11 Jun 2026 11:17:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Serena Williams is out of the Queen's Club doubles after her playing partner Victoria Mboko's knee injury forced the pair to withdraw from the tournament "
+    },
+    {
       "id": "45f044bf8bc3",
       "title": "World Cup of Darts: Meet the cult stars you MUST watch",
       "url": "https://www.skysports.com/darts/news/12040/13551189/world-cup-of-darts-2026-players-to-watch-with-paul-lim-motomu-sakai-man-lok-leung-and-nitin-kumar-in-action",
@@ -305,33 +341,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "England set the tone for their World Cup challenge  in their convincing 3-0 win over Costa Rica, according to boss Thomas Tuchel."
-    },
-    {
-      "id": "7f687e0d8f53",
-      "title": "Complete guide to all 12 World Cup groups",
-      "url": "https://www.skysports.com/football/story-telling/12040/13550118/world-cup-2026-group-guides-england-and-scotland-group-analysis-fixtures-squads-and-everything-you-need-on-all-12-groups",
-      "published_at": "Tue, 02 Jun 2026 13:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "28a33c872d98",
-      "title": "World Cup 2026 fixture schedule - your day-by-day guide",
-      "url": "https://www.skysports.com/football/news/12040/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland",
-      "published_at": "Tue, 09 Dec 2025 09:23:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "With all 48 teams now qualified for the 2026 World Cup, here's your day-by-day breakdown of the 37-day tournament, which kicks off in Mexico on June 11 with 103 matches leading up to the World Cup fin"
-    },
-    {
-      "id": "82448032c9f8",
-      "title": "Are England now ready to go and win the World Cup?",
-      "url": "https://www.skysports.com/football/news/12040/13552812/world-cup-england-win-final-warm-up-against-costa-rica-so-are-they-ready-to-challenge-for-tournament-glory",
-      "published_at": "Thu, 11 Jun 2026 01:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Declan Rice called it a \"top performance\" against Costa Rica. It left Thomas Tuchel \"very proud\". So are England now primed and ready to go on and win the World Cup?"
     }
   ]
 }
