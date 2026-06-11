@@ -1,9 +1,9 @@
 {
-  "updated": "2026-06-11T14:27:00.967434",
-  "total_articles": 30,
+  "updated": "2026-06-11T22:52:44.615887",
+  "total_articles": 31,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 13,
+    "espn_fc": 14,
     "bbc_sport": 13,
     "sky_sports": 4,
     "goal_com": 0
@@ -103,10 +103,10 @@
       "id": "8fecd8de876a",
       "title": "World Cup predictions: 19 ESPN experts make their ...",
       "url": "https://www.espn.com/soccer/story/_/id/49011009/world-cup-2026-bold-predictions-winners-awards-golden-ball-breakout-stars-best-matches",
-      "published_at": "Thu, 11 Jun 2026 08:40:50 EST",
+      "published_at": "Thu, 11 Jun 2026 10:36:04 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "The World Cup has arrived! It's time for ESPN's experts to make their picks for silverware, surprise results and everything in between."
+      "summary": "null"
     },
     {
       "id": "10fdfcc6ead6",
@@ -125,6 +125,15 @@
       "source": "ESPN FC",
       "language": "en",
       "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
+    },
+    {
+      "id": "ab078500aca5",
+      "title": "2026 World Cup betting preview: One bet to make on...",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48807078/fifa-world-cup-betting-preview-best-bets-picks-odds-props-futures-2026",
+      "published_at": "Thu, 11 Jun 2026 10:36:25 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "So many teams, so many games. Looking to place some bets? Here's one to make on every team in the 2026 World Cup tournament."
     },
     {
       "id": "83ae6de41952",
