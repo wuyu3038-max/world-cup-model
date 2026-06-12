@@ -1,9 +1,9 @@
 {
-  "updated": "2026-06-12T15:53:14.248303",
-  "total_articles": 16,
+  "updated": "2026-06-12T16:53:15.169819",
+  "total_articles": 17,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 12,
+    "espn_fc": 13,
     "bbc_sport": 0,
     "sky_sports": 4,
     "goal_com": 0
@@ -64,6 +64,24 @@
       "summary": "Eleven NFL stadiums are playing host to the World Cup this summer, but each have required substantial alterations to host the beautiful game."
     },
     {
+      "id": "90dfa9542268",
+      "title": "Inside England's World Cup prep: Tuchel's squad su...",
+      "url": "https://www.espn.com/soccer/story/_/id/49029911/inside-england-world-cup-prep-thomas-tuchel-squad-survive-storms-heat-florida",
+      "published_at": "Fri, 12 Jun 2026 04:26:59 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "ESPN followed England throughout their pre-World Cup preparations to answer one question: Are they ready to win a first major tournament in 60 years?"
+    },
+    {
+      "id": "5f967ecff31b",
+      "title": "For Brazil, 24 years after their last World Cup ti...",
+      "url": "https://www.espn.com/soccer/story/_/id/49021550/24-years-their-last-world-cup-title-win-bust-brazil",
+      "published_at": "Fri, 12 Jun 2026 04:26:59 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Brazil are the most successful team in World Cup history. But after not winning the title in 24 years, can Carlo Ancelotti's side finally end that run?"
+    },
+    {
       "id": "234f2faa4767",
       "title": "World Cup Daily LIVE: Finally, the biggest tournam...",
       "url": "https://www.espn.com/soccer/story/_/id/49012835/world-cup-daily-biggest-tournament-ever-begin-mexico-vs-sa",
@@ -107,15 +125,6 @@
       "source": "ESPN FC",
       "language": "en",
       "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
-    },
-    {
-      "id": "ab078500aca5",
-      "title": "2026 World Cup betting preview: One bet to make on...",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48807078/fifa-world-cup-betting-preview-best-bets-picks-odds-props-futures-2026",
-      "published_at": "Thu, 11 Jun 2026 10:36:25 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "So many teams, so many games. Looking to place some bets? Here's one to make on every team in the 2026 World Cup tournament."
     },
     {
       "id": "8483b08180ad",
