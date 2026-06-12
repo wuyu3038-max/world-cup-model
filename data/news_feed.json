@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-12T16:53:15.169819",
+  "updated": "2026-06-12T17:53:14.056442",
   "total_articles": 17,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 13,
+    "espn_fc": 12,
     "bbc_sport": 0,
-    "sky_sports": 4,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
@@ -35,6 +35,15 @@
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
+    },
+    {
+      "id": "050db524f4b1",
+      "title": "World Cup Daily LIVE: Haaland at Stanley Cup; USMN...",
+      "url": "https://www.espn.com/soccer/story/_/id/49032307/world-cup-daily-live-usmnt-canada-opening-games",
+      "published_at": "Fri, 12 Jun 2026 05:42:03 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the updates from the World Cup as we have two matches Friday, with features, news, video analysis and color from around the competition."
     },
     {
       "id": "e7ad65070b9e",
@@ -82,24 +91,6 @@
       "summary": "Brazil are the most successful team in World Cup history. But after not winning the title in 24 years, can Carlo Ancelotti's side finally end that run?"
     },
     {
-      "id": "234f2faa4767",
-      "title": "World Cup Daily LIVE: Finally, the biggest tournam...",
-      "url": "https://www.espn.com/soccer/story/_/id/49012835/world-cup-daily-biggest-tournament-ever-begin-mexico-vs-sa",
-      "published_at": "Thu, 11 Jun 2026 15:01:56 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Enjoy all the updates from across North America on the first day of the 2026 FIFA World Cup."
-    },
-    {
-      "id": "8fecd8de876a",
-      "title": "World Cup predictions: 19 ESPN experts make their ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49011009/world-cup-2026-bold-predictions-winners-awards-golden-ball-breakout-stars-best-matches",
-      "published_at": "Thu, 11 Jun 2026 15:01:56 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
       "id": "f7a0000a3125",
       "title": "Why this will be a World Cup like no other",
       "url": "https://www.espn.com/soccer/story/_/id/49020473/2026-fifa-world-cup-more-never-tournament-infantino-trump",
@@ -125,6 +116,15 @@
       "source": "ESPN FC",
       "language": "en",
       "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
+    },
+    {
+      "id": "fe382f312a0d",
+      "title": "Rock: No pressure on reigning champs Northern Ireland at World Cup of Darts",
+      "url": "https://www.skysports.com/darts/news/12040/13552976/world-cup-of-darts-josh-rock-says-no-pressure-on-reigning-champions-northern-ireland-all-eyes-will-be-on-england",
+      "published_at": "Fri, 12 Jun 2026 10:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Josh Rock and Daryl Gurney are reigning World Cup of Darts champions, but Rock is ready for eyes to be elsewhere this year."
     },
     {
       "id": "8483b08180ad",
