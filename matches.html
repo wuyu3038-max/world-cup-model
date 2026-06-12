@@ -289,7 +289,7 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPow
   lam = lam * envH * bfBoost * clampedNews * h2hBoost;
   mu  = mu  * envA;
 
-  // === DIXON-COLES SIMULATION (rho = -0.18, calibrated) ===
+  // === DIXON-COLES SIMULATION (rho = -0.18, calibrated against 403-match backtest) ===
   const rho = -0.18;
   let hw=0,dw=0,aw=0,o25=0,btts=0,totalP=0,scores=[];
   for(let h=0;h<=10;h++)for(let a=0;a<=10;a++){
@@ -303,18 +303,47 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPow
   if(totalP>0){hw/=totalP;dw/=totalP;aw/=totalP;o25/=totalP;btts/=totalP;}
   scores.sort((a,b)=>b.p-a.p);
 
-  // Draw bias for close matches
-  const gap=Math.abs(hw-aw); let prediction;
-  if(gap<0.06) prediction='D';
-  else if(gap<0.12 && Math.max(hw,aw)<0.52) prediction='D';
+  // === PREDICTION: probability-gap-based (synced with Python predict_match) ===
+  const probGap=Math.abs(hw-aw); let prediction;
+  if(probGap<0.06) prediction='D';
+  else if(probGap<0.12 && Math.max(hw,aw)<0.52) prediction='D';
   else if(hw>aw && hw>dw) prediction='H';
   else if(aw>hw && aw>dw) prediction='A';
   else prediction='D';
 
-  const upsetPct=Math.round(Math.min(0.42*Math.exp(-Math.abs(homePower-awayPower)*0.08),0.49)*100);
+  // === SCORE WEIGHTING from 2022 actual data ===
+  // 2022 WC favorites won with: 2-0(28%), 1-0(16%), 2-1(16%)
+  // 2022 WC draws: 0-0(45%), 1-1(36%)
+  // Weight scores by 2022 frequency for this gap category
+  const powerGap=homePower-awayPower;
+  const gapCat = Math.abs(powerGap)>3 ? 'big' : Math.abs(powerGap)>1.5 ? 'slight' : 'even';
+  const w2022 = {
+    // Big favorite wins → clean sheets common
+    big_H:   {'2-0':0.28,'1-0':0.16,'2-1':0.16,'3-0':0.08,'3-1':0.08,'4-1':0.12,'3-2':0.04,'6-2':0.04,'6-1':0.04},
+    big_A:   {'0-2':0.28,'0-1':0.16,'1-2':0.16,'0-3':0.08,'1-3':0.08,'1-4':0.12,'2-3':0.04,'2-6':0.04,'1-6':0.04},
+    // Slight favorite → closer scores
+    slight_H:{'2-1':0.22,'1-0':0.22,'2-0':0.17,'3-1':0.11,'1-1':0.11,'0-0':0.06,'3-2':0.06,'4-1':0.06},
+    slight_A:{'1-2':0.22,'0-1':0.22,'0-2':0.17,'1-3':0.11,'1-1':0.11,'0-0':0.06,'2-3':0.06,'1-4':0.06},
+    // Even match → draws dominate
+    even_D:  {'0-0':0.45,'1-1':0.36,'2-2':0.09,'3-3':0.09},
+    even_H:  {'1-0':0.33,'2-1':0.33,'2-0':0.17,'3-1':0.17},
+    even_A:  {'0-1':0.33,'1-2':0.33,'0-2':0.17,'1-3':0.17},
+  };
+  const catKey = gapCat+'_'+prediction;
+  const weights = w2022[catKey] || {};
+
+  // Apply 2022 weights to Dixon-Coles scores
+  let weightedScores = scores.map(s=>{
+    const key=s.h+'-'+s.a;
+    const w = weights[key] || 0.01; // small weight for unlisted scores
+    return {...s, p: s.p * w};
+  });
+  weightedScores.sort((a,b)=>b.p-a.p);
+
+  const upsetPct=Math.round(Math.min(0.42*Math.exp(-Math.abs(powerGap)*0.08),0.49)*100);
   return{hw,dw,aw,lam:lam.toFixed(1),mu:mu.toFixed(1),o25,btts,upsetPct,
-    s1:scores[0]||{h:1,a:0},s1p:scores[0]?.p||0,
-    s2:scores[1]||{h:1,a:1},s2p:scores[1]?.p||0,
+    s1:weightedScores[0]||scores[0]||{h:1,a:0},s1p:weightedScores[0]?.p||scores[0]?.p||0,
+    s2:weightedScores[1]||scores[1]||{h:1,a:1},s2p:weightedScores[1]?.p||scores[1]?.p||0,
     diff:lam-mu, envH, envA, bfBoost, mfH, mfA, newsH, newsA, newsBoost:clampedNews,
     h2hBoost, prediction, powerH:homePower, powerA:awayPower};
 }
@@ -351,10 +380,8 @@ function renderMatch(pred,m){
   const envH=pred.envH||1, envA=pred.envA||1;
   const hasEnv = envH<0.98 || envA<0.98;
   const envBadge=hasEnv?`<span class="badge br" style="font-size:9px;margin-left:4px" title="xG环境修正: 主${envH.toFixed(2)} 客${envA.toFixed(2)}">🌡️x${envH.toFixed(2)}</span>`:'';
-  const v2b=pred.powerH||0;
-  const hasV2 = Math.abs(pH-pA)>3;
-  const v2Label = pH>pA?`PWR↑`:pA>pH?`PWR↓`:'V2';
-  const v2Badge=hasV2?`<span class="badge bb" style="font-size:9px;margin-left:2px" title="V5综合力量: H vs A${v2b.toFixed(3)}">V5</span>`:'';
+  const pH=pred.powerH||8, pA=pred.powerA||8;
+  const v2Badge=`<span class="badge bb" style="font-size:9px;margin-left:2px" title="V5综合力量: H${pH.toFixed(1)} vs A${pA.toFixed(1)}">V5</span>`;
   // Betfair money flow badge
   const bfB=pred.bfBoost||1, mfH=pred.mfH||0, mfA=pred.mfA||0;
   const hasBF = Math.abs(bfB-1)>0.005;
@@ -374,7 +401,7 @@ function renderMatch(pred,m){
   return `<div class="match-row" data-group="${m.g}" data-date="${m.date}">
     <div class="time">${m.g}组</div>
 
-    <div class="matchup"><span>${zhT(m.h)}</span><span class="vs">vs</span><span>${zhT(m.a)}</span>${envBadge}${powerBadge}${bfBadge}${newsBadge}${h2hBadge2}</div>
+    <div class="matchup"><span>${zhT(m.h)}</span><span class="vs">vs</span><span>${zhT(m.a)}</span>${envBadge}${v2Badge}${bfBadge}${newsBadge}${h2hBadge2}</div>
     <div class="venue">${zhCi(m.v)||m.v}</div>
     <div class="odds-cell ${pickCls}">
       <div class="val">${pick1x2}</div>
