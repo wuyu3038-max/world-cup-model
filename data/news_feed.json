@@ -1,14 +1,23 @@
 {
-  "updated": "2026-06-12T12:43:00.349686",
-  "total_articles": 16,
+  "updated": "2026-06-12T17:43:33.808531",
+  "total_articles": 12,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 15,
-    "sky_sports": 1,
+    "bbc_sport": 10,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "c8971bfedd49",
+      "title": "Partey denied entry to Canada for Ghana's World Cup opener",
+      "url": "https://www.bbc.com/sport/football/articles/cn8qgny4186o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 12 Jun 2026 17:26:20 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Ghana midfielder Thomas Partey will miss his nation's first World Cup game in Toronto against Panama, after being denied entry to Canada. "
+    },
     {
       "id": "801cda9698dc",
       "title": "Three red cards shown as Mexico beat South Africa in World Cup opener",
@@ -17,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Three players are sent off as World Cup co-hosts Mexico defeat South Africa in a dramatic opening match at a packed Azteca Stadium."
-    },
-    {
-      "id": "1a8a6781e13e",
-      "title": "'Best Canada team ever' bid to shine at home World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/c4g8w635v49o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 06:12:21 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Amid political turbulence in the US and talk of moving matches out of Mexico, it can be forgotten that there is a third co-host of the 2026 World Cup. Canada hope it will be their time to shine."
     },
     {
       "id": "46ad54907c86",
@@ -37,49 +37,13 @@
       "summary": "Ever wanted to see a World Cup match from every angle? How about a full-pitch tactical view? Now you can on the BBC."
     },
     {
-      "id": "c1e623e1a3bd",
-      "title": "Who am I? Guess World Cup star No 5",
-      "url": "https://www.bbc.com/sport/football/articles/cn8p281pdg1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 05:21:08 GMT",
+      "id": "c218d6bee03e",
+      "title": "Catch up on the World Cup without any spoilers",
+      "url": "https://www.bbc.com/sport/football/articles/c0qy0zn231yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 17:08:40 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "11fca38f839d",
-      "title": "'No-one knows it's on' - NBA Finals feed US World Cup apathy",
-      "url": "https://www.bbc.com/sport/football/articles/cg74rzx582ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 04:11:21 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "With the World Cup under way, how excited are people across the United States - and do they even know it is on?"
-    },
-    {
-      "id": "43b15813ecee",
-      "title": "Three red cards - are referees getting tough at this World Cup?",
-      "url": "https://www.bbc.com/sport/football/articles/cjwglq2gzd6o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 08:31:24 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Three players were sent off in the World Cup opener as Mexico beat South Africa 2-0. Are we about to see a World Cup littered with red cards?"
-    },
-    {
-      "id": "b1655e3e066a",
-      "title": "Will three points guarantee a spot in World Cup knockouts?",
-      "url": "https://www.bbc.com/sport/football/articles/cd95xgl23y7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 12:11:46 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's Ask Me Anything team looks at whether earning three points in the World Cup group stage will be enough to advance to the knockout rounds."
-    },
-    {
-      "id": "679f045f61d1",
-      "title": "Follow the World Cup with live lock screen updates on the BBC Sport app",
-      "url": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 13:28:47 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport has launched live match updates - bringing you your team's score directly to your phone lock screen."
+      "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
       "id": "cbc509e4c224",
@@ -91,13 +55,13 @@
       "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
     },
     {
-      "id": "c218d6bee03e",
-      "title": "Catch up on the World Cup without any spoilers",
-      "url": "https://www.bbc.com/sport/football/articles/c0qy0zn231yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 17:08:40 GMT",
+      "id": "c4af920874ed",
+      "title": "The World Cup is bigger than ever - and BBC Sport has an app to match",
+      "url": "https://www.bbc.com/sport/football/articles/clypy5p44l9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 11:13:02 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
+      "summary": "BBC Sport are launching a new, improved app experience for the Fifa World Cup 2026"
     },
     {
       "id": "a24e382ab40f",
@@ -127,31 +91,31 @@
       "summary": "Shakira was among the performers during the opening ceremony of the 2026 World Cup at the Mexico City Stadium ahead of the opening game between Mexico and South Africa. "
     },
     {
-      "id": "59d356739e17",
-      "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
-      "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 17:25:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup."
-    },
-    {
-      "id": "dbc4ad676ee9",
-      "title": "What are World Cup's red card suspension rules?",
-      "url": "https://www.bbc.com/sport/football/articles/cd95xz5xndlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 07:56:43 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's Ask Me Anything team explains Fifa's suspension rules on red and yellow cards during the World Cup."
-    },
-    {
-      "id": "fe382f312a0d",
-      "title": "Rock: No pressure on reigning champs Northern Ireland at World Cup of Darts",
-      "url": "https://www.skysports.com/darts/news/12040/13552976/world-cup-of-darts-josh-rock-says-no-pressure-on-reigning-champions-northern-ireland-all-eyes-will-be-on-england",
-      "published_at": "Fri, 12 Jun 2026 10:00:00 BST",
+      "id": "baafab3553bd",
+      "title": "Women's T20 World Cup: England bat first against Sri Lanka in opener LIVE!",
+      "url": "https://www.skysports.com/cricket/live-blog/12040/13553406/england-vs-sri-lanka-live-cricket-score-updates-video-and-analysis-from-icc-womens-t20-world-cup-opener-at-edgbaston",
+      "published_at": "Fri, 12 Jun 2026 17:25:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Josh Rock and Daryl Gurney are reigning World Cup of Darts champions, but Rock is ready for eyes to be elsewhere this year."
+      "summary": ""
+    },
+    {
+      "id": "dbc41d99d29a",
+      "title": "Scorecard: England vs Sri Lanka, Women's T20 World Cup",
+      "url": "https://www.skysports.com/cricket/england-women-v-sri-lanka-women/scorecard/36b7f846-d12e-52e3-9e09-312b2ba7b377",
+      "published_at": "Fri, 12 Jun 2026 18:25:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Live score from the opening match of the ICC Women's T20 World Cup between England and Sri Lanka at Edgbaston. Watch on Sky Sports Cricket or for FREE on the Sky Sports App."
+    },
+    {
+      "id": "15c98873a994",
+      "title": "Clarke wants Scotland to 'do something special' on World Cup return",
+      "url": "https://www.skysports.com/football/news/12040/13553435/scotland-at-world-cup-steve-clarke-ready-to-do-something-special-on-return-to-footballs-biggest-stage",
+      "published_at": "Fri, 12 Jun 2026 18:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Steve Clarke wants Scotland to \"do something special\" on their return to the World Cup for the first time in 28 years."
     }
   ]
 }

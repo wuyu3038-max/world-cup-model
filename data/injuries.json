@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-12T12:43:00.409131",
+    "last_updated": "2026-06-12T17:43:33.871549",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -814,15 +814,15 @@
   },
   "_news_injury_alerts": [
     {
-      "title": "'Best Canada team ever' bid to shine at home World Cup",
+      "title": "Partey denied entry to Canada for Ghana's World Cup opener",
       "nations": [
-        "Mexico",
-        "Canada"
+        "Canada",
+        "Ghana"
       ],
       "source": "BBC Sport Football",
-      "url": "https://www.bbc.com/sport/football/articles/c4g8w635v49o?at_medium=RSS&at_campaign=rss",
-      "summary": "Amid political turbulence in the US and talk of moving matches out of Mexico, it can be forgotten that there is a third co-host of the 2026 World Cup. Canada hope it will be their time to shine.",
-      "published": "Fri, 12 Jun 2026 06:12:21 GMT"
+      "url": "https://www.bbc.com/sport/football/articles/cn8qgny4186o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ghana midfielder Thomas Partey will miss his nation's first World Cup game in Toronto against Panama, after being denied entry to Canada. ",
+      "published": "Fri, 12 Jun 2026 17:26:20 GMT"
     }
   ]
 }
