@@ -1,23 +1,14 @@
 {
-  "updated": "2026-06-12T10:52:48.395291",
-  "total_articles": 31,
+  "updated": "2026-06-12T11:53:17.113638",
+  "total_articles": 16,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 12,
-    "bbc_sport": 14,
+    "espn_fc": 11,
+    "bbc_sport": 0,
     "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "42de5547642e",
-      "title": "Follow live: South Korea, Czechia meet in Group A",
-      "url": "https://www.espn.com/soccer/match/_/gameId/760414/czechia-south-korea",
-      "published_at": "Thu, 11 Jun 2026 22:48:30 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
     {
       "id": "e1a8ac37be8d",
       "title": "Tottenham's Senesi called up to Argentina squad",
@@ -31,7 +22,7 @@
       "id": "ef8e4f2fad96",
       "title": "📈 Ranking the 50 best players in the World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Thu, 11 Jun 2026 22:10:52 EST",
+      "published_at": "Thu, 11 Jun 2026 23:35:13 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
@@ -116,132 +107,6 @@
       "source": "ESPN FC",
       "language": "en",
       "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
-    },
-    {
-      "id": "7f3ac8ed1c1f",
-      "title": "From near death to World Cup hero - Jimenez's tears for Mexico",
-      "url": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 00:02:08 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "From nearly dying on the pitch to scoring for Mexico at the World Cup - Raul Jimenez has completed a remarkable comeback."
-    },
-    {
-      "id": "43b15813ecee",
-      "title": "Three red cards - are referees getting tough at this World Cup?",
-      "url": "https://www.bbc.com/sport/football/articles/cjwglq2gzd6o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 23:13:18 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Three players were sent off in the World Cup opener as Mexico beat South Africa 2-0. Are we about to see a World Cup littered with red cards?"
-    },
-    {
-      "id": "801cda9698dc",
-      "title": "Three red cards shown as Mexico beat South Africa in World Cup opener",
-      "url": "https://www.bbc.com/sport/football/videos/cx2dyr3e1zro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 22:01:14 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Three players are sent off as World Cup co-hosts Mexico defeat South Africa in a dramatic opening match at a packed Azteca Stadium."
-    },
-    {
-      "id": "58d8a0ce4d48",
-      "title": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
-      "url": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 23:41:14 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "There was a star-studded opening ceremony, and some sporadic clashes between police and protesters around the Azteca stadium. "
-    },
-    {
-      "id": "d1bbb121968d",
-      "title": "Fatigue? The World Cup players who have had toughest seasons",
-      "url": "https://www.bbc.com/sport/football/articles/c05yz1yr08mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 13:55:27 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport examines which World Cup teams and players have played the most minutes since last summer, when the Club World Cup was kicking off in the United States."
-    },
-    {
-      "id": "1fea336533eb",
-      "title": "Why are footballers wearing pink boots at the World Cup?",
-      "url": "https://www.bbc.com/sport/football/articles/c0ryn5wqywgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 22:04:51 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The opening match of the 2026 World Cup was dominated by players wearing pink boots - but why is the colour so prevalent in football at the moment?"
-    },
-    {
-      "id": "a24e382ab40f",
-      "title": "Quinones scores opening goal of 2026 World Cup",
-      "url": "https://www.bbc.com/sport/football/videos/cqx184lqywwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 21:03:49 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Mexico's Julian Quinones scores the opening goal of the 2026 World Cup against South Africa at Mexico City Stadium. "
-    },
-    {
-      "id": "22d827fcc859",
-      "title": "Messi, Maradona or Pele? Ranking the top 10 World Cup legends",
-      "url": "https://www.bbc.com/sport/football/articles/cgl34ne0g3eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 05:51:06 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Who are the biggest World Cup legends of all time? From Pele to Lionel Messi, we attempt to name the top 10."
-    },
-    {
-      "id": "83ae6de41952",
-      "title": "Artan to referee Uefa Super Cup after losing World Cup role",
-      "url": "https://www.bbc.com/sport/football/articles/c2kyx0l0499o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 14:24:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Somali referee Omar Artan is appointed to take charge of the Uefa Super Cup match between Paris St-Germain and Aston Villa later this summer after being denied a spot at the World Cup."
-    },
-    {
-      "id": "c218d6bee03e",
-      "title": "Catch up on the World Cup without any spoilers",
-      "url": "https://www.bbc.com/sport/football/articles/c0qy0zn231yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 17:08:40 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
-    },
-    {
-      "id": "679f045f61d1",
-      "title": "Follow the World Cup with live lock screen updates on the BBC Sport app",
-      "url": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 13:28:47 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport has launched live match updates - bringing you your team's score directly to your phone lock screen."
-    },
-    {
-      "id": "cbc509e4c224",
-      "title": "Play BBC Sport's new World Cup predictor game",
-      "url": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 08:24:41 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
-    },
-    {
-      "id": "d0c4db172242",
-      "title": "Three red cards shown in opening game of World Cup",
-      "url": "https://www.bbc.com/sport/football/videos/cpv3nk20e9xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 21:30:42 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Referee Wilton Pereira Sampaio shows red cards to South Africa's Yaya Sithole and Themba Zwane as well as Mexico's Cesar Montes during the opening match of the 2026 World Cup at the Mexico City Stadiu"
-    },
-    {
-      "id": "6400c006b994",
-      "title": "Shakira among the performers at World Cup opening ceremony",
-      "url": "https://www.bbc.com/sport/football/videos/cg532q9zjppo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 21:06:59 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Shakira was among the performers during the opening ceremony of the 2026 World Cup at the Mexico City Stadium ahead of the opening game between Mexico and South Africa. "
     },
     {
       "id": "d63265bdba46",
