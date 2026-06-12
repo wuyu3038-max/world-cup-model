@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-12T12:00:43.284543",
-  "total_articles": 16,
+  "updated": "2026-06-12T12:53:13.983127",
+  "total_articles": 17,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 11,
     "bbc_sport": 0,
-    "sky_sports": 5,
+    "sky_sports": 6,
     "goal_com": 0
   },
   "articles": [
@@ -13,7 +13,7 @@
       "id": "e1a8ac37be8d",
       "title": "Tottenham's Senesi called up to Argentina squad",
       "url": "https://www.espn.com/soccer/story/_/id/49032417/tottenham-defender-marcos-senesi-called-argentina-world-cup-squad",
-      "published_at": "Thu, 11 Jun 2026 22:10:52 EST",
+      "published_at": "Fri, 12 Jun 2026 00:38:20 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The Argentina national team confirmed defender Marcos Senesi will replace the injured Leonardo Balerdi on the 26-player World Cup roster."
@@ -22,7 +22,7 @@
       "id": "ef8e4f2fad96",
       "title": "📈 Ranking the 50 best players in the World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Thu, 11 Jun 2026 23:35:13 EST",
+      "published_at": "Fri, 12 Jun 2026 00:39:06 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
@@ -40,7 +40,7 @@
       "id": "ed5ab138f60b",
       "title": "Mexico's win an emotional celebration of World Cup...",
       "url": "https://www.espn.com/soccer/story/_/id/49033649/mexico-win-south-africa-emotional-celebration-world-cup-return-estadio-azteca",
-      "published_at": "Thu, 11 Jun 2026 23:58:53 EST",
+      "published_at": "Fri, 12 Jun 2026 00:41:23 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Forty years after the World Cup was last in Mexico, the tournament returned Thursday, and Mexico celebrated with an emotional win over South Africa."
@@ -49,7 +49,7 @@
       "id": "1249db54b652",
       "title": "2026 World Cup recap: Mexico kicks off World Cup w...",
       "url": "https://www.espn.com/soccer/story/_/id/49003509/2026-fifa-world-cup-live-updates-mexico-vs-south-africa",
-      "published_at": "Thu, 11 Jun 2026 23:58:53 EST",
+      "published_at": "Fri, 12 Jun 2026 00:41:23 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Mexico defeated South Africa 2-0 in Mexico City in the opening match of the tournament."
@@ -125,6 +125,15 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Wales started their bid for a third BetVictor World Cup of Darts title on the tournament's opening night with a 4-1 win over Lithuania."
+    },
+    {
+      "id": "cc4bb1d7f5b4",
+      "title": "World Cup issues still cannot take shine off greatest show on earth",
+      "url": "https://www.skysports.com/football/news/12040/13552946/world-cup-controversy-cannot-take-the-shine-off-the-greatest-show-on-earth-as-football-takes-centre-stage-in-mexico",
+      "published_at": "Fri, 12 Jun 2026 05:35:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "And we are off. Three red cards including a VAR intervention. Two goals for co-hosts Mexico in the Estadio Azteca. One nightmare start for South Africa midfielder Yaya Sithole. And an emotional first "
     },
     {
       "id": "04ca36578cc7",
