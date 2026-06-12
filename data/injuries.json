@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-12T19:53:15.088643",
+    "last_updated": "2026-06-12T12:43:00.409131",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -812,5 +812,17 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "'Best Canada team ever' bid to shine at home World Cup",
+      "nations": [
+        "Mexico",
+        "Canada"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.com/sport/football/articles/c4g8w635v49o?at_medium=RSS&at_campaign=rss",
+      "summary": "Amid political turbulence in the US and talk of moving matches out of Mexico, it can be forgotten that there is a third co-host of the 2026 World Cup. Canada hope it will be their time to shine.",
+      "published": "Fri, 12 Jun 2026 06:12:21 GMT"
+    }
+  ]
 }
