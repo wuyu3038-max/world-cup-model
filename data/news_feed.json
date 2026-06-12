@@ -1,22 +1,31 @@
 {
-  "updated": "2026-06-11T23:00:09.052168",
-  "total_articles": 19,
+  "updated": "2026-06-12T09:53:02.289036",
+  "total_articles": 20,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 14,
-    "sky_sports": 5,
+    "sky_sports": 6,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "58d8a0ce4d48",
-      "title": "World Cup kicks off in Mexico with Shakira, performers and vibrant fans",
-      "url": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 20:26:06 GMT",
+      "id": "7f3ac8ed1c1f",
+      "title": "From near death to World Cup hero - Jimenez's tears for Mexico",
+      "url": "https://www.bbc.com/sport/football/articles/cm2dl67rljvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 12 Jun 2026 00:02:08 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "A star-studded opening ceremony featured artists from the World Cup's official soundtrack."
+      "summary": "From nearly dying on the pitch to scoring for Mexico at the World Cup - Raul Jimenez has completed a remarkable comeback."
+    },
+    {
+      "id": "43b15813ecee",
+      "title": "Three red cards - are referees getting tough at this World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/cjwglq2gzd6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 23:13:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Three players were sent off in the World Cup opener as Mexico beat South Africa 2-0. Are we about to see a World Cup littered with red cards?"
     },
     {
       "id": "801cda9698dc",
@@ -26,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Three players are sent off as World Cup co-hosts Mexico defeat South Africa in a dramatic opening match at a packed Azteca Stadium."
+    },
+    {
+      "id": "58d8a0ce4d48",
+      "title": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
+      "url": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 23:41:14 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "There was a star-studded opening ceremony, and some sporadic clashes between police and protesters around the Azteca stadium. "
     },
     {
       "id": "d1bbb121968d",
@@ -55,15 +73,6 @@
       "summary": "Mexico's Julian Quinones scores the opening goal of the 2026 World Cup against South Africa at Mexico City Stadium. "
     },
     {
-      "id": "83ae6de41952",
-      "title": "Artan to referee Uefa Super Cup after losing World Cup role",
-      "url": "https://www.bbc.com/sport/football/articles/c2kyx0l0499o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 14:24:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Somali referee Omar Artan is appointed to take charge of the Uefa Super Cup match between Paris St-Germain and Aston Villa later this summer after being denied a spot at the World Cup."
-    },
-    {
       "id": "22d827fcc859",
       "title": "Messi, Maradona or Pele? Ranking the top 10 World Cup legends",
       "url": "https://www.bbc.com/sport/football/articles/cgl34ne0g3eo?at_medium=RSS&at_campaign=rss",
@@ -73,22 +82,13 @@
       "summary": "Who are the biggest World Cup legends of all time? From Pele to Lionel Messi, we attempt to name the top 10."
     },
     {
-      "id": "c4af920874ed",
-      "title": "The World Cup is bigger than ever - and BBC Sport has an app to match",
-      "url": "https://www.bbc.com/sport/football/articles/clypy5p44l9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 11:13:02 GMT",
+      "id": "83ae6de41952",
+      "title": "Artan to referee Uefa Super Cup after losing World Cup role",
+      "url": "https://www.bbc.com/sport/football/articles/c2kyx0l0499o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 14:24:58 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport are launching a new, improved app experience for the Fifa World Cup 2026"
-    },
-    {
-      "id": "59d356739e17",
-      "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
-      "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 10 Jun 2026 17:25:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup."
+      "summary": "Somali referee Omar Artan is appointed to take charge of the Uefa Super Cup match between Paris St-Germain and Aston Villa later this summer after being denied a spot at the World Cup."
     },
     {
       "id": "c218d6bee03e",
@@ -143,6 +143,15 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Jonny Clayton, alongside new partner Nick Kenny, got their World Cup of Darts campaign under way with a 4-1 victory over Lithuania&#8217;s Darius Labanauskas and Mindaugas Barauskas in Group C."
+    },
+    {
+      "id": "f999d42becb4",
+      "title": "World Cup game number two as South Korea face Czech Republic LIVE!",
+      "url": "https://www.skysports.com/football/korea-republic-vs-czech-republic/live/549766",
+      "published_at": "Thu, 11 Jun 2026 11:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     },
     {
       "id": "a007e1485bbb",

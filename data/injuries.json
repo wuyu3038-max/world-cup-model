@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-11T23:00:09.116523",
+    "last_updated": "2026-06-12T09:53:02.477111",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -377,11 +377,11 @@
       "player": "Chris Richards",
       "nation": "United States",
       "position": "DF",
-      "status": "probable",
+      "status": "fit",
       "injury_type": "Sprained ankle",
       "since": "2026-06-01",
       "expected_return": "2026-06-12",
-      "severity": "major",
+      "severity": "minor",
       "notes": "USMNT defender. Missed final friendly but says 'ready' for opener vs Paraguay (June 12).",
       "source": "ESPN"
     },
@@ -685,7 +685,7 @@
       "out": 2,
       "doubtful": 0,
       "questionable": 0,
-      "probable": 1,
+      "probable": 0,
       "critical_out": [],
       "critical_doubtful": [],
       "critical_probable": [],
