@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "description": "Match-level 1X2 Betfair/Betting Exchange odds for all 2026 World Cup group stage matches. Used to anchor win/draw/loss probabilities.",
+    "source": "Betfair Exchange, Bet365, DraftKings, Opta Supercomputer",
+    "updated": "2026-06-12",
+    "blend_weight": 0.60,
+    "note": "Market odds weighted at 60% in final prediction. Model Poisson contributes 40% + score distribution."
+  },
+  "match_odds": {
+    "Mexico_vs_South Africa": {
+      "date": "2026-06-11", "group": "A", "matchday": 1,
+      "betfair_1x2": {"home": 1.55, "draw": 4.20, "away": 6.50},
+      "market_probs": {"home": 0.618, "draw": 0.228, "away": 0.154},
+      "result": "2-0"
+    },
+    "South Korea_vs_Czech Republic": {
+      "date": "2026-06-11", "group": "A", "matchday": 1,
+      "betfair_1x2": {"home": 2.63, "draw": 3.10, "away": 2.88},
+      "market_probs": {"home": 0.380, "draw": 0.323, "away": 0.347},
+      "opta": {"home": 0.429, "draw": 0.260, "away": 0.311},
+      "consensus": "Draw 1-1"
+    },
+    "Canada_vs_Bosnia-Herzegovina": {
+      "date": "2026-06-12", "group": "B", "matchday": 1,
+      "betfair_1x2": {"home": 1.83, "draw": 3.70, "away": 4.50},
+      "market_probs": {"home": 0.540, "draw": 0.267, "away": 0.220},
+      "consensus": "Canada 1-0"
+    },
+    "United States_vs_Paraguay": {
+      "date": "2026-06-12", "group": "D", "matchday": 1,
+      "betfair_1x2": {"home": 1.95, "draw": 3.50, "away": 4.00},
+      "market_probs": {"home": 0.510, "draw": 0.284, "away": 0.249},
+      "consensus": "USA 1-0"
+    },
+    "Haiti_vs_Scotland": {
+      "date": "2026-06-13", "group": "C", "matchday": 1,
+      "betfair_1x2": {"home": 6.00, "draw": 4.33, "away": 1.57},
+      "market_probs": {"home": 0.167, "draw": 0.231, "away": 0.637},
+      "consensus": "Scotland 2-1"
+    },
+    "Australia_vs_Turkey": {
+      "date": "2026-06-13", "group": "D", "matchday": 1,
+      "betfair_1x2": {"home": 5.00, "draw": 3.75, "away": 1.70},
+      "market_probs": {"home": 0.200, "draw": 0.267, "away": 0.588},
+      "consensus": "Turkey 2-0"
+    },
+    "Brazil_vs_Morocco": {
+      "date": "2026-06-13", "group": "C", "matchday": 1,
+      "betfair_1x2": {"home": 1.44, "draw": 4.50, "away": 7.50},
+      "market_probs": {"home": 0.694, "draw": 0.222, "away": 0.133},
+      "consensus": "Brazil 1-0"
+    },
+    "Qatar_vs_Switzerland": {
+      "date": "2026-06-13", "group": "B", "matchday": 1,
+      "betfair_1x2": {"home": 13.00, "draw": 6.50, "away": 1.22},
+      "market_probs": {"home": 0.077, "draw": 0.154, "away": 0.820},
+      "consensus": "Switzerland 2-0"
+    },
+    "Ivory Coast_vs_Ecuador": {
+      "date": "2026-06-14", "group": "E", "matchday": 1,
+      "betfair_1x2": {"home": 3.60, "draw": 3.25, "away": 2.10},
+      "market_probs": {"home": 0.278, "draw": 0.308, "away": 0.476},
+      "consensus": "Draw 1-1"
+    },
+    "Germany_vs_Curacao": {
+      "date": "2026-06-14", "group": "E", "matchday": 1,
+      "betfair_1x2": {"home": 1.08, "draw": 10.00, "away": 26.00},
+      "market_probs": {"home": 0.926, "draw": 0.100, "away": 0.038},
+      "consensus": "Germany 4-0"
+    },
+    "Netherlands_vs_Japan": {
+      "date": "2026-06-14", "group": "F", "matchday": 1,
+      "betfair_1x2": {"home": 1.90, "draw": 3.60, "away": 4.00},
+      "market_probs": {"home": 0.526, "draw": 0.278, "away": 0.250},
+      "consensus": "Draw 1-1"
+    },
+    "Sweden_vs_Tunisia": {
+      "date": "2026-06-14", "group": "F", "matchday": 1,
+      "betfair_1x2": {"home": 2.10, "draw": 3.30, "away": 3.60},
+      "market_probs": {"home": 0.476, "draw": 0.303, "away": 0.278},
+      "consensus": "Sweden 2-0"
+    },
+    "Saudi Arabia_vs_Uruguay": {
+      "date": "2026-06-15", "group": "H", "matchday": 1,
+      "betfair_1x2": {"home": 7.00, "draw": 4.50, "away": 1.45},
+      "market_probs": {"home": 0.143, "draw": 0.222, "away": 0.690},
+      "consensus": "Uruguay 2-0"
+    },
+    "Spain_vs_Cape Verde": {
+      "date": "2026-06-15", "group": "H", "matchday": 1,
+      "betfair_1x2": {"home": 1.06, "draw": 12.00, "away": 34.00},
+      "market_probs": {"home": 0.943, "draw": 0.083, "away": 0.029},
+      "consensus": "Spain 3-0"
+    },
+    "Iran_vs_New Zealand": {
+      "date": "2026-06-15", "group": "G", "matchday": 1,
+      "betfair_1x2": {"home": 2.50, "draw": 3.20, "away": 2.88},
+      "market_probs": {"home": 0.400, "draw": 0.313, "away": 0.347},
+      "consensus": "Draw 1-1"
+    },
+    "Belgium_vs_Egypt": {
+      "date": "2026-06-15", "group": "G", "matchday": 1,
+      "betfair_1x2": {"home": 1.67, "draw": 4.00, "away": 5.00},
+      "market_probs": {"home": 0.599, "draw": 0.250, "away": 0.200},
+      "consensus": "Belgium 2-1"
+    },
+    "France_vs_Senegal": {
+      "date": "2026-06-16", "group": "I", "matchday": 1,
+      "betfair_1x2": {"home": 1.36, "draw": 5.00, "away": 8.50},
+      "market_probs": {"home": 0.735, "draw": 0.200, "away": 0.118},
+      "consensus": "France 2-0"
+    },
+    "Iraq_vs_Norway": {
+      "date": "2026-06-16", "group": "I", "matchday": 1,
+      "betfair_1x2": {"home": 11.00, "draw": 6.00, "away": 1.25},
+      "market_probs": {"home": 0.091, "draw": 0.167, "away": 0.800},
+      "consensus": "Norway 3-0"
+    },
+    "Argentina_vs_Algeria": {
+      "date": "2026-06-16", "group": "J", "matchday": 1,
+      "betfair_1x2": {"home": 1.30, "draw": 5.50, "away": 9.50},
+      "market_probs": {"home": 0.769, "draw": 0.182, "away": 0.105},
+      "consensus": "Argentina 2-0"
+    },
+    "Austria_vs_Jordan": {
+      "date": "2026-06-16", "group": "J", "matchday": 1,
+      "betfair_1x2": {"home": 1.25, "draw": 6.00, "away": 12.00},
+      "market_probs": {"home": 0.800, "draw": 0.167, "away": 0.083},
+      "consensus": "Austria 2-0"
+    },
+    "Ghana_vs_Panama": {
+      "date": "2026-06-17", "group": "L", "matchday": 1,
+      "betfair_1x2": {"home": 2.40, "draw": 3.10, "away": 3.20},
+      "market_probs": {"home": 0.417, "draw": 0.323, "away": 0.313},
+      "consensus": "Draw 0-0"
+    },
+    "England_vs_Croatia": {
+      "date": "2026-06-17", "group": "L", "matchday": 1,
+      "betfair_1x2": {"home": 1.55, "draw": 4.00, "away": 6.00},
+      "market_probs": {"home": 0.645, "draw": 0.250, "away": 0.167},
+      "consensus": "England 2-1"
+    },
+    "Portugal_vs_Congo DR": {
+      "date": "2026-06-17", "group": "K", "matchday": 1,
+      "betfair_1x2": {"home": 1.20, "draw": 6.50, "away": 15.00},
+      "market_probs": {"home": 0.833, "draw": 0.154, "away": 0.067},
+      "consensus": "Portugal 3-0"
+    },
+    "Uzbekistan_vs_Colombia": {
+      "date": "2026-06-17", "group": "K", "matchday": 1,
+      "betfair_1x2": {"home": 7.00, "draw": 4.00, "away": 1.53},
+      "market_probs": {"home": 0.143, "draw": 0.250, "away": 0.654},
+      "consensus": "Colombia 2-0"
+    }
+  }
+}

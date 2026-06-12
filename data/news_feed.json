@@ -1,14 +1,122 @@
 {
-  "updated": "2026-06-12T09:53:02.289036",
-  "total_articles": 20,
+  "updated": "2026-06-12T10:00:41.276629",
+  "total_articles": 32,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
+    "espn_fc": 12,
     "bbc_sport": 14,
     "sky_sports": 6,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "ed5ab138f60b",
+      "title": "Mexico's win an emotional celebration of World Cup...",
+      "url": "https://www.espn.com/soccer/story/_/id/49033649/mexico-win-south-africa-emotional-celebration-world-cup-return-estadio-azteca",
+      "published_at": "Thu, 11 Jun 2026 18:59:15 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Forty years after the World Cup was last in Mexico, the tournament returned Thursday, and Mexico celebrated with an emotional win over South Africa."
+    },
+    {
+      "id": "1249db54b652",
+      "title": "2026 World Cup recap: Mexico kicks off World Cup w...",
+      "url": "https://www.espn.com/soccer/story/_/id/49003509/2026-fifa-world-cup-live-updates-mexico-vs-south-africa",
+      "published_at": "Thu, 11 Jun 2026 19:10:12 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Mexico defeated South Africa 2-0 in Mexico City in the opening match of the tournament."
+    },
+    {
+      "id": "e1a8ac37be8d",
+      "title": "Tottenham's Senesi called up to Argentina squad",
+      "url": "https://www.espn.com/soccer/story/_/id/49032417/tottenham-defender-marcos-senesi-called-argentina-world-cup-squad",
+      "published_at": "Thu, 11 Jun 2026 21:23:10 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The Argentina national team confirmed defender Marcos Senesi will replace the injured Leonardo Balerdi on the 26-player World Cup roster."
+    },
+    {
+      "id": "ef8e4f2fad96",
+      "title": "📈 Ranking the 50 best players in the World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
+      "published_at": "Thu, 11 Jun 2026 21:23:11 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
+    },
+    {
+      "id": "e7ad65070b9e",
+      "title": "World Cup VAR review: Was ref right to show three ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+      "published_at": "Thu, 11 Jun 2026 18:38:46 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+    },
+    {
+      "id": "e9e6ec8ccb11",
+      "title": "The U.S. is going to win the 2026 World Cup, and here are 13 stats that prove it",
+      "url": "https://www.espn.com/soccer/story/_/id/49022498/13-stats-prove-usmnt-win-2026-world-cup-history-usa-champions",
+      "published_at": "Thu, 11 Jun 2026 08:07:41 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Think the U.S. isn't a World Cup favorite? Think again. Here are 13 stats that point to one conclusion: Team USA will win it all."
+    },
+    {
+      "id": "234f2faa4767",
+      "title": "World Cup Daily LIVE: Finally, the biggest tournam...",
+      "url": "https://www.espn.com/soccer/story/_/id/49012835/world-cup-daily-biggest-tournament-ever-begin-mexico-vs-sa",
+      "published_at": "Thu, 11 Jun 2026 15:01:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the updates from across North America on the first day of the 2026 FIFA World Cup."
+    },
+    {
+      "id": "8fecd8de876a",
+      "title": "World Cup predictions: 19 ESPN experts make their ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49011009/world-cup-2026-bold-predictions-winners-awards-golden-ball-breakout-stars-best-matches",
+      "published_at": "Thu, 11 Jun 2026 15:01:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "null"
+    },
+    {
+      "id": "f7a0000a3125",
+      "title": "Why this will be a World Cup like no other",
+      "url": "https://www.espn.com/soccer/story/_/id/49020473/2026-fifa-world-cup-more-never-tournament-infantino-trump",
+      "published_at": "Thu, 11 Jun 2026 10:08:42 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Welcome to the 2026 World Cup, where everything is bigger and louder than ever before."
+    },
+    {
+      "id": "a4ac0e03cbd8",
+      "title": "Six complaints about 2026 World Cup, and why it mi...",
+      "url": "https://www.espn.com/soccer/story/_/id/49021099/world-cup-2026-six-reasons-concern-six-counterarguments-gabriele-marcotti",
+      "published_at": "Thu, 11 Jun 2026 08:34:15 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "There are many fears swirling around the 2026 FIFA World Cup. Here are six issues, according to Gab Marcotti -- and six reasons why it still be a success."
+    },
+    {
+      "id": "7025c967ba74",
+      "title": "World Cup awards: Golden Ball, Golden Boot, Golden...",
+      "url": "https://www.espn.com/soccer/story/_/id/49024760/2026-world-cup-awards-golden-ball-golden-boot-golden-glove-trophies-revealed",
+      "published_at": "Thu, 11 Jun 2026 04:28:39 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
+    },
+    {
+      "id": "ab078500aca5",
+      "title": "2026 World Cup betting preview: One bet to make on...",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48807078/fifa-world-cup-betting-preview-best-bets-picks-odds-props-futures-2026",
+      "published_at": "Thu, 11 Jun 2026 10:36:25 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "So many teams, so many games. Looking to place some bets? Here's one to make on every team in the 2026 World Cup tournament."
+    },
     {
       "id": "7f3ac8ed1c1f",
       "title": "From near death to World Cup hero - Jimenez's tears for Mexico",
