@@ -3,154 +3,1168 @@
     "description": "Match-level 1X2 Betfair/Betting Exchange odds for all 2026 World Cup group stage matches. Used to anchor win/draw/loss probabilities.",
     "source": "Betfair Exchange, Bet365, DraftKings, Opta Supercomputer",
     "updated": "2026-06-12",
-    "blend_weight": 0.60,
-    "note": "Market odds weighted at 60% in final prediction. Model Poisson contributes 40% + score distribution."
+    "blend_weight": 0.6,
+    "note": "Matchday 1: Real Betfair/Bet365 odds. Matchday 2-3: Model-generated odds from team power differential.",
+    "matchday1_source": "Real Betfair/Bet365/DraftKings odds",
+    "matchday2_3_source": "Generated from V5 team power differential"
   },
   "match_odds": {
     "Mexico_vs_South Africa": {
-      "date": "2026-06-11", "group": "A", "matchday": 1,
-      "betfair_1x2": {"home": 1.55, "draw": 4.20, "away": 6.50},
-      "market_probs": {"home": 0.618, "draw": 0.228, "away": 0.154},
+      "date": "2026-06-11",
+      "group": "A",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.55,
+        "draw": 4.2,
+        "away": 6.5
+      },
+      "market_probs": {
+        "home": 0.618,
+        "draw": 0.228,
+        "away": 0.154
+      },
       "result": "2-0"
     },
     "South Korea_vs_Czech Republic": {
-      "date": "2026-06-11", "group": "A", "matchday": 1,
-      "betfair_1x2": {"home": 2.63, "draw": 3.10, "away": 2.88},
-      "market_probs": {"home": 0.380, "draw": 0.323, "away": 0.347},
-      "opta": {"home": 0.429, "draw": 0.260, "away": 0.311},
+      "date": "2026-06-11",
+      "group": "A",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 2.63,
+        "draw": 3.1,
+        "away": 2.88
+      },
+      "market_probs": {
+        "home": 0.38,
+        "draw": 0.323,
+        "away": 0.347
+      },
+      "opta": {
+        "home": 0.429,
+        "draw": 0.26,
+        "away": 0.311
+      },
       "consensus": "Draw 1-1"
     },
     "Canada_vs_Bosnia-Herzegovina": {
-      "date": "2026-06-12", "group": "B", "matchday": 1,
-      "betfair_1x2": {"home": 1.83, "draw": 3.70, "away": 4.50},
-      "market_probs": {"home": 0.540, "draw": 0.267, "away": 0.220},
+      "date": "2026-06-12",
+      "group": "B",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.83,
+        "draw": 3.7,
+        "away": 4.5
+      },
+      "market_probs": {
+        "home": 0.54,
+        "draw": 0.267,
+        "away": 0.22
+      },
       "consensus": "Canada 1-0"
     },
     "United States_vs_Paraguay": {
-      "date": "2026-06-12", "group": "D", "matchday": 1,
-      "betfair_1x2": {"home": 1.95, "draw": 3.50, "away": 4.00},
-      "market_probs": {"home": 0.510, "draw": 0.284, "away": 0.249},
+      "date": "2026-06-12",
+      "group": "D",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.95,
+        "draw": 3.5,
+        "away": 4.0
+      },
+      "market_probs": {
+        "home": 0.51,
+        "draw": 0.284,
+        "away": 0.249
+      },
       "consensus": "USA 1-0"
     },
     "Haiti_vs_Scotland": {
-      "date": "2026-06-13", "group": "C", "matchday": 1,
-      "betfair_1x2": {"home": 6.00, "draw": 4.33, "away": 1.57},
-      "market_probs": {"home": 0.167, "draw": 0.231, "away": 0.637},
+      "date": "2026-06-13",
+      "group": "C",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 6.0,
+        "draw": 4.33,
+        "away": 1.57
+      },
+      "market_probs": {
+        "home": 0.167,
+        "draw": 0.231,
+        "away": 0.637
+      },
       "consensus": "Scotland 2-1"
     },
     "Australia_vs_Turkey": {
-      "date": "2026-06-13", "group": "D", "matchday": 1,
-      "betfair_1x2": {"home": 5.00, "draw": 3.75, "away": 1.70},
-      "market_probs": {"home": 0.200, "draw": 0.267, "away": 0.588},
+      "date": "2026-06-13",
+      "group": "D",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 5.0,
+        "draw": 3.75,
+        "away": 1.7
+      },
+      "market_probs": {
+        "home": 0.2,
+        "draw": 0.267,
+        "away": 0.588
+      },
       "consensus": "Turkey 2-0"
     },
     "Brazil_vs_Morocco": {
-      "date": "2026-06-13", "group": "C", "matchday": 1,
-      "betfair_1x2": {"home": 1.44, "draw": 4.50, "away": 7.50},
-      "market_probs": {"home": 0.694, "draw": 0.222, "away": 0.133},
+      "date": "2026-06-13",
+      "group": "C",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.44,
+        "draw": 4.5,
+        "away": 7.5
+      },
+      "market_probs": {
+        "home": 0.694,
+        "draw": 0.222,
+        "away": 0.133
+      },
       "consensus": "Brazil 1-0"
     },
     "Qatar_vs_Switzerland": {
-      "date": "2026-06-13", "group": "B", "matchday": 1,
-      "betfair_1x2": {"home": 13.00, "draw": 6.50, "away": 1.22},
-      "market_probs": {"home": 0.077, "draw": 0.154, "away": 0.820},
+      "date": "2026-06-13",
+      "group": "B",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 13.0,
+        "draw": 6.5,
+        "away": 1.22
+      },
+      "market_probs": {
+        "home": 0.077,
+        "draw": 0.154,
+        "away": 0.82
+      },
       "consensus": "Switzerland 2-0"
     },
     "Ivory Coast_vs_Ecuador": {
-      "date": "2026-06-14", "group": "E", "matchday": 1,
-      "betfair_1x2": {"home": 3.60, "draw": 3.25, "away": 2.10},
-      "market_probs": {"home": 0.278, "draw": 0.308, "away": 0.476},
+      "date": "2026-06-14",
+      "group": "E",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 3.6,
+        "draw": 3.25,
+        "away": 2.1
+      },
+      "market_probs": {
+        "home": 0.278,
+        "draw": 0.308,
+        "away": 0.476
+      },
       "consensus": "Draw 1-1"
     },
     "Germany_vs_Curacao": {
-      "date": "2026-06-14", "group": "E", "matchday": 1,
-      "betfair_1x2": {"home": 1.08, "draw": 10.00, "away": 26.00},
-      "market_probs": {"home": 0.926, "draw": 0.100, "away": 0.038},
+      "date": "2026-06-14",
+      "group": "E",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.08,
+        "draw": 10.0,
+        "away": 26.0
+      },
+      "market_probs": {
+        "home": 0.926,
+        "draw": 0.1,
+        "away": 0.038
+      },
       "consensus": "Germany 4-0"
     },
     "Netherlands_vs_Japan": {
-      "date": "2026-06-14", "group": "F", "matchday": 1,
-      "betfair_1x2": {"home": 1.90, "draw": 3.60, "away": 4.00},
-      "market_probs": {"home": 0.526, "draw": 0.278, "away": 0.250},
+      "date": "2026-06-14",
+      "group": "F",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.9,
+        "draw": 3.6,
+        "away": 4.0
+      },
+      "market_probs": {
+        "home": 0.526,
+        "draw": 0.278,
+        "away": 0.25
+      },
       "consensus": "Draw 1-1"
     },
     "Sweden_vs_Tunisia": {
-      "date": "2026-06-14", "group": "F", "matchday": 1,
-      "betfair_1x2": {"home": 2.10, "draw": 3.30, "away": 3.60},
-      "market_probs": {"home": 0.476, "draw": 0.303, "away": 0.278},
+      "date": "2026-06-14",
+      "group": "F",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 2.1,
+        "draw": 3.3,
+        "away": 3.6
+      },
+      "market_probs": {
+        "home": 0.476,
+        "draw": 0.303,
+        "away": 0.278
+      },
       "consensus": "Sweden 2-0"
     },
     "Saudi Arabia_vs_Uruguay": {
-      "date": "2026-06-15", "group": "H", "matchday": 1,
-      "betfair_1x2": {"home": 7.00, "draw": 4.50, "away": 1.45},
-      "market_probs": {"home": 0.143, "draw": 0.222, "away": 0.690},
+      "date": "2026-06-15",
+      "group": "H",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 7.0,
+        "draw": 4.5,
+        "away": 1.45
+      },
+      "market_probs": {
+        "home": 0.143,
+        "draw": 0.222,
+        "away": 0.69
+      },
       "consensus": "Uruguay 2-0"
     },
     "Spain_vs_Cape Verde": {
-      "date": "2026-06-15", "group": "H", "matchday": 1,
-      "betfair_1x2": {"home": 1.06, "draw": 12.00, "away": 34.00},
-      "market_probs": {"home": 0.943, "draw": 0.083, "away": 0.029},
+      "date": "2026-06-15",
+      "group": "H",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.06,
+        "draw": 12.0,
+        "away": 34.0
+      },
+      "market_probs": {
+        "home": 0.943,
+        "draw": 0.083,
+        "away": 0.029
+      },
       "consensus": "Spain 3-0"
     },
     "Iran_vs_New Zealand": {
-      "date": "2026-06-15", "group": "G", "matchday": 1,
-      "betfair_1x2": {"home": 2.50, "draw": 3.20, "away": 2.88},
-      "market_probs": {"home": 0.400, "draw": 0.313, "away": 0.347},
+      "date": "2026-06-15",
+      "group": "G",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 2.5,
+        "draw": 3.2,
+        "away": 2.88
+      },
+      "market_probs": {
+        "home": 0.4,
+        "draw": 0.313,
+        "away": 0.347
+      },
       "consensus": "Draw 1-1"
     },
     "Belgium_vs_Egypt": {
-      "date": "2026-06-15", "group": "G", "matchday": 1,
-      "betfair_1x2": {"home": 1.67, "draw": 4.00, "away": 5.00},
-      "market_probs": {"home": 0.599, "draw": 0.250, "away": 0.200},
+      "date": "2026-06-15",
+      "group": "G",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.67,
+        "draw": 4.0,
+        "away": 5.0
+      },
+      "market_probs": {
+        "home": 0.599,
+        "draw": 0.25,
+        "away": 0.2
+      },
       "consensus": "Belgium 2-1"
     },
     "France_vs_Senegal": {
-      "date": "2026-06-16", "group": "I", "matchday": 1,
-      "betfair_1x2": {"home": 1.36, "draw": 5.00, "away": 8.50},
-      "market_probs": {"home": 0.735, "draw": 0.200, "away": 0.118},
+      "date": "2026-06-16",
+      "group": "I",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.36,
+        "draw": 5.0,
+        "away": 8.5
+      },
+      "market_probs": {
+        "home": 0.735,
+        "draw": 0.2,
+        "away": 0.118
+      },
       "consensus": "France 2-0"
     },
     "Iraq_vs_Norway": {
-      "date": "2026-06-16", "group": "I", "matchday": 1,
-      "betfair_1x2": {"home": 11.00, "draw": 6.00, "away": 1.25},
-      "market_probs": {"home": 0.091, "draw": 0.167, "away": 0.800},
+      "date": "2026-06-16",
+      "group": "I",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 11.0,
+        "draw": 6.0,
+        "away": 1.25
+      },
+      "market_probs": {
+        "home": 0.091,
+        "draw": 0.167,
+        "away": 0.8
+      },
       "consensus": "Norway 3-0"
     },
     "Argentina_vs_Algeria": {
-      "date": "2026-06-16", "group": "J", "matchday": 1,
-      "betfair_1x2": {"home": 1.30, "draw": 5.50, "away": 9.50},
-      "market_probs": {"home": 0.769, "draw": 0.182, "away": 0.105},
+      "date": "2026-06-16",
+      "group": "J",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.3,
+        "draw": 5.5,
+        "away": 9.5
+      },
+      "market_probs": {
+        "home": 0.769,
+        "draw": 0.182,
+        "away": 0.105
+      },
       "consensus": "Argentina 2-0"
     },
     "Austria_vs_Jordan": {
-      "date": "2026-06-16", "group": "J", "matchday": 1,
-      "betfair_1x2": {"home": 1.25, "draw": 6.00, "away": 12.00},
-      "market_probs": {"home": 0.800, "draw": 0.167, "away": 0.083},
+      "date": "2026-06-16",
+      "group": "J",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.25,
+        "draw": 6.0,
+        "away": 12.0
+      },
+      "market_probs": {
+        "home": 0.8,
+        "draw": 0.167,
+        "away": 0.083
+      },
       "consensus": "Austria 2-0"
     },
     "Ghana_vs_Panama": {
-      "date": "2026-06-17", "group": "L", "matchday": 1,
-      "betfair_1x2": {"home": 2.40, "draw": 3.10, "away": 3.20},
-      "market_probs": {"home": 0.417, "draw": 0.323, "away": 0.313},
+      "date": "2026-06-17",
+      "group": "L",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 2.4,
+        "draw": 3.1,
+        "away": 3.2
+      },
+      "market_probs": {
+        "home": 0.417,
+        "draw": 0.323,
+        "away": 0.313
+      },
       "consensus": "Draw 0-0"
     },
     "England_vs_Croatia": {
-      "date": "2026-06-17", "group": "L", "matchday": 1,
-      "betfair_1x2": {"home": 1.55, "draw": 4.00, "away": 6.00},
-      "market_probs": {"home": 0.645, "draw": 0.250, "away": 0.167},
+      "date": "2026-06-17",
+      "group": "L",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.55,
+        "draw": 4.0,
+        "away": 6.0
+      },
+      "market_probs": {
+        "home": 0.645,
+        "draw": 0.25,
+        "away": 0.167
+      },
       "consensus": "England 2-1"
     },
     "Portugal_vs_Congo DR": {
-      "date": "2026-06-17", "group": "K", "matchday": 1,
-      "betfair_1x2": {"home": 1.20, "draw": 6.50, "away": 15.00},
-      "market_probs": {"home": 0.833, "draw": 0.154, "away": 0.067},
+      "date": "2026-06-17",
+      "group": "K",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 1.2,
+        "draw": 6.5,
+        "away": 15.0
+      },
+      "market_probs": {
+        "home": 0.833,
+        "draw": 0.154,
+        "away": 0.067
+      },
       "consensus": "Portugal 3-0"
     },
     "Uzbekistan_vs_Colombia": {
-      "date": "2026-06-17", "group": "K", "matchday": 1,
-      "betfair_1x2": {"home": 7.00, "draw": 4.00, "away": 1.53},
-      "market_probs": {"home": 0.143, "draw": 0.250, "away": 0.654},
+      "date": "2026-06-17",
+      "group": "K",
+      "matchday": 1,
+      "betfair_1x2": {
+        "home": 7.0,
+        "draw": 4.0,
+        "away": 1.53
+      },
+      "market_probs": {
+        "home": 0.143,
+        "draw": 0.25,
+        "away": 0.654
+      },
       "consensus": "Colombia 2-0"
+    },
+    "Czech_Republic_vs_South_Africa": {
+      "date": "2026-06-18",
+      "group": "A",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.59,
+        "draw": 4.55,
+        "away": 6.67
+      },
+      "market_probs": {
+        "home": 0.63,
+        "draw": 0.22,
+        "away": 0.15
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Switzerland_vs_Bosnia-Herzegovina": {
+      "date": "2026-06-18",
+      "group": "B",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.37,
+        "draw": 5.56,
+        "away": 11.11
+      },
+      "market_probs": {
+        "home": 0.73,
+        "draw": 0.18,
+        "away": 0.09
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Canada_vs_Qatar": {
+      "date": "2026-06-18",
+      "group": "B",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.37,
+        "draw": 5.56,
+        "away": 11.11
+      },
+      "market_probs": {
+        "home": 0.73,
+        "draw": 0.18,
+        "away": 0.09
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Mexico_vs_South_Korea": {
+      "date": "2026-06-18",
+      "group": "A",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 2.38,
+        "draw": 3.23,
+        "away": 3.7
+      },
+      "market_probs": {
+        "home": 0.42,
+        "draw": 0.31,
+        "away": 0.27
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Brazil_vs_Haiti": {
+      "date": "2026-06-19",
+      "group": "C",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.11,
+        "draw": 12.5,
+        "away": 50.0
+      },
+      "market_probs": {
+        "home": 0.9,
+        "draw": 0.08,
+        "away": 0.02
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Scotland_vs_Morocco": {
+      "date": "2026-06-19",
+      "group": "C",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 11.11,
+        "draw": 5.26,
+        "away": 1.39
+      },
+      "market_probs": {
+        "home": 0.09,
+        "draw": 0.19,
+        "away": 0.72
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Turkey_vs_Paraguay": {
+      "date": "2026-06-19",
+      "group": "D",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.59,
+        "draw": 4.55,
+        "away": 6.67
+      },
+      "market_probs": {
+        "home": 0.63,
+        "draw": 0.22,
+        "away": 0.15
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "United_States_vs_Australia": {
+      "date": "2026-06-19",
+      "group": "D",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.37,
+        "draw": 5.56,
+        "away": 11.11
+      },
+      "market_probs": {
+        "home": 0.73,
+        "draw": 0.18,
+        "away": 0.09
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Germany_vs_Ivory_Coast": {
+      "date": "2026-06-20",
+      "group": "E",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.22,
+        "draw": 7.69,
+        "away": 20.0
+      },
+      "market_probs": {
+        "home": 0.82,
+        "draw": 0.13,
+        "away": 0.05
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Ecuador_vs_Curacao": {
+      "date": "2026-06-20",
+      "group": "E",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.22,
+        "draw": 7.69,
+        "away": 20.0
+      },
+      "market_probs": {
+        "home": 0.82,
+        "draw": 0.13,
+        "away": 0.05
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Netherlands_vs_Sweden": {
+      "date": "2026-06-20",
+      "group": "F",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.59,
+        "draw": 4.55,
+        "away": 6.67
+      },
+      "market_probs": {
+        "home": 0.63,
+        "draw": 0.22,
+        "away": 0.15
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Tunisia_vs_Japan": {
+      "date": "2026-06-20",
+      "group": "F",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 6.67,
+        "draw": 4.17,
+        "away": 1.64
+      },
+      "market_probs": {
+        "home": 0.15,
+        "draw": 0.24,
+        "away": 0.61
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Uruguay_vs_Cape_Verde": {
+      "date": "2026-06-21",
+      "group": "H",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.22,
+        "draw": 7.69,
+        "away": 20.0
+      },
+      "market_probs": {
+        "home": 0.82,
+        "draw": 0.13,
+        "away": 0.05
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Spain_vs_Saudi_Arabia": {
+      "date": "2026-06-21",
+      "group": "H",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.11,
+        "draw": 12.5,
+        "away": 50.0
+      },
+      "market_probs": {
+        "home": 0.9,
+        "draw": 0.08,
+        "away": 0.02
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Belgium_vs_Iran": {
+      "date": "2026-06-21",
+      "group": "G",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.37,
+        "draw": 5.56,
+        "away": 11.11
+      },
+      "market_probs": {
+        "home": 0.73,
+        "draw": 0.18,
+        "away": 0.09
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "New_Zealand_vs_Egypt": {
+      "date": "2026-06-21",
+      "group": "G",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 6.67,
+        "draw": 4.17,
+        "away": 1.64
+      },
+      "market_probs": {
+        "home": 0.15,
+        "draw": 0.24,
+        "away": 0.61
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Norway_vs_Senegal": {
+      "date": "2026-06-22",
+      "group": "I",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.82,
+        "draw": 3.85,
+        "away": 5.26
+      },
+      "market_probs": {
+        "home": 0.55,
+        "draw": 0.26,
+        "away": 0.19
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "France_vs_Iraq": {
+      "date": "2026-06-22",
+      "group": "I",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.11,
+        "draw": 12.5,
+        "away": 50.0
+      },
+      "market_probs": {
+        "home": 0.9,
+        "draw": 0.08,
+        "away": 0.02
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Argentina_vs_Austria": {
+      "date": "2026-06-22",
+      "group": "J",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.22,
+        "draw": 7.69,
+        "away": 20.0
+      },
+      "market_probs": {
+        "home": 0.82,
+        "draw": 0.13,
+        "away": 0.05
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Jordan_vs_Algeria": {
+      "date": "2026-06-22",
+      "group": "J",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 6.67,
+        "draw": 4.17,
+        "away": 1.64
+      },
+      "market_probs": {
+        "home": 0.15,
+        "draw": 0.24,
+        "away": 0.61
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "England_vs_Ghana": {
+      "date": "2026-06-23",
+      "group": "L",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.11,
+        "draw": 12.5,
+        "away": 50.0
+      },
+      "market_probs": {
+        "home": 0.9,
+        "draw": 0.08,
+        "away": 0.02
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Panama_vs_Croatia": {
+      "date": "2026-06-23",
+      "group": "L",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 6.67,
+        "draw": 4.17,
+        "away": 1.64
+      },
+      "market_probs": {
+        "home": 0.15,
+        "draw": 0.24,
+        "away": 0.61
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Portugal_vs_Uzbekistan": {
+      "date": "2026-06-23",
+      "group": "K",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.11,
+        "draw": 12.5,
+        "away": 50.0
+      },
+      "market_probs": {
+        "home": 0.9,
+        "draw": 0.08,
+        "away": 0.02
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Colombia_vs_Congo_DR": {
+      "date": "2026-06-23",
+      "group": "K",
+      "matchday": 2,
+      "betfair_1x2": {
+        "home": 1.37,
+        "draw": 5.56,
+        "away": 11.11
+      },
+      "market_probs": {
+        "home": 0.73,
+        "draw": 0.18,
+        "away": 0.09
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Scotland_vs_Brazil": {
+      "date": "2026-06-24",
+      "group": "C",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 20.0,
+        "draw": 7.69,
+        "away": 1.22
+      },
+      "market_probs": {
+        "home": 0.05,
+        "draw": 0.13,
+        "away": 0.82
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Morocco_vs_Haiti": {
+      "date": "2026-06-24",
+      "group": "C",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 1.11,
+        "draw": 12.5,
+        "away": 50.0
+      },
+      "market_probs": {
+        "home": 0.9,
+        "draw": 0.08,
+        "away": 0.02
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Switzerland_vs_Canada": {
+      "date": "2026-06-24",
+      "group": "B",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 2.08,
+        "draw": 3.45,
+        "away": 4.35
+      },
+      "market_probs": {
+        "home": 0.48,
+        "draw": 0.29,
+        "away": 0.23
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Bosnia-Herzegovina_vs_Qatar": {
+      "date": "2026-06-24",
+      "group": "B",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 2.08,
+        "draw": 3.45,
+        "away": 4.35
+      },
+      "market_probs": {
+        "home": 0.48,
+        "draw": 0.29,
+        "away": 0.23
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Czech_Republic_vs_Mexico": {
+      "date": "2026-06-24",
+      "group": "A",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 4.55,
+        "draw": 3.45,
+        "away": 2.04
+      },
+      "market_probs": {
+        "home": 0.22,
+        "draw": 0.29,
+        "away": 0.49
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "South_Africa_vs_South_Korea": {
+      "date": "2026-06-24",
+      "group": "A",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 11.11,
+        "draw": 5.26,
+        "away": 1.39
+      },
+      "market_probs": {
+        "home": 0.09,
+        "draw": 0.19,
+        "away": 0.72
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Curacao_vs_Ivory_Coast": {
+      "date": "2026-06-25",
+      "group": "E",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 11.11,
+        "draw": 5.26,
+        "away": 1.39
+      },
+      "market_probs": {
+        "home": 0.09,
+        "draw": 0.19,
+        "away": 0.72
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Ecuador_vs_Germany": {
+      "date": "2026-06-25",
+      "group": "E",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 11.11,
+        "draw": 5.26,
+        "away": 1.39
+      },
+      "market_probs": {
+        "home": 0.09,
+        "draw": 0.19,
+        "away": 0.72
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Japan_vs_Sweden": {
+      "date": "2026-06-25",
+      "group": "F",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 2.38,
+        "draw": 3.23,
+        "away": 3.7
+      },
+      "market_probs": {
+        "home": 0.42,
+        "draw": 0.31,
+        "away": 0.27
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Tunisia_vs_Netherlands": {
+      "date": "2026-06-25",
+      "group": "F",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 20.0,
+        "draw": 7.69,
+        "away": 1.22
+      },
+      "market_probs": {
+        "home": 0.05,
+        "draw": 0.13,
+        "away": 0.82
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Turkey_vs_United_States": {
+      "date": "2026-06-25",
+      "group": "D",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 2.86,
+        "draw": 3.03,
+        "away": 3.12
+      },
+      "market_probs": {
+        "home": 0.35,
+        "draw": 0.33,
+        "away": 0.32
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Paraguay_vs_Australia": {
+      "date": "2026-06-25",
+      "group": "D",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 2.38,
+        "draw": 3.23,
+        "away": 3.7
+      },
+      "market_probs": {
+        "home": 0.42,
+        "draw": 0.31,
+        "away": 0.27
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Norway_vs_France": {
+      "date": "2026-06-26",
+      "group": "I",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 4.55,
+        "draw": 3.45,
+        "away": 2.04
+      },
+      "market_probs": {
+        "home": 0.22,
+        "draw": 0.29,
+        "away": 0.49
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Senegal_vs_Iraq": {
+      "date": "2026-06-26",
+      "group": "I",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 1.22,
+        "draw": 7.69,
+        "away": 20.0
+      },
+      "market_probs": {
+        "home": 0.82,
+        "draw": 0.13,
+        "away": 0.05
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Egypt_vs_Iran": {
+      "date": "2026-06-26",
+      "group": "G",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 1.82,
+        "draw": 3.85,
+        "away": 5.26
+      },
+      "market_probs": {
+        "home": 0.55,
+        "draw": 0.26,
+        "away": 0.19
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "New_Zealand_vs_Belgium": {
+      "date": "2026-06-26",
+      "group": "G",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 20.0,
+        "draw": 7.69,
+        "away": 1.22
+      },
+      "market_probs": {
+        "home": 0.05,
+        "draw": 0.13,
+        "away": 0.82
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Cape_Verde_vs_Saudi_Arabia": {
+      "date": "2026-06-26",
+      "group": "H",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 2.86,
+        "draw": 3.03,
+        "away": 3.12
+      },
+      "market_probs": {
+        "home": 0.35,
+        "draw": 0.33,
+        "away": 0.32
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Uruguay_vs_Spain": {
+      "date": "2026-06-26",
+      "group": "H",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 11.11,
+        "draw": 5.26,
+        "away": 1.39
+      },
+      "market_probs": {
+        "home": 0.09,
+        "draw": 0.19,
+        "away": 0.72
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Panama_vs_England": {
+      "date": "2026-06-27",
+      "group": "L",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 20.0,
+        "draw": 7.69,
+        "away": 1.22
+      },
+      "market_probs": {
+        "home": 0.05,
+        "draw": 0.13,
+        "away": 0.82
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Croatia_vs_Ghana": {
+      "date": "2026-06-27",
+      "group": "L",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 1.22,
+        "draw": 7.69,
+        "away": 20.0
+      },
+      "market_probs": {
+        "home": 0.82,
+        "draw": 0.13,
+        "away": 0.05
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Algeria_vs_Austria": {
+      "date": "2026-06-27",
+      "group": "J",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 2.38,
+        "draw": 3.23,
+        "away": 3.7
+      },
+      "market_probs": {
+        "home": 0.42,
+        "draw": 0.31,
+        "away": 0.27
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Jordan_vs_Argentina": {
+      "date": "2026-06-27",
+      "group": "J",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 50.0,
+        "draw": 12.5,
+        "away": 1.11
+      },
+      "market_probs": {
+        "home": 0.02,
+        "draw": 0.08,
+        "away": 0.9
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Colombia_vs_Portugal": {
+      "date": "2026-06-27",
+      "group": "K",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 3.57,
+        "draw": 3.23,
+        "away": 2.44
+      },
+      "market_probs": {
+        "home": 0.28,
+        "draw": 0.31,
+        "away": 0.41
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
+    },
+    "Congo_DR_vs_Uzbekistan": {
+      "date": "2026-06-27",
+      "group": "K",
+      "matchday": 3,
+      "betfair_1x2": {
+        "home": 1.59,
+        "draw": 4.55,
+        "away": 6.67
+      },
+      "market_probs": {
+        "home": 0.63,
+        "draw": 0.22,
+        "away": 0.15
+      },
+      "_note": "Generated from V5 team power differential. Update with real Betfair odds when available."
     }
   }
 }

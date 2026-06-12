@@ -391,25 +391,36 @@ function dcPredict(home, away, players, rankings, gkRatings, supplement, teamPow
   if(wspTotal>0) weightedScores.forEach(s=>s.p/=wspTotal);
   weightedScores.sort((a,b)=>b.p-a.p);
 
-  // Ensure top score is consistent with prediction
-  // If prediction=H but top score is a draw, promote the best home-win score
+  // Ensure top displayed score matches the prediction outcome
+  // In close matches, a draw score (1-1) may have higher individual probability
+  // than any single home-win score, even though home-win SUMS to more.
+  // We show the best score that matches the predicted outcome FIRST.
   function scoreConsistent(score, pred){
     if(pred==='H') return score.h > score.a;
     if(pred==='A') return score.h < score.a;
     return score.h === score.a; // D
   }
-  // Find best prediction-consistent score
+  function scoreOpposite(score, pred){
+    if(pred==='H') return score.h < score.a;
+    if(pred==='A') return score.h > score.a;
+    return score.h !== score.a; // for D, opposite = either win
+  }
+  // Find best prediction-consistent score (forced to match verdict)
   let bestConsistent = weightedScores.find(s=>scoreConsistent(s, prediction));
-  let secondBest;
-  if(bestConsistent){
-    // Second best: either next consistent score, or next overall if consistent
-    const rest = weightedScores.filter(s=>s!==bestConsistent);
-    const nextConsistent = rest.find(s=>scoreConsistent(s, prediction));
-    secondBest = nextConsistent || rest[0];
-  } else {
-    // Fallback: just use top 2
+  if(!bestConsistent){
+    // Fallback: use top score regardless
     bestConsistent = weightedScores[0];
-    secondBest = weightedScores[1];
+  }
+  // Second best: prefer another consistent score, but allow opposite
+  // if no second consistent exists (shows the alternative scenario)
+  let secondBest;
+  const rest = weightedScores.filter(s=>s!==bestConsistent);
+  const nextConsistent = rest.find(s=>scoreConsistent(s, prediction));
+  if(nextConsistent){
+    secondBest = nextConsistent;
+  } else {
+    // Show best alternative-outcome score as second
+    secondBest = rest.find(s=>scoreOpposite(s, prediction)) || rest[0];
   }
 
   const marketConfidence = marketWeight>0 ? Math.round(marketWeight*100) : 0;
