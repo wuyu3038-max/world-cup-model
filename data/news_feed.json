@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-12T14:53:13.691930",
-  "total_articles": 17,
+  "updated": "2026-06-12T15:53:14.248303",
+  "total_articles": 16,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 12,
     "bbc_sport": 0,
-    "sky_sports": 5,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
@@ -37,31 +37,31 @@
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
     },
     {
+      "id": "e7ad65070b9e",
+      "title": "World Cup VAR review: Was ref right to show three ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+      "published_at": "Fri, 12 Jun 2026 03:10:32 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+    },
+    {
       "id": "ed5ab138f60b",
       "title": "Mexico's win an emotional celebration of World Cup...",
       "url": "https://www.espn.com/soccer/story/_/id/49033649/mexico-win-south-africa-emotional-celebration-world-cup-return-estadio-azteca",
-      "published_at": "Fri, 12 Jun 2026 00:41:29 EST",
+      "published_at": "Fri, 12 Jun 2026 03:07:25 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Forty years after the World Cup was last in Mexico, the tournament returned Thursday, and Mexico celebrated with an emotional win over South Africa."
     },
     {
-      "id": "1249db54b652",
-      "title": "2026 World Cup recap: Mexico kicks off World Cup w...",
-      "url": "https://www.espn.com/soccer/story/_/id/49003509/2026-fifa-world-cup-live-updates-mexico-vs-south-africa",
-      "published_at": "Fri, 12 Jun 2026 00:41:29 EST",
+      "id": "126c747944a0",
+      "title": "From gridiron to pitch: How NFL stadiums have transformed for the World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/48939622/from-gridiron-pitch-how-nfl-stadiums-transformed-2026-fifa-world-cup",
+      "published_at": "Fri, 12 Jun 2026 03:18:30 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "Mexico defeated South Africa 2-0 in Mexico City in the opening match of the tournament."
-    },
-    {
-      "id": "e7ad65070b9e",
-      "title": "World Cup VAR review: Was ref right to show three ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Thu, 11 Jun 2026 18:38:46 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+      "summary": "Eleven NFL stadiums are playing host to the World Cup this summer, but each have required substantial alterations to host the beautiful game."
     },
     {
       "id": "234f2faa4767",
@@ -127,6 +127,15 @@
       "summary": "Who will win the 2026 Women's T20 World Cup? How will England fare? And who will finish as the leading wicket-taker and top run-scorer?"
     },
     {
+      "id": "fd5ab4e59651",
+      "title": "Clayton ready to go all the way at World Cup of Darts with new team-mate Kenny",
+      "url": "https://www.skysports.com/darts/news/12040/13552975/jonny-clayton-ready-to-go-all-the-way-at-world-cup-of-darts-with-new-team-mate-nick-kenny-you-dont-turn-down-the-chance-to-put-the-welsh-shirt-on",
+      "published_at": "Thu, 11 Jun 2026 10:02:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Wales' Jonny Clayton is a two-time World Cup of Darts winner and, with a new team-mate in Nick Kenny by his side, the goal of a third is still very much in sight."
+    },
+    {
       "id": "d63265bdba46",
       "title": "World Cup of Darts: Wales' Clayton and Kenny get off to winning start in group stages ",
       "url": "https://www.skysports.com/darts/news/12040/13552971/world-cup-of-darts-wales-jonny-clayton-and-nick-kenny-get-off-to-winning-ways-as-germany-ireland-also-win",
@@ -137,30 +146,12 @@
     },
     {
       "id": "a007e1485bbb",
-      "title": "World Cup of Darts 2026 schedule: Wales kick group-stage off with win",
+      "title": "World Cup of Darts 2026 schedule and results",
       "url": "https://www.skysports.com/darts/news/12040/13550475/world-cup-of-darts-2026-schedule-dates-group-stage-draw-as-northern-ireland-defend-crown-in-frankfurt",
       "published_at": "Thu, 11 Jun 2026 23:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Wales started their bid for a third BetVictor World Cup of Darts title on the tournament's opening night with a 4-1 win over Lithuania."
-    },
-    {
-      "id": "cc4bb1d7f5b4",
-      "title": "World Cup issues still cannot take shine off greatest show on earth",
-      "url": "https://www.skysports.com/football/news/12040/13552946/world-cup-controversy-cannot-take-the-shine-off-the-greatest-show-on-earth-as-football-takes-centre-stage-in-mexico",
-      "published_at": "Fri, 12 Jun 2026 05:35:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "And we are off. Three red cards including a VAR intervention. Two goals for co-hosts Mexico in the Estadio Azteca. One nightmare start for South Africa midfielder Yaya Sithole. And an emotional first "
-    },
-    {
-      "id": "04ca36578cc7",
-      "title": "'That is superb!' | Clayton gets off to winning start with new World Cup partner",
-      "url": "https://www.skysports.com/watch/video/13553202/world-cup-of-darts-jonny-clayton-gets-off-to-winning-start-with-new-world-cup-partner",
-      "published_at": "Thu, 11 Jun 2026 22:10:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Jonny Clayton checks out a ton to get Wales off to a winning start alongside his new World Cup partner Nick Kenny."
     }
   ]
 }
