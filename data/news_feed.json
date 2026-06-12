@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-12T18:53:13.700314",
+  "updated": "2026-06-12T19:53:14.889303",
   "total_articles": 15,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 12,
+    "espn_fc": 13,
     "bbc_sport": 0,
-    "sky_sports": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -22,7 +22,7 @@
       "id": "5f2e541827da",
       "title": "Berhalter backs USMNT ambition at World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/49038874/mauricio-pochettino-usmnst-high-expectations-world-cup",
-      "published_at": "Fri, 12 Jun 2026 06:18:28 EST",
+      "published_at": "Fri, 12 Jun 2026 07:49:21 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Former United States boss Gregg Berhalter is confident Mauricio Pochettino's side can achieve \"big things\" at the World Cup and help football's continued growth in the country."
@@ -31,7 +31,7 @@
       "id": "ef8e4f2fad96",
       "title": "📈 Ranking the 50 best players in the World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Fri, 12 Jun 2026 06:18:28 EST",
+      "published_at": "Fri, 12 Jun 2026 07:49:22 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
@@ -118,6 +118,15 @@
       "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
     },
     {
+      "id": "ab078500aca5",
+      "title": "2026 World Cup betting preview: One bet to make on...",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48807078/fifa-world-cup-betting-preview-best-bets-picks-odds-props-futures-2026",
+      "published_at": "Thu, 11 Jun 2026 10:36:25 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "So many teams, so many games. Looking to place some bets? Here's one to make on every team in the 2026 World Cup tournament."
+    },
+    {
       "id": "fe382f312a0d",
       "title": "Rock: No pressure on reigning champs Northern Ireland at World Cup of Darts",
       "url": "https://www.skysports.com/darts/news/12040/13552976/world-cup-of-darts-josh-rock-says-no-pressure-on-reigning-champions-northern-ireland-all-eyes-will-be-on-england",
@@ -134,15 +143,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Who will win the 2026 Women's T20 World Cup? How will England fare? And who will finish as the leading wicket-taker and top run-scorer?"
-    },
-    {
-      "id": "fd5ab4e59651",
-      "title": "Clayton ready to go all the way at World Cup of Darts with new team-mate Kenny",
-      "url": "https://www.skysports.com/darts/news/12040/13552975/jonny-clayton-ready-to-go-all-the-way-at-world-cup-of-darts-with-new-team-mate-nick-kenny-you-dont-turn-down-the-chance-to-put-the-welsh-shirt-on",
-      "published_at": "Thu, 11 Jun 2026 10:02:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Wales' Jonny Clayton is a two-time World Cup of Darts winner and, with a new team-mate in Nick Kenny by his side, the goal of a third is still very much in sight."
     }
   ]
 }
