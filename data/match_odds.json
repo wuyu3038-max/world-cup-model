@@ -2,7 +2,7 @@
   "_meta": {
     "description": "Match-level 1X2 Betfair/Betting Exchange odds for all 2026 World Cup group stage matches. Used to anchor win/draw/loss probabilities.",
     "source": "Betfair Exchange, Bet365, DraftKings, Opta Supercomputer",
-    "updated": "2026-06-12T14:00:12.810090",
+    "updated": "2026-06-12T18:00:11.332071",
     "blend_weight": 0.6,
     "note": "Matchday 1: Real Betfair/Bet365 odds. Matchday 2-3: Model-generated odds from team power differential.",
     "matchday1_source": "Real Betfair/Bet365/DraftKings odds",
