@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-12T17:43:33.808531",
+  "updated": "2026-06-12T22:15:08.699637",
   "total_articles": 12,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 10,
-    "sky_sports": 3,
+    "bbc_sport": 7,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
@@ -13,19 +13,19 @@
       "id": "c8971bfedd49",
       "title": "Partey denied entry to Canada for Ghana's World Cup opener",
       "url": "https://www.bbc.com/sport/football/articles/cn8qgny4186o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 17:26:20 GMT",
+      "published_at": "Fri, 12 Jun 2026 21:37:42 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Ghana midfielder Thomas Partey will miss his nation's first World Cup game in Toronto against Panama, after being denied entry to Canada. "
     },
     {
-      "id": "801cda9698dc",
-      "title": "Three red cards shown as Mexico beat South Africa in World Cup opener",
-      "url": "https://www.bbc.com/sport/football/videos/cx2dyr3e1zro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 22:01:14 GMT",
+      "id": "3e5d62562310",
+      "title": "Fans on concourses instead of in seats, claims Fifa",
+      "url": "https://www.bbc.com/sport/football/articles/c14y0dp6vrdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 12 Jun 2026 20:26:23 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Three players are sent off as World Cup co-hosts Mexico defeat South Africa in a dramatic opening match at a packed Azteca Stadium."
+      "summary": "Fifa says numerous empty seats were visible in the near-sell-out Group A match between South Korea and the Czech Republic because of fans remaining on concourses."
     },
     {
       "id": "46ad54907c86",
@@ -64,40 +64,22 @@
       "summary": "BBC Sport are launching a new, improved app experience for the Fifa World Cup 2026"
     },
     {
-      "id": "a24e382ab40f",
-      "title": "Quinones scores opening goal of 2026 World Cup",
-      "url": "https://www.bbc.com/sport/football/videos/cqx184lqywwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 21:03:49 GMT",
+      "id": "997dbe923975",
+      "title": "Richards 'understands' but disagrees with Tuchel's England squad selection",
+      "url": "https://www.bbc.com/sport/football/videos/cn07xjyyzwjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 12 Jun 2026 19:18:42 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Mexico's Julian Quinones scores the opening goal of the 2026 World Cup against South Africa at Mexico City Stadium. "
+      "summary": "BBC pundit Micah Richards says he \"understands\" the squad picked by England manager Thomas Tuchel for the 2026 World Cup, but does not agree with Tuchel's selections, adding he would have selected one"
     },
     {
-      "id": "d0c4db172242",
-      "title": "Three red cards shown in opening game of World Cup",
-      "url": "https://www.bbc.com/sport/football/videos/cpv3nk20e9xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 21:30:42 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Referee Wilton Pereira Sampaio shows red cards to South Africa's Yaya Sithole and Themba Zwane as well as Mexico's Cesar Montes during the opening match of the 2026 World Cup at the Mexico City Stadiu"
-    },
-    {
-      "id": "6400c006b994",
-      "title": "Shakira among the performers at World Cup opening ceremony",
-      "url": "https://www.bbc.com/sport/football/videos/cg532q9zjppo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 21:06:59 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Shakira was among the performers during the opening ceremony of the 2026 World Cup at the Mexico City Stadium ahead of the opening game between Mexico and South Africa. "
-    },
-    {
-      "id": "baafab3553bd",
-      "title": "Women's T20 World Cup: England bat first against Sri Lanka in opener LIVE!",
-      "url": "https://www.skysports.com/cricket/live-blog/12040/13553406/england-vs-sri-lanka-live-cricket-score-updates-video-and-analysis-from-icc-womens-t20-world-cup-opener-at-edgbaston",
-      "published_at": "Fri, 12 Jun 2026 17:25:00 BST",
+      "id": "50ce30cec65d",
+      "title": "Wyatt-Hodge stars as England dominate Sri Lanka in World Cup opener",
+      "url": "https://www.skysports.com/cricket/news/12040/13553458/womens-t20-world-cup-englands-danni-wyatt-hodge-lights-up-tournament-opener-with-century-in-hosts-dominant-win-over-sri-lanka",
+      "published_at": "Fri, 12 Jun 2026 18:23:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Danni Wyatt-Hodge lit up the opening game of the Women's T20 World Cup with a magnificent hundred as England posted a tournament-record total in a dominant win over Sri Lanka at Edgbaston."
     },
     {
       "id": "dbc41d99d29a",
@@ -109,13 +91,31 @@
       "summary": "Live score from the opening match of the ICC Women's T20 World Cup between England and Sri Lanka at Edgbaston. Watch on Sky Sports Cricket or for FREE on the Sky Sports App."
     },
     {
-      "id": "15c98873a994",
-      "title": "Clarke wants Scotland to 'do something special' on World Cup return",
-      "url": "https://www.skysports.com/football/news/12040/13553435/scotland-at-world-cup-steve-clarke-ready-to-do-something-special-on-return-to-footballs-biggest-stage",
-      "published_at": "Fri, 12 Jun 2026 18:00:00 BST",
+      "id": "9dc6228ab4b9",
+      "title": "F1 drivers take on keepy uppies challenge ahead of World Cup!",
+      "url": "https://www.skysports.com/watch/video/13553457/barcelona-catalunya-gp-f1-drivers-take-on-keepy-uppies-challenge-ahead-of-world-cup",
+      "published_at": "Fri, 12 Jun 2026 18:22:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Steve Clarke wants Scotland to \"do something special\" on their return to the World Cup for the first time in 28 years."
+      "summary": "Several Formula One drivers attempted keepy uppies ahead of the football World Cup!"
+    },
+    {
+      "id": "96245ab00d45",
+      "title": "Partey refused entry to Canada for Ghana's World Cup opener",
+      "url": "https://www.skysports.com/football/news/12040/13553454/world-cup-2026-thomas-partey-refused-entry-to-canada-ahead-of-ghana-match-with-panama",
+      "published_at": "Fri, 12 Jun 2026 18:03:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Thomas Partey has been refused entry to Canada ahead of Ghana's World Cup opener with Panama on Thursday - but he is set to face England."
+    },
+    {
+      "id": "00cdc5a4bcb4",
+      "title": "Canada rescue draw against Bosnia to claim first World Cup point",
+      "url": "https://www.skysports.com/football/canada-vs-bosnia-and-herzegovina/report/549768",
+      "published_at": "Fri, 05 Jun 2026 21:45:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Canada claimed their first ever World Cup point as the co-hosts came from behind to rescue a 1-1 draw against Bosnia-Herzegovina."
     }
   ]
 }
