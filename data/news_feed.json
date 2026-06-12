@@ -1,12 +1,184 @@
 {
-  "updated": "2026-06-11T23:53:05.767156",
-  "total_articles": 0,
+  "updated": "2026-06-11T23:00:09.052168",
+  "total_articles": 19,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 0,
+    "bbc_sport": 14,
+    "sky_sports": 5,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "58d8a0ce4d48",
+      "title": "World Cup kicks off in Mexico with Shakira, performers and vibrant fans",
+      "url": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 20:26:06 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "A star-studded opening ceremony featured artists from the World Cup's official soundtrack."
+    },
+    {
+      "id": "801cda9698dc",
+      "title": "Three red cards shown as Mexico beat South Africa in World Cup opener",
+      "url": "https://www.bbc.com/sport/football/videos/cx2dyr3e1zro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 22:01:14 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Three players are sent off as World Cup co-hosts Mexico defeat South Africa in a dramatic opening match at a packed Azteca Stadium."
+    },
+    {
+      "id": "d1bbb121968d",
+      "title": "Fatigue? The World Cup players who have had toughest seasons",
+      "url": "https://www.bbc.com/sport/football/articles/c05yz1yr08mo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 13:55:27 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport examines which World Cup teams and players have played the most minutes since last summer, when the Club World Cup was kicking off in the United States."
+    },
+    {
+      "id": "1fea336533eb",
+      "title": "Why are footballers wearing pink boots at the World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/c0ryn5wqywgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 22:04:51 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The opening match of the 2026 World Cup was dominated by players wearing pink boots - but why is the colour so prevalent in football at the moment?"
+    },
+    {
+      "id": "a24e382ab40f",
+      "title": "Quinones scores opening goal of 2026 World Cup",
+      "url": "https://www.bbc.com/sport/football/videos/cqx184lqywwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 21:03:49 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Mexico's Julian Quinones scores the opening goal of the 2026 World Cup against South Africa at Mexico City Stadium. "
+    },
+    {
+      "id": "83ae6de41952",
+      "title": "Artan to referee Uefa Super Cup after losing World Cup role",
+      "url": "https://www.bbc.com/sport/football/articles/c2kyx0l0499o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 14:24:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Somali referee Omar Artan is appointed to take charge of the Uefa Super Cup match between Paris St-Germain and Aston Villa later this summer after being denied a spot at the World Cup."
+    },
+    {
+      "id": "22d827fcc859",
+      "title": "Messi, Maradona or Pele? Ranking the top 10 World Cup legends",
+      "url": "https://www.bbc.com/sport/football/articles/cgl34ne0g3eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 05:51:06 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Who are the biggest World Cup legends of all time? From Pele to Lionel Messi, we attempt to name the top 10."
+    },
+    {
+      "id": "c4af920874ed",
+      "title": "The World Cup is bigger than ever - and BBC Sport has an app to match",
+      "url": "https://www.bbc.com/sport/football/articles/clypy5p44l9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 11:13:02 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport are launching a new, improved app experience for the Fifa World Cup 2026"
+    },
+    {
+      "id": "59d356739e17",
+      "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
+      "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 10 Jun 2026 17:25:38 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup."
+    },
+    {
+      "id": "c218d6bee03e",
+      "title": "Catch up on the World Cup without any spoilers",
+      "url": "https://www.bbc.com/sport/football/articles/c0qy0zn231yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 17:08:40 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
+    },
+    {
+      "id": "679f045f61d1",
+      "title": "Follow the World Cup with live lock screen updates on the BBC Sport app",
+      "url": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 13:28:47 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport has launched live match updates - bringing you your team's score directly to your phone lock screen."
+    },
+    {
+      "id": "cbc509e4c224",
+      "title": "Play BBC Sport's new World Cup predictor game",
+      "url": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 08:24:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
+    },
+    {
+      "id": "d0c4db172242",
+      "title": "Three red cards shown in opening game of World Cup",
+      "url": "https://www.bbc.com/sport/football/videos/cpv3nk20e9xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 21:30:42 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Referee Wilton Pereira Sampaio shows red cards to South Africa's Yaya Sithole and Themba Zwane as well as Mexico's Cesar Montes during the opening match of the 2026 World Cup at the Mexico City Stadiu"
+    },
+    {
+      "id": "6400c006b994",
+      "title": "Shakira among the performers at World Cup opening ceremony",
+      "url": "https://www.bbc.com/sport/football/videos/cg532q9zjppo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 21:06:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Shakira was among the performers during the opening ceremony of the 2026 World Cup at the Mexico City Stadium ahead of the opening game between Mexico and South Africa. "
+    },
+    {
+      "id": "d63265bdba46",
+      "title": "World Cup of Darts: Wales' Clayton and Kenny get off to winning start in group stages ",
+      "url": "https://www.skysports.com/darts/news/12040/13552971/world-cup-of-darts-wales-jonny-clayton-and-nick-kenny-get-off-to-winning-ways-as-germany-ireland-also-win",
+      "published_at": "Thu, 11 Jun 2026 22:58:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Jonny Clayton, alongside new partner Nick Kenny, got their World Cup of Darts campaign under way with a 4-1 victory over Lithuania&#8217;s Darius Labanauskas and Mindaugas Barauskas in Group C."
+    },
+    {
+      "id": "a007e1485bbb",
+      "title": "World Cup of Darts 2026 schedule: Wales kick group-stage off with win",
+      "url": "https://www.skysports.com/darts/news/12040/13550475/world-cup-of-darts-2026-schedule-dates-group-stage-draw-as-northern-ireland-defend-crown-in-frankfurt",
+      "published_at": "Thu, 11 Jun 2026 23:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Wales started their bid for a third BetVictor World Cup of Darts title on the tournament's opening night with a 4-1 win over Lithuania."
+    },
+    {
+      "id": "04ca36578cc7",
+      "title": "'That is superb!' | Clayton gets off to winning start with new World Cup partner",
+      "url": "https://www.skysports.com/watch/video/13553202/world-cup-of-darts-jonny-clayton-gets-off-to-winning-start-with-new-world-cup-partner",
+      "published_at": "Thu, 11 Jun 2026 22:10:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Jonny Clayton checks out a ton to get Wales off to a winning start alongside his new World Cup partner Nick Kenny."
+    },
+    {
+      "id": "ce68126b6bef",
+      "title": "THREE red cards as Mexico get World Cup started with win over South Africa",
+      "url": "https://www.skysports.com/football/mexico-vs-south-africa/report/549767",
+      "published_at": "Thu, 11 Jun 2026 21:45:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Mexico got their joint-home World Cup off to the perfect start with a 2-0 opening match win over nine-man South Africa - in a game that had THREE red cards."
+    },
+    {
+      "id": "210a8596257b",
+      "title": "Could visa issues continue to define the World Cup?",
+      "url": "https://www.skysports.com/watch/video/13553023/world-cup-could-visa-issues-continue-to-define-fifas-biggest-tournament",
+      "published_at": "Thu, 11 Jun 2026 13:12:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Sky Sports Geraint Hughes takes a look at the visa issues that have rocked the World Cup after Somalian referee Omar Artan was refused entry into the US."
+    }
+  ]
 }
