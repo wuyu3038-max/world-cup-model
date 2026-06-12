@@ -1,37 +1,28 @@
 {
-  "updated": "2026-06-12T10:00:41.276629",
-  "total_articles": 32,
+  "updated": "2026-06-12T10:52:48.395291",
+  "total_articles": 31,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 12,
     "bbc_sport": 14,
-    "sky_sports": 6,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "ed5ab138f60b",
-      "title": "Mexico's win an emotional celebration of World Cup...",
-      "url": "https://www.espn.com/soccer/story/_/id/49033649/mexico-win-south-africa-emotional-celebration-world-cup-return-estadio-azteca",
-      "published_at": "Thu, 11 Jun 2026 18:59:15 EST",
+      "id": "42de5547642e",
+      "title": "Follow live: South Korea, Czechia meet in Group A",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760414/czechia-south-korea",
+      "published_at": "Thu, 11 Jun 2026 22:48:30 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "Forty years after the World Cup was last in Mexico, the tournament returned Thursday, and Mexico celebrated with an emotional win over South Africa."
-    },
-    {
-      "id": "1249db54b652",
-      "title": "2026 World Cup recap: Mexico kicks off World Cup w...",
-      "url": "https://www.espn.com/soccer/story/_/id/49003509/2026-fifa-world-cup-live-updates-mexico-vs-south-africa",
-      "published_at": "Thu, 11 Jun 2026 19:10:12 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Mexico defeated South Africa 2-0 in Mexico City in the opening match of the tournament."
+      "summary": "null"
     },
     {
       "id": "e1a8ac37be8d",
       "title": "Tottenham's Senesi called up to Argentina squad",
       "url": "https://www.espn.com/soccer/story/_/id/49032417/tottenham-defender-marcos-senesi-called-argentina-world-cup-squad",
-      "published_at": "Thu, 11 Jun 2026 21:23:10 EST",
+      "published_at": "Thu, 11 Jun 2026 22:10:52 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The Argentina national team confirmed defender Marcos Senesi will replace the injured Leonardo Balerdi on the 26-player World Cup roster."
@@ -40,7 +31,7 @@
       "id": "ef8e4f2fad96",
       "title": "📈 Ranking the 50 best players in the World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Thu, 11 Jun 2026 21:23:11 EST",
+      "published_at": "Thu, 11 Jun 2026 22:10:52 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
@@ -53,6 +44,24 @@
       "source": "ESPN FC",
       "language": "en",
       "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+    },
+    {
+      "id": "ed5ab138f60b",
+      "title": "Mexico's win an emotional celebration of World Cup...",
+      "url": "https://www.espn.com/soccer/story/_/id/49033649/mexico-win-south-africa-emotional-celebration-world-cup-return-estadio-azteca",
+      "published_at": "Thu, 11 Jun 2026 22:11:08 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Forty years after the World Cup was last in Mexico, the tournament returned Thursday, and Mexico celebrated with an emotional win over South Africa."
+    },
+    {
+      "id": "1249db54b652",
+      "title": "2026 World Cup recap: Mexico kicks off World Cup w...",
+      "url": "https://www.espn.com/soccer/story/_/id/49003509/2026-fifa-world-cup-live-updates-mexico-vs-south-africa",
+      "published_at": "Thu, 11 Jun 2026 22:11:08 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Mexico defeated South Africa 2-0 in Mexico City in the opening match of the tournament."
     },
     {
       "id": "e9e6ec8ccb11",
@@ -107,15 +116,6 @@
       "source": "ESPN FC",
       "language": "en",
       "summary": "Adidas has unveiled its new trophies for the top individual awards for best player, top goal-scorer and best goalkeeper ahead of the 2026 World Cup."
-    },
-    {
-      "id": "ab078500aca5",
-      "title": "2026 World Cup betting preview: One bet to make on...",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48807078/fifa-world-cup-betting-preview-best-bets-picks-odds-props-futures-2026",
-      "published_at": "Thu, 11 Jun 2026 10:36:25 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "So many teams, so many games. Looking to place some bets? Here's one to make on every team in the 2026 World Cup tournament."
     },
     {
       "id": "7f3ac8ed1c1f",
@@ -251,15 +251,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Jonny Clayton, alongside new partner Nick Kenny, got their World Cup of Darts campaign under way with a 4-1 victory over Lithuania&#8217;s Darius Labanauskas and Mindaugas Barauskas in Group C."
-    },
-    {
-      "id": "f999d42becb4",
-      "title": "World Cup game number two as South Korea face Czech Republic LIVE!",
-      "url": "https://www.skysports.com/football/korea-republic-vs-czech-republic/live/549766",
-      "published_at": "Thu, 11 Jun 2026 11:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     },
     {
       "id": "a007e1485bbb",

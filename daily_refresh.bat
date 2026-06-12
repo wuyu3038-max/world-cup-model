@@ -4,30 +4,38 @@ set PYTHONIOENCODING=utf-8
 cd /d "C:\Users\29746\Documents\world-cup-model"
 
 echo ============================================
-echo  World Cup 2026 - 8h Auto Refresh
+echo  World Cup 2026 - Auto Refresh Pipeline
 echo  %date% %time%
 echo ============================================
 
-echo [1/4] News...
-python news_feed.py 2>nul
+echo [1/6] Live Scores (auto-fetch results)...
+python live_score_fetcher.py
 echo.
 
-echo [2/4] Betfair index...
-python betfair_fetcher.py 2>nul
+echo [2/6] Betfair Index (money flow)...
+python betfair_fetcher.py
 echo.
 
-echo [3/4] Tournament sim (1000x)...
-python tournament.py 1000 2>nul
+echo [3/6] Match Odds (regenerate 1X2 probs)...
+python refresh_match_odds.py
 echo.
 
-echo [4/4] Merge website data...
-python auto_refresh.py 2>nul
+echo [4/6] News Feed...
+python news_feed.py
 echo.
 
-echo [5/5] Deploy to Vercel...
-call vercel deploy --prod --yes 2>nul
+echo [5/6] Merge all_data.json...
+python auto_refresh.py --merge-only
+echo.
+
+echo [6/6] Git Push -> Vercel Deploy...
+git add -A
+git commit -m "auto-refresh: %date% %time%" 2>nul
+git push origin master
 echo.
 
 echo ============================================
 echo  DONE: %date% %time%
+echo  Website: https://world-cup-model.vercel.app
 echo ============================================
+pause

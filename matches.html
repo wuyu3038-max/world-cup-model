@@ -451,7 +451,7 @@ function asianHandicap(diff){
 }
 
 // ============ RENDER (V6 Simplified) ============
-function renderMatch(pred,m){
+function renderMatch(pred,m,actualScore){
   const hb=Math.round(pred.hw*100), db=Math.round(pred.dw*100), ab=Math.round(pred.aw*100);
   const{s1,s1p,s2,s2p}=pred;
   // Lead outcome
@@ -460,6 +460,17 @@ function renderMatch(pred,m){
   // Confidence level
   const maxProb = Math.max(hb,db,ab);
   const confStars = maxProb>=65 ? 5 : maxProb>=55 ? 4 : maxProb>=45 ? 3 : maxProb>=38 ? 2 : 1;
+  // Actual result banner
+  let resultBanner = '';
+  if(actualScore){
+    const predictedOutcome = leadOutcome;
+    const parts = actualScore.split('-');
+    const actualOutcome = parts[0] > parts[1] ? 'H' : parts[0] < parts[1] ? 'A' : 'D';
+    const correct = predictedOutcome === actualOutcome;
+    const bgClr = correct ? '#1b5e20' : '#b71c1c';
+    resultBanner = '<div style="margin-top:3px;padding:2px 6px;border-radius:3px;font-size:10px;background:'+bgClr+';color:#fff;display:inline-block">'+
+      (correct ? '✅ 正确 ' : '❌ ') + '实际 '+actualScore+'</div>';
+  }
   // Score highlight
   const s1Consistent = (leadOutcome==='H'&&s1.h>s1.a)||(leadOutcome==='A'&&s1.h<s1.a)||(leadOutcome==='D'&&s1.h===s1.a);
   const s1Cls = s1Consistent ? 'highlight' : '';
@@ -491,7 +502,7 @@ function renderMatch(pred,m){
         '<span style="color:#ef9a9a">客 '+ab+'%</span>'+
       '</div>'+
     '</div>'+
-    '<div class="verdict"><span class="verdict-chip '+leadOutcome+'">'+leadLabel+'</span></div>'+
+    '<div class="verdict"><span class="verdict-chip '+leadOutcome+'">'+leadLabel+'</span>'+resultBanner+'</div>'+
     '<div class="score-cell">'+
       '<div class="main-score '+s1Cls+'">'+s1.h+':'+s1.a+'</div>'+
       '<div class="pct">'+(s1p*100).toFixed(0)+'%</div>'+
@@ -634,7 +645,13 @@ async function main(){
           const vKey = m.h + '|' + m.a;
           const venueInfo = venueLookup[vKey] || {};
           const pred=dcPredict(m.h,m.a,players,rankings,gkRatings,supplement,teamPowers,envCities,venueInfo,betfairIndex,{articles:newsArticles,team_keywords:TEAM_KW},h2hData,teamInjuryPenalty,matchOddsAll);
-          html+=renderMatch(pred,m);
+          // Look up actual result
+          const k1=m.h+'_vs_'+m.a, k2=m.a+'_vs_'+m.h;
+          const k1u=m.h.replace(/ /g,'_')+'_vs_'+m.a.replace(/ /g,'_');
+          const k2u=m.a.replace(/ /g,'_')+'_vs_'+m.h.replace(/ /g,'_');
+          const mo=matchOddsAll[k1]||matchOddsAll[k2]||matchOddsAll[k1u]||matchOddsAll[k2u];
+          const actualScore=mo?.result||null;
+          html+=renderMatch(pred,m,actualScore);
         });
       });
     });

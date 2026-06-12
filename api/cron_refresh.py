@@ -80,26 +80,46 @@ def refresh_match_odds():
         return False
 
 
+def refresh_live_scores():
+    """Auto-fetch actual match results from live score sources."""
+    try:
+        from live_score_fetcher import fetch_all_results, update_match_odds_with_results
+        results = fetch_all_results()
+        if results:
+            n = update_match_odds_with_results(results)
+            print(f"  [live_scores] {len(results)} results found, {n} updated in match_odds")
+            return n > 0
+        print(f"  [live_scores] No new results")
+        return True  # Not an error if no results yet
+    except Exception as e:
+        print(f"  [live_scores] Error: {e}")
+        return False
+
+
 def handler(request=None):
     """Vercel serverless function entry point."""
     results = {
         "timestamp": datetime.now().isoformat(),
+        "live_scores": False,
         "betfair": False,
         "match_odds": False,
         "news": False,
         "merge": False,
     }
 
-    # 1. Betfair index (money flow, fast)
+    # 1. LIVE SCORES — fetch actual match results first
+    results["live_scores"] = refresh_live_scores()
+
+    # 2. Betfair index (money flow, fast)
     results["betfair"] = refresh_betfair()
 
-    # 2. Match odds (1X2 probabilities from team powers, always works)
+    # 3. Match odds (1X2 probabilities, regenerates unplayed matches)
     results["match_odds"] = refresh_match_odds()
 
-    # 3. News (may fail on Vercel due to outbound restrictions)
+    # 4. News (may fail on Vercel due to outbound restrictions)
     results["news"] = refresh_news()
 
-    # 4. Merge all_data.json
+    # 5. Merge all_data.json
     results["merge"] = merge_data()
 
     return {

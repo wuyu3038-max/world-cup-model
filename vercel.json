@@ -1,8 +1,11 @@
 {
-  "builds": [
-    {"src": "api/index.py", "use": "@vercel/python"}
-  ],
-  "routes": [
-    {"src": "/(.*)", "dest": "api/index.py"}
+  "buildCommand": "python auto_refresh.py --merge-only",
+  "outputDirectory": ".",
+  "framework": null,
+  "crons": [
+    {
+      "path": "/api/cron_refresh",
+      "schedule": "0 */8 * * *"
+    }
   ]
 }
