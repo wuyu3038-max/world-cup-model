@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-12T18:00:43.838448",
-  "total_articles": 17,
+  "updated": "2026-06-12T18:53:13.700314",
+  "total_articles": 15,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 12,
     "bbc_sport": 0,
-    "sky_sports": 5,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
@@ -19,19 +19,19 @@
       "summary": "Think the U.S. isn't a World Cup favorite? Think again. Here are 13 stats that point to one conclusion: Team USA will win it all."
     },
     {
-      "id": "e1a8ac37be8d",
-      "title": "Tottenham's Senesi called up to Argentina squad",
-      "url": "https://www.espn.com/soccer/story/_/id/49032417/tottenham-defender-marcos-senesi-called-argentina-world-cup-squad",
-      "published_at": "Fri, 12 Jun 2026 00:38:20 EST",
+      "id": "5f2e541827da",
+      "title": "Berhalter backs USMNT ambition at World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/49038874/mauricio-pochettino-usmnst-high-expectations-world-cup",
+      "published_at": "Fri, 12 Jun 2026 06:18:28 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "The Argentina national team confirmed defender Marcos Senesi will replace the injured Leonardo Balerdi on the 26-player World Cup roster."
+      "summary": "Former United States boss Gregg Berhalter is confident Mauricio Pochettino's side can achieve \"big things\" at the World Cup and help football's continued growth in the country."
     },
     {
       "id": "ef8e4f2fad96",
       "title": "📈 Ranking the 50 best players in the World Cup",
       "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-      "published_at": "Fri, 12 Jun 2026 00:39:06 EST",
+      "published_at": "Fri, 12 Jun 2026 06:18:28 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 FIFA World Cup will feature the world's best talent. Let's rank the top 50 players who will be there!"
@@ -58,7 +58,7 @@
       "id": "ed5ab138f60b",
       "title": "Mexico's win an emotional celebration of World Cup...",
       "url": "https://www.espn.com/soccer/story/_/id/49033649/mexico-win-south-africa-emotional-celebration-world-cup-return-estadio-azteca",
-      "published_at": "Fri, 12 Jun 2026 03:07:25 EST",
+      "published_at": "Fri, 12 Jun 2026 06:43:57 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Forty years after the World Cup was last in Mexico, the tournament returned Thursday, and Mexico celebrated with an emotional win over South Africa."
@@ -143,24 +143,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Wales' Jonny Clayton is a two-time World Cup of Darts winner and, with a new team-mate in Nick Kenny by his side, the goal of a third is still very much in sight."
-    },
-    {
-      "id": "d63265bdba46",
-      "title": "World Cup of Darts: Wales' Clayton and Kenny get off to winning start in group stages ",
-      "url": "https://www.skysports.com/darts/news/12040/13552971/world-cup-of-darts-wales-jonny-clayton-and-nick-kenny-get-off-to-winning-ways-as-germany-ireland-also-win",
-      "published_at": "Thu, 11 Jun 2026 22:58:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Jonny Clayton, alongside new partner Nick Kenny, got their World Cup of Darts campaign under way with a 4-1 victory over Lithuania&#8217;s Darius Labanauskas and Mindaugas Barauskas in Group C."
-    },
-    {
-      "id": "a007e1485bbb",
-      "title": "World Cup of Darts 2026 schedule and results",
-      "url": "https://www.skysports.com/darts/news/12040/13550475/world-cup-of-darts-2026-schedule-dates-group-stage-draw-as-northern-ireland-defend-crown-in-frankfurt",
-      "published_at": "Thu, 11 Jun 2026 23:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Wales started their bid for a third BetVictor World Cup of Darts title on the tournament's opening night with a 4-1 win over Lithuania."
     }
   ]
 }
