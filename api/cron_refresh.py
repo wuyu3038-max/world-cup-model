@@ -68,22 +68,38 @@ def merge_data():
         return False
 
 
+def refresh_match_odds():
+    """Refresh match-level Betfair 1X2 odds for all group matches."""
+    try:
+        from refresh_match_odds import refresh_from_team_powers
+        n = refresh_from_team_powers()
+        print(f"  [match_odds] Refreshed {n} matches")
+        return n > 0
+    except Exception as e:
+        print(f"  [match_odds] Error: {e}")
+        return False
+
+
 def handler(request=None):
     """Vercel serverless function entry point."""
     results = {
         "timestamp": datetime.now().isoformat(),
         "betfair": False,
+        "match_odds": False,
         "news": False,
         "merge": False,
     }
 
-    # 1. Betfair index (fast, always works)
+    # 1. Betfair index (money flow, fast)
     results["betfair"] = refresh_betfair()
 
-    # 2. News (may fail on Vercel due to outbound restrictions)
+    # 2. Match odds (1X2 probabilities from team powers, always works)
+    results["match_odds"] = refresh_match_odds()
+
+    # 3. News (may fail on Vercel due to outbound restrictions)
     results["news"] = refresh_news()
 
-    # 3. Merge all_data.json
+    # 4. Merge all_data.json
     results["merge"] = merge_data()
 
     return {
