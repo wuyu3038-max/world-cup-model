@@ -1,14 +1,131 @@
 {
-  "updated": "2026-06-12T22:15:08.699637",
-  "total_articles": 12,
+  "updated": "2026-06-13T10:17:13.444124",
+  "total_articles": 25,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 7,
-    "sky_sports": 5,
+    "espn_fc": 10,
+    "bbc_sport": 11,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "046bfadc519f",
+      "title": "Two arrested after England World Cup gear stolen",
+      "url": "https://www.espn.com/soccer/story/_/id/49046931/england-world-cup-gear-stolen-team-van-kansas-city",
+      "published_at": "Sat, 13 Jun 2026 05:51:44 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Two people have been arrested in Kansas City after England World Cup equipment was stolen in transit from Florida."
+    },
+    {
+      "id": "67f43a05a03c",
+      "title": "FIFA defends attendance despite empty seats",
+      "url": "https://www.espn.com/soccer/story/_/id/49042423/fifa-defends-attendance-figure-amidst-empty-seats-south-korea-vs-czechia",
+      "published_at": "Sat, 13 Jun 2026 05:51:45 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "FIFA insists the attendance figure for the World Cup clash between South Korea and Czech Republic was accurate after pictures appeared to show thousands of empty seats."
+    },
+    {
+      "id": "e7ad65070b9e",
+      "title": "🤔Analyzing all contentious World Cup VAR calls",
+      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+      "published_at": "Sat, 13 Jun 2026 05:52:32 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+    },
+    {
+      "id": "679578651040",
+      "title": "World Cup Daily LIVE: Brazil fans take over NYC ah...",
+      "url": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
+      "published_at": "Sat, 13 Jun 2026 05:56:28 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition."
+    },
+    {
+      "id": "5f967ecff31b",
+      "title": "For Brazil, 24 years after their last World Cup ti...",
+      "url": "https://www.espn.com/soccer/story/_/id/49021550/24-years-their-last-world-cup-title-win-bust-brazil",
+      "published_at": "Sat, 13 Jun 2026 03:06:45 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Brazil are the most successful team in World Cup history. But after not winning the title in 24 years, can Carlo Ancelotti's side finally end that run?"
+    },
+    {
+      "id": "90dfa9542268",
+      "title": "Copy of Inside England's World Cup prep: Tuchel's squad su...",
+      "url": "https://www.espn.com/soccer/story/_/id/49029911/inside-england-world-cup-prep-thomas-tuchel-squad-survive-storms-heat-florida",
+      "published_at": "Sat, 13 Jun 2026 03:13:01 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "ESPN followed England throughout their pre-World Cup preparations to answer one question: Are they ready to win a first major tournament in 60 years?"
+    },
+    {
+      "id": "ed5ab138f60b",
+      "title": "Mexico's win an emotional celebration of World Cup...",
+      "url": "https://www.espn.com/soccer/story/_/id/49033649/mexico-win-south-africa-emotional-celebration-world-cup-return-estadio-azteca",
+      "published_at": "Sat, 13 Jun 2026 03:23:00 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Forty years after the World Cup was last in Mexico, the tournament returned Thursday, and Mexico celebrated with an emotional win over South Africa."
+    },
+    {
+      "id": "126c747944a0",
+      "title": "From gridiron to pitch: How NFL stadiums have transformed for the World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/48939622/from-gridiron-pitch-how-nfl-stadiums-transformed-2026-fifa-world-cup",
+      "published_at": "Fri, 12 Jun 2026 03:18:30 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Eleven NFL stadiums are playing host to the World Cup this summer, but each have required substantial alterations to host the beautiful game."
+    },
+    {
+      "id": "f7a0000a3125",
+      "title": "Why this will be a World Cup like no other",
+      "url": "https://www.espn.com/soccer/story/_/id/49020473/2026-fifa-world-cup-more-never-tournament-infantino-trump",
+      "published_at": "Thu, 11 Jun 2026 10:08:42 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Welcome to the 2026 World Cup, where everything is bigger and louder than ever before."
+    },
+    {
+      "id": "a4ac0e03cbd8",
+      "title": "Six complaints about 2026 World Cup, and why it mi...",
+      "url": "https://www.espn.com/soccer/story/_/id/49021099/world-cup-2026-six-reasons-concern-six-counterarguments-gabriele-marcotti",
+      "published_at": "Thu, 11 Jun 2026 08:34:15 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "There are many fears swirling around the 2026 FIFA World Cup. Here are six issues, according to Gab Marcotti -- and six reasons why it still be a success."
+    },
+    {
+      "id": "19fa95763c54",
+      "title": "USA start World Cup in style - but will they finally join the elite?",
+      "url": "https://www.bbc.com/sport/football/articles/c621z2k51rdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 13 Jun 2026 04:40:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "If there were any doubts the USA were ready to live up to the pressure of being a World Cup host, they were dispelled in a 4-1 win over Paraguay."
+    },
+    {
+      "id": "0f5ca519d88b",
+      "title": "Scotland return to centre stage at last in must-win World Cup opener",
+      "url": "https://www.bbc.com/sport/football/articles/c04y70z59y5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 13 Jun 2026 07:20:31 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Scotland's chief sportswriter Tom English sets the scene from Boston as Scotland prepare for their first World Cup match in 28 years."
+    },
+    {
+      "id": "59335e65d8ec",
+      "title": "Who am I? Guess World Cup star No 6",
+      "url": "https://www.bbc.com/sport/football/articles/c62rv27dp3eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 13 Jun 2026 05:54:52 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
     {
       "id": "c8971bfedd49",
       "title": "Partey denied entry to Canada for Ghana's World Cup opener",
@@ -19,19 +136,19 @@
       "summary": "Ghana midfielder Thomas Partey will miss his nation's first World Cup game in Toronto against Panama, after being denied entry to Canada. "
     },
     {
-      "id": "3e5d62562310",
-      "title": "Fans on concourses instead of in seats, claims Fifa",
-      "url": "https://www.bbc.com/sport/football/articles/c14y0dp6vrdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 20:26:23 GMT",
+      "id": "27985223caed",
+      "title": "Injured referee Oliver to miss World Cup match",
+      "url": "https://www.bbc.com/sport/football/articles/cx265n1dy58o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 13 Jun 2026 08:47:19 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa says numerous empty seats were visible in the near-sell-out Group A match between South Korea and the Czech Republic because of fans remaining on concourses."
+      "summary": "English referee Michael Oliver is ruled out of the group match between Ivory Coast and Ecuador."
     },
     {
       "id": "46ad54907c86",
       "title": "A new way to experience the World Cup - only on BBC Sport",
       "url": "https://www.bbc.com/sport/football/articles/ce372ep1xlgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 09:24:26 GMT",
+      "published_at": "Fri, 12 Jun 2026 22:18:24 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Ever wanted to see a World Cup match from every angle? How about a full-pitch tactical view? Now you can on the BBC."
@@ -64,13 +181,31 @@
       "summary": "BBC Sport are launching a new, improved app experience for the Fifa World Cup 2026"
     },
     {
-      "id": "997dbe923975",
-      "title": "Richards 'understands' but disagrees with Tuchel's England squad selection",
-      "url": "https://www.bbc.com/sport/football/videos/cn07xjyyzwjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 19:18:42 GMT",
+      "id": "23786e2686dd",
+      "title": "Larin equaliser earns Canada first ever World Cup point",
+      "url": "https://www.bbc.com/sport/football/videos/cjdgnm0m7z8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 12 Jun 2026 22:13:49 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC pundit Micah Richards says he \"understands\" the squad picked by England manager Thomas Tuchel for the 2026 World Cup, but does not agree with Tuchel's selections, adding he would have selected one"
+      "summary": "Cyle Larin comes off the bench to score for Canada against Bosnia-Herzegovina to earn the co-hosts a 1-1 draw as they pick up their first ever point at a World Cup. "
+    },
+    {
+      "id": "3877f262cb95",
+      "title": "The costs and challenges facing the 2026 World Cup",
+      "url": "https://www.bbc.com/news/videos/c24ynjvm43qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 13 Jun 2026 06:21:43 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The World Cup officially kicked off this week - but alongside the football, there are questions around heat, cost, the environmental impact and travel restrictions."
+    },
+    {
+      "id": "417f410e58ab",
+      "title": "Women's T20 World Cup: Ireland get two early wickets vs Scotland LIVE!",
+      "url": "https://www.skysports.com/cricket/live-blog/12040/13553409/womens-t20-world-cup-live-scotland-vs-ireland-australia-vs-south-africa-score-updates-video-and-analysis-from-old-trafford",
+      "published_at": "Sat, 13 Jun 2026 09:50:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     },
     {
       "id": "50ce30cec65d",
@@ -98,24 +233,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Several Formula One drivers attempted keepy uppies ahead of the football World Cup!"
-    },
-    {
-      "id": "96245ab00d45",
-      "title": "Partey refused entry to Canada for Ghana's World Cup opener",
-      "url": "https://www.skysports.com/football/news/12040/13553454/world-cup-2026-thomas-partey-refused-entry-to-canada-ahead-of-ghana-match-with-panama",
-      "published_at": "Fri, 12 Jun 2026 18:03:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Thomas Partey has been refused entry to Canada ahead of Ghana's World Cup opener with Panama on Thursday - but he is set to face England."
-    },
-    {
-      "id": "00cdc5a4bcb4",
-      "title": "Canada rescue draw against Bosnia to claim first World Cup point",
-      "url": "https://www.skysports.com/football/canada-vs-bosnia-and-herzegovina/report/549768",
-      "published_at": "Fri, 05 Jun 2026 21:45:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Canada claimed their first ever World Cup point as the co-hosts came from behind to rescue a 1-1 draw against Bosnia-Herzegovina."
     }
   ]
 }
