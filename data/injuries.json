@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-13T15:19:42.366390",
+    "last_updated": "2026-06-13T20:51:57.172265",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -812,27 +812,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "USA start World Cup in style - but will they finally join the elite?",
-      "nations": [
-        "United States",
-        "Paraguay"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.com/sport/football/articles/c621z2k51rdo?at_medium=RSS&at_campaign=rss",
-      "summary": "If there were any doubts the USA were ready to live up to the pressure of being a World Cup host, they were dispelled in a 4-1 win over Paraguay.",
-      "published": "Sat, 13 Jun 2026 04:40:19 GMT"
-    },
-    {
-      "title": "Robinson an injury doubt for second Test against New Zealand",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/cricket/news/12040/13553694/england-vs-new-zealand-ollie-robinson-an-injury-doubt-for-second-test-after-suffering-knee-soreness-in-training",
-      "summary": "Ollie Robinson is to undergo a knee scan and is a doubt for England's second Test against New Zealand. ",
-      "published": "Sat, 13 Jun 2026 14:41:00 BST"
-    }
-  ]
+  "_news_injury_alerts": []
 }
