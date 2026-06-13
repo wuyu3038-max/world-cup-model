@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-13T10:17:13.495213",
+    "last_updated": "2026-06-13T15:19:42.366390",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -825,27 +825,14 @@
       "published": "Sat, 13 Jun 2026 04:40:19 GMT"
     },
     {
-      "title": "Partey denied entry to Canada for Ghana's World Cup opener",
+      "title": "Robinson an injury doubt for second Test against New Zealand",
       "nations": [
-        "Canada",
-        "Ghana"
+        "England"
       ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.com/sport/football/articles/cn8qgny4186o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ghana midfielder Thomas Partey will miss his nation's first World Cup game in Toronto against Panama, after being denied entry to Canada. ",
-      "published": "Fri, 12 Jun 2026 21:37:42 GMT"
-    },
-    {
-      "title": "Injured referee Oliver to miss World Cup match",
-      "nations": [
-        "England",
-        "Ecuador",
-        "Ivory Coast"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.com/sport/football/articles/cx265n1dy58o?at_medium=RSS&at_campaign=rss",
-      "summary": "English referee Michael Oliver is ruled out of the group match between Ivory Coast and Ecuador.",
-      "published": "Sat, 13 Jun 2026 08:47:19 GMT"
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/cricket/news/12040/13553694/england-vs-new-zealand-ollie-robinson-an-injury-doubt-for-second-test-after-suffering-knee-soreness-in-training",
+      "summary": "Ollie Robinson is to undergo a knee scan and is a doubt for England's second Test against New Zealand. ",
+      "published": "Sat, 13 Jun 2026 14:41:00 BST"
     }
   ]
 }

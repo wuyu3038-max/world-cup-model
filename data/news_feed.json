@@ -1,19 +1,28 @@
 {
-  "updated": "2026-06-13T10:17:13.444124",
-  "total_articles": 25,
+  "updated": "2026-06-13T15:19:42.312080",
+  "total_articles": 27,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 10,
-    "bbc_sport": 11,
-    "sky_sports": 4,
+    "espn_fc": 12,
+    "bbc_sport": 9,
+    "sky_sports": 6,
     "goal_com": 0
   },
   "articles": [
     {
+      "id": "f2e154c74c9a",
+      "title": "Police dress as World Cup mascots for drugs raid",
+      "url": "https://www.espn.com/soccer/story/_/id/49048786/peruvian-police-world-cup-mascots-disguise-drugs-raid",
+      "published_at": "Sat, 13 Jun 2026 07:14:15 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Police in Peru took a novel approach to clamping down on drug trafficking on Wednesday as they conducted a raid in Lima disguised as the 2026 World Cup mascots."
+    },
+    {
       "id": "046bfadc519f",
       "title": "Two arrested after England World Cup gear stolen",
       "url": "https://www.espn.com/soccer/story/_/id/49046931/england-world-cup-gear-stolen-team-van-kansas-city",
-      "published_at": "Sat, 13 Jun 2026 05:51:44 EST",
+      "published_at": "Sat, 13 Jun 2026 07:14:15 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Two people have been arrested in Kansas City after England World Cup equipment was stolen in transit from Florida."
@@ -22,16 +31,25 @@
       "id": "67f43a05a03c",
       "title": "FIFA defends attendance despite empty seats",
       "url": "https://www.espn.com/soccer/story/_/id/49042423/fifa-defends-attendance-figure-amidst-empty-seats-south-korea-vs-czechia",
-      "published_at": "Sat, 13 Jun 2026 05:51:45 EST",
+      "published_at": "Sat, 13 Jun 2026 07:14:15 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "FIFA insists the attendance figure for the World Cup clash between South Korea and Czech Republic was accurate after pictures appeared to show thousands of empty seats."
     },
     {
+      "id": "79e08dea0522",
+      "title": "Pogba: 2026 France better than 2018 WC winners",
+      "url": "https://www.espn.com/soccer/story/_/id/49040430/world-cup-winner-paul-pogba-france-better-us",
+      "published_at": "Sat, 13 Jun 2026 07:14:15 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Paul Pogba has claimed that the France team at the 2026 World Cup is better than the 2018 winners, which he was a part of."
+    },
+    {
       "id": "e7ad65070b9e",
       "title": "🤔Analyzing all contentious World Cup VAR calls",
       "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Sat, 13 Jun 2026 05:52:32 EST",
+      "published_at": "Sat, 13 Jun 2026 07:15:35 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
@@ -40,7 +58,7 @@
       "id": "679578651040",
       "title": "World Cup Daily LIVE: Brazil fans take over NYC ah...",
       "url": "https://www.espn.com/soccer/story/_/id/49047065/world-cup-daily-brazil-fans-take-nyc-ahead-knicks-game-ronaldo-arrives",
-      "published_at": "Sat, 13 Jun 2026 05:56:28 EST",
+      "published_at": "Sat, 13 Jun 2026 09:58:22 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Follow all the action from Saturday's World Cup action, with features, news, video analysis and color from around the competition."
@@ -49,7 +67,7 @@
       "id": "5f967ecff31b",
       "title": "For Brazil, 24 years after their last World Cup ti...",
       "url": "https://www.espn.com/soccer/story/_/id/49021550/24-years-their-last-world-cup-title-win-bust-brazil",
-      "published_at": "Sat, 13 Jun 2026 03:06:45 EST",
+      "published_at": "Sat, 13 Jun 2026 09:58:05 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Brazil are the most successful team in World Cup history. But after not winning the title in 24 years, can Carlo Ancelotti's side finally end that run?"
@@ -100,13 +118,13 @@
       "summary": "There are many fears swirling around the 2026 FIFA World Cup. Here are six issues, according to Gab Marcotti -- and six reasons why it still be a success."
     },
     {
-      "id": "19fa95763c54",
-      "title": "USA start World Cup in style - but will they finally join the elite?",
-      "url": "https://www.bbc.com/sport/football/articles/c621z2k51rdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 13 Jun 2026 04:40:19 GMT",
+      "id": "6d9f241d4783",
+      "title": "The trauma and hope behind Haiti's rare World Cup appearance",
+      "url": "https://www.bbc.com/sport/football/articles/c23yvvv7kr3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 13 Jun 2026 11:29:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "If there were any doubts the USA were ready to live up to the pressure of being a World Cup host, they were dispelled in a 4-1 win over Paraguay."
+      "summary": "Haiti's first appearance at a men's World Cup for 52 years is as much about hope as it is goals for the conflict-torn nation."
     },
     {
       "id": "0f5ca519d88b",
@@ -118,6 +136,15 @@
       "summary": "BBC Scotland's chief sportswriter Tom English sets the scene from Boston as Scotland prepare for their first World Cup match in 28 years."
     },
     {
+      "id": "19fa95763c54",
+      "title": "USA start World Cup in style - but will they finally join the elite?",
+      "url": "https://www.bbc.com/sport/football/articles/c621z2k51rdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 13 Jun 2026 04:40:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "If there were any doubts the USA were ready to live up to the pressure of being a World Cup host, they were dispelled in a 4-1 win over Paraguay."
+    },
+    {
       "id": "59335e65d8ec",
       "title": "Who am I? Guess World Cup star No 6",
       "url": "https://www.bbc.com/sport/football/articles/c62rv27dp3eo?at_medium=RSS&at_campaign=rss",
@@ -127,22 +154,13 @@
       "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "c8971bfedd49",
-      "title": "Partey denied entry to Canada for Ghana's World Cup opener",
-      "url": "https://www.bbc.com/sport/football/articles/cn8qgny4186o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 21:37:42 GMT",
+      "id": "06839f40f44a",
+      "title": "What is it like to play for Scotland at a World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/cly8339w041o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 13 Jun 2026 10:19:26 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Ghana midfielder Thomas Partey will miss his nation's first World Cup game in Toronto against Panama, after being denied entry to Canada. "
-    },
-    {
-      "id": "27985223caed",
-      "title": "Injured referee Oliver to miss World Cup match",
-      "url": "https://www.bbc.com/sport/football/articles/cx265n1dy58o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 13 Jun 2026 08:47:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "English referee Michael Oliver is ruled out of the group match between Ivory Coast and Ecuador."
+      "summary": "Former Scotland players Paul Lambert, Darren Jackson and Rachel Corsie explain what it is like to live every fan's dream by playing at a World Cup."
     },
     {
       "id": "46ad54907c86",
@@ -181,26 +199,44 @@
       "summary": "BBC Sport are launching a new, improved app experience for the Fifa World Cup 2026"
     },
     {
-      "id": "23786e2686dd",
-      "title": "Larin equaliser earns Canada first ever World Cup point",
-      "url": "https://www.bbc.com/sport/football/videos/cjdgnm0m7z8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 22:13:49 GMT",
-      "source": "BBC Sport Football",
+      "id": "0b3b898efc2e",
+      "title": "Scotland hammer Ireland to secure first-ever T20 World Cup win",
+      "url": "https://www.skysports.com/cricket/news/12040/13553650/womens-t20-world-cup-scotland-hammer-ireland-by-40-runs-to-claim-their-first-win-in-tournament-history",
+      "published_at": "Sat, 13 Jun 2026 13:50:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Cyle Larin comes off the bench to score for Canada against Bosnia-Herzegovina to earn the co-hosts a 1-1 draw as they pick up their first ever point at a World Cup. "
+      "summary": "Scotland claimed their first-ever ICC Women's T20 World Cup win with a 40-run thumping of Ireland in their opening match of the 2026 tournament at Old Trafford."
     },
     {
-      "id": "3877f262cb95",
-      "title": "The costs and challenges facing the 2026 World Cup",
-      "url": "https://www.bbc.com/news/videos/c24ynjvm43qo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 13 Jun 2026 06:21:43 GMT",
-      "source": "BBC Sport Football",
+      "id": "29570d4a4f7d",
+      "title": "Base camp: England's luxury five-star World Cup hotel",
+      "url": "https://www.skysports.com/football/news/12040/13553547/world-cup-englands-five-star-kansas-city-hotel-and-training-facilities-explained",
+      "published_at": "Sat, 13 Jun 2026 12:45:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The World Cup officially kicked off this week - but alongside the football, there are questions around heat, cost, the environmental impact and travel restrictions."
+      "summary": "England's team base in Kansas City is nothing like any we have seen before."
+    },
+    {
+      "id": "ba99cde9e44b",
+      "title": "Robinson an injury doubt for second Test against New Zealand",
+      "url": "https://www.skysports.com/cricket/news/12040/13553694/england-vs-new-zealand-ollie-robinson-an-injury-doubt-for-second-test-after-suffering-knee-soreness-in-training",
+      "published_at": "Sat, 13 Jun 2026 14:41:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Ollie Robinson is to undergo a knee scan and is a doubt for England's second Test against New Zealand. "
+    },
+    {
+      "id": "efaeba6c282c",
+      "title": "Scotland's World Cup wait is almost over! Have your say ahead of Haiti clash...",
+      "url": "https://www.skysports.com/football/live-blog/12040/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
+      "published_at": "Sat, 13 Jun 2026 15:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     },
     {
       "id": "417f410e58ab",
-      "title": "Women's T20 World Cup: Ireland get two early wickets vs Scotland LIVE!",
+      "title": "South Africa chasing 173 to beat Australia in T20 World Cup LIVE!",
       "url": "https://www.skysports.com/cricket/live-blog/12040/13553409/womens-t20-world-cup-live-scotland-vs-ireland-australia-vs-south-africa-score-updates-video-and-analysis-from-old-trafford",
       "published_at": "Sat, 13 Jun 2026 09:50:00 BST",
       "source": "Sky Sports Football",
@@ -208,31 +244,13 @@
       "summary": ""
     },
     {
-      "id": "50ce30cec65d",
-      "title": "Wyatt-Hodge stars as England dominate Sri Lanka in World Cup opener",
-      "url": "https://www.skysports.com/cricket/news/12040/13553458/womens-t20-world-cup-englands-danni-wyatt-hodge-lights-up-tournament-opener-with-century-in-hosts-dominant-win-over-sri-lanka",
-      "published_at": "Fri, 12 Jun 2026 18:23:00 BST",
+      "id": "a7bf0afa9d63",
+      "title": "World Cup of Darts: England's Littler and Humphries in action from 6pm",
+      "url": "https://www.skysports.com/darts/live-blog/12040/13552969/world-cup-of-darts-live-scores-commentary-videos-results-highlights-with-luke-littler-luke-humphries-michael-van-gerwen-in-action-in-frankfurt",
+      "published_at": "Sat, 13 Jun 2026 11:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Danni Wyatt-Hodge lit up the opening game of the Women's T20 World Cup with a magnificent hundred as England posted a tournament-record total in a dominant win over Sri Lanka at Edgbaston."
-    },
-    {
-      "id": "dbc41d99d29a",
-      "title": "Scorecard: England vs Sri Lanka, Women's T20 World Cup",
-      "url": "https://www.skysports.com/cricket/england-women-v-sri-lanka-women/scorecard/36b7f846-d12e-52e3-9e09-312b2ba7b377",
-      "published_at": "Fri, 12 Jun 2026 18:25:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Live score from the opening match of the ICC Women's T20 World Cup between England and Sri Lanka at Edgbaston. Watch on Sky Sports Cricket or for FREE on the Sky Sports App."
-    },
-    {
-      "id": "9dc6228ab4b9",
-      "title": "F1 drivers take on keepy uppies challenge ahead of World Cup!",
-      "url": "https://www.skysports.com/watch/video/13553457/barcelona-catalunya-gp-f1-drivers-take-on-keepy-uppies-challenge-ahead-of-world-cup",
-      "published_at": "Fri, 12 Jun 2026 18:22:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Several Formula One drivers attempted keepy uppies ahead of the football World Cup!"
+      "summary": ""
     }
   ]
 }
