@@ -1,130 +1,22 @@
 {
-  "updated": "2026-06-14T11:11:16.012751",
-  "total_articles": 28,
+  "updated": "2026-06-14T15:28:16.476170",
+  "total_articles": 21,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 12,
-    "bbc_sport": 12,
-    "sky_sports": 4,
+    "espn_fc": 0,
+    "bbc_sport": 16,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "bc252244ceec",
-      "title": "Scotland make World Cup drought worth the wait on ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49056472/scotland-2026-world-cup-haiti-john-mcginn",
-      "published_at": "Sun, 14 Jun 2026 03:19:56 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "2212e1a81371",
-      "title": "FIFA: 'Technical outage' led to VAR controversy",
-      "url": "https://www.espn.com/soccer/story/_/id/49059323/fifa-blames-technical-outage-world-cup-var-controversy-qatar-switzerland",
-      "published_at": "Sun, 14 Jun 2026 06:11:01 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "FIFA have confirmed that a \"technical outage\" meant that VAR's semi-automated offside technology was not able to be used for the controversial call that led to Switzerland's opening goal against Qatar"
-    },
-    {
-      "id": "e7ad65070b9e",
-      "title": "🤔World Cup VAR review: Did outage hurt Qatar?",
-      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Sun, 14 Jun 2026 06:15:44 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
-    },
-    {
-      "id": "476a30d2ef2f",
-      "title": "Was the World Cup win over Paraguay the best in US...",
-      "url": "https://www.espn.com/soccer/story/_/id/49053328/was-fifa-world-cup-win-paraguay-best-usmnt-history",
-      "published_at": "Sun, 14 Jun 2026 03:35:40 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The U.S. got its World Cup off to a flying start with a 4-1 win over Paraguay, a performance so stylish that it will go down in history."
-    },
-    {
-      "id": "e9e8561fbaae",
-      "title": "World Cup Daily LIVE: Germany fan cycles over 26,0...",
-      "url": "https://www.espn.com/soccer/story/_/id/49056657/world-cup-daily-germany-fan-cycles-26000-km-get-houston",
-      "published_at": "Sun, 14 Jun 2026 05:18:07 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Enjoy all the action from Sunday's World Cup matches, with features, news, video analysis and color from around the competition."
-    },
-    {
-      "id": "274471aac937",
-      "title": "What's it really like to face World Cup stars Yama...",
-      "url": "https://www.espn.com/soccer/story/_/id/49041085/whats-really-face-world-cup-laliga-stars-spain-barcelona-lamine-yamal-france-kylian-mbappe",
-      "published_at": "Sun, 14 Jun 2026 03:12:42 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Throughout the season, ESPN has asked LaLiga players and coaches what it's like to take on the duo who are set to be the World Cup's biggest stars."
-    },
-    {
-      "id": "f2bbcef3734d",
-      "title": "Can Argentina really win the World Cup again? What...",
-      "url": "https://www.espn.com/soccer/story/_/id/49014778/can-argentina-really-win-world-cup-again-stats-players-say",
-      "published_at": "Sun, 14 Jun 2026 03:12:41 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Argentina are viewed as World Cup favorites, but winning back-to-back titles is rare. Is this Argentina side really built for a repeat win?"
-    },
-    {
-      "id": "90dfa9542268",
-      "title": "Copy of Inside England's World Cup prep: Tuchel's squad su...",
-      "url": "https://www.espn.com/soccer/story/_/id/49029911/inside-england-world-cup-prep-thomas-tuchel-squad-survive-storms-heat-florida",
-      "published_at": "Sun, 14 Jun 2026 03:37:14 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "ESPN followed England throughout their pre-World Cup preparations to answer one question: Are they ready to win a first major tournament in 60 years?"
-    },
-    {
-      "id": "126c747944a0",
-      "title": "From gridiron to pitch: How NFL stadiums have transformed for the World Cup",
-      "url": "https://www.espn.com/soccer/story/_/id/48939622/from-gridiron-pitch-how-nfl-stadiums-transformed-2026-fifa-world-cup",
-      "published_at": "Fri, 12 Jun 2026 03:18:30 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Eleven NFL stadiums are playing host to the World Cup this summer, but each have required substantial alterations to host the beautiful game."
-    },
-    {
-      "id": "f7a0000a3125",
-      "title": "Why this will be a World Cup like no other",
-      "url": "https://www.espn.com/soccer/story/_/id/49020473/2026-fifa-world-cup-more-never-tournament-infantino-trump",
-      "published_at": "Thu, 11 Jun 2026 10:08:42 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Welcome to the 2026 World Cup, where everything is bigger and louder than ever before."
-    },
-    {
-      "id": "a4ac0e03cbd8",
-      "title": "Six complaints about 2026 World Cup, and why it mi...",
-      "url": "https://www.espn.com/soccer/story/_/id/49021099/world-cup-2026-six-reasons-concern-six-counterarguments-gabriele-marcotti",
-      "published_at": "Thu, 11 Jun 2026 08:34:15 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "There are many fears swirling around the 2026 FIFA World Cup. Here are six issues, according to Gab Marcotti -- and six reasons why it still be a success."
-    },
-    {
-      "id": "ab078500aca5",
-      "title": "2026 World Cup betting preview: One bet to make on...",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48807078/fifa-world-cup-betting-preview-best-bets-picks-odds-props-futures-2026",
-      "published_at": "Thu, 11 Jun 2026 10:36:25 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "So many teams, so many games. Looking to place some bets? Here's one to make on every team in the 2026 World Cup tournament."
-    },
-    {
-      "id": "016cf49fb6dd",
-      "title": "Refugee who quit Bayern to create Aussie World Cup dream",
-      "url": "https://www.bbc.com/sport/football/articles/c33y424vv4zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 07:41:05 GMT",
+      "id": "13c01b7dc5d4",
+      "title": "The 20-year-old who stole the show on Scotland's World Cup return",
+      "url": "https://www.bbc.com/sport/football/articles/clyrepwp0gno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 14 Jun 2026 12:06:50 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Nestory Irankunda was born as a refugee in Tanzania before becoming Australian record breaker with goal in victory over Turkey. "
+      "summary": "Ben Gannon-Doak wasn't born when Scotland last played at the men's World Cup. But the 20-year-old was at the heart of their long-awaited return and their first win at the tournament in 36 years as he "
     },
     {
       "id": "73f4bd8d1014",
@@ -134,6 +26,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Thomas Tuchel will pick his first England World Cup team on Wednesday, when the Three Lions take on Croatia. BBC Sport pundits choose their starting XIs - who would you pick?"
+    },
+    {
+      "id": "016cf49fb6dd",
+      "title": "Refugee who quit Bayern to create Aussie World Cup dream",
+      "url": "https://www.bbc.com/sport/football/articles/c33y424vv4zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 14 Jun 2026 07:41:05 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Nestory Irankunda was born as a refugee in Tanzania before becoming Australian record breaker with goal in victory over Turkey. "
     },
     {
       "id": "10caa4e9a4fd",
@@ -161,6 +62,33 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Somali referee Omar Artan, who was denied entry to the United States to officiate at the World Cup, will still receive his tournament fee from Fifa in full."
+    },
+    {
+      "id": "b2d54949d4cf",
+      "title": "Why can't World Cup games kick off on time?",
+      "url": "https://www.bbc.com/sport/football/articles/ce8k5xyljn9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 14 Jun 2026 15:11:27 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "A delay to Scotland's Group C tie with Haiti in Massachusetts continued a noticeable trend of tardiness at the 2026 tournament, with none of the first eight matches kicking off on time."
+    },
+    {
+      "id": "22cac466ad9b",
+      "title": "Could Japan be the World Cup's dark horses?",
+      "url": "https://www.bbc.com/sport/football/articles/c2ky51391jlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 14 Jun 2026 12:02:32 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Japan could be one of the surprise packages of the 2026 World Cup, with growing belief they are ready to go further than ever before.\n"
+    },
+    {
+      "id": "fe4f30ae3208",
+      "title": "Fifa World Cup 2026: What you need to know about Germany",
+      "url": "https://www.bbc.com/sport/football/articles/ce3p6vrrp66o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 05 Jun 2026 15:05:34 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we examine European powerhouses Germany."
     },
     {
       "id": "ad6e0131b5eb",
@@ -226,13 +154,40 @@
       "summary": "Scotland's players and fans sing Flower of Scotland at a World Cup for the first time in 28 years before their match against Haiti at the Boston Stadium. "
     },
     {
+      "id": "13ab5bbac1cf",
+      "title": "Women's T20 World Cup: Pakistan set 171 to beat India LIVE!",
+      "url": "https://www.skysports.com/cricket/live-blog/12040/13553910/icc-womens-t20-world-cup-live-india-vs-pakistan-score-updates-video-and-analysis-from-edgbaston",
+      "published_at": "Sun, 14 Jun 2026 13:50:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
       "id": "0879f951f680",
-      "title": "World Cup of Darts LIVE! England's Littler & Humphries in quarter-finals",
+      "title": "World Cup of Darts: England, Netherlands, Northern Ireland, Scotland in semis",
       "url": "https://www.skysports.com/darts/live-blog/12040/13553914/world-cup-of-darts-live-scores-commentary-videos-results-highlights-with-luke-littler-luke-humphries-michael-van-gerwen-in-action-in-frankfurt",
       "published_at": "Sun, 14 Jun 2026 11:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
+    },
+    {
+      "id": "5c7648c87eed",
+      "title": "Littler stars as England beat Wales in EPIC World Cup of Darts clash",
+      "url": "https://www.skysports.com/watch/video/13553978/england-vs-wales-world-cup-of-darts-highlights",
+      "published_at": "Sun, 14 Jun 2026 14:08:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Highlights of England's 8-7 win over Wales from the World Cup of Darts quarter-finals from Frankfurt, Germany."
+    },
+    {
+      "id": "d3f4a5170363",
+      "title": "World Cup fever! Alex Fitzpatrick shows off keepie-uppie skills with golf ball",
+      "url": "https://www.skysports.com/watch/video/13553801/alex-fitzpatrick-shows-off-his-football-skills-with-some-keepie-uppies-whilst-he-was-waiting-to-tee-off-on-the-11th-hole",
+      "published_at": "Sat, 13 Jun 2026 20:44:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Whilst everyone is catching the World Cup fever, Alex Fitzpatrick shows off his superb ball juggling skills with some keepie-uppies whilst waiting to tee-off on the 11th hole at the Canadian Open. "
     },
     {
       "id": "c5a0a529d4f2",
@@ -242,24 +197,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Goals in each half from Nestory Irankunda and Connor Metcalfe saw Australia shock Turkey 2-0 in their opening World Cup Group D clash in Vancouver."
-    },
-    {
-      "id": "3481aa6e0f76",
-      "title": "How Cape Verde plan to 'surprise people' at the World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13549964/telmo-arcanjo-interview-cape-verdes-unity-key-to-world-cup-achievement-as-they-plan-to-surprise-the-opposition",
-      "published_at": "Sun, 14 Jun 2026 12:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Cape Verde&#8217;s presence at this World Cup, where they take on favourites Spain in their opening game, is one of the fairy-tales of this tournament. But it has been coming. &#8220;I believe we can "
-    },
-    {
-      "id": "3b8262af59d0",
-      "title": "Why European champions Spain could be even better at this World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13549733/are-spain-deserved-world-cup-favourites-mikel-oyarzabal-and-fabian-ruiz-among-unsung-heroes-supporting-lamine-yamal",
-      "published_at": "Sun, 14 Jun 2026 10:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "When Mikel Oyarzabal came off the bench to sweep home the winning goal for Spain against England in the final of Euro 2024, it was the ending. But maybe it was also the beginning for a new-look team t"
     }
   ]
 }
