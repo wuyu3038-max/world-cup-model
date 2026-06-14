@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-14T15:28:16.476170",
-  "total_articles": 21,
+  "updated": "2026-06-14T20:51:13.571377",
+  "total_articles": 18,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 16,
-    "sky_sports": 5,
+    "bbc_sport": 12,
+    "sky_sports": 6,
     "goal_com": 0
   },
   "articles": [
@@ -37,31 +37,13 @@
       "summary": "Nestory Irankunda was born as a refugee in Tanzania before becoming Australian record breaker with goal in victory over Turkey. "
     },
     {
-      "id": "10caa4e9a4fd",
-      "title": "McGinn fires Scotland to first World Cup win for 36 years",
-      "url": "https://www.bbc.com/sport/football/videos/cvgq4j59rw1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 04:06:52 GMT",
+      "id": "e3df94b0e4e2",
+      "title": "Comenencia scores Curacao's first-ever World Cup goal",
+      "url": "https://www.bbc.com/sport/football/videos/ce8k58ld05xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 14 Jun 2026 18:58:46 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "John McGinn's goal was enough as Scotland beat Haiti 1-0 at the Boston Stadium to record their first win at a World Cup for 36 years. "
-    },
-    {
-      "id": "9526f93ecd11",
-      "title": "Clinical Australia upset Turkey in World Cup opener",
-      "url": "https://www.bbc.com/sport/football/videos/cgk6j2r6p7mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 07:16:45 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch highlights as Australia beat Turkey in their opening match, with 20-year-old Nestory Irankunda becoming the Socceroos's youngest ever World Cup goalscorer."
-    },
-    {
-      "id": "bd5752d2d6cd",
-      "title": "Fifa to pay Somali referee Artan full World Cup fee",
-      "url": "https://www.bbc.com/sport/football/articles/c79y10r2plzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 09:00:08 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Somali referee Omar Artan, who was denied entry to the United States to officiate at the World Cup, will still receive his tournament fee from Fifa in full."
+      "summary": "Livano Comenencia makes national history scoring Curacao's first-ever World Cup goal against Germany in their Group E match in Houston."
     },
     {
       "id": "b2d54949d4cf",
@@ -73,40 +55,13 @@
       "summary": "A delay to Scotland's Group C tie with Haiti in Massachusetts continued a noticeable trend of tardiness at the 2026 tournament, with none of the first eight matches kicking off on time."
     },
     {
-      "id": "22cac466ad9b",
-      "title": "Could Japan be the World Cup's dark horses?",
-      "url": "https://www.bbc.com/sport/football/articles/c2ky51391jlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 12:02:32 GMT",
+      "id": "bd5752d2d6cd",
+      "title": "Fifa to pay Somali referee Artan full World Cup fee",
+      "url": "https://www.bbc.com/sport/football/articles/c79y10r2plzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 14 Jun 2026 09:00:08 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Japan could be one of the surprise packages of the 2026 World Cup, with growing belief they are ready to go further than ever before.\n"
-    },
-    {
-      "id": "fe4f30ae3208",
-      "title": "Fifa World Cup 2026: What you need to know about Germany",
-      "url": "https://www.bbc.com/sport/football/articles/ce3p6vrrp66o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 05 Jun 2026 15:05:34 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Get the lowdown on every team at the 2026 World Cup. Here we examine European powerhouses Germany."
-    },
-    {
-      "id": "ad6e0131b5eb",
-      "title": "Who am I? Guess World Cup star No 7",
-      "url": "https://www.bbc.com/sport/football/articles/c5y7vy9zz25o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 06:26:01 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "da71a64163b8",
-      "title": "England's first World Cup training session: What did we learn?",
-      "url": "https://www.bbc.com/sport/football/articles/cx2kjrrxxx2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 05:01:16 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England have had their first training session in Kansas City - what did we learn?"
+      "summary": "Somali referee Omar Artan, who was denied entry to the United States to officiate at the World Cup, will still receive his tournament fee from Fifa in full."
     },
     {
       "id": "46ad54907c86",
@@ -145,26 +100,35 @@
       "summary": "BBC Sport are launching a new, improved app experience for the Fifa World Cup 2026"
     },
     {
-      "id": "ab77cb07042a",
-      "title": "'Just listen to this!' - Scotland are back at the World Cup after 28 years",
-      "url": "https://www.bbc.com/sport/football/videos/crlwker0gn5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 01:28:09 GMT",
+      "id": "10caa4e9a4fd",
+      "title": "McGinn fires Scotland to first World Cup win for 36 years",
+      "url": "https://www.bbc.com/sport/football/videos/cvgq4j59rw1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 14 Jun 2026 04:06:52 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Scotland's players and fans sing Flower of Scotland at a World Cup for the first time in 28 years before their match against Haiti at the Boston Stadium. "
+      "summary": "John McGinn's goal was enough as Scotland beat Haiti 1-0 at the Boston Stadium to record their first win at a World Cup for 36 years. "
     },
     {
-      "id": "13ab5bbac1cf",
-      "title": "Women's T20 World Cup: Pakistan set 171 to beat India LIVE!",
-      "url": "https://www.skysports.com/cricket/live-blog/12040/13553910/icc-womens-t20-world-cup-live-india-vs-pakistan-score-updates-video-and-analysis-from-edgbaston",
-      "published_at": "Sun, 14 Jun 2026 13:50:00 BST",
+      "id": "9526f93ecd11",
+      "title": "Clinical Australia upset Turkey in World Cup opener",
+      "url": "https://www.bbc.com/sport/football/videos/cgk6j2r6p7mo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 14 Jun 2026 07:16:45 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch highlights as Australia beat Turkey in their opening match, with 20-year-old Nestory Irankunda becoming the Socceroos's youngest ever World Cup goalscorer."
+    },
+    {
+      "id": "1790983ad802",
+      "title": "England defeat Scotland to book spot in World Cup of Darts final!",
+      "url": "https://www.skysports.com/watch/video/13554096/england-book-spot-in-world-cup-of-darts-final",
+      "published_at": "Sun, 14 Jun 2026 18:48:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Luke Humphries and Luke Littler see off Cameron Menzies and Gary Anderson to book a spot in the World Cup of Darts final."
     },
     {
       "id": "0879f951f680",
-      "title": "World Cup of Darts: England, Netherlands, Northern Ireland, Scotland in semis",
+      "title": "World Cup of Darts: STUNNING England beat Netherlands in final- as it happened ",
       "url": "https://www.skysports.com/darts/live-blog/12040/13553914/world-cup-of-darts-live-scores-commentary-videos-results-highlights-with-luke-littler-luke-humphries-michael-van-gerwen-in-action-in-frankfurt",
       "published_at": "Sun, 14 Jun 2026 11:30:00 BST",
       "source": "Sky Sports Football",
@@ -172,31 +136,40 @@
       "summary": ""
     },
     {
-      "id": "5c7648c87eed",
-      "title": "Littler stars as England beat Wales in EPIC World Cup of Darts clash",
-      "url": "https://www.skysports.com/watch/video/13553978/england-vs-wales-world-cup-of-darts-highlights",
-      "published_at": "Sun, 14 Jun 2026 14:08:00 BST",
+      "id": "cc4cc19e3087",
+      "title": "Littler and Humphries win World Cup of Darts for England",
+      "url": "https://www.skysports.com/darts/news/12040/13553926/world-cup-of-darts-englands-luke-littler-and-luke-humphries-crowned-champions-with-win-over-netherlands-michael-van-gerwen-and-gian-van-veen",
+      "published_at": "Sun, 14 Jun 2026 10:06:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Highlights of England's 8-7 win over Wales from the World Cup of Darts quarter-finals from Frankfurt, Germany."
+      "summary": "England's Luke Littler and Luke Humphries won the World Cup of Darts with a 10-5 victory over Netherlands' Michael van Gerwen and Gian van Veen."
     },
     {
-      "id": "d3f4a5170363",
-      "title": "World Cup fever! Alex Fitzpatrick shows off keepie-uppie skills with golf ball",
-      "url": "https://www.skysports.com/watch/video/13553801/alex-fitzpatrick-shows-off-his-football-skills-with-some-keepie-uppies-whilst-he-was-waiting-to-tee-off-on-the-11th-hole",
-      "published_at": "Sat, 13 Jun 2026 20:44:00 BST",
+      "id": "2cefc2112a45",
+      "title": "Germany fire SEVEN past World Cup debutants Curacao",
+      "url": "https://www.skysports.com/football/germany-vs-curacao/report/549774",
+      "published_at": "Sun, 14 Jun 2026 19:45:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Whilst everyone is catching the World Cup fever, Alex Fitzpatrick shows off his superb ball juggling skills with some keepie-uppies whilst waiting to tee-off on the 11th hole at the Canadian Open. "
+      "summary": "Germany made a confident start to their World Cup campaign with a 7-1 win over tournament debutants Curacao in Group E."
     },
     {
-      "id": "c5a0a529d4f2",
-      "title": "Australia shock Turkey to make winning start to World Cup campaign",
-      "url": "https://www.skysports.com/football/australia-vs-turkey/report/549773",
-      "published_at": "Sun, 14 Jun 2026 07:15:00 BST",
+      "id": "13ab5bbac1cf",
+      "title": "'I knew I would step up' - Deepti dazzles in India's T20 World Cup opener",
+      "url": "https://www.skysports.com/cricket/live-blog/12040/13553910/icc-womens-t20-world-cup-live-india-vs-pakistan-score-updates-video-and-analysis-from-edgbaston",
+      "published_at": "Sun, 14 Jun 2026 13:50:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Goals in each half from Nestory Irankunda and Connor Metcalfe saw Australia shock Turkey 2-0 in their opening World Cup Group D clash in Vancouver."
+      "summary": ""
+    },
+    {
+      "id": "60bf03ace4f1",
+      "title": "India beat Pakistan by 64 runs in T20 World Cup opener",
+      "url": "https://www.skysports.com/cricket/news/12040/13554099/t20-world-cup-india-kickstart-tournament-with-resounding-64-run-win-over-pakistan-at-edgbaston",
+      "published_at": "Sun, 14 Jun 2026 18:54:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "India got their ICC Women's T20 World Cup campaign off to the perfect start with a 64-run victory over Pakistan at Edgbaston."
     }
   ]
 }
