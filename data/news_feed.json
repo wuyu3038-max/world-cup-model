@@ -1,76 +1,193 @@
 {
-  "updated": "2026-06-14T20:51:13.571377",
-  "total_articles": 18,
+  "updated": "2026-06-15T18:16:20.810321",
+  "total_articles": 26,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 12,
-    "sky_sports": 6,
+    "espn_fc": 10,
+    "bbc_sport": 11,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "13c01b7dc5d4",
-      "title": "The 20-year-old who stole the show on Scotland's World Cup return",
-      "url": "https://www.bbc.com/sport/football/articles/clyrepwp0gno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 12:06:50 GMT",
-      "source": "BBC Sport Football",
+      "id": "67cfdb8d7c30",
+      "title": "World Cup Daily Live: Cape Verde shock the world w...",
+      "url": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
+      "published_at": "Mon, 15 Jun 2026 14:10:35 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Ben Gannon-Doak wasn't born when Scotland last played at the men's World Cup. But the 20-year-old was at the heart of their long-awaited return and their first win at the tournament in 36 years as he "
+      "summary": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition."
     },
     {
-      "id": "73f4bd8d1014",
-      "title": "BBC Sport pundits choose England World Cup XIs - who would you pick?",
-      "url": "https://www.bbc.com/sport/football/articles/c8r2l12jjz7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 11:04:53 GMT",
-      "source": "BBC Sport Football",
+      "id": "0643d8b76757",
+      "title": "Van Dijk criticizes World Cup hydration breaks",
+      "url": "https://www.espn.com/soccer/story/_/id/49071612/virgil-van-dijk-criticises-world-cup-hydration-breaks",
+      "published_at": "Mon, 15 Jun 2026 14:01:21 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Thomas Tuchel will pick his first England World Cup team on Wednesday, when the Three Lions take on Croatia. BBC Sport pundits choose their starting XIs - who would you pick?"
+      "summary": "Virgil van Dijk has criticised the introduction of hydration breaks at this summer's World Cup."
     },
     {
-      "id": "016cf49fb6dd",
-      "title": "Refugee who quit Bayern to create Aussie World Cup dream",
-      "url": "https://www.bbc.com/sport/football/articles/c33y424vv4zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 07:41:05 GMT",
-      "source": "BBC Sport Football",
+      "id": "572a1858f17c",
+      "title": "⚽ Red Sox host 'Scotland Day' amid World Cup",
+      "url": "https://www.espn.com/mlb/story/_/id/49066206/boston-red-sox-scotland-fenway-park-tartan-army",
+      "published_at": "Mon, 15 Jun 2026 14:01:21 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Nestory Irankunda was born as a refugee in Tanzania before becoming Australian record breaker with goal in victory over Turkey. "
+      "summary": "The Tartan Army -- Scotland's supporters organization -- led a fan march from Evans Way Park to the ballpark, bagpipe music and all."
     },
     {
-      "id": "e3df94b0e4e2",
-      "title": "Comenencia scores Curacao's first-ever World Cup goal",
-      "url": "https://www.bbc.com/sport/football/videos/ce8k58ld05xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 18:58:46 GMT",
-      "source": "BBC Sport Football",
+      "id": "7d9b7b4df801",
+      "title": "'Finally': Norway star Erling Haaland on fulfilling World Cup dream",
+      "url": "https://www.espn.com/soccer/story/_/id/49040890/world-cup-norway-erling-haaland-best-player-interview",
+      "published_at": "Mon, 15 Jun 2026 12:38:51 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Livano Comenencia makes national history scoring Curacao's first-ever World Cup goal against Germany in their Group E match in Houston."
+      "summary": "Erling Haaland tells ESPN he is ready to make his World Cup debut and show his love for Norway on football's biggest stage."
     },
     {
-      "id": "b2d54949d4cf",
-      "title": "Why can't World Cup games kick off on time?",
-      "url": "https://www.bbc.com/sport/football/articles/ce8k5xyljn9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 15:11:27 GMT",
-      "source": "BBC Sport Football",
+      "id": "f6d498031299",
+      "title": "So close! Germany nearly got a World Cup Scorigami...",
+      "url": "https://www.espn.com/soccer/story/_/id/49065000/so-close-germany-nearly-got-world-cup-scorigami-that",
+      "published_at": "Mon, 15 Jun 2026 13:42:30 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "A delay to Scotland's Group C tie with Haiti in Massachusetts continued a noticeable trend of tardiness at the 2026 tournament, with none of the first eight matches kicking off on time."
+      "summary": "The chances of a Scorigami -- a concept familiar to those who watch NFL on the regular --  are higher at this World Cup than they have been before."
     },
     {
-      "id": "bd5752d2d6cd",
-      "title": "Fifa to pay Somali referee Artan full World Cup fee",
-      "url": "https://www.bbc.com/sport/football/articles/c79y10r2plzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 09:00:08 GMT",
-      "source": "BBC Sport Football",
+      "id": "476a30d2ef2f",
+      "title": "Was the World Cup win over Paraguay the best in US...",
+      "url": "https://www.espn.com/soccer/story/_/id/49053328/was-fifa-world-cup-win-paraguay-best-usmnt-history",
+      "published_at": "Mon, 15 Jun 2026 09:57:38 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Somali referee Omar Artan, who was denied entry to the United States to officiate at the World Cup, will still receive his tournament fee from Fifa in full."
+      "summary": "The U.S. got its World Cup off to a flying start with a 4-1 win over Paraguay, a performance so stylish that it will go down in history."
     },
     {
-      "id": "46ad54907c86",
-      "title": "A new way to experience the World Cup - only on BBC Sport",
-      "url": "https://www.bbc.com/sport/football/articles/ce372ep1xlgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 12 Jun 2026 22:18:24 GMT",
+      "id": "f5d700135614",
+      "title": "Spain who? At the World Cup, Cape Verde fans believe",
+      "url": "https://www.espn.com/soccer/story/_/id/49043152/fifa-world-cup-2026-cabo-verde-americans-homecoming",
+      "published_at": "Mon, 15 Jun 2026 14:07:34 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Searching for a lovable underdog to cheer for this World Cup? Look no further than Cabo Verde."
+    },
+    {
+      "id": "274471aac937",
+      "title": "What's it really like to face World Cup stars Yama...",
+      "url": "https://www.espn.com/soccer/story/_/id/49041085/whats-really-face-world-cup-laliga-stars-spain-barcelona-lamine-yamal-france-kylian-mbappe",
+      "published_at": "Sun, 14 Jun 2026 20:03:17 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Throughout the season, ESPN has asked LaLiga players and coaches what it's like to take on the duo who are set to be the World Cup's biggest stars."
+    },
+    {
+      "id": "f2bbcef3734d",
+      "title": "Can Argentina really win the World Cup again? What...",
+      "url": "https://www.espn.com/soccer/story/_/id/49014778/can-argentina-really-win-world-cup-again-stats-players-say",
+      "published_at": "Mon, 15 Jun 2026 03:17:26 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Argentina are viewed as World Cup favorites, but winning back-to-back titles is rare. Is this Argentina side really built for a repeat win?"
+    },
+    {
+      "id": "9c94f1baeda2",
+      "title": "Why Michael Olise is the key to France's World Cup...",
+      "url": "https://www.espn.com/soccer/story/_/id/49066914/michael-olise-key-france-world-cup-chances",
+      "published_at": "Mon, 15 Jun 2026 03:17:26 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "France manager Didier Deschamps took an eternity to finally call Michael Olise up to the France senior side, but now it's all eyes on the Bayern Munich star."
+    },
+    {
+      "id": "7690e7e3af91",
+      "title": "Fifa seeks explanation over VAR official's hand gesture",
+      "url": "https://www.bbc.com/sport/football/articles/cy9rd8g1lwzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 12:59:09 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Ever wanted to see a World Cup match from every angle? How about a full-pitch tactical view? Now you can on the BBC."
+      "summary": "Fifa is seeking an explanation over a hand gesture made by video assistant referee Shaun Evans before Germany's 7-1 win over Curacao on Sunday."
+    },
+    {
+      "id": "14e53d13ee7f",
+      "title": "Political tension has undermined World Cup joy, says Iran striker",
+      "url": "https://www.bbc.com/sport/football/articles/c9d2ep375nzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 06:50:46 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Iran's striker Mehdi Taremi said the country's political predicament \"undermines the joy of the World Cup\"."
+    },
+    {
+      "id": "45a7f2dd7b66",
+      "title": "False nines? 4-4-2? The tactical trends defining World Cup so far",
+      "url": "https://www.bbc.com/sport/football/articles/c3dy8147dmzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 14:10:51 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The return of 4-4-2? False nines? BBC Sport looks at the tactical trends emerging at the World Cup so far."
+    },
+    {
+      "id": "2602ea0fd3d3",
+      "title": "Empty seat at World Cup for imprisoned French sports journalist",
+      "url": "https://www.bbc.com/sport/football/articles/c0ly17770lpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 16:45:11 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "A seat is being left empty in the press box at every France game at the World Cup to highlight the case of a French football writer who is in prison in Algeria."
+    },
+    {
+      "id": "8f4cb5b9d0bf",
+      "title": "World Cup hydration breaks - who are the winners and losers?",
+      "url": "https://www.bbc.com/sport/football/articles/c621620wr77o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 09:34:25 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "They have become a regular feature at World Cup games - but who are the winners and who are losers of the mandatory hydration breaks?"
+    },
+    {
+      "id": "8d6b9305c6f1",
+      "title": "BBC or ITV? Inside how World Cup broadcast picks are made",
+      "url": "https://www.bbc.com/sport/football/articles/cn81y63wn27o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 16:51:31 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The 2026 World Cup is under way - but how do the BBC and ITV decide who shows which matches on TV?"
+    },
+    {
+      "id": "5f5e23df07ea",
+      "title": "World Cup quiz: Name these top nations' leading scorers",
+      "url": "https://www.bbc.com/sport/football/articles/c1m2p27p8xzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 15:24:21 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "We want you to name the leading scorer from each of the top 20 countries according to Fifa's global rankings."
+    },
+    {
+      "id": "7f7a3a3945bd",
+      "title": "Stones goes from brink of retirement to World Cup 'pure joy'",
+      "url": "https://www.bbc.com/sport/football/articles/c24y192myrvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 12:21:54 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "John Stones' selection for England's World Cup squad may have raised a few eyebrows but the player says he had to \"dig deep\" to secure his place in the 26-man travelling party."
+    },
+    {
+      "id": "8f3558d0a8fa",
+      "title": "From last-chance saloon to World Cup redemption for Potter",
+      "url": "https://www.bbc.com/sport/football/articles/c77y88076n1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 06:31:28 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "For a manager who was dismissed by West Ham in September after failing at Chelsea before that, few would have expected Graham Potter to be steering a nation to a winning start in the World Cup this su"
+    },
+    {
+      "id": "b912eadfe884",
+      "title": "How to watch the World Cup on the BBC and ITV",
+      "url": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 06 Jun 2026 20:30:36 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "All the TV and radio details for each of the 2026 World Cup group games. "
     },
     {
       "id": "c218d6bee03e",
@@ -82,94 +199,49 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "cbc509e4c224",
-      "title": "Play BBC Sport's new World Cup predictor game",
-      "url": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 08:24:41 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
-    },
-    {
-      "id": "c4af920874ed",
-      "title": "The World Cup is bigger than ever - and BBC Sport has an app to match",
-      "url": "https://www.bbc.com/sport/football/articles/clypy5p44l9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 11:13:02 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport are launching a new, improved app experience for the Fifa World Cup 2026"
-    },
-    {
-      "id": "10caa4e9a4fd",
-      "title": "McGinn fires Scotland to first World Cup win for 36 years",
-      "url": "https://www.bbc.com/sport/football/videos/cvgq4j59rw1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 04:06:52 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "John McGinn's goal was enough as Scotland beat Haiti 1-0 at the Boston Stadium to record their first win at a World Cup for 36 years. "
-    },
-    {
-      "id": "9526f93ecd11",
-      "title": "Clinical Australia upset Turkey in World Cup opener",
-      "url": "https://www.bbc.com/sport/football/videos/cgk6j2r6p7mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 14 Jun 2026 07:16:45 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch highlights as Australia beat Turkey in their opening match, with 20-year-old Nestory Irankunda becoming the Socceroos's youngest ever World Cup goalscorer."
-    },
-    {
-      "id": "1790983ad802",
-      "title": "England defeat Scotland to book spot in World Cup of Darts final!",
-      "url": "https://www.skysports.com/watch/video/13554096/england-book-spot-in-world-cup-of-darts-final",
-      "published_at": "Sun, 14 Jun 2026 18:48:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Luke Humphries and Luke Littler see off Cameron Menzies and Gary Anderson to book a spot in the World Cup of Darts final."
-    },
-    {
-      "id": "0879f951f680",
-      "title": "World Cup of Darts: STUNNING England beat Netherlands in final- as it happened ",
-      "url": "https://www.skysports.com/darts/live-blog/12040/13553914/world-cup-of-darts-live-scores-commentary-videos-results-highlights-with-luke-littler-luke-humphries-michael-van-gerwen-in-action-in-frankfurt",
-      "published_at": "Sun, 14 Jun 2026 11:30:00 BST",
+      "id": "b900174a4d92",
+      "title": "History makers! Minnows Cape Verde hold Spain in World Cup LIVE! ",
+      "url": "https://www.skysports.com/football/spain-vs-cape-verde/live/549780",
+      "published_at": "Mon, 15 Jun 2026 15:25:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
     },
     {
-      "id": "cc4cc19e3087",
-      "title": "Littler and Humphries win World Cup of Darts for England",
-      "url": "https://www.skysports.com/darts/news/12040/13553926/world-cup-of-darts-englands-luke-littler-and-luke-humphries-crowned-champions-with-win-over-netherlands-michael-van-gerwen-and-gian-van-veen",
-      "published_at": "Sun, 14 Jun 2026 10:06:00 BST",
+      "id": "bbb181a01ac6",
+      "title": "Tunisia sack head coach after heavy defeat in World Cup opener",
+      "url": "https://www.skysports.com/football/news/12040/13554414/world-cup-latest-tunisia-sack-head-coach-sabri-lamouchi-after-losing-opening-match-with-heavy-defeat-to-sweden",
+      "published_at": "Mon, 15 Jun 2026 17:36:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England's Luke Littler and Luke Humphries won the World Cup of Darts with a 10-5 victory over Netherlands' Michael van Gerwen and Gian van Veen."
+      "summary": "Tunisia have sacked their head coach Sabri Lamouchi following their opening game of the 2026 World Cup, a heavy 5-1 defeat to Sweden."
     },
     {
-      "id": "2cefc2112a45",
-      "title": "Germany fire SEVEN past World Cup debutants Curacao",
-      "url": "https://www.skysports.com/football/germany-vs-curacao/report/549774",
-      "published_at": "Sun, 14 Jun 2026 19:45:00 BST",
+      "id": "9b3e6f8464ae",
+      "title": "Cape Verde hold Spain in one of World Cup's biggest shocks",
+      "url": "https://www.skysports.com/football/spain-vs-cape-verde/report/549780",
+      "published_at": "Mon, 15 Jun 2026 19:05:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Germany made a confident start to their World Cup campaign with a 7-1 win over tournament debutants Curacao in Group E."
+      "summary": "Cape Verde pulled off one of the biggest shocks in World Cup history as the African debutants held tournament favourites Spain to a goalless draw in Atlanta."
     },
     {
-      "id": "13ab5bbac1cf",
-      "title": "'I knew I would step up' - Deepti dazzles in India's T20 World Cup opener",
-      "url": "https://www.skysports.com/cricket/live-blog/12040/13553910/icc-womens-t20-world-cup-live-india-vs-pakistan-score-updates-video-and-analysis-from-edgbaston",
-      "published_at": "Sun, 14 Jun 2026 13:50:00 BST",
+      "id": "84f5daf5b503",
+      "title": "Calls for World Cup VAR official to be removed after 'white supremacist sign'",
+      "url": "https://www.skysports.com/football/news/12040/13554379/world-cup-2026-calls-for-world-cup-var-official-shaun-evans-to-be-removed-after-white-supremacist-sign",
+      "published_at": "Mon, 15 Jun 2026 15:55:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "FIFA's discrimination monitor at the World Cup has called for a VAR official to be removed for appearing to make a hand gesture resembling a white supremacist sign."
     },
     {
-      "id": "60bf03ace4f1",
-      "title": "India beat Pakistan by 64 runs in T20 World Cup opener",
-      "url": "https://www.skysports.com/cricket/news/12040/13554099/t20-world-cup-india-kickstart-tournament-with-resounding-64-run-win-over-pakistan-at-edgbaston",
-      "published_at": "Sun, 14 Jun 2026 18:54:00 BST",
+      "id": "2ce0ec83bc1c",
+      "title": "F1 2026 team-mate head-to-heads after Barcelona GP",
+      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
+      "published_at": "Mon, 15 Jun 2026 10:25:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "India got their ICC Women's T20 World Cup campaign off to the perfect start with a 64-run victory over Pakistan at Edgbaston."
+      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }

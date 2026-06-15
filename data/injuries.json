@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-14T20:51:13.634102",
+    "last_updated": "2026-06-15T18:16:20.874178",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -125,11 +125,11 @@
       "player": "Lamine Yamal",
       "nation": "Spain",
       "position": "FW",
-      "status": "probable",
+      "status": "fit",
       "injury_type": "Partially torn hamstring (recovering)",
       "since": "2026-04-10",
       "expected_return": "2026-06-15",
-      "severity": "critical",
+      "severity": "minor",
       "notes": "Coach says he could play vs Cape Verde (June 15). Minutes may be managed. 18G+22A this season.",
       "source": "ESPN"
     },
@@ -137,7 +137,7 @@
       "player": "Mikel Merino",
       "nation": "Spain",
       "position": "MF",
-      "status": "doubtful",
+      "status": "questionable",
       "injury_type": "Stress fracture (foot)",
       "since": "2026-02-15",
       "expected_return": "2026-06-15",
@@ -568,14 +568,12 @@
     },
     "Spain": {
       "out": 2,
-      "doubtful": 1,
-      "questionable": 0,
-      "probable": 1,
+      "doubtful": 0,
+      "questionable": 1,
+      "probable": 0,
       "critical_out": [],
       "critical_doubtful": [],
-      "critical_probable": [
-        "Lamine Yamal"
-      ],
+      "critical_probable": [],
       "major_out": [],
       "major_doubtful": [
         "Mikel Merino"
