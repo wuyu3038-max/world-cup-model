@@ -1,104 +1,14 @@
 {
-  "updated": "2026-06-15T18:16:20.810321",
-  "total_articles": 26,
+  "updated": "2026-06-15T20:38:39.335300",
+  "total_articles": 13,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 10,
-    "bbc_sport": 11,
-    "sky_sports": 5,
+    "espn_fc": 0,
+    "bbc_sport": 9,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "67cfdb8d7c30",
-      "title": "World Cup Daily Live: Cape Verde shock the world w...",
-      "url": "https://www.espn.com/soccer/story/_/id/49066357/world-cup-daily-live-new-zealand-predicting-puppy-poops-live-tv-spain-lamine-yamal-ready-debut",
-      "published_at": "Mon, 15 Jun 2026 14:10:35 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Enjoy all the action from Monday's World Cup matches, with features, news, video analysis and color from around the competition."
-    },
-    {
-      "id": "0643d8b76757",
-      "title": "Van Dijk criticizes World Cup hydration breaks",
-      "url": "https://www.espn.com/soccer/story/_/id/49071612/virgil-van-dijk-criticises-world-cup-hydration-breaks",
-      "published_at": "Mon, 15 Jun 2026 14:01:21 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Virgil van Dijk has criticised the introduction of hydration breaks at this summer's World Cup."
-    },
-    {
-      "id": "572a1858f17c",
-      "title": "⚽ Red Sox host 'Scotland Day' amid World Cup",
-      "url": "https://www.espn.com/mlb/story/_/id/49066206/boston-red-sox-scotland-fenway-park-tartan-army",
-      "published_at": "Mon, 15 Jun 2026 14:01:21 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The Tartan Army -- Scotland's supporters organization -- led a fan march from Evans Way Park to the ballpark, bagpipe music and all."
-    },
-    {
-      "id": "7d9b7b4df801",
-      "title": "'Finally': Norway star Erling Haaland on fulfilling World Cup dream",
-      "url": "https://www.espn.com/soccer/story/_/id/49040890/world-cup-norway-erling-haaland-best-player-interview",
-      "published_at": "Mon, 15 Jun 2026 12:38:51 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Erling Haaland tells ESPN he is ready to make his World Cup debut and show his love for Norway on football's biggest stage."
-    },
-    {
-      "id": "f6d498031299",
-      "title": "So close! Germany nearly got a World Cup Scorigami...",
-      "url": "https://www.espn.com/soccer/story/_/id/49065000/so-close-germany-nearly-got-world-cup-scorigami-that",
-      "published_at": "Mon, 15 Jun 2026 13:42:30 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The chances of a Scorigami -- a concept familiar to those who watch NFL on the regular --  are higher at this World Cup than they have been before."
-    },
-    {
-      "id": "476a30d2ef2f",
-      "title": "Was the World Cup win over Paraguay the best in US...",
-      "url": "https://www.espn.com/soccer/story/_/id/49053328/was-fifa-world-cup-win-paraguay-best-usmnt-history",
-      "published_at": "Mon, 15 Jun 2026 09:57:38 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The U.S. got its World Cup off to a flying start with a 4-1 win over Paraguay, a performance so stylish that it will go down in history."
-    },
-    {
-      "id": "f5d700135614",
-      "title": "Spain who? At the World Cup, Cape Verde fans believe",
-      "url": "https://www.espn.com/soccer/story/_/id/49043152/fifa-world-cup-2026-cabo-verde-americans-homecoming",
-      "published_at": "Mon, 15 Jun 2026 14:07:34 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Searching for a lovable underdog to cheer for this World Cup? Look no further than Cabo Verde."
-    },
-    {
-      "id": "274471aac937",
-      "title": "What's it really like to face World Cup stars Yama...",
-      "url": "https://www.espn.com/soccer/story/_/id/49041085/whats-really-face-world-cup-laliga-stars-spain-barcelona-lamine-yamal-france-kylian-mbappe",
-      "published_at": "Sun, 14 Jun 2026 20:03:17 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Throughout the season, ESPN has asked LaLiga players and coaches what it's like to take on the duo who are set to be the World Cup's biggest stars."
-    },
-    {
-      "id": "f2bbcef3734d",
-      "title": "Can Argentina really win the World Cup again? What...",
-      "url": "https://www.espn.com/soccer/story/_/id/49014778/can-argentina-really-win-world-cup-again-stats-players-say",
-      "published_at": "Mon, 15 Jun 2026 03:17:26 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Argentina are viewed as World Cup favorites, but winning back-to-back titles is rare. Is this Argentina side really built for a repeat win?"
-    },
-    {
-      "id": "9c94f1baeda2",
-      "title": "Why Michael Olise is the key to France's World Cup...",
-      "url": "https://www.espn.com/soccer/story/_/id/49066914/michael-olise-key-france-world-cup-chances",
-      "published_at": "Mon, 15 Jun 2026 03:17:26 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "France manager Didier Deschamps took an eternity to finally call Michael Olise up to the France senior side, but now it's all eyes on the Bayern Munich star."
-    },
     {
       "id": "7690e7e3af91",
       "title": "Fifa seeks explanation over VAR official's hand gesture",
@@ -116,6 +26,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Iran's striker Mehdi Taremi said the country's political predicament \"undermines the joy of the World Cup\"."
+    },
+    {
+      "id": "5acdc24bf4e8",
+      "title": "2,500 passes since Spain's last World Cup goal - key stats as Cape Verde stifle group rivals",
+      "url": "https://www.bbc.com/sport/football/articles/czj8egd29y0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 20:26:16 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Veteran goalkeeper Vozinha stars and Spain reach 2,500 passes since their last World Cup goal - the key stats as debutants Cape Verde secure a memorable point in Atlanta."
     },
     {
       "id": "45a7f2dd7b66",
@@ -136,24 +55,6 @@
       "summary": "A seat is being left empty in the press box at every France game at the World Cup to highlight the case of a French football writer who is in prison in Algeria."
     },
     {
-      "id": "8f4cb5b9d0bf",
-      "title": "World Cup hydration breaks - who are the winners and losers?",
-      "url": "https://www.bbc.com/sport/football/articles/c621620wr77o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 09:34:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "They have become a regular feature at World Cup games - but who are the winners and who are losers of the mandatory hydration breaks?"
-    },
-    {
-      "id": "8d6b9305c6f1",
-      "title": "BBC or ITV? Inside how World Cup broadcast picks are made",
-      "url": "https://www.bbc.com/sport/football/articles/cn81y63wn27o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 16:51:31 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The 2026 World Cup is under way - but how do the BBC and ITV decide who shows which matches on TV?"
-    },
-    {
       "id": "5f5e23df07ea",
       "title": "World Cup quiz: Name these top nations' leading scorers",
       "url": "https://www.bbc.com/sport/football/articles/c1m2p27p8xzo?at_medium=RSS&at_campaign=rss",
@@ -163,22 +64,13 @@
       "summary": "We want you to name the leading scorer from each of the top 20 countries according to Fifa's global rankings."
     },
     {
-      "id": "7f7a3a3945bd",
-      "title": "Stones goes from brink of retirement to World Cup 'pure joy'",
-      "url": "https://www.bbc.com/sport/football/articles/c24y192myrvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 12:21:54 GMT",
+      "id": "8f4cb5b9d0bf",
+      "title": "World Cup hydration breaks - who are the winners and losers?",
+      "url": "https://www.bbc.com/sport/football/articles/c621620wr77o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 09:34:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "John Stones' selection for England's World Cup squad may have raised a few eyebrows but the player says he had to \"dig deep\" to secure his place in the 26-man travelling party."
-    },
-    {
-      "id": "8f3558d0a8fa",
-      "title": "From last-chance saloon to World Cup redemption for Potter",
-      "url": "https://www.bbc.com/sport/football/articles/c77y88076n1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 06:31:28 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "For a manager who was dismissed by West Ham in September after failing at Chelsea before that, few would have expected Graham Potter to be steering a nation to a winning start in the World Cup this su"
+      "summary": "They have become a regular feature at World Cup games - but who are the winners and who are losers of the mandatory hydration breaks?"
     },
     {
       "id": "b912eadfe884",
@@ -200,7 +92,7 @@
     },
     {
       "id": "b900174a4d92",
-      "title": "History makers! Minnows Cape Verde hold Spain in World Cup LIVE! ",
+      "title": "Biggest World Cup shock? Vote on Cape Verde's draw vs Spain and rate players!",
       "url": "https://www.skysports.com/football/spain-vs-cape-verde/live/549780",
       "published_at": "Mon, 15 Jun 2026 15:25:00 BST",
       "source": "Sky Sports Football",
@@ -233,15 +125,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "FIFA's discrimination monitor at the World Cup has called for a VAR official to be removed for appearing to make a hand gesture resembling a white supremacist sign."
-    },
-    {
-      "id": "2ce0ec83bc1c",
-      "title": "F1 2026 team-mate head-to-heads after Barcelona GP",
-      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
-      "published_at": "Mon, 15 Jun 2026 10:25:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }
