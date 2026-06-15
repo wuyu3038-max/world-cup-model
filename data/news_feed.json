@@ -1,23 +1,14 @@
 {
-  "updated": "2026-06-15T20:38:39.335300",
+  "updated": "2026-06-15T23:17:50.415028",
   "total_articles": 13,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 9,
-    "sky_sports": 4,
+    "bbc_sport": 8,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "7690e7e3af91",
-      "title": "Fifa seeks explanation over VAR official's hand gesture",
-      "url": "https://www.bbc.com/sport/football/articles/cy9rd8g1lwzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 12:59:09 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa is seeking an explanation over a hand gesture made by video assistant referee Shaun Evans before Germany's 7-1 win over Curacao on Sunday."
-    },
     {
       "id": "14e53d13ee7f",
       "title": "Political tension has undermined World Cup joy, says Iran striker",
@@ -29,7 +20,7 @@
     },
     {
       "id": "5acdc24bf4e8",
-      "title": "2,500 passes since Spain's last World Cup goal - key stats as Cape Verde stifle group rivals",
+      "title": "2,500 passes since Spain's last World Cup goal - key stats as Cape Verde earn point",
       "url": "https://www.bbc.com/sport/football/articles/czj8egd29y0o?at_medium=RSS&at_campaign=rss",
       "published_at": "Mon, 15 Jun 2026 20:26:16 GMT",
       "source": "BBC Sport Football",
@@ -55,22 +46,13 @@
       "summary": "A seat is being left empty in the press box at every France game at the World Cup to highlight the case of a French football writer who is in prison in Algeria."
     },
     {
-      "id": "5f5e23df07ea",
-      "title": "World Cup quiz: Name these top nations' leading scorers",
-      "url": "https://www.bbc.com/sport/football/articles/c1m2p27p8xzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 15:24:21 GMT",
+      "id": "8d6b9305c6f1",
+      "title": "BBC or ITV? Inside how World Cup broadcast picks are made",
+      "url": "https://www.bbc.com/sport/football/articles/cn81y63wn27o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 16:51:31 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "We want you to name the leading scorer from each of the top 20 countries according to Fifa's global rankings."
-    },
-    {
-      "id": "8f4cb5b9d0bf",
-      "title": "World Cup hydration breaks - who are the winners and losers?",
-      "url": "https://www.bbc.com/sport/football/articles/c621620wr77o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 09:34:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "They have become a regular feature at World Cup games - but who are the winners and who are losers of the mandatory hydration breaks?"
+      "summary": "The 2026 World Cup is under way - but how do the BBC and ITV decide who shows which matches on TV?"
     },
     {
       "id": "b912eadfe884",
@@ -91,6 +73,15 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
+      "id": "5f5e23df07ea",
+      "title": "World Cup quiz: Name these top nations' leading scorers",
+      "url": "https://www.bbc.com/sport/football/articles/c1m2p27p8xzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 15 Jun 2026 15:24:21 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "We want you to name the leading scorer from each of the top 20 countries according to Fifa's global rankings."
+    },
+    {
       "id": "b900174a4d92",
       "title": "Biggest World Cup shock? Vote on Cape Verde's draw vs Spain and rate players!",
       "url": "https://www.skysports.com/football/spain-vs-cape-verde/live/549780",
@@ -98,6 +89,15 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
+    },
+    {
+      "id": "83da128e5d49",
+      "title": "Egypt denied first World Cup win in Belgium draw as Lukaku makes instant impact",
+      "url": "https://www.skysports.com/football/belgium-vs-egypt/report/549778",
+      "published_at": "Mon, 15 Jun 2026 21:45:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Egypt were denied a first-ever World Cup win after Romelu Lukaku forced an own-goal equaliser just seconds after coming on to rescue a 1-1 draw for Belgium in their Group G opener."
     },
     {
       "id": "bbb181a01ac6",
@@ -110,7 +110,7 @@
     },
     {
       "id": "9b3e6f8464ae",
-      "title": "Cape Verde hold Spain in one of World Cup's biggest shocks",
+      "title": "Cape Verde hold Spain in one of World Cup's biggest surprises",
       "url": "https://www.skysports.com/football/spain-vs-cape-verde/report/549780",
       "published_at": "Mon, 15 Jun 2026 19:05:00 BST",
       "source": "Sky Sports Football",
@@ -119,12 +119,12 @@
     },
     {
       "id": "84f5daf5b503",
-      "title": "Calls for World Cup VAR official to be removed after 'white supremacist sign'",
+      "title": "Fifa say no evidence found against VAR official over 'white supremacist sign'",
       "url": "https://www.skysports.com/football/news/12040/13554379/world-cup-2026-calls-for-world-cup-var-official-shaun-evans-to-be-removed-after-white-supremacist-sign",
       "published_at": "Mon, 15 Jun 2026 15:55:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "FIFA's discrimination monitor at the World Cup has called for a VAR official to be removed for appearing to make a hand gesture resembling a white supremacist sign."
+      "summary": "FIFA have said they have found \"no evidence of breaches of the Fifa Disciplinary Code\" after calls for a VAR official to be removed for appearing to make a hand gesture resembling a white supremacist "
     }
   ]
 }
