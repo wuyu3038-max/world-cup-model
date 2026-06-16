@@ -1,86 +1,14 @@
 {
-  "updated": "2026-06-16T20:20:02.100199",
-  "total_articles": 23,
+  "updated": "2026-06-16T22:57:50.108065",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 8,
-    "bbc_sport": 10,
-    "sky_sports": 5,
+    "espn_fc": 0,
+    "bbc_sport": 7,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "7842e0509f15",
-      "title": "World Cup live updates: Senegal frustrating France...",
-      "url": "https://www.espn.com/soccer/story/_/id/49020508/fifa-world-cup-live-updates-france-kick-tournament-vs-senegal",
-      "published_at": "Tue, 16 Jun 2026 16:03:41 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "e89b8de55ef9",
-      "title": "😞Which coaches were sacked during World Cup?",
-      "url": "https://www.espn.com/soccer/story/_/id/49075052/tunisia-manager-joins-exclusive-club-coaches-sacked-world-cup",
-      "published_at": "Tue, 16 Jun 2026 15:28:27 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Tunisia manager Sabri Lamouchi won't be feeling too good after being sacked midway through a World Cup, but he's not the first coach to suffer that fate."
-    },
-    {
-      "id": "58f5dd2adc41",
-      "title": "Are World Cup hydration breaks actually commercial...",
-      "url": "https://www.espn.com/soccer/story/_/id/49080670/are-world-cup-hydration-breaks-actually-commercial-breaks-momentum-breaks",
-      "published_at": "Tue, 16 Jun 2026 15:16:23 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The World Cup's mandatory hydration breaks have turned two halves into four quarters, which suits FIFA, but does it impact the players and tactics?"
-    },
-    {
-      "id": "707fae8ec023",
-      "title": "USMNT in World Cup quarterfinals? There's a real c...",
-      "url": "https://www.espn.com/soccer/story/_/id/49076822/stats-usmnt-win-vs-paraguay-signal-deep-world-cup-run-possible",
-      "published_at": "Tue, 16 Jun 2026 14:53:08 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "It's only one game, sure, but the USMNT's win over Paraguay has the underlying stats of a World Cup team destined for a deep run."
-    },
-    {
-      "id": "d99fb4cee261",
-      "title": "World Cup Daily Live: Giant inflatable match ball ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
-      "published_at": "Tue, 16 Jun 2026 12:26:32 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN."
-    },
-    {
-      "id": "7d9b7b4df801",
-      "title": "'Finally': Norway star Erling Haaland on fulfilling World Cup dream",
-      "url": "https://www.espn.com/soccer/story/_/id/49040890/world-cup-norway-erling-haaland-best-player-interview",
-      "published_at": "Mon, 15 Jun 2026 12:38:51 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Erling Haaland tells ESPN he is ready to make his World Cup debut and show his love for Norway on football's biggest stage."
-    },
-    {
-      "id": "afc4fc6d1732",
-      "title": "Key issues for England at 2026 World Cup: Fatigue,...",
-      "url": "https://www.espn.com/soccer/story/_/id/49041738/key-issues-england-2026-world-cup-bukayo-saka-anthony-gordon-jude-bellingham",
-      "published_at": "Tue, 16 Jun 2026 04:33:45 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "f6d498031299",
-      "title": "So close! Germany nearly got a World Cup Scorigami...",
-      "url": "https://www.espn.com/soccer/story/_/id/49065000/so-close-germany-nearly-got-world-cup-scorigami-that",
-      "published_at": "Tue, 16 Jun 2026 16:09:36 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The chances of a Scorigami -- a concept familiar to those who watch NFL on the regular --  are higher at this World Cup than they have been before."
-    },
     {
       "id": "11fa66dab73a",
       "title": "Up to 15,000 England fans head to Dallas for World Cup opener",
@@ -100,24 +28,6 @@
       "summary": "The head of fan group Football Supporters Europe says a lack of fan segregation at the 2026 World Cup shows Fifa has \"lost control of their ticketing\"."
     },
     {
-      "id": "c920ffbd69f6",
-      "title": "Record draws and Europe's slow start - is the World Cup lacking jeopardy?",
-      "url": "https://www.bbc.com/sport/football/articles/c24y18g9v03o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 14:19:09 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Seven of the 10 European teams to have played at the World Cup so far have failed to win - is heat the issue?"
-    },
-    {
-      "id": "3cd5f350510a",
-      "title": "Tunisia sack Lamouchi just one game into World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 06:43:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Tunisia sack Sabri Lamouchi one game into their World Cup, with former Morocco and Saudi Arabia manager Herve Renard replacing him."
-    },
-    {
       "id": "0393b09f95ac",
       "title": "Stag-do drag to World Cup - the rise of Scotland's other national anthem",
       "url": "https://www.bbc.com/sport/football/articles/cn4d8kwqjjeo?at_medium=RSS&at_campaign=rss",
@@ -125,33 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "From stag-do drag to Fenway Park, how did a 1970s disco hit become the soundtrack of the Tartan Army?"
-    },
-    {
-      "id": "f89e578da5c1",
-      "title": "Chalobah replaces injured Livramento for World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 13:38:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah."
-    },
-    {
-      "id": "3693566a8c3d",
-      "title": "Little Algeria - the Kansas city taking a World Cup team to its heart",
-      "url": "https://www.bbc.com/sport/football/articles/c621xlkx712o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 18:41:22 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "In a small city in the state of Kansas, a World Cup love story has started."
-    },
-    {
-      "id": "c1181026c1a5",
-      "title": "Just's rise from Austrian second tier to World Cup breakout star",
-      "url": "https://www.bbc.com/sport/football/articles/cr7pr9j23dyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 15:09:34 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Scotland charts a rapid rise that has taken the Motherwell attacking midfielder from second-division football to the game's grandest stage."
     },
     {
       "id": "b912eadfe884",
@@ -172,6 +55,33 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
+      "id": "f89e578da5c1",
+      "title": "Chalobah replaces injured Livramento for World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 13:38:25 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah."
+    },
+    {
+      "id": "3cd5f350510a",
+      "title": "Tunisia sack Lamouchi just one game into World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 06:43:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Tunisia sack Sabri Lamouchi one game into their World Cup, with former Morocco and Saudi Arabia manager Herve Renard replacing him."
+    },
+    {
+      "id": "bf90ff192997",
+      "title": "Can Littler pull off a clean sweep in 2026?",
+      "url": "https://www.skysports.com/darts/news/27451/11933951/love-the-darts-podcast-sky-sports",
+      "published_at": "Tue, 16 Jun 2026 22:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
       "id": "1c81e24659ef",
       "title": "Connor recalled to England squad ahead of World Cup",
       "url": "https://www.skysports.com/rugby-league/news/12040/13554727/rugby-league-world-cup-jake-connor-recalled-by-england-coach-brian-mcdermott-in-build-up-to-this-autumns-tournament",
@@ -181,40 +91,13 @@
       "summary": "England coach Brian McDermott has recalled reigning Man of Steel Jake Connor and named 10 uncapped players in a 38-man performance squad ahead of the 2026 Rugby League World Cup."
     },
     {
-      "id": "91fed363b6c8",
-      "title": "England chasing 119 to beat Ireland at Women's T20 World Cup LIVE!",
-      "url": "https://www.skysports.com/cricket/live-blog/12040/13554665/england-vs-ireland-womens-t20-world-cup-live-latest-cricket-score-updates-video-and-analysis-from-the-utilita-bowl-in-southampton",
-      "published_at": "Tue, 16 Jun 2026 17:45:00 BST",
+      "id": "885913b7502b",
+      "title": "'Superstar' Mbappe shows why he is the new Mr World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13554812/france-3-1-senegal-kylian-mbappe-stands-up-in-world-cup-opener-as-superstar-the-first-to-shine-stateside",
+      "published_at": "Tue, 16 Jun 2026 22:12:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "1fd2e0a780a8",
-      "title": "US Open: Full R1 groupings and tee times for Shinnecock Hills ",
-      "url": "https://www.skysports.com/golf/news/12040/13554714/us-open-2026-tee-times-full-r1-groupings-and-uk-and-ireland-start-times-for-first-round-at-shinnecock-hills-in-new-york",
-      "published_at": "Tue, 16 Jun 2026 16:46:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Groupings and tee times for the opening round of the 126th US Open, held at Shinnecock Hills Golf Club in Southampton, New York. "
-    },
-    {
-      "id": "a88e05511887",
-      "title": "McIlroy gets Ryder Cup grouping as US Open tee times revealed",
-      "url": "https://www.skysports.com/golf/news/12040/13554472/us-open-tee-times-rory-mcilroy-grouped-with-ryder-cup-teammates-tommy-fleetwood-and-ludvig-197berg-at-shinnecock-hills",
-      "published_at": "Tue, 16 Jun 2026 14:20:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Rory McIlroy has been grouped alongside Ryder Cup teammates Tommy Fleetwood and Ludvig &#197;berg for the first two rounds of the US Open at Shinnecock Hills."
-    },
-    {
-      "id": "dd0befec8184",
-      "title": "Livramento out of World Cup with Chalobah called up",
-      "url": "https://www.skysports.com/football/news/12040/13554613/world-cup-2026-tino-livramento-suffers-hamstring-injury-and-replaced-by-trevoh-chalobah-in-england-squad",
-      "published_at": "Tue, 16 Jun 2026 13:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England&#8217;s World Cup campaign has suffered an early setback as Tino Livramento's tournament is over after suffering a calf injury, with Trevoh Chalobah replacing him."
+      "summary": "It's been a strange season for Kylian Mbappe. Plenty of goals, no trophies and criticism from his home fans. But when the lights of the World Cup shine, nothing else matters."
     }
   ]
 }

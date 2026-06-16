@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-16T20:20:02.160460",
+    "last_updated": "2026-06-16T22:57:50.175039",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -818,16 +818,6 @@
       "url": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
       "summary": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah.",
       "published": "Tue, 16 Jun 2026 13:38:25 GMT"
-    },
-    {
-      "title": "Livramento out of World Cup with Chalobah called up",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/football/news/12040/13554613/world-cup-2026-tino-livramento-suffers-hamstring-injury-and-replaced-by-trevoh-chalobah-in-england-squad",
-      "summary": "England&#8217;s World Cup campaign has suffered an early setback as Tino Livramento's tournament is over after suffering a calf injury, with Trevoh Chalobah replacing him.",
-      "published": "Tue, 16 Jun 2026 13:00:00 BST"
     }
   ]
 }
