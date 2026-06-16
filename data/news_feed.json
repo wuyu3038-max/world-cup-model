@@ -1,22 +1,85 @@
 {
-  "updated": "2026-06-16T18:22:22.868292",
-  "total_articles": 14,
+  "updated": "2026-06-16T20:20:02.100199",
+  "total_articles": 23,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 9,
+    "espn_fc": 8,
+    "bbc_sport": 10,
     "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "f89e578da5c1",
-      "title": "Chalobah replaces injured Livramento for World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 13:38:25 GMT",
-      "source": "BBC Sport Football",
+      "id": "7842e0509f15",
+      "title": "World Cup live updates: Senegal frustrating France...",
+      "url": "https://www.espn.com/soccer/story/_/id/49020508/fifa-world-cup-live-updates-france-kick-tournament-vs-senegal",
+      "published_at": "Tue, 16 Jun 2026 16:03:41 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah."
+      "summary": "null"
+    },
+    {
+      "id": "e89b8de55ef9",
+      "title": "😞Which coaches were sacked during World Cup?",
+      "url": "https://www.espn.com/soccer/story/_/id/49075052/tunisia-manager-joins-exclusive-club-coaches-sacked-world-cup",
+      "published_at": "Tue, 16 Jun 2026 15:28:27 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Tunisia manager Sabri Lamouchi won't be feeling too good after being sacked midway through a World Cup, but he's not the first coach to suffer that fate."
+    },
+    {
+      "id": "58f5dd2adc41",
+      "title": "Are World Cup hydration breaks actually commercial...",
+      "url": "https://www.espn.com/soccer/story/_/id/49080670/are-world-cup-hydration-breaks-actually-commercial-breaks-momentum-breaks",
+      "published_at": "Tue, 16 Jun 2026 15:16:23 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The World Cup's mandatory hydration breaks have turned two halves into four quarters, which suits FIFA, but does it impact the players and tactics?"
+    },
+    {
+      "id": "707fae8ec023",
+      "title": "USMNT in World Cup quarterfinals? There's a real c...",
+      "url": "https://www.espn.com/soccer/story/_/id/49076822/stats-usmnt-win-vs-paraguay-signal-deep-world-cup-run-possible",
+      "published_at": "Tue, 16 Jun 2026 14:53:08 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "It's only one game, sure, but the USMNT's win over Paraguay has the underlying stats of a World Cup team destined for a deep run."
+    },
+    {
+      "id": "d99fb4cee261",
+      "title": "World Cup Daily Live: Giant inflatable match ball ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49077353/world-cup-daily-live-lionel-messi-kylian-mbappe-erling-haaland-argentina-france-norway",
+      "published_at": "Tue, 16 Jun 2026 12:26:32 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "World Cup group-stage days rarely get better than this. Lionel Messi, Kylian Mbappé and Erling Haaland are all in action. Follow live updates with ESPN."
+    },
+    {
+      "id": "7d9b7b4df801",
+      "title": "'Finally': Norway star Erling Haaland on fulfilling World Cup dream",
+      "url": "https://www.espn.com/soccer/story/_/id/49040890/world-cup-norway-erling-haaland-best-player-interview",
+      "published_at": "Mon, 15 Jun 2026 12:38:51 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Erling Haaland tells ESPN he is ready to make his World Cup debut and show his love for Norway on football's biggest stage."
+    },
+    {
+      "id": "afc4fc6d1732",
+      "title": "Key issues for England at 2026 World Cup: Fatigue,...",
+      "url": "https://www.espn.com/soccer/story/_/id/49041738/key-issues-england-2026-world-cup-bukayo-saka-anthony-gordon-jude-bellingham",
+      "published_at": "Tue, 16 Jun 2026 04:33:45 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "null"
+    },
+    {
+      "id": "f6d498031299",
+      "title": "So close! Germany nearly got a World Cup Scorigami...",
+      "url": "https://www.espn.com/soccer/story/_/id/49065000/so-close-germany-nearly-got-world-cup-scorigami-that",
+      "published_at": "Tue, 16 Jun 2026 16:09:36 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The chances of a Scorigami -- a concept familiar to those who watch NFL on the regular --  are higher at this World Cup than they have been before."
     },
     {
       "id": "11fa66dab73a",
@@ -37,6 +100,15 @@
       "summary": "The head of fan group Football Supporters Europe says a lack of fan segregation at the 2026 World Cup shows Fifa has \"lost control of their ticketing\"."
     },
     {
+      "id": "c920ffbd69f6",
+      "title": "Record draws and Europe's slow start - is the World Cup lacking jeopardy?",
+      "url": "https://www.bbc.com/sport/football/articles/c24y18g9v03o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 14:19:09 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Seven of the 10 European teams to have played at the World Cup so far have failed to win - is heat the issue?"
+    },
+    {
       "id": "3cd5f350510a",
       "title": "Tunisia sack Lamouchi just one game into World Cup",
       "url": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss",
@@ -55,13 +127,22 @@
       "summary": "From stag-do drag to Fenway Park, how did a 1970s disco hit become the soundtrack of the Tartan Army?"
     },
     {
-      "id": "c920ffbd69f6",
-      "title": "Record draws and Europe's slow start - is the World Cup lacking jeopardy?",
-      "url": "https://www.bbc.com/sport/football/articles/c24y18g9v03o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 14:19:09 GMT",
+      "id": "f89e578da5c1",
+      "title": "Chalobah replaces injured Livramento for World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 13:38:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Seven of the 10 European teams to have played at the World Cup so far have failed to win - is heat the issue?"
+      "summary": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah."
+    },
+    {
+      "id": "3693566a8c3d",
+      "title": "Little Algeria - the Kansas city taking a World Cup team to its heart",
+      "url": "https://www.bbc.com/sport/football/articles/c621xlkx712o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 18:41:22 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "In a small city in the state of Kansas, a World Cup love story has started."
     },
     {
       "id": "c1181026c1a5",
@@ -101,7 +182,7 @@
     },
     {
       "id": "91fed363b6c8",
-      "title": "England elect to bowl vs Ireland at T20 World Cup after rain delay LIVE!",
+      "title": "England chasing 119 to beat Ireland at Women's T20 World Cup LIVE!",
       "url": "https://www.skysports.com/cricket/live-blog/12040/13554665/england-vs-ireland-womens-t20-world-cup-live-latest-cricket-score-updates-video-and-analysis-from-the-utilita-bowl-in-southampton",
       "published_at": "Tue, 16 Jun 2026 17:45:00 BST",
       "source": "Sky Sports Football",
