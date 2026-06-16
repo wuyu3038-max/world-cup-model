@@ -1,58 +1,76 @@
 {
-  "updated": "2026-06-15T23:17:50.415028",
-  "total_articles": 13,
+  "updated": "2026-06-16T18:22:22.868292",
+  "total_articles": 14,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 8,
+    "bbc_sport": 9,
     "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "14e53d13ee7f",
-      "title": "Political tension has undermined World Cup joy, says Iran striker",
-      "url": "https://www.bbc.com/sport/football/articles/c9d2ep375nzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 06:50:46 GMT",
+      "id": "f89e578da5c1",
+      "title": "Chalobah replaces injured Livramento for World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 13:38:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Iran's striker Mehdi Taremi said the country's political predicament \"undermines the joy of the World Cup\"."
+      "summary": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah."
     },
     {
-      "id": "5acdc24bf4e8",
-      "title": "2,500 passes since Spain's last World Cup goal - key stats as Cape Verde earn point",
-      "url": "https://www.bbc.com/sport/football/articles/czj8egd29y0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 20:26:16 GMT",
+      "id": "11fa66dab73a",
+      "title": "Up to 15,000 England fans head to Dallas for World Cup opener",
+      "url": "https://www.bbc.com/sport/football/articles/c5yzr1nj1ppo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 15:50:54 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Veteran goalkeeper Vozinha stars and Spain reach 2,500 passes since their last World Cup goal - the key stats as debutants Cape Verde secure a memorable point in Atlanta."
+      "summary": "England fans have had a longer wait than most for their 2026 World Cup campaign to get under way. But now supporters are starting to arrive in Dallas."
     },
     {
-      "id": "45a7f2dd7b66",
-      "title": "False nines? 4-4-2? The tactical trends defining World Cup so far",
-      "url": "https://www.bbc.com/sport/football/articles/c3dy8147dmzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 14:10:51 GMT",
+      "id": "952ce0caf09d",
+      "title": "Lack of World Cup segregation a risk - fans' chief ",
+      "url": "https://www.bbc.com/sport/football/articles/cvgedy9w7z9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 14:16:57 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The return of 4-4-2? False nines? BBC Sport looks at the tactical trends emerging at the World Cup so far."
+      "summary": "The head of fan group Football Supporters Europe says a lack of fan segregation at the 2026 World Cup shows Fifa has \"lost control of their ticketing\"."
     },
     {
-      "id": "2602ea0fd3d3",
-      "title": "Empty seat at World Cup for imprisoned French sports journalist",
-      "url": "https://www.bbc.com/sport/football/articles/c0ly17770lpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 16:45:11 GMT",
+      "id": "3cd5f350510a",
+      "title": "Tunisia sack Lamouchi just one game into World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 06:43:19 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "A seat is being left empty in the press box at every France game at the World Cup to highlight the case of a French football writer who is in prison in Algeria."
+      "summary": "Tunisia sack Sabri Lamouchi one game into their World Cup, with former Morocco and Saudi Arabia manager Herve Renard replacing him."
     },
     {
-      "id": "8d6b9305c6f1",
-      "title": "BBC or ITV? Inside how World Cup broadcast picks are made",
-      "url": "https://www.bbc.com/sport/football/articles/cn81y63wn27o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 16:51:31 GMT",
+      "id": "0393b09f95ac",
+      "title": "Stag-do drag to World Cup - the rise of Scotland's other national anthem",
+      "url": "https://www.bbc.com/sport/football/articles/cn4d8kwqjjeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 11:19:30 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The 2026 World Cup is under way - but how do the BBC and ITV decide who shows which matches on TV?"
+      "summary": "From stag-do drag to Fenway Park, how did a 1970s disco hit become the soundtrack of the Tartan Army?"
+    },
+    {
+      "id": "c920ffbd69f6",
+      "title": "Record draws and Europe's slow start - is the World Cup lacking jeopardy?",
+      "url": "https://www.bbc.com/sport/football/articles/c24y18g9v03o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 14:19:09 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Seven of the 10 European teams to have played at the World Cup so far have failed to win - is heat the issue?"
+    },
+    {
+      "id": "c1181026c1a5",
+      "title": "Just's rise from Austrian second tier to World Cup breakout star",
+      "url": "https://www.bbc.com/sport/football/articles/cr7pr9j23dyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 16 Jun 2026 15:09:34 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Scotland charts a rapid rise that has taken the Motherwell attacking midfielder from second-division football to the game's grandest stage."
     },
     {
       "id": "b912eadfe884",
@@ -73,58 +91,49 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "5f5e23df07ea",
-      "title": "World Cup quiz: Name these top nations' leading scorers",
-      "url": "https://www.bbc.com/sport/football/articles/c1m2p27p8xzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 15 Jun 2026 15:24:21 GMT",
-      "source": "BBC Sport Football",
+      "id": "1c81e24659ef",
+      "title": "Connor recalled to England squad ahead of World Cup",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13554727/rugby-league-world-cup-jake-connor-recalled-by-england-coach-brian-mcdermott-in-build-up-to-this-autumns-tournament",
+      "published_at": "Tue, 16 Jun 2026 17:11:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "We want you to name the leading scorer from each of the top 20 countries according to Fifa's global rankings."
+      "summary": "England coach Brian McDermott has recalled reigning Man of Steel Jake Connor and named 10 uncapped players in a 38-man performance squad ahead of the 2026 Rugby League World Cup."
     },
     {
-      "id": "b900174a4d92",
-      "title": "Biggest World Cup shock? Vote on Cape Verde's draw vs Spain and rate players!",
-      "url": "https://www.skysports.com/football/spain-vs-cape-verde/live/549780",
-      "published_at": "Mon, 15 Jun 2026 15:25:00 BST",
+      "id": "91fed363b6c8",
+      "title": "England elect to bowl vs Ireland at T20 World Cup after rain delay LIVE!",
+      "url": "https://www.skysports.com/cricket/live-blog/12040/13554665/england-vs-ireland-womens-t20-world-cup-live-latest-cricket-score-updates-video-and-analysis-from-the-utilita-bowl-in-southampton",
+      "published_at": "Tue, 16 Jun 2026 17:45:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
     },
     {
-      "id": "83da128e5d49",
-      "title": "Egypt denied first World Cup win in Belgium draw as Lukaku makes instant impact",
-      "url": "https://www.skysports.com/football/belgium-vs-egypt/report/549778",
-      "published_at": "Mon, 15 Jun 2026 21:45:00 BST",
+      "id": "1fd2e0a780a8",
+      "title": "US Open: Full R1 groupings and tee times for Shinnecock Hills ",
+      "url": "https://www.skysports.com/golf/news/12040/13554714/us-open-2026-tee-times-full-r1-groupings-and-uk-and-ireland-start-times-for-first-round-at-shinnecock-hills-in-new-york",
+      "published_at": "Tue, 16 Jun 2026 16:46:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Egypt were denied a first-ever World Cup win after Romelu Lukaku forced an own-goal equaliser just seconds after coming on to rescue a 1-1 draw for Belgium in their Group G opener."
+      "summary": "Groupings and tee times for the opening round of the 126th US Open, held at Shinnecock Hills Golf Club in Southampton, New York. "
     },
     {
-      "id": "bbb181a01ac6",
-      "title": "Tunisia sack head coach after heavy defeat in World Cup opener",
-      "url": "https://www.skysports.com/football/news/12040/13554414/world-cup-latest-tunisia-sack-head-coach-sabri-lamouchi-after-losing-opening-match-with-heavy-defeat-to-sweden",
-      "published_at": "Mon, 15 Jun 2026 17:36:00 BST",
+      "id": "a88e05511887",
+      "title": "McIlroy gets Ryder Cup grouping as US Open tee times revealed",
+      "url": "https://www.skysports.com/golf/news/12040/13554472/us-open-tee-times-rory-mcilroy-grouped-with-ryder-cup-teammates-tommy-fleetwood-and-ludvig-197berg-at-shinnecock-hills",
+      "published_at": "Tue, 16 Jun 2026 14:20:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Tunisia have sacked their head coach Sabri Lamouchi following their opening game of the 2026 World Cup, a heavy 5-1 defeat to Sweden."
+      "summary": "Rory McIlroy has been grouped alongside Ryder Cup teammates Tommy Fleetwood and Ludvig &#197;berg for the first two rounds of the US Open at Shinnecock Hills."
     },
     {
-      "id": "9b3e6f8464ae",
-      "title": "Cape Verde hold Spain in one of World Cup's biggest surprises",
-      "url": "https://www.skysports.com/football/spain-vs-cape-verde/report/549780",
-      "published_at": "Mon, 15 Jun 2026 19:05:00 BST",
+      "id": "dd0befec8184",
+      "title": "Livramento out of World Cup with Chalobah called up",
+      "url": "https://www.skysports.com/football/news/12040/13554613/world-cup-2026-tino-livramento-suffers-hamstring-injury-and-replaced-by-trevoh-chalobah-in-england-squad",
+      "published_at": "Tue, 16 Jun 2026 13:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Cape Verde pulled off one of the biggest shocks in World Cup history as the African debutants held tournament favourites Spain to a goalless draw in Atlanta."
-    },
-    {
-      "id": "84f5daf5b503",
-      "title": "Fifa say no evidence found against VAR official over 'white supremacist sign'",
-      "url": "https://www.skysports.com/football/news/12040/13554379/world-cup-2026-calls-for-world-cup-var-official-shaun-evans-to-be-removed-after-white-supremacist-sign",
-      "published_at": "Mon, 15 Jun 2026 15:55:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "FIFA have said they have found \"no evidence of breaches of the Fifa Disciplinary Code\" after calls for a VAR official to be removed for appearing to make a hand gesture resembling a white supremacist "
+      "summary": "England&#8217;s World Cup campaign has suffered an early setback as Tino Livramento's tournament is over after suffering a calf injury, with Trevoh Chalobah replacing him."
     }
   ]
 }
