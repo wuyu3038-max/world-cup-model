@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-17T14:10:13.672754",
+    "last_updated": "2026-06-17T18:03:43.435829",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -804,5 +804,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Sciver-Brunt to miss England's next two T20 World Cup matches",
+      "nations": [
+        "England"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/cricket/news/12040/13555021/england-captain-nat-sciver-brunt-to-miss-next-two-womens-t20-world-cup-matches-with-calf-injury",
+      "summary": "England captain Nat Sciver-Brunt has been ruled out of her side's next two matches at the Women's T20 World Cup with a calf injury sustained in Tuesday's win over Ireland.",
+      "published": "Wed, 17 Jun 2026 16:00:00 BST"
+    }
+  ]
 }
