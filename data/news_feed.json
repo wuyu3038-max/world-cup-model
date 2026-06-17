@@ -1,122 +1,14 @@
 {
-  "updated": "2026-06-17T18:03:43.373027",
-  "total_articles": 22,
+  "updated": "2026-06-17T22:28:01.484250",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 12,
-    "bbc_sport": 6,
-    "sky_sports": 4,
+    "espn_fc": 0,
+    "bbc_sport": 5,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "09df3b230085",
-      "title": "World Cup live updates: Congo DR equalize before t...",
-      "url": "https://www.espn.com/soccer/story/_/id/49090581/world-cup-daily-nfl-star-winston-dresses-goat-messi-tribute-goat",
-      "published_at": "Wed, 17 Jun 2026 14:00:59 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "7ac0cae6c897",
-      "title": "World Cup daily attendance record broken",
-      "url": "https://www.espn.com/soccer/story/_/id/49093654/world-cup-attendance-record-broken-four-matches-same-day",
-      "published_at": "Wed, 17 Jun 2026 13:38:00 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The four World Cup matches on Tuesday set a new record for the most attended day in the history of the tournament."
-    },
-    {
-      "id": "e7ad65070b9e",
-      "title": "Copy of World Cup VAR review: Should Messi have been sent ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Wed, 17 Jun 2026 13:08:25 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "It was a magical night for Lionel Messi and Argentina, but it was nearly cut short by a questionable challenge that could have resulted in a red card."
-    },
-    {
-      "id": "6cf34430d5fa",
-      "title": "What if Reyna's World Cup wonder goal is only the ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49084166/what-gio-reyna-world-cup-wonder-goal-vs-panama-only-beginning-usmnt",
-      "published_at": "Wed, 17 Jun 2026 13:26:41 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Gio Reyna's goal vs. Paraguay felt like a fitting way to end a frustrating four-year chapter of his career. What if it's only the beginning, though?"
-    },
-    {
-      "id": "707fae8ec023",
-      "title": "USMNT in World Cup quarterfinals? There's a real c...",
-      "url": "https://www.espn.com/soccer/story/_/id/49076822/stats-usmnt-win-vs-paraguay-signal-deep-world-cup-run-possible",
-      "published_at": "Wed, 17 Jun 2026 13:26:41 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "3b2d9312fa48",
-      "title": "On the World Cup's day of stars, Messi towers over Haaland and Mbappe",
-      "url": "https://www.espn.com/soccer/story/_/id/49088695/on-world-cups-day-stars-messi-towers-haaland-mbappe",
-      "published_at": "Wed, 17 Jun 2026 04:31:07 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "On a day when Kylian Mbappé and Erling Haaland excelled, Lionel Messi offered a timely reminder of his greatness."
-    },
-    {
-      "id": "afc4fc6d1732",
-      "title": "Key issues for England at 2026 World Cup: Fatigue,...",
-      "url": "https://www.espn.com/soccer/story/_/id/49041738/key-issues-england-2026-world-cup-bukayo-saka-anthony-gordon-jude-bellingham",
-      "published_at": "Wed, 17 Jun 2026 13:08:42 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "0f8d6bc4ab29",
-      "title": "Copy of Mbappé rewrites France, World Cup history books as...",
-      "url": "https://www.espn.com/soccer/story/_/id/49086529/kylian-mbappe-rewrites-france-fifa-world-cup-history-books-les-bleus-beat-senegal",
-      "published_at": "Wed, 17 Jun 2026 02:09:00 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Kylian Mbappé made history with a pair of goals that sent France on their way to a Group I opening win over Senegal on Tuesday in New Jersey."
-    },
-    {
-      "id": "8ebf763f94ab",
-      "title": "Haaland on World Cup debut for Norway? Goals were ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49089253/haaland-shines-world-cup-debut-provides-hope-norway",
-      "published_at": "Wed, 17 Jun 2026 02:09:58 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "ed6fb2b745da",
-      "title": "Mahomes, Jay Z top celebrities at 2026 World Cup",
-      "url": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
-      "published_at": "Wed, 17 Jun 2026 11:51:34 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Celebrities aren't hard to find at the 2026 FIFA World Cup in North America."
-    },
-    {
-      "id": "58f5dd2adc41",
-      "title": "Copy of Are World Cup hydration breaks important? Or do th...",
-      "url": "https://www.espn.com/soccer/story/_/id/49080670/are-world-cup-hydration-breaks-actually-commercial-breaks-momentum-breaks",
-      "published_at": "Wed, 17 Jun 2026 11:51:13 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The World Cup's mandatory hydration breaks have turned two halves into four quarters, which suits FIFA, but does it impact the players and tactics?"
-    },
-    {
-      "id": "5c5cd93d8c69",
-      "title": "Every team's odds to win the World Cup: Mbappé hel...",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-      "published_at": "Wed, 17 Jun 2026 11:50:50 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Odds for all 48 teams to advance from their group through the knockout stage and to win the 2026 World Cup."
-    },
     {
       "id": "a8c8c443dca7",
       "title": "Can Bellingham become England's superstar once more at the World Cup?",
@@ -163,49 +55,22 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "d39ce38f848c",
-      "title": "Who am I? Guess World Cup star No 10",
-      "url": "https://www.bbc.com/sport/football/articles/c8d80dzj6gmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 17 Jun 2026 06:00:42 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "7407eacf7790",
-      "title": "Sciver-Brunt to miss England's next two T20 World Cup matches",
-      "url": "https://www.skysports.com/cricket/news/12040/13555021/england-captain-nat-sciver-brunt-to-miss-next-two-womens-t20-world-cup-matches-with-calf-injury",
-      "published_at": "Wed, 17 Jun 2026 16:00:00 BST",
+      "id": "4216c55b2899",
+      "title": "England make flying start to World Cup with thrilling win over Croatia",
+      "url": "https://www.skysports.com/football/england-vs-croatia/report/549788",
+      "published_at": "Wed, 17 Jun 2026 22:45:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England captain Nat Sciver-Brunt has been ruled out of her side's next two matches at the Women's T20 World Cup with a calf injury sustained in Tuesday's win over Ireland."
+      "summary": "An electric second half ensured England made a winning start to their World Cup campaign, with Thomas Tuchel's side showing their attacking excellence in a 4-2 victory over Croatia."
     },
     {
-      "id": "1568526bfd50",
-      "title": "Australia thrash Bangladesh as India dominate Netherlands at T20 World Cup",
-      "url": "https://www.skysports.com/cricket/news/12040/13554976/t20-world-cup-australia-thrash-bangladesh-by-nine-wickets-at-headingley-to-maintain-perfect-start-to-tournament",
-      "published_at": "Wed, 17 Jun 2026 13:40:00 BST",
+      "id": "1fd1208af475",
+      "title": "Impressive England score four in opening World Cup win vs Croatia LIVE!",
+      "url": "https://www.skysports.com/football/england-vs-croatia/live/549788",
+      "published_at": "Wed, 17 Jun 2026 18:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Australia maintained their strong start to the Women's T20 World Cup as they thrashed Bangladesh by nine wickets on Wednesday."
-    },
-    {
-      "id": "d3e1ee3bf029",
-      "title": "Ballon d'Or on the line - has Kane saved his best World Cup dance for last?",
-      "url": "https://www.skysports.com/football/news/12040/13554752/harry-kane-england-captain-may-be-taking-part-in-his-last-world-cup-but-this-is-also-his-best-shot-at-the-ballon-dor",
-      "published_at": "Wed, 17 Jun 2026 07:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "For England, the thought is frightening but very real. This could be Harry Kane's final World Cup."
-    },
-    {
-      "id": "c9075d3ca948",
-      "title": "Sky Sports to broadcast Major League Cricket in 2026 season",
-      "url": "https://www.skysports.com/cricket/news/12040/13554946/major-league-cricket-sky-sports-announces-deal-to-broadcast-usas-premier-t20-competition-for-2026-season",
-      "published_at": "Wed, 17 Jun 2026 16:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Major League Cricket have announced their 2026 season will be available live on Sky Sports in the UK and Ireland."
+      "summary": ""
     }
   ]
 }
