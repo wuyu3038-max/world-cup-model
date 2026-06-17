@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-16T22:57:50.175039",
+    "last_updated": "2026-06-17T14:10:13.672754",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -137,12 +137,12 @@
       "player": "Mikel Merino",
       "nation": "Spain",
       "position": "MF",
-      "status": "questionable",
+      "status": "fit",
       "injury_type": "Stress fracture (foot)",
       "since": "2026-02-15",
       "expected_return": "2026-06-15",
-      "severity": "major",
-      "notes": "Arsenal midfielder. Targeting UCL final to prove fitness. Key starter.",
+      "severity": "minor",
+      "notes": "Arsenal midfielder. Targeting UCL final to prove fitness. Key starter. [AUTO: expected return 2026-06-15 passed]",
       "source": "Sky Sports"
     },
     {
@@ -509,11 +509,11 @@
       "player": "Bukayo Saka",
       "nation": "England",
       "position": "FW",
-      "status": "probable",
+      "status": "fit",
       "injury_type": "Achilles (managed workload)",
       "since": "2026-05-20",
       "expected_return": "2026-06-17",
-      "severity": "critical",
+      "severity": "minor",
       "notes": "Expected to play but hasn't trained on consecutive days. Workload being managed.",
       "source": "ESPN"
     },
@@ -569,15 +569,13 @@
     "Spain": {
       "out": 2,
       "doubtful": 0,
-      "questionable": 1,
+      "questionable": 0,
       "probable": 0,
       "critical_out": [],
       "critical_doubtful": [],
       "critical_probable": [],
       "major_out": [],
-      "major_doubtful": [
-        "Mikel Merino"
-      ],
+      "major_doubtful": [],
       "moderate_out": [
         "Fermín López"
       ]
@@ -783,12 +781,10 @@
       "out": 0,
       "doubtful": 1,
       "questionable": 0,
-      "probable": 1,
+      "probable": 0,
       "critical_out": [],
       "critical_doubtful": [],
-      "critical_probable": [
-        "Bukayo Saka"
-      ],
+      "critical_probable": [],
       "major_out": [],
       "major_doubtful": [],
       "moderate_out": []
@@ -808,16 +804,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Chalobah replaces injured Livramento for World Cup",
-      "nations": [
-        "England"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
-      "summary": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah.",
-      "published": "Tue, 16 Jun 2026 13:38:25 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }

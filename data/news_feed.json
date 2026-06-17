@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T22:57:50.108065",
+  "updated": "2026-06-17T14:10:13.610352",
   "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
@@ -10,31 +10,49 @@
   },
   "articles": [
     {
-      "id": "11fa66dab73a",
-      "title": "Up to 15,000 England fans head to Dallas for World Cup opener",
-      "url": "https://www.bbc.com/sport/football/articles/c5yzr1nj1ppo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 15:50:54 GMT",
+      "id": "a8c8c443dca7",
+      "title": "Can Bellingham become England's superstar once more at the World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/c23y4zkv4z0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 17 Jun 2026 10:06:19 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England fans have had a longer wait than most for their 2026 World Cup campaign to get under way. But now supporters are starting to arrive in Dallas."
+      "summary": "After tough love from England head coach Thomas Tuchel, Jude Bellingham's World Cup build-up points to a special talent who can be a key figure in their quest to win the World Cup."
     },
     {
-      "id": "952ce0caf09d",
-      "title": "Lack of World Cup segregation a risk - fans' chief ",
-      "url": "https://www.bbc.com/sport/football/articles/cvgedy9w7z9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 14:16:57 GMT",
+      "id": "66b4d91b3cfe",
+      "title": "How sweltering Scotland can handle World Cup heat",
+      "url": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 17 Jun 2026 11:16:20 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The head of fan group Football Supporters Europe says a lack of fan segregation at the 2026 World Cup shows Fifa has \"lost control of their ticketing\"."
+      "summary": "With Scotland's World Cup games expected to take place in temperatures of around 30C, Steve Clarke and his team will have to battle the conditions as well as Morocco and Brazil."
     },
     {
-      "id": "0393b09f95ac",
-      "title": "Stag-do drag to World Cup - the rise of Scotland's other national anthem",
-      "url": "https://www.bbc.com/sport/football/articles/cn4d8kwqjjeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 11:19:30 GMT",
+      "id": "7e42f07090a4",
+      "title": "No stage too big - Haaland arrives in style at World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/ce8k20n9z9ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 17 Jun 2026 02:09:24 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "From stag-do drag to Fenway Park, how did a 1970s disco hit become the soundtrack of the Tartan Army?"
+      "summary": "Erling Haaland has made a habit of scoring debut goals in the big competitions. He did it in the Champions League, the Bundesliga and the Premier League. Now he has done it at the World Cup too."
+    },
+    {
+      "id": "d39ce38f848c",
+      "title": "Who am I? Guess World Cup star No 10",
+      "url": "https://www.bbc.com/sport/football/articles/c8d80dzj6gmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 17 Jun 2026 06:00:42 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "06db0fd0e578",
+      "title": "'Nearly men of Asian football' - Uzbekistan's rise to the World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cgqklykgjqzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 17 Jun 2026 13:57:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Uzbekistan are the first nation from Central Asia to qualify for the Fifa World Cup. Here is how they got to North America. "
     },
     {
       "id": "b912eadfe884",
@@ -55,49 +73,31 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "f89e578da5c1",
-      "title": "Chalobah replaces injured Livramento for World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 13:38:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Newcastle United full-back Tino Livramento is out of England's World Cup campaign with a calf injury and is replaced by Chelsea defender Trevoh Chalobah."
-    },
-    {
-      "id": "3cd5f350510a",
-      "title": "Tunisia sack Lamouchi just one game into World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 16 Jun 2026 06:43:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Tunisia sack Sabri Lamouchi one game into their World Cup, with former Morocco and Saudi Arabia manager Herve Renard replacing him."
-    },
-    {
-      "id": "bf90ff192997",
-      "title": "Can Littler pull off a clean sweep in 2026?",
-      "url": "https://www.skysports.com/darts/news/27451/11933951/love-the-darts-podcast-sky-sports",
-      "published_at": "Tue, 16 Jun 2026 22:30:00 BST",
+      "id": "1568526bfd50",
+      "title": "Australia thrash Bangladesh to maintain perfect start to T20 World Cup",
+      "url": "https://www.skysports.com/cricket/news/12040/13554976/t20-world-cup-australia-thrash-bangladesh-by-nine-wickets-at-headingley-to-maintain-perfect-start-to-tournament",
+      "published_at": "Wed, 17 Jun 2026 13:40:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Australia maintained their strong start to the Women's T20 World Cup as they thrashed Bangladesh by nine wickets on Wednesday."
     },
     {
-      "id": "1c81e24659ef",
-      "title": "Connor recalled to England squad ahead of World Cup",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13554727/rugby-league-world-cup-jake-connor-recalled-by-england-coach-brian-mcdermott-in-build-up-to-this-autumns-tournament",
-      "published_at": "Tue, 16 Jun 2026 17:11:00 BST",
+      "id": "d3e1ee3bf029",
+      "title": "Ballon d'Or on the line - has Kane saved his best World Cup dance for last?",
+      "url": "https://www.skysports.com/football/news/12040/13554752/harry-kane-england-captain-may-be-taking-part-in-his-last-world-cup-but-this-is-also-his-best-shot-at-the-ballon-dor",
+      "published_at": "Wed, 17 Jun 2026 07:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England coach Brian McDermott has recalled reigning Man of Steel Jake Connor and named 10 uncapped players in a 38-man performance squad ahead of the 2026 Rugby League World Cup."
+      "summary": "For England, the thought is frightening but very real. This could be Harry Kane's final World Cup."
     },
     {
-      "id": "885913b7502b",
-      "title": "'Superstar' Mbappe shows why he is the new Mr World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13554812/france-3-1-senegal-kylian-mbappe-stands-up-in-world-cup-opener-as-superstar-the-first-to-shine-stateside",
-      "published_at": "Tue, 16 Jun 2026 22:12:00 BST",
+      "id": "7b22272289d9",
+      "title": "Austria earn first World Cup win in 36 years with victory over debutants Jordan",
+      "url": "https://www.skysports.com/football/austria-vs-jordan/report/549785",
+      "published_at": "Wed, 17 Jun 2026 06:45:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "It's been a strange season for Kylian Mbappe. Plenty of goals, no trophies and criticism from his home fans. But when the lights of the World Cup shine, nothing else matters."
+      "summary": "Austria won their first World Cup game in 36 years with a 3-1 Group J victory over tournament debutants Jordan in San Francisco."
     }
   ]
 }
