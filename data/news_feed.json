@@ -1,35 +1,26 @@
 {
-  "updated": "2026-06-18T12:37:37.374415",
-  "total_articles": 19,
+  "updated": "2026-06-18T18:17:57.546107",
+  "total_articles": 14,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 13,
-    "sky_sports": 6,
+    "bbc_sport": 12,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "365d7343355c",
-      "title": "Lionesses will face Greece in World Cup play-offs",
-      "url": "https://www.bbc.com/sport/football/articles/cvgl9xp2lgno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 18 Jun 2026 12:15:51 GMT",
+      "id": "c09cbf90e46f",
+      "title": "Tuchel's complaints lead to Fifa moving photographers",
+      "url": "https://www.bbc.com/sport/football/articles/cdejd2p65k3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 17:44:19 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England will face Greece in round one of the 2027 Women's World Cup play-offs, with Northern Ireland, Scotland and Wales also learning their opponents."
-    },
-    {
-      "id": "bf674d7289e3",
-      "title": "Hydration boos and surprise results - World Cup talking points",
-      "url": "https://www.bbc.com/sport/football/articles/cj6g88ernggo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 18 Jun 2026 11:13:59 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport takes a look at the talking points from the first week of World Cup."
+      "summary": "England head coach Thomas Tuchel has won a battle with Fifa to get photographers moved away from the bench during the national anthems."
     },
     {
       "id": "036544a40002",
-      "title": "Most shots? Best dribbler? World Cup so far in numbers ",
+      "title": "Most shots? Best dribbler? The World Cup so far in numbers",
       "url": "https://www.bbc.com/sport/football/articles/cddl26617m4o?at_medium=RSS&at_campaign=rss",
       "published_at": "Thu, 18 Jun 2026 12:00:34 GMT",
       "source": "BBC Sport Football",
@@ -37,22 +28,13 @@
       "summary": "Now every team has played once, BBC Sport take a look at who has been the best and worst players so far according to the stats."
     },
     {
-      "id": "d81e2d61dc79",
-      "title": "What's going on with stoppage time at the World Cup?",
-      "url": "https://www.bbc.com/sport/football/articles/cx2de8l2dzmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 18 Jun 2026 12:09:41 GMT",
+      "id": "e51bb67d60e1",
+      "title": "New Zealand make World Cup history with first mother-son duo",
+      "url": "https://www.bbc.com/sport/football/articles/cly7r603vrno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 17:04:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Pierluigi Collina decided to wage war on time-wasting at this World Cup, changing tack from the last tournament. But has it been a success so far?"
-    },
-    {
-      "id": "fe454ea46ea5",
-      "title": "From one to 48 - every World Cup team ranked after first game",
-      "url": "https://www.bbc.com/sport/football/articles/cn4djkzxygjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 18 Jun 2026 04:28:17 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "All 48 teams at the World Cup have now played once. BBC Sport's experts have ranked them all, from best to worst. Who is top? Not defending champions Argentina."
+      "summary": "New Zealand make history as Tyler and Jenny Bindon become the first mother-son duo to play at the World Cup."
     },
     {
       "id": "3b03dec23e18",
@@ -64,13 +46,13 @@
       "summary": "England make a winning start to their World Cup 2026 campaign, beating Croatia 4-2 in a thrilling match in Dallas."
     },
     {
-      "id": "cbc509e4c224",
-      "title": "Get your predictions in before the second round of World Cup group games",
-      "url": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 09 Jun 2026 08:24:41 GMT",
+      "id": "365d7343355c",
+      "title": "Lionesses will face Greece in World Cup play-offs",
+      "url": "https://www.bbc.com/sport/football/articles/cvgl9xp2lgno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 12:15:51 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
+      "summary": "England will face Greece in round one of the 2027 Women's World Cup play-offs, with Northern Ireland, Scotland and Wales also learning their opponents."
     },
     {
       "id": "6051c911a872",
@@ -100,13 +82,13 @@
       "summary": "Abbosbek Fayzullaev scores Uzbekistan's first-ever goal at a World Cup final, tapping in an equaliser against Colombia."
     },
     {
-      "id": "51242ea27d65",
-      "title": "Who am I? Guess World Cup star No 11",
-      "url": "https://www.bbc.com/sport/football/articles/clypgyl6pzlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 18 Jun 2026 05:56:18 GMT",
+      "id": "1b58403f247b",
+      "title": "'My brother hid in a rice sack' - The refugee stars at the World Cup",
+      "url": "https://www.bbc.com/news/articles/c1eygyg2zeno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 13:41:06 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "Germany and Real Madrid defender Antonio Rudiger, whose family fled Sierra Leone's civil war, is among those campaigning for a change in global attitudes around refugees."
     },
     {
       "id": "b912eadfe884",
@@ -127,6 +109,15 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
+      "id": "d81e2d61dc79",
+      "title": "What's going on with stoppage time at the World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/cx2de8l2dzmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 12:09:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Pierluigi Collina decided to wage war on time-wasting at this World Cup, changing tack from the last tournament. But has it been a success so far?"
+    },
+    {
       "id": "761ca62116e9",
       "title": "Home nations and ROI learn World Cup play-off opponents",
       "url": "https://www.skysports.com/football/news/12040/13555247/womens-world-cup-play-off-draw-england-scotland-wales-northern-ireland-and-republic-of-ireland-learn-opponents",
@@ -136,49 +127,13 @@
       "summary": "England will face Greece in the first round of the World Cup qualification play-offs as Sarina Wiegman's side look to book their place at the 2027 World Cup."
     },
     {
-      "id": "05501084fda4",
-      "title": "Beaumont in squad for historic Lord's Test but no place for Dean",
-      "url": "https://www.skysports.com/cricket/news/12040/13555288/england-womens-test-squad-to-face-india-tammy-beaumont-returns-for-inaugural-lords-test-match-but-no-white-ball-vice-captain-charlie-dean",
-      "published_at": "Thu, 18 Jun 2026 12:00:00 BST",
+      "id": "39cc6c9f46be",
+      "title": "Most distance covered? Highest top speed? World Cup heat impact revealed ",
+      "url": "https://www.skysports.com/football/news/12040/13554968/who-has-coped-best-with-world-cup-conditions-michael-olise-stands-out-for-france-as-england-benefit-from-air-conditioning-between-the-lines",
+      "published_at": "Wed, 17 Jun 2026 12:26:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Tammy Beaumont returns for England's inaugural Lord's Test match against India this July after being left out of the T20 World Cup squad, but there is no place white-ball vice-captain Charlie Dean."
-    },
-    {
-      "id": "30bf6473a62d",
-      "title": "What have we learned from the first round of World Cup group games?",
-      "url": "https://www.skysports.com/football/news/12040/13554245/world-cup-2026-what-have-we-learned-from-the-first-round-of-group-stage-fixtures-in-the-usa-canada-and-mexico",
-      "published_at": "Thu, 18 Jun 2026 13:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": " "
-    },
-    {
-      "id": "f1789780ba65",
-      "title": "England's routes to 2026 World Cup final",
-      "url": "https://www.skysports.com/football/news/12040/13479783/englands-world-cup-2026-fixtures-schedule-and-tournament-route-to-final-how-three-lions-could-lift-trophy-on-july-19",
-      "published_at": "Fri, 05 Dec 2025 19:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England's World Cup has begun - but what is their path to potential glory?"
-    },
-    {
-      "id": "2533b8784fcd",
-      "title": "World Cup can still make a mockery of predictions",
-      "url": "https://www.skysports.com/football/news/12040/13555283/lionel-messi-to-star-cristiano-ronaldo-to-bomb-world-cup-can-still-make-a-mockery-of-predictions-with-so-long-to-go",
-      "published_at": "Thu, 18 Jun 2026 11:35:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Convinced football is coming home? Lumping on Germany after scoring seven? Tipping Lionel Messi to retain it? Telling yourself that Sweden are dark horses? Writing off Spain, Brazil and Cristiano Rona"
-    },
-    {
-      "id": "46640751124c",
-      "title": "Ten players who've caught the eye in the first week of the World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13554246/world-cup-2026-xxxx-among-players-to-have-caught-the-eye-in-the-first-week-of-the-tournament",
-      "published_at": "Thu, 18 Jun 2026 10:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Believe it or not, the first round of group games at the 2026 World Cup is complete."
+      "summary": "After the conclusion of the first round of World Cup group games, Between the Lines reveals the numbers behind how teams and players have handled the hot conditions so far."
     }
   ]
 }

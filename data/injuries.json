@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-18T12:37:37.438157",
+    "last_updated": "2026-06-18T18:17:57.609901",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -804,16 +804,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Beaumont in squad for historic Lord's Test but no place for Dean",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/cricket/news/12040/13555288/england-womens-test-squad-to-face-india-tammy-beaumont-returns-for-inaugural-lords-test-match-but-no-white-ball-vice-captain-charlie-dean",
-      "summary": "Tammy Beaumont returns for England's inaugural Lord's Test match against India this July after being left out of the T20 World Cup squad, but there is no place white-ball vice-captain Charlie Dean.",
-      "published": "Thu, 18 Jun 2026 12:00:00 BST"
-    }
-  ]
+  "_news_injury_alerts": []
 }
