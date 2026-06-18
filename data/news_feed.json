@@ -1,40 +1,112 @@
 {
-  "updated": "2026-06-17T22:28:01.484250",
-  "total_articles": 7,
+  "updated": "2026-06-18T12:37:37.374415",
+  "total_articles": 19,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
-    "sky_sports": 2,
+    "bbc_sport": 13,
+    "sky_sports": 6,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "a8c8c443dca7",
-      "title": "Can Bellingham become England's superstar once more at the World Cup?",
-      "url": "https://www.bbc.com/sport/football/articles/c23y4zkv4z0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 17 Jun 2026 10:06:19 GMT",
+      "id": "365d7343355c",
+      "title": "Lionesses will face Greece in World Cup play-offs",
+      "url": "https://www.bbc.com/sport/football/articles/cvgl9xp2lgno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 12:15:51 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "After tough love from England head coach Thomas Tuchel, Jude Bellingham's World Cup build-up points to a special talent who can be a key figure in their quest to win the World Cup."
+      "summary": "England will face Greece in round one of the 2027 Women's World Cup play-offs, with Northern Ireland, Scotland and Wales also learning their opponents."
     },
     {
-      "id": "66b4d91b3cfe",
-      "title": "How sweltering Scotland can handle World Cup heat",
-      "url": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 17 Jun 2026 11:16:20 GMT",
+      "id": "bf674d7289e3",
+      "title": "Hydration boos and surprise results - World Cup talking points",
+      "url": "https://www.bbc.com/sport/football/articles/cj6g88ernggo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 11:13:59 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "With Scotland's World Cup games expected to take place in temperatures of around 30C, Steve Clarke and his team will have to battle the conditions as well as Morocco and Brazil."
+      "summary": "BBC Sport takes a look at the talking points from the first week of World Cup."
     },
     {
-      "id": "7e42f07090a4",
-      "title": "No stage too big - Haaland arrives in style at World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/ce8k20n9z9ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 17 Jun 2026 02:09:24 GMT",
+      "id": "036544a40002",
+      "title": "Most shots? Best dribbler? World Cup so far in numbers ",
+      "url": "https://www.bbc.com/sport/football/articles/cddl26617m4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 12:00:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Erling Haaland has made a habit of scoring debut goals in the big competitions. He did it in the Champions League, the Bundesliga and the Premier League. Now he has done it at the World Cup too."
+      "summary": "Now every team has played once, BBC Sport take a look at who has been the best and worst players so far according to the stats."
+    },
+    {
+      "id": "d81e2d61dc79",
+      "title": "What's going on with stoppage time at the World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/cx2de8l2dzmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 12:09:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Pierluigi Collina decided to wage war on time-wasting at this World Cup, changing tack from the last tournament. But has it been a success so far?"
+    },
+    {
+      "id": "fe454ea46ea5",
+      "title": "From one to 48 - every World Cup team ranked after first game",
+      "url": "https://www.bbc.com/sport/football/articles/cn4djkzxygjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 04:28:17 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "All 48 teams at the World Cup have now played once. BBC Sport's experts have ranked them all, from best to worst. Who is top? Not defending champions Argentina."
+    },
+    {
+      "id": "3b03dec23e18",
+      "title": "England hit four in World Cup opener against Croatia ",
+      "url": "https://www.bbc.com/sport/football/videos/c4gy52zj5peo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 17 Jun 2026 22:56:00 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England make a winning start to their World Cup 2026 campaign, beating Croatia 4-2 in a thrilling match in Dallas."
+    },
+    {
+      "id": "cbc509e4c224",
+      "title": "Get your predictions in before the second round of World Cup group games",
+      "url": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 09 Jun 2026 08:24:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football."
+    },
+    {
+      "id": "6051c911a872",
+      "title": "Messi, Mbappe & Vinicius Jr - best World Cup goals from round one",
+      "url": "https://www.bbc.com/sport/football/videos/c0qynqxdy35o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 05:01:15 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch the best goals from the first round of games at the World Cup, including memorable strikes from Argentina's Lionel Messi, France's Kylian Mbappe and Brazil's Vinicius Jr."
+    },
+    {
+      "id": "893ddcd5d636",
+      "title": "Are goalkeepers struggling with the World Cup ball?",
+      "url": "https://www.bbc.com/sport/football/videos/c5yzln745mxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 00:26:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Joe Hart, Wayne Rooney and Mark Chapman discuss whether goalkeepers are struggling to get to grips with the World Cup ball, after a number of long range goals."
+    },
+    {
+      "id": "ccb897ef873e",
+      "title": "Fayzullaev scores Uzbekistan's first-ever World Cup goal",
+      "url": "https://www.bbc.com/sport/football/videos/c1eygellgelo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 03:53:54 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Abbosbek Fayzullaev scores Uzbekistan's first-ever goal at a World Cup final, tapping in an equaliser against Colombia."
+    },
+    {
+      "id": "51242ea27d65",
+      "title": "Who am I? Guess World Cup star No 11",
+      "url": "https://www.bbc.com/sport/football/articles/clypgyl6pzlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 18 Jun 2026 05:56:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
       "id": "b912eadfe884",
@@ -55,22 +127,58 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "4216c55b2899",
-      "title": "England make flying start to World Cup with thrilling win over Croatia",
-      "url": "https://www.skysports.com/football/england-vs-croatia/report/549788",
-      "published_at": "Wed, 17 Jun 2026 22:45:00 BST",
+      "id": "761ca62116e9",
+      "title": "Home nations and ROI learn World Cup play-off opponents",
+      "url": "https://www.skysports.com/football/news/12040/13555247/womens-world-cup-play-off-draw-england-scotland-wales-northern-ireland-and-republic-of-ireland-learn-opponents",
+      "published_at": "Thu, 18 Jun 2026 11:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "An electric second half ensured England made a winning start to their World Cup campaign, with Thomas Tuchel's side showing their attacking excellence in a 4-2 victory over Croatia."
+      "summary": "England will face Greece in the first round of the World Cup qualification play-offs as Sarina Wiegman's side look to book their place at the 2027 World Cup."
     },
     {
-      "id": "1fd1208af475",
-      "title": "Impressive England score four in opening World Cup win vs Croatia LIVE!",
-      "url": "https://www.skysports.com/football/england-vs-croatia/live/549788",
-      "published_at": "Wed, 17 Jun 2026 18:00:00 BST",
+      "id": "05501084fda4",
+      "title": "Beaumont in squad for historic Lord's Test but no place for Dean",
+      "url": "https://www.skysports.com/cricket/news/12040/13555288/england-womens-test-squad-to-face-india-tammy-beaumont-returns-for-inaugural-lords-test-match-but-no-white-ball-vice-captain-charlie-dean",
+      "published_at": "Thu, 18 Jun 2026 12:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Tammy Beaumont returns for England's inaugural Lord's Test match against India this July after being left out of the T20 World Cup squad, but there is no place white-ball vice-captain Charlie Dean."
+    },
+    {
+      "id": "30bf6473a62d",
+      "title": "What have we learned from the first round of World Cup group games?",
+      "url": "https://www.skysports.com/football/news/12040/13554245/world-cup-2026-what-have-we-learned-from-the-first-round-of-group-stage-fixtures-in-the-usa-canada-and-mexico",
+      "published_at": "Thu, 18 Jun 2026 13:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": " "
+    },
+    {
+      "id": "f1789780ba65",
+      "title": "England's routes to 2026 World Cup final",
+      "url": "https://www.skysports.com/football/news/12040/13479783/englands-world-cup-2026-fixtures-schedule-and-tournament-route-to-final-how-three-lions-could-lift-trophy-on-july-19",
+      "published_at": "Fri, 05 Dec 2025 19:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England's World Cup has begun - but what is their path to potential glory?"
+    },
+    {
+      "id": "2533b8784fcd",
+      "title": "World Cup can still make a mockery of predictions",
+      "url": "https://www.skysports.com/football/news/12040/13555283/lionel-messi-to-star-cristiano-ronaldo-to-bomb-world-cup-can-still-make-a-mockery-of-predictions-with-so-long-to-go",
+      "published_at": "Thu, 18 Jun 2026 11:35:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Convinced football is coming home? Lumping on Germany after scoring seven? Tipping Lionel Messi to retain it? Telling yourself that Sweden are dark horses? Writing off Spain, Brazil and Cristiano Rona"
+    },
+    {
+      "id": "46640751124c",
+      "title": "Ten players who've caught the eye in the first week of the World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13554246/world-cup-2026-xxxx-among-players-to-have-caught-the-eye-in-the-first-week-of-the-tournament",
+      "published_at": "Thu, 18 Jun 2026 10:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Believe it or not, the first round of group games at the 2026 World Cup is complete."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-17T22:28:01.549795",
+    "last_updated": "2026-06-18T12:37:37.438157",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -77,7 +77,7 @@
       "player": "Neymar",
       "nation": "Brazil",
       "position": "FW",
-      "status": "doubtful",
+      "status": "questionable",
       "injury_type": "Calf strain (Grade 2)",
       "since": "2026-05-17",
       "expected_return": "2026-06-18",
@@ -413,7 +413,7 @@
       "player": "Alphonso Davies",
       "nation": "Canada",
       "position": "DF",
-      "status": "doubtful",
+      "status": "questionable",
       "injury_type": "Hamstring",
       "since": "2026-06-01",
       "expected_return": "2026-06-18",
@@ -533,8 +533,8 @@
   "team_summary": {
     "Brazil": {
       "out": 4,
-      "doubtful": 1,
-      "questionable": 0,
+      "doubtful": 0,
+      "questionable": 1,
       "probable": 0,
       "critical_out": [
         "Rodrygo"
@@ -691,8 +691,8 @@
     },
     "Canada": {
       "out": 2,
-      "doubtful": 1,
-      "questionable": 0,
+      "doubtful": 0,
+      "questionable": 1,
       "probable": 0,
       "critical_out": [],
       "critical_doubtful": [
@@ -804,5 +804,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Beaumont in squad for historic Lord's Test but no place for Dean",
+      "nations": [
+        "England"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/cricket/news/12040/13555288/england-womens-test-squad-to-face-india-tammy-beaumont-returns-for-inaugural-lords-test-match-but-no-white-ball-vice-captain-charlie-dean",
+      "summary": "Tammy Beaumont returns for England's inaugural Lord's Test match against India this July after being left out of the T20 World Cup squad, but there is no place white-ball vice-captain Charlie Dean.",
+      "published": "Thu, 18 Jun 2026 12:00:00 BST"
+    }
+  ]
 }
