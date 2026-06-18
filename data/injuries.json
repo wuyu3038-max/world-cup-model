@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-18T18:17:57.609901",
+    "last_updated": "2026-06-18T23:20:26.032750",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -804,5 +804,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Brazil's Neymar (calf injury) also out vs. Haiti",
+      "nations": [
+        "Brazil"
+      ],
+      "source": "ESPN FC",
+      "url": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
+      "summary": "Neymar will not play or travel with the Brazil team to Philadelphia for their FIFA World Cup Group C match against Haiti, the Brazil federation confirmed Thursday.",
+      "published": "Thu, 18 Jun 2026 18:53:54 EST"
+    }
+  ]
 }
