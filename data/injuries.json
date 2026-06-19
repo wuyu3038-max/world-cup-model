@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-19T17:07:04.783810",
+    "last_updated": "2026-06-19T20:56:22.826914",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -826,6 +826,16 @@
       "url": "https://www.bbc.com/sport/football/videos/ckg0r24xk5wo?at_medium=RSS&at_campaign=rss",
       "summary": "Canada coach Jessie Marsch praises his players for their 6-0 win over Qatar at the 2026 World Cup in Vancouver, but says losing Ismael Kone to a serious-looking injury is a \"huge loss\".",
       "published": "Fri, 19 Jun 2026 01:02:38 GMT"
+    },
+    {
+      "title": "Ecclestone backs Dean's return as captain after Sciver-Brunt injury ",
+      "nations": [
+        "England"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/cricket/news/12040/13555923/sophie-ecclestone-england-spinner-backs-charlie-deans-return-as-captain-vs-scotland-after-nat-sciver-brunt-injury",
+      "summary": "Sophie Ecclestone expects Charlie Dean to return to the England captaincy \"like a duck to water\" for their next two matches at the Women's T20 World Cup.",
+      "published": "Fri, 19 Jun 2026 20:01:00 BST"
     }
   ]
 }

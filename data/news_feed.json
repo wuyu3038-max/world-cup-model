@@ -1,148 +1,22 @@
 {
-  "updated": "2026-06-19T17:07:04.721581",
-  "total_articles": 23,
+  "updated": "2026-06-19T20:56:22.771744",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 12,
-    "bbc_sport": 10,
-    "sky_sports": 1,
+    "espn_fc": 0,
+    "bbc_sport": 9,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "b1da30c85353",
-      "title": "World Cup 2026 Power Rankings after one game: U.S....",
-      "url": "https://www.espn.com/soccer/story/_/id/49094186/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina",
-      "published_at": "Fri, 19 Jun 2026 09:16:39 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "All 48 teams have played one group game, so let's revisit our Power Rankings. What do our writers and experts think the field of favorites looks like after one week?"
-    },
-    {
-      "id": "27eee6c2e31e",
-      "title": "Korea GK gaffe helps Mexico clinch 1st in Group A",
-      "url": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
-      "published_at": "Fri, 19 Jun 2026 13:05:00 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Mexico took advantage of a defensive blunder by South Korea to win 1-0 on Thursday and become the first team to advance to the knockout stage of the FIFA World Cup."
-    },
-    {
-      "id": "2363ff9790af",
-      "title": "Aguirre relishes Azteca return after Group A win",
-      "url": "https://www.espn.com/soccer/story/_/id/49114368/aguirre-relishes-azteca-knockout-matches-mexico-win-group-a",
-      "published_at": "Fri, 19 Jun 2026 13:05:00 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Mexico beat South Korea 1-0 to become the first team to advance to the World Cup knockout stage, securing the top spot in Group A and a dream Round of 32 match at the Estadio Azteca."
-    },
-    {
-      "id": "d9118ae2ece8",
-      "title": "🔥Good, Bad, Ugly: The World Cup warmup kits",
-      "url": "https://www.espn.com/soccer/story/_/id/49096287/the-2026-world-cup-wildest-warmup-kits-good-bad-ugly",
-      "published_at": "Fri, 19 Jun 2026 13:05:01 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "effb4fcf2e23",
-      "title": "Premier League 2026-27 fixtures: When will the top...",
-      "url": "https://www.espn.com/soccer/story/_/id/49082981/premier-league-2026-27-fixtures-arsenal-chelsea-liverpool-manchester-city-manchester-united-tottenham-hotspur",
-      "published_at": "Fri, 19 Jun 2026 06:57:26 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The fixtures for the 2026-27 Premier League season are out! Which title contenders have the toughest start, and where could the trophy be lifted?"
-    },
-    {
-      "id": "4164cc34f0f3",
-      "title": "Where has Infantino been? FIFA president has alrea...",
-      "url": "https://www.espn.com/soccer/story/_/id/49116383/infantino-fifa-presidents-epic-world-cup-tour",
-      "published_at": "Fri, 19 Jun 2026 10:27:11 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The FIFA president has been flying all across the World Cup host nations on his private jet. Here's where he went in the first week of the tournament."
-    },
-    {
-      "id": "cd4c35ee5c20",
-      "title": "Mexico rejoice after second World Cup win in 2026....",
-      "url": "https://www.espn.com/soccer/story/_/id/49113986/mexico-south-korea-world-cup-reaction-analysis",
-      "published_at": "Fri, 19 Jun 2026 04:42:08 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Mexico still don't look like a finished product, but fine-tuning can wait for another day as the co-hosts punched their ticket to the round of 32."
-    },
-    {
-      "id": "57d3875af8a8",
-      "title": "World Cup Daily: Meet Scotland superfan Donny the ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49113556/fifa-world-cup-daily-brazil-usmnt-action-day-9",
-      "published_at": "Fri, 19 Jun 2026 09:42:58 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Day 9 is upon us, with the United States and Brazil among the teams playing as 2026 FIFA World Cup action continues."
-    },
-    {
-      "id": "e7ad65070b9e",
-      "title": "World Cup VAR review: Does a broken-leg tackle alw...",
-      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Fri, 19 Jun 2026 04:49:24 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
-    },
-    {
-      "id": "ee09b295c303",
-      "title": "Copy of All 48 teams in the World Cup have played once: It...",
-      "url": "https://www.espn.com/soccer/story/_/id/49098972/world-cup-overreactions-takeaways-now-all-48-teams-played-first-games",
-      "published_at": "Thu, 18 Jun 2026 15:27:02 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "All 48 teams in the World Cup have played exactly one game, so let's react -- or, because it's such a small sample size -- overreact."
-    },
-    {
-      "id": "f6ee9d3fca22",
-      "title": "Full hearts, empty kegs, can't lose: Scotland's Tartan Army takes over World Cup",
-      "url": "https://www.espn.com/soccer/story/_/id/49096885/scotland-tartan-army-world-cup-boston-haiti-red-sox-fenway-park",
-      "published_at": "Thu, 18 Jun 2026 11:35:41 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Scotland's Tartan Army has been one of the stories of the 2026 World Cup so far, drinking its way through Boston and bringing bonhomie, passion and national pride after nearly 30 years away from the t"
-    },
-    {
-      "id": "a64c0c3ac05d",
-      "title": "World Cup's best viral moments: Mexico, Scotland d...",
-      "url": "https://www.espn.com/soccer/story/_/id/49114224/world-cup-best-viral-moments-social-media-us-mexico-canada",
-      "published_at": "Fri, 19 Jun 2026 05:34:44 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "World Cup's best viral moments so far including a Mexican duck, a German cyclist, and plenty of fan fun."
-    },
-    {
-      "id": "b62a59520bf4",
-      "title": "Nike v Adidas - the World Cup brand battle",
-      "url": "https://www.bbc.com/sport/football/articles/c75y7py2lxdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 13:01:38 GMT",
+      "id": "989103fde3f0",
+      "title": "Fifa alters how World Cup tables work - it changes everything",
+      "url": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 19 Jun 2026 18:52:19 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Eye-watering budgets are nothing new, but this year both Nike and Adidas have gone bigger and bolder than ever before in the fight for World Cup attention."
-    },
-    {
-      "id": "1cf49df8e294",
-      "title": "The US World Cup star who couldn't be an American under Trump's plan",
-      "url": "https://www.bbc.com/sport/football/articles/c2ly0kx05jdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 11:21:09 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Folarin Balogun scored two goals on his World Cup debut, but he is the type of person President Trump is trying to ban under birthright citizenship."
-    },
-    {
-      "id": "129bdae30e1e",
-      "title": "Who's the Bos? - meet 2026 World Cup's fastest player",
-      "url": "https://www.bbc.com/sport/football/articles/cyv0m91942do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 12:43:36 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa’s sprint data has revealed Australia’s Jordan Bos as the fastest player at World Cup 2026, capping a remarkable rise for the Feyenoord defender"
+      "summary": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup."
     },
     {
       "id": "c1b8204740b7",
@@ -172,22 +46,22 @@
       "summary": "England make a winning start to their World Cup 2026 campaign, beating Croatia 4-2 in a thrilling match in Dallas."
     },
     {
-      "id": "929c5c227160",
-      "title": "World Cup quiz: Who has most Scotland appearances?",
-      "url": "https://www.bbc.com/sport/football/articles/ckgpl54ndpqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 12:32:42 GMT",
+      "id": "b62a59520bf4",
+      "title": "Nike v Adidas - the World Cup brand battle",
+      "url": "https://www.bbc.com/sport/football/articles/c75y7py2lxdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 19 Jun 2026 13:01:38 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Test your knowledge of Scotland players with at least five appearances at World Cups."
+      "summary": "Eye-watering budgets are nothing new, but this year both Nike and Adidas have gone bigger and bolder than ever before in the fight for World Cup attention."
     },
     {
-      "id": "52ec2ae63c6e",
-      "title": "Sutton's World Cup score predictions - second group games",
-      "url": "https://www.bbc.com/sport/football/articles/cwykwyp001xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 18 Jun 2026 20:00:21 GMT",
+      "id": "1cf49df8e294",
+      "title": "The US World Cup star who couldn't be an American under Trump's plan",
+      "url": "https://www.bbc.com/sport/football/articles/c2ly0kx05jdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 19 Jun 2026 11:21:09 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the second round of group games at the 2026 World Cup."
+      "summary": "Folarin Balogun scored two goals on his World Cup debut, but he is the type of person President Trump is trying to ban under birthright citizenship."
     },
     {
       "id": "b912eadfe884",
@@ -208,13 +82,31 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "d418e310b88b",
-      "title": "Arsenal kick off 2026/27 Premier League season vs Coventry - live on Sky ",
-      "url": "https://www.skysports.com/football/news/12040/13555675/premier-league-2026-27-fixtures-dates-schedule-arsenal-face-coventry-and-liverpool-at-newcastle-in-opening-round",
-      "published_at": "Fri, 19 Jun 2026 10:00:00 BST",
+      "id": "929c5c227160",
+      "title": "World Cup quiz: Who has most Scotland appearances?",
+      "url": "https://www.bbc.com/sport/football/articles/ckgpl54ndpqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 19 Jun 2026 12:32:42 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Test your knowledge of Scotland players with at least five appearances at World Cups."
+    },
+    {
+      "id": "ddccb080af37",
+      "title": "Ecclestone backs Dean's return as captain after Sciver-Brunt injury ",
+      "url": "https://www.skysports.com/cricket/news/12040/13555923/sophie-ecclestone-england-spinner-backs-charlie-deans-return-as-captain-vs-scotland-after-nat-sciver-brunt-injury",
+      "published_at": "Fri, 19 Jun 2026 20:01:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Defending champions Arsenal will kick off the 2026/27 Premier League season at home to Coventry on Friday August 21, live on Sky Sports."
+      "summary": "Sophie Ecclestone expects Charlie Dean to return to the England captaincy \"like a duck to water\" for their next two matches at the Women's T20 World Cup."
+    },
+    {
+      "id": "d66aa14bb7c4",
+      "title": "World Cup news: Canada's Kone releases statement after broken leg",
+      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
+      "published_at": "Fri, 19 Jun 2026 11:42:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }
