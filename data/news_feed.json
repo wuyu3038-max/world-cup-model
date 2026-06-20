@@ -1,67 +1,49 @@
 {
-  "updated": "2026-06-19T20:56:22.771744",
-  "total_articles": 11,
+  "updated": "2026-06-20T10:22:22.670722",
+  "total_articles": 9,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 9,
-    "sky_sports": 2,
+    "bbc_sport": 6,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
+      "id": "c3eed235d338",
+      "title": "World Cup still waits for real Brazil to show up",
+      "url": "https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 20 Jun 2026 04:54:22 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "While rivals Argentina and France have impressed in the United States, Brazil have struggled to hit top form - despite a 3-0 win over minnows Haiti."
+    },
+    {
+      "id": "ef587f29914c",
+      "title": "World Cup first sees Almiron sent off for covering mouth",
+      "url": "https://www.bbc.com/sport/football/videos/c17y0977klgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 20 Jun 2026 05:05:57 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch Miguel Almiron become the first player to be sent off under new rules preventing players from covering their mouths during a game at the 2026 World Cup, with the Paraguay midfielder shown red in"
+    },
+    {
+      "id": "b37d4baddbca",
+      "title": "Who am I? Guess World Cup star No 13",
+      "url": "https://www.bbc.com/sport/football/articles/c87q5gg111no?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 20 Jun 2026 06:02:03 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
       "id": "989103fde3f0",
-      "title": "Fifa alters how World Cup tables work - it changes everything",
+      "title": "World Cup groups separated by head-to-head records for first time",
       "url": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 18:52:19 GMT",
+      "published_at": "Sat, 20 Jun 2026 08:25:54 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Fifa is using head-to-head records instead of group goal difference as the first tiebreaker for teams who are level on points at the World Cup."
-    },
-    {
-      "id": "c1b8204740b7",
-      "title": "Canada score six but historic win marred by Kone injury",
-      "url": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 01:58:33 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Ismael Kone's serious-looking injury left Canada manager Jesse Marsch in tears and overshadowed their first-ever World Cup finals win as they thrashed nine-man Qatar 6-0."
-    },
-    {
-      "id": "c8d1a0ef0bf8",
-      "title": "Kone injury is a 'huge loss' - Marsch ",
-      "url": "https://www.bbc.com/sport/football/videos/ckg0r24xk5wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 01:02:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Canada coach Jessie Marsch praises his players for their 6-0 win over Qatar at the 2026 World Cup in Vancouver, but says losing Ismael Kone to a serious-looking injury is a \"huge loss\"."
-    },
-    {
-      "id": "3b03dec23e18",
-      "title": "England hit four in World Cup opener against Croatia ",
-      "url": "https://www.bbc.com/sport/football/videos/c4gy52zj5peo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 17 Jun 2026 22:56:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England make a winning start to their World Cup 2026 campaign, beating Croatia 4-2 in a thrilling match in Dallas."
-    },
-    {
-      "id": "b62a59520bf4",
-      "title": "Nike v Adidas - the World Cup brand battle",
-      "url": "https://www.bbc.com/sport/football/articles/c75y7py2lxdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 13:01:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Eye-watering budgets are nothing new, but this year both Nike and Adidas have gone bigger and bolder than ever before in the fight for World Cup attention."
-    },
-    {
-      "id": "1cf49df8e294",
-      "title": "The US World Cup star who couldn't be an American under Trump's plan",
-      "url": "https://www.bbc.com/sport/football/articles/c2ly0kx05jdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 11:21:09 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Folarin Balogun scored two goals on his World Cup debut, but he is the type of person President Trump is trying to ban under birthright citizenship."
     },
     {
       "id": "b912eadfe884",
@@ -82,13 +64,22 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "929c5c227160",
-      "title": "World Cup quiz: Who has most Scotland appearances?",
-      "url": "https://www.bbc.com/sport/football/articles/ckgpl54ndpqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 19 Jun 2026 12:32:42 GMT",
-      "source": "BBC Sport Football",
+      "id": "823b753eaecd",
+      "title": "Guler sends apology after Turkey suffer shock elimination from World Cup ",
+      "url": "https://www.skysports.com/football/turkey-vs-paraguay/report/549796",
+      "published_at": "Sat, 20 Jun 2026 05:45:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Test your knowledge of Scotland players with at least five appearances at World Cups."
+      "summary": "In an emotionally-charged encounter in San Francisco, Turkey were sent packing from the World Cup having fallen to back-to-back defeats, losing 1-0 to steely Paraguay after also suffering at the hands"
+    },
+    {
+      "id": "d8b9b80e0d4f",
+      "title": "Papers: Rashford an injury worry for England",
+      "url": "https://www.skysports.com/football/news/12040/13555947/marcus-rashford-england-forward-an-injury-worry-ahead-of-world-cup-game-with-ghana-paper-talk",
+      "published_at": "Tue, 16 Jun 2026 22:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The top stories and transfer rumours from Saturday's newspapers..."
     },
     {
       "id": "ddccb080af37",
@@ -98,15 +89,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Sophie Ecclestone expects Charlie Dean to return to the England captaincy \"like a duck to water\" for their next two matches at the Women's T20 World Cup."
-    },
-    {
-      "id": "d66aa14bb7c4",
-      "title": "World Cup news: Canada's Kone releases statement after broken leg",
-      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
-      "published_at": "Fri, 19 Jun 2026 11:42:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }

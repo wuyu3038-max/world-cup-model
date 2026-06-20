@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-19T20:56:22.826914",
+    "last_updated": "2026-06-20T10:22:22.725665",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -77,12 +77,12 @@
       "player": "Neymar",
       "nation": "Brazil",
       "position": "FW",
-      "status": "questionable",
+      "status": "fit",
       "injury_type": "Calf strain (Grade 2)",
       "since": "2026-05-17",
       "expected_return": "2026-06-18",
-      "severity": "critical",
-      "notes": "In squad. Expected to resume training. May miss opener vs Morocco (June 13).",
+      "severity": "minor",
+      "notes": "In squad. Expected to resume training. May miss opener vs Morocco (June 13). [AUTO: expected return 2026-06-18 passed]",
       "source": "ESPN"
     },
     {
@@ -293,7 +293,7 @@
       "player": "Cristian Romero",
       "nation": "Argentina",
       "position": "DF",
-      "status": "doubtful",
+      "status": "questionable",
       "injury_type": "Partially torn MCL",
       "since": "2026-05-20",
       "expected_return": "2026-06-20",
@@ -413,12 +413,12 @@
       "player": "Alphonso Davies",
       "nation": "Canada",
       "position": "DF",
-      "status": "questionable",
+      "status": "fit",
       "injury_type": "Hamstring",
       "since": "2026-06-01",
       "expected_return": "2026-06-18",
-      "severity": "critical",
-      "notes": "Canada's best player. Ruled out of opener vs Bosnia. Unclear if available for any group stage match.",
+      "severity": "minor",
+      "notes": "Canada's best player. Ruled out of opener vs Bosnia. Unclear if available for any group stage match. [AUTO: expected return 2026-06-18 passed]",
       "source": "ESPN"
     },
     {
@@ -473,7 +473,7 @@
       "player": "Giorgian de Arrascaeta",
       "nation": "Uruguay",
       "position": "MF",
-      "status": "doubtful",
+      "status": "questionable",
       "injury_type": "Calf",
       "since": "2026-06-01",
       "expected_return": "2026-06-20",
@@ -534,14 +534,12 @@
     "Brazil": {
       "out": 4,
       "doubtful": 0,
-      "questionable": 1,
+      "questionable": 0,
       "probable": 0,
       "critical_out": [
         "Rodrygo"
       ],
-      "critical_doubtful": [
-        "Neymar"
-      ],
+      "critical_doubtful": [],
       "critical_probable": [],
       "major_out": [
         "Éder Militão"
@@ -659,8 +657,8 @@
     },
     "Argentina": {
       "out": 1,
-      "doubtful": 4,
-      "questionable": 0,
+      "doubtful": 3,
+      "questionable": 1,
       "probable": 0,
       "critical_out": [],
       "critical_doubtful": [
@@ -692,12 +690,10 @@
     "Canada": {
       "out": 2,
       "doubtful": 0,
-      "questionable": 1,
+      "questionable": 0,
       "probable": 0,
       "critical_out": [],
-      "critical_doubtful": [
-        "Alphonso Davies"
-      ],
+      "critical_doubtful": [],
       "critical_probable": [],
       "major_out": [
         "Moïse Bombito"
@@ -763,8 +759,8 @@
     },
     "Uruguay": {
       "out": 0,
-      "doubtful": 2,
-      "questionable": 0,
+      "doubtful": 1,
+      "questionable": 1,
       "probable": 0,
       "critical_out": [],
       "critical_doubtful": [
@@ -806,26 +802,14 @@
   },
   "_news_injury_alerts": [
     {
-      "title": "Canada score six but historic win marred by Kone injury",
+      "title": "Papers: Rashford an injury worry for England",
       "nations": [
-        "Canada",
-        "Qatar"
+        "England"
       ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ismael Kone's serious-looking injury left Canada manager Jesse Marsch in tears and overshadowed their first-ever World Cup finals win as they thrashed nine-man Qatar 6-0.",
-      "published": "Fri, 19 Jun 2026 01:58:33 GMT"
-    },
-    {
-      "title": "Kone injury is a 'huge loss' - Marsch ",
-      "nations": [
-        "Canada",
-        "Qatar"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.com/sport/football/videos/ckg0r24xk5wo?at_medium=RSS&at_campaign=rss",
-      "summary": "Canada coach Jessie Marsch praises his players for their 6-0 win over Qatar at the 2026 World Cup in Vancouver, but says losing Ismael Kone to a serious-looking injury is a \"huge loss\".",
-      "published": "Fri, 19 Jun 2026 01:02:38 GMT"
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/football/news/12040/13555947/marcus-rashford-england-forward-an-injury-worry-ahead-of-world-cup-game-with-ghana-paper-talk",
+      "summary": "The top stories and transfer rumours from Saturday's newspapers...",
+      "published": "Tue, 16 Jun 2026 22:30:00 BST"
     },
     {
       "title": "Ecclestone backs Dean's return as captain after Sciver-Brunt injury ",
