@@ -1,14 +1,32 @@
 {
-  "updated": "2026-06-20T10:22:22.670722",
-  "total_articles": 9,
+  "updated": "2026-06-20T15:24:17.471067",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 6,
-    "sky_sports": 3,
+    "bbc_sport": 9,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "241c94717246",
+      "title": "Why Kane is different at this World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/crr87vwrwwlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 20 Jun 2026 13:24:12 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Former England captain Alan Shearer explains what has changed for Harry Kane since his struggles at the 2022 World Cup in Qatar."
+    },
+    {
+      "id": "e842fe9dee19",
+      "title": "Oh, brother! The sibling rivals lining up for different World Cup teams",
+      "url": "https://www.bbc.com/sport/football/articles/ce3ev0v7ge4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 20 Jun 2026 11:55:37 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Sibling rivals are lining up for different teams at the World Cup, with seven pairs of brothers in total at this tournament. "
+    },
     {
       "id": "c3eed235d338",
       "title": "World Cup still waits for real Brazil to show up",
@@ -17,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "While rivals Argentina and France have impressed in the United States, Brazil have struggled to hit top form - despite a 3-0 win over minnows Haiti."
+    },
+    {
+      "id": "260b9eb61c46",
+      "title": "Why are so many World Cup goals being scored late?",
+      "url": "https://www.bbc.com/sport/football/articles/cly9q9nrgdxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 20 Jun 2026 11:39:00 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "World Cup 2026 is witnessing a surge in late goals. Longer stoppage times, tactical substitutions and hydration breaks are reshaping matches"
     },
     {
       "id": "ef587f29914c",
@@ -64,6 +91,15 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
+      "id": "78dcf62db767",
+      "title": "Australia extend winning World Cup start in big Netherlands win",
+      "url": "https://www.skysports.com/cricket/news/12040/13556022/womens-t20-world-cup-australia-in-98-run-win-over-netherlands-to-continue-unbeaten-start-to-tournament",
+      "published_at": "Sat, 20 Jun 2026 14:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Australia maintained their winning start to the ICC Women's T20 World Cup with a comfortable 98-run win over the Netherlands at the Hampshire Bowl."
+    },
+    {
       "id": "823b753eaecd",
       "title": "Guler sends apology after Turkey suffer shock elimination from World Cup ",
       "url": "https://www.skysports.com/football/turkey-vs-paraguay/report/549796",
@@ -71,24 +107,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "In an emotionally-charged encounter in San Francisco, Turkey were sent packing from the World Cup having fallen to back-to-back defeats, losing 1-0 to steely Paraguay after also suffering at the hands"
-    },
-    {
-      "id": "d8b9b80e0d4f",
-      "title": "Papers: Rashford an injury worry for England",
-      "url": "https://www.skysports.com/football/news/12040/13555947/marcus-rashford-england-forward-an-injury-worry-ahead-of-world-cup-game-with-ghana-paper-talk",
-      "published_at": "Tue, 16 Jun 2026 22:30:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The top stories and transfer rumours from Saturday's newspapers..."
-    },
-    {
-      "id": "ddccb080af37",
-      "title": "Ecclestone backs Dean's return as captain after Sciver-Brunt injury ",
-      "url": "https://www.skysports.com/cricket/news/12040/13555923/sophie-ecclestone-england-spinner-backs-charlie-deans-return-as-captain-vs-scotland-after-nat-sciver-brunt-injury",
-      "published_at": "Fri, 19 Jun 2026 20:01:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Sophie Ecclestone expects Charlie Dean to return to the England captaincy \"like a duck to water\" for their next two matches at the Women's T20 World Cup."
     }
   ]
 }

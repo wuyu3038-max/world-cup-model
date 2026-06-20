@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-20T10:22:22.725665",
+    "last_updated": "2026-06-20T15:24:17.532935",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -800,26 +800,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Papers: Rashford an injury worry for England",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/football/news/12040/13555947/marcus-rashford-england-forward-an-injury-worry-ahead-of-world-cup-game-with-ghana-paper-talk",
-      "summary": "The top stories and transfer rumours from Saturday's newspapers...",
-      "published": "Tue, 16 Jun 2026 22:30:00 BST"
-    },
-    {
-      "title": "Ecclestone backs Dean's return as captain after Sciver-Brunt injury ",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/cricket/news/12040/13555923/sophie-ecclestone-england-spinner-backs-charlie-deans-return-as-captain-vs-scotland-after-nat-sciver-brunt-injury",
-      "summary": "Sophie Ecclestone expects Charlie Dean to return to the England captaincy \"like a duck to water\" for their next two matches at the Women's T20 World Cup.",
-      "published": "Fri, 19 Jun 2026 20:01:00 BST"
-    }
-  ]
+  "_news_injury_alerts": []
 }
