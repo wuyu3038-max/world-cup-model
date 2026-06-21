@@ -1,40 +1,139 @@
 {
-  "updated": "2026-06-20T20:55:15.596896",
-  "total_articles": 12,
+  "updated": "2026-06-21T11:35:00.892390",
+  "total_articles": 21,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 10,
+    "espn_fc": 8,
+    "bbc_sport": 11,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "241c94717246",
-      "title": "Why Kane is different at this World Cup - Shearer",
-      "url": "https://www.bbc.com/sport/football/articles/crr87vwrwwlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 20 Jun 2026 13:24:12 GMT",
-      "source": "BBC Sport Football",
+      "id": "efa0ec97e3e1",
+      "title": "World Cup Daily: NASA astronauts kick ball around ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49132966/world-cup-daily-nasa-astronauts-kick-ball-space-spain-belgium-action",
+      "published_at": "Sun, 21 Jun 2026 06:10:10 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Former England captain Alan Shearer explains what has changed for Harry Kane since his struggles at the 2022 World Cup in Qatar."
+      "summary": "Another World Cup day, with four more exciting matchups. All eight teams playing today are unbeaten, but all are still looking for their first win."
     },
     {
-      "id": "44f3473cb098",
-      "title": "Cooling hoodies help England staff combat World Cup heat",
-      "url": "https://www.bbc.com/sport/football/articles/cwy0gn19zqlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 20 Jun 2026 20:17:41 GMT",
-      "source": "BBC Sport Football",
+      "id": "7c63da2cc4aa",
+      "title": "Cape Verde GK Vozinha stopped World Cup favorites ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49074487/cape-verde-gk-vozinha-stopped-world-cup-favourites-spain-gained-14m-followers",
+      "published_at": "Sun, 21 Jun 2026 06:07:11 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "As the England players trained under the searing heat of the Kansas City sun on Saturday, manager Thomas Tuchel took a very different approach to keeping himself cool."
+      "summary": "Cape Verde GK Vozinha is a 40-year-old journeyman who is now one of the 2026 World Cup's most beloved players."
     },
     {
-      "id": "c8bd264fe638",
-      "title": "How does qualification for the World Cup knockout stage work?",
-      "url": "https://www.bbc.com/sport/football/articles/cp8l6zj8441o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 20 Jun 2026 16:24:00 GMT",
+      "id": "3d4062d0b942",
+      "title": "'Every team does it': How World Cup sides thwart o...",
+      "url": "https://www.espn.com/soccer/story/_/id/48968639/every-team-does-how-world-cup-sides-thwart-opponents-spy-efforts",
+      "published_at": "Sun, 21 Jun 2026 03:11:36 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Soccer is full of people who are either (A) spying on someone; (B) actively worried that someone is spying on them; or (C) both. So how do they stop it?"
+    },
+    {
+      "id": "e0a7de8e04d0",
+      "title": "Gakpo, Brobbey answer Dutch call for World Cup exc...",
+      "url": "https://www.espn.com/soccer/story/_/id/49127808/cody-gakpo-brian-brobbey-answer-dutch-call-world-cup-excellence-win-sweden",
+      "published_at": "Sat, 20 Jun 2026 22:21:19 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "After drawing Japan in their Group F opener, the Netherlands were under pressure vs. Sweden. Ronald Koeman pressed the right buttons in a dominant win."
+    },
+    {
+      "id": "833b7ccbe3b9",
+      "title": "If there was a time to dream big about about the USMNT at the World Cup, it's now",
+      "url": "https://www.espn.com/soccer/story/_/id/49121797/ok-dream-big-usmnt-world-cup",
+      "published_at": "Sat, 20 Jun 2026 10:56:37 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "There's something different about this United States team at the 2026 World Cup: The players feel it, and we can all see it. So why not believe?"
+    },
+    {
+      "id": "af3c2eee70ab",
+      "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+      "published_at": "Sun, 21 Jun 2026 03:10:38 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "After their 1-1 draw to Saudi Arabia, can Marcelo Bielsa's Uruguay find some momentum or will their World Cup end earlier than expected?"
+    },
+    {
+      "id": "bc799632587c",
+      "title": "Are Brazil back in business after World Cup win vs...",
+      "url": "https://www.espn.com/soccer/story/_/id/49125986/are-brazil-back-business-world-cup-win-vs-haiti-not-quite",
+      "published_at": "Sat, 20 Jun 2026 11:46:04 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Brazil get the mental boost their World Cup campaign needed with a 3-0 win over Haiti, but coach Carlo Ancelotti is left with plenty of problems to solve."
+    },
+    {
+      "id": "82f578d4a915",
+      "title": "Scotland's World Cup dreams on the ropes as Morocc...",
+      "url": "https://www.espn.com/soccer/story/_/id/49121005/scotland-world-cup-dreams-ropes-morocco-prove-real-deal",
+      "published_at": "Sat, 20 Jun 2026 11:46:04 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Scotland's dreams of reaching the World Cup knockouts are in jeopardy as Morocco prove they deserve a little more respect as a contender."
+    },
+    {
+      "id": "a94dcb3d5339",
+      "title": "From factory floor to World Cup star - Germany's super-sub Undav",
+      "url": "https://www.bbc.com/sport/football/articles/c8r2pm4xrxro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 21 Jun 2026 00:22:07 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "With the second round of group-stage matches under way, we assess who can play who in the knockout rounds - and how they can get there."
+      "summary": "It was not long ago that his manager Julian Nagelsmann called him out openly - but Deniz Undav is proving himself a key player for Germany at the World Cup."
+    },
+    {
+      "id": "17f0b55df1ba",
+      "title": "Fastest World Cup to 100 goals in 68 years - are balls and breaks behind it?",
+      "url": "https://www.bbc.com/sport/football/articles/cvglnkw1l93o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 20 Jun 2026 23:46:26 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The 2026 World Cup becomes the fastest edition of the tournament to hit 100 goals since 1958 - with the landmark reached in the 33rd game. But what is behind the scoring spree?"
+    },
+    {
+      "id": "e8ef810a3166",
+      "title": "Scotland expects: What is behind McTominay's understated World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/c78yn1gzy6do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 20 Jun 2026 20:16:11 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Some are suggesting Scott McTominay has not had the expected impact for Scotland at the World Cup, but is that fair on the Napoli midfielder?"
+    },
+    {
+      "id": "7ce22c81a11e",
+      "title": "World Cup quiz: Name every Golden Boot winner",
+      "url": "https://www.bbc.com/sport/football/articles/ckgpjw4wd21o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 21 Jun 2026 09:25:46 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "How many World Cup top goalscorers from down the years can you name?\n"
+    },
+    {
+      "id": "49f1a2e2edb9",
+      "title": "Who am I? Guess World Cup star No 14",
+      "url": "https://www.bbc.com/sport/football/articles/c3e2wj9ppy4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 21 Jun 2026 06:12:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "797ebab68547",
+      "title": "Impenetrable Room inspires Curacao to first World Cup point",
+      "url": "https://www.bbc.com/sport/football/videos/c3dyvklky1mo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 21 Jun 2026 03:14:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Curacao goalkeeper Eloy Room equals the record for most saves in a World Cup match, as Dick Advocaat's side earn their first ever point in the tournament with a 0-0 draw against Ecuador at the Kansas "
     },
     {
       "id": "12b903837f82",
@@ -46,40 +145,13 @@
       "summary": "Cody Gakpo scores the 100th goal of this World Cup as he his second of the game to put Netherlands 4-0 ahead against Sweden.  "
     },
     {
-      "id": "ef587f29914c",
-      "title": "World Cup first as Almiron sent off for covering mouth",
-      "url": "https://www.bbc.com/sport/football/videos/c17y0977klgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 20 Jun 2026 05:05:57 GMT",
+      "id": "4ef2d319afa8",
+      "title": "Dutch royals enjoy two big results in one World Cup day",
+      "url": "https://www.bbc.com/sport/football/articles/c4gydq973nqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 21 Jun 2026 09:45:57 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Watch Miguel Almiron become the first player to be sent off under new rules preventing players from covering their mouths during a game at the 2026 World Cup, with the Paraguay midfielder shown red in"
-    },
-    {
-      "id": "e842fe9dee19",
-      "title": "Oh, brother! The sibling rivals lining up for different World Cup teams",
-      "url": "https://www.bbc.com/sport/football/articles/ce3ev0v7ge4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 20 Jun 2026 11:55:37 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Sibling rivals are lining up for different teams at the World Cup, with seven pairs of brothers in total at this tournament. "
-    },
-    {
-      "id": "c3eed235d338",
-      "title": "World Cup still waits for real Brazil to show up",
-      "url": "https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 20 Jun 2026 04:54:22 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "While rivals Argentina and France have impressed in the United States, Brazil have struggled to hit top form - despite a 3-0 win over minnows Haiti."
-    },
-    {
-      "id": "b37d4baddbca",
-      "title": "Who am I? Guess World Cup star No 13",
-      "url": "https://www.bbc.com/sport/football/articles/c87q5gg111no?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 20 Jun 2026 06:02:03 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "There may be about 5,000 miles between the Netherlands and their former colony Curacao but members of the Dutch royal family managed to see both sides play on Saturday.\n\n"
     },
     {
       "id": "b912eadfe884",
@@ -100,22 +172,31 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "78dcf62db767",
-      "title": "Australia extend winning World Cup start in big Netherlands win",
-      "url": "https://www.skysports.com/cricket/news/12040/13556022/womens-t20-world-cup-australia-in-98-run-win-over-netherlands-to-continue-unbeaten-start-to-tournament",
-      "published_at": "Sat, 20 Jun 2026 14:00:00 BST",
-      "source": "Sky Sports Football",
+      "id": "241c94717246",
+      "title": "Why Kane is different at this World Cup - Shearer",
+      "url": "https://www.bbc.com/sport/football/articles/crr87vwrwwlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 20 Jun 2026 13:24:12 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Australia maintained their winning start to the ICC Women's T20 World Cup with a comfortable 98-run win over the Netherlands at the Hampshire Bowl."
+      "summary": "Former England captain Alan Shearer explains what has changed for Harry Kane since his struggles at the 2022 World Cup in Qatar."
     },
     {
-      "id": "e52c75b20bf0",
-      "title": "England too good for brave Scotland in T20 World Cup LIVE!",
-      "url": "https://www.skysports.com/cricket/live-blog/12040/13556133/england-vs-scotland-live-cricket-score-updates-video-and-analysis-from-icc-womens-t20-world-cup-group-b-clash",
-      "published_at": "Sat, 20 Jun 2026 17:45:00 BST",
+      "id": "a8eae0c5ee91",
+      "title": "Ueda stars as Japan end Tunisia's World Cup with dominant win ",
+      "url": "https://www.skysports.com/football/tunisia-vs-japan/report/549801",
+      "published_at": "Thu, 04 Jun 2026 12:14:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Japan delivered a ruthlessly punishing performance to thrash Tunisia 4-0 in Guadalupe, ending the African side's World Cup before it really got going. "
+    },
+    {
+      "id": "e3f5fc3c8373",
+      "title": "Stand-in skipper Dean guides England to T20 World Cup win over Scotland",
+      "url": "https://www.skysports.com/cricket/news/12040/13556126/womens-t20-world-cup-sophia-dunkley-and-sophie-ecclestone-help-england-to-win-against-scotland-at-headingley",
+      "published_at": "Sat, 20 Jun 2026 21:52:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Stand-in skipper Charlie Dean guided England to a 38-run victory over Scotland at Headingley as the hosts continued their unbeaten start to the ICC Women's T20 World Cup."
     }
   ]
 }
