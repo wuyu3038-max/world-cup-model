@@ -1,130 +1,22 @@
 {
-  "updated": "2026-06-22T20:15:31.122023",
-  "total_articles": 23,
+  "updated": "2026-06-22T22:28:14.203675",
+  "total_articles": 13,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 10,
+    "espn_fc": 0,
     "bbc_sport": 11,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "3a988115ec33",
-      "title": "World Cup recap: Messi makes history in Argentina'...",
-      "url": "https://www.espn.com/soccer/story/_/id/49096236/fifa-world-cup-live-updates-argentina-vs-austria-lionel-messi-chases-history",
-      "published_at": "Mon, 22 Jun 2026 15:44:55 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Lionel Messi is now the all-time leading scorer in men's World Cup history following Argentina's 2-0 win over Austria. Here's how it happened in Dallas, Texas on Monday."
-    },
-    {
-      "id": "fdc787a5dff8",
-      "title": "Watching Spain's Yamal score his first World Cup g...",
-      "url": "https://www.espn.com/soccer/story/_/id/49142360/watching-spain-lamine-yamal-score-first-world-cup-goal-hometown-rocafonda",
-      "published_at": "Mon, 22 Jun 2026 10:22:30 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The modest Catalan district of Rocafonda is where Barcelona and Spain star Lamine Yamal grew up. And ESPN was there to see him score his first World Cup goal."
-    },
-    {
-      "id": "a74c03c8d272",
-      "title": "World Cup Daily: Crying Belgium fan saved by VAR; ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49141065/world-cup-daily-crying-belgium-fan-saved-var-messi-mbappe-haaland-action",
-      "published_at": "Mon, 22 Jun 2026 13:15:48 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "It's another week of 2026 FIFA World Cup action, and we have some big teams playing today, including Argentina, France and Norway."
-    },
-    {
-      "id": "d46ef00567fc",
-      "title": "USMNT's World Cup success brings dilemma: Rotate t...",
-      "url": "https://www.espn.com/soccer/story/_/id/49140112/usmnt-faces-world-cup-dilemma-vs-turkiye-rotate-squad-keep-same-xi",
-      "published_at": "Mon, 22 Jun 2026 14:17:26 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The USMNT has clinched a spot in the World Cup knockouts, so should the team rotate in its final Group D match or stay consistent?"
-    },
-    {
-      "id": "25c7a9068ea0",
-      "title": "Copy of Salah stepped up, but World Cup 2026 is proving to...",
-      "url": "https://www.espn.com/soccer/story/_/id/49141100/salah-stepped-world-cup-2026-proving-no-country-old-men",
-      "published_at": "Mon, 22 Jun 2026 08:57:17 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Mohamed Salah wound back the clock with a sublime display on Sunday, but this World Cup has shown that the tournament has been a step too far for some of world soccer's aging stars."
-    },
-    {
-      "id": "e7ad65070b9e",
-      "title": "World Cup VAR review: Why was Iran's goal ruled ou...",
-      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Mon, 22 Jun 2026 08:57:17 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Iran striker Mehdi Taremi scored after netting from a smartly worked free kick routine, but VAR intervened."
-    },
-    {
-      "id": "0f6d884b5d3b",
-      "title": "World Cup 'smart' ball is a game changer. Just don...",
-      "url": "https://www.espn.com/soccer/story/_/id/49083534/world-cup-smart-ball-adidas-trionda-charge-balls-sam-borden",
-      "published_at": "Mon, 22 Jun 2026 03:30:09 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Everything in soccer can always be improved -- even the humble game ball. The 2026 World Cup has the Trionda, filled with chips and sensors, and so far, it's been well-received."
-    },
-    {
-      "id": "3d4062d0b942",
-      "title": "'Every team does it': How World Cup sides thwart o...",
-      "url": "https://www.espn.com/soccer/story/_/id/48968639/every-team-does-how-world-cup-sides-thwart-opponents-spy-efforts",
-      "published_at": "Mon, 22 Jun 2026 03:30:09 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Soccer is full of people who are either (A) spying on someone; (B) actively worried that someone is spying on them; or (C) both. So how do they stop it?"
-    },
-    {
-      "id": "5c5cd93d8c69",
-      "title": "Every team's odds to win the World Cup",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-      "published_at": "Sun, 21 Jun 2026 18:32:28 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Odds for every team to advance from its group through the knockout stage and to win the 2026 World Cup."
-    },
-    {
-      "id": "effb4fcf2e23",
-      "title": "Premier League 2026-27 fixtures: When will the top...",
-      "url": "https://www.espn.com/soccer/story/_/id/49082981/premier-league-2026-27-fixtures-arsenal-chelsea-liverpool-manchester-city-manchester-united-tottenham-hotspur",
-      "published_at": "Sun, 21 Jun 2026 20:52:08 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The fixtures for the 2026-27 Premier League season are out! Which title contenders have the toughest start, and where could the trophy be lifted?"
-    },
-    {
-      "id": "a727d3571286",
-      "title": "'Brilliant finish' - Messi becomes all-time leading World Cup scorer",
-      "url": "https://www.bbc.com/sport/football/videos/c70y7kdjd8do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 18:00:49 GMT",
+      "id": "8d1ce4807c3b",
+      "title": "Messi makes World Cup history as Argentina reach last 32",
+      "url": "https://www.bbc.com/sport/football/videos/c0ey1l0z2r8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 20:29:31 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Lionel Messi makes history as the all-time leading World Cup scorer, netting his 17th tournament goal during Argentina's game against Austria.\n\n\n"
-    },
-    {
-      "id": "ba56ac26c356",
-      "title": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
-      "url": "https://www.bbc.com/sport/football/articles/cvg7nx477pvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 19:08:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "As he becomes the top goalscorer in World Cup history, BBC Sport explores how Lionel Messi is still delivering on the biggest stage in his late 30s."
-    },
-    {
-      "id": "0a6315d6b9f7",
-      "title": "All of Messi's record-breaking 18 World Cup goals",
-      "url": "https://www.bbc.com/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 18:11:50 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch all of Lionel Messi's World Cup goals as he breaks Miroslav Klose's individual scoring record with a 17th goal in Argentina's group stage match against Austria."
+      "summary": "Lionel Messi becomes the World Cup's all-time leading goalscorer as his double against Austria sends holders Argentina into the last 32. \n\n\n"
     },
     {
       "id": "a802b416e7d4",
@@ -145,13 +37,22 @@
       "summary": "BBC Scotland examines the impact of Bologna's Lewis Ferguson in the Scotland midfield going into the crunch game with Brazil."
     },
     {
-      "id": "491d59362d0b",
-      "title": "Madueke's remarkable season - from petition to World Cup starter",
-      "url": "https://www.bbc.com/sport/football/articles/c5yz2xyvd1zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 10:47:17 GMT",
+      "id": "a727d3571286",
+      "title": "'Brilliant finish' - Messi becomes all-time leading World Cup scorer",
+      "url": "https://www.bbc.com/sport/football/videos/c70y7kdjd8do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 18:00:49 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Noni Madueke has gone from fans protesting against him signing for Arsenal to England World Cup starter. BBC Sport look at his rollercoaster season."
+      "summary": "Lionel Messi makes history as the all-time leading World Cup scorer, netting his 17th tournament goal during Argentina's game against Austria.\n\n\n"
+    },
+    {
+      "id": "0a6315d6b9f7",
+      "title": "All of Messi's record-breaking 18 World Cup goals",
+      "url": "https://www.bbc.com/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 18:11:50 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch all of Lionel Messi's World Cup goals as he breaks Miroslav Klose's individual scoring record with a 17th goal in Argentina's group stage match against Austria."
     },
     {
       "id": "d12c782e945e",
@@ -161,6 +62,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Mohamed Salah scores one goal and creates another as Egypt come from behind to beat New Zealand and secure their first-ever World Cup win."
+    },
+    {
+      "id": "491d59362d0b",
+      "title": "Madueke's remarkable season - from petition to World Cup starter",
+      "url": "https://www.bbc.com/sport/football/articles/c5yz2xyvd1zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 10:47:17 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Noni Madueke has gone from fans protesting against him signing for Arsenal to England World Cup starter. BBC Sport look at his rollercoaster season."
     },
     {
       "id": "1b262da5f461",
