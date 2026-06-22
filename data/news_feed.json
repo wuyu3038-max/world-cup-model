@@ -1,179 +1,116 @@
 {
-  "updated": "2026-06-21T20:59:26.103366",
-  "total_articles": 27,
+  "updated": "2026-06-22T18:05:35.420288",
+  "total_articles": 15,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 8,
+    "espn_fc": 0,
     "bbc_sport": 13,
-    "sky_sports": 6,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "a7c5457e98bc",
-      "title": "Yamal nets 1st World Cup goal to fuel Spain rout",
-      "url": "https://www.espn.com/soccer/story/_/id/49135958/spain-saudi-arabia-2026-world-cup-lamine-yamal-mikel-oyarzabal",
-      "published_at": "Sun, 21 Jun 2026 14:36:04 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Lamine Yamal needed just 10 minutes of his first start at a World Cup to get his first goal on soccer's biggest stage."
-    },
-    {
-      "id": "efa0ec97e3e1",
-      "title": "World Cup Daily: Spain cruise past Saudi Arabia; B...",
-      "url": "https://www.espn.com/soccer/story/_/id/49132966/world-cup-daily-nasa-astronauts-kick-ball-space-spain-belgium-action",
-      "published_at": "Sun, 21 Jun 2026 16:24:19 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Another World Cup day, with four more exciting matchups. First up, Lamine Yamal is back in the starting XI for Spain against Saudi Arabia."
-    },
-    {
-      "id": "274471aac937",
-      "title": "What's it really like to face World Cup stars Yama...",
-      "url": "https://www.espn.com/soccer/story/_/id/49041085/whats-really-face-world-cup-laliga-stars-spain-barcelona-lamine-yamal-france-kylian-mbappe",
-      "published_at": "Sun, 21 Jun 2026 16:24:19 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "3d4062d0b942",
-      "title": "'Every team does it': How World Cup sides thwart o...",
-      "url": "https://www.espn.com/soccer/story/_/id/48968639/every-team-does-how-world-cup-sides-thwart-opponents-spy-efforts",
-      "published_at": "Sun, 21 Jun 2026 11:53:26 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Soccer is full of people who are either (A) spying on someone; (B) actively worried that someone is spying on them; or (C) both. So how do they stop it?"
-    },
-    {
-      "id": "7c63da2cc4aa",
-      "title": "Cape Verde GK Vozinha stopped World Cup favorites ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49074487/cape-verde-gk-vozinha-stopped-world-cup-favourites-spain-gained-14m-followers",
-      "published_at": "Sun, 21 Jun 2026 06:07:11 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Cape Verde GK Vozinha is a 40-year-old journeyman who is now one of the 2026 World Cup's most beloved players."
-    },
-    {
-      "id": "e0a7de8e04d0",
-      "title": "Gakpo, Brobbey answer Dutch call for World Cup exc...",
-      "url": "https://www.espn.com/soccer/story/_/id/49127808/cody-gakpo-brian-brobbey-answer-dutch-call-world-cup-excellence-win-sweden",
-      "published_at": "Sat, 20 Jun 2026 22:21:19 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "After drawing Japan in their Group F opener, the Netherlands were under pressure vs. Sweden. Ronald Koeman pressed the right buttons in a dominant win."
-    },
-    {
-      "id": "bc799632587c",
-      "title": "Are Brazil back in business after World Cup win vs...",
-      "url": "https://www.espn.com/soccer/story/_/id/49125986/are-brazil-back-business-world-cup-win-vs-haiti-not-quite",
-      "published_at": "Sat, 20 Jun 2026 11:46:04 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Brazil get the mental boost their World Cup campaign needed with a 3-0 win over Haiti, but coach Carlo Ancelotti is left with plenty of problems to solve."
-    },
-    {
-      "id": "82f578d4a915",
-      "title": "Scotland's World Cup dreams on the ropes as Morocc...",
-      "url": "https://www.espn.com/soccer/story/_/id/49121005/scotland-world-cup-dreams-ropes-morocco-prove-real-deal",
-      "published_at": "Sat, 20 Jun 2026 11:46:04 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Scotland's dreams of reaching the World Cup knockouts are in jeopardy as Morocco prove they deserve a little more respect as a contender."
-    },
-    {
-      "id": "d398bbfbce81",
-      "title": "Lamine Yamal shows why this could be his World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/cj0gy46d5vro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 21 Jun 2026 19:27:01 GMT",
+      "id": "a802b416e7d4",
+      "title": "Doku returning to World Cup after birth of first child",
+      "url": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 17:59:38 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Spain looked an instantly better team with Lamine Yamal in the side, with the 18-year-old showing why this could be his World Cup."
+      "summary": "Jeremy Doku flew home to attend the birth of his first child - but why has that proved controversial in some quarters?"
     },
     {
-      "id": "dc168815b60d",
-      "title": "The World Cup records that look set to be broken",
-      "url": "https://www.bbc.com/sport/football/articles/cpv3kkv4z4mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 21 Jun 2026 13:55:05 GMT",
+      "id": "a727d3571286",
+      "title": "'Brilliant finish' - Messi becomes all-time leading World Cup scorer",
+      "url": "https://www.bbc.com/sport/football/videos/c70y7kdjd8do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 18:00:49 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The 2026 World Cup may only be 10 days old but the tournament has already rewritten football history. BBC Sport takes a look at the records already broken, or set to be. "
+      "summary": "Lionel Messi makes history as the all-time leading World Cup scorer, netting his 17th tournament goal during Argentina's game against Austria.\n\n\n"
     },
     {
-      "id": "eeb35be52500",
-      "title": "The beauty of sharing your child's first World Cup",
-      "url": "https://www.bbc.com/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 21 Jun 2026 13:27:51 GMT",
+      "id": "491d59362d0b",
+      "title": "Madueke's remarkable season - from petition to World Cup starter",
+      "url": "https://www.bbc.com/sport/football/articles/c5yz2xyvd1zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 10:47:17 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "There is nothing like the first World Cup you can enjoy with your kid - and the wide-eyed wonder through which they see it."
+      "summary": "Noni Madueke has gone from fans protesting against him signing for Arsenal to England World Cup starter. BBC Sport look at his rollercoaster season."
     },
     {
-      "id": "1d3618eb5e23",
-      "title": "What have we learned from Scotland's World Cup so far?",
-      "url": "https://www.bbc.com/sport/football/articles/c79yq0yx10ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 21 Jun 2026 13:14:21 GMT",
+      "id": "1b262da5f461",
+      "title": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
+      "url": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 12:01:44 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "After a win over Haiti and a narrow defeat by Morocco, BBC Sport Scotland assesses what we have learned from Scotland's World Cup so far."
+      "summary": "Former Tottenham and Brentford manager Thomas Frank on watching new players at the World Cup - who would he sign and who will be the star of the tournament?"
     },
     {
-      "id": "1ac5f079cb61",
-      "title": "VAR official who made hand gesture returns to World Cup duty",
-      "url": "https://www.bbc.com/sport/football/articles/cr5jv508qd7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 21 Jun 2026 15:58:46 GMT",
+      "id": "563d889b3e30",
+      "title": "Is VAR being used differently at the World Cup vs the Premier League?",
+      "url": "https://www.bbc.com/sport/football/articles/cy06881596wo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 14:39:42 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Video assistant referee official Shaun Evans will return to duty for New Zealand's game against Egypt on Sunday (Monday, 02:00 BST)."
+      "summary": "The stats show that there have been more VAR reviews at the World Cup than in the Premier League. So why does perception suggest the opposite?"
     },
     {
-      "id": "7ce22c81a11e",
-      "title": "World Cup quiz: Name every Golden Boot winner",
-      "url": "https://www.bbc.com/sport/football/articles/ckgpjw4wd21o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 21 Jun 2026 09:25:46 GMT",
+      "id": "3ccac5ae5f0c",
+      "title": "A defender's view on how to stop the World Cup's best strikers",
+      "url": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 08:10:21 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "How many World Cup top goalscorers from down the years can you name?\n"
+      "summary": "Lionel Messi, Kylian Mbappe, Erling Haaland and Harry Kane look to be on lethal form in this World Cup. So how can you stop them in their tracks?"
     },
     {
-      "id": "797ebab68547",
-      "title": "Impenetrable Room inspires Curacao to first World Cup point",
-      "url": "https://www.bbc.com/sport/football/videos/c3dyvklky1mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 21 Jun 2026 03:14:41 GMT",
+      "id": "d12c782e945e",
+      "title": "Salah scores to help Egypt to first World Cup win",
+      "url": "https://www.bbc.com/sport/videos/c74ydzpe274o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 03:56:28 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Curacao goalkeeper Eloy Room equals the record for most saves in a World Cup match, as Dick Advocaat's side earn their first ever point in the tournament with a 0-0 draw against Ecuador at the Kansas "
+      "summary": "Mohamed Salah scores one goal and creates another as Egypt come from behind to beat New Zealand and secure their first-ever World Cup win."
     },
     {
-      "id": "a94dcb3d5339",
-      "title": "From factory floor to World Cup star - Germany's super-sub Undav",
-      "url": "https://www.bbc.com/sport/football/articles/c8r2pm4xrxro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 21 Jun 2026 00:22:07 GMT",
+      "id": "c5155e43ebc9",
+      "title": "Why do some World Cup shirts keep tearing during matches?",
+      "url": "https://www.bbc.com/sport/football/articles/czrx61d0pv3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 16:58:39 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "It was not long ago that his manager Julian Nagelsmann called him out openly - but Deniz Undav is proving himself a key player for Germany at the World Cup."
+      "summary": "Puma shirts have torn four times during the World Cup so far, so what exactly is going on?"
     },
     {
-      "id": "c8bd264fe638",
-      "title": "How does qualification for the World Cup knockout stage work?",
-      "url": "https://www.bbc.com/sport/football/articles/cp8l6zj8441o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 20 Jun 2026 16:24:00 GMT",
+      "id": "8806555b70a7",
+      "title": "Germany defender Schlotterbeck out of World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 12:47:20 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "With the second round of group-stage matches under way, we assess who can play who in the knockout rounds - and how they can get there."
+      "summary": "Germany defender Nico Schlotterbeck is ruled out of the rest of the World Cup with an ankle injury."
     },
     {
-      "id": "17f0b55df1ba",
-      "title": "Fastest World Cup to 100 goals in 68 years - are balls and breaks behind it?",
-      "url": "https://www.bbc.com/sport/football/articles/cvglnkw1l93o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 20 Jun 2026 23:46:26 GMT",
+      "id": "4293351a339a",
+      "title": "Salah's World Cup pain ends as he fires Egypt to historic win",
+      "url": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 04:23:40 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The 2026 World Cup becomes the fastest edition of the tournament to hit 100 goals since 1958 - with the landmark reached in the 33rd game. But what is behind the scoring spree?"
+      "summary": "Mohamed Salah fires Egypt to their first ever World Cup win - 92 years on from their tournament debut."
+    },
+    {
+      "id": "a2e6aae6ffe2",
+      "title": "Who am I? Guess World Cup star No 15",
+      "url": "https://www.bbc.com/sport/football/articles/c0k21483m76o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 06:02:45 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
       "id": "b912eadfe884",
-      "title": "How to watch the World Cup on the BBC and ITV",
+      "title": "Where to watch the World Cup on the BBC and ITV",
       "url": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
       "published_at": "Sat, 06 Jun 2026 20:30:36 GMT",
       "source": "BBC Sport Football",
@@ -190,67 +127,22 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "49f1a2e2edb9",
-      "title": "Who am I? Guess World Cup star No 14",
-      "url": "https://www.bbc.com/sport/football/articles/c3e2wj9ppy4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 21 Jun 2026 06:12:41 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "20cfab847109",
-      "title": "Spain finally announce World Cup arrival as Yamal, Oyarzabal star in Saudi win",
-      "url": "https://www.skysports.com/football/spain-vs-saudi-arabia/report/549804",
-      "published_at": "Sun, 21 Jun 2026 19:10:00 BST",
+      "id": "c9c1a1d15688",
+      "title": "Messi breaks World Cup scoring record with goal vs Austria",
+      "url": "https://www.skysports.com/football/news/12040/13556817/lionel-messi-argentina-star-breaks-world-cup-scoring-record-with-goal-against-austria-at-2026-world-cup",
+      "published_at": "Mon, 22 Jun 2026 18:40:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Lamine Yamal and Mikel Oyarzabal were the stars of the show as Spain finally announced their arrival at the 2026 World Cup with a 4-0 thrashing of Saudi Arabia."
+      "summary": "Argentina star Lionel Messi has broken Miroslav Klose's all-time scoring record at a World Cup after his goal against Austria."
     },
     {
-      "id": "f566c8a0fe4b",
-      "title": "Tennis 2026 schedule, Grand Slam dates and tournament calendar",
-      "url": "https://www.skysports.com/tennis/news/12040/13491111/tennis-2026-schedule-grand-slam-dates-and-tournament-calendar-for-atp-and-wta-tours",
-      "published_at": "Sun, 21 Jun 2026 21:00:00 BST",
+      "id": "f451e6bcc83e",
+      "title": "Cape Verde are the story of this World Cup - are they everyone's second team?",
+      "url": "https://www.skysports.com/football/news/12040/13556552/cape-verde-at-the-world-cup-african-nation-have-gained-the-hearts-of-the-world-as-everyones-second-team-after-brave-draw-with-uruguay",
+      "published_at": "Mon, 22 Jun 2026 07:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Keep track of the dates, tournament calendar and latest results for the 2026 ATP and WTA Tours."
-    },
-    {
-      "id": "dd7e811bd7bd",
-      "title": "Yamal inspires sharper Spain to statement World Cup win ",
-      "url": "https://www.skysports.com/football/news/12040/13556484/world-cup-2026-spain-show-why-they-are-favourites-as-lamine-yamal-inspires-statement-win-over-saudi-arabia",
-      "published_at": "Sun, 21 Jun 2026 19:08:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "It may have taken them a week but Spain have arrived at the World Cup - and their rivals for the trophy will be wary."
-    },
-    {
-      "id": "44414e74e927",
-      "title": "West Indies win again in Women's T20 World Cup, Kapp powers SA past India",
-      "url": "https://www.skysports.com/cricket/news/12040/13556291/womens-t20-world-cup-west-indies-defeat-sri-lanka-by-five-wickets-to-stay-unbeaten-ahead-of-crunch-england-match",
-      "published_at": "Sat, 20 Jun 2026 14:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "West Indies ensured they will face England at Lord's on Wednesday boasting the same unbeaten record as the hosts after victory over Sri Lanka in Bristol in their third ICC Women's T20 World Cup group "
-    },
-    {
-      "id": "c084c6498f88",
-      "title": "Hodgkinson plays down injury fears after emotional withdrawal",
-      "url": "https://www.skysports.com/athletics/news/12040/13556459/keely-hodgkinson-olympic-gold-medalist-pulls-out-of-uk-athletics-championships-400m-final",
-      "published_at": "Sun, 21 Jun 2026 17:24:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Keely Hodgkinson has asserted that she remains \"healthy\" after pulling out of the 400m final at the UK Athletics Championships as a precaution."
-    },
-    {
-      "id": "d66aa14bb7c4",
-      "title": "World Cup news: Doku to leave tournament for birth of his child",
-      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
-      "published_at": "Sun, 21 Jun 2026 15:10:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
+      "summary": "Those waking up on Monday morning in the UK will look at one particular result and be stunned. \"Cape Verde did it again?!\" was probably your reaction."
     }
   ]
 }

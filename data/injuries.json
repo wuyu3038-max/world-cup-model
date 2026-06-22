@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-21T20:59:26.165683",
+    "last_updated": "2026-06-22T18:05:35.469186",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -293,12 +293,12 @@
       "player": "Cristian Romero",
       "nation": "Argentina",
       "position": "DF",
-      "status": "questionable",
+      "status": "fit",
       "injury_type": "Partially torn MCL",
       "since": "2026-05-20",
       "expected_return": "2026-06-20",
-      "severity": "critical",
-      "notes": "Tottenham CB. Argentina's best defender. Racing to be fit. Tournament in jeopardy.",
+      "severity": "minor",
+      "notes": "Tottenham CB. Argentina's best defender. Racing to be fit. Tournament in jeopardy. [AUTO: expected return 2026-06-20 passed]",
       "source": "ESPN"
     },
     {
@@ -473,12 +473,12 @@
       "player": "Giorgian de Arrascaeta",
       "nation": "Uruguay",
       "position": "MF",
-      "status": "questionable",
+      "status": "fit",
       "injury_type": "Calf",
       "since": "2026-06-01",
       "expected_return": "2026-06-20",
-      "severity": "major",
-      "notes": "Will miss opener. Kept in squad in hopes he can contribute later.",
+      "severity": "minor",
+      "notes": "Will miss opener. Kept in squad in hopes he can contribute later. [AUTO: expected return 2026-06-20 passed]",
       "source": "ESPN"
     },
     {
@@ -658,12 +658,10 @@
     "Argentina": {
       "out": 1,
       "doubtful": 3,
-      "questionable": 1,
+      "questionable": 0,
       "probable": 0,
       "critical_out": [],
-      "critical_doubtful": [
-        "Cristian Romero"
-      ],
+      "critical_doubtful": [],
       "critical_probable": [],
       "major_out": [],
       "major_doubtful": [
@@ -760,7 +758,7 @@
     "Uruguay": {
       "out": 0,
       "doubtful": 1,
-      "questionable": 1,
+      "questionable": 0,
       "probable": 0,
       "critical_out": [],
       "critical_doubtful": [
@@ -768,9 +766,7 @@
       ],
       "critical_probable": [],
       "major_out": [],
-      "major_doubtful": [
-        "Giorgian de Arrascaeta"
-      ],
+      "major_doubtful": [],
       "moderate_out": []
     },
     "England": {
@@ -800,5 +796,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Germany defender Schlotterbeck out of World Cup",
+      "nations": [
+        "Germany"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
+      "summary": "Germany defender Nico Schlotterbeck is ruled out of the rest of the World Cup with an ankle injury.",
+      "published": "Mon, 22 Jun 2026 12:47:20 GMT"
+    }
+  ]
 }
