@@ -1,14 +1,86 @@
 {
-  "updated": "2026-06-23T11:48:34.443363",
-  "total_articles": 9,
+  "updated": "2026-06-23T17:08:37.409695",
+  "total_articles": 17,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 7,
+    "espn_fc": 7,
+    "bbc_sport": 8,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "0298fc1d02c1",
+      "title": "World Cup live updates: Ronaldo starts as Portugal...",
+      "url": "https://www.espn.com/soccer/story/_/id/49150583/messi-100-year-old-super-fan-sees-make-history-portugal-england-action",
+      "published_at": "Tue, 23 Jun 2026 13:01:15 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "null"
+    },
+    {
+      "id": "281dcc46a22a",
+      "title": "From U.S. to Spain, why every round-of-32 team will, won't win FIFA World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/49118437/fifa-world-cup-predictions-analysis-projections-usa-mexico-spain-brazil-england-argentina-germany-france",
+      "published_at": "Tue, 23 Jun 2026 12:41:26 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Then there were 32. Or we're getting there, anyway. So, let's review why each team still alive at the 2026 World Cup could win the whole thing -- and why each probably won't."
+    },
+    {
+      "id": "e7ad65070b9e",
+      "title": "World Cup VAR review: Should one of Messi's record...",
+      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+      "published_at": "Tue, 23 Jun 2026 11:50:39 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+    },
+    {
+      "id": "d46ef00567fc",
+      "title": "USMNT's World Cup success brings dilemma: Rotate t...",
+      "url": "https://www.espn.com/soccer/story/_/id/49140112/usmnt-faces-world-cup-dilemma-vs-turkiye-rotate-squad-keep-same-xi",
+      "published_at": "Tue, 23 Jun 2026 04:27:15 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The USMNT has clinched a spot in the World Cup knockouts, so should the team rotate in its final Group D match or stay consistent?"
+    },
+    {
+      "id": "101b9085015d",
+      "title": "Fashion police: How FIFA works to prevent World Cu...",
+      "url": "https://www.espn.com/soccer/story/_/id/49097024/fashion-police-how-fifa-works-prevent-world-cup-kit-clashes",
+      "published_at": "Tue, 23 Jun 2026 04:43:33 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The similar shirts in March's U.S.-Belgium friendly created confusion on the pitch, so how does FIFA keep teams' looks separate during the World Cup?"
+    },
+    {
+      "id": "fdc787a5dff8",
+      "title": "Watching Spain's Yamal score his first World Cup g...",
+      "url": "https://www.espn.com/soccer/story/_/id/49142360/watching-spain-lamine-yamal-score-first-world-cup-goal-hometown-rocafonda",
+      "published_at": "Mon, 22 Jun 2026 10:22:30 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The modest Catalan district of Rocafonda is where Barcelona and Spain star Lamine Yamal grew up. And ESPN was there to see him score his first World Cup goal."
+    },
+    {
+      "id": "5c5cd93d8c69",
+      "title": "Every team's odds to win the World Cup",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+      "published_at": "Sun, 21 Jun 2026 18:32:28 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Odds for every team to advance from its group through the knockout stage and to win the 2026 World Cup."
+    },
+    {
+      "id": "8fc6850f201c",
+      "title": "Have World Cup changes damaged the final round of the group stage?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdejryxlkxro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 16:44:13 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "With eight teams already having nothing to play for, has the jeopardy in the group stage at the World Cup been diminished? And are concerns over the integrity of competition justified?"
+    },
     {
       "id": "9c628e10fdad",
       "title": "From non-league to the World Cup - the Semenyo story",
@@ -17,6 +89,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England."
+    },
+    {
+      "id": "6ce2e7e141ec",
+      "title": "The World Cup stars being targeted by Premier League clubs",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyrn4gwdy4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 12:20:12 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The World Cup stars being targeted by Premier League clubs. Who has caught the eye already, and which clubs are focusing on longer-term priorities?"
     },
     {
       "id": "81910bb6d02a",
@@ -37,22 +118,13 @@
       "summary": "Lionel Messi becomes the World Cup's all-time leading goalscorer as his double against Austria sends holders Argentina into the last 32. \n\n\n"
     },
     {
-      "id": "45930af48e06",
-      "title": "'Scoring machine' Haaland hits second double of World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cx2wpz0q0edo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 02:30:30 GMT",
+      "id": "da9f17e0820a",
+      "title": "Quiz: Name every England World Cup goalscorer since 2014",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckgpyxpxekko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 14:37:09 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Erling Haaland scored another World Cup double as Norway beat Senegal 3-2 in New Jersey."
-    },
-    {
-      "id": "7b186a84772f",
-      "title": "Who am I? Guess World Cup star No 16",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cnvp6y3yg0yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 05:35:17 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "Fifteen players who have scored for England across the past four men's World Cups. Can you name them all?"
     },
     {
       "id": "3921b01789a1",
@@ -73,22 +145,22 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
+      "id": "a20aad36ec43",
+      "title": "Wilshere: Tuchel factor can help England win the World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13556939/jack-wilshere-interview-england-can-win-world-cup-with-thomas-tuchel-factor-harry-kane-goals-and-physical-dominance-in-midfield",
+      "published_at": "Tue, 23 Jun 2026 14:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Jack Wilshere has experienced the burden of expectation that comes with representing England at a World Cup. He felt it envelop the squad as they crashed to a group-stage exit in Brazil in 2014."
+    },
+    {
       "id": "d66aa14bb7c4",
-      "title": "Who will win the World Cup Golden Boot? Have your say...",
+      "title": "Trump will present World Cup trophy to winners, confirms Infantino",
       "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
-      "published_at": "Tue, 23 Jun 2026 08:30:00 BST",
+      "published_at": "Tue, 23 Jun 2026 17:47:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
-    },
-    {
-      "id": "05ce2b609405",
-      "title": "Algeria earn turnaround win to knock out World Cup debutants Jordan",
-      "url": "https://www.skysports.com/football/jordan-vs-algeria/report/549809",
-      "published_at": "Tue, 23 Jun 2026 06:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Debutants Jordan have been knocked out of the World Cup after Algeria&#8217;s second-half turnaround 2-1 win kept their hopes of qualifying for the knockout stages alive."
     }
   ]
 }
