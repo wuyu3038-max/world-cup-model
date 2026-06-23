@@ -1,112 +1,31 @@
 {
-  "updated": "2026-06-23T17:08:37.409695",
-  "total_articles": 17,
+  "updated": "2026-06-23T21:57:41.838533",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 7,
-    "bbc_sport": 8,
-    "sky_sports": 2,
+    "espn_fc": 0,
+    "bbc_sport": 10,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "0298fc1d02c1",
-      "title": "World Cup live updates: Ronaldo starts as Portugal...",
-      "url": "https://www.espn.com/soccer/story/_/id/49150583/messi-100-year-old-super-fan-sees-make-history-portugal-england-action",
-      "published_at": "Tue, 23 Jun 2026 13:01:15 EST",
-      "source": "ESPN FC",
+      "id": "bfd19f446130",
+      "title": "Trump to attend World Cup final and present trophy",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cze9wp8r6lno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 17:47:25 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "281dcc46a22a",
-      "title": "From U.S. to Spain, why every round-of-32 team will, won't win FIFA World Cup",
-      "url": "https://www.espn.com/soccer/story/_/id/49118437/fifa-world-cup-predictions-analysis-projections-usa-mexico-spain-brazil-england-argentina-germany-france",
-      "published_at": "Tue, 23 Jun 2026 12:41:26 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Then there were 32. Or we're getting there, anyway. So, let's review why each team still alive at the 2026 World Cup could win the whole thing -- and why each probably won't."
-    },
-    {
-      "id": "e7ad65070b9e",
-      "title": "World Cup VAR review: Should one of Messi's record...",
-      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Tue, 23 Jun 2026 11:50:39 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
-    },
-    {
-      "id": "d46ef00567fc",
-      "title": "USMNT's World Cup success brings dilemma: Rotate t...",
-      "url": "https://www.espn.com/soccer/story/_/id/49140112/usmnt-faces-world-cup-dilemma-vs-turkiye-rotate-squad-keep-same-xi",
-      "published_at": "Tue, 23 Jun 2026 04:27:15 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The USMNT has clinched a spot in the World Cup knockouts, so should the team rotate in its final Group D match or stay consistent?"
-    },
-    {
-      "id": "101b9085015d",
-      "title": "Fashion police: How FIFA works to prevent World Cu...",
-      "url": "https://www.espn.com/soccer/story/_/id/49097024/fashion-police-how-fifa-works-prevent-world-cup-kit-clashes",
-      "published_at": "Tue, 23 Jun 2026 04:43:33 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The similar shirts in March's U.S.-Belgium friendly created confusion on the pitch, so how does FIFA keep teams' looks separate during the World Cup?"
-    },
-    {
-      "id": "fdc787a5dff8",
-      "title": "Watching Spain's Yamal score his first World Cup g...",
-      "url": "https://www.espn.com/soccer/story/_/id/49142360/watching-spain-lamine-yamal-score-first-world-cup-goal-hometown-rocafonda",
-      "published_at": "Mon, 22 Jun 2026 10:22:30 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The modest Catalan district of Rocafonda is where Barcelona and Spain star Lamine Yamal grew up. And ESPN was there to see him score his first World Cup goal."
-    },
-    {
-      "id": "5c5cd93d8c69",
-      "title": "Every team's odds to win the World Cup",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-      "published_at": "Sun, 21 Jun 2026 18:32:28 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Odds for every team to advance from its group through the knockout stage and to win the 2026 World Cup."
+      "summary": "United States president Donald Trump will attend the World Cup final and help present the trophy, says Fifa president Gianni Infantino."
     },
     {
       "id": "8fc6850f201c",
-      "title": "Have World Cup changes damaged the final round of the group stage?",
+      "title": "Have World Cup changes made final group stage games unfair?",
       "url": "https://www.bbc.co.uk/sport/football/articles/cdejryxlkxro?at_medium=RSS&at_campaign=rss",
       "published_at": "Tue, 23 Jun 2026 16:44:13 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "With eight teams already having nothing to play for, has the jeopardy in the group stage at the World Cup been diminished? And are concerns over the integrity of competition justified?"
-    },
-    {
-      "id": "9c628e10fdad",
-      "title": "From non-league to the World Cup - the Semenyo story",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 11:40:47 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England."
-    },
-    {
-      "id": "6ce2e7e141ec",
-      "title": "The World Cup stars being targeted by Premier League clubs",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyrn4gwdy4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 12:20:12 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The World Cup stars being targeted by Premier League clubs. Who has caught the eye already, and which clubs are focusing on longer-term priorities?"
-    },
-    {
-      "id": "81910bb6d02a",
-      "title": "Relive every World Cup match with BBC Sport's 3D Experience",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20y70lg0j3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 10:08:27 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Ever wanted to see a World Cup match from every angle? How about a full-pitch tactical view? You can now watch every match back in full with BBC Sport's 3D Experience."
     },
     {
       "id": "00982eccaf58",
@@ -118,6 +37,24 @@
       "summary": "Lionel Messi becomes the World Cup's all-time leading goalscorer as his double against Austria sends holders Argentina into the last 32. \n\n\n"
     },
     {
+      "id": "9c628e10fdad",
+      "title": "From non-league to the World Cup - the Semenyo story",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 11:40:47 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England."
+    },
+    {
+      "id": "b743d850360c",
+      "title": "Iran's US entry terms changed for final group game",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 18:44:37 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Iran's football team is being given extra time in the United States to prepare for their final World Cup group game, the US Department of Homeland Security says.  "
+    },
+    {
       "id": "da9f17e0820a",
       "title": "Quiz: Name every England World Cup goalscorer since 2014",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckgpyxpxekko?at_medium=RSS&at_campaign=rss",
@@ -125,6 +62,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Fifteen players who have scored for England across the past four men's World Cups. Can you name them all?"
+    },
+    {
+      "id": "6ce2e7e141ec",
+      "title": "The World Cup stars being targeted by Premier League clubs",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyrn4gwdy4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 12:20:12 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The World Cup stars being targeted by Premier League clubs. Who has caught the eye already, and which clubs are focusing on longer-term priorities?"
+    },
+    {
+      "id": "21b3cb099bd5",
+      "title": "Commentator stripped of Fifa credentials over Almiron rant",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8e2xdn58ryo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 18:16:38 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa strip a commentator of his World Cup credentials after an on-air, expletive-laden ​rant against the organisation and match officials during Paraguay's victory over Turkey. "
     },
     {
       "id": "3921b01789a1",
@@ -145,19 +100,10 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "a20aad36ec43",
-      "title": "Wilshere: Tuchel factor can help England win the World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13556939/jack-wilshere-interview-england-can-win-world-cup-with-thomas-tuchel-factor-harry-kane-goals-and-physical-dominance-in-midfield",
-      "published_at": "Tue, 23 Jun 2026 14:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Jack Wilshere has experienced the burden of expectation that comes with representing England at a World Cup. He felt it envelop the squad as they crashed to a group-stage exit in Brazil in 2014."
-    },
-    {
-      "id": "d66aa14bb7c4",
-      "title": "Trump will present World Cup trophy to winners, confirms Infantino",
-      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
-      "published_at": "Tue, 23 Jun 2026 17:47:00 BST",
+      "id": "bbcab64a32d5",
+      "title": "England World Cup latest",
+      "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "published_at": "Mon, 22 Jun 2026 13:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
