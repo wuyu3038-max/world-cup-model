@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-22T22:28:14.266001",
+    "last_updated": "2026-06-23T11:48:34.505104",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -796,5 +796,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Algeria earn turnaround win to knock out World Cup debutants Jordan",
+      "nations": [
+        "Algeria"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/football/jordan-vs-algeria/report/549809",
+      "summary": "Debutants Jordan have been knocked out of the World Cup after Algeria&#8217;s second-half turnaround 2-1 win kept their hopes of qualifying for the knockout stages alive.",
+      "published": "Tue, 23 Jun 2026 06:00:00 BST"
+    }
+  ]
 }

@@ -1,130 +1,94 @@
 {
-  "updated": "2026-06-22T22:28:14.203675",
-  "total_articles": 13,
+  "updated": "2026-06-23T11:48:34.443363",
+  "total_articles": 9,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 11,
+    "bbc_sport": 7,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "8d1ce4807c3b",
+      "id": "9c628e10fdad",
+      "title": "From non-league to the World Cup - the Semenyo story",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 11:40:47 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England."
+    },
+    {
+      "id": "81910bb6d02a",
+      "title": "Relive every World Cup match with BBC Sport's 3D Experience",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20y70lg0j3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 10:08:27 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Ever wanted to see a World Cup match from every angle? How about a full-pitch tactical view? You can now watch every match back in full with BBC Sport's 3D Experience."
+    },
+    {
+      "id": "00982eccaf58",
       "title": "Messi makes World Cup history as Argentina reach last 32",
-      "url": "https://www.bbc.com/sport/football/videos/c0ey1l0z2r8o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c0ey1l0z2r8o?at_medium=RSS&at_campaign=rss",
       "published_at": "Mon, 22 Jun 2026 20:29:31 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Lionel Messi becomes the World Cup's all-time leading goalscorer as his double against Austria sends holders Argentina into the last 32. \n\n\n"
     },
     {
-      "id": "a802b416e7d4",
-      "title": "Doku returning to World Cup after birth of first child",
-      "url": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 17:59:38 GMT",
+      "id": "45930af48e06",
+      "title": "'Scoring machine' Haaland hits second double of World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cx2wpz0q0edo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 02:30:30 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Jeremy Doku flew home to attend the birth of his first child - but why has that proved controversial in some quarters?"
+      "summary": "Erling Haaland scored another World Cup double as Norway beat Senegal 3-2 in New Jersey."
     },
     {
-      "id": "5e731cf11a14",
-      "title": "How Ferguson became Scotland's most influential World Cup player",
-      "url": "https://www.bbc.com/sport/football/articles/c20y1zj927jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 17:39:02 GMT",
+      "id": "7b186a84772f",
+      "title": "Who am I? Guess World Cup star No 16",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cnvp6y3yg0yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 23 Jun 2026 05:35:17 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Scotland examines the impact of Bologna's Lewis Ferguson in the Scotland midfield going into the crunch game with Brazil."
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "a727d3571286",
-      "title": "'Brilliant finish' - Messi becomes all-time leading World Cup scorer",
-      "url": "https://www.bbc.com/sport/football/videos/c70y7kdjd8do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 18:00:49 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Lionel Messi makes history as the all-time leading World Cup scorer, netting his 17th tournament goal during Argentina's game against Austria.\n\n\n"
-    },
-    {
-      "id": "0a6315d6b9f7",
-      "title": "All of Messi's record-breaking 18 World Cup goals",
-      "url": "https://www.bbc.com/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 18:11:50 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch all of Lionel Messi's World Cup goals as he breaks Miroslav Klose's individual scoring record with a 17th goal in Argentina's group stage match against Austria."
-    },
-    {
-      "id": "d12c782e945e",
-      "title": "Salah scores to help Egypt to first World Cup win",
-      "url": "https://www.bbc.com/sport/videos/c74ydzpe274o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 03:56:28 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Mohamed Salah scores one goal and creates another as Egypt come from behind to beat New Zealand and secure their first-ever World Cup win."
-    },
-    {
-      "id": "491d59362d0b",
-      "title": "Madueke's remarkable season - from petition to World Cup starter",
-      "url": "https://www.bbc.com/sport/football/articles/c5yz2xyvd1zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 10:47:17 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Noni Madueke has gone from fans protesting against him signing for Arsenal to England World Cup starter. BBC Sport look at his rollercoaster season."
-    },
-    {
-      "id": "1b262da5f461",
-      "title": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
-      "url": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 12:01:44 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Former Tottenham and Brentford manager Thomas Frank on watching new players at the World Cup - who would he sign and who will be the star of the tournament?"
-    },
-    {
-      "id": "563d889b3e30",
-      "title": "Is VAR being used differently at the World Cup vs the Premier League?",
-      "url": "https://www.bbc.com/sport/football/articles/cy06881596wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 14:39:42 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The stats show that there have been more VAR reviews at the World Cup than in the Premier League. So why does perception suggest the opposite?"
-    },
-    {
-      "id": "b912eadfe884",
+      "id": "3921b01789a1",
       "title": "Where to watch the World Cup on the BBC and ITV",
-      "url": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
       "published_at": "Sat, 06 Jun 2026 20:30:36 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "All the TV and radio details for each of the 2026 World Cup group games. "
     },
     {
-      "id": "c218d6bee03e",
+      "id": "004c4013c1cb",
       "title": "Catch up on the World Cup without any spoilers",
-      "url": "https://www.bbc.com/sport/football/articles/c0qy0zn231yo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0qy0zn231yo?at_medium=RSS&at_campaign=rss",
       "published_at": "Thu, 11 Jun 2026 17:08:40 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "c9c1a1d15688",
-      "title": "Messi breaks World Cup scoring record with goals vs Austria",
-      "url": "https://www.skysports.com/football/news/12040/13556817/lionel-messi-argentina-star-breaks-world-cup-scoring-record-with-goal-against-austria-at-2026-world-cup",
-      "published_at": "Mon, 22 Jun 2026 18:40:00 BST",
+      "id": "d66aa14bb7c4",
+      "title": "Who will win the World Cup Golden Boot? Have your say...",
+      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
+      "published_at": "Tue, 23 Jun 2026 08:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Argentina star Lionel Messi has broken Miroslav Klose's all-time scoring record at a World Cup after his two goals against Austria."
+      "summary": ""
     },
     {
-      "id": "f451e6bcc83e",
-      "title": "Cape Verde are the story of this World Cup - are they everyone's second team?",
-      "url": "https://www.skysports.com/football/news/12040/13556552/cape-verde-at-the-world-cup-african-nation-have-gained-the-hearts-of-the-world-as-everyones-second-team-after-brave-draw-with-uruguay",
-      "published_at": "Mon, 22 Jun 2026 07:00:00 BST",
+      "id": "05ce2b609405",
+      "title": "Algeria earn turnaround win to knock out World Cup debutants Jordan",
+      "url": "https://www.skysports.com/football/jordan-vs-algeria/report/549809",
+      "published_at": "Tue, 23 Jun 2026 06:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Those waking up on Monday morning in the UK will look at one particular result and be stunned. \"Cape Verde did it again?!\" was probably your reaction."
+      "summary": "Debutants Jordan have been knocked out of the World Cup after Algeria&#8217;s second-half turnaround 2-1 win kept their hopes of qualifying for the knockout stages alive."
     }
   ]
 }
