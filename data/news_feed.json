@@ -1,85 +1,112 @@
 {
-  "updated": "2026-06-23T21:57:41.838533",
-  "total_articles": 11,
+  "updated": "2026-06-24T11:24:52.926398",
+  "total_articles": 15,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 10,
+    "espn_fc": 7,
+    "bbc_sport": 7,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "bfd19f446130",
-      "title": "Trump to attend World Cup final and present trophy",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cze9wp8r6lno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 17:47:25 GMT",
-      "source": "BBC Sport Football",
+      "id": "acbe0a11e4ff",
+      "title": "The World Cup's biggest winners and losers: From t...",
+      "url": "https://www.espn.com/soccer/story/_/id/49159042/world-cup-biggest-winners-losers-reactions-all-48-teams-second-games",
+      "published_at": "Wed, 24 Jun 2026 03:23:19 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "United States president Donald Trump will attend the World Cup final and help present the trophy, says Fifa president Gianni Infantino."
+      "summary": "All 48 teams in the World Cup have played exactly two games, so we look at the players and nations who were winners and losers."
     },
     {
-      "id": "8fc6850f201c",
-      "title": "Have World Cup changes made final group stage games unfair?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdejryxlkxro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 16:44:13 GMT",
-      "source": "BBC Sport Football",
+      "id": "fe68be71b37a",
+      "title": "World Cup Daily: Messi turns 39 with midnight work...",
+      "url": "https://www.espn.com/soccer/story/_/id/49162159/world-cup-daily-messi-turns-39-midnight-workout-three-groups-decided",
+      "published_at": "Wed, 24 Jun 2026 06:21:47 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "With eight teams already having nothing to play for, has the jeopardy in the group stage at the World Cup been diminished? And are concerns over the integrity of competition justified?"
+      "summary": "We are now down to the final round of group stage matches at the 2026 FIFA World Cup, where all teams from the same group will be playing at the same time."
     },
     {
-      "id": "00982eccaf58",
-      "title": "Messi makes World Cup history as Argentina reach last 32",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c0ey1l0z2r8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 20:29:31 GMT",
-      "source": "BBC Sport Football",
+      "id": "0cbaf1372b10",
+      "title": "'Crying long before the anthems': A week in the life of a 2026 World Cup player",
+      "url": "https://www.espn.com/soccer/story/_/id/49161306/a-week-life-2026-world-cup-player-curacao-gervane-kastaneer",
+      "published_at": "Wed, 24 Jun 2026 03:51:08 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Lionel Messi becomes the World Cup's all-time leading goalscorer as his double against Austria sends holders Argentina into the last 32. \n\n\n"
+      "summary": "What is it like to be one of the 1,200 players at this World Cup? Curacao forward Gervane Kastaneer reveals what life is really like during soccer's biggest tournament."
     },
     {
-      "id": "9c628e10fdad",
-      "title": "From non-league to the World Cup - the Semenyo story",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp9p9r7gg4eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 11:40:47 GMT",
-      "source": "BBC Sport Football",
+      "id": "1f5aa5cbe0aa",
+      "title": "In a World Cup on home soil, El Tri is making Mexi...",
+      "url": "https://www.espn.com/soccer/story/_/id/49157347/in-world-cup-home-soil-el-tri-making-mexico-proud",
+      "published_at": "Wed, 24 Jun 2026 03:19:59 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Winger Antoine Semenyo's football journey began in the English lower leagues. BBC Sport charts his rise from Bath City to the World Cup, with Ghana poised to face England."
+      "summary": "At Qatar 2022, there was a divide between Mexico and the country they represented. That's all changed at this World Cup on home soil."
     },
     {
-      "id": "b743d850360c",
-      "title": "Iran's US entry terms changed for final group game",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 18:44:37 GMT",
-      "source": "BBC Sport Football",
+      "id": "c3b24a30c801",
+      "title": "World Cup history or World Cup limbo? Scotland fac...",
+      "url": "https://www.espn.com/soccer/story/_/id/49157487/scotland-dare-dream-world-cup-history-preview-brazil-steve-clarke-andy-robertson-qualify-knockouts",
+      "published_at": "Wed, 24 Jun 2026 04:50:16 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Iran's football team is being given extra time in the United States to prepare for their final World Cup group game, the US Department of Homeland Security says.  "
+      "summary": "The good news is history is within Scotland's grasp. Win or draw against Brazil, and Scott Clarke's Scotland side can start planning for the knockout stages of the World Cup, writes Tom Hamilton."
     },
     {
-      "id": "da9f17e0820a",
-      "title": "Quiz: Name every England World Cup goalscorer since 2014",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckgpyxpxekko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 14:37:09 GMT",
-      "source": "BBC Sport Football",
+      "id": "d46ef00567fc",
+      "title": "USMNT's World Cup success brings dilemma: Rotate t...",
+      "url": "https://www.espn.com/soccer/story/_/id/49140112/usmnt-faces-world-cup-dilemma-vs-turkiye-rotate-squad-keep-same-xi",
+      "published_at": "Tue, 23 Jun 2026 21:31:26 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Fifteen players who have scored for England across the past four men's World Cups. Can you name them all?"
+      "summary": "The USMNT has clinched a spot in the World Cup knockouts, so should the team rotate in its final Group D match or stay consistent?"
     },
     {
-      "id": "6ce2e7e141ec",
-      "title": "The World Cup stars being targeted by Premier League clubs",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyrn4gwdy4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 12:20:12 GMT",
-      "source": "BBC Sport Football",
+      "id": "fffecb930214",
+      "title": "One year out from 2027 Women's World Cup: Power Rankings, questions, top prospects",
+      "url": "https://www.espn.com/soccer/story/_/id/49151564/one-year-2027-women-world-cup-power-ranking-burning-questions-10-top-u23-prospects",
+      "published_at": "Wed, 24 Jun 2026 03:24:20 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "The World Cup stars being targeted by Premier League clubs. Who has caught the eye already, and which clubs are focusing on longer-term priorities?"
+      "summary": "The FIFA Women's World Cup kicks off in Brazil on June 24, 2027, and, so far, 14 out of the 32 teams have secured their ticket already."
     },
     {
-      "id": "21b3cb099bd5",
-      "title": "Commentator stripped of Fifa credentials over Almiron rant",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8e2xdn58ryo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 23 Jun 2026 18:16:38 GMT",
+      "id": "a35163691ef7",
+      "title": "England to face Scotland? World Cup knockout stage as it stands",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 24 Jun 2026 09:26:41 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa strip a commentator of his World Cup credentials after an on-air, expletive-laden ​rant against the organisation and match officials during Paraguay's victory over Turkey. "
+      "summary": "Use BBC Sport's projections tool with in-game updates to plot your country's route through the World Cup knockouts."
+    },
+    {
+      "id": "3923cdc55702",
+      "title": "Who am I? Guess World Cup star No 17",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4g70vjd1n8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 24 Jun 2026 06:05:10 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "390efe3d9a42",
+      "title": "Who has been eliminated from the World Cup?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 24 Jun 2026 11:06:30 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's Ask Me Anything team lists the full set of nations who have been eliminated from the 2026 World Cup so far"
+    },
+    {
+      "id": "918dea6665e6",
+      "title": "World Cup quiz: Name Scotland and Brazil's teams in 1998",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce9p37ygn03o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 24 Jun 2026 09:52:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Test your knowledge of the Scotland and Brazil sides that faced each other at the 1998 World Cup"
     },
     {
       "id": "3921b01789a1",
@@ -100,13 +127,22 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "bbcab64a32d5",
-      "title": "England World Cup latest",
-      "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "published_at": "Mon, 22 Jun 2026 13:00:00 BST",
+      "id": "50f97f8867c1",
+      "title": "Ancelotti's quest to end Brazil's 24-year wait for World Cup glory",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ced4555y6z9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 24 Jun 2026 03:42:05 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Scotland's Andy Burke looks at Carlo Ancelotti and his mission at Brazil before their final Group C game against Scotland."
+    },
+    {
+      "id": "b5b7dfcac2ed",
+      "title": "Why Austria may prefer to lose their final World Cup group game",
+      "url": "https://www.skysports.com/football/news/12040/13557299/world-cup-2026-why-austria-may-prefer-to-lose-their-final-world-cup-group-j-game-against-algeria",
+      "published_at": "Wed, 24 Jun 2026 09:52:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Austria may prefer to lose their final World Cup group game in a potentially controversial finish to Group J. "
     }
   ]
 }
