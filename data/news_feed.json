@@ -1,28 +1,28 @@
 {
-  "updated": "2026-06-24T21:52:45.668383",
-  "total_articles": 18,
+  "updated": "2026-06-25T10:31:41.882530",
+  "total_articles": 19,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 11,
-    "bbc_sport": 4,
-    "sky_sports": 3,
+    "espn_fc": 7,
+    "bbc_sport": 8,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "fe68be71b37a",
-      "title": "World Cup Daily: Swiss beat Canada to top Group B;...",
-      "url": "https://www.espn.com/soccer/story/_/id/49162159/world-cup-daily-messi-turns-39-midnight-workout-three-groups-decided",
-      "published_at": "Wed, 24 Jun 2026 17:41:14 EST",
+      "id": "b30db83e922e",
+      "title": "Ochoa cameo seals perfect Mexico group stage",
+      "url": "https://www.espn.com/soccer/story/_/id/49171513/guillermo-ochoa-cameo-seals-perfect-mexico-group-stage",
+      "published_at": "Thu, 25 Jun 2026 03:40:01 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "We are now down to the final round of group stage matches at the 2026 FIFA World Cup, where all teams from the same group will be playing at the same time."
+      "summary": "Goalkeeper Guillermo Ochoa took the field during the 78th minute of Mexico's 3-0 win over Czechia, giving the 40-year-old the chance to appear in his sixth World Cup."
     },
     {
       "id": "c874dc9cc8eb",
       "title": "Canada in WC knockouts, miss chance to top group",
       "url": "https://www.espn.com/soccer/story/_/id/49168179/canada-qualify-world-cup-knockouts-miss-chance-top-group-switzerland",
-      "published_at": "Wed, 24 Jun 2026 17:43:37 EST",
+      "published_at": "Thu, 25 Jun 2026 03:40:02 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Canada lost home advantage as World Cup co-hosts after a 2-1 defeat against Switzerland denied Jesse Marsch's team top spot in Group B."
@@ -31,100 +31,91 @@
       "id": "431bdaeecd43",
       "title": "World Cup Power Rankings after two games: Who is N...",
       "url": "https://www.espn.com/soccer/story/_/id/49154319/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-      "published_at": "Wed, 24 Jun 2026 14:53:52 EST",
+      "published_at": "Thu, 25 Jun 2026 03:24:29 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "All 48 teams have played twice now, so let's revisit our Power Rankings. What do our writers and experts think the field of favorites looks like as we get closer to the round of 32?"
     },
     {
-      "id": "2782634b9aa3",
-      "title": "USMNT's Balogun has the World Cup, Europe's bigges...",
-      "url": "https://www.espn.com/soccer/story/_/id/49165598/usmnt-folarin-balogun-world-cup-europe-biggest-clubs-taking-notice",
-      "published_at": "Wed, 24 Jun 2026 14:53:57 EST",
+      "id": "584494da9196",
+      "title": "World Cup Daily: Emotional Neymar inspired by Lewi...",
+      "url": "https://www.espn.com/soccer/story/_/id/49172255/world-cup-daily-live-neymar-inspired-lewis-hamilton-brazil-return-usmnt-action",
+      "published_at": "Thu, 25 Jun 2026 05:45:09 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "With two goals in two games, Folarin Balogun is among the leading scorers at this World Cup, drawing interest from some of Europe's biggest clubs."
+      "summary": "We continue the final round of group stage matches at the 2026 FIFA World Cup, with the USMNT and Germany among the teams in action."
     },
     {
-      "id": "d46ef00567fc",
-      "title": "USMNT's World Cup success brings dilemma: Rotate t...",
-      "url": "https://www.espn.com/soccer/story/_/id/49140112/usmnt-faces-world-cup-dilemma-vs-turkiye-rotate-squad-keep-same-xi",
-      "published_at": "Wed, 24 Jun 2026 14:53:57 EST",
+      "id": "d09b2c4934ee",
+      "title": "It's time for Morocco to show the World Cup how go...",
+      "url": "https://www.espn.com/soccer/story/_/id/49171009/morocco-haiti-world-cup-analysis-reaction",
+      "published_at": "Thu, 25 Jun 2026 04:18:09 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "The USMNT has clinched a spot in the knockouts. Should the team stay consistent its final Group D match?"
+      "summary": "We've not yet seen the full scope of what Morocco can do at this World Cup, but Wednesday's win over Haiti was a hint at their serious potential."
+    },
+    {
+      "id": "a4a5692484b9",
+      "title": "Copy of Canada remain a work in progress as the World Cup ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49169316/canada-remain-work-progress-world-cup-knockouts-loom",
+      "published_at": "Thu, 25 Jun 2026 03:22:23 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Canada's loss to Switzerland meant they lost an opportunity to play a round-of-32 game in front of home fans."
     },
     {
       "id": "acbe0a11e4ff",
       "title": "Biggest World Cup winners and losers after all 48 ...",
       "url": "https://www.espn.com/soccer/story/_/id/49159042/world-cup-biggest-winners-losers-reactions-all-48-teams-second-games",
-      "published_at": "Wed, 24 Jun 2026 14:54:11 EST",
+      "published_at": "Thu, 25 Jun 2026 03:24:06 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "All 48 teams in the World Cup have played exactly two games, so we look at the players and nations who were winners and losers."
     },
     {
-      "id": "0cbaf1372b10",
-      "title": "'Crying long before the anthems': A week in the life of a 2026 World Cup player",
-      "url": "https://www.espn.com/soccer/story/_/id/49161306/a-week-life-2026-world-cup-player-curacao-gervane-kastaneer",
-      "published_at": "Wed, 24 Jun 2026 08:34:23 EST",
-      "source": "ESPN FC",
+      "id": "c169b0f8a94f",
+      "title": "What do Scotland need to make World Cup knockouts?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 25 Jun 2026 09:06:23 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "What is it like to be one of the 1,200 players at this World Cup? Curacao forward Gervane Kastaneer reveals what life is really like during soccer's biggest tournament."
+      "summary": "After their 3-0 defeat by Brazil, BBC Sport looks at what Scotland require to reach the knockout phase."
     },
     {
-      "id": "1f5aa5cbe0aa",
-      "title": "In a World Cup on home soil, El Tri is making Mexi...",
-      "url": "https://www.espn.com/soccer/story/_/id/49157347/in-world-cup-home-soil-el-tri-making-mexico-proud",
-      "published_at": "Wed, 24 Jun 2026 13:27:42 EST",
-      "source": "ESPN FC",
+      "id": "f46fb4bd3e23",
+      "title": "Best World Cup stadium? BBC Sport experts have their say",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3vy3grvpg6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 25 Jun 2026 06:30:04 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "At Qatar 2022, there was a divide between Mexico and the country they represented. That's all changed at this World Cup on home soil."
+      "summary": "BBC Sport reporters have their say on the best stadium experiences at the 2026 World Cup."
     },
     {
-      "id": "c3b24a30c801",
-      "title": "World Cup history or World Cup limbo? Scotland fac...",
-      "url": "https://www.espn.com/soccer/story/_/id/49157487/scotland-dare-dream-world-cup-history-preview-brazil-steve-clarke-andy-robertson-qualify-knockouts",
-      "published_at": "Wed, 24 Jun 2026 13:27:50 EST",
-      "source": "ESPN FC",
+      "id": "c8d39ef31b9a",
+      "title": "Who am I? Guess World Cup star No 18",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy5274k0d9ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 25 Jun 2026 05:24:08 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The good news is history is within Scotland's grasp. Win or draw against Brazil, and Scott Clarke's Scotland side can start planning for the knockout stages of the World Cup, writes Tom Hamilton."
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "fffecb930214",
-      "title": "One year out from 2027 Women's World Cup: Power Rankings, questions, top prospects",
-      "url": "https://www.espn.com/soccer/story/_/id/49151564/one-year-2027-women-world-cup-power-ranking-burning-questions-10-top-u23-prospects",
-      "published_at": "Wed, 24 Jun 2026 03:24:20 EST",
-      "source": "ESPN FC",
+      "id": "df6c3f68a077",
+      "title": "Who is the African World Cup goalscorer older than Ronaldo and Messi?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cpwe19xldqqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 24 Jun 2026 22:07:03 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The FIFA Women's World Cup kicks off in Brazil on June 24, 2027, and, so far, 14 out of the 32 teams have secured their ticket already."
-    },
-    {
-      "id": "5c5cd93d8c69",
-      "title": "Every team's odds to win the World Cup: Stars cont...",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-      "published_at": "Wed, 24 Jun 2026 13:07:47 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Odds for every team to advance from its group through the knockout stage and to win the 2026 World Cup."
+      "summary": "While Cristiano Ronaldo and Lionel Messi appear to be in a personal battle to rewrite the World Cup record books, there is one landmark that appears beyond them."
     },
     {
       "id": "a35163691ef7",
-      "title": "England to face Scotland? World Cup knockout stage as it stands",
+      "title": "What each team need to reach World Cup knockouts",
       "url": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 24 Jun 2026 21:04:02 GMT",
+      "published_at": "Thu, 25 Jun 2026 00:11:51 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Use BBC Sport's projections tool with in-game updates to plot your country's route through the World Cup knockouts."
-    },
-    {
-      "id": "8f0527523dea",
-      "title": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 24 Jun 2026 18:42:01 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the final set of group games at the 2026 World Cup."
+      "summary": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape."
     },
     {
       "id": "3921b01789a1",
@@ -145,31 +136,49 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "704a06aae035",
-      "title": "England reach T20 World Cup semi-finals after easing past West Indies",
-      "url": "https://www.skysports.com/cricket/news/12040/13557398/england-reach-womens-t20-world-cup-semi-finals-with-win-over-west-indies-their-fourth-straight-victory-in-tournament",
-      "published_at": "Wed, 24 Jun 2026 21:55:00 BST",
-      "source": "Sky Sports Football",
+      "id": "8f0527523dea",
+      "title": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 24 Jun 2026 18:42:01 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "&#8203;&#8203;&#8203;&#8203;&#8203;England romped into the semi-finals of the Women's T20 World Cup with a 38-run win over West Indies as Danni Wyatt-Hodge's innings of 65 from 42 balls preceded a lar"
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the final set of group games at the 2026 World Cup."
     },
     {
-      "id": "6a84d1428840",
-      "title": "All the big moments from Group B finale as teams learn knockout fate!",
-      "url": "https://www.skysports.com/football/switzerland-vs-canada/live/549817",
-      "published_at": "Wed, 24 Jun 2026 19:00:00 BST",
+      "id": "930db2bea977",
+      "title": "Pechova makes step up as Team England squad named for Commonwealth Games",
+      "url": "https://www.skysports.com/netball/news/12040/13557601/commonwealth-games-jayda-pechova-steps-up-to-team-england-senior-squad-as-nat-metcalf-and-fran-williams-also-named",
+      "published_at": "Thu, 25 Jun 2026 09:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Jayda Pechova will make the step up to England's senior squad for this summer's Commonwealth Games in Glasgow, with Nat Metcalf and Fran Williams also named."
     },
     {
-      "id": "4a67aa73ca8f",
-      "title": "Switzerland fight off late Canada barrage to claim Group B top spot",
-      "url": "https://www.skysports.com/football/switzerland-vs-canada/report/549817",
-      "published_at": "Wed, 24 Jun 2026 22:00:00 BST",
+      "id": "28a33c872d98",
+      "title": "World Cup 2026 fixture schedule - your day-by-day guide",
+      "url": "https://www.skysports.com/football/news/12040/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland",
+      "published_at": "Tue, 09 Dec 2025 09:23:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Switzerland claimed top spot in Group B after silencing the home fans in Vancouver with a 2-1 win over Canada."
+      "summary": "Here's your day-by-day breakdown of the 48-team, 37-day World Cup which features 103 matches leading up to the final on July 19."
+    },
+    {
+      "id": "4cdb962ed33a",
+      "title": "Ochoa and Mora make World Cup history as Mexico down Czech Republic",
+      "url": "https://www.skysports.com/football/czech-republic-vs-mexico/report/549815",
+      "published_at": "Thu, 25 Jun 2026 03:45:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Guillermo Ochoa appeared at his sixth World Cup and 17-year-old Gilberto Mora shone as the youngest player to start in the competition for 24 years as co-hosts Mexico eliminated Czech Republic with a "
+    },
+    {
+      "id": "90c9e6d68da0",
+      "title": "Morocco late show beats Haiti and secures second in Group C",
+      "url": "https://www.skysports.com/football/morocco-vs-haiti/report/549818",
+      "published_at": "Thu, 25 Jun 2026 01:15:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Two late goals earned Morocco a hard-fought 4-2 win against Haiti in their final World Cup Group C game, which saw them finish as runners-up."
     }
   ]
 }

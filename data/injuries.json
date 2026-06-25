@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-24T21:52:45.730668",
+    "last_updated": "2026-06-25T10:31:41.944823",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -305,7 +305,7 @@
       "player": "Nahuel Molina",
       "nation": "Argentina",
       "position": "DF",
-      "status": "doubtful",
+      "status": "questionable",
       "injury_type": "Thigh injury",
       "since": "2026-05-25",
       "expected_return": "2026-06-25",
@@ -461,7 +461,7 @@
       "player": "Julio Enciso",
       "nation": "Paraguay",
       "position": "FW",
-      "status": "doubtful",
+      "status": "questionable",
       "injury_type": "Hamstring / thigh",
       "since": "2026-06-05",
       "expected_return": "2026-06-25",
@@ -657,8 +657,8 @@
     },
     "Argentina": {
       "out": 1,
-      "doubtful": 3,
-      "questionable": 0,
+      "doubtful": 2,
+      "questionable": 1,
       "probable": 0,
       "critical_out": [],
       "critical_doubtful": [],
@@ -743,8 +743,8 @@
     },
     "Paraguay": {
       "out": 0,
-      "doubtful": 1,
-      "questionable": 0,
+      "doubtful": 0,
+      "questionable": 1,
       "probable": 0,
       "critical_out": [],
       "critical_doubtful": [
@@ -796,16 +796,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "One year out from 2027 Women's World Cup: Power Rankings, questions, top prospects",
-      "nations": [
-        "Brazil"
-      ],
-      "source": "ESPN FC",
-      "url": "https://www.espn.com/soccer/story/_/id/49151564/one-year-2027-women-world-cup-power-ranking-burning-questions-10-top-u23-prospects",
-      "summary": "The FIFA Women's World Cup kicks off in Brazil on June 24, 2027, and, so far, 14 out of the 32 teams have secured their ticket already.",
-      "published": "Wed, 24 Jun 2026 03:24:20 EST"
-    }
-  ]
+  "_news_injury_alerts": []
 }
