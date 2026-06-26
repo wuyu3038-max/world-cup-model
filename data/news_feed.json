@@ -1,14 +1,32 @@
 {
-  "updated": "2026-06-26T04:47:42.716135",
-  "total_articles": 12,
+  "updated": "2026-06-26T11:26:22.863757",
+  "total_articles": 18,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 8,
+    "bbc_sport": 14,
     "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "2cfe42c8a440",
+      "title": "Why are World Cup underdogs doing so well?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr5jedp7ppyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 09:18:00 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Are the surprise results achieved by lower-ranked teams in the World Cup a matter of luck - or clever planning and execution?"
+    },
+    {
+      "id": "183c52e5cb48",
+      "title": "The 0-0 draw that highlighted flaw in World Cup format",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 09:47:02 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Doubts rise over the World Cup's format as the first of the two group games that give the two teams a chance to progress with a draw finishes 0-0. "
+    },
     {
       "id": "c169b0f8a94f",
       "title": "From 42% to 5.26% - how Scotland's World Cup hopes are fading",
@@ -17,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either. "
+    },
+    {
+      "id": "6851663aee04",
+      "title": "Rainbow flags await Egypt and Iran at awkward World Cup Pride Match",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg4k0ddg5go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 11:20:11 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Iran's coach refuses to discuss pride celebrations in Seattle, where his country face Egypt in a crucial Group G match."
     },
     {
       "id": "88e2432bbbd2",
@@ -28,22 +55,49 @@
       "summary": "Sebastian Beccacece was on the verge of losing his job as Ecuador head coach as the clock ticked down against Germany - now he has a last-32 match to look forward to."
     },
     {
-      "id": "a35163691ef7",
-      "title": "What each team need to reach World Cup knockouts",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 04:08:59 GMT",
+      "id": "a323b0515bbb",
+      "title": "Turkey end World Cup on high with last-gasp win over USA",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c8j2rxn00d4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 05:05:12 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape."
+      "summary": "Turkey come out on top in the last minute of an end-to-end 3-2 win over a second string USA side, in their final Group D match at SoFi Stadium in Los Angeles."
     },
     {
-      "id": "183c52e5cb48",
-      "title": "The games that show the flaws in a 48-team World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 25 Jun 2026 13:38:00 GMT",
+      "id": "6001e5ec1d1b",
+      "title": "Brobbey on target again as Netherlands beat Tunisia to win group",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cql1v24e4q1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 03:32:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Two matches in the final round of group games present the chance for two teams to simply play out a draw to qualify."
+      "summary": "Brian Brobbey scores for the second game in a row as Netherlands defeat Tunisia 3-1 to top Group F, setting up a match against Morocco in the last 32 at the World Cup."
+    },
+    {
+      "id": "edfbd29fcab6",
+      "title": "How are the TV picks decided for the World Cup's round of 32?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzlw6gz8jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 11:02:14 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's Ask Me Anything team explains the complexities behind television selections for the 2026 World Cup's round of 32 fixtures"
+    },
+    {
+      "id": "53ba92fa1e45",
+      "title": "Hart explains how goalkeepers are struggling with World Cup ball",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cp8l5e48g4zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 11:02:14 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Former England goalkeeper Joe Hart answers your questions about the Trionda World Cup ball and how it might be affecting goalkeepers at the tournament."
+    },
+    {
+      "id": "95cfad72dd3a",
+      "title": "US interested in hosting 2038 World Cup - Giuliani",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqx13p4q8wvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 08:42:52 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The United States could consider making a bid to host the men's 2038 World Cup, with Fifa considering expanding the tournament to 64 teams."
     },
     {
       "id": "3921b01789a1",
@@ -64,58 +118,58 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "524f2dbdb9ce",
-      "title": "Is the World Cup ball making it hard for goalkeepers?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1jy8pr6k37o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 25 Jun 2026 14:45:21 GMT",
+      "id": "2eb63c925757",
+      "title": "Who am I? Guess World Cup star No 19",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqjp9lv5j5qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 05:56:43 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "While some goalkeepers have produced heroic performances in the World Cup, others have struggled with shots from outside the area, so is there a problem with the ball?"
+      "summary": "Will you get today's World Cup player in as few attempts as possible?"
     },
     {
-      "id": "bc2a94fb0c46",
-      "title": "How brands banned from the World Cup became the story",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdejrjpe8w3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 25 Jun 2026 10:53:31 GMT",
+      "id": "a35163691ef7",
+      "title": "What each team need to reach World Cup knockouts",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 04:08:59 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "When we try to suppress something, we often make it more visible - and Fifa is living that in real time with its sponsors."
+      "summary": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape."
     },
     {
-      "id": "04eda9cad1c2",
-      "title": "Australia into last-32 of World Cup; Turkey beat USA in thriller LIVE! ",
-      "url": "https://www.skysports.com/football/turkey-vs-united-states-of-america/live/549821",
-      "published_at": "Tue, 23 Jun 2026 14:06:00 BST",
+      "id": "873dcea5e530",
+      "title": "Wimbledon 2026: Men's singles first-round draw",
+      "url": "https://www.skysports.com/tennis/news/12040/13557566/wimbledon-2026-mens-draw-schedule-results-including-jack-draper-jannik-sinner-and-novak-djokovic",
+      "published_at": "Fri, 26 Jun 2026 10:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "The full draw for the men's singles tournament at Wimbledon plus the latest results."
     },
     {
-      "id": "19a9e1f4442e",
-      "title": "Elanga earns Sweden spot in World Cup knockouts with Japan draw",
-      "url": "https://www.skysports.com/football/japan-vs-sweden/report/549824",
-      "published_at": "Fri, 26 Jun 2026 02:00:00 BST",
+      "id": "52ebeb5ddf9e",
+      "title": "Wimbledon 2026: Women's singles first-round draw",
+      "url": "https://www.skysports.com/tennis/news/12040/13557572/wimbledon-2026-womens-draw-schedule-results-including-emma-raducanu-serena-williams-aryna-sabalenka-and-iga-swiatek",
+      "published_at": "Thu, 25 Jun 2026 07:08:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Anthony Elanga's stunning equaliser booked Sweden's spot in the World Cup knockout stages after a 1-1 draw with Japan, who also go through as the second-placed team in Group F."
+      "summary": "The full draw for the women's singles tournament at Wimbledon plus the latest results."
     },
     {
-      "id": "e77958813fe0",
-      "title": "Netherlands claim Group F top spot with win over Tunisia",
-      "url": "https://www.skysports.com/football/tunisia-vs-netherlands/report/549825",
-      "published_at": "Fri, 26 Jun 2026 02:00:00 BST",
+      "id": "f11f6e0d3e7c",
+      "title": "Mbappe vs Haaland - new Messi-Ronaldo rivalry graces World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13557028/kylian-mbappe-vs-erling-haaland-new-lionel-messi-cristiano-ronaldo-rivalry-on-show-as-norway-face-france-in-world-cup",
+      "published_at": "Fri, 26 Jun 2026 08:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Netherlands secured top spot in Group F with a comprehensive 3-1 win over Tunisia."
+      "summary": "It is a World Cup where the big stars have shone so far. On Friday night, two of those big hitters are set to do battle in the first 'clash of the titans' meeting."
     },
     {
-      "id": "d81aa795dd3e",
-      "title": "Injury-hit Warrington edge Catalans to move level on points with Leeds",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13557731/super-league-warrington-wolves-cope-with-injuries-to-edge-catalans-dragons-18-16-and-move-level-on-points-with-leaders-leeds-rhinos",
-      "published_at": "Thu, 25 Jun 2026 23:00:00 BST",
+      "id": "a1853b028d82",
+      "title": "The World Cup 'Pride Match' - concern, complaints and the hope of 'unity'",
+      "url": "https://www.skysports.com/football/news/12040/13556674/the-world-cup-2026-pride-match-between-egypt-and-iran-that-seattle-hopes-can-unite-football-community",
+      "published_at": "Fri, 26 Jun 2026 10:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;Injury-hit Warrington Wolves moved level on points with Super League table toppers Leeds Rhinos after eking out a narrow 18-16 victory over Catalans Dragons."
+      "summary": "When Seattle announced it would host a Pride Match during the 2026 World Cup, it was long before the draw had even been made."
     }
   ]
 }
