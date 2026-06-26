@@ -1,31 +1,31 @@
 {
-  "updated": "2026-06-26T11:26:22.863757",
-  "total_articles": 18,
+  "updated": "2026-06-26T18:09:36.449287",
+  "total_articles": 16,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 14,
-    "sky_sports": 4,
+    "bbc_sport": 13,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "2cfe42c8a440",
-      "title": "Why are World Cup underdogs doing so well?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr5jedp7ppyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 09:18:00 GMT",
+      "id": "095831411283",
+      "title": "Why has Trump stayed away from the World Cup?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0myxevn3emo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 14:35:00 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Are the surprise results achieved by lower-ranked teams in the World Cup a matter of luck - or clever planning and execution?"
+      "summary": "Why has Donald Trump stayed away from the World Cup? And will he appear before the final?"
     },
     {
-      "id": "183c52e5cb48",
-      "title": "The 0-0 draw that highlighted flaw in World Cup format",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 09:47:02 GMT",
+      "id": "94649d1a1503",
+      "title": "Has VAR become a lottery at the World Cup?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8e2ynrp7kro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 12:29:59 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Doubts rise over the World Cup's format as the first of the two group games that give the two teams a chance to progress with a draw finishes 0-0. "
+      "summary": "After a week of strange decisions many supporters have been left scratching their heads with VAR. "
     },
     {
       "id": "c169b0f8a94f",
@@ -37,22 +37,13 @@
       "summary": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either. "
     },
     {
-      "id": "6851663aee04",
-      "title": "Rainbow flags await Egypt and Iran at awkward World Cup Pride Match",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckg4k0ddg5go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 11:20:11 GMT",
+      "id": "53ba92fa1e45",
+      "title": "Hart explains how goalkeepers are struggling with World Cup ball",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cp8l5e48g4zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 11:02:14 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Iran's coach refuses to discuss pride celebrations in Seattle, where his country face Egypt in a crucial Group G match."
-    },
-    {
-      "id": "88e2432bbbd2",
-      "title": "Beccacece goes from brink to World Cup history with Ecuador ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqx133qlve2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 00:34:29 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Sebastian Beccacece was on the verge of losing his job as Ecuador head coach as the clock ticked down against Germany - now he has a last-32 match to look forward to."
+      "summary": "Former England goalkeeper Joe Hart answers your questions about the Trionda World Cup ball and how it might be affecting goalkeepers at the tournament."
     },
     {
       "id": "a323b0515bbb",
@@ -73,31 +64,49 @@
       "summary": "Brian Brobbey scores for the second game in a row as Netherlands defeat Tunisia 3-1 to top Group F, setting up a match against Morocco in the last 32 at the World Cup."
     },
     {
-      "id": "edfbd29fcab6",
-      "title": "How are the TV picks decided for the World Cup's round of 32?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzlw6gz8jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 11:02:14 GMT",
+      "id": "183c52e5cb48",
+      "title": "The 0-0 draw that highlighted flaw in World Cup format",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 09:47:02 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport's Ask Me Anything team explains the complexities behind television selections for the 2026 World Cup's round of 32 fixtures"
+      "summary": "Doubts rise over the World Cup's format as the first of the two group games that give the two teams a chance to progress with a draw finishes 0-0. "
     },
     {
-      "id": "53ba92fa1e45",
-      "title": "Hart explains how goalkeepers are struggling with World Cup ball",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cp8l5e48g4zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 11:02:14 GMT",
+      "id": "8f0527523dea",
+      "title": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 24 Jun 2026 18:42:01 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Former England goalkeeper Joe Hart answers your questions about the Trionda World Cup ball and how it might be affecting goalkeepers at the tournament."
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the final set of group games at the 2026 World Cup."
     },
     {
-      "id": "95cfad72dd3a",
-      "title": "US interested in hosting 2038 World Cup - Giuliani",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqx13p4q8wvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 08:42:52 GMT",
+      "id": "2cfe42c8a440",
+      "title": "Why are World Cup underdogs doing so well?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr5jedp7ppyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 09:18:00 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The United States could consider making a bid to host the men's 2038 World Cup, with Fifa considering expanding the tournament to 64 teams."
+      "summary": "Are the surprise results achieved by lower-ranked teams in the World Cup a matter of luck - or clever planning and execution?"
+    },
+    {
+      "id": "6c795b1ac14a",
+      "title": "What do numbers tell us about Scotland's World Cup attacking intent?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czdere26vzro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 10:47:23 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Scotland crunches the numbers behind Steve Clarke's blunt attack and looks at the potential deeper issues."
+    },
+    {
+      "id": "146f94ccf8f4",
+      "title": "World Cup quiz: Who are England's top appearance-makers?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clypr5jvgrjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 14:45:24 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Test your knowledge of the players who have featured at least 10 times for England at World Cups."
     },
     {
       "id": "3921b01789a1",
@@ -118,22 +127,13 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "2eb63c925757",
-      "title": "Who am I? Guess World Cup star No 19",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqjp9lv5j5qo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 05:56:43 GMT",
-      "source": "BBC Sport Football",
+      "id": "d66aa14bb7c4",
+      "title": "World Cup latest: Panama team-mates clash in training ahead of England game",
+      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
+      "published_at": "Fri, 26 Jun 2026 19:00:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Will you get today's World Cup player in as few attempts as possible?"
-    },
-    {
-      "id": "a35163691ef7",
-      "title": "What each team need to reach World Cup knockouts",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 04:08:59 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "With the final round of group fixtures under way the path to the World Cup final on 19 July is starting to take shape."
+      "summary": ""
     },
     {
       "id": "873dcea5e530",
@@ -148,28 +148,10 @@
       "id": "52ebeb5ddf9e",
       "title": "Wimbledon 2026: Women's singles first-round draw",
       "url": "https://www.skysports.com/tennis/news/12040/13557572/wimbledon-2026-womens-draw-schedule-results-including-emma-raducanu-serena-williams-aryna-sabalenka-and-iga-swiatek",
-      "published_at": "Thu, 25 Jun 2026 07:08:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The full draw for the women's singles tournament at Wimbledon plus the latest results."
-    },
-    {
-      "id": "f11f6e0d3e7c",
-      "title": "Mbappe vs Haaland - new Messi-Ronaldo rivalry graces World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13557028/kylian-mbappe-vs-erling-haaland-new-lionel-messi-cristiano-ronaldo-rivalry-on-show-as-norway-face-france-in-world-cup",
-      "published_at": "Fri, 26 Jun 2026 08:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "It is a World Cup where the big stars have shone so far. On Friday night, two of those big hitters are set to do battle in the first 'clash of the titans' meeting."
-    },
-    {
-      "id": "a1853b028d82",
-      "title": "The World Cup 'Pride Match' - concern, complaints and the hope of 'unity'",
-      "url": "https://www.skysports.com/football/news/12040/13556674/the-world-cup-2026-pride-match-between-egypt-and-iran-that-seattle-hopes-can-unite-football-community",
       "published_at": "Fri, 26 Jun 2026 10:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "When Seattle announced it would host a Pride Match during the 2026 World Cup, it was long before the draw had even been made."
+      "summary": "The full draw for the women's singles tournament at Wimbledon plus the latest results."
     }
   ]
 }
