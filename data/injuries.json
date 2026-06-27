@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-26T18:09:36.488123",
+    "last_updated": "2026-06-27T04:31:27.834785",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -305,12 +305,12 @@
       "player": "Nahuel Molina",
       "nation": "Argentina",
       "position": "DF",
-      "status": "questionable",
+      "status": "fit",
       "injury_type": "Thigh injury",
       "since": "2026-05-25",
       "expected_return": "2026-06-25",
-      "severity": "major",
-      "notes": "Expected to miss 2-3 weeks. Key RB for Argentina.",
+      "severity": "minor",
+      "notes": "Expected to miss 2-3 weeks. Key RB for Argentina. [AUTO: expected return 2026-06-25 passed]",
       "source": "Sky Sports"
     },
     {
@@ -461,12 +461,12 @@
       "player": "Julio Enciso",
       "nation": "Paraguay",
       "position": "FW",
-      "status": "questionable",
+      "status": "fit",
       "injury_type": "Hamstring / thigh",
       "since": "2026-06-05",
       "expected_return": "2026-06-25",
-      "severity": "critical",
-      "notes": "Brighton star. Stretchered off in tears in final friendly. Targeting return by June 25 (vs Australia). Paraguay's best player.",
+      "severity": "minor",
+      "notes": "Brighton star. Stretchered off in tears in final friendly. Targeting return by June 25 (vs Australia). Paraguay's best player. [AUTO: expected return 2026-06-25 passed]",
       "source": "ESPN"
     },
     {
@@ -658,15 +658,13 @@
     "Argentina": {
       "out": 1,
       "doubtful": 2,
-      "questionable": 1,
+      "questionable": 0,
       "probable": 0,
       "critical_out": [],
       "critical_doubtful": [],
       "critical_probable": [],
       "major_out": [],
-      "major_doubtful": [
-        "Nahuel Molina"
-      ],
+      "major_doubtful": [],
       "moderate_out": [
         "Leonardo Balerdi"
       ]
@@ -740,20 +738,6 @@
       "moderate_out": [
         "Ahmed Yahya"
       ]
-    },
-    "Paraguay": {
-      "out": 0,
-      "doubtful": 0,
-      "questionable": 1,
-      "probable": 0,
-      "critical_out": [],
-      "critical_doubtful": [
-        "Julio Enciso"
-      ],
-      "critical_probable": [],
-      "major_out": [],
-      "major_doubtful": [],
-      "moderate_out": []
     },
     "Uruguay": {
       "out": 0,

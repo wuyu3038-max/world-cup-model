@@ -1,14 +1,131 @@
 {
-  "updated": "2026-06-26T18:09:36.449287",
-  "total_articles": 16,
+  "updated": "2026-06-27T04:31:27.775563",
+  "total_articles": 22,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 13,
+    "espn_fc": 8,
+    "bbc_sport": 11,
     "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "b675001f549a",
+      "title": "Messi to start on bench for Argentina group finale...",
+      "url": "https://www.espn.com/soccer/story/_/id/49191791/lionel-messi-argentina-bench-jordan-fifa-2026-world-cup",
+      "published_at": "Fri, 26 Jun 2026 23:12:41 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Lionel Messi will start Argentina's final group stage match against Jordan on Saturday from the substitutes' bench, coach Lionel Scaloni said."
+    },
+    {
+      "id": "e382082be583",
+      "title": "Algeria, Austria, reject group math to avoid Spain...",
+      "url": "https://www.espn.com/soccer/story/_/id/49191332/austria-algeria-fifa-world-cup-2026-win-spain-knockout",
+      "published_at": "Fri, 26 Jun 2026 23:12:41 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Austria and Algeria have both insisted they will be going for a victory when the two teams face off on Saturday, despite not winning potentially being more beneficial to their knockout round draw."
+    },
+    {
+      "id": "4ba4ff312fd2",
+      "title": "World Cup Daily LIVE: Senegal, Iraq fight to keep ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49182645/world-cup-daily-yamal-gets-wwe-belt-france-norway-action-heavyweight-group-decider",
+      "published_at": "Fri, 26 Jun 2026 23:02:17 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Amazing scenes on Friday as Cape Verde, against all odds, sealed their spot in the round of 32. Re-live that match, plus all the latest and greatest, from another day of compelling World Cup action."
+    },
+    {
+      "id": "de0cc9f14829",
+      "title": "USMNT must heed World Cup lessons learned in loss ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49183383/usmnt-heed-world-cup-lessons-learned-loss-turkiye",
+      "published_at": "Fri, 26 Jun 2026 19:50:18 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "A late 3-2 defeat to Türkiye will count for little in the grand scheme of things, but USMNT boss Mauricio Pochettino will have learned plenty about his second-string players."
+    },
+    {
+      "id": "de37492d7fa5",
+      "title": "Dembélé first-half hat trick sees France win group",
+      "url": "https://www.espn.com/soccer/story/_/id/49189907/ousmane-dembele-first-half-hat-trick-france",
+      "published_at": "Fri, 26 Jun 2026 18:29:59 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "France forward Ousmane Dembélé scored a first-half hat trick, including one off an assist from Kylian Mbappé, to help his team to a 4-1 win over Norway at the FIFA World Cup on Friday."
+    },
+    {
+      "id": "637a317edee1",
+      "title": "Why Algeria vs. Austria is the 2026 World Cup's bi...",
+      "url": "https://www.espn.com/soccer/story/_/id/49154542/why-algeria-austria-2026-world-cup-biggest-grudge-match-west-germany-1982-disgrace-gijon",
+      "published_at": "Fri, 26 Jun 2026 14:48:17 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "It's been 44 years in the making: Algeria have a shot at revenge on Austria for the \"Disgrace of Gijón,\" the match that changed the World Cup forever."
+    },
+    {
+      "id": "3fa9fa6857fe",
+      "title": "Backs against the wall, Ecuador conjure World Cup ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49180798/ecuador-conjure-world-cup-magic-upset-germany",
+      "published_at": "Fri, 26 Jun 2026 19:50:47 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The equation for Ecuador was simple: win or go home. And just in time, they found their scoring touch vs. a heavily favored Germany."
+    },
+    {
+      "id": "f1844d7987e5",
+      "title": "If Japan are dreaming of winning the World Cup, Br...",
+      "url": "https://www.espn.com/soccer/story/_/id/49181978/if-japan-dreaming-world-cup-brazil-test-key",
+      "published_at": "Fri, 26 Jun 2026 19:50:46 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "null"
+    },
+    {
+      "id": "ed37337cfb7e",
+      "title": "How Cape Verde stunned World Cup to set up Argentina tie",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0mypzl7v2xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 03:41:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "How has a group of islands with just 525,000 inhabitants made it to the knockout rounds of the World Cup?"
+    },
+    {
+      "id": "b25c2c0b6081",
+      "title": "England qualify for World Cup knockout stage",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1wylljn12xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 02:47:52 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England's place in the knockout stages of the World Cup is confirmed by other results before they face Panama in their final group game on Saturday."
+    },
+    {
+      "id": "2b1291ac56d4",
+      "title": "Cape Verde's incredible World Cup journey continues after Saudi draw",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cql1v2p7949o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 02:53:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Cape Verde deliver a valiant performance to earn their third draw of the group stage, a result that means they qualify for the last 32 in their World Cup debut while Saudi Arabia crash out.\n\n\n"
+    },
+    {
+      "id": "5ade6a1ac961",
+      "title": "Tuchel defends full-back selection after James injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly70v1n22eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 02:12:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Thomas Tuchel defends his full-back selections after confirming Reece James will miss the match against Panama through injury."
+    },
+    {
+      "id": "cc593ac81f88",
+      "title": "Brilliant Dembele hat-trick helps France see off Norway to top group",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr47d0g9v4yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 21:34:57 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Ousmane Dembele's first-half hat-trick helps France soundly defeat a Norway side without Erling Haaland 4-1 to top Group I at the World Cup. "
+    },
     {
       "id": "095831411283",
       "title": "Why has Trump stayed away from the World Cup?",
@@ -19,60 +136,6 @@
       "summary": "Why has Donald Trump stayed away from the World Cup? And will he appear before the final?"
     },
     {
-      "id": "94649d1a1503",
-      "title": "Has VAR become a lottery at the World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8e2ynrp7kro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 12:29:59 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "After a week of strange decisions many supporters have been left scratching their heads with VAR. "
-    },
-    {
-      "id": "c169b0f8a94f",
-      "title": "From 42% to 5.26% - how Scotland's World Cup hopes are fading",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 04:33:51 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either. "
-    },
-    {
-      "id": "53ba92fa1e45",
-      "title": "Hart explains how goalkeepers are struggling with World Cup ball",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cp8l5e48g4zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 11:02:14 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Former England goalkeeper Joe Hart answers your questions about the Trionda World Cup ball and how it might be affecting goalkeepers at the tournament."
-    },
-    {
-      "id": "a323b0515bbb",
-      "title": "Turkey end World Cup on high with last-gasp win over USA",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c8j2rxn00d4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 05:05:12 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Turkey come out on top in the last minute of an end-to-end 3-2 win over a second string USA side, in their final Group D match at SoFi Stadium in Los Angeles."
-    },
-    {
-      "id": "6001e5ec1d1b",
-      "title": "Brobbey on target again as Netherlands beat Tunisia to win group",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cql1v24e4q1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 03:32:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Brian Brobbey scores for the second game in a row as Netherlands defeat Tunisia 3-1 to top Group F, setting up a match against Morocco in the last 32 at the World Cup."
-    },
-    {
-      "id": "183c52e5cb48",
-      "title": "The 0-0 draw that highlighted flaw in World Cup format",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 09:47:02 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Doubts rise over the World Cup's format as the first of the two group games that give the two teams a chance to progress with a draw finishes 0-0. "
-    },
-    {
       "id": "8f0527523dea",
       "title": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
       "url": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss",
@@ -80,33 +143,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the final set of group games at the 2026 World Cup."
-    },
-    {
-      "id": "2cfe42c8a440",
-      "title": "Why are World Cup underdogs doing so well?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr5jedp7ppyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 09:18:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Are the surprise results achieved by lower-ranked teams in the World Cup a matter of luck - or clever planning and execution?"
-    },
-    {
-      "id": "6c795b1ac14a",
-      "title": "What do numbers tell us about Scotland's World Cup attacking intent?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/czdere26vzro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 10:47:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Scotland crunches the numbers behind Steve Clarke's blunt attack and looks at the potential deeper issues."
-    },
-    {
-      "id": "146f94ccf8f4",
-      "title": "World Cup quiz: Who are England's top appearance-makers?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clypr5jvgrjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 14:45:24 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Test your knowledge of the players who have featured at least 10 times for England at World Cups."
     },
     {
       "id": "3921b01789a1",
@@ -127,31 +163,49 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
+      "id": "183c52e5cb48",
+      "title": "The 0-0 draw that highlighted flaw in World Cup format",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 09:47:02 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Doubts rise over the World Cup's format as the first of the two group games that give the two teams a chance to progress with a draw finishes 0-0. "
+    },
+    {
+      "id": "94649d1a1503",
+      "title": "Has VAR become a lottery at the World Cup?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8e2ynrp7kro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 26 Jun 2026 12:29:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "After a week of strange decisions many supporters have been left scratching their heads with VAR. "
+    },
+    {
+      "id": "24135fb02b66",
+      "title": "Sri Lanka keep Women's T20 World Cup semi-finals hopes alive with Scotland win",
+      "url": "https://www.skysports.com/cricket/news/12040/13558169/sri-lanka-keep-alive-womens-t20-world-cup-semi-finals-hopes-after-beating-scotland-at-old-trafford",
+      "published_at": "Fri, 26 Jun 2026 22:49:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Sri Lanka kept alive their slim hopes of making the Women's T20 World Cup semi-finals for the first time after a dramatic last-over win over Scotland at Old Trafford."
+    },
+    {
+      "id": "708e780597c3",
+      "title": "Capsey urges England to continue winning momentum at T20 World Cup",
+      "url": "https://www.skysports.com/cricket/news/12040/13558106/t20-world-cup-alice-capsey-wants-to-see-england-continue-winning-momentum-against-new-zealand-ahead-of-semi-finals",
+      "published_at": "Fri, 26 Jun 2026 21:03:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "All-rounder Alice Capsey has urged England to continue their winning momentum against New Zealand at The Oval ahead of semi-finals of the T20 World Cup."
+    },
+    {
       "id": "d66aa14bb7c4",
-      "title": "World Cup latest: Panama team-mates clash in training ahead of England game",
+      "title": "World Cup latest: Five teams confirmed for round of 32 - including England",
       "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
       "published_at": "Fri, 26 Jun 2026 19:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
-    },
-    {
-      "id": "873dcea5e530",
-      "title": "Wimbledon 2026: Men's singles first-round draw",
-      "url": "https://www.skysports.com/tennis/news/12040/13557566/wimbledon-2026-mens-draw-schedule-results-including-jack-draper-jannik-sinner-and-novak-djokovic",
-      "published_at": "Fri, 26 Jun 2026 10:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The full draw for the men's singles tournament at Wimbledon plus the latest results."
-    },
-    {
-      "id": "52ebeb5ddf9e",
-      "title": "Wimbledon 2026: Women's singles first-round draw",
-      "url": "https://www.skysports.com/tennis/news/12040/13557572/wimbledon-2026-womens-draw-schedule-results-including-emma-raducanu-serena-williams-aryna-sabalenka-and-iga-swiatek",
-      "published_at": "Fri, 26 Jun 2026 10:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The full draw for the women's singles tournament at Wimbledon plus the latest results."
     }
   ]
 }
