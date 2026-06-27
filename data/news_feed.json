@@ -1,14 +1,23 @@
 {
-  "updated": "2026-06-27T10:33:57.093305",
-  "total_articles": 13,
+  "updated": "2026-06-27T17:36:51.403577",
+  "total_articles": 14,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 11,
+    "bbc_sport": 12,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "02b7cf311c0e",
+      "title": "Where does Scotland's World Cup campaign leave Clarke?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg4d3w9p4zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 15:50:25 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Did Steve Clarke get the best out of his Scotland squad at the 2026 World Cup as they face group-stage exit?"
+    },
     {
       "id": "c169b0f8a94f",
       "title": "Scotland's World Cup hopes at 0.07% - these are results they need",
@@ -19,13 +28,31 @@
       "summary": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either. "
     },
     {
-      "id": "32dc35f4e796",
-      "title": "Who am I? Guess World Cup star No 20",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgjpzvlnd4wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 05:57:23 GMT",
+      "id": "2c3ccdc57892",
+      "title": "World Cup quiz: Name the team from England v Panama 2018",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj6pw405k91o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 14:50:33 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Will you get today's World Cup player in as few attempts as possible?"
+      "summary": "England face Panama for the first time since a 6-1 win at Russia 2018. Can you remember the starting XI?"
+    },
+    {
+      "id": "a5d9724a1450",
+      "title": "Man Utd waiting on Ugarte injury after he leaves pitch on stretcher",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yz923kk3po?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 10:36:07 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Manchester United are waiting to discover the extent of Manuel Ugarte's injury after the midfielder was stretchered off during Uruguay's World Cup defeat by Spain."
+    },
+    {
+      "id": "5ade6a1ac961",
+      "title": "'No one could see it coming' - Tuchel defends selection after James injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly70v1n22eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 02:12:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Thomas Tuchel defends his full-back selections after confirming Reece James will miss the match against Panama through injury."
     },
     {
       "id": "89be9dd4fbce",
@@ -46,6 +73,15 @@
       "summary": "Cape Verde deliver a valiant performance to earn their third draw of the group stage, a result that means they qualify for the last 32 in their World Cup debut while Saudi Arabia crash out.\n\n\n"
     },
     {
+      "id": "32dc35f4e796",
+      "title": "Who am I? Guess World Cup star No 20",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgjpzvlnd4wo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 05:57:23 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's World Cup player in as few attempts as possible?"
+    },
+    {
       "id": "e2dbf9032b56",
       "title": "Messi to start final Argentina group match on bench",
       "url": "https://www.bbc.co.uk/sport/football/articles/cd95zlv7jz7o?at_medium=RSS&at_campaign=rss",
@@ -62,15 +98,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "New Ferens Park feels a world away from the New York New Jersey Stadium, but it was on this artificial pitch in the north east of England where a future member of Thomas Tuchel's World Cup squad got w"
-    },
-    {
-      "id": "5ade6a1ac961",
-      "title": "Tuchel defends full-back selection after James injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly70v1n22eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 02:12:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Thomas Tuchel defends his full-back selections after confirming Reece James will miss the match against Panama through injury."
     },
     {
       "id": "3921b01789a1",
@@ -91,40 +118,22 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "91ed4850104d",
-      "title": "Spain's Pino may miss rest of World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c77y384r670o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 04:43:03 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Spain winger Yeremy Pino may miss the rest of the World Cup with a suspected broken collarbone."
-    },
-    {
-      "id": "095831411283",
-      "title": "Why has Trump stayed away from the World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0myxevn3emo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 26 Jun 2026 14:35:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Why has Donald Trump stayed away from the World Cup? And will he appear before the final?"
-    },
-    {
-      "id": "1344b28bf3fd",
-      "title": "Iran inches away from famous win but still have World Cup hope after Egypt draw",
-      "url": "https://www.skysports.com/football/egypt-vs-iran/report/549826",
-      "published_at": "Sat, 27 Jun 2026 06:00:00 BST",
+      "id": "81bdd9dc0e81",
+      "title": "Raducanu ends Wimbledon practice session early to add to injury fears",
+      "url": "https://www.skysports.com/tennis/news/12040/13558318/emma-raducanu-wimbledon-fitness-concerns-grow-as-british-no-1-cuts-short-practice-session",
+      "published_at": "Sat, 27 Jun 2026 15:51:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Iran had a last-gasp goal overturned as they just missed out on grabbing second spot in Group G - but a first progression to the World Cup knockouts could still be achieved after their dramatic 1-1 dr"
+      "summary": "Emma Raducanu cut short her practice session at Wimbledon before cancelling a scheduled press conference as concerns about her fitness deepened."
     },
     {
-      "id": "24135fb02b66",
-      "title": "Sri Lanka keep Women's T20 World Cup semi-finals hopes alive with Scotland win",
-      "url": "https://www.skysports.com/cricket/news/12040/13558169/sri-lanka-keep-alive-womens-t20-world-cup-semi-finals-hopes-after-beating-scotland-at-old-trafford",
-      "published_at": "Fri, 26 Jun 2026 22:49:00 BST",
+      "id": "03751d8dd42c",
+      "title": "England look to continue unbeaten T20 World Cup run against New Zealand LIVE!",
+      "url": "https://www.skysports.com/cricket/live-blog/12040/13558334/england-vs-new-zealand-icc-womens-t20-world-cup-cricket-score-updates-video-and-analysis-from-the-oval-as-hosts-look-to-continue-unbeaten-run",
+      "published_at": "Sat, 27 Jun 2026 18:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Sri Lanka kept alive their slim hopes of making the Women's T20 World Cup semi-finals for the first time after a dramatic last-over win over Scotland at Old Trafford."
+      "summary": "England are out to stay unbeaten at the ICC Women's T20 World Cup in their final group stage match against New Zealand at The Kia Oval, but will be without their captain Nat Sciver-Brunt who is out wi"
     }
   ]
 }

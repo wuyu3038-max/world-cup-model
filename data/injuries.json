@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-27T10:33:57.155671",
+    "last_updated": "2026-06-27T17:36:51.463748",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,27 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Where does Scotland's World Cup campaign leave Clarke?",
+      "nations": [
+        "Scotland"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg4d3w9p4zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Did Steve Clarke get the best out of his Scotland squad at the 2026 World Cup as they face group-stage exit?",
+      "published": "Sat, 27 Jun 2026 15:50:25 GMT"
+    },
+    {
+      "title": "Man Utd waiting on Ugarte injury after he leaves pitch on stretcher",
+      "nations": [
+        "Spain",
+        "Uruguay"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yz923kk3po?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester United are waiting to discover the extent of Manuel Ugarte's injury after the midfielder was stretchered off during Uruguay's World Cup defeat by Spain.",
+      "published": "Sat, 27 Jun 2026 10:36:07 GMT"
+    }
+  ]
 }
