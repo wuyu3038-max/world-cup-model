@@ -1,104 +1,14 @@
 {
-  "updated": "2026-06-28T10:41:39.800697",
-  "total_articles": 28,
+  "updated": "2026-06-28T17:43:47.419193",
+  "total_articles": 14,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 9,
-    "bbc_sport": 12,
-    "sky_sports": 7,
+    "espn_fc": 0,
+    "bbc_sport": 10,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "2e8e63384697",
-      "title": "Overreacting to World Cup bracket: How far will US...",
-      "url": "https://www.espn.com/soccer/story/_/id/49167690/judging-overreactions-world-cup-bracket-knockout-rounds-usmnt-argentina-france-cape-verde",
-      "published_at": "Sun, 28 Jun 2026 05:23:56 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The bracket for the World Cup knockout rounds is now set! How far will the U.S. go, and who should be the favorites to win it all? Let's judge some overreactions!"
-    },
-    {
-      "id": "8ff522e1ad5a",
-      "title": "Spain's Williams on injury: One of my worst days",
-      "url": "https://www.espn.com/soccer/story/_/id/49200729/spain-nico-williams-injury-yeremy-pino-2026-world-cup",
-      "published_at": "Sun, 28 Jun 2026 05:28:06 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Spain winger Nico Williams said he had suffered \"one of the worst days of my life\" after an injury against Uruguay on Friday jeopardized his future participation in the World Cup."
-    },
-    {
-      "id": "f93fc39eb14a",
-      "title": "Kane breaks England World Cup scoring record",
-      "url": "https://www.espn.com/soccer/story/_/id/49190714/harry-kane-england-leading-goalscorer-world-cup-70-goals-lineker-panama",
-      "published_at": "Sun, 28 Jun 2026 05:29:11 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Harry Kane became England's all-time World Cup leading scorer after scoring in Saturday's 2-0 win over Panama at MetLife Stadium in New Jersey."
-    },
-    {
-      "id": "d47658af9d93",
-      "title": "World Cup Daily LIVE: Iran despair after late Aust...",
-      "url": "https://www.espn.com/soccer/story/_/id/49204325/world-cup-daily-live-iran-despair-late-austria-drama-south-africa-face-canada-round-32-begins",
-      "published_at": "Sun, 28 Jun 2026 05:25:00 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The knockout stage has officially begun! The round of 32 at the 2026 World Cup begins with our first match being South Africa against co-hosts Canada in Inglewood, California."
-    },
-    {
-      "id": "5ea6929dfe27",
-      "title": "Why Portugal draw might have cost World Cup one la...",
-      "url": "https://www.espn.com/soccer/story/_/id/49203073/why-portugal-draw-cost-world-cup-one-last-lionel-messi-cristiano-ronaldo-showdown",
-      "published_at": "Sun, 28 Jun 2026 05:24:13 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Portugal's draw with Colombia on Saturday means a destined quarterfinal matchup between Cristiano Ronaldo and Lionel Messi is off until possibly the final."
-    },
-    {
-      "id": "6d814f83edb1",
-      "title": "USMNT squad is full of leaders for World Cup knock...",
-      "url": "https://www.espn.com/soccer/story/_/id/49196528/usmnt-squad-full-leaders-world-cup-knockouts-not-just-captain-ream",
-      "published_at": "Sun, 28 Jun 2026 03:14:57 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "A quick look at the USMNT roster reveals it is rife with leaders of different types and temperaments, which is helping the team find success."
-    },
-    {
-      "id": "d9af34e2b1eb",
-      "title": "Not laughing now: How World Cup fans vindicated Mc...",
-      "url": "https://www.espn.com/soccer/story/_/id/49190854/world-cup-fans-vindicate-usmnt-weston-mckennie-love-ranch-american-dressing",
-      "published_at": "Sun, 28 Jun 2026 03:14:57 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Ranch Dressing is everywhere. In myriad memes, in reels, in fans' carry-on suitcases and, apparently, in the mouths of countless international visitors to the United States who seem to be discovering "
-    },
-    {
-      "id": "ab209949cafd",
-      "title": "A 48-team World Cup was made for countries like Ca...",
-      "url": "https://www.espn.com/soccer/story/_/id/49194935/cape-verde-world-cup-success-isnt-just-every-soccer-fan-enjoy",
-      "published_at": "Sat, 27 Jun 2026 17:44:05 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The big nations win the World Cup, but the small nations make it. Cape Verde's progress to the knockouts was for everyone."
-    },
-    {
-      "id": "4164cc34f0f3",
-      "title": "Where has Infantino been? FIFA president clocks up...",
-      "url": "https://www.espn.com/soccer/story/_/id/49116383/infantino-fifa-presidents-epic-world-cup-tour",
-      "published_at": "Sun, 28 Jun 2026 03:13:01 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The FIFA president has been flying all across the World Cup host nations on his private jet. Here's where he has been so far during the tournament."
-    },
-    {
-      "id": "9cbb34979c1b",
-      "title": "27 flights, 24 matches: How Fifa's president is jetting around World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgev5wy0zg3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 09:20:51 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Gianni Infantino has clocked up thousands of air miles across North America so far.\n"
-    },
     {
       "id": "31d1ab0930cc",
       "title": "Are Iran the unluckiest side in World Cup history?",
@@ -107,15 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice."
-    },
-    {
-      "id": "7f8d421f7ab0",
-      "title": "Crystal Palace and Sunderland top Premier League World Cup goals chart ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckg59eerpw4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 09:57:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Crystal Palace and Sunderland lead the Premier League’s World Cup scoring charts after the 2026 group stage, ahead of Arsenal, Liverpool and Manchester City."
     },
     {
       "id": "5e8491f0cc36",
@@ -127,13 +28,31 @@
       "summary": "Goals from Jude Bellingham and Harry Kane help England secure a 2-0 win over Panama, as Thomas Tuchel's side qualify for the World Cup last 32 as winners of Group L."
     },
     {
-      "id": "dd92b1801cfb",
-      "title": "Job done - but England will not win World Cup unless they improve",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cg4wnp592z1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 01:05:27 GMT",
+      "id": "f94a93f06228",
+      "title": "Ugarte has 'most serious injury footballer can face'",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 17:42:20 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England did their job topping the group - but they can forget winning the World Cup if they do not improve, writes Phil McNulty."
+      "summary": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain."
+    },
+    {
+      "id": "9cbb34979c1b",
+      "title": "27 flights, 24 matches: The carbon cost of Fifa president's World Cup tour",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgev5wy0zg3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 09:20:51 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Gianni Infantino has clocked up thousands of air miles across North America so far.\n"
+    },
+    {
+      "id": "7f8d421f7ab0",
+      "title": "World Cup goals chart led by PSG and Real - plus Palace and Sunderland",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg59eerpw4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 09:57:25 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Crystal Palace and Sunderland lead the Premier League’s World Cup scoring charts after the 2026 group stage, ahead of Arsenal, Liverpool and Manchester City."
     },
     {
       "id": "0d2c472c54ca",
@@ -154,22 +73,13 @@
       "summary": "We have a look at what can be learned from every World Cup penalty taken in a shootout ever."
     },
     {
-      "id": "8be832e8124d",
-      "title": "Best team, moments, matches and players of World Cup group stage",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce3e256752qo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 08:07:11 GMT",
+      "id": "dd92b1801cfb",
+      "title": "Job done - but England will not win World Cup unless they improve",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cg4wnp592z1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 01:05:27 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "As the World Cup group stages come to an end, BBC Sport reporters pick their highlights so far."
-    },
-    {
-      "id": "6e2275a887d1",
-      "title": "Who am I? Guess World Cup star No 21",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c202j7gzlywo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 05:40:42 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's World Cup player in as few attempts as possible?"
+      "summary": "England did their job topping the group - but they can forget winning the World Cup if they do not improve, writes Phil McNulty."
     },
     {
       "id": "3921b01789a1",
@@ -190,13 +100,31 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "6c840d943695",
-      "title": "Kane becomes England's top World Cup scorer - and now chases other greats",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly9kp827ndo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 01:54:33 GMT",
-      "source": "BBC Sport Football",
+      "id": "daa0d0b5b328",
+      "title": "South Africa vs Canada team news LIVE!",
+      "url": "https://www.skysports.com/football/south-africa-vs-canada/live/549838",
+      "published_at": "Sun, 28 Jun 2026 18:30:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Harry Kane became England's all-time leading World Cup scorer with his 12th goal in the win against Panama on Saturday, but how does he compare to other country's greats?"
+      "summary": ""
+    },
+    {
+      "id": "ba00ace8a607",
+      "title": "Australia knock India out of Women's T20 World Cup",
+      "url": "https://www.skysports.com/cricket/news/12040/13558644/womens-t20-world-cup-australia-knock-india-out-of-tournament-with-six-wicket-win-to-set-up-semi-final-vs-west-indies",
+      "published_at": "Sun, 28 Jun 2026 17:55:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Australia eliminated India from the Women's T20 World Cup after claiming a six-wicket victory in their Group 1 clash at Lord's."
+    },
+    {
+      "id": "019e800db5c1",
+      "title": "Raducanu reveals injury concern but plans to play at Wimbledon",
+      "url": "https://www.skysports.com/tennis/news/12040/13558618/wimbledon-emma-raducanu-reveals-injury-concern-but-plans-to-play-in-womens-singles-first-round-on-monday",
+      "published_at": "Sun, 28 Jun 2026 16:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Emma Raducanu has confirmed she is dealing with another injury concern but still plans to play on the opening day of Wimbledon."
     },
     {
       "id": "1c692e751c7c",
@@ -206,60 +134,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Appy days! Everyone can stream the semi-finals and final of the ICC Women's T20 World Cup live for FREE on the Sky Sports App."
-    },
-    {
-      "id": "51a3f3836d4d",
-      "title": "Predict the World Cup knockout stages! Plot who will lift the trophy...",
-      "url": "https://www.skysports.com/football/news/12040/13558044/world-cup-2026-knockout-rounds-predictor-have-your-say-and-plot-englands-route-to-the-final",
-      "published_at": "Sun, 28 Jun 2026 09:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England are through to the knockout rounds of the World Cup - and you can predict how the rest of the tournament will play out! "
-    },
-    {
-      "id": "6a4f01e17cea",
-      "title": "Colombia finish as Group K winners with Portugal second after entertaining draw",
-      "url": "https://www.skysports.com/football/news/12040/13556705/world-cup-2026-colombia-0-0-portugal-davinson-sanchezs-late-goal-ruled-out-for-offside-as-colombia-finish-top-of-group-k-with-portugal-runners-up",
-      "published_at": "Sun, 28 Jun 2026 03:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Colombia secured top spot in Group K after an entertaining 0-0 draw against Portugal in their final group game, as Roberto Martinez's side finished runners-up."
-    },
-    {
-      "id": "43257c01d064",
-      "title": "World Cup group stage thrilled even without the jeopardy",
-      "url": "https://www.skysports.com/football/news/12040/13558475/world-cup-group-stage-summary-from-lionel-messi-to-cape-verde-tournament-has-thrilled-despite-lack-of-jeopardy",
-      "published_at": "Sun, 28 Jun 2026 07:35:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "For a World Cup group stage that was supposed to be without much jeopardy, it sure ended with drama. Sasa Kalajdzic's 96th-minute equaliser, just moments after Algeria had gone ahead, salvaged a 3-3 d"
-    },
-    {
-      "id": "c61dbaac5e83",
-      "title": "'Superstar' Bellingham inspires England to victory over Panama and top spot in group",
-      "url": "https://www.skysports.com/football/panama-vs-england/report/549837",
-      "published_at": "Sat, 27 Jun 2026 23:50:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Harry kane became England's all-time World Cup goalscorer but  it was Jude Bellingham who inspired Thomas Tuchel's side to top spot in Group L as he grabbed a goal and an assist to secure a 2-0 victor"
-    },
-    {
-      "id": "7f847d928e11",
-      "title": "Clarke steps down after Scotland's World Cup exit confirmed",
-      "url": "https://www.skysports.com/football/news/12040/13557622/steve-clarke-steps-down-as-scotland-boss-after-world-cup-elimination-confirmed",
-      "published_at": "Sat, 27 Jun 2026 23:45:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Steve Clarke has stepped down as Scotland head coach - moments after his side's World Cup exit was confirmed."
-    },
-    {
-      "id": "bbcab64a32d5",
-      "title": "England latest: Tuchel admits right-back concern after Quansah injury ",
-      "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "published_at": "Sun, 28 Jun 2026 07:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
