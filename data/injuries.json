@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-28T04:57:25.236061",
+    "last_updated": "2026-06-28T10:41:39.861007",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -782,25 +782,36 @@
   },
   "_news_injury_alerts": [
     {
-      "title": "Salah an injury doubt for Egypt's last-32 tie",
+      "title": "Spain's Williams on injury: One of my worst days",
       "nations": [
-        "Egypt",
-        "Australia"
+        "Spain",
+        "Uruguay"
       ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss",
-      "summary": "Egypt captain Mohamed Salah is a doubt for Friday's World Cup last-32 tie against Australia after suffering a hamstring injury.",
-      "published": "Sun, 28 Jun 2026 02:04:52 GMT"
+      "source": "ESPN FC",
+      "url": "https://www.espn.com/soccer/story/_/id/49200729/spain-nico-williams-injury-yeremy-pino-2026-world-cup",
+      "summary": "Spain winger Nico Williams said he had suffered \"one of the worst days of my life\" after an injury against Uruguay on Friday jeopardized his future participation in the World Cup.",
+      "published": "Sun, 28 Jun 2026 05:28:06 EST"
     },
     {
-      "title": "Scotland's elimination from World Cup confirmed",
+      "title": "Algeria and Austria both qualify for last 32 after dramatic injury-time goals",
       "nations": [
-        "Scotland"
+        "Austria",
+        "Algeria"
       ],
       "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cddl508zgp5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Scotland are out of the 2026 World Cup as they are unable to finish the group stage as one of the eight best third-placed teams.",
-      "published": "Sat, 27 Jun 2026 23:43:07 GMT"
+      "url": "https://www.bbc.co.uk/sport/football/videos/ce8jne01mn2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Algeria and Austria each score injury-time goals in a 3-3 draw, a result which sees both sides qualify from Group J and into the last 32 of the FIFA World Cup.",
+      "published": "Sun, 28 Jun 2026 05:00:13 GMT"
+    },
+    {
+      "title": "England latest: Tuchel admits right-back concern after Quansah injury ",
+      "nations": [
+        "England"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "summary": "",
+      "published": "Sun, 28 Jun 2026 07:00:00 BST"
     }
   ]
 }
