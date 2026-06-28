@@ -1,103 +1,76 @@
 {
-  "updated": "2026-06-27T17:36:51.403577",
-  "total_articles": 14,
+  "updated": "2026-06-28T04:57:25.182293",
+  "total_articles": 15,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 12,
-    "sky_sports": 2,
+    "bbc_sport": 10,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "02b7cf311c0e",
-      "title": "Where does Scotland's World Cup campaign leave Clarke?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckg4d3w9p4zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 15:50:25 GMT",
+      "id": "4adc86797aec",
+      "title": "Clarke steps down as Scotland boss after World Cup exit",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzq73x1p7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 23:37:18 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Did Steve Clarke get the best out of his Scotland squad at the 2026 World Cup as they face group-stage exit?"
+      "summary": "Steve Clarke resigns as Scotland head coach following the nation's group exit from the World Cup."
     },
     {
-      "id": "c169b0f8a94f",
-      "title": "Scotland's World Cup hopes at 0.07% - these are results they need",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 05:38:01 GMT",
+      "id": "dd92b1801cfb",
+      "title": "Job done - but England will not win World Cup unless they improve",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cg4wnp592z1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 01:05:27 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Defeat against Brazil left Scotland in a precarious position, but little has gone their way since either. "
+      "summary": "England did their job topping the group - but they can forget winning the World Cup if they do not improve, writes Phil McNulty."
     },
     {
-      "id": "2c3ccdc57892",
-      "title": "World Cup quiz: Name the team from England v Panama 2018",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj6pw405k91o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 14:50:33 GMT",
+      "id": "5e8491f0cc36",
+      "title": "England labour past Panama to qualify for last 32 as group winners",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm2r8yg74pgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 23:35:16 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England face Panama for the first time since a 6-1 win at Russia 2018. Can you remember the starting XI?"
+      "summary": "Goals from Jude Bellingham and Harry Kane help England secure a 2-0 win over Panama, as Thomas Tuchel's side qualify for the World Cup last 32 as winners of Group L."
     },
     {
-      "id": "a5d9724a1450",
-      "title": "Man Utd waiting on Ugarte injury after he leaves pitch on stretcher",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yz923kk3po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 10:36:07 GMT",
+      "id": "6c840d943695",
+      "title": "Kane becomes England's top World Cup scorer - and now chases other greats",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly9kp827ndo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 01:54:33 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Manchester United are waiting to discover the extent of Manuel Ugarte's injury after the midfielder was stretchered off during Uruguay's World Cup defeat by Spain."
+      "summary": "Harry Kane became England's all-time leading World Cup scorer with his 12th goal in the win against Panama on Saturday, but how does he compare to other country's greats?"
     },
     {
-      "id": "5ade6a1ac961",
-      "title": "'No one could see it coming' - Tuchel defends selection after James injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly70v1n22eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 02:12:58 GMT",
+      "id": "a0c004b5f939",
+      "title": "Salah an injury doubt for Egypt's last-32 tie",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 02:04:52 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Thomas Tuchel defends his full-back selections after confirming Reece James will miss the match against Panama through injury."
+      "summary": "Egypt captain Mohamed Salah is a doubt for Friday's World Cup last-32 tie against Australia after suffering a hamstring injury."
     },
     {
-      "id": "89be9dd4fbce",
-      "title": "Belgium thrash New Zealand to win Group G",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6215810pw7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 06:18:13 GMT",
+      "id": "143d63af16b4",
+      "title": "Scotland's ill-fated World Cup story finally at a sorry end",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzdwz890go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 23:21:55 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Belgium defeat New Zealand 5-1 to qualify for the World Cup round of 32 as winners of Group G on goal difference."
+      "summary": "BBC Sport Scotland's chief sportswriter Tom English sums up his verdict on the nation's World Cup exit."
     },
     {
-      "id": "2b1291ac56d4",
-      "title": "Cape Verde's incredible World Cup journey continues after Saudi draw",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cql1v2p7949o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 02:53:18 GMT",
+      "id": "5a112b55051b",
+      "title": "Kane breaks England World Cup goals record to double lead against Panama",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9w27q780xqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 22:56:09 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Cape Verde deliver a valiant performance to earn their third draw of the group stage, a result that means they qualify for the last 32 in their World Cup debut while Saudi Arabia crash out.\n\n\n"
-    },
-    {
-      "id": "32dc35f4e796",
-      "title": "Who am I? Guess World Cup star No 20",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgjpzvlnd4wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 05:57:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's World Cup player in as few attempts as possible?"
-    },
-    {
-      "id": "e2dbf9032b56",
-      "title": "Messi to start final Argentina group match on bench",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd95zlv7jz7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 07:04:02 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "World Cup top scorer Lionel Messi will start Argentina's final group match against Jordan on the bench, manager Lionel Scaloni confirms."
-    },
-    {
-      "id": "1827141ca628",
-      "title": "From supermarket to World Cup - the forgotten England team",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn4rlm9834no?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 08:03:13 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "New Ferens Park feels a world away from the New York New Jersey Stadium, but it was on this artificial pitch in the north east of England where a future member of Thomas Tuchel's World Cup squad got w"
+      "summary": "Harry Kane scores the 11th World Cup goal of his career to overtake Gary Lineker as England's all-time top scorer in the competition, as England take a 2-0 lead against Panama in their final Group L g"
     },
     {
       "id": "3921b01789a1",
@@ -118,22 +91,58 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "81bdd9dc0e81",
-      "title": "Raducanu ends Wimbledon practice session early to add to injury fears",
-      "url": "https://www.skysports.com/tennis/news/12040/13558318/emma-raducanu-wimbledon-fitness-concerns-grow-as-british-no-1-cuts-short-practice-session",
-      "published_at": "Sat, 27 Jun 2026 15:51:00 BST",
-      "source": "Sky Sports Football",
+      "id": "7b83353be79a",
+      "title": "Scotland's elimination from World Cup confirmed",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cddl508zgp5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 27 Jun 2026 23:43:07 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Emma Raducanu cut short her practice session at Wimbledon before cancelling a scheduled press conference as concerns about her fitness deepened."
+      "summary": "Scotland are out of the 2026 World Cup as they are unable to finish the group stage as one of the eight best third-placed teams."
     },
     {
-      "id": "03751d8dd42c",
-      "title": "England look to continue unbeaten T20 World Cup run against New Zealand LIVE!",
-      "url": "https://www.skysports.com/cricket/live-blog/12040/13558334/england-vs-new-zealand-icc-womens-t20-world-cup-cricket-score-updates-video-and-analysis-from-the-oval-as-hosts-look-to-continue-unbeaten-run",
-      "published_at": "Sat, 27 Jun 2026 18:00:00 BST",
+      "id": "1c692e751c7c",
+      "title": "Watch Women's T20 World Cup semi-finals and final FREE on Sky Sports App",
+      "url": "https://www.skysports.com/cricket/news/12040/13550699/icc-womens-t20-world-cup-free-live-cricket-streams-on-sky-sports-app-for-all-england-ireland-and-scotland-games",
+      "published_at": "Tue, 23 Jun 2026 08:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England are out to stay unbeaten at the ICC Women's T20 World Cup in their final group stage match against New Zealand at The Kia Oval, but will be without their captain Nat Sciver-Brunt who is out wi"
+      "summary": "Appy days! Everyone can stream the semi-finals and final of the ICC Women's T20 World Cup live for FREE on the Sky Sports App."
+    },
+    {
+      "id": "6a4f01e17cea",
+      "title": "Colombia finish as Group K winners with Portugal second after entertaining draw",
+      "url": "https://www.skysports.com/football/news/12040/13556705/world-cup-2026-colombia-0-0-portugal-davinson-sanchezs-late-goal-ruled-out-for-offside-as-colombia-finish-top-of-group-k-with-portugal-runners-up",
+      "published_at": "Sun, 28 Jun 2026 03:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Colombia secured top spot in Group K after an entertaining 0-0 draw against Portugal in their final group game, as Roberto Martinez's side finish as runners-up."
+    },
+    {
+      "id": "c61dbaac5e83",
+      "title": "'Superstar' Bellingham inspires England to victory over Panama and top spot in group",
+      "url": "https://www.skysports.com/football/panama-vs-england/report/549837",
+      "published_at": "Sat, 27 Jun 2026 23:50:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Harry kane became England's all-time World Cup goalscorer but  it was Jude Bellingham who inspired Thomas Tuchel's side to top spot in Group L as he grabbed a goal and an assist to secure a 2-0 victor"
+    },
+    {
+      "id": "7f847d928e11",
+      "title": "Clarke steps down after Scotland's World Cup exit confirmed",
+      "url": "https://www.skysports.com/football/news/12040/13557622/steve-clarke-steps-down-as-scotland-boss-after-world-cup-elimination-confirmed",
+      "published_at": "Sat, 27 Jun 2026 23:45:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Steve Clarke has stepped down as Scotland head coach - moments after his side's World Cup exit was confirmed."
+    },
+    {
+      "id": "732a8f3b0149",
+      "title": "Wyatt-Hodge masterclass helps England send New Zealand packing at T20 World Cup",
+      "url": "https://www.skysports.com/cricket/news/12040/13558362/icc-womens-t20-world-cup-danni-wyatt-hodge-helps-england-remain-unbeaten-as-they-end-new-zealands-reign",
+      "published_at": "Sat, 27 Jun 2026 21:47:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Danni Wyatt-Hodge put on a batting masterclass to help England remain unbeaten and send defending champions New Zealand home with a brilliant win at The Oval."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-27T17:36:51.463748",
+    "last_updated": "2026-06-28T04:57:25.236061",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -782,25 +782,25 @@
   },
   "_news_injury_alerts": [
     {
-      "title": "Where does Scotland's World Cup campaign leave Clarke?",
+      "title": "Salah an injury doubt for Egypt's last-32 tie",
+      "nations": [
+        "Egypt",
+        "Australia"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss",
+      "summary": "Egypt captain Mohamed Salah is a doubt for Friday's World Cup last-32 tie against Australia after suffering a hamstring injury.",
+      "published": "Sun, 28 Jun 2026 02:04:52 GMT"
+    },
+    {
+      "title": "Scotland's elimination from World Cup confirmed",
       "nations": [
         "Scotland"
       ],
       "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckg4d3w9p4zo?at_medium=RSS&at_campaign=rss",
-      "summary": "Did Steve Clarke get the best out of his Scotland squad at the 2026 World Cup as they face group-stage exit?",
-      "published": "Sat, 27 Jun 2026 15:50:25 GMT"
-    },
-    {
-      "title": "Man Utd waiting on Ugarte injury after he leaves pitch on stretcher",
-      "nations": [
-        "Spain",
-        "Uruguay"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yz923kk3po?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United are waiting to discover the extent of Manuel Ugarte's injury after the midfielder was stretchered off during Uruguay's World Cup defeat by Spain.",
-      "published": "Sat, 27 Jun 2026 10:36:07 GMT"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cddl508zgp5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Scotland are out of the 2026 World Cup as they are unable to finish the group stage as one of the eight best third-placed teams.",
+      "published": "Sat, 27 Jun 2026 23:43:07 GMT"
     }
   ]
 }
