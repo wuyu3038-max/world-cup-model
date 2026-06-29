@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-29T05:08:08.435275",
+    "last_updated": "2026-06-29T12:47:17.456216",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -790,18 +790,27 @@
       "source": "ESPN FC",
       "url": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
       "summary": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
-      "published": "Sun, 28 Jun 2026 21:58:39 EST"
+      "published": "Mon, 29 Jun 2026 02:11:54 EST"
     },
     {
-      "title": "Ugarte has 'most serious injury footballer can face'",
+      "title": "Jiménez is lucky to be alive, never mind living his World Cup dream with Mexico",
       "nations": [
-        "Spain",
-        "Uruguay"
+        "Mexico"
+      ],
+      "source": "ESPN FC",
+      "url": "https://www.espn.com/soccer/story/_/id/49200285/jimenez-lucky-alive-never-mind-living-world-cup-dream",
+      "summary": "Six years after suffering a life-threatening skull fracture, Raúl Jiménez is back at the top, leading Mexico at this World Cup on home soil.",
+      "published": "Mon, 29 Jun 2026 03:32:49 EST"
+    },
+    {
+      "title": "Sackings, death threats and fury – World Cup exit leaves South Korean football in crisis",
+      "nations": [
+        "South Korea"
       ],
       "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain.",
-      "published": "Sun, 28 Jun 2026 17:42:20 GMT"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy049pen9q5o?at_medium=RSS&at_campaign=rss",
+      "summary": "After crashing out of the World Cup, BBC Sport investigates the rise and fall of South Korean football. ",
+      "published": "Mon, 29 Jun 2026 12:03:17 GMT"
     },
     {
       "title": "Eustaquio scores in injury-time to take Canada through to the last 16",
@@ -813,27 +822,6 @@
       "url": "https://www.bbc.co.uk/sport/videos/c79yr8npv9go?at_medium=RSS&at_campaign=rss",
       "summary": "Stephen Eustaquio scores the only goal of the match against South Africa as Canada progresses to the last 16 of the 2026 World Cup.",
       "published": "Sun, 28 Jun 2026 21:24:53 GMT"
-    },
-    {
-      "title": "Algeria and Austria both qualify for last 32 after dramatic injury-time goals",
-      "nations": [
-        "Austria",
-        "Algeria"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ce8jne01mn2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Algeria and Austria each score injury-time goals in a 3-3 draw, a result which sees both sides qualify from Group J and into the last 32 of the FIFA World Cup.",
-      "published": "Sun, 28 Jun 2026 05:00:13 GMT"
-    },
-    {
-      "title": "Australia knock India out of Women's T20 World Cup",
-      "nations": [
-        "Australia"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/cricket/news/12040/13558644/womens-t20-world-cup-australia-knock-india-out-of-tournament-with-six-wicket-win-to-set-up-semi-final-vs-west-indies",
-      "summary": "Australia eliminated India from the Women's T20 World Cup after claiming a six-wicket victory in their Group 1 clash at Lord's.",
-      "published": "Sun, 28 Jun 2026 17:55:00 BST"
     }
   ]
 }
