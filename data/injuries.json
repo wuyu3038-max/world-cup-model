@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-29T12:47:17.456216",
+    "last_updated": "2026-06-29T18:29:37.825851",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -781,37 +781,6 @@
     }
   },
   "_news_injury_alerts": [
-    {
-      "title": "Uruguay, Utd's Ugarte suffers knee ligament injury...",
-      "nations": [
-        "Spain",
-        "Uruguay"
-      ],
-      "source": "ESPN FC",
-      "url": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
-      "summary": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
-      "published": "Mon, 29 Jun 2026 02:11:54 EST"
-    },
-    {
-      "title": "Jiménez is lucky to be alive, never mind living his World Cup dream with Mexico",
-      "nations": [
-        "Mexico"
-      ],
-      "source": "ESPN FC",
-      "url": "https://www.espn.com/soccer/story/_/id/49200285/jimenez-lucky-alive-never-mind-living-world-cup-dream",
-      "summary": "Six years after suffering a life-threatening skull fracture, Raúl Jiménez is back at the top, leading Mexico at this World Cup on home soil.",
-      "published": "Mon, 29 Jun 2026 03:32:49 EST"
-    },
-    {
-      "title": "Sackings, death threats and fury – World Cup exit leaves South Korean football in crisis",
-      "nations": [
-        "South Korea"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy049pen9q5o?at_medium=RSS&at_campaign=rss",
-      "summary": "After crashing out of the World Cup, BBC Sport investigates the rise and fall of South Korean football. ",
-      "published": "Mon, 29 Jun 2026 12:03:17 GMT"
-    },
     {
       "title": "Eustaquio scores in injury-time to take Canada through to the last 16",
       "nations": [

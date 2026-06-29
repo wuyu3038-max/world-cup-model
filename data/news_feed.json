@@ -1,175 +1,22 @@
 {
-  "updated": "2026-06-29T12:47:17.400451",
-  "total_articles": 23,
+  "updated": "2026-06-29T18:29:37.765460",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 10,
-    "bbc_sport": 13,
+    "espn_fc": 0,
+    "bbc_sport": 11,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "8c00d26412a0",
-      "title": "From Messi to Haaland: Which World Cup frontrunner...",
-      "url": "https://www.espn.com/soccer/story/_/id/49209852/world-cup-superstars-lionel-messi-cristiano-ronaldo-kylian-mbappe-vinicius-erling-haaland-dependency",
-      "published_at": "Mon, 29 Jun 2026 03:50:36 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The superstars have shown up at the 2026 World Cup, but which team is most reliant on its talisman to keep moving through the competition?"
-    },
-    {
-      "id": "f9111803a698",
-      "title": "Uruguay, Utd's Ugarte suffers knee ligament injury...",
-      "url": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
-      "published_at": "Mon, 29 Jun 2026 02:11:54 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed."
-    },
-    {
-      "id": "16ce56e6e985",
-      "title": "World Cup Daily LIVE: Marsch's moves help Canada p...",
-      "url": "https://www.espn.com/soccer/story/_/id/49213665/world-cup-daily-live-marsch-moves-help-canada-progress-brazil-japan-germany-paraguay-netherlands-morocco",
-      "published_at": "Mon, 29 Jun 2026 05:34:15 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The knockout stage has officially begun! The round of 32 sees three teams try to join Canada in the last-16."
-    },
-    {
-      "id": "da83c322a41d",
-      "title": "World Cup 2026 Power Rankings after group stage: France still No. 1?",
-      "url": "https://www.espn.com/soccer/story/_/id/49196824/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
-      "published_at": "Sun, 28 Jun 2026 11:34:13 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "And then there were 32. We're done with the group stage, but what do our writers and experts think the field of favorites looks like as we enter the win-or-go-home phase?"
-    },
-    {
-      "id": "6d814f83edb1",
-      "title": "This USMNT squad is full of leaders, not just capt...",
-      "url": "https://www.espn.com/soccer/story/_/id/49196528/usmnt-squad-full-leaders-world-cup-knockouts-not-just-captain-ream",
-      "published_at": "Mon, 29 Jun 2026 04:24:38 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "A quick look at the USMNT roster reveals it is rife with leaders of different types and temperaments, which is helping the team find success."
-    },
-    {
-      "id": "e7ad65070b9e",
-      "title": "World Cup VAR review: Why didn't Canada get a pena...",
-      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Mon, 29 Jun 2026 03:47:45 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
-    },
-    {
-      "id": "86bc55d392a3",
-      "title": "Inside how a U.S. academy helped mold World Cup ph...",
-      "url": "https://www.espn.com/soccer/story/_/id/49200323/inside-how-us-academy-helped-mould-world-cup-phenom-yan-diomande",
-      "published_at": "Mon, 29 Jun 2026 03:31:18 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Teenager Yan Diomande is a top target for Europe's biggest clubs this summer. Before he was a star, though, he was a promising winger in Florida called \"Dio.\""
-    },
-    {
-      "id": "34ffb13ba917",
-      "title": "Jiménez is lucky to be alive, never mind living his World Cup dream with Mexico",
-      "url": "https://www.espn.com/soccer/story/_/id/49200285/jimenez-lucky-alive-never-mind-living-world-cup-dream",
-      "published_at": "Mon, 29 Jun 2026 03:32:49 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Six years after suffering a life-threatening skull fracture, Raúl Jiménez is back at the top, leading Mexico at this World Cup on home soil."
-    },
-    {
-      "id": "2e8e63384697",
-      "title": "World Cup bracket overreactions: How far will USMN...",
-      "url": "https://www.espn.com/soccer/story/_/id/49167690/judging-overreactions-world-cup-bracket-knockout-rounds-usmnt-argentina-france-cape-verde",
-      "published_at": "Sun, 28 Jun 2026 15:01:16 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "It's the perfect time to take stock of which teams are set up for success and which might be tumbling out of the tournament earlier than expected."
-    },
-    {
-      "id": "ab209949cafd",
-      "title": "Cape Verde took advantage of a 48-team World Cup",
-      "url": "https://www.espn.com/soccer/story/_/id/49194935/cape-verde-world-cup-success-isnt-just-every-soccer-fan-enjoy",
-      "published_at": "Mon, 29 Jun 2026 03:30:24 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The big nations win the World Cup, but the small nations make it. Cape Verde's progress to the knockouts was for everyone."
-    },
-    {
-      "id": "281e4facb4f9",
-      "title": "Clarke says standing down 'easy' decision after World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 09:25:31 GMT",
+      "id": "71b0ea4b514d",
+      "title": "Africa's World Cup success leaves Asia looking for answers",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2ey1pwkz3wo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 29 Jun 2026 14:17:14 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Steve Clarke says it was an easy decision to step down as Scotland head coach because he always planned to depart if they did not reach the knockout stage."
-    },
-    {
-      "id": "bfe7b4c8584a",
-      "title": "Move over Messi and Ronaldo - the new generation shining at World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gy9yd8lgwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 10:33:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport looks at five young players who are making a big impression on the same World Cup stage as veterans Lionel Messi and Cristiano Ronaldo."
-    },
-    {
-      "id": "7c9a9a55308e",
-      "title": "Could a heatwave make World Cup matches 'unsafe' this week?",
-      "url": "https://www.bbc.co.uk/weather/articles/c1lyz4jy425o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 11:36:07 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Temperatures are expected to soar across parts of the US and Canada this week which could bring significant health impacts to some World Cup matches. "
-    },
-    {
-      "id": "ea4040d7e7a5",
-      "title": "'Big brother' Van Dijk key to Dutch World Cup dreams",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9927m2jlx0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 11:52:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "France's World Cup winner Olivier Giroud explains why Netherlands defender Virgil van Dijk is still the main man for his national team."
-    },
-    {
-      "id": "aa057ff0ab3a",
-      "title": "Sackings, death threats and fury – World Cup exit leaves South Korean football in crisis",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy049pen9q5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 12:03:17 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "After crashing out of the World Cup, BBC Sport investigates the rise and fall of South Korean football. "
-    },
-    {
-      "id": "3047cb80ec3e",
-      "title": "Brazil going out? Chris Sutton predicts World Cup's last-32 matches",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 19:14:59 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo."
-    },
-    {
-      "id": "bf9fd0395285",
-      "title": "Great stories, little jeopardy - does the new World Cup format work?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyr1rwp5e3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 05:26:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "New format, new teams and fascinating storylines. But did the new World Cup group stage really work?"
-    },
-    {
-      "id": "34cf420fff11",
-      "title": "World Cup quiz: How well do you know the group stage in numbers?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy8wvqp4w2wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 10:38:12 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The biggest ever group stage at a World Cup is over - test yourself on the numbers of the first round of games."
+      "summary": "The 2026 World Cup has been an amazing story for African football - while Asia has been left to reflect on failure."
     },
     {
       "id": "17a7d814bf71",
@@ -190,22 +37,49 @@
       "summary": "Goals from Jude Bellingham and Harry Kane help England secure a 2-0 win over Panama, as Thomas Tuchel's side qualify for the World Cup last 32 as winners of Group L."
     },
     {
-      "id": "63d6045d19df",
-      "title": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 00:02:44 GMT",
+      "id": "bfe7b4c8584a",
+      "title": "Move over Messi and Ronaldo - the new generation shining at World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gy9yd8lgwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 29 Jun 2026 10:33:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Canada are making history at this World Cup with a run that is likely to change the face of football in the country forever."
+      "summary": "BBC Sport looks at five young players who are making a big impression on the same World Cup stage as veterans Lionel Messi and Cristiano Ronaldo."
     },
     {
-      "id": "8a551e2b6a02",
-      "title": "Who am I? Guess World Cup star No 22",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1d2677d495o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 05:48:15 GMT",
+      "id": "ea4040d7e7a5",
+      "title": "'Big brother' Van Dijk key to Dutch World Cup dreams",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9927m2jlx0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 29 Jun 2026 11:52:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "France's World Cup winner Olivier Giroud explains why Netherlands defender Virgil van Dijk is still the main man for his national team."
+    },
+    {
+      "id": "7c9a9a55308e",
+      "title": "Could a heatwave make World Cup matches 'unsafe' this week?",
+      "url": "https://www.bbc.co.uk/weather/articles/c1lyz4jy425o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 29 Jun 2026 11:36:07 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Temperatures are expected to soar across parts of the US and Canada this week which could bring significant health impacts to some World Cup matches. "
+    },
+    {
+      "id": "281e4facb4f9",
+      "title": "Clarke says standing down 'easy' decision after World Cup exit",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 29 Jun 2026 09:25:31 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Steve Clarke says it was an easy decision to step down as Scotland head coach because he always planned to depart if they did not reach the knockout stage."
+    },
+    {
+      "id": "3047cb80ec3e",
+      "title": "Brazil going out? Chris Sutton predicts World Cup's last-32 matches",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 19:14:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo."
     },
     {
       "id": "3921b01789a1",
@@ -215,6 +89,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "All the TV and radio details for each of the 2026 World Cup knockout games. "
+    },
+    {
+      "id": "004c4013c1cb",
+      "title": "Catch up on the World Cup without any spoilers",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0qy0zn231yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 11 Jun 2026 17:08:40 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
+    },
+    {
+      "id": "63d6045d19df",
+      "title": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 29 Jun 2026 00:02:44 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Canada are making history at this World Cup with a run that is likely to change the face of football in the country forever."
     }
   ]
 }
