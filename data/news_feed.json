@@ -1,14 +1,131 @@
 {
-  "updated": "2026-06-28T17:43:47.419193",
-  "total_articles": 14,
+  "updated": "2026-06-29T05:08:08.373891",
+  "total_articles": 25,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 10,
+    "espn_fc": 10,
+    "bbc_sport": 11,
     "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "6d814f83edb1",
+      "title": "USMNT squad is full of leaders for World Cup knock...",
+      "url": "https://www.espn.com/soccer/story/_/id/49196528/usmnt-squad-full-leaders-world-cup-knockouts-not-just-captain-ream",
+      "published_at": "Sun, 28 Jun 2026 22:18:40 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "A quick look at the USMNT roster reveals it is rife with leaders of different types and temperaments, which is helping the team find success."
+    },
+    {
+      "id": "d9af34e2b1eb",
+      "title": "Not laughing now: How World Cup fans vindicated Mc...",
+      "url": "https://www.espn.com/soccer/story/_/id/49190854/world-cup-fans-vindicate-usmnt-weston-mckennie-love-ranch-american-dressing",
+      "published_at": "Sun, 28 Jun 2026 22:18:40 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "null"
+    },
+    {
+      "id": "f9111803a698",
+      "title": "Uruguay, Utd's Ugarte suffers knee ligament injury...",
+      "url": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+      "published_at": "Sun, 28 Jun 2026 21:58:39 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed."
+    },
+    {
+      "id": "e7ad65070b9e",
+      "title": "World Cup VAR review: Why didn't Canada get a pena...",
+      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+      "published_at": "Sun, 28 Jun 2026 23:19:35 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+    },
+    {
+      "id": "da83c322a41d",
+      "title": "World Cup 2026 Power Rankings after group stage: France still No. 1?",
+      "url": "https://www.espn.com/soccer/story/_/id/49196824/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
+      "published_at": "Sun, 28 Jun 2026 11:34:13 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "And then there were 32. We're done with the group stage, but what do our writers and experts think the field of favorites looks like as we enter the win-or-go-home phase?"
+    },
+    {
+      "id": "2e8e63384697",
+      "title": "World Cup bracket overreactions: How far will USMN...",
+      "url": "https://www.espn.com/soccer/story/_/id/49167690/judging-overreactions-world-cup-bracket-knockout-rounds-usmnt-argentina-france-cape-verde",
+      "published_at": "Sun, 28 Jun 2026 15:01:16 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "It's the perfect time to take stock of which teams are set up for success and which might be tumbling out of the tournament earlier than expected."
+    },
+    {
+      "id": "86bc55d392a3",
+      "title": "Inside how a U.S. academy helped mold World Cup ph...",
+      "url": "https://www.espn.com/soccer/story/_/id/49200323/inside-how-us-academy-helped-mould-world-cup-phenom-yan-diomande",
+      "published_at": "Sun, 28 Jun 2026 21:33:12 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Teenager Yan Diomande is a top target for Europe's biggest clubs this summer. Before he was a star, though, he was a promising winger in Florida called \"Dio.\""
+    },
+    {
+      "id": "c295a7cf832a",
+      "title": "Gab Marcotti's Best XI of World Cup group stage: M...",
+      "url": "https://www.espn.com/soccer/story/_/id/49208415/world-cup-best-xi-group-stage-lionel-messi-kylian-mbappe-vinicius-junior-gab-marcotti",
+      "published_at": "Sun, 28 Jun 2026 19:06:07 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The 2026 World Cup group stage has given us tons to cheer about, from superstars on form to wonderful underdog stories. How do you turn that into a best XI? Gab Marcotti gives it a shot."
+    },
+    {
+      "id": "5c5cd93d8c69",
+      "title": "Odds to win the World Cup: France and Argentina fa...",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+      "published_at": "Sun, 28 Jun 2026 14:45:35 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Odds for every team to advance through the knockout stage and to win the 2026 World Cup."
+    },
+    {
+      "id": "ab209949cafd",
+      "title": "Cape Verde took advantage of a 48-team World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/49194935/cape-verde-world-cup-success-isnt-just-every-soccer-fan-enjoy",
+      "published_at": "Sun, 28 Jun 2026 15:45:29 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The big nations win the World Cup, but the small nations make it. Cape Verde's progress to the knockouts was for everyone."
+    },
+    {
+      "id": "63d6045d19df",
+      "title": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 29 Jun 2026 00:02:44 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Canada are making history at this World Cup with a run that is likely to change the face of football in the country forever."
+    },
+    {
+      "id": "3047cb80ec3e",
+      "title": "France the team to beat? Chris Sutton predicts World Cup's last-32 matches",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 19:14:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo."
+    },
+    {
+      "id": "f94a93f06228",
+      "title": "Ugarte has 'most serious injury footballer can face'",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 17:42:20 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain."
+    },
     {
       "id": "31d1ab0930cc",
       "title": "Are Iran the unluckiest side in World Cup history?",
@@ -17,6 +134,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Iran had a place in the last 32 of the World Cup snatched away from them at the last minute not once but twice."
+    },
+    {
+      "id": "17a7d814bf71",
+      "title": "Eustaquio scores in injury-time to take Canada through to the last 16",
+      "url": "https://www.bbc.co.uk/sport/videos/c79yr8npv9go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 21:24:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Stephen Eustaquio scores the only goal of the match against South Africa as Canada progresses to the last 16 of the 2026 World Cup."
     },
     {
       "id": "5e8491f0cc36",
@@ -28,13 +154,13 @@
       "summary": "Goals from Jude Bellingham and Harry Kane help England secure a 2-0 win over Panama, as Thomas Tuchel's side qualify for the World Cup last 32 as winners of Group L."
     },
     {
-      "id": "f94a93f06228",
-      "title": "Ugarte has 'most serious injury footballer can face'",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 17:42:20 GMT",
+      "id": "0d2c472c54ca",
+      "title": "Algeria and Austria both qualify for last 32 after dramatic injury-time goals",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ce8jne01mn2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 05:00:13 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain."
+      "summary": "Algeria and Austria each score injury-time goals in a 3-3 draw, a result which sees both sides qualify from Group J and into the last 32 of the FIFA World Cup."
     },
     {
       "id": "9cbb34979c1b",
@@ -55,33 +181,6 @@
       "summary": "Crystal Palace and Sunderland lead the Premier League’s World Cup scoring charts after the 2026 group stage, ahead of Arsenal, Liverpool and Manchester City."
     },
     {
-      "id": "0d2c472c54ca",
-      "title": "Algeria and Austria both qualify for last 32 after dramatic injury-time goals",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ce8jne01mn2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 05:00:13 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Algeria and Austria each score injury-time goals in a 3-3 draw, a result which sees both sides qualify from Group J and into the last 32 of the FIFA World Cup."
-    },
-    {
-      "id": "38dd0638ab91",
-      "title": "How to win a World Cup penalty shootout",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd9px47g8jlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 09:38:42 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "We have a look at what can be learned from every World Cup penalty taken in a shootout ever."
-    },
-    {
-      "id": "dd92b1801cfb",
-      "title": "Job done - but England will not win World Cup unless they improve",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cg4wnp592z1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 01:05:27 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England did their job topping the group - but they can forget winning the World Cup if they do not improve, writes Phil McNulty."
-    },
-    {
       "id": "3921b01789a1",
       "title": "Where to watch the World Cup on the BBC and ITV",
       "url": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
@@ -100,13 +199,31 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "daa0d0b5b328",
-      "title": "South Africa vs Canada team news LIVE!",
-      "url": "https://www.skysports.com/football/south-africa-vs-canada/live/549838",
-      "published_at": "Sun, 28 Jun 2026 18:30:00 BST",
+      "id": "32e45f9f602a",
+      "title": "Papers: James optimistic he can feature again at World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13558706/reece-james-england-defender-confident-of-playing-again-at-world-cup-paper-talk",
+      "published_at": "Sun, 28 Jun 2026 22:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "The top stories and transfer rumours from Monday's newspapers..."
+    },
+    {
+      "id": "327ae93c5693",
+      "title": "Raducanu pulls out of Wimbledon due to injury",
+      "url": "https://www.skysports.com/tennis/news/12040/13558321/emma-raducanu-out-of-wimbledon-british-no-1-withdraws-following-foot-injury-as-frustrating-season-continues",
+      "published_at": "Sun, 28 Jun 2026 22:19:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Emma Raducanu has withdrawn from Wimbledon due to injury the night before her opening match."
+    },
+    {
+      "id": "b5b936eb7f3e",
+      "title": "Magic Weekend 2026: All you need to know as Super League heads to Everton",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13558482/magic-weekend-2026-fixtures-venue-timings-form-as-super-league-takes-over-evertons-hill-dickinson-stadium",
+      "published_at": "Mon, 29 Jun 2026 06:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "With Super League heading to a brand new venue, make sure to catch up on all you need to know ahead of Magic Weekend 2026..."
     },
     {
       "id": "ba00ace8a607",
@@ -116,24 +233,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Australia eliminated India from the Women's T20 World Cup after claiming a six-wicket victory in their Group 1 clash at Lord's."
-    },
-    {
-      "id": "019e800db5c1",
-      "title": "Raducanu reveals injury concern but plans to play at Wimbledon",
-      "url": "https://www.skysports.com/tennis/news/12040/13558618/wimbledon-emma-raducanu-reveals-injury-concern-but-plans-to-play-in-womens-singles-first-round-on-monday",
-      "published_at": "Sun, 28 Jun 2026 16:30:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Emma Raducanu has confirmed she is dealing with another injury concern but still plans to play on the opening day of Wimbledon."
-    },
-    {
-      "id": "1c692e751c7c",
-      "title": "Watch Women's T20 World Cup semi-finals and final FREE on Sky Sports App",
-      "url": "https://www.skysports.com/cricket/news/12040/13550699/icc-womens-t20-world-cup-free-live-cricket-streams-on-sky-sports-app-for-all-england-ireland-and-scotland-games",
-      "published_at": "Tue, 23 Jun 2026 08:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Appy days! Everyone can stream the semi-finals and final of the ICC Women's T20 World Cup live for FREE on the Sky Sports App."
     }
   ]
 }

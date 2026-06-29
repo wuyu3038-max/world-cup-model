@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-28T17:43:47.478156",
+    "last_updated": "2026-06-29T05:08:08.435275",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -782,6 +782,17 @@
   },
   "_news_injury_alerts": [
     {
+      "title": "Uruguay, Utd's Ugarte suffers knee ligament injury...",
+      "nations": [
+        "Spain",
+        "Uruguay"
+      ],
+      "source": "ESPN FC",
+      "url": "https://www.espn.com/soccer/story/_/id/49207806/uruguay-manuel-ugarte-faces-long-injury-lay-following-knee-ligament-injury",
+      "summary": "Uruguay midfielder Manuel Ugarte has suffered a knee ligament injury in his final World Cup group stage match against Spain, Manchester United have confirmed.",
+      "published": "Sun, 28 Jun 2026 21:58:39 EST"
+    },
+    {
       "title": "Ugarte has 'most serious injury footballer can face'",
       "nations": [
         "Spain",
@@ -791,6 +802,17 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
       "summary": "Manchester United have confirmed that midfielder Manuel Ugarte suffered knee ligament damage during Uruguay's World Cup defeat by Spain.",
       "published": "Sun, 28 Jun 2026 17:42:20 GMT"
+    },
+    {
+      "title": "Eustaquio scores in injury-time to take Canada through to the last 16",
+      "nations": [
+        "Canada",
+        "South Africa"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/videos/c79yr8npv9go?at_medium=RSS&at_campaign=rss",
+      "summary": "Stephen Eustaquio scores the only goal of the match against South Africa as Canada progresses to the last 16 of the 2026 World Cup.",
+      "published": "Sun, 28 Jun 2026 21:24:53 GMT"
     },
     {
       "title": "Algeria and Austria both qualify for last 32 after dramatic injury-time goals",
