@@ -1,67 +1,67 @@
 {
-  "updated": "2026-06-30T11:29:56.735265",
-  "total_articles": 17,
+  "updated": "2026-06-30T18:19:22.061615",
+  "total_articles": 13,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 9,
-    "bbc_sport": 5,
-    "sky_sports": 3,
+    "espn_fc": 8,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "e7ad65070b9e",
-      "title": "World Cup VAR review: Why Germany were wrongly den...",
-      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Tue, 30 Jun 2026 00:25:28 EST",
+      "id": "c159a472dd39",
+      "title": "World Cup live updates: Nusa's curling effort has ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49223441/paraguay-tv-cuts-vital-pen-mexico-fans-get-noisy-ecuador-hotel",
+      "published_at": "Tue, 30 Jun 2026 14:10:37 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+      "summary": "null"
     },
     {
-      "id": "8b91af12c125",
-      "title": "Brazil survive World Cup scare against Japan",
-      "url": "https://www.espn.com/soccer/story/_/id/49217693/brazil-survive-world-cup-scare-japan-advance",
-      "published_at": "Tue, 30 Jun 2026 00:24:23 EST",
+      "id": "d0b155807dec",
+      "title": "Son apologizes for South Korea World Cup exit",
+      "url": "https://www.espn.com/soccer/story/_/id/49226479/son-heung-min-indescribably-hurt-south-korea-world-cup-exit",
+      "published_at": "Tue, 30 Jun 2026 13:29:59 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "Casemiro said Brazil avoided one of the all-time great World Cup shocks against Japan by keeping \"calm.\""
-    },
-    {
-      "id": "ef7cab6aa1bb",
-      "title": "World Cup Daily LIVE: Paraguay TV cuts out during ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49223441/world-cup-daily-live-norway-ivory-coast-france-sweden-mexico-ecuador-round-32",
-      "published_at": "Tue, 30 Jun 2026 05:33:23 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Follow live below for all the biggest highlights, news, reaction and analysis on another busy day of World Cup action."
-    },
-    {
-      "id": "ab55974c9fea",
-      "title": "Brazil avoid World Cup shock with late win vs. Jap...",
-      "url": "https://www.espn.com/soccer/story/_/id/49216717/brazil-avoid-world-cup-shock-late-win-vs-japan-reach-round-16",
-      "published_at": "Tue, 30 Jun 2026 03:03:17 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Brazil's ageing stars left it late to beat Japan 2-1 and reach the World Cup's round of 16. Is their team too old to make a deep run?"
-    },
-    {
-      "id": "86bc55d392a3",
-      "title": "Inside how a U.S. academy helped mold World Cup ph...",
-      "url": "https://www.espn.com/soccer/story/_/id/49200323/inside-how-us-academy-helped-mould-world-cup-phenom-yan-diomande",
-      "published_at": "Tue, 30 Jun 2026 03:07:12 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Teenager Yan Diomande is a top target for Europe's biggest clubs this summer. Before he was a star, though, he was a promising winger in Florida called \"Dio.\""
+      "summary": "South Korea captain Son Heung-min has apologized for the team's group-stage exit at the World Cup, saying he is \"indescribably hurt\" and eager to \"win the hearts\" of the nation once again."
     },
     {
       "id": "0e9a2b976f21",
       "title": "Malik Tillman is having a great World Cup for the ...",
       "url": "https://www.espn.com/soccer/story/_/id/49214102/tillman-having-great-world-cup-usmnt-never-tell-himself",
-      "published_at": "Tue, 30 Jun 2026 03:03:35 EST",
+      "published_at": "Tue, 30 Jun 2026 12:50:50 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "After a disappointing club season with Bayer Leverkusen, Tillman was shuffled into an unfamiliar position in the U.S. midfield and has flourished."
+    },
+    {
+      "id": "834c6193865a",
+      "title": "England approach World Cup knockouts still with pl...",
+      "url": "https://www.espn.com/soccer/story/_/id/49213280/england-approach-2026-world-cup-knockouts-vs-congo-dr-plenty-unknowns",
+      "published_at": "Tue, 30 Jun 2026 10:26:54 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Thomas Tuchel has said \"the tournament starts now.\" How far can England go?"
+    },
+    {
+      "id": "e7ad65070b9e",
+      "title": "Copy of World Cup VAR review: Why Germany were wrongly den...",
+      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+      "published_at": "Tue, 30 Jun 2026 14:12:12 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+    },
+    {
+      "id": "ab55974c9fea",
+      "title": "Copy of Brazil avoid World Cup shock with late win vs. Jap...",
+      "url": "https://www.espn.com/soccer/story/_/id/49216717/brazil-avoid-world-cup-shock-late-win-vs-japan-reach-round-16",
+      "published_at": "Tue, 30 Jun 2026 11:06:02 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Brazil's ageing stars left it late to beat Japan 2-1 and reach the World Cup's round of 16. Is their team too old to make a deep run?"
     },
     {
       "id": "34ffb13ba917",
@@ -73,15 +73,6 @@
       "summary": "Six years after suffering a life-threatening skull fracture, Raúl Jiménez is back at the top, leading Mexico at this World Cup on home soil."
     },
     {
-      "id": "834c6193865a",
-      "title": "England approach World Cup knockouts still with pl...",
-      "url": "https://www.espn.com/soccer/story/_/id/49213280/england-approach-2026-world-cup-knockouts-vs-congo-dr-plenty-unknowns",
-      "published_at": "Tue, 30 Jun 2026 03:06:28 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "As everyone expected, England reached the World Cup's knockout phase. Thomas Tuchel has said \"the tournament starts now,\" so how far can they go?"
-    },
-    {
       "id": "8c00d26412a0",
       "title": "From Messi to Haaland: Which World Cup frontrunner...",
       "url": "https://www.espn.com/soccer/story/_/id/49209852/world-cup-superstars-lionel-messi-cristiano-ronaldo-kylian-mbappe-vinicius-erling-haaland-dependency",
@@ -91,31 +82,13 @@
       "summary": "The superstars have shown up at the 2026 World Cup, but which team is most reliant on its talisman to keep moving through the competition?"
     },
     {
-      "id": "db9f29952e95",
-      "title": "Paraguay's tears of joy over World Cup shock",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy5v96vk1q9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 30 Jun 2026 03:00:39 GMT",
+      "id": "576ca6f60b4c",
+      "title": "Villa among four Premier League clubs fined by Uefa over squad-cost rules",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzr4geggro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 30 Jun 2026 17:53:14 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "How Paraguay marked one of the biggest wins in their footballing history with euphoric celebrations."
-    },
-    {
-      "id": "c76f936fad07",
-      "title": "Who am I? Guess World Cup star No 23",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4g85gg5128o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 30 Jun 2026 05:48:18 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "2f42a7f2c151",
-      "title": "'Indescribably hurt' Son apologises for South Korea World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20ylry6py1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 30 Jun 2026 06:51:10 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Son Heung-min apologises for South Korea's early World Cup exit and says he will \"run to death\" for the nation's football fans."
+      "summary": "Aston Villa have been fined 22.5m euros (£19.4m) by Uefa for a \"significant breach\" of its squad-cost rule for 2025."
     },
     {
       "id": "3921b01789a1",
@@ -136,31 +109,22 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "d66aa14bb7c4",
-      "title": "World Cup latest: Klopp responds to Germany links as Nagelsmann says 'I won't quit'",
-      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
-      "published_at": "Tue, 30 Jun 2026 08:30:00 BST",
+      "id": "9e58806c01e9",
+      "title": "'She's Ellyse Perry!' - Australia confident star will be fit for World Cup final",
+      "url": "https://www.skysports.com/cricket/live-blog/12040/13559186/womens-t20-world-cup-semi-final-australia-vs-west-indies-live-latest-cricket-score-updates-video-and-analysis-from-the-oval",
+      "published_at": "Tue, 30 Jun 2026 16:05:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
     },
     {
-      "id": "528700e86a6c",
-      "title": "Germany crash out of World Cup on penalties to Paraguay",
-      "url": "https://www.skysports.com/football/germany-vs-paraguay/report/549840",
-      "published_at": "Mon, 29 Jun 2026 23:30:00 BST",
+      "id": "bf14fd04cd19",
+      "title": "Australia thrash West Indies to race into Women's T20 World Cup final",
+      "url": "https://www.skysports.com/cricket/news/12040/13559192/icc-womens-t20-world-cup-australia-thrash-west-indies-to-reach-another-final-as-ash-gardner-beth-mooney-impress",
+      "published_at": "Tue, 30 Jun 2026 17:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Germany lost a World Cup penalty shoot-out for the first time as they crashed out of the last 32 to underdogs Paraguay."
-    },
-    {
-      "id": "c210b4fb3402",
-      "title": "Gardner: Australia must be wary of Matthews in T20 World Cup semi-final",
-      "url": "https://www.skysports.com/cricket/news/12040/13559035/icc-womens-t20-world-cup-ashleigh-gardner-says-australia-must-be-wary-of-west-indies-captain-hayley-matthews-firepower-in-semi-final",
-      "published_at": "Mon, 29 Jun 2026 21:02:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Ashleigh Gardner says Australia must be cautious of a dangerous West Indies side containing Hayley Matthews and Deandra Dottin as they prepare for the first ICC Women's T20 World Cup semi-final at The"
+      "summary": "Australia breezed into the ICC Women's T20 World Cup final with a convincing eight-wicket win over West Indies at The Oval."
     }
   ]
 }
