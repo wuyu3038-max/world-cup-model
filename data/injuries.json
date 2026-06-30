@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-30T04:40:40.911960",
+    "last_updated": "2026-06-30T11:29:56.800539",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -781,6 +781,16 @@
     }
   },
   "_news_injury_alerts": [
+    {
+      "title": "Jiménez is lucky to be alive, never mind living his World Cup dream with Mexico",
+      "nations": [
+        "Mexico"
+      ],
+      "source": "ESPN FC",
+      "url": "https://www.espn.com/soccer/story/_/id/49200285/jimenez-lucky-alive-never-mind-living-world-cup-dream",
+      "summary": "Six years after suffering a life-threatening skull fracture, Raúl Jiménez is back at the top, leading Mexico at this World Cup on home soil.",
+      "published": "Mon, 29 Jun 2026 03:32:49 EST"
+    },
     {
       "title": "Germany crash out of World Cup on penalties to Paraguay",
       "nations": [
