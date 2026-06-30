@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-06-29T18:29:37.825851",
+    "last_updated": "2026-06-30T04:40:40.911960",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -782,15 +782,15 @@
   },
   "_news_injury_alerts": [
     {
-      "title": "Eustaquio scores in injury-time to take Canada through to the last 16",
+      "title": "Germany crash out of World Cup on penalties to Paraguay",
       "nations": [
-        "Canada",
-        "South Africa"
+        "Germany",
+        "Paraguay"
       ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/videos/c79yr8npv9go?at_medium=RSS&at_campaign=rss",
-      "summary": "Stephen Eustaquio scores the only goal of the match against South Africa as Canada progresses to the last 16 of the 2026 World Cup.",
-      "published": "Sun, 28 Jun 2026 21:24:53 GMT"
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/football/germany-vs-paraguay/report/549840",
+      "summary": "Germany lost a World Cup penalty shoot-out for the first time as they crashed out of the last 32 to underdogs Paraguay.",
+      "published": "Mon, 29 Jun 2026 23:30:00 BST"
     }
   ]
 }

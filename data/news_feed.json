@@ -1,14 +1,32 @@
 {
-  "updated": "2026-06-29T18:29:37.765460",
-  "total_articles": 11,
+  "updated": "2026-06-30T04:40:40.850346",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 11,
-    "sky_sports": 0,
+    "bbc_sport": 7,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "db9f29952e95",
+      "title": "Inside Paraguay's tears of joy over their seismic World Cup shock",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy5v96vk1q9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 30 Jun 2026 03:00:39 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "How Paraguay marked one of the biggest wins in their footballing history with euphoric celebrations."
+    },
+    {
+      "id": "38dd0638ab91",
+      "title": "How to win a World Cup penalty shootout",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd9px47g8jlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 28 Jun 2026 09:38:42 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "We have a look at what can be learned from every World Cup penalty taken in a shootout ever."
+    },
     {
       "id": "71b0ea4b514d",
       "title": "Africa's World Cup success leaves Asia looking for answers",
@@ -17,69 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The 2026 World Cup has been an amazing story for African football - while Asia has been left to reflect on failure."
-    },
-    {
-      "id": "17a7d814bf71",
-      "title": "Eustaquio scores in injury-time to take Canada through to the last 16",
-      "url": "https://www.bbc.co.uk/sport/videos/c79yr8npv9go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 21:24:53 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Stephen Eustaquio scores the only goal of the match against South Africa as Canada progresses to the last 16 of the 2026 World Cup."
-    },
-    {
-      "id": "5e8491f0cc36",
-      "title": "England labour past Panama to qualify for last 32 as group winners",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm2r8yg74pgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 27 Jun 2026 23:35:16 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Goals from Jude Bellingham and Harry Kane help England secure a 2-0 win over Panama, as Thomas Tuchel's side qualify for the World Cup last 32 as winners of Group L."
-    },
-    {
-      "id": "bfe7b4c8584a",
-      "title": "Move over Messi and Ronaldo - the new generation shining at World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gy9yd8lgwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 10:33:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport looks at five young players who are making a big impression on the same World Cup stage as veterans Lionel Messi and Cristiano Ronaldo."
-    },
-    {
-      "id": "ea4040d7e7a5",
-      "title": "'Big brother' Van Dijk key to Dutch World Cup dreams",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9927m2jlx0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 11:52:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "France's World Cup winner Olivier Giroud explains why Netherlands defender Virgil van Dijk is still the main man for his national team."
-    },
-    {
-      "id": "7c9a9a55308e",
-      "title": "Could a heatwave make World Cup matches 'unsafe' this week?",
-      "url": "https://www.bbc.co.uk/weather/articles/c1lyz4jy425o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 11:36:07 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Temperatures are expected to soar across parts of the US and Canada this week which could bring significant health impacts to some World Cup matches. "
-    },
-    {
-      "id": "281e4facb4f9",
-      "title": "Clarke says standing down 'easy' decision after World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 09:25:31 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Steve Clarke says it was an easy decision to step down as Scotland head coach because he always planned to depart if they did not reach the knockout stage."
-    },
-    {
-      "id": "3047cb80ec3e",
-      "title": "Brazil going out? Chris Sutton predicts World Cup's last-32 matches",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 19:14:59 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the last-32 ties at the 2026 World Cup, including England against DR Congo."
     },
     {
       "id": "3921b01789a1",
@@ -100,13 +55,49 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "63d6045d19df",
-      "title": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 29 Jun 2026 00:02:44 GMT",
+      "id": "bfe7b4c8584a",
+      "title": "Move over Messi and Ronaldo - the new generation shining at World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gy9yd8lgwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 29 Jun 2026 10:33:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Canada are making history at this World Cup with a run that is likely to change the face of football in the country forever."
+      "summary": "BBC Sport looks at five young players who are making a big impression on the same World Cup stage as veterans Lionel Messi and Cristiano Ronaldo."
+    },
+    {
+      "id": "ea4040d7e7a5",
+      "title": "'Big brother' Van Dijk key to Dutch World Cup dreams",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9927m2jlx0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 29 Jun 2026 11:52:25 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "France's World Cup winner Olivier Giroud explains why Netherlands defender Virgil van Dijk is still the main man for his national team."
+    },
+    {
+      "id": "528700e86a6c",
+      "title": "Germany crash out of World Cup on penalties to Paraguay",
+      "url": "https://www.skysports.com/football/germany-vs-paraguay/report/549840",
+      "published_at": "Mon, 29 Jun 2026 23:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Germany lost a World Cup penalty shoot-out for the first time as they crashed out of the last 32 to underdogs Paraguay."
+    },
+    {
+      "id": "c210b4fb3402",
+      "title": "Gardner: Australia must be wary of Matthews in T20 World Cup semi-final",
+      "url": "https://www.skysports.com/cricket/news/12040/13559035/icc-womens-t20-world-cup-ashleigh-gardner-says-australia-must-be-wary-of-west-indies-captain-hayley-matthews-firepower-in-semi-final",
+      "published_at": "Mon, 29 Jun 2026 21:02:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Ashleigh Gardner says Australia must be cautious of a dangerous West Indies side containing Hayley Matthews and Deandra Dottin as they prepare for the first ICC Women's T20 World Cup semi-final at The"
+    },
+    {
+      "id": "7f1774f1b11c",
+      "title": "SCENES! How Germany lost their first ever World Cup shoot-out...",
+      "url": "https://www.skysports.com/football/germany-vs-paraguay/live/549840",
+      "published_at": "Mon, 29 Jun 2026 20:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }
