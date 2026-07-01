@@ -1,40 +1,49 @@
 {
-  "updated": "2026-07-01T04:59:39.934805",
-  "total_articles": 8,
+  "updated": "2026-07-01T11:39:31.121384",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
-    "sky_sports": 3,
+    "bbc_sport": 6,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "5e569d338415",
-      "title": "Bigger than Rumble in the Jungle? DR Congo bid for World Cup history",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn8k75j9epzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 30 Jun 2026 18:26:34 GMT",
+      "id": "90ebc7c8de2e",
+      "title": "Time for Tuchel to show hand as England enter World Cup danger zone",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c17y8r90082o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 01 Jul 2026 09:10:35 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "DR Congo's run at the 2026 World Cup comes 52 years on from both their disastrous debut at the finals and one of sport's greatest occasions held in Kinshasa."
+      "summary": "England coach Thomas Tuchel must now play his strongest hand as he enters the danger zone in a World Cup of shocks, says chief football writer Phil McNulty."
     },
     {
-      "id": "8d5695247b01",
-      "title": "England fans' behaviour 'excellent' at World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c75ye7lz347o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 30 Jun 2026 20:01:38 GMT",
+      "id": "9227d80529fc",
+      "title": "Three die in Mexico City World Cup celebrations",
+      "url": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 01 Jul 2026 11:01:12 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England supporters in the United States are praised for their \"excellent\" behaviour during the group stage of the World Cup, but domestic incidents are up on recent tournaments."
+      "summary": "More than one million people took to the streets of Mexico City on Tuesday to mark the country's win over Ecuador."
     },
     {
-      "id": "576ca6f60b4c",
-      "title": "Villa among four Premier League clubs fined by Uefa over squad-cost rules",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzr4geggro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 30 Jun 2026 20:36:43 GMT",
+      "id": "03e661239d44",
+      "title": "Who am I? Guess World Cup star No 24",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj4pl4rvr8jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 01 Jul 2026 05:48:19 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Aston Villa have been fined 22.5m euros (£19.4m) by Uefa for a \"significant breach\" of its squad-cost rule for 2025."
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "74b3dafecba3",
+      "title": "Fifa explains decision to rule out Germany goal",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c862yvvd2qdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 01 Jul 2026 06:40:56 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa says coaches and players were told before the World Cup referees will punish the type of foul that saw Germany's extra-time goal against Paraguay ruled out. "
     },
     {
       "id": "3921b01789a1",
@@ -61,25 +70,7 @@
       "published_at": "Wed, 01 Jul 2026 04:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "A potential trip to the Azteca Stadium awaits England if they beat DR Congo on Wednesday after Mexico strolled past Ecuador 2-0 to reach the last 16 of the World Cup."
-    },
-    {
-      "id": "7b2d026d43a3",
-      "title": "Koeman parts ways with Netherlands after World Cup exit",
-      "url": "https://www.skysports.com/football/news/12040/13559131/ronald-koeman-netherlands-head-coach-leaves-role-for-a-second-time-following-world-cup-exit-to-morocco",
-      "published_at": "Tue, 30 Jun 2026 09:39:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Ronald Koeman has left his role as head coach of the Netherlands."
-    },
-    {
-      "id": "5e239fd5b707",
-      "title": "World Cup penalty misses - is this the end of the stutter?",
-      "url": "https://www.skysports.com/football/news/12040/13559248/world-cup-2026-is-the-penalty-stutter-run-up-that-cost-germany-and-netherlands-at-the-end-of-its-lifespan",
-      "published_at": "Tue, 30 Jun 2026 19:20:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The stutter. Like it or loathe it, it's a technique that has been increasingly adopted by penalty takers since the time of Pele in the 1960s. But after some faltering spot-kicks at this World Cup - mi"
+      "summary": "A trip to the Azteca Stadium awaits England if they beat DR Congo on Wednesday after Mexico strolled past Ecuador 2-0 to reach the last 16 of the World Cup."
     }
   ]
 }

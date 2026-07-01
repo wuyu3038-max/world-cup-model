@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-01T04:59:39.994540",
+    "last_updated": "2026-07-01T11:39:31.180199",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,17 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Fifa explains decision to rule out Germany goal",
+      "nations": [
+        "Germany",
+        "Paraguay"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c862yvvd2qdo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fifa says coaches and players were told before the World Cup referees will punish the type of foul that saw Germany's extra-time goal against Paraguay ruled out. ",
+      "published": "Wed, 01 Jul 2026 06:40:56 GMT"
+    }
+  ]
 }
