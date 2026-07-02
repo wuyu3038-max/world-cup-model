@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-02T04:36:33.743124",
-  "total_articles": 4,
+  "updated": "2026-07-02T11:11:00.342484",
+  "total_articles": 6,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 4,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "2aa71af53691",
+      "title": "World Cup dreams shattered as StubHub tickets cancelled at last minute",
+      "url": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 02 Jul 2026 04:59:47 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Hundreds of fans who bought World Cup tickets on resale site StubHub say they have had them cancelled at the last minute."
+    },
     {
       "id": "3921b01789a1",
       "title": "Where to watch the World Cup on the BBC and ITV",
@@ -28,6 +37,24 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
+      "id": "eb261b31a92d",
+      "title": "Who am I? Guess World Cup star No 25",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj4pl4jdk4ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 02 Jul 2026 05:51:25 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "dc6d776388b5",
+      "title": "How has Wonderwall become England's World Cup soundtrack?",
+      "url": "https://www.skysports.com/football/news/12040/13559743/englands-wonderwall-anthem-how-oasis-hit-became-new-world-cup-soundtrack-as-harry-kane-and-jude-bellingham-lead-singalongs",
+      "published_at": "Thu, 02 Jul 2026 09:14:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Today is gonna be the day that they&#8217;re gonna throw it back to... well, Harry Kane, hopefully. England's soundtrack of this summer's World Cup, Oasis hit Wonderwall, can be many different things "
+    },
+    {
       "id": "66f1e5431cb7",
       "title": "Kane keeps England's World Cup dream alive as DR Congo beaten",
       "url": "https://www.skysports.com/football/england-vs-dr-congo/report/549847",
@@ -35,15 +62,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Harry Kane scored a brilliant double to inspire England to a come-from-behind 2-1 win over DR Congo and set up a World Cup last-16 showdown with co-hosts Mexico."
-    },
-    {
-      "id": "972012486b2a",
-      "title": "F1 Sprint format: How does it work in 2026?",
-      "url": "https://www.skysports.com/f1/news/12040/13518235/f1-sprint-schedule-points-results-format-explained-qualifying-race-and-venues-for-2026-season",
-      "published_at": "Tue, 28 Apr 2026 16:45:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Everything you need to know about Formula 1's Sprint weekend format for the 2026 F1 season."
     }
   ]
 }
