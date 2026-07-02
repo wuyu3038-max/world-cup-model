@@ -1,113 +1,14 @@
 {
-  "updated": "2026-07-01T18:25:02.479454",
-  "total_articles": 15,
+  "updated": "2026-07-02T04:36:33.743124",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 8,
-    "bbc_sport": 5,
+    "espn_fc": 0,
+    "bbc_sport": 2,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "5e71c4317cce",
-      "title": "Copy of World Cup updates: Kane's incredible double rescue...",
-      "url": "https://www.espn.com/soccer/story/_/id/49233418/world-cup-daily-live-haaland-buys-cowboy-hat-usmnt-england-action",
-      "published_at": "Wed, 1 Jul 2026 14:15:17 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "1d9274755b8b",
-      "title": "Kane equals Pelé World Cup goals record",
-      "url": "https://www.espn.com/soccer/story/_/id/49237509/harry-kane-breaks-pele-world-cup-goals-record",
-      "published_at": "Wed, 1 Jul 2026 13:58:14 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Harry Kane has surpassed Pelé's World Cup goals total after scoring two goals against Congo DR on Wednesday to bring his goal tally to 13 and lead England to a 2-1 victory and a spot in the round of 1"
-    },
-    {
-      "id": "ed6fb2b745da",
-      "title": "⭐ Warner, Rodrigo top celebrities at World Cup",
-      "url": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
-      "published_at": "Wed, 1 Jul 2026 13:58:15 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Celebrities aren't hard to find at the 2026 FIFA World Cup in North America."
-    },
-    {
-      "id": "4a4c127d6555",
-      "title": "Riding high at a World Cup on home soil, the time ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49229496/riding-high-world-cup-home-soil-now-usmnt",
-      "published_at": "Wed, 1 Jul 2026 11:49:03 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The USMNT boasts a world-class coach and star players in their primes. This is its chance to make its mark on world soccer."
-    },
-    {
-      "id": "e2e754f58744",
-      "title": "What it feels like to pull off a World Cup upset: ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49224073/world-cup-upsets-shocks-ireland-italy-1994-paraguay-germany-2026-cape-verde",
-      "published_at": "Wed, 1 Jul 2026 09:17:16 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Paraguay's win over Germany in the round of 32 is the latest World Cup shock in a long line of them, including famous upsets like Ireland over Italy in 1994 and Norway over Brazil in 1998. What's it f"
-    },
-    {
-      "id": "afd9bde885d2",
-      "title": "Copy of Mexico send a World Cup message from 'Fortress Azt...",
-      "url": "https://www.espn.com/soccer/story/_/id/49232997/mexico-send-world-cup-message-fortress-azteca-fans-aid-win-ecuador",
-      "published_at": "Wed, 1 Jul 2026 11:43:29 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The Estadio Azteca was deafening on Tuesday night as Mexico picked up their first win in a World Cup knockout match in 40 years."
-    },
-    {
-      "id": "4ab5b59d40c0",
-      "title": "Premier League 2026-27 kits: Ranking every jersey ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49163915/premier-league-202627-kits-ranking-every-jersey-released-arsenal-chelsea-liverpool-man-city-man-united-tottenham",
-      "published_at": "Wed, 1 Jul 2026 11:49:45 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "It's still almost two months before the new Premier League season begins, but plenty of top clubs have already released some of their 2026-27 kits."
-    },
-    {
-      "id": "96cbb050cfab",
-      "title": "When it comes to Norway's World Cup dreams, it's a...",
-      "url": "https://www.espn.com/soccer/story/_/id/49228507/norway-ivory-coast-erling-haaland-fifa-world-cup-round-32-analysis",
-      "published_at": "Wed, 1 Jul 2026 03:17:23 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "While he has a very talented and capable supporting cast, Norway's dreams of World Cup glory rest on the shoulders, and goals, of Erling Haaland."
-    },
-    {
-      "id": "e607d960a7a8",
-      "title": "Concern over rise in online racist abuse at World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1dy61921kko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 01 Jul 2026 15:16:29 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The Word Cup has suffered a 'significant increase' in the most serious examples of racist abuse online, Fifa's social media protection service (SMPS) has found."
-    },
-    {
-      "id": "9227d80529fc",
-      "title": "Three die in Mexico City World Cup celebrations",
-      "url": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 01 Jul 2026 11:01:12 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "More than one million people took to the streets of Mexico City on Tuesday to mark the country's win over Ecuador."
-    },
-    {
-      "id": "1cab41d0497b",
-      "title": "Quiz: Name every team England have played in World Cup knockouts",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyp4eprn22o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 01 Jul 2026 12:30:35 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England and Thomas Tuchel will want to match the achievements of the nation's famous side that lifted the World Cup trophy in 1966. Can you name every side they have ever faced in the knockouts?"
-    },
     {
       "id": "3921b01789a1",
       "title": "Where to watch the World Cup on the BBC and ITV",
