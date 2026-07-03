@@ -1,14 +1,59 @@
 {
-  "updated": "2026-07-03T11:12:09.863855",
-  "total_articles": 8,
+  "updated": "2026-07-03T17:56:32.769671",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 6,
+    "espn_fc": 5,
+    "bbc_sport": 4,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "cbcc61359f95",
+      "title": "🤔 Has Brazil really lost its World Cup aura?",
+      "url": "https://www.espn.com/soccer/story/_/id/49242526/have-brazil-lost-aura-made-defining-world-cup-team",
+      "published_at": "Fri, 3 Jul 2026 13:37:52 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Brazil used to be synonymous with the World Cup, adored for the way they played as much as for winning more than any other team. Have they lost that magic?"
+    },
+    {
+      "id": "31f3a18ec1b1",
+      "title": "World Cup Daily live: Travel chaos sees Speed miss...",
+      "url": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+      "published_at": "Fri, 3 Jul 2026 11:38:30 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16."
+    },
+    {
+      "id": "5c5cd93d8c69",
+      "title": "Odds to win the World Cup: Spain odds shorten afte...",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+      "published_at": "Fri, 3 Jul 2026 12:34:57 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Odds for every team to advance through the knockout stage and to win the 2026 World Cup."
+    },
+    {
+      "id": "90b040ad0a61",
+      "title": "Copy of Copy of Copy of Copy of World Cup VAR review: Misapplied protocols leave B...",
+      "url": "https://www.espn.com/soccer/story/_/id/49244156/world-cup-var-review-misapplied-protocols-leave-usmnt-folarin-balogun-wrongly-red-carded-world-cup-vs-bosnia-herzegovina",
+      "published_at": "Fri, 3 Jul 2026 11:12:44 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "null"
+    },
+    {
+      "id": "4ab5b59d40c0",
+      "title": "Premier League 2026-27 kits: Ranking every jersey ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49163915/premier-league-202627-kits-ranking-every-jersey-released-arsenal-chelsea-liverpool-man-city-man-united-tottenham",
+      "published_at": "Thu, 2 Jul 2026 10:42:59 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "It's still almost two months before the new Premier League season begins, but plenty of top clubs have already released some of their 2026-27 kits."
+    },
     {
       "id": "a61c04d770b3",
       "title": "Argentina v Cape Verde: Breaking down biggest World Cup knockout mismatch",
@@ -28,13 +73,13 @@
       "summary": "Anthony Elanga and Yoane Wissa both struggled in their first season at Newcastle, but five goals between at the World Cup them suggest things will be different next term."
     },
     {
-      "id": "6b0ee5954a4d",
-      "title": "Mahrez retires from Algeria duty after World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn0vwn78n8do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 03 Jul 2026 08:41:00 GMT",
+      "id": "9682d8a22746",
+      "title": "The friends who drove from Ghana to the World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cvgmz5jnr37o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 03 Jul 2026 17:11:22 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Algeria captain Riyad Mahrez announces his retirement from international football after the Desert Foxes’ 2-0 defeat by Switzerland in the World Cup round of 32."
+      "summary": "Six fans of the Black Stars are living proof of how football can drive supporters to extreme lengths to follow their team."
     },
     {
       "id": "7b40cf7cb19d",
@@ -46,40 +91,22 @@
       "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "3921b01789a1",
-      "title": "Where to watch the World Cup on the BBC and ITV",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 02 Jul 2026 21:33:35 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "All the TV and radio details for each of the 2026 World Cup knockout games. "
-    },
-    {
-      "id": "004c4013c1cb",
-      "title": "Catch up on the World Cup without any spoilers",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0qy0zn231yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 11 Jun 2026 17:08:40 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
-    },
-    {
-      "id": "d66aa14bb7c4",
-      "title": "Ronaldo pays tribute to Jota after Portugal's World Cup win over Croatia",
-      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
-      "published_at": "Thu, 02 Jul 2026 15:32:00 BST",
+      "id": "b4f6ad73bef9",
+      "title": "Can flawless Australia be beaten in Women's T20 World Cup final?",
+      "url": "https://www.skysports.com/cricket/news/12040/13559466/icc-womens-t20-world-cup-flawless-australia-favourites-coming-into-final-but-buoyed-england-will-provide-tough-test-at-lords",
+      "published_at": "Fri, 03 Jul 2026 18:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Australia booked their place in the Women's T20 World Cup final with a dominant eight-wicket victory to make it six wins out of six at the tournament - and the smart money would be on them to make it "
     },
     {
-      "id": "f02a701a6c39",
-      "title": "Highlights: England reach Women's T20 World Cup final with win over South Africa",
-      "url": "https://www.skysports.com/watch/video/13559988/england-vs-south-africa-semi-final-t20-highlights",
-      "published_at": "Thu, 02 Jul 2026 21:56:00 BST",
+      "id": "a973a2433741",
+      "title": "Music acts, start times announced for ICC Women's T20 World Cup final",
+      "url": "https://www.skysports.com/cricket/news/12040/13559738/icc-womens-t20-world-cup-final-teams-favourites-location-start-times-ceremony-as-australia-await-opponents",
+      "published_at": "Thu, 02 Jul 2026 08:51:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Highlights of the Women's T20 World Cup semi-final between England and South Africa."
+      "summary": "England will play Australia in the ICC Women's T20 World Cup final in what is set to be a blockbuster event at Lord's on Sunday."
     }
   ]
 }
