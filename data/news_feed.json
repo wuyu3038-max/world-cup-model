@@ -1,28 +1,19 @@
 {
-  "updated": "2026-07-02T18:13:21.654244",
-  "total_articles": 6,
+  "updated": "2026-07-03T04:14:59.432230",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 2,
+    "bbc_sport": 3,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "b06e9228ae68",
-      "title": "'We want to win World Cup for him' - Portugal carry Jota's memory",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1kyl71wxw9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 02 Jul 2026 12:43:53 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "One year after his death, Portugal are using Diogo Jota's memory to help inspire them at the 2026 World Cup."
-    },
-    {
       "id": "3921b01789a1",
       "title": "Where to watch the World Cup on the BBC and ITV",
       "url": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 28 Jun 2026 05:00:29 GMT",
+      "published_at": "Thu, 02 Jul 2026 21:33:35 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "All the TV and radio details for each of the 2026 World Cup knockout games. "
@@ -37,22 +28,31 @@
       "summary": "It is a dilemma plenty of fans in the UK will have - and we are giving you the chance to follow the World Cup without spoilers."
     },
     {
-      "id": "d4aa7d9a9621",
-      "title": "The World Cup's free agents looking for their next move ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzleqqvjqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 02 Jul 2026 12:44:02 GMT",
+      "id": "d5ad05cb0e05",
+      "title": "Tuchel wants young England fans to stay up for 1am World Cup clash - but should they?",
+      "url": "https://www.bbc.co.uk/news/articles/ckg40qedq57o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 03 Jul 2026 03:26:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fourteen players still at the World Cup have no club to return to once the tournament is over."
+      "summary": "England's must-win match against Mexico kicks off at 01:00 BST on Monday - disco naps and spoiler-free recaps may be needed."
     },
     {
-      "id": "4e3b9efa8b5f",
-      "title": "Sciver-Brunt batting as England slip to 23-3 vs South Africa in World Cup semi LIVE!",
-      "url": "https://www.skysports.com/cricket/live-blog/12040/13559863/womens-t20-world-cup-semi-final-england-vs-south-africa-live-latest-cricket-score-updates-video-and-analysis-from-the-oval",
-      "published_at": "Thu, 02 Jul 2026 17:45:00 BST",
+      "id": "d8be19ca2e61",
+      "title": "Late VAR drama as Portugal beat Croatia to keep Ronaldo's World Cup dreams alive",
+      "url": "https://www.skysports.com/football/portugal-vs-croatia/report/549850",
+      "published_at": "Fri, 03 Jul 2026 02:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Cristiano Ronaldo's World Cup dreams were kept alive in controversial fashion as he helped his Portugal side fight back from a goal down to beat Croatia 2-1 and set up a mouth-watering last-16 tie wit"
+    },
+    {
+      "id": "f85b4fafa641",
+      "title": "Spain ease past Austria and are growing into this World Cup",
+      "url": "https://www.skysports.com/football/spain-vs-austria/report/549849",
+      "published_at": "Thu, 02 Jul 2026 22:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Spain eased into the round of 16 of the World Cup with a comfortable 3-0 win over Austria in Los Angeles."
     },
     {
       "id": "a174de3926bf",
@@ -62,6 +62,15 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "England are through to the last-16 of the 2026 World Cup - but their clash against Mexico will not kick-off until 1am UK time."
+    },
+    {
+      "id": "48ec680505e7",
+      "title": "Sciver-Brunt stars as England beat South Africa to reach T20 World Cup final ",
+      "url": "https://www.skysports.com/cricket/news/12040/13559884/womens-t20-world-cup-england-beat-south-africa-to-reach-final-as-captain-nat-sciver-brunt-stars-on-return-from-injury",
+      "published_at": "Thu, 02 Jul 2026 21:35:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England are through to the ICC Women&#8217;s T20 World Cup final for the first time in eight years after an impressive 40-run victory over South Africa at The Oval. "
     }
   ]
 }
