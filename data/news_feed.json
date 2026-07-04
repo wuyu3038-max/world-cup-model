@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-04T10:34:17.609087",
-  "total_articles": 12,
+  "updated": "2026-07-04T17:33:50.475210",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 8,
-    "sky_sports": 4,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -25,7 +25,7 @@
       "published_at": "Sat, 04 Jul 2026 01:36:43 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "For several hours on Friday, no-one seemed to know when England's World Cup last-16 match against co-hosts Mexico would kick off. BBC Sport tells how a story of confusion and anger - culminating in a "
+      "summary": "For several hours on Friday, no-one seemed to know when England's World Cup last-16 match against co-hosts Mexico would kick off. BBC Sport explains how a story of confusion and anger - culminating in"
     },
     {
       "id": "4f5341e41a8b",
@@ -55,13 +55,13 @@
       "summary": "Many countries with massive populations consistently miss out on football’s biggest party. What can they do to change their sporting fortunes?"
     },
     {
-      "id": "909deeb45ea7",
-      "title": "Who am I? Guess World Cup star No 27",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yrk3l4d90o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 06:06:21 GMT",
+      "id": "0b581945ef24",
+      "title": "World Cup quiz: How well do you remember the last 32?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce8j485z1ppo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 11:44:57 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "The World Cup's last-32 ties were decided in a busy six-day spell. But how closely were you paying attention?"
     },
     {
       "id": "8d0fde2dc29e",
@@ -73,49 +73,31 @@
       "summary": "England's World Cup last-16 tie against Mexico will kick off as scheduled at 01:00 BST on Monday."
     },
     {
-      "id": "262b742b414a",
-      "title": "After World Cup goals are last year's signings finally set to deliver for Newcastle?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy8dg9nry4xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 03 Jul 2026 10:23:35 GMT",
+      "id": "909deeb45ea7",
+      "title": "Who am I? Guess World Cup star No 27",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yrk3l4d90o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 06:06:21 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Anthony Elanga and Yoane Wissa both struggled in their first season at Newcastle, but five goals between at the World Cup them suggest things will be different next term."
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "4d57cac9866b",
+      "title": "Williams sisters out of Wimbledon doubles after 'heartbroken' Serena injury",
+      "url": "https://www.skysports.com/tennis/news/12040/13560350/wimbledon-serena-williams-pulls-out-of-her-doubles-8204campaign-alongside-sister-venus-after-sustaining-a-knee-injury-in-singles-defeat",
+      "published_at": "Sat, 04 Jul 2026 15:55:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Serena Williams has failed to recover from a knee issue in time to play doubles at Wimbledon."
     },
     {
       "id": "992da89b4709",
-      "title": "Magic Weekend 2026 LIVE! Build-up to day one at Hill Dickinson Stadium ",
+      "title": "Magic Weekend 2026 LIVE! Leigh Leopards in control vs Warrington Wolves ",
       "url": "https://www.skysports.com/rugby-league/live-blog/12040/13558511/magic-weekend-2026-live-commentary-videos-analysis-updates-scores-results-with-hull-kr-vs-hull-fc-leeds-rhinos-vs-bradford-bulls",
       "published_at": "Sat, 04 Jul 2026 11:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
-    },
-    {
-      "id": "6323f37fdf34",
-      "title": "Arias strike sends Colombia past Ghana and into World Cup last 16",
-      "url": "https://www.skysports.com/football/colombia-vs-ghana/report/549853",
-      "published_at": "Sat, 04 Jul 2026 04:46:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Colombia reached the last 16 of the World Cup for the third time in their last three appearances at the tournament with a 1-0 win over Ghana."
-    },
-    {
-      "id": "855bee949f77",
-      "title": "Argentina avoid biggest World Cup upset with extra-time win vs Cape Verde",
-      "url": "https://www.skysports.com/football/argentina-vs-cape-verde/report/549852",
-      "published_at": "Sat, 04 Jul 2026 01:58:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Argentina avoided the biggest upset in World Cup history after Diney Borges' own-goal in extra-time rescued a 3-2 win over Cape Verde to book their place in the last 16 of the tournament."
-    },
-    {
-      "id": "c745e8ab8a29",
-      "title": "Egypt eliminate Australia from World Cup after penalty shoot-out drama",
-      "url": "https://www.skysports.com/football/australia-vs-egypt/report/549851",
-      "published_at": "Fri, 03 Jul 2026 22:25:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Egypt are into the last 16 of the World Cup after beating Australia in a dramatic penalty shoot-out in Dallas."
     }
   ]
 }
