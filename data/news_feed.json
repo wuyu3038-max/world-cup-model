@@ -1,67 +1,40 @@
 {
-  "updated": "2026-07-03T17:56:32.769671",
-  "total_articles": 11,
+  "updated": "2026-07-04T04:08:21.744883",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 5,
+    "espn_fc": 0,
     "bbc_sport": 4,
-    "sky_sports": 2,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "cbcc61359f95",
-      "title": "🤔 Has Brazil really lost its World Cup aura?",
-      "url": "https://www.espn.com/soccer/story/_/id/49242526/have-brazil-lost-aura-made-defining-world-cup-team",
-      "published_at": "Fri, 3 Jul 2026 13:37:52 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Brazil used to be synonymous with the World Cup, adored for the way they played as much as for winning more than any other team. Have they lost that magic?"
-    },
-    {
-      "id": "31f3a18ec1b1",
-      "title": "World Cup Daily live: Travel chaos sees Speed miss...",
-      "url": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
-      "published_at": "Fri, 3 Jul 2026 11:38:30 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "It's the final day of the round of 32 at the 2026 FIFA World Cup as we decide the final three spots for the round of 16."
-    },
-    {
-      "id": "5c5cd93d8c69",
-      "title": "Odds to win the World Cup: Spain odds shorten afte...",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-      "published_at": "Fri, 3 Jul 2026 12:34:57 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Odds for every team to advance through the knockout stage and to win the 2026 World Cup."
-    },
-    {
-      "id": "90b040ad0a61",
-      "title": "Copy of Copy of Copy of Copy of World Cup VAR review: Misapplied protocols leave B...",
-      "url": "https://www.espn.com/soccer/story/_/id/49244156/world-cup-var-review-misapplied-protocols-leave-usmnt-folarin-balogun-wrongly-red-carded-world-cup-vs-bosnia-herzegovina",
-      "published_at": "Fri, 3 Jul 2026 11:12:44 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
-    },
-    {
-      "id": "4ab5b59d40c0",
-      "title": "Premier League 2026-27 kits: Ranking every jersey ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49163915/premier-league-202627-kits-ranking-every-jersey-released-arsenal-chelsea-liverpool-man-city-man-united-tottenham",
-      "published_at": "Thu, 2 Jul 2026 10:42:59 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "It's still almost two months before the new Premier League season begins, but plenty of top clubs have already released some of their 2026-27 kits."
-    },
-    {
-      "id": "a61c04d770b3",
-      "title": "Argentina v Cape Verde: Breaking down biggest World Cup knockout mismatch",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c17y82qyjj4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 03 Jul 2026 11:01:01 GMT",
+      "id": "f0299eab2b27",
+      "title": "Farewell Cape Verde - the underdogs the World Cup will never forget",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 03:09:37 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Lionel Messi versus Vozinha. It is the World Cup battle no-one knew they wanted, but which fans now cannot wait to see. "
+      "summary": "Cape Verde may have been the World Cup's smallest nation but they leave the largest impact as they depart following defeat by defending champions Argentina in an epic."
+    },
+    {
+      "id": "e19cdb11e131",
+      "title": "Five and a half hours that left England's World Cup tie in chaos",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0ey24q42w2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 01:36:43 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "For several hours on Friday, no-one seemed to know when England's World Cup last-16 match against co-hosts Mexico would kick off. BBC Sport tells how a story of confusion and anger - culminating in a "
+    },
+    {
+      "id": "8d0fde2dc29e",
+      "title": "England-Mexico kick-off unchanged after Fifa U-turn",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 00:16:26 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England's World Cup last-16 tie against Mexico will kick off as scheduled at 01:00 BST on Monday."
     },
     {
       "id": "262b742b414a",
@@ -73,40 +46,31 @@
       "summary": "Anthony Elanga and Yoane Wissa both struggled in their first season at Newcastle, but five goals between at the World Cup them suggest things will be different next term."
     },
     {
-      "id": "9682d8a22746",
-      "title": "The friends who drove from Ghana to the World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cvgmz5jnr37o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 03 Jul 2026 17:11:22 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Six fans of the Black Stars are living proof of how football can drive supporters to extreme lengths to follow their team."
-    },
-    {
-      "id": "7b40cf7cb19d",
-      "title": "Who am I? Guess World Cup star No 26",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd0px78zrj1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 03 Jul 2026 05:32:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "b4f6ad73bef9",
-      "title": "Can flawless Australia be beaten in Women's T20 World Cup final?",
-      "url": "https://www.skysports.com/cricket/news/12040/13559466/icc-womens-t20-world-cup-flawless-australia-favourites-coming-into-final-but-buoyed-england-will-provide-tough-test-at-lords",
-      "published_at": "Fri, 03 Jul 2026 18:00:00 BST",
+      "id": "6323f37fdf34",
+      "title": "Arias strike sends Colombia into World Cup last 16",
+      "url": "https://www.skysports.com/football/colombia-vs-ghana/report/549853",
+      "published_at": "Sat, 04 Jul 2026 04:46:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Australia booked their place in the Women's T20 World Cup final with a dominant eight-wicket victory to make it six wins out of six at the tournament - and the smart money would be on them to make it "
+      "summary": "Colombia reached the last 16 of the World Cup for the third time in their last three appearances at the tournament with a 1-0 win over Ghana."
     },
     {
-      "id": "a973a2433741",
-      "title": "Music acts, start times announced for ICC Women's T20 World Cup final",
-      "url": "https://www.skysports.com/cricket/news/12040/13559738/icc-womens-t20-world-cup-final-teams-favourites-location-start-times-ceremony-as-australia-await-opponents",
-      "published_at": "Thu, 02 Jul 2026 08:51:00 BST",
+      "id": "855bee949f77",
+      "title": "Argentina avoid biggest World Cup upset with extra-time win vs Cape Verde",
+      "url": "https://www.skysports.com/football/argentina-vs-cape-verde/report/549852",
+      "published_at": "Sat, 04 Jul 2026 01:58:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England will play Australia in the ICC Women's T20 World Cup final in what is set to be a blockbuster event at Lord's on Sunday."
+      "summary": "Argentina avoided the biggest upset in World Cup history after Diney Borges' own-goal in extra-time rescued a 3-2 win over Cape Verde to book their place in the last 16 of the tournament."
+    },
+    {
+      "id": "c745e8ab8a29",
+      "title": "Egypt eliminate Australia from World Cup after penalty shoot-out drama",
+      "url": "https://www.skysports.com/football/australia-vs-egypt/report/549851",
+      "published_at": "Fri, 03 Jul 2026 22:25:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Egypt are into the last 16 of the World Cup after beating Australia in a dramatic penalty shoot-out in Dallas."
     }
   ]
 }

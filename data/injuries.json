@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-03T17:56:32.831983",
+    "last_updated": "2026-07-04T04:08:21.813446",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Can flawless Australia be beaten in Women's T20 World Cup final?",
-      "nations": [
-        "Australia"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/cricket/news/12040/13559466/icc-womens-t20-world-cup-flawless-australia-favourites-coming-into-final-but-buoyed-england-will-provide-tough-test-at-lords",
-      "summary": "Australia booked their place in the Women's T20 World Cup final with a dominant eight-wicket victory to make it six wins out of six at the tournament - and the smart money would be on them to make it ",
-      "published": "Fri, 03 Jul 2026 18:00:00 BST"
-    }
-  ]
+  "_news_injury_alerts": []
 }
