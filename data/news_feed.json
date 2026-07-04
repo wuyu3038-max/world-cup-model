@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-04T04:08:21.744883",
-  "total_articles": 7,
+  "updated": "2026-07-04T10:34:17.609087",
+  "total_articles": 12,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 3,
+    "bbc_sport": 8,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "f0299eab2b27",
-      "title": "Farewell Cape Verde - the underdogs the World Cup will never forget",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 03:09:37 GMT",
+      "id": "3450e8a8e68e",
+      "title": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 09:33:37 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Cape Verde may have been the World Cup's smallest nation but they leave the largest impact as they depart following defeat by defending champions Argentina in an epic."
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the last-16 ties at the 2026 World Cup, including England against Mexico."
     },
     {
       "id": "e19cdb11e131",
@@ -28,8 +28,44 @@
       "summary": "For several hours on Friday, no-one seemed to know when England's World Cup last-16 match against co-hosts Mexico would kick off. BBC Sport tells how a story of confusion and anger - culminating in a "
     },
     {
+      "id": "4f5341e41a8b",
+      "title": "From one to 16 - ranking every team left in the World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd6elwx7eepo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 09:55:36 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport ranks the 16 teams left in the World Cup. Do Argentina deserve to be in the top three? Should Norway be higher? What about England's position?"
+    },
+    {
+      "id": "f0299eab2b27",
+      "title": "Farewell Cape Verde - the underdogs the World Cup will never forget",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 03:09:37 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Cape Verde may have been the World Cup's second-smallest nation but they leave the largest impact as they depart following defeat by defending champions Argentina in an epic."
+    },
+    {
+      "id": "cabc9d9619f6",
+      "title": "Eight of the 10 most populous countries are not in the World Cup",
+      "url": "https://www.bbc.co.uk/news/articles/c621je3we82o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 09:09:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Many countries with massive populations consistently miss out on football’s biggest party. What can they do to change their sporting fortunes?"
+    },
+    {
+      "id": "909deeb45ea7",
+      "title": "Who am I? Guess World Cup star No 27",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yrk3l4d90o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 06:06:21 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
       "id": "8d0fde2dc29e",
-      "title": "England-Mexico kick-off unchanged after Fifa U-turn",
+      "title": "England-Mexico 1am kick-off unchanged after Fifa U-turn",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
       "published_at": "Sat, 04 Jul 2026 00:16:26 GMT",
       "source": "BBC Sport Football",
@@ -46,8 +82,17 @@
       "summary": "Anthony Elanga and Yoane Wissa both struggled in their first season at Newcastle, but five goals between at the World Cup them suggest things will be different next term."
     },
     {
+      "id": "992da89b4709",
+      "title": "Magic Weekend 2026 LIVE! Build-up to day one at Hill Dickinson Stadium ",
+      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13558511/magic-weekend-2026-live-commentary-videos-analysis-updates-scores-results-with-hull-kr-vs-hull-fc-leeds-rhinos-vs-bradford-bulls",
+      "published_at": "Sat, 04 Jul 2026 11:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
       "id": "6323f37fdf34",
-      "title": "Arias strike sends Colombia into World Cup last 16",
+      "title": "Arias strike sends Colombia past Ghana and into World Cup last 16",
       "url": "https://www.skysports.com/football/colombia-vs-ghana/report/549853",
       "published_at": "Sat, 04 Jul 2026 04:46:00 BST",
       "source": "Sky Sports Football",
