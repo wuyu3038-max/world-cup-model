@@ -1,37 +1,28 @@
 {
-  "updated": "2026-07-05T10:40:10.189970",
-  "total_articles": 17,
+  "updated": "2026-07-05T17:36:12.887912",
+  "total_articles": 12,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 8,
-    "bbc_sport": 6,
-    "sky_sports": 3,
+    "bbc_sport": 3,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "7337fa9dafdd",
-      "title": "France pass toughest World Cup test yet in beating...",
-      "url": "https://www.espn.com/soccer/story/_/id/49272197/france-kylian-mbappe-paraguay-world-cup-reaction-analysis",
-      "published_at": "Sat, 4 Jul 2026 20:36:56 EST",
+      "id": "dae2c52172d8",
+      "title": "FIFA suspends Balogun red card, can face Belgium",
+      "url": "https://www.espn.com/soccer/story/_/id/49277378/usmnt-folarin-balogun-red-card-suspended-belgium",
+      "published_at": "Sun, 5 Jul 2026 12:55:56 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "France haven't really been challenged yet at this World Cup in the way Paraguay tested them Sunday, but Mbappe & Co. were able to stay cool in the sweltering heat and advance to the quarterfinals."
-    },
-    {
-      "id": "e7ad65070b9e",
-      "title": "World Cup VAR review: Did France deserve deciding ...",
-      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
-      "published_at": "Sat, 4 Jul 2026 20:36:56 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "null"
+      "summary": "FIFA has suspended the red card USMNT striker Folarin Balogun received in the match against Bosnia-Herzegovina, meaning he is available to face Belgium in the round of 16."
     },
     {
       "id": "262481ce6eb8",
       "title": "Brazil deny 'anti-Haaland plan' for World Cup tie",
       "url": "https://www.espn.com/soccer/story/_/id/49271499/brazil-dont-anti-erling-haaland-plan-world-cup-carlo-ancelotti",
-      "published_at": "Sat, 4 Jul 2026 21:46:38 EST",
+      "published_at": "Sun, 5 Jul 2026 12:56:01 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Brazil coach Carlo Ancelotti maintains he is not about to set up an \"anti Erling Haaland plan\" against Norway at the World Cup."
@@ -40,7 +31,7 @@
       "id": "2feb184059c9",
       "title": "World Cup Daily live: Mexico fans try to give Engl...",
       "url": "https://www.espn.com/soccer/story/_/id/49274470/mexico-england-brazil-norway-round-16",
-      "published_at": "Sun, 5 Jul 2026 05:17:08 EST",
+      "published_at": "Sun, 5 Jul 2026 13:07:03 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "Enjoy all the features, news, video analysis and color from around the World Cup as Brazil face Norway and England take on Mexico."
@@ -49,19 +40,37 @@
       "id": "8dfb7404cf82",
       "title": "Postcards from the World Cup: Seeing the U.S., Canada and Mexico play at home",
       "url": "https://www.espn.com/soccer/story/_/id/49249888/world-cup-postcards-travel-usa-los-angeles-mexico-guadalajara-canada-vancouver",
-      "published_at": "Sun, 5 Jul 2026 03:15:31 EST",
+      "published_at": "Sun, 5 Jul 2026 13:20:23 EST",
       "source": "ESPN FC",
       "language": "en",
       "summary": "The 2026 World Cup has been unique for being co-hosted by three countries, the U.S., Canada and Mexico. What has the tournament been like in each nation? Mark Ogden went to find out."
     },
     {
-      "id": "c7b89924c06b",
-      "title": "Copy of Cape Verde's incredible World Cup run captured hea...",
-      "url": "https://www.espn.com/soccer/story/_/id/49265781/cape-verde-incredible-world-cup-run-captured-hearts-earned-respect",
-      "published_at": "Sat, 4 Jul 2026 15:08:39 EST",
+      "id": "a79ec05520e8",
+      "title": "A key USMNT World Cup perk: An embedded barber, wh...",
+      "url": "https://www.espn.com/soccer/story/_/id/49271996/where-does-usmnt-rank-great-world-cup-hairstyles",
+      "published_at": "Sun, 5 Jul 2026 13:18:32 EST",
       "source": "ESPN FC",
       "language": "en",
-      "summary": "If World Cups were measured in moments, then Cape Verde would be champions, as their incredible run to the knockouts captured the hearts of fans."
+      "summary": "The USMNT's unique hairstyles are turning heads at the World Cup, and it's thanks to their embedded barber who gives them fresh cuts in camp."
+    },
+    {
+      "id": "7337fa9dafdd",
+      "title": "France pass toughest World Cup test yet in beating...",
+      "url": "https://www.espn.com/soccer/story/_/id/49272197/france-kylian-mbappe-paraguay-world-cup-reaction-analysis",
+      "published_at": "Sun, 5 Jul 2026 09:23:25 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "France haven't really been challenged yet at this World Cup in the way Paraguay tested them Sunday, but Mbappe & Co. were able to stay cool in the sweltering heat and advance to the quarterfinals."
+    },
+    {
+      "id": "e7ad65070b9e",
+      "title": "World Cup VAR review: Did France deserve deciding ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+      "published_at": "Sun, 5 Jul 2026 09:23:25 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "null"
     },
     {
       "id": "dd7b2ed04e36",
@@ -73,22 +82,22 @@
       "summary": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?"
     },
     {
-      "id": "a79ec05520e8",
-      "title": "A key USMNT World Cup perk: An embedded barber, wh...",
-      "url": "https://www.espn.com/soccer/story/_/id/49271996/where-does-usmnt-rank-great-world-cup-hairstyles",
-      "published_at": "Sun, 5 Jul 2026 05:18:15 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The USMNT's unique hairstyles are turning heads at the World Cup, and it's thanks to their embedded barber who gives them fresh cuts in camp."
-    },
-    {
-      "id": "a3132753f55e",
-      "title": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy4e22gqe50o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 21:20:25 GMT",
+      "id": "dd578c9329e4",
+      "title": "USA striker Balogun's one-game ban suspended by Fifa",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 05 Jul 2026 17:15:30 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "As  Morocco beat Canada to book their place in the last-8, their World Cup campaign can no longer be seen as a fairytale."
+      "summary": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa. "
+    },
+    {
+      "id": "30f39a3936de",
+      "title": "Thousands welcome home Cape Verde players after stunning World Cup run",
+      "url": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 05 Jul 2026 14:59:10 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia."
     },
     {
       "id": "26e39e9d3344",
@@ -100,67 +109,13 @@
       "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "3450e8a8e68e",
-      "title": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 09:33:37 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the last-16 ties at the 2026 World Cup, including England against Mexico."
-    },
-    {
-      "id": "e19cdb11e131",
-      "title": "Five and a half hours that left England's World Cup tie in chaos",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0ey24q42w2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 01:36:43 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "For several hours on Friday, no-one seemed to know when England's World Cup last-16 match against co-hosts Mexico would kick off. BBC Sport explains how a story of confusion and anger - culminating in"
-    },
-    {
-      "id": "cabc9d9619f6",
-      "title": "Eight of the 10 most populous countries are not in the World Cup",
-      "url": "https://www.bbc.co.uk/news/articles/c621je3we82o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 09:09:18 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Many countries with massive populations consistently miss out on football’s biggest party. What can they do to change their sporting fortunes?"
-    },
-    {
-      "id": "f0299eab2b27",
-      "title": "Farewell Cape Verde - the underdogs the World Cup will never forget",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 03:09:37 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Cape Verde may have been the World Cup's second-smallest nation but they leave the largest impact as they depart following defeat by defending champions Argentina in an epic."
-    },
-    {
-      "id": "f5000a405930",
-      "title": "Magic Weekend 2026 LIVE! Build-up to day two at Hill Dickinson Stadium ",
-      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13558512/magic-weekend-2026-live-commentary-videos-analysis-updates-scores-results-with-wigan-warriors-vs-st-helens-leeds-rhinos-vs-bradford-bulls",
-      "published_at": "Sun, 05 Jul 2026 11:26:00 BST",
+      "id": "a38e77bf4622",
+      "title": "Australia racing towards victory over England in T20 World Cup final LIVE",
+      "url": "https://www.skysports.com/cricket/live-blog/12040/13560606/womens-t20-world-cup-final-australia-vs-england-live-latest-cricket-score-updates-video-and-analysis-from-lords",
+      "published_at": "Sun, 05 Jul 2026 13:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
-    },
-    {
-      "id": "658297a263d9",
-      "title": "Morocco knock out World Cup co-hosts Canada to reach last eight",
-      "url": "https://www.skysports.com/football/canada-vs-morocco/report/549854",
-      "published_at": "Sat, 04 Jul 2026 20:22:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Azzedine Ounahi scored a double before Soufiane Rahimi added a third to knock out World Cup co-hosts Canada and send Morocco into the last eight thanks to a 3-0 win in Houston. "
-    },
-    {
-      "id": "1244a3f87834",
-      "title": "F1 chief reveals hope of restoring cancelled race to 2026 schedule",
-      "url": "https://www.skysports.com/f1/news/12040/13560321/formula-1-f1-boss-stefano-domenicali-reveals-hope-to-restore-cancelled-middle-east-race-to-2026-calendar",
-      "published_at": "Sat, 04 Jul 2026 20:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Formula 1 president Stefano Domenicali has confirmed the sport's bosses are hoping to be able to restore one of two cancelled races earlier this season to the 2026 calendar."
     }
   ]
 }
