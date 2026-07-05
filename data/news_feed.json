@@ -1,14 +1,86 @@
 {
-  "updated": "2026-07-05T04:37:20.063542",
-  "total_articles": 9,
+  "updated": "2026-07-05T10:40:10.189970",
+  "total_articles": 17,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 7,
-    "sky_sports": 2,
+    "espn_fc": 8,
+    "bbc_sport": 6,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "7337fa9dafdd",
+      "title": "France pass toughest World Cup test yet in beating...",
+      "url": "https://www.espn.com/soccer/story/_/id/49272197/france-kylian-mbappe-paraguay-world-cup-reaction-analysis",
+      "published_at": "Sat, 4 Jul 2026 20:36:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "France haven't really been challenged yet at this World Cup in the way Paraguay tested them Sunday, but Mbappe & Co. were able to stay cool in the sweltering heat and advance to the quarterfinals."
+    },
+    {
+      "id": "e7ad65070b9e",
+      "title": "World Cup VAR review: Did France deserve deciding ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+      "published_at": "Sat, 4 Jul 2026 20:36:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "null"
+    },
+    {
+      "id": "262481ce6eb8",
+      "title": "Brazil deny 'anti-Haaland plan' for World Cup tie",
+      "url": "https://www.espn.com/soccer/story/_/id/49271499/brazil-dont-anti-erling-haaland-plan-world-cup-carlo-ancelotti",
+      "published_at": "Sat, 4 Jul 2026 21:46:38 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Brazil coach Carlo Ancelotti maintains he is not about to set up an \"anti Erling Haaland plan\" against Norway at the World Cup."
+    },
+    {
+      "id": "2feb184059c9",
+      "title": "World Cup Daily live: Mexico fans try to give Engl...",
+      "url": "https://www.espn.com/soccer/story/_/id/49274470/mexico-england-brazil-norway-round-16",
+      "published_at": "Sun, 5 Jul 2026 05:17:08 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the features, news, video analysis and color from around the World Cup as Brazil face Norway and England take on Mexico."
+    },
+    {
+      "id": "8dfb7404cf82",
+      "title": "Postcards from the World Cup: Seeing the U.S., Canada and Mexico play at home",
+      "url": "https://www.espn.com/soccer/story/_/id/49249888/world-cup-postcards-travel-usa-los-angeles-mexico-guadalajara-canada-vancouver",
+      "published_at": "Sun, 5 Jul 2026 03:15:31 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The 2026 World Cup has been unique for being co-hosted by three countries, the U.S., Canada and Mexico. What has the tournament been like in each nation? Mark Ogden went to find out."
+    },
+    {
+      "id": "c7b89924c06b",
+      "title": "Copy of Cape Verde's incredible World Cup run captured hea...",
+      "url": "https://www.espn.com/soccer/story/_/id/49265781/cape-verde-incredible-world-cup-run-captured-hearts-earned-respect",
+      "published_at": "Sat, 4 Jul 2026 15:08:39 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "If World Cups were measured in moments, then Cape Verde would be champions, as their incredible run to the knockouts captured the hearts of fans."
+    },
+    {
+      "id": "dd7b2ed04e36",
+      "title": "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
+      "url": "https://www.espn.com/soccer/story/_/id/49251656/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina-france",
+      "published_at": "Sat, 4 Jul 2026 13:51:52 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "In the blink of an eye, we're down to the final 16 nations left competing for the 2026 World Cup. What do our writers and experts think the field looks like from worst to best of the teams remaining?"
+    },
+    {
+      "id": "a79ec05520e8",
+      "title": "A key USMNT World Cup perk: An embedded barber, wh...",
+      "url": "https://www.espn.com/soccer/story/_/id/49271996/where-does-usmnt-rank-great-world-cup-hairstyles",
+      "published_at": "Sun, 5 Jul 2026 05:18:15 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The USMNT's unique hairstyles are turning heads at the World Cup, and it's thanks to their embedded barber who gives them fresh cuts in camp."
+    },
     {
       "id": "a3132753f55e",
       "title": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
@@ -17,6 +89,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "As  Morocco beat Canada to book their place in the last-8, their World Cup campaign can no longer be seen as a fairytale."
+    },
+    {
+      "id": "26e39e9d3344",
+      "title": "Who am I? Guess World Cup star No 28",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx21k039r7qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 05 Jul 2026 05:46:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
       "id": "3450e8a8e68e",
@@ -37,6 +118,15 @@
       "summary": "For several hours on Friday, no-one seemed to know when England's World Cup last-16 match against co-hosts Mexico would kick off. BBC Sport explains how a story of confusion and anger - culminating in"
     },
     {
+      "id": "cabc9d9619f6",
+      "title": "Eight of the 10 most populous countries are not in the World Cup",
+      "url": "https://www.bbc.co.uk/news/articles/c621je3we82o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 04 Jul 2026 09:09:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Many countries with massive populations consistently miss out on football’s biggest party. What can they do to change their sporting fortunes?"
+    },
+    {
       "id": "f0299eab2b27",
       "title": "Farewell Cape Verde - the underdogs the World Cup will never forget",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
@@ -46,31 +136,13 @@
       "summary": "Cape Verde may have been the World Cup's second-smallest nation but they leave the largest impact as they depart following defeat by defending champions Argentina in an epic."
     },
     {
-      "id": "0b581945ef24",
-      "title": "World Cup quiz: How well do you remember the last 32?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce8j485z1ppo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 11:44:57 GMT",
-      "source": "BBC Sport Football",
+      "id": "f5000a405930",
+      "title": "Magic Weekend 2026 LIVE! Build-up to day two at Hill Dickinson Stadium ",
+      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13558512/magic-weekend-2026-live-commentary-videos-analysis-updates-scores-results-with-wigan-warriors-vs-st-helens-leeds-rhinos-vs-bradford-bulls",
+      "published_at": "Sun, 05 Jul 2026 11:26:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The World Cup's last-32 ties were decided in a busy six-day spell. But how closely were you paying attention?"
-    },
-    {
-      "id": "909deeb45ea7",
-      "title": "Who am I? Guess World Cup star No 27",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yrk3l4d90o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 06:06:21 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "cabc9d9619f6",
-      "title": "Eight of the 10 most populous countries are not in the World Cup",
-      "url": "https://www.bbc.co.uk/news/articles/c621je3we82o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 04 Jul 2026 09:09:18 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Many countries with massive populations consistently miss out on football’s biggest party. What can they do to change their sporting fortunes?"
+      "summary": ""
     },
     {
       "id": "658297a263d9",
