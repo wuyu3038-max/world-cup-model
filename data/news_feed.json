@@ -1,85 +1,85 @@
 {
-  "updated": "2026-07-06T04:48:07.575855",
+  "updated": "2026-07-06T12:25:49.582256",
   "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 6,
-    "sky_sports": 2,
+    "bbc_sport": 5,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
+      "id": "bc6bb735484b",
+      "title": "Integrity of game at stake over Fifa Balogun decision - Uefa",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzzd73871o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 08:36:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Uefa says Fifa's decision not to uphold Folarin Balogun's immediate ban at the World Cup is \"unprecedented, incomprehensible and unjustifiable\"."
+    },
+    {
+      "id": "f0551bda95c9",
+      "title": "The numbers behind Spain defence chasing World Cup history",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwy00jx3y91o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 11:07:49 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "With Spain yet to concede at the 2026 World Cup and on the brink of another tournament record, BBC Sport examines the numbers behind the shutouts."
+    },
+    {
+      "id": "0efcec430932",
+      "title": "How Mexico's World Cup run brought joy after a year of fear",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wwdn6n15o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 05:29:00 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "For Mexico's football-loving community, the World Cup has been a triumph, despite their last-16 exit. The joy has spread to Southern California, home to one of the largest Mexican communities outside "
+    },
+    {
+      "id": "9f744b355f36",
+      "title": "World Cup referees are just not good enough - Tuchel",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 02:50:51 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England head coach Thomas Tuchel says referees at the World Cup \"are just not good enough\" after the dramatic last-16 win over Mexico."
+    },
+    {
       "id": "ce38990ad7be",
       "title": "Red card system in disarray over Trump, Fifa and Balogun decision",
       "url": "https://www.bbc.co.uk/sport/football/articles/cly99dxjkxxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 05 Jul 2026 23:57:10 GMT",
+      "published_at": "Mon, 06 Jul 2026 09:06:26 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The decision to effectively overturn the red card shown to United States forward Folarin Balogun leaves many unanswered questions."
     },
     {
-      "id": "dd578c9329e4",
-      "title": "Trump thanks Fifa after USA striker Balogun's ban suspended",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 05 Jul 2026 19:36:11 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa. "
-    },
-    {
-      "id": "540b7be8cb94",
-      "title": "Haaland double fires Norway into World Cup quarter-finals",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cwy00v2xk05o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 05 Jul 2026 22:27:08 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Erling Haaland scores twice as Norway knock out five-time champions Brazil, and progress to the quarter-finals of the 2026 World Cup."
-    },
-    {
-      "id": "cf85c3a8a8f5",
-      "title": "Queiroz leaves Ghana following World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyxx288yr6o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 05 Jul 2026 22:55:27 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Carlos Queiroz steps down as Ghana head coach after three months in charge following their World Cup exit."
-    },
-    {
-      "id": "26e39e9d3344",
-      "title": "Who am I? Guess World Cup star No 28",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx21k039r7qo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 05 Jul 2026 05:46:18 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "30f39a3936de",
-      "title": "Thousands welcome home Cape Verde players after stunning World Cup run",
-      "url": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 05 Jul 2026 14:59:10 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia."
-    },
-    {
-      "id": "8002b2fbc41b",
-      "title": "Balogun ban overturned amid reports White House contacted FIFA",
-      "url": "https://www.skysports.com/football/news/12040/13560770/world-cup-2026-fifa-step-in-to-allow-banned-folarin-balogun-to-play-usa-last-16-tie-a-move-praised-by-president-donald-trump",
-      "published_at": "Sun, 05 Jul 2026 21:00:00 BST",
+      "id": "c88b8e4a9ffd",
+      "title": "'Crossed a red line': UEFA hits out at FIFA call to allow banned Balogun to play",
+      "url": "https://www.skysports.com/football/news/12040/13560915/world-cup-2026-uefa-hits-out-at-fifa-decision-to-allow-banned-folarin-balogun-to-play-usa-last-16-tie",
+      "published_at": "Mon, 06 Jul 2026 10:26:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "FIFA has stepped in to make banned USA striker Folarin Balogun available for the World Cup last-16 tie with Belgium."
+      "summary": "UEFA says FIFA has \"crossed a red line\" and has put the \"integrity of the game at stake\" in allowing USA striker Folarin Balogun to play in their World Cup tie against Belgium on Tuesday."
     },
     {
-      "id": "9a5948548800",
-      "title": "Australia romp past England to secure seventh Women's T20 World Cup title",
-      "url": "https://www.skysports.com/cricket/news/12040/13560599/womens-t20-world-cup-final-england-overpowered-by-australia-at-lords-as-southern-stars-win-record-extending-seventh-title",
-      "published_at": "Sun, 05 Jul 2026 18:48:00 BST",
+      "id": "03968254715e",
+      "title": "England’s best World Cup win on foreign soil? Tuchel proving decisive",
+      "url": "https://www.skysports.com/football/news/12040/13560963/mexico-2-3-england-thomas-tuchels-decisive-calls-at-this-world-cup-could-make-the-difference-after-historic-win",
+      "published_at": "Mon, 06 Jul 2026 12:27:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Australia dashed England's hopes of a first Women's T20 World Cup win in 17 years and second overall as they romped to a seven-wicket victory at Lord's to secure a record-extending seventh title."
+      "summary": "Was that England's greatest World Cup win on foreign soil? Sir Geoff Hurst has asked the question himself, suggesting that the 3-2 win over Mexico in the round of 16 might be the best performance sinc"
+    },
+    {
+      "id": "253e22fe2e1d",
+      "title": "Ronaldo: This World Cup will be my last - but I hope Spain clash isn't my farewell",
+      "url": "https://www.skysports.com/football/news/12040/13560011/cristiano-ronaldo-portugal-legend-announces-retirement-from-international-duty-following-world-cup-exit",
+      "published_at": "Mon, 06 Jul 2026 11:50:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Cristiano Ronaldo has confirmed the 2026 World Cup will be his last as a player."
     }
   ]
 }
