@@ -1,22 +1,31 @@
 {
-  "updated": "2026-07-06T12:25:49.582256",
-  "total_articles": 8,
+  "updated": "2026-07-06T18:26:14.300434",
+  "total_articles": 6,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 5,
-    "sky_sports": 3,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "bc6bb735484b",
-      "title": "Integrity of game at stake over Fifa Balogun decision - Uefa",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzzd73871o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 08:36:59 GMT",
+      "id": "e006e1d88e3c",
+      "title": "Trump confirms he asked Fifa to review Balogun ban",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 15:27:59 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Uefa says Fifa's decision not to uphold Folarin Balogun's immediate ban at the World Cup is \"unprecedented, incomprehensible and unjustifiable\"."
+      "summary": "President Donald Trump confirms he asked Fifa to review United States striker Folarin Balogun's one-match suspension at the World Cup."
+    },
+    {
+      "id": "bdf0ba3b93fc",
+      "title": "Who am I? Guess World Cup star No 29",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4g4je2erl0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 15:48:17 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
       "id": "f0551bda95c9",
@@ -28,15 +37,6 @@
       "summary": "With Spain yet to concede at the 2026 World Cup and on the brink of another tournament record, BBC Sport examines the numbers behind the shutouts."
     },
     {
-      "id": "0efcec430932",
-      "title": "How Mexico's World Cup run brought joy after a year of fear",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wwdn6n15o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 05:29:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "For Mexico's football-loving community, the World Cup has been a triumph, despite their last-16 exit. The joy has spread to Southern California, home to one of the largest Mexican communities outside "
-    },
-    {
       "id": "9f744b355f36",
       "title": "World Cup referees are just not good enough - Tuchel",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss",
@@ -46,40 +46,22 @@
       "summary": "England head coach Thomas Tuchel says referees at the World Cup \"are just not good enough\" after the dramatic last-16 win over Mexico."
     },
     {
-      "id": "ce38990ad7be",
-      "title": "Red card system in disarray over Trump, Fifa and Balogun decision",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly99dxjkxxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 09:06:26 GMT",
+      "id": "0efcec430932",
+      "title": "How Mexico's World Cup run brought joy after a year of fear",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wwdn6n15o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 05:29:00 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The decision to effectively overturn the red card shown to United States forward Folarin Balogun leaves many unanswered questions."
+      "summary": "For Mexico's football-loving community, the World Cup has been a triumph, despite their last-16 exit. The joy has spread to Southern California, home to one of the largest Mexican communities outside "
     },
     {
-      "id": "c88b8e4a9ffd",
-      "title": "'Crossed a red line': UEFA hits out at FIFA call to allow banned Balogun to play",
-      "url": "https://www.skysports.com/football/news/12040/13560915/world-cup-2026-uefa-hits-out-at-fifa-decision-to-allow-banned-folarin-balogun-to-play-usa-last-16-tie",
-      "published_at": "Mon, 06 Jul 2026 10:26:00 BST",
+      "id": "a35f8b0c2855",
+      "title": "Henderson to miss rest of World Cup after freak injury",
+      "url": "https://www.skysports.com/football/news/12040/13560940/world-cup-2026-englands-jordan-henderson-out-of-tournament-after-freak-injury-against-mexico",
+      "published_at": "Mon, 06 Jul 2026 18:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "UEFA says FIFA has \"crossed a red line\" and has put the \"integrity of the game at stake\" in allowing USA striker Folarin Balogun to play in their World Cup tie against Belgium on Tuesday."
-    },
-    {
-      "id": "03968254715e",
-      "title": "England’s best World Cup win on foreign soil? Tuchel proving decisive",
-      "url": "https://www.skysports.com/football/news/12040/13560963/mexico-2-3-england-thomas-tuchels-decisive-calls-at-this-world-cup-could-make-the-difference-after-historic-win",
-      "published_at": "Mon, 06 Jul 2026 12:27:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Was that England's greatest World Cup win on foreign soil? Sir Geoff Hurst has asked the question himself, suggesting that the 3-2 win over Mexico in the round of 16 might be the best performance sinc"
-    },
-    {
-      "id": "253e22fe2e1d",
-      "title": "Ronaldo: This World Cup will be my last - but I hope Spain clash isn't my farewell",
-      "url": "https://www.skysports.com/football/news/12040/13560011/cristiano-ronaldo-portugal-legend-announces-retirement-from-international-duty-following-world-cup-exit",
-      "published_at": "Mon, 06 Jul 2026 11:50:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Cristiano Ronaldo has confirmed the 2026 World Cup will be his last as a player."
+      "summary": "England midfielder Jordan Henderson has been ruled out for the remainder of the World Cup."
     }
   ]
 }
