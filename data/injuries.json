@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-07T11:25:52.297459",
+    "last_updated": "2026-07-07T18:29:04.452786",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -782,26 +782,14 @@
   },
   "_news_injury_alerts": [
     {
-      "title": "Murley injury compounds England's back-three selection headache",
+      "title": "England players to get hoarding warning after freak Henderson injury",
       "nations": [
-        "England",
-        "South Africa"
+        "England"
       ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13561218/nations-championship-england-call-up-emmanuel-iyogun-and-chandler-cunningham-south-to-replace-injured-cadan-murley-beno-obano",
-      "summary": "England have called up Emmanuel Iyogun and Chandler Cunningham-South to replace Cadan Murley and Beno Obano, both of whom suffered injuries in the 45-21 defeat to South Africa in Johannesburg.",
-      "published": "Tue, 07 Jul 2026 10:12:00 BST"
-    },
-    {
-      "title": "Stones pranks Tuchel with fake injury in dressing room celebration! 🕺",
-      "nations": [
-        "England",
-        "Mexico"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/watch/video/13561148/world-cup-john-stones-pranks-thomas-tuchel-with-fake-injury-in-dressing-room-celebs",
-      "summary": "Watch the hilarious moment John Stones pranked England boss Thomas Tuchel with a fake shoulder injury during the dressing room celebrations after beating Mexico. X credit: @England.",
-      "published": "Tue, 07 Jul 2026 00:03:00 BST"
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss",
+      "summary": "England players will be advised not to jump over advertising hoardings after Jordan Henderson suffered a freak injury.",
+      "published": "Tue, 07 Jul 2026 17:49:34 GMT"
     }
   ]
 }

@@ -1,22 +1,40 @@
 {
-  "updated": "2026-07-07T11:25:52.237781",
-  "total_articles": 8,
+  "updated": "2026-07-07T18:29:04.395258",
+  "total_articles": 6,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 4,
-    "sky_sports": 4,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "256b22ca9f23",
-      "title": "Messi v Salah: A World Cup meeting of two national icons",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg55yl9xj4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 07 Jul 2026 09:58:33 GMT",
+      "id": "c22bf2315a3b",
+      "title": "England players to get hoarding warning after freak Henderson injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 07 Jul 2026 17:49:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Mohamed Salah and Lionel Messi will meet in the last 16 of the World Cup on Tuesday with their nations' hopes resting firmly on their shoulders."
+      "summary": "England players will be advised not to jump over advertising hoardings after Jordan Henderson suffered a freak injury."
+    },
+    {
+      "id": "90a42deb6708",
+      "title": "La Liga chief critical of 'complicit silence' surrounding Fifa ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0ly51j7grxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 07 Jul 2026 12:49:44 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "La Liga president Javier Tebas has criticised the \"complicit silence\" which surrounds Fifa after the Folarin Balogun controversy."
+    },
+    {
+      "id": "515f8a557478",
+      "title": "Fifa's Balogun decision could lead to football 'cesspit' - McAllister",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgmdkjg9pkno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 07 Jul 2026 15:43:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Uefa vice-president Laura McAllister says there is a risk of \"an absolute cesspit\" of political interference in football after USA striker Folarin Balogun avoided a ban at the World Cup."
     },
     {
       "id": "efbb4ad23ee3",
@@ -28,22 +46,13 @@
       "summary": "BBC Sport looks at the end of Cristiano Ronaldo's World Cup career as he fails to win football's biggest prize."
     },
     {
-      "id": "02498ef63a88",
-      "title": "Spain's World Cup challenge built on record-breaking historic defence",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cyv00rzd3lpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 23:16:51 GMT",
-      "source": "BBC Sport Football",
+      "id": "26b38109c8e7",
+      "title": "Switzerland vs Colombia team news LIVE!",
+      "url": "https://www.skysports.com/football/switzerland-vs-colombia/live/549860",
+      "published_at": "Tue, 07 Jul 2026 14:00:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "If Spain are to get their hands on the World Cup trophy again, they may have their defence, rather than their attack, to thank."
-    },
-    {
-      "id": "86de8c9815c0",
-      "title": "Who am I? Guess World Cup star No 30",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0l2y4p59n9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 07 Jul 2026 05:29:07 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": ""
     },
     {
       "id": "c5496421bb98",
@@ -53,33 +62,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Belgium players appeared to mock US President Donald Trump and FIFA after eliminating co-hosts USA from the World Cup."
-    },
-    {
-      "id": "5ff6b89e53f5",
-      "title": "Murley injury compounds England's back-three selection headache",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13561218/nations-championship-england-call-up-emmanuel-iyogun-and-chandler-cunningham-south-to-replace-injured-cadan-murley-beno-obano",
-      "published_at": "Tue, 07 Jul 2026 10:12:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England have called up Emmanuel Iyogun and Chandler Cunningham-South to replace Cadan Murley and Beno Obano, both of whom suffered injuries in the 45-21 defeat to South Africa in Johannesburg."
-    },
-    {
-      "id": "0ef8ff1cbafb",
-      "title": "Stones pranks Tuchel with fake injury in dressing room celebration! 🕺",
-      "url": "https://www.skysports.com/watch/video/13561148/world-cup-john-stones-pranks-thomas-tuchel-with-fake-injury-in-dressing-room-celebs",
-      "published_at": "Tue, 07 Jul 2026 00:03:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Watch the hilarious moment John Stones pranked England boss Thomas Tuchel with a fake shoulder injury during the dressing room celebrations after beating Mexico. X credit: @England."
-    },
-    {
-      "id": "19ef6aad2457",
-      "title": "What is Ronaldo's World Cup legacy? HAVE YOUR SAY!",
-      "url": "https://www.skysports.com/football/portugal-vs-spain/live/549858",
-      "published_at": "Tue, 07 Jul 2026 10:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
