@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-07T04:29:49.733470",
-  "total_articles": 5,
+  "updated": "2026-07-07T11:25:52.237781",
+  "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 4,
-    "sky_sports": 1,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "256b22ca9f23",
+      "title": "Messi v Salah: A World Cup meeting of two national icons",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg55yl9xj4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 07 Jul 2026 09:58:33 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Mohamed Salah and Lionel Messi will meet in the last 16 of the World Cup on Tuesday with their nations' hopes resting firmly on their shoulders."
+    },
     {
       "id": "efbb4ad23ee3",
       "title": "Ronaldo's World Cup career ends in tears as 'pandering' Martinez departs",
@@ -28,28 +37,46 @@
       "summary": "If Spain are to get their hands on the World Cup trophy again, they may have their defence, rather than their attack, to thank."
     },
     {
-      "id": "0efcec430932",
-      "title": "After a year of ICE raids, Southern California finds joy in Mexico's World Cup run",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wwdn6n15o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 05:29:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "For Mexico's football-loving community, the World Cup has been a triumph, despite their last-16 exit. The joy has spread to Southern California, home to one of the largest Mexican communities outside "
-    },
-    {
-      "id": "bdf0ba3b93fc",
-      "title": "Who am I? Guess World Cup star No 29",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4g4je2erl0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 15:48:17 GMT",
+      "id": "86de8c9815c0",
+      "title": "Who am I? Guess World Cup star No 30",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0l2y4p59n9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 07 Jul 2026 05:29:07 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
+      "id": "c5496421bb98",
+      "title": "'Overturn this' - Belgium mock Trump and FIFA after USA World Cup exit",
+      "url": "https://www.skysports.com/football/news/12040/13561192/overturn-this-belgium-mock-usa-after-world-cup-exit",
+      "published_at": "Tue, 07 Jul 2026 09:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Belgium players appeared to mock US President Donald Trump and FIFA after eliminating co-hosts USA from the World Cup."
+    },
+    {
+      "id": "5ff6b89e53f5",
+      "title": "Murley injury compounds England's back-three selection headache",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13561218/nations-championship-england-call-up-emmanuel-iyogun-and-chandler-cunningham-south-to-replace-injured-cadan-murley-beno-obano",
+      "published_at": "Tue, 07 Jul 2026 10:12:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England have called up Emmanuel Iyogun and Chandler Cunningham-South to replace Cadan Murley and Beno Obano, both of whom suffered injuries in the 45-21 defeat to South Africa in Johannesburg."
+    },
+    {
+      "id": "0ef8ff1cbafb",
+      "title": "Stones pranks Tuchel with fake injury in dressing room celebration! 🕺",
+      "url": "https://www.skysports.com/watch/video/13561148/world-cup-john-stones-pranks-thomas-tuchel-with-fake-injury-in-dressing-room-celebs",
+      "published_at": "Tue, 07 Jul 2026 00:03:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Watch the hilarious moment John Stones pranked England boss Thomas Tuchel with a fake shoulder injury during the dressing room celebrations after beating Mexico. X credit: @England."
+    },
+    {
       "id": "19ef6aad2457",
-      "title": "Reaction as Portugal lose to Spain and Ronaldo exits World Cup for final time ",
+      "title": "What is Ronaldo's World Cup legacy? HAVE YOUR SAY!",
       "url": "https://www.skysports.com/football/portugal-vs-spain/live/549858",
-      "published_at": "Fri, 03 Jul 2026 12:57:00 BST",
+      "published_at": "Tue, 07 Jul 2026 10:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
