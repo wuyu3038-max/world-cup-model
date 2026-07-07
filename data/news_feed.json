@@ -1,22 +1,40 @@
 {
-  "updated": "2026-07-06T18:26:14.300434",
-  "total_articles": 6,
+  "updated": "2026-07-07T04:29:49.733470",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
+    "bbc_sport": 4,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "e006e1d88e3c",
-      "title": "Trump confirms he asked Fifa to review Balogun ban",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 15:27:59 GMT",
+      "id": "efbb4ad23ee3",
+      "title": "Ronaldo's World Cup career ends in tears as 'pandering' Martinez departs",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3vyyq1kg5go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 23:51:04 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "President Donald Trump confirms he asked Fifa to review United States striker Folarin Balogun's one-match suspension at the World Cup."
+      "summary": "BBC Sport looks at the end of Cristiano Ronaldo's World Cup career as he fails to win football's biggest prize."
+    },
+    {
+      "id": "02498ef63a88",
+      "title": "Spain's World Cup challenge built on record-breaking historic defence",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cyv00rzd3lpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 23:16:51 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "If Spain are to get their hands on the World Cup trophy again, they may have their defence, rather than their attack, to thank."
+    },
+    {
+      "id": "0efcec430932",
+      "title": "After a year of ICE raids, Southern California finds joy in Mexico's World Cup run",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wwdn6n15o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 06 Jul 2026 05:29:00 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "For Mexico's football-loving community, the World Cup has been a triumph, despite their last-16 exit. The joy has spread to Southern California, home to one of the largest Mexican communities outside "
     },
     {
       "id": "bdf0ba3b93fc",
@@ -28,40 +46,13 @@
       "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "f0551bda95c9",
-      "title": "The numbers behind Spain defence chasing World Cup history",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwy00jx3y91o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 11:07:49 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "With Spain yet to concede at the 2026 World Cup and on the brink of another tournament record, BBC Sport examines the numbers behind the shutouts."
-    },
-    {
-      "id": "9f744b355f36",
-      "title": "World Cup referees are just not good enough - Tuchel",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 02:50:51 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England head coach Thomas Tuchel says referees at the World Cup \"are just not good enough\" after the dramatic last-16 win over Mexico."
-    },
-    {
-      "id": "0efcec430932",
-      "title": "How Mexico's World Cup run brought joy after a year of fear",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wwdn6n15o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 05:29:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "For Mexico's football-loving community, the World Cup has been a triumph, despite their last-16 exit. The joy has spread to Southern California, home to one of the largest Mexican communities outside "
-    },
-    {
-      "id": "a35f8b0c2855",
-      "title": "Henderson to miss rest of World Cup after freak injury",
-      "url": "https://www.skysports.com/football/news/12040/13560940/world-cup-2026-englands-jordan-henderson-out-of-tournament-after-freak-injury-against-mexico",
-      "published_at": "Mon, 06 Jul 2026 18:00:00 BST",
+      "id": "19ef6aad2457",
+      "title": "Reaction as Portugal lose to Spain and Ronaldo exits World Cup for final time ",
+      "url": "https://www.skysports.com/football/portugal-vs-spain/live/549858",
+      "published_at": "Fri, 03 Jul 2026 12:57:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England midfielder Jordan Henderson has been ruled out for the remainder of the World Cup."
+      "summary": ""
     }
   ]
 }
