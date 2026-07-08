@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-08T10:36:59.092775",
+    "last_updated": "2026-07-08T17:59:39.063345",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,17 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Egypt want officials kicked out of World Cup",
+      "nations": [
+        "Argentina",
+        "Egypt"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Egyptian FA lodges a complaint with Fifa and demands an investigation into \"double standards\" of officiating in the controversial defeat by Argentina.",
+      "published": "Wed, 08 Jul 2026 13:45:24 GMT"
+    }
+  ]
 }
