@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-08T03:51:54.605817",
-  "total_articles": 8,
+  "updated": "2026-07-08T10:36:59.036551",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
+    "bbc_sport": 4,
     "sky_sports": 3,
     "goal_com": 0
   },
@@ -19,46 +19,46 @@
       "summary": "Argentina great Lionel Messi sheds tears as they fight back to beat Egypt and reach the World Cup quarter-finals."
     },
     {
-      "id": "c22bf2315a3b",
-      "title": "England players to get hoarding warning after freak Henderson injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 07 Jul 2026 17:49:34 GMT",
+      "id": "fa49921d465e",
+      "title": "Unusual or predictable? How Europe is dominating the World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr479drd159o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 08 Jul 2026 05:02:22 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England players will be advised not to jump over advertising hoardings after Jordan Henderson suffered a freak injury."
+      "summary": "Six of the eight quarter-finalists at the World Cup in North America are from Europe, so why are they doing so well and what does history tell us about the chances of one of them winning it all?"
     },
     {
-      "id": "59ce8bf57bfb",
-      "title": "Fifa investigating alleged racist abuse of IShowSpeed",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1my1pr18jmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 07 Jul 2026 19:13:36 GMT",
+      "id": "fb2bac0addf1",
+      "title": "The World Cup stars who could have played for England",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0lyj77w9z7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 08 Jul 2026 09:49:22 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa has opened an investigation following allegations of racist abuse involving American social media influencer IShowSpeed and a supporter during Argentina's 3-2 win over Cape Verde on Friday.\n"
+      "summary": "While there is no shortage of talent in the England squad, a number of World Cup stars from other nations could have featured for the Three Lions if things had worked out differently."
     },
     {
-      "id": "90a42deb6708",
-      "title": "La Liga chief critical of 'complicit silence' surrounding Fifa ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0ly51j7grxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 07 Jul 2026 12:49:44 GMT",
+      "id": "91d0a1816917",
+      "title": "Who am I? Guess World Cup star No 31",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3r2325v399o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 08 Jul 2026 05:47:35 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "La Liga president Javier Tebas has criticised the \"complicit silence\" which surrounds Fifa after the Folarin Balogun controversy."
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "515f8a557478",
-      "title": "Fifa's Balogun decision could lead to football 'cesspit' - McAllister",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgmdkjg9pkno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 07 Jul 2026 15:43:41 GMT",
-      "source": "BBC Sport Football",
+      "id": "d4f70a6d7551",
+      "title": "'I hope they lose and cry!' | Hovland's World Cup wish ahead of Saturday!",
+      "url": "https://www.skysports.com/watch/video/13561357/viktor-hovlands-world-cup-wish-ahead-of-saturday-i-hope-they-lose-and-cry",
+      "published_at": "Tue, 07 Jul 2026 15:44:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Uefa vice-president Laura McAllister says there is a risk of \"an absolute cesspit\" of political interference in football after USA striker Folarin Balogun avoided a ban at the World Cup."
+      "summary": "Viktor Hovland made his feelings very clear on who he is backing in the World Cup quarter-final between England and Norway on Saturday!"
     },
     {
       "id": "bbcab64a32d5",
-      "title": "Ed Sheeran plays gig for England squad as he backs team for World Cup glory",
+      "title": "Four England players run risk of World Cup suspension - but NOT Kane",
       "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "published_at": "Tue, 07 Jul 2026 21:47:00 BST",
+      "published_at": "Wed, 08 Jul 2026 07:20:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
@@ -71,15 +71,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Argentina produced an astonishing comeback to keep their World Cup alive as they recovered from two down to beat Egypt 3-2 in stoppage-time."
-    },
-    {
-      "id": "a1a608ed71c2",
-      "title": "Egypt boss slams 'unfair' officiating and claims World Cup 'directed towards Argentina'",
-      "url": "https://www.skysports.com/football/news/12040/13561467/argentina-3-2-egypt-hossam-hassan-says-officiating-unfair-and-world-cup-directed-towards-reigning-champions",
-      "published_at": "Tue, 07 Jul 2026 21:08:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Egypt head coach Hossam Hassan said the referee was \"unfair\" and claimed the World Cup was \"directed towards Argentina\" following their dramatic 3-2 defeat in the last 16."
     }
   ]
 }
