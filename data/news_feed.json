@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-07T18:29:04.395258",
-  "total_articles": 6,
+  "updated": "2026-07-08T03:51:54.605817",
+  "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 2,
+    "bbc_sport": 5,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "e779ae8d0a6a",
+      "title": "Tears of relief? Messi adds another incredible chapter to World Cup career",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz6v407y3qjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 07 Jul 2026 20:28:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Argentina great Lionel Messi sheds tears as they fight back to beat Egypt and reach the World Cup quarter-finals."
+    },
     {
       "id": "c22bf2315a3b",
       "title": "England players to get hoarding warning after freak Henderson injury",
@@ -17,6 +26,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "England players will be advised not to jump over advertising hoardings after Jordan Henderson suffered a freak injury."
+    },
+    {
+      "id": "59ce8bf57bfb",
+      "title": "Fifa investigating alleged racist abuse of IShowSpeed",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1my1pr18jmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 07 Jul 2026 19:13:36 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa has opened an investigation following allegations of racist abuse involving American social media influencer IShowSpeed and a supporter during Argentina's 3-2 win over Cape Verde on Friday.\n"
     },
     {
       "id": "90a42deb6708",
@@ -37,31 +55,31 @@
       "summary": "Uefa vice-president Laura McAllister says there is a risk of \"an absolute cesspit\" of political interference in football after USA striker Folarin Balogun avoided a ban at the World Cup."
     },
     {
-      "id": "efbb4ad23ee3",
-      "title": "Ronaldo's World Cup career ends in tears as 'pandering' Martinez departs",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3vyyq1kg5go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 06 Jul 2026 23:51:04 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport looks at the end of Cristiano Ronaldo's World Cup career as he fails to win football's biggest prize."
-    },
-    {
-      "id": "26b38109c8e7",
-      "title": "Switzerland vs Colombia team news LIVE!",
-      "url": "https://www.skysports.com/football/switzerland-vs-colombia/live/549860",
-      "published_at": "Tue, 07 Jul 2026 14:00:00 BST",
+      "id": "bbcab64a32d5",
+      "title": "Ed Sheeran plays gig for England squad as he backs team for World Cup glory",
+      "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "published_at": "Tue, 07 Jul 2026 21:47:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
     },
     {
-      "id": "c5496421bb98",
-      "title": "'Overturn this' - Belgium mock Trump and FIFA after USA World Cup exit",
-      "url": "https://www.skysports.com/football/news/12040/13561192/overturn-this-belgium-mock-usa-after-world-cup-exit",
-      "published_at": "Tue, 07 Jul 2026 09:00:00 BST",
+      "id": "0c16e91968e9",
+      "title": "Argentina come from two down to beat Egypt in World Cup classic",
+      "url": "https://www.skysports.com/football/argentina-vs-egypt/report/549861",
+      "published_at": "Tue, 07 Jul 2026 19:14:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Belgium players appeared to mock US President Donald Trump and FIFA after eliminating co-hosts USA from the World Cup."
+      "summary": "Argentina produced an astonishing comeback to keep their World Cup alive as they recovered from two down to beat Egypt 3-2 in stoppage-time."
+    },
+    {
+      "id": "a1a608ed71c2",
+      "title": "Egypt boss slams 'unfair' officiating and claims World Cup 'directed towards Argentina'",
+      "url": "https://www.skysports.com/football/news/12040/13561467/argentina-3-2-egypt-hossam-hassan-says-officiating-unfair-and-world-cup-directed-towards-reigning-champions",
+      "published_at": "Tue, 07 Jul 2026 21:08:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Egypt head coach Hossam Hassan said the referee was \"unfair\" and claimed the World Cup was \"directed towards Argentina\" following their dramatic 3-2 defeat in the last 16."
     }
   ]
 }
