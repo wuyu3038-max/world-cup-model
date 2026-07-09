@@ -1,14 +1,104 @@
 {
-  "updated": "2026-07-09T11:32:56.044348",
-  "total_articles": 10,
+  "updated": "2026-07-09T18:16:49.938194",
+  "total_articles": 15,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 7,
-    "sky_sports": 3,
+    "espn_fc": 10,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "9fe9e8643c1e",
+      "title": "Grading the USMNT's World Cup: Did Pochettino, Pul...",
+      "url": "https://www.espn.com/soccer/story/_/id/49314124/usa-world-cup-report-card-grades-mauricio-pochettino-christian-pulisic-analysis",
+      "published_at": "Thu, 9 Jul 2026 11:17:45 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "At this summer's World Cup, the U.S. did its homework, aced the quizzes, and then failed the final exam. How should we grade its World Cup?"
+    },
+    {
+      "id": "4b68b4af4ea7",
+      "title": "⚽ World Cup Golden Boot tracker: Messi leads",
+      "url": "https://www.espn.com/soccer/story/_/id/49117037/lionel-messi-erling-haaland-kylian-mbappe-harry-kane-folarin-balogun-world-cup-golden-boot-top-scorer",
+      "published_at": "Thu, 9 Jul 2026 13:08:28 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "We're into the quarterfinals at the 2026 FIFA World Cup, and the race for the Golden Boot -- given to the tournament's top goal scorer -- is red-hot."
+    },
+    {
+      "id": "5fcd270817c9",
+      "title": "Meet your World Cup quarterfinalists! How they got...",
+      "url": "https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland",
+      "published_at": "Thu, 9 Jul 2026 09:46:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Four weeks after the World Cup began, the quarterfinals start Thursday with each team three wins away from lifting the trophy. First up, it's France vs. Morocco."
+    },
+    {
+      "id": "e1fdd423e7b1",
+      "title": "The 8 most important players of the World Cup quar...",
+      "url": "https://www.espn.com/soccer/story/_/id/49301521/most-important-player-every-2026-world-cup-quarterfinal-team",
+      "published_at": "Thu, 9 Jul 2026 09:46:55 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Individual superstars become even more influential at this point in the tournament."
+    },
+    {
+      "id": "d17a870bc630",
+      "title": "World Cup Daily live: Mexico star Mora's high scho...",
+      "url": "https://www.espn.com/soccer/story/_/id/49309123/world-cup-daily-live-mexico-star-mora-high-school-graduation-france-morocco-quarterfinals",
+      "published_at": "Thu, 9 Jul 2026 08:29:23 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the features, news, video analysis and color from around the competition as the first day of the 2026 FIFA World Cup quarterfinals begin."
+    },
+    {
+      "id": "4164cc34f0f3",
+      "title": "Where has Infantino been? FIFA president clocks ne...",
+      "url": "https://www.espn.com/soccer/story/_/id/49116383/infantino-fifa-presidents-epic-world-cup-tour",
+      "published_at": "Thu, 9 Jul 2026 08:29:46 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The FIFA president has been flying all across the World Cup host nations on his private jet. Here's where he has been so far during the tournament."
+    },
+    {
+      "id": "1780ecfe419b",
+      "title": "Marcotti's Mini World Cup Musings: Messi is supern...",
+      "url": "https://www.espn.com/soccer/story/_/id/49307058/gabriele-marcotti-mini-world-cup-musings-lionel-messi-supernatural-usmnt-get-reality-check",
+      "published_at": "Thu, 9 Jul 2026 00:49:33 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "After 28 days of games, Wednesday is the first rest day of the 2026 World Cup: the perfect opportunity to reflect on four weeks of fabulous football."
+    },
+    {
+      "id": "36763230c6d8",
+      "title": "Copy of Copy of So, Ronaldo's World Cup era is over. Where did eac...",
+      "url": "https://www.espn.com/soccer/story/_/id/49295300/cristiano-ronaldo-last-world-cup-analysis-six-tournaments-portugal",
+      "published_at": "Thu, 9 Jul 2026 01:58:55 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Cristiano Ronaldo said this would be his last World Cup, and after losing to Spain on Monday night, this chapter of his incredible career is now closed. Let's look back to see where each campaign went"
+    },
+    {
+      "id": "4ab5b59d40c0",
+      "title": "Premier League 2026-27 kits: Ranking every jersey ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49163915/premier-league-202627-kits-ranking-every-jersey-released-arsenal-chelsea-liverpool-man-city-man-united-tottenham",
+      "published_at": "Thu, 9 Jul 2026 00:46:04 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "It's still almost two months before the new Premier League season begins, but plenty of top clubs have already released some of their 2026-27 kits."
+    },
+    {
+      "id": "247f9d23bbed",
+      "title": "Pay-to-play youth soccer explains America's World Cup losses",
+      "url": "https://www.espn.com/soccer/worldcup/story/_/id/49297263/usmnt-world-cup-loss-youth-travel-soccer-system",
+      "published_at": "Wed, 8 Jul 2026 13:02:59 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Focus is more on parents' ability to pay for travel matches than on young player development"
+    },
     {
       "id": "72edc9637a4d",
       "title": "Chris Sutton's World Cup quarter-final predictions",
@@ -19,85 +109,40 @@
       "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway."
     },
     {
-      "id": "71e438cffd26",
-      "title": "Nobody can question integrity of World Cup referees - Collina",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cze9z1307p2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 09 Jul 2026 07:35:33 GMT",
+      "id": "2a130ae2541b",
+      "title": "What are the key dates for the 2026-27 football season?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd0m840p7d1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 09 Jul 2026 17:04:26 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "World Cup officials are not \"influenced by anyone\" and \"nobody can question the integrity\" when it comes to decision-making, says Fifa chief refereeing officer Pierluigi Collina."
+      "summary": "BBC Sport's Ask Me Anything explains the full list of key dates for the 2026-27 men's football season"
     },
     {
-      "id": "1cefbe51b0b3",
-      "title": "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2dzy11epeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 09 Jul 2026 05:48:18 GMT",
+      "id": "1fb8cba55316",
+      "title": "Has your area gone football mad? We've mapped World Cup viewing",
+      "url": "https://www.bbc.co.uk/news/articles/cj9gxwynrlwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 09 Jul 2026 13:34:22 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "What a World Cup it has been with great goals, thrilling comebacks, late drama, shock results. But how will this tournament be remembered? "
+      "summary": "We've analysed BBC iPlayer viewing across the UK to see where the tournament has been most popular."
     },
     {
-      "id": "fe36855311d4",
-      "title": "Henderson not ruled out of World Cup despite breaking arm ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 20:13:54 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Jordan Henderson has not been ruled out of playing for England again during the World Cup despite undergoing surgery on a broken arm. "
-    },
-    {
-      "id": "319875c89ba9",
-      "title": "Starmer hints at bank holiday if England win World Cup",
-      "url": "https://www.bbc.co.uk/news/articles/c20y9g2v2wvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 09 Jul 2026 01:25:24 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The prime minister says he does not want to \"jinx it\" but \"ask me again if we get to the final\". "
-    },
-    {
-      "id": "a89fac2075bd",
-      "title": "Are Argentina being treated favourably at World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 15:37:07 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?"
-    },
-    {
-      "id": "3a34e539d2f2",
-      "title": "Who am I? Guess World Cup star No 32",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce9p4zvlnv5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 09 Jul 2026 05:44:26 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "a43432365233",
-      "title": "The World Cup quarter-finals are here! Your guide to every tie",
-      "url": "https://www.skysports.com/football/news/12040/13561566/world-cup-2026-quarter-finals-france-vs-morocco-spain-vs-belgium-norway-vs-england-argentina-vs-switzerland-team-by-team-preview",
-      "published_at": "Thu, 09 Jul 2026 11:00:00 BST",
+      "id": "379e16097447",
+      "title": "Betfred World Matchplay 2026: Littler faces Springer as draw confirmed",
+      "url": "https://www.skysports.com/darts/news/12040/13561989/betfred-world-matchplay-2026-luke-littler-faces-niko-springer-luke-humphries-takes-on-cameron-menzies-as-draw-confirmed",
+      "published_at": "Thu, 09 Jul 2026 19:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "From 48, we're now down to just eight. The World Cup quarter-finals begin today - and we're one step closer to knowing who will lift the trophy on July 19."
+      "summary": "Luke Littler will take on Niko Springer as he looks to defend his World Matchplay title, live on Sky Sports from July 18-26, at the Winter Gardens in Blackpool. "
     },
     {
-      "id": "973255d4d431",
-      "title": "Papers: England set to get bank holiday IF Three Lions win World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13561845/world-cup-2026-england-set-to-get-bank-holiday-if-three-lions-win-world-cup-paper-talk",
-      "published_at": "Thu, 09 Jul 2026 07:35:00 BST",
+      "id": "d9ed12bc87e5",
+      "title": "Redknapp: Quansah two-match ban 'harsh' | 'Get the PM to ring FIFA!'",
+      "url": "https://www.skysports.com/watch/video/13562061/get-our-prime-minister-to-ring-fifa-harry-redknapp-calls-for-british-pm-to-overturn-jarell-quansahs-two-match-ban",
+      "published_at": "Thu, 09 Jul 2026 18:35:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The top stories and transfer rumours from Thursday's newspapers..."
-    },
-    {
-      "id": "f937f1ca960c",
-      "title": "Superstars, politics and hydration breaks: Themes of the World Cup so far",
-      "url": "https://www.skysports.com/football/news/12040/13561711/world-cup-2026-superstar-players-politics-and-hydration-breaks-among-the-standout-themes-of-tournament-so-far",
-      "published_at": "Wed, 08 Jul 2026 15:39:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "A rest day at the World Cup provides the opportunity to take stock of how the biggest-ever edition has gone so far. "
+      "summary": "Harry Redknapp jokingly calls for the Prime Minister to ring FIFA after Jarell Quansah was handed a two match suspension for his foul against Mexico last week."
     }
   ]
 }

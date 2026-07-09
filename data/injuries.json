@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-09T11:32:56.107272",
+    "last_updated": "2026-07-09T18:16:49.998510",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Henderson not ruled out of World Cup despite breaking arm ",
-      "nations": [
-        "England"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jordan Henderson has not been ruled out of playing for England again during the World Cup despite undergoing surgery on a broken arm. ",
-      "published": "Wed, 08 Jul 2026 20:13:54 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }
