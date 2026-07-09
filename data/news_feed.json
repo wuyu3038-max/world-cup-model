@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-08T17:59:39.014776",
-  "total_articles": 7,
+  "updated": "2026-07-09T04:26:43.180025",
+  "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
+    "bbc_sport": 6,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "319875c89ba9",
+      "title": "Starmer hints at bank holiday if England win World Cup",
+      "url": "https://www.bbc.co.uk/news/articles/c20y9g2v2wvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 09 Jul 2026 01:25:24 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The prime minister says he does not want to \"jinx it\" but \"ask me again if we get to the final\". "
+    },
     {
       "id": "a89fac2075bd",
       "title": "Are Argentina being treated favourably at World Cup?",
@@ -19,6 +28,33 @@
       "summary": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?"
     },
     {
+      "id": "72edc9637a4d",
+      "title": "Chris Sutton's World Cup quarter-final predictions",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 08 Jul 2026 22:34:48 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway."
+    },
+    {
+      "id": "b4387686846d",
+      "title": "The key World Cup players walking disciplinary tightrope",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly7e9879m9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 08 Jul 2026 15:07:12 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Four England players are at risk of missing a potential World Cup semi-final because of the tournament's yellow-card rules."
+    },
+    {
+      "id": "fe36855311d4",
+      "title": "Henderson not ruled out of World Cup despite breaking arm ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 08 Jul 2026 20:13:54 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Jordan Henderson has not been ruled out of playing for England again during the World Cup despite undergoing surgery on a broken arm. "
+    },
+    {
       "id": "621faa26b775",
       "title": "Egypt want officials kicked out of World Cup",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss",
@@ -26,33 +62,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The Egyptian FA lodges a complaint with Fifa and demands an investigation into \"double standards\" of officiating in the controversial defeat by Argentina."
-    },
-    {
-      "id": "e45e55b82ba2",
-      "title": "Has World Cup signalled end of chaos at corners?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c74y723g7eno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 12:50:16 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Can the Premier League learn anything from the refereeing of corners at the World Cup?"
-    },
-    {
-      "id": "fb2bac0addf1",
-      "title": "The World Cup stars who could have played for England",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0lyj77w9z7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 09:49:22 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "While there is no shortage of talent in the England squad, a number of World Cup stars from other nations could have featured for the Three Lions if things had worked out differently."
-    },
-    {
-      "id": "9622a222a4df",
-      "title": "World Cup quiz: Teams to have played the most quarter-finals",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj3plgedn30o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 14:04:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "With the first World Cup quarter-final taking place tomorrow we've been inspired to make this quiz."
     },
     {
       "id": "f937f1ca960c",
