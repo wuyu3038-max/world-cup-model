@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-09T04:26:43.244792",
+    "last_updated": "2026-07-09T11:32:56.107272",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -790,17 +790,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
       "summary": "Jordan Henderson has not been ruled out of playing for England again during the World Cup despite undergoing surgery on a broken arm. ",
       "published": "Wed, 08 Jul 2026 20:13:54 GMT"
-    },
-    {
-      "title": "Egypt want officials kicked out of World Cup",
-      "nations": [
-        "Argentina",
-        "Egypt"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Egyptian FA lodges a complaint with Fifa and demands an investigation into \"double standards\" of officiating in the controversial defeat by Argentina.",
-      "published": "Wed, 08 Jul 2026 13:45:24 GMT"
     }
   ]
 }

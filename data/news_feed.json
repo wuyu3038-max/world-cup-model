@@ -1,14 +1,50 @@
 {
-  "updated": "2026-07-09T04:26:43.180025",
-  "total_articles": 8,
+  "updated": "2026-07-09T11:32:56.044348",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 6,
-    "sky_sports": 2,
+    "bbc_sport": 7,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "72edc9637a4d",
+      "title": "Chris Sutton's World Cup quarter-final predictions",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 08 Jul 2026 22:34:48 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway."
+    },
+    {
+      "id": "71e438cffd26",
+      "title": "Nobody can question integrity of World Cup referees - Collina",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cze9z1307p2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 09 Jul 2026 07:35:33 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "World Cup officials are not \"influenced by anyone\" and \"nobody can question the integrity\" when it comes to decision-making, says Fifa chief refereeing officer Pierluigi Collina."
+    },
+    {
+      "id": "1cefbe51b0b3",
+      "title": "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2dzy11epeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 09 Jul 2026 05:48:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "What a World Cup it has been with great goals, thrilling comebacks, late drama, shock results. But how will this tournament be remembered? "
+    },
+    {
+      "id": "fe36855311d4",
+      "title": "Henderson not ruled out of World Cup despite breaking arm ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 08 Jul 2026 20:13:54 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Jordan Henderson has not been ruled out of playing for England again during the World Cup despite undergoing surgery on a broken arm. "
+    },
     {
       "id": "319875c89ba9",
       "title": "Starmer hints at bank holiday if England win World Cup",
@@ -28,40 +64,31 @@
       "summary": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?"
     },
     {
-      "id": "72edc9637a4d",
-      "title": "Chris Sutton's World Cup quarter-final predictions",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 22:34:48 GMT",
+      "id": "3a34e539d2f2",
+      "title": "Who am I? Guess World Cup star No 32",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce9p4zvlnv5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 09 Jul 2026 05:44:26 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway."
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "b4387686846d",
-      "title": "The key World Cup players walking disciplinary tightrope",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly7e9879m9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 15:07:12 GMT",
-      "source": "BBC Sport Football",
+      "id": "a43432365233",
+      "title": "The World Cup quarter-finals are here! Your guide to every tie",
+      "url": "https://www.skysports.com/football/news/12040/13561566/world-cup-2026-quarter-finals-france-vs-morocco-spain-vs-belgium-norway-vs-england-argentina-vs-switzerland-team-by-team-preview",
+      "published_at": "Thu, 09 Jul 2026 11:00:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Four England players are at risk of missing a potential World Cup semi-final because of the tournament's yellow-card rules."
+      "summary": "From 48, we're now down to just eight. The World Cup quarter-finals begin today - and we're one step closer to knowing who will lift the trophy on July 19."
     },
     {
-      "id": "fe36855311d4",
-      "title": "Henderson not ruled out of World Cup despite breaking arm ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 20:13:54 GMT",
-      "source": "BBC Sport Football",
+      "id": "973255d4d431",
+      "title": "Papers: England set to get bank holiday IF Three Lions win World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13561845/world-cup-2026-england-set-to-get-bank-holiday-if-three-lions-win-world-cup-paper-talk",
+      "published_at": "Thu, 09 Jul 2026 07:35:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Jordan Henderson has not been ruled out of playing for England again during the World Cup despite undergoing surgery on a broken arm. "
-    },
-    {
-      "id": "621faa26b775",
-      "title": "Egypt want officials kicked out of World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 13:45:24 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The Egyptian FA lodges a complaint with Fifa and demands an investigation into \"double standards\" of officiating in the controversial defeat by Argentina."
+      "summary": "The top stories and transfer rumours from Thursday's newspapers..."
     },
     {
       "id": "f937f1ca960c",
@@ -71,15 +98,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "A rest day at the World Cup provides the opportunity to take stock of how the biggest-ever edition has gone so far. "
-    },
-    {
-      "id": "c368aaa301ef",
-      "title": "Why Kane is safe from missing World Cup semi... but Bellingham is NOT",
-      "url": "https://www.skysports.com/watch/video/13561651/explained-why-harry-kane-is-safe-from-missing-world-cup-semi-final-but-jude-bellingham-is-not",
-      "published_at": "Wed, 08 Jul 2026 13:24:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Sky Sports' Dave Reed explains which FOUR England players need to watch their step in the World Cup quarter-final against Norway and why one of them is NOT captain Harry Kane."
     }
   ]
 }
