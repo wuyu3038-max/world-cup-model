@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T11:26:50.938114",
+  "updated": "2026-07-10T18:07:42.838562",
   "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
@@ -10,13 +10,13 @@
   },
   "articles": [
     {
-      "id": "11a57499070e",
-      "title": "A-Z World Cup quiz: Name the best performing team for every letter",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjepy9vk5vzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 10 Jul 2026 10:51:06 GMT",
+      "id": "8c8452b0b895",
+      "title": "Hacking worry for Argentine FA over World Cup emails",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 10 Jul 2026 17:26:14 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "When it comes to the World Cup it's not all about the numbers - the letters are important too!"
+      "summary": "Argentina's football association signals it may have suffered a cyber attack after emails from its accounts reportedly criticised refereeing in the dramatic win against Egypt at the World Cup."
     },
     {
       "id": "a2d57d258a3f",
@@ -28,22 +28,22 @@
       "summary": "Norwegian pundits look ahead to their World Cup quarter-final against England, which has been described as the \"biggest event ever in Norway\"."
     },
     {
-      "id": "372a5556e6cf",
-      "title": "Who am I? Guess World Cup star No 33",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwy20q7wd3go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 10 Jul 2026 05:20:12 GMT",
+      "id": "11a57499070e",
+      "title": "A-Z World Cup quiz: Name the best performing team for every letter",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjepy9vk5vzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 10 Jul 2026 10:51:06 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "When it comes to the World Cup it's not all about the numbers - the letters are important too!"
     },
     {
-      "id": "40aa27062833",
-      "title": "World Cup bracket: Who will join France in semi-finals?",
-      "url": "https://www.skysports.com/football/news/12040/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-16-and-route-to-final",
-      "published_at": "Fri, 10 Jul 2026 07:00:00 BST",
+      "id": "e39cdffb8837",
+      "title": "July Cup tips: Team split over a hot edition of the Group One sprint",
+      "url": "https://www.skysports.com/racing/news/12040/13562377/july-cup-tips-team-split-over-a-hot-edition-of-the-group-one-sprint-as-four-royal-ascot-winners-clash",
+      "published_at": "Fri, 10 Jul 2026 17:44:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The World Cup has entered the quarter-final stages - so how is the route to the final on July 19 now shaping up?"
+      "summary": "Ahead of another fun-filled Saturday with quality racing, the Weekend Winners team discussed their best bets for the Newmarket feature."
     }
   ]
 }
