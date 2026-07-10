@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T04:30:23.580305",
+  "updated": "2026-07-10T11:26:50.938114",
   "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
@@ -10,40 +10,40 @@
   },
   "articles": [
     {
-      "id": "72edc9637a4d",
-      "title": "Chris Sutton's World Cup quarter-final predictions",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 08 Jul 2026 22:34:48 GMT",
+      "id": "11a57499070e",
+      "title": "A-Z World Cup quiz: Name the best performing team for every letter",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjepy9vk5vzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 10 Jul 2026 10:51:06 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway."
+      "summary": "When it comes to the World Cup it's not all about the numbers - the letters are important too!"
     },
     {
-      "id": "2a130ae2541b",
-      "title": "What are the key dates for the 2026-27 football season?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd0m840p7d1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 09 Jul 2026 17:04:26 GMT",
+      "id": "a2d57d258a3f",
+      "title": "'World Cup quarter-final is Norway's biggest event ever by far'",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cy06zyr319yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 09 Jul 2026 16:24:17 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport's Ask Me Anything explains the full list of key dates for the 2026-27 men's football season"
+      "summary": "Norwegian pundits look ahead to their World Cup quarter-final against England, which has been described as the \"biggest event ever in Norway\"."
     },
     {
-      "id": "1fb8cba55316",
-      "title": "Has your area gone football mad? We've mapped World Cup viewing",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gxwynrlwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 09 Jul 2026 13:34:22 GMT",
+      "id": "372a5556e6cf",
+      "title": "Who am I? Guess World Cup star No 33",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwy20q7wd3go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 10 Jul 2026 05:20:12 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "We've analysed BBC iPlayer viewing across the UK to see where the tournament has been most popular."
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "863bacd96f0b",
-      "title": "Mbappe mirrors Messi magic as World Cup's greatest storyline rolls on",
-      "url": "https://www.skysports.com/football/news/12040/13562058/kylian-mbappe-produces-a-copy-paste-performance-as-his-world-cup-battle-with-lionel-messi-continues-to-produce-magic",
-      "published_at": "Fri, 10 Jul 2026 00:10:00 BST",
+      "id": "40aa27062833",
+      "title": "World Cup bracket: Who will join France in semi-finals?",
+      "url": "https://www.skysports.com/football/news/12040/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-16-and-route-to-final",
+      "published_at": "Fri, 10 Jul 2026 07:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "This summer's World Cup has been one of the most fascinating on the pitch in recent memory. Not because of the teams. Because of two men."
+      "summary": "The World Cup has entered the quarter-final stages - so how is the route to the final on July 19 now shaping up?"
     }
   ]
 }
