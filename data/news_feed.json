@@ -1,31 +1,58 @@
 {
-  "updated": "2026-07-11T10:01:29.164376",
-  "total_articles": 6,
+  "updated": "2026-07-11T17:29:26.864137",
+  "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
+    "espn_fc": 4,
     "bbc_sport": 4,
-    "sky_sports": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "b4ca18b33515",
-      "title": "Who am I? Guess World Cup star No 34",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd0pmv2mr3jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 09:00:05 GMT",
-      "source": "BBC Sport Football",
+      "id": "9fe9e8643c1e",
+      "title": "⚽ USMNT World Cup grades: Expectations met?",
+      "url": "https://www.espn.com/soccer/story/_/id/49314124/usa-world-cup-report-card-grades-mauricio-pochettino-christian-pulisic-analysis",
+      "published_at": "Sat, 11 Jul 2026 13:07:29 EST",
+      "source": "ESPN FC",
       "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "At this summer's World Cup, the U.S. did its homework, aced the quizzes, and then failed the final exam. How should we grade its World Cup?"
     },
     {
-      "id": "b565811fb30e",
-      "title": "When the World Cup finishes, the football continues on BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9w2zr9wzj1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 06:03:35 GMT",
+      "id": "9a691b718b98",
+      "title": "World Cup daily: Free England-Norway ticket for Er...",
+      "url": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
+      "published_at": "Sat, 11 Jul 2026 09:07:27 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals."
+    },
+    {
+      "id": "67967cb721ae",
+      "title": "USMNT's Pulisic flopped at this World Cup, but does he deserve the blame?",
+      "url": "https://www.espn.com/soccer/story/_/id/49317008/instead-being-usmnt-biggest-world-cup-star-pulisic-was-biggest-mystery",
+      "published_at": "Fri, 10 Jul 2026 09:43:17 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "In his prime at a World Cup on home soil, this summer was Christian Pulisic's moment, but for a number of reasons, he failed to meet it."
+    },
+    {
+      "id": "5c5cd93d8c69",
+      "title": "Odds to win the World Cup: France to semis, Spain ...",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+      "published_at": "Sat, 11 Jul 2026 12:35:29 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Updated odds for the remaining teams to advance to the final and to win the 2026 World Cup."
+    },
+    {
+      "id": "6ad85ff358be",
+      "title": "South Africa World Cup midfielder Adams dies aged 25",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 11 Jul 2026 14:47:47 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "When the World Cup ends we'll still have loads of great content every day as we build up to the new football season."
+      "summary": "South Africa and Mamelodi Sundowns midfielder Jayden Adams dies at the age of 25, just weeks after featuring for his country at the World Cup."
     },
     {
       "id": "664e457b9656",
@@ -37,31 +64,22 @@
       "summary": "As England gear up to face Norway at the Miami Stadium for the World Cup quarter-finals, re-live all the goals that got Thomas Tuchel's side there."
     },
     {
-      "id": "8c8452b0b895",
-      "title": "Hacking worry for Argentine FA over World Cup emails",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 10 Jul 2026 17:26:14 GMT",
+      "id": "b565811fb30e",
+      "title": "When the World Cup finishes, the football continues on BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9w2zr9wzj1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 11 Jul 2026 06:03:35 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Argentina's football association signals it may have suffered a cyber attack after emails from its accounts reportedly criticised refereeing in the dramatic win against Egypt at the World Cup."
+      "summary": "When the World Cup ends we'll still have loads of great content every day as we build up to the new football season."
     },
     {
-      "id": "f9ca50a2d843",
-      "title": "Merino: From mobility scooter to World Cup hero in six months",
-      "url": "https://www.skysports.com/football/news/12040/13562417/mikel-merino-arsenal-midfielder-proving-spains-world-cup-hero-after-overcoming-injury-that-left-him-in-mobility-scooter",
-      "published_at": "Fri, 10 Jul 2026 21:58:00 BST",
-      "source": "Sky Sports Football",
+      "id": "b4ca18b33515",
+      "title": "Who am I? Guess World Cup star No 34",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd0pmv2mr3jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 11 Jul 2026 09:00:05 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Mikel Merino might have hoped to appear earlier than the 85th minute against Belgium following his match-winning impact from the bench against Portugal. Instead, he had to wait until the 86th. No matt"
-    },
-    {
-      "id": "116bb061d01e",
-      "title": "No FIFA explanation over Quansah suspension, claims Tuchel",
-      "url": "https://www.skysports.com/football/news/12040/13562219/thomas-tuchel-reveals-england-still-yet-to-receive-explanation-over-jarell-quansahs-upgraded-two-game-suspension-after-mexico-red-card",
-      "published_at": "Sat, 11 Jul 2026 01:15:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Thomas Tuchel has claimed that England have not been offered an explanation as to why defender Jarell Quansah was handed a two-game suspension following his red card against Mexico."
+      "summary": "Will you get today's player in as few attempts as possible?"
     }
   ]
 }
