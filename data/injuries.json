@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-11T03:49:40.093926",
+    "last_updated": "2026-07-11T10:01:29.214223",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,17 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Rice and Guehi give England injury boost ahead of Norway quarter-final",
-      "nations": [
-        "England",
-        "Norway"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/football/news/12040/13562422/world-cup-2026-englands-declan-rice-marc-guehi-and-reece-james-train-ahead-of-quarter-final-with-norway",
-      "summary": "Declan Rice, Marc Guehi and Reece James gave England a triple injury boost ahead of their World Cup quarter-final with Norway.  ",
-      "published": "Fri, 10 Jul 2026 22:10:00 BST"
-    }
-  ]
+  "_news_injury_alerts": []
 }
