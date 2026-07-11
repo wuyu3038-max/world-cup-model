@@ -1,14 +1,68 @@
 {
-  "updated": "2026-07-10T18:07:42.838562",
-  "total_articles": 4,
+  "updated": "2026-07-11T03:49:40.029227",
+  "total_articles": 14,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
+    "espn_fc": 6,
     "bbc_sport": 3,
-    "sky_sports": 1,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "9fe9e8643c1e",
+      "title": "⚽ USMNT World Cup grades: Expectations met?",
+      "url": "https://www.espn.com/soccer/story/_/id/49314124/usa-world-cup-report-card-grades-mauricio-pochettino-christian-pulisic-analysis",
+      "published_at": "Fri, 10 Jul 2026 22:32:00 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "At this summer's World Cup, the U.S. did its homework, aced the quizzes, and then failed the final exam. How should we grade its World Cup?"
+    },
+    {
+      "id": "67967cb721ae",
+      "title": "USMNT's Pulisic flopped at this World Cup, but does he deserve the blame?",
+      "url": "https://www.espn.com/soccer/story/_/id/49317008/instead-being-usmnt-biggest-world-cup-star-pulisic-was-biggest-mystery",
+      "published_at": "Fri, 10 Jul 2026 09:43:17 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "In his prime at a World Cup on home soil, this summer was Christian Pulisic's moment, but for a number of reasons, he failed to meet it."
+    },
+    {
+      "id": "b019dfc39c81",
+      "title": "World Cup Daily live: Remix of teen Haaland's rap ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49320148/world-cup-daily-live-remix-teen-erling-haaland-rap-song-hits-no-1-spain-face-belgium",
+      "published_at": "Fri, 10 Jul 2026 12:14:53 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we start the second day of quarterfinals action."
+    },
+    {
+      "id": "5fcd270817c9",
+      "title": "Meet your World Cup quarterfinalists! How they got...",
+      "url": "https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland",
+      "published_at": "Fri, 10 Jul 2026 17:42:37 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Four weeks after the World Cup began, the quarterfinals are underway, with each team three wins from lifting the trophy. Next up, Norway vs. England."
+    },
+    {
+      "id": "e1fdd423e7b1",
+      "title": "The most important players of the World Cup quarte...",
+      "url": "https://www.espn.com/soccer/story/_/id/49301521/most-important-player-every-2026-world-cup-quarterfinal-team",
+      "published_at": "Fri, 10 Jul 2026 17:42:37 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Individual superstars become even more influential at this point in the tournament."
+    },
+    {
+      "id": "bbf541a2ad02",
+      "title": "Copy of Best bets for the 2026 World Cup quarterfinal roun...",
+      "url": "https://www.espn.com/espn/betting/story/_/id/49298153/fifa-world-cup-betting-quarterfinal-round-best-bets-picks-odds-props-futures-2026",
+      "published_at": "Fri, 10 Jul 2026 17:04:53 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Looking to place some World Cup bets? Take a look at what our expert is considering ahead of the quarterfinal round."
+    },
     {
       "id": "8c8452b0b895",
       "title": "Hacking worry for Argentine FA over World Cup emails",
@@ -35,6 +89,42 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "When it comes to the World Cup it's not all about the numbers - the letters are important too!"
+    },
+    {
+      "id": "f9ca50a2d843",
+      "title": "Merino: From mobility scooter to World Cup hero in six months",
+      "url": "https://www.skysports.com/football/news/12040/13562417/mikel-merino-arsenal-midfielder-proving-spains-world-cup-hero-after-overcoming-injury-that-left-him-in-mobility-scooter",
+      "published_at": "Fri, 10 Jul 2026 21:58:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Mikel Merino might have hoped to appear earlier than the 85th minute against Belgium following his match-winning impact from the bench against Portugal. Instead, he had to wait until the 86th. No matt"
+    },
+    {
+      "id": "116bb061d01e",
+      "title": "No FIFA explanation over Quansah suspension claims Tuchel",
+      "url": "https://www.skysports.com/football/news/12040/13562219/thomas-tuchel-reveals-england-still-yet-to-receive-explanation-over-jarell-quansahs-upgraded-two-game-suspension-after-mexico-red-card",
+      "published_at": "Sat, 11 Jul 2026 01:15:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Thomas Tuchel has claimed that England have not been offered an explanation as to why defender Jarell Quansah was handed a two-game suspension following his red card against Mexico."
+    },
+    {
+      "id": "a1377fae9179",
+      "title": "Rice and Guehi give England injury boost ahead of Norway quarter-final",
+      "url": "https://www.skysports.com/football/news/12040/13562422/world-cup-2026-englands-declan-rice-marc-guehi-and-reece-james-train-ahead-of-quarter-final-with-norway",
+      "published_at": "Fri, 10 Jul 2026 22:10:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Declan Rice, Marc Guehi and Reece James gave England a triple injury boost ahead of their World Cup quarter-final with Norway.  "
+    },
+    {
+      "id": "0bbace026a58",
+      "title": "Papers: England bonuses for winning World Cup revealed",
+      "url": "https://www.skysports.com/football/news/12040/13562437/world-cup-2026-england-bonuses-for-lifting-the-trophy-revealed-paper-talk",
+      "published_at": "Thu, 09 Jul 2026 23:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The top stories and transfer rumours from Saturday's newspapers..."
     },
     {
       "id": "e39cdffb8837",
