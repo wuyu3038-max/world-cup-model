@@ -1,49 +1,40 @@
 {
-  "updated": "2026-07-11T17:29:26.864137",
-  "total_articles": 8,
+  "updated": "2026-07-12T04:05:10.182706",
+  "total_articles": 6,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 4,
-    "bbc_sport": 4,
-    "sky_sports": 1,
+    "espn_fc": 0,
+    "bbc_sport": 6,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "9fe9e8643c1e",
-      "title": "⚽ USMNT World Cup grades: Expectations met?",
-      "url": "https://www.espn.com/soccer/story/_/id/49314124/usa-world-cup-report-card-grades-mauricio-pochettino-christian-pulisic-analysis",
-      "published_at": "Sat, 11 Jul 2026 13:07:29 EST",
-      "source": "ESPN FC",
+      "id": "7cb28e62eac4",
+      "title": "BBC to show England's World Cup semi-final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 11 Jul 2026 23:47:11 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "At this summer's World Cup, the U.S. did its homework, aced the quizzes, and then failed the final exam. How should we grade its World Cup?"
+      "summary": "England's World Cup semi-final against Argentina or Switzerland will be broadcast live on BBC One and BBC iPlayer."
     },
     {
-      "id": "9a691b718b98",
-      "title": "World Cup daily: Free England-Norway ticket for Er...",
-      "url": "https://www.espn.com/soccer/story/_/id/49329226/world-cup-daily-england-norway-argentina-switzerland-quarterfinals-erling-haaland",
-      "published_at": "Sat, 11 Jul 2026 09:07:27 EST",
-      "source": "ESPN FC",
+      "id": "071fff3c8bfd",
+      "title": "Pick your England XI for World Cup semi-final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 01:38:05 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Enjoy all the features, news, video analysis and color from around the 2026 FIFA World Cup as we have our final two quarterfinals."
+      "summary": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?"
     },
     {
-      "id": "67967cb721ae",
-      "title": "USMNT's Pulisic flopped at this World Cup, but does he deserve the blame?",
-      "url": "https://www.espn.com/soccer/story/_/id/49317008/instead-being-usmnt-biggest-world-cup-star-pulisic-was-biggest-mystery",
-      "published_at": "Fri, 10 Jul 2026 09:43:17 EST",
-      "source": "ESPN FC",
+      "id": "ec2b2ba93ebc",
+      "title": "Fifa official refuses to answer BBC's Balogun ban questions",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 11 Jul 2026 22:45:41 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "In his prime at a World Cup on home soil, this summer was Christian Pulisic's moment, but for a number of reasons, he failed to meet it."
-    },
-    {
-      "id": "5c5cd93d8c69",
-      "title": "Odds to win the World Cup: France to semis, Spain ...",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-      "published_at": "Sat, 11 Jul 2026 12:35:29 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Updated odds for the remaining teams to advance to the final and to win the 2026 World Cup."
+      "summary": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off."
     },
     {
       "id": "6ad85ff358be",
@@ -71,15 +62,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "When the World Cup ends we'll still have loads of great content every day as we build up to the new football season."
-    },
-    {
-      "id": "b4ca18b33515",
-      "title": "Who am I? Guess World Cup star No 34",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd0pmv2mr3jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 09:00:05 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
     }
   ]
 }
