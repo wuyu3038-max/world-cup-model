@@ -1,14 +1,41 @@
 {
-  "updated": "2026-07-12T04:05:10.182706",
-  "total_articles": 6,
+  "updated": "2026-07-12T10:09:06.173186",
+  "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 6,
-    "sky_sports": 0,
+    "bbc_sport": 7,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "832fb51a7da8",
+      "title": "Bellingham reaching heights of World Cup legends with Messi next",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 04:35:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Jude Bellingham again dazzles England and the World Cup with his brilliance, matching some records of the all-time greats."
+    },
+    {
+      "id": "487a807663ef",
+      "title": "Senegal sack manager Thiaw in wake of World Cup exit",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 07:25:09 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Senegal sack manager Pape Thiaw in the aftermath of the country's exit at the last-32 stage of the 2026 World Cup."
+    },
+    {
+      "id": "271bd1c3a42b",
+      "title": "Who am I? Guess World Cup star No 35",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx21gn50e08o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 06:15:52 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
     {
       "id": "7cb28e62eac4",
       "title": "BBC to show England's World Cup semi-final",
@@ -16,7 +43,7 @@
       "published_at": "Sat, 11 Jul 2026 23:47:11 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England's World Cup semi-final against Argentina or Switzerland will be broadcast live on BBC One and BBC iPlayer."
+      "summary": "England's World Cup semi-final against Argentina will be broadcast live on BBC One and BBC iPlayer."
     },
     {
       "id": "071fff3c8bfd",
@@ -28,15 +55,6 @@
       "summary": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?"
     },
     {
-      "id": "ec2b2ba93ebc",
-      "title": "Fifa official refuses to answer BBC's Balogun ban questions",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 22:45:41 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off."
-    },
-    {
       "id": "6ad85ff358be",
       "title": "South Africa World Cup midfielder Adams dies aged 25",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
@@ -46,22 +64,22 @@
       "summary": "South Africa and Mamelodi Sundowns midfielder Jayden Adams dies at the age of 25, just weeks after featuring for his country at the World Cup."
     },
     {
-      "id": "664e457b9656",
-      "title": "All the goals from England's 2026 World Cup campaign so far",
-      "url": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 05:13:35 GMT",
+      "id": "ec2b2ba93ebc",
+      "title": "Fifa official refuses to answer BBC's Balogun ban questions",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 11 Jul 2026 22:45:41 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "As England gear up to face Norway at the Miami Stadium for the World Cup quarter-finals, re-live all the goals that got Thomas Tuchel's side there."
+      "summary": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off."
     },
     {
-      "id": "b565811fb30e",
-      "title": "When the World Cup finishes, the football continues on BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9w2zr9wzj1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 06:03:35 GMT",
-      "source": "BBC Sport Football",
+      "id": "90245fd6ddbc",
+      "title": "Merson: Teams win leagues, X-factor wins World Cups - and Bellingham has it",
+      "url": "https://www.skysports.com/football/news/12040/13562724/paul-merson-jude-bellingham-has-x-factor-needed-to-win-england-the-world-cup",
+      "published_at": "Sun, 12 Jul 2026 10:15:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "When the World Cup ends we'll still have loads of great content every day as we build up to the new football season."
+      "summary": "Paul Merson says Jude Bellingham has the X-factor needed to help England win the World Cup."
     }
   ]
 }
