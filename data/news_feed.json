@@ -1,14 +1,32 @@
 {
-  "updated": "2026-07-12T10:09:06.173186",
-  "total_articles": 8,
+  "updated": "2026-07-12T17:32:22.509394",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 7,
-    "sky_sports": 1,
+    "bbc_sport": 8,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "bb8c393ffaf9",
+      "title": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c621y75w2x2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 10:10:33 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "As England and Argentina prepare to go head-to-head in Wednesday's World Cup semi-final, BBC Sport looks at their footballing rivalry."
+    },
+    {
+      "id": "a11e2da4730b",
+      "title": "Lamine Yamal? Mbappe? Kane? Pick your World Cup semi-final XI",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg4l37nm0do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 13:29:06 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "As we look ahead to the World Cup semi-final, BBC Sport pick their last-four combined XI. Do you agree?"
+    },
     {
       "id": "832fb51a7da8",
       "title": "Bellingham reaching heights of World Cup legends with Messi next",
@@ -17,24 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Jude Bellingham again dazzles England and the World Cup with his brilliance, matching some records of the all-time greats."
-    },
-    {
-      "id": "487a807663ef",
-      "title": "Senegal sack manager Thiaw in wake of World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 12 Jul 2026 07:25:09 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Senegal sack manager Pape Thiaw in the aftermath of the country's exit at the last-32 stage of the 2026 World Cup."
-    },
-    {
-      "id": "271bd1c3a42b",
-      "title": "Who am I? Guess World Cup star No 35",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx21gn50e08o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 12 Jul 2026 06:15:52 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
       "id": "7cb28e62eac4",
@@ -46,6 +46,15 @@
       "summary": "England's World Cup semi-final against Argentina will be broadcast live on BBC One and BBC iPlayer."
     },
     {
+      "id": "487a807663ef",
+      "title": "Senegal sack manager Thiaw in wake of World Cup exit",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 07:25:09 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Senegal sack manager Pape Thiaw in the aftermath of the country's exit at the last-32 stage of the 2026 World Cup."
+    },
+    {
       "id": "071fff3c8bfd",
       "title": "Pick your England XI for World Cup semi-final",
       "url": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
@@ -55,13 +64,13 @@
       "summary": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?"
     },
     {
-      "id": "6ad85ff358be",
-      "title": "South Africa World Cup midfielder Adams dies aged 25",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 14:47:47 GMT",
+      "id": "271bd1c3a42b",
+      "title": "Who am I? Guess World Cup star No 35",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx21gn50e08o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 06:15:52 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "South Africa and Mamelodi Sundowns midfielder Jayden Adams dies at the age of 25, just weeks after featuring for his country at the World Cup."
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
       "id": "ec2b2ba93ebc",
@@ -71,6 +80,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off."
+    },
+    {
+      "id": "2aeb726c7440",
+      "title": "Did the ball hit the Spidercam cable before England's equaliser? FIFA sensor reveals all...  ",
+      "url": "https://www.skysports.com/watch/video/13562727/world-cup-did-the-ball-hit-the-cable-camera-before-englands-equalising-goal",
+      "published_at": "Sun, 12 Jul 2026 09:05:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Watch to see if the ball hit the Spidercam cable before England's equalising goal. Credit: FIFA."
     },
     {
       "id": "90245fd6ddbc",
