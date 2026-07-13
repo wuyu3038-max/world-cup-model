@@ -1,14 +1,95 @@
 {
-  "updated": "2026-07-12T17:32:22.509394",
-  "total_articles": 10,
+  "updated": "2026-07-13T04:07:05.586127",
+  "total_articles": 22,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 8,
-    "sky_sports": 2,
+    "espn_fc": 8,
+    "bbc_sport": 9,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "80e814815edd",
+      "title": "Breakout stars of the 2026 World Cup: Diomande, Freeman, Manzambi, more",
+      "url": "https://www.espn.com/soccer/story/_/id/49308560/world-cup-breakout-stars-diomande-freeman-manzambi-puerta",
+      "published_at": "Sun, 12 Jul 2026 03:16:23 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The 2026 World Cup will be remembered for how all the superstars showed up and dominated, but we've also had a few young talents breaking though. Here are four of the best we'll remember going into th"
+    },
+    {
+      "id": "25f909b7eb94",
+      "title": "A-List: FIFA's top-4 make WC semis for first time",
+      "url": "https://www.espn.com/soccer/story/_/id/49344988/fifa-top-4-teams-world-cup-semifinals-first",
+      "published_at": "Sun, 12 Jul 2026 18:46:36 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Argentina, Spain, France and England went into the tournament as the top four in FIFA's rankings and are two wins away from being crowned champions again."
+    },
+    {
+      "id": "208f290f3b36",
+      "title": "Infantino: 64-team World Cup will be 'looked at'",
+      "url": "https://www.espn.com/soccer/story/_/id/49345374/gianni-infantino-fifa-examine-64-team-world-cup-expansion",
+      "published_at": "Sun, 12 Jul 2026 18:46:36 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Gianni Infantino has confirmed FIFA will discuss expanding the men's World Cup to 64 teams after the 2026 tournament, saying every nation should have the chance to dream of playing at football's bigge"
+    },
+    {
+      "id": "823b36bf6fcf",
+      "title": "Sources: FIFA, FIFPRO in talks over heat protocol ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49343877/fifa-world-cup-fifpro-temperature-heat-protocol-talks-sources",
+      "published_at": "Sun, 12 Jul 2026 18:46:36 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "FIFA and global players' union FIFPRO are in discussions over establishing protocols to avoid games being played in excessive heat, sources have told ESPN."
+    },
+    {
+      "id": "965ed9c648bb",
+      "title": "Get ready for the World Cup semifinals! What you n...",
+      "url": "https://www.espn.com/soccer/story/_/id/49334623/fifa-world-cup-semifinal-preview-predictions-odds-argentina-england-france-spain",
+      "published_at": "Sun, 12 Jul 2026 14:31:34 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "With only a week to go until the final of the 2026 FIFA World Cup, there are now just four teams still harboring dreams of becoming world champions."
+    },
+    {
+      "id": "fe5c0202ae07",
+      "title": "World Cup Daily Live: Spidercam debate rumbles on ...",
+      "url": "https://www.espn.com/soccer/story/_/id/49340531/world-cup-daily-live-spidercam-debate-rumbles-four-semifinalists-confirmed-england-argentina-france-spain",
+      "published_at": "Sun, 12 Jul 2026 14:48:41 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists."
+    },
+    {
+      "id": "e7ad65070b9e",
+      "title": "World Cup VAR review: Embolo sent off as Ream's 'm...",
+      "url": "https://www.espn.com/soccer/story/_/id/49027532/world-cup-2026-var-review-red-card-penalty-handball-goal-line-technology",
+      "published_at": "Sun, 12 Jul 2026 14:41:03 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "For the tournament, we are taking a look at the major incidents to examine and explain the process in terms of both VAR protocol and the laws of the game."
+    },
+    {
+      "id": "5c5cd93d8c69",
+      "title": "Odds to win the World Cup: France to semis, Spain ...",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+      "published_at": "Sun, 12 Jul 2026 14:38:34 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Updated odds for the remaining teams to advance to the final and to win the 2026 World Cup."
+    },
+    {
+      "id": "63fd2f600c22",
+      "title": "Infantino opens door to 64-team World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj9gm31jwg8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 19:18:56 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Plans for a 64-team men's world cup are set to be picked up and assessed in detail after the 2026 tournament with Fifa boss Gianni Infantino saying football needs to be \"for the whole world\"."
+    },
     {
       "id": "bb8c393ffaf9",
       "title": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
@@ -17,42 +98,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "As England and Argentina prepare to go head-to-head in Wednesday's World Cup semi-final, BBC Sport looks at their footballing rivalry."
-    },
-    {
-      "id": "a11e2da4730b",
-      "title": "Lamine Yamal? Mbappe? Kane? Pick your World Cup semi-final XI",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckg4l37nm0do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 12 Jul 2026 13:29:06 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "As we look ahead to the World Cup semi-final, BBC Sport pick their last-four combined XI. Do you agree?"
-    },
-    {
-      "id": "832fb51a7da8",
-      "title": "Bellingham reaching heights of World Cup legends with Messi next",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 12 Jul 2026 04:35:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Jude Bellingham again dazzles England and the World Cup with his brilliance, matching some records of the all-time greats."
-    },
-    {
-      "id": "7cb28e62eac4",
-      "title": "BBC to show England's World Cup semi-final",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 23:47:11 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England's World Cup semi-final against Argentina will be broadcast live on BBC One and BBC iPlayer."
-    },
-    {
-      "id": "487a807663ef",
-      "title": "Senegal sack manager Thiaw in wake of World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 12 Jul 2026 07:25:09 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Senegal sack manager Pape Thiaw in the aftermath of the country's exit at the last-32 stage of the 2026 World Cup."
     },
     {
       "id": "071fff3c8bfd",
@@ -64,6 +109,42 @@
       "summary": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?"
     },
     {
+      "id": "7cb28e62eac4",
+      "title": "BBC to show England's World Cup semi-final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 11 Jul 2026 23:47:11 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England's World Cup semi-final against Argentina will be broadcast live on BBC One and BBC iPlayer."
+    },
+    {
+      "id": "664e457b9656",
+      "title": "All the goals from England's 2026 World Cup campaign so far",
+      "url": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 11 Jul 2026 05:13:35 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "As England gear up to face Norway at the Miami Stadium for the World Cup quarter-finals, re-live all the goals that got Thomas Tuchel's side there."
+    },
+    {
+      "id": "832fb51a7da8",
+      "title": "Bellingham reaching heights of World Cup legends with Messi next",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 04:35:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Jude Bellingham again dazzles England and the World Cup with his brilliance, matching some records of the all-time greats."
+    },
+    {
+      "id": "a11e2da4730b",
+      "title": "Lamine Yamal? Mbappe? Kane? Pick your World Cup semi-final XI",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg4l37nm0do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 13:29:06 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "As we look ahead to the World Cup semi-final, BBC Sport pick their last-four combined XI. Do you agree?"
+    },
+    {
       "id": "271bd1c3a42b",
       "title": "Who am I? Guess World Cup star No 35",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx21gn50e08o?at_medium=RSS&at_campaign=rss",
@@ -73,13 +154,40 @@
       "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "ec2b2ba93ebc",
-      "title": "Fifa official refuses to answer BBC's Balogun ban questions",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 22:45:41 GMT",
+      "id": "487a807663ef",
+      "title": "Senegal sack manager Thiaw in wake of World Cup exit",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 12 Jul 2026 07:25:09 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The head of Fifa's disciplinary committee refuses to answer BBC questions about the decision-making process which led to United States striker Folarin Balogun avoiding a ban after being sent off."
+      "summary": "Senegal sack manager Pape Thiaw in the aftermath of the country's exit at the last-32 stage of the 2026 World Cup."
+    },
+    {
+      "id": "d66aa14bb7c4",
+      "title": "World Cup latest: 2030 tournament could have 64 teams, says Infantino",
+      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
+      "published_at": "Sun, 12 Jul 2026 19:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "bbcab64a32d5",
+      "title": "England latest: We're 'knocking on the door’ of World Cup glory, says Kane",
+      "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "published_at": "Sun, 12 Jul 2026 19:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "e91bc842166d",
+      "title": "When are the majors? Key golf events and 2026 schedule",
+      "url": "https://www.skysports.com/golf/news/12040/13480931/golf-majors-in-2026-schedule-dates-venues-for-the-open-the-masters-solheim-cup-and-more",
+      "published_at": "Mon, 22 Jun 2026 00:15:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Take a closer look at the key dates for the 2026 golf season, including the majors, PGA Tour Signature Events, Solheim Cup and more..."
     },
     {
       "id": "2aeb726c7440",
