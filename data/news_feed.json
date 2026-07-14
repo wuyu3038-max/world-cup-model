@@ -1,14 +1,32 @@
 {
-  "updated": "2026-07-14T03:42:15.659963",
-  "total_articles": 9,
+  "updated": "2026-07-14T10:19:44.054437",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 7,
-    "sky_sports": 2,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "acafc9ce996b",
+      "title": "Who will win the World Cup? The view from the semi-finalists",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjrgew3wv4xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 05:43:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport speaks to journalists and fans from the World Cup's four semi-finalists to see who they think will win the tournament."
+    },
+    {
+      "id": "840180316b33",
+      "title": "Lamine Yamal v Mbappe: La Liga stars set for World Cup showdown",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clywep30z7jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 05:13:23 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "France face Spain for a place in the World Cup final on Tuesday, meaning a showdown between Kylian Mbappe and Lamine Yamal. Who comes out on top?"
+    },
     {
       "id": "b05dbca14859",
       "title": "England to make late call on Rice for World Cup semi-final",
@@ -19,13 +37,13 @@
       "summary": "England will make a late decision on whether Declan Rice is fit to start Wednesday's World Cup semi-final against Argentina."
     },
     {
-      "id": "8c1f945c6fe9",
-      "title": "Dutch referee dies weeks after being dropped from World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy06ej10n3xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 19:25:25 GMT",
+      "id": "6c66a8fd294b",
+      "title": "Who am I? Guess World Cup star No 37",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8e82462y7eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 05:25:53 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Dutch football referee Rob Dieperink dies aged 38, weeks after he was dropped from officiating at the World Cup because of a police investigation in the UK."
+      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
       "id": "a66ff80d8b49",
@@ -37,22 +55,13 @@
       "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the semi-final ties at the 2026 World Cup."
     },
     {
-      "id": "071fff3c8bfd",
-      "title": "BBC experts pick their England World Cup semi-final XI - do you agree?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 09:05:27 GMT",
+      "id": "8c1f945c6fe9",
+      "title": "Dutch referee dies weeks after being dropped from World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy06ej10n3xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 13 Jul 2026 19:25:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?"
-    },
-    {
-      "id": "664e457b9656",
-      "title": "All the goals from England's 2026 World Cup campaign so far",
-      "url": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 05:13:35 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "As England gear up to face Norway at the Miami Stadium for the World Cup quarter-finals, re-live all the goals that got Thomas Tuchel's side there."
+      "summary": "Dutch football referee Rob Dieperink dies aged 38, weeks after he was dropped from officiating at the World Cup because of a police investigation in the UK."
     },
     {
       "id": "8db237aac33d",
@@ -64,31 +73,31 @@
       "summary": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28."
     },
     {
-      "id": "9febd914e936",
-      "title": "Which Premier League clubs have been hit hardest by World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8d2v40r472o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 13:27:30 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Which Premier League clubs have carried the biggest World Cup workload?"
-    },
-    {
-      "id": "b1060347cc49",
-      "title": "How Spain can knock France off their 'World Cup favourites' perch",
-      "url": "https://www.skysports.com/football/news/12040/13563068/france-vs-spain-world-cup-semi-final-preview-lamine-yamal-and-rodri-hold-keys-to-stopping-kylian-mbappes-les-bleus-storming-to-final",
-      "published_at": "Mon, 13 Jul 2026 17:30:00 BST",
+      "id": "ee82013f8667",
+      "title": "New faces in England Women squad as World Cup preparations ramp up vs France",
+      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13303427/rugby-league-news-transfers-and-rumours-super-league-latest-and-highlights",
+      "published_at": "Tue, 14 Jul 2026 09:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "And so there were four. As it happens, the four still standing at this World Cup are the same quartet who sit atop FIFA's international food chain. A semi-final line-up for the ages. Aren't we lucky?"
+      "summary": ""
     },
     {
-      "id": "cc68add9f480",
-      "title": "The Open: Full R1 groupings and tee times for Royal Birkdale",
-      "url": "https://www.skysports.com/golf/news/12040/13562973/the-open-2026-tee-times-full-r1-groupings-and-start-times-for-opening-round-of-mens-major-at-royal-birkdale",
-      "published_at": "Mon, 13 Jul 2026 17:00:00 BST",
+      "id": "396921d99152",
+      "title": "Dubois blasts 'joker' Turhan and plans Han fight before end of 2026",
+      "url": "https://www.skysports.com/boxing/news/12040/13563147/caroline-dubois-seeking-next-piece-of-the-undisputed-puzzle-but-blasts-ibf-champion-elif-nur-turhan-as-she-turns-to-stephanie-han",
+      "published_at": "Tue, 14 Jul 2026 07:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Groupings and tee times for the opening round of The 154th Open, held at Royal Birkdale in Southport, Merseyside."
+      "summary": "Caroline Dubois admits she is \"frustrated\" at having to fight for the defence of her title rather than a unification as she blasts IBF champion Elif Nur Turhan for her \"ridiculous\" demands and eyes a "
+    },
+    {
+      "id": "24344c2b5684",
+      "title": "England vs Argentina tactical dossier: How Tuchel’s side can reach World Cup final",
+      "url": "https://www.skysports.com/football/news/12040/13563015/england-vs-argentina-tactics-how-thomas-tuchels-side-can-stop-lionel-messi-and-co-and-reach-the-world-cup-final",
+      "published_at": "Tue, 14 Jul 2026 10:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Here we go. England face Argentina in the World Cup semi-finals on Wednesday - a fixture loaded with history, jeopardy and one final obstacle between Thomas Tuchel&#8217;s side and the World Cup final"
     }
   ]
 }
