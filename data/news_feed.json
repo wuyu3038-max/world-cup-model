@@ -1,55 +1,28 @@
 {
-  "updated": "2026-07-13T18:16:34.986674",
-  "total_articles": 13,
+  "updated": "2026-07-14T03:42:15.659963",
+  "total_articles": 9,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 4,
+    "espn_fc": 0,
     "bbc_sport": 7,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "a7e534815c55",
-      "title": "Projecting the USMNT 2030 World Cup roster: 30 pla...",
-      "url": "https://www.espn.com/soccer/story/_/id/49344843/projecting-usmnt-2030-world-cup-roster-30-players-rep-us-four-years",
-      "published_at": "Mon, 13 Jul 2026 08:30:44 EST",
-      "source": "ESPN FC",
+      "id": "b05dbca14859",
+      "title": "England to make late call on Rice for World Cup semi-final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce8m996g9g1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 13 Jul 2026 21:30:05 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The tears are barely dry from the USMNT's 2026 World Cup exit, but the page immediately turns to the 2030 World Cup. Here's who could represent the U.S. in four years."
-    },
-    {
-      "id": "a4857ff20347",
-      "title": "Inside Spain's World Cup camp: Can good vibes coul...",
-      "url": "https://www.espn.com/soccer/story/_/id/49349006/inside-spain-world-cup-camp-good-vibes-carry-title",
-      "published_at": "Mon, 13 Jul 2026 09:43:12 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "As they prepare to face France's four musketeers, Spain have built their own powerful \"all for one\" mentality together in their World Cup summer camp."
-    },
-    {
-      "id": "6b2feb84b7b8",
-      "title": "World Cup Daily live: Happy Birthday to Lamine Yam...",
-      "url": "https://www.espn.com/soccer/story/_/id/49348483/world-cup-daily-live-happy-birthday-lamine-yamal-world-cup-itself",
-      "published_at": "Mon, 13 Jul 2026 04:25:11 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Enjoy all the features, news, video analysis and color from around the competition as we now know our four World Cup semifinalists."
-    },
-    {
-      "id": "80e814815edd",
-      "title": "Breakout stars of the 2026 World Cup: Diomande, Freeman, Manzambi, more",
-      "url": "https://www.espn.com/soccer/story/_/id/49308560/world-cup-breakout-stars-diomande-freeman-manzambi-puerta",
-      "published_at": "Mon, 13 Jul 2026 13:11:32 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The 2026 World Cup will be remembered for how all the superstars showed up and dominated, but we've also had a few young talents breaking though. Here are four of the best we'll remember going into th"
+      "summary": "England will make a late decision on whether Declan Rice is fit to start Wednesday's World Cup semi-final against Argentina."
     },
     {
       "id": "8c1f945c6fe9",
       "title": "Dutch referee dies weeks after being dropped from World Cup",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy06ej10n3xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 15:42:41 GMT",
+      "published_at": "Mon, 13 Jul 2026 19:25:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Dutch football referee Rob Dieperink dies aged 38, weeks after he was dropped from officiating at the World Cup because of a police investigation in the UK."
@@ -73,15 +46,6 @@
       "summary": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?"
     },
     {
-      "id": "8db237aac33d",
-      "title": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 06:57:04 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28."
-    },
-    {
       "id": "664e457b9656",
       "title": "All the goals from England's 2026 World Cup campaign so far",
       "url": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
@@ -91,6 +55,15 @@
       "summary": "As England gear up to face Norway at the Miami Stadium for the World Cup quarter-finals, re-live all the goals that got Thomas Tuchel's side there."
     },
     {
+      "id": "8db237aac33d",
+      "title": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 13 Jul 2026 06:57:04 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28."
+    },
+    {
       "id": "9febd914e936",
       "title": "Which Premier League clubs have been hit hardest by World Cup?",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8d2v40r472o?at_medium=RSS&at_campaign=rss",
@@ -98,15 +71,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Which Premier League clubs have carried the biggest World Cup workload?"
-    },
-    {
-      "id": "20d66c5b7838",
-      "title": "Who am I? Guess World Cup star No 36",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c62elldp6l7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 05:29:30 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
       "id": "b1060347cc49",
