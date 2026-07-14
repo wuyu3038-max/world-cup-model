@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-14T10:19:44.054437",
-  "total_articles": 10,
+  "updated": "2026-07-14T17:40:28.820924",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 7,
-    "sky_sports": 3,
+    "bbc_sport": 9,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "607836ccf07b",
+      "title": "Barry's journey from Accrington Stanley to World Cup semi-final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gyng8z8v2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 11:35:08 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "His playing career peaked at Accrington Stanley - now Anthony Barry is Thomas Tuchel's right-hand man in England's bid for World Cup glory."
+    },
     {
       "id": "acafc9ce996b",
       "title": "Who will win the World Cup? The view from the semi-finalists",
@@ -17,6 +26,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Sport speaks to journalists and fans from the World Cup's four semi-finalists to see who they think will win the tournament."
+    },
+    {
+      "id": "097531156114",
+      "title": "Balogun expected controversy after World Cup ban waived",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx262x3rmx2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 17:02:17 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "United States striker Folarin Balogun knew the decision by Fifa to suspend his one-game ban at the World Cup was going to bring \"a lot of controversy\" and said it brought \"nerves\" on his team-mates."
+    },
+    {
+      "id": "005f1cd8dd4b",
+      "title": "Premier League rules World Cup defences - but not attacks",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzy9g501vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 15:19:17 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Do the World Cup semi-final line-ups show the world’s best attacking talent plays outside the Premier League?"
     },
     {
       "id": "840180316b33",
@@ -28,6 +55,15 @@
       "summary": "France face Spain for a place in the World Cup final on Tuesday, meaning a showdown between Kylian Mbappe and Lamine Yamal. Who comes out on top?"
     },
     {
+      "id": "ea9be7ca5231",
+      "title": "World Cup quiz: Name every team to have reached semi-finals",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq8p714384ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 16:14:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "You smashed our quarter-finalists quiz, now it's time to name every nation that's reached a World Cup semi-final!"
+    },
+    {
       "id": "b05dbca14859",
       "title": "England to make late call on Rice for World Cup semi-final",
       "url": "https://www.bbc.co.uk/sport/football/articles/ce8m996g9g1o?at_medium=RSS&at_campaign=rss",
@@ -35,6 +71,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "England will make a late decision on whether Declan Rice is fit to start Wednesday's World Cup semi-final against Argentina."
+    },
+    {
+      "id": "4f4742e60440",
+      "title": "Walked for 47% of the World Cup - the evolution of Messi",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy4e943j1j1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 11:00:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Lionel Messi is looking to beat England and reach a third World Cup final with Argentina. Guillem Balague looks at the evolution of one of the game's all-time greats."
     },
     {
       "id": "6c66a8fd294b",
@@ -46,58 +91,22 @@
       "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "a66ff80d8b49",
-      "title": "Chris Sutton's World Cup semi-final predictions",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 09:55:54 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the semi-final ties at the 2026 World Cup."
-    },
-    {
-      "id": "8c1f945c6fe9",
-      "title": "Dutch referee dies weeks after being dropped from World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy06ej10n3xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 19:25:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Dutch football referee Rob Dieperink dies aged 38, weeks after he was dropped from officiating at the World Cup because of a police investigation in the UK."
-    },
-    {
-      "id": "8db237aac33d",
-      "title": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 06:57:04 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Just Fontaine's record of 13 goals in a single World Cup has stood for decades, but he never played in the tournament again after injury ended his career at the age of 28."
-    },
-    {
-      "id": "ee82013f8667",
-      "title": "New faces in England Women squad as World Cup preparations ramp up vs France",
-      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13303427/rugby-league-news-transfers-and-rumours-super-league-latest-and-highlights",
-      "published_at": "Tue, 14 Jul 2026 09:00:00 BST",
+      "id": "79e3b9fb9024",
+      "title": "England World Cup semi-final and final? A reminder of where and when!",
+      "url": "https://www.skysports.com/watch/video/13563368/world-cup-semi-final-and-final-a-reminder-of-where-and-when",
+      "published_at": "Tue, 14 Jul 2026 13:23:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "A reminder of where and when England's semi-final against Argentina takes place and, if they get that far, when to make a note in your diary for the final."
     },
     {
-      "id": "396921d99152",
-      "title": "Dubois blasts 'joker' Turhan and plans Han fight before end of 2026",
-      "url": "https://www.skysports.com/boxing/news/12040/13563147/caroline-dubois-seeking-next-piece-of-the-undisputed-puzzle-but-blasts-ibf-champion-elif-nur-turhan-as-she-turns-to-stephanie-han",
-      "published_at": "Tue, 14 Jul 2026 07:00:00 BST",
+      "id": "fea5746a4466",
+      "title": "Carra: England must exploit Messi in World Cup semi-final",
+      "url": "https://www.skysports.com/football/news/12040/13563342/england-vs-argentina-jamie-carragher-believes-thomas-tuchels-side-can-exploit-lionel-messi-in-their-world-cup-semi-final",
+      "published_at": "Tue, 14 Jul 2026 12:18:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Caroline Dubois admits she is \"frustrated\" at having to fight for the defence of her title rather than a unification as she blasts IBF champion Elif Nur Turhan for her \"ridiculous\" demands and eyes a "
-    },
-    {
-      "id": "24344c2b5684",
-      "title": "England vs Argentina tactical dossier: How Tuchel’s side can reach World Cup final",
-      "url": "https://www.skysports.com/football/news/12040/13563015/england-vs-argentina-tactics-how-thomas-tuchels-side-can-stop-lionel-messi-and-co-and-reach-the-world-cup-final",
-      "published_at": "Tue, 14 Jul 2026 10:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Here we go. England face Argentina in the World Cup semi-finals on Wednesday - a fixture loaded with history, jeopardy and one final obstacle between Thomas Tuchel&#8217;s side and the World Cup final"
+      "summary": "Jamie Carragher believes England can exploit Lionel Messi in their World Cup semi-final against Argentina."
     }
   ]
 }
