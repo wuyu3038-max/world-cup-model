@@ -1,14 +1,131 @@
 {
-  "updated": "2026-07-15T03:42:14.882832",
-  "total_articles": 10,
+  "updated": "2026-07-15T10:22:40.165049",
+  "total_articles": 16,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
-    "bbc_sport": 6,
-    "sky_sports": 4,
+    "espn_fc": 6,
+    "bbc_sport": 8,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "358cd3dee45d",
+      "title": "World Cup favorites France unravel as Spain book s...",
+      "url": "https://www.espn.com/soccer/story/_/id/49361910/world-cup-favorites-france-unravel-spain-book-spot-final-ease",
+      "published_at": "Tue, 14 Jul 2026 18:39:59 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Spain have sealed their place in the 2026 World Cup final, but why did France collapse so easily?"
+    },
+    {
+      "id": "9a53f51db71f",
+      "title": "World Cup Daily live: Argentina fans take over Atl...",
+      "url": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
+      "published_at": "Wed, 15 Jul 2026 05:00:10 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final."
+    },
+    {
+      "id": "70ffa1165b56",
+      "title": "Why England vs. Argentina is World Cup's best, ang...",
+      "url": "https://www.espn.com/soccer/story/_/id/49353029/england-argentina-world-cup-rivalry-antonio-rattin-diego-maradona-hand-god-michael-owen-david-beckham",
+      "published_at": "Wed, 15 Jul 2026 03:08:58 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Wednesday will see England and Argentina meet for the first time since 2005, and it's a rivalry that has defined the World Cup thanks to some unforgettable encounters. Here's why this game is so compe"
+    },
+    {
+      "id": "29e762e9c6c6",
+      "title": "2026 World Cup Stock Watch: Who has impressed? Who...",
+      "url": "https://www.espn.com/soccer/story/_/id/49294190/2026-fifa-world-cup-stock-watch-which-players-starred-struggled",
+      "published_at": "Wed, 15 Jul 2026 03:35:22 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?"
+    },
+    {
+      "id": "0fdb53fca64e",
+      "title": "The USMNT's struggles at the World Cup can't be fixed by overhauling youth development",
+      "url": "https://www.espn.com/soccer/story/_/id/49353204/the-usmnt-struggles-world-cup-fixed-overhauling-youth-development",
+      "published_at": "Tue, 14 Jul 2026 11:29:22 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Everyone thinks they can fix the USMNT. But maybe the U.S. is actually making progress and luck just hasn't been on its side -- what then?"
+    },
+    {
+      "id": "5c5cd93d8c69",
+      "title": "Odds to win the World Cup: Spain new World Cup fav...",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+      "published_at": "Tue, 14 Jul 2026 18:13:26 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Updated odds for the remaining teams to advance to the final and to win the 2026 World Cup."
+    },
+    {
+      "id": "6ca8a1bb19b0",
+      "title": "Sunderland sign Belgium World Cup defender Meunier",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgjxjqpgq4xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 09:44:49 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Experienced Belgian defender Thomas Meunier signs for Sunderland after his contract with Lille comes to an end."
+    },
+    {
+      "id": "081a0af62b43",
+      "title": "Spain into World Cup final with victory over France ",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq6160n8y71o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 21:32:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Spain are into the 2026 World Cup final after goals from Mikel Oyarzabal and Pedro Porro see them convincingly beat France 2-0 in their semi-final in Dallas.  "
+    },
+    {
+      "id": "664e457b9656",
+      "title": "All the goals from England's 2026 World Cup campaign so far",
+      "url": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 04:56:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "As England gear up to face Norway at the Miami Stadium for the World Cup quarter-finals, re-live all the goals that got Thomas Tuchel's side there."
+    },
+    {
+      "id": "2edce172b02f",
+      "title": "All of Argentina's goals from the World Cup so far",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cevlr32zzrno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 04:56:42 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch all 17 of Argentina's goals from World Cup 2026 on their way to the semi-final, where they face England."
+    },
+    {
+      "id": "e573c27550cf",
+      "title": "Bellingham best player at World Cup - Rooney",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzy0kl2gzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 05:40:35 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Jude Bellingham has been the best player at the World Cup so far, says former England striker Wayne Rooney."
+    },
+    {
+      "id": "9de4c79b94cd",
+      "title": "Who am I? Guess World Cup star No 38",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9d3n10pwvqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 05:52:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "613b1dd71025",
+      "title": "The 91-year-old Argentine journalist covering his 18th World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqj1j0x8811o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 06:43:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Enrique Macaya Marquez has covered every World Cup since 1958, where a 17-year-old Pele featured. "
+    },
     {
       "id": "5e74300b02f2",
       "title": "World Cup final half-time to last up to 25 minutes",
@@ -17,51 +134,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The half-time break in Sunday's World Cup final is expected to last between 20 and 25 minutes."
-    },
-    {
-      "id": "081a0af62b43",
-      "title": "Spain into World Cup final after victory over France ",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq6160n8y71o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 21:32:59 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Spain are into the 2026 World Cup final after goals from Mikel Oyarzabal and Pedro Porro see them convincingly beat France 2-0 in their semi-final in Dallas.  "
-    },
-    {
-      "id": "097531156114",
-      "title": "Balogun expected controversy after World Cup ban waived",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx262x3rmx2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 17:02:17 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "United States striker Folarin Balogun knew the decision by Fifa to suspend his one-game ban at the World Cup was going to bring \"a lot of controversy\" and said it brought \"nerves\" on his team-mates."
-    },
-    {
-      "id": "dfdb92850456",
-      "title": "Montrose stun Dundee Utd as Ayr shock Falkirk in League Cup groups",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cg747n7y999o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 21:16:41 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Dundee United and fellow Premiership side Falkirk’s hopes of progressing from the Scottish League Cup group stage are in the balance after they were beaten by lower-league opponents."
-    },
-    {
-      "id": "607836ccf07b",
-      "title": "Barry's journey from Accrington Stanley to World Cup semi-final",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gyng8z8v2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 11:35:08 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "His playing career peaked at Accrington Stanley - now Anthony Barry is Thomas Tuchel's right-hand man in England's bid for World Cup glory."
-    },
-    {
-      "id": "005f1cd8dd4b",
-      "title": "Premier League rules World Cup defences - but not attacks",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzy9g501vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 15:19:17 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Do the World Cup semi-final line-ups show the world’s best attacking talent plays outside the Premier League?"
     },
     {
       "id": "e2bab9501627",
@@ -73,31 +145,13 @@
       "summary": "France's attacking firepower was the focus of the build-up to their World Cup semi-final against Spain. If it wasn't Kylian Mbappe who did the damage, it would surely be Ousmane Dembele. Or Michael Ol"
     },
     {
-      "id": "79e3b9fb9024",
-      "title": "England World Cup semi-final and final? A reminder of where and when!",
-      "url": "https://www.skysports.com/watch/video/13563368/world-cup-semi-final-and-final-a-reminder-of-where-and-when",
-      "published_at": "Tue, 14 Jul 2026 13:23:00 BST",
+      "id": "c1aaa19895a1",
+      "title": "Golf 'coming home' too?! England's stars face World Cup dilemma at The Open",
+      "url": "https://www.skysports.com/golf/news/12040/13563371/the-open-englands-golfers-face-dilemma-over-world-cup-semi-final-ahead-of-bids-for-elusive-major-win-at-royal-birkdale",
+      "published_at": "Wed, 15 Jul 2026 06:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "A reminder of where and when England's semi-final against Argentina takes place and, if they get that far, when to make a note in your diary for the final."
-    },
-    {
-      "id": "09f52eb4ce4c",
-      "title": "Spain book World Cup final place by beating lacklustre France",
-      "url": "https://www.skysports.com/football/france-vs-spain/report/549866",
-      "published_at": "Tue, 14 Jul 2026 22:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "European champions Spain are into the World Cup final after beating lacklustre France 2-0 in Dallas."
-    },
-    {
-      "id": "e67afce8a5e0",
-      "title": "Arsenal latest: Saliba forced off with injury in World Cup semi-final",
-      "url": "https://www.skysports.com/football/live-blog/12040/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "published_at": "Tue, 14 Jul 2026 20:37:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
+      "summary": "In a week where England look to end their 60-year wait for World Cup glory, the nation&#8217;s golfers also aim to break their own lengthy winless run at The Open. "
     }
   ]
 }
