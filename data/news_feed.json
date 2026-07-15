@@ -1,31 +1,31 @@
 {
-  "updated": "2026-07-14T17:40:28.820924",
-  "total_articles": 11,
+  "updated": "2026-07-15T03:42:14.882832",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 9,
-    "sky_sports": 2,
+    "bbc_sport": 6,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "607836ccf07b",
-      "title": "Barry's journey from Accrington Stanley to World Cup semi-final",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gyng8z8v2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 11:35:08 GMT",
+      "id": "5e74300b02f2",
+      "title": "World Cup final half-time to last up to 25 minutes",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1wyw9wx19yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 22:01:52 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "His playing career peaked at Accrington Stanley - now Anthony Barry is Thomas Tuchel's right-hand man in England's bid for World Cup glory."
+      "summary": "The half-time break in Sunday's World Cup final is expected to last between 20 and 25 minutes."
     },
     {
-      "id": "acafc9ce996b",
-      "title": "Who will win the World Cup? The view from the semi-finalists",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjrgew3wv4xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 05:43:53 GMT",
+      "id": "081a0af62b43",
+      "title": "Spain into World Cup final after victory over France ",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq6160n8y71o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 21:32:59 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport speaks to journalists and fans from the World Cup's four semi-finalists to see who they think will win the tournament."
+      "summary": "Spain are into the 2026 World Cup final after goals from Mikel Oyarzabal and Pedro Porro see them convincingly beat France 2-0 in their semi-final in Dallas.  "
     },
     {
       "id": "097531156114",
@@ -37,6 +37,24 @@
       "summary": "United States striker Folarin Balogun knew the decision by Fifa to suspend his one-game ban at the World Cup was going to bring \"a lot of controversy\" and said it brought \"nerves\" on his team-mates."
     },
     {
+      "id": "dfdb92850456",
+      "title": "Montrose stun Dundee Utd as Ayr shock Falkirk in League Cup groups",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cg747n7y999o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 21:16:41 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Dundee United and fellow Premiership side Falkirk’s hopes of progressing from the Scottish League Cup group stage are in the balance after they were beaten by lower-league opponents."
+    },
+    {
+      "id": "607836ccf07b",
+      "title": "Barry's journey from Accrington Stanley to World Cup semi-final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gyng8z8v2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 14 Jul 2026 11:35:08 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "His playing career peaked at Accrington Stanley - now Anthony Barry is Thomas Tuchel's right-hand man in England's bid for World Cup glory."
+    },
+    {
       "id": "005f1cd8dd4b",
       "title": "Premier League rules World Cup defences - but not attacks",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5yzy9g501vo?at_medium=RSS&at_campaign=rss",
@@ -46,49 +64,13 @@
       "summary": "Do the World Cup semi-final line-ups show the world’s best attacking talent plays outside the Premier League?"
     },
     {
-      "id": "840180316b33",
-      "title": "Lamine Yamal v Mbappe: La Liga stars set for World Cup showdown",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clywep30z7jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 05:13:23 GMT",
-      "source": "BBC Sport Football",
+      "id": "e2bab9501627",
+      "title": "Spain show teamwork may win out in 'World Cup of superstars'",
+      "url": "https://www.skysports.com/football/news/12040/13563541/spain-show-teamwork-may-yet-win-out-in-world-cup-of-superstars-as-kylian-mbappe-and-france-eliminated",
+      "published_at": "Tue, 14 Jul 2026 23:45:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "France face Spain for a place in the World Cup final on Tuesday, meaning a showdown between Kylian Mbappe and Lamine Yamal. Who comes out on top?"
-    },
-    {
-      "id": "ea9be7ca5231",
-      "title": "World Cup quiz: Name every team to have reached semi-finals",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq8p714384ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 16:14:53 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "You smashed our quarter-finalists quiz, now it's time to name every nation that's reached a World Cup semi-final!"
-    },
-    {
-      "id": "b05dbca14859",
-      "title": "England to make late call on Rice for World Cup semi-final",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce8m996g9g1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 21:30:05 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England will make a late decision on whether Declan Rice is fit to start Wednesday's World Cup semi-final against Argentina."
-    },
-    {
-      "id": "4f4742e60440",
-      "title": "Walked for 47% of the World Cup - the evolution of Messi",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy4e943j1j1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 11:00:53 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Lionel Messi is looking to beat England and reach a third World Cup final with Argentina. Guillem Balague looks at the evolution of one of the game's all-time greats."
-    },
-    {
-      "id": "6c66a8fd294b",
-      "title": "Who am I? Guess World Cup star No 37",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8e82462y7eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 05:25:53 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "France's attacking firepower was the focus of the build-up to their World Cup semi-final against Spain. If it wasn't Kylian Mbappe who did the damage, it would surely be Ousmane Dembele. Or Michael Ol"
     },
     {
       "id": "79e3b9fb9024",
@@ -100,13 +82,22 @@
       "summary": "A reminder of where and when England's semi-final against Argentina takes place and, if they get that far, when to make a note in your diary for the final."
     },
     {
-      "id": "fea5746a4466",
-      "title": "Carra: England must exploit Messi in World Cup semi-final",
-      "url": "https://www.skysports.com/football/news/12040/13563342/england-vs-argentina-jamie-carragher-believes-thomas-tuchels-side-can-exploit-lionel-messi-in-their-world-cup-semi-final",
-      "published_at": "Tue, 14 Jul 2026 12:18:00 BST",
+      "id": "09f52eb4ce4c",
+      "title": "Spain book World Cup final place by beating lacklustre France",
+      "url": "https://www.skysports.com/football/france-vs-spain/report/549866",
+      "published_at": "Tue, 14 Jul 2026 22:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Jamie Carragher believes England can exploit Lionel Messi in their World Cup semi-final against Argentina."
+      "summary": "European champions Spain are into the World Cup final after beating lacklustre France 2-0 in Dallas."
+    },
+    {
+      "id": "e67afce8a5e0",
+      "title": "Arsenal latest: Saliba forced off with injury in World Cup semi-final",
+      "url": "https://www.skysports.com/football/live-blog/12040/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "published_at": "Tue, 14 Jul 2026 20:37:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }
