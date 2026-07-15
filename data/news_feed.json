@@ -1,68 +1,14 @@
 {
-  "updated": "2026-07-15T10:22:40.165049",
-  "total_articles": 16,
+  "updated": "2026-07-15T17:47:00.435272",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 6,
-    "bbc_sport": 8,
-    "sky_sports": 2,
+    "espn_fc": 0,
+    "bbc_sport": 7,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "358cd3dee45d",
-      "title": "World Cup favorites France unravel as Spain book s...",
-      "url": "https://www.espn.com/soccer/story/_/id/49361910/world-cup-favorites-france-unravel-spain-book-spot-final-ease",
-      "published_at": "Tue, 14 Jul 2026 18:39:59 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Spain have sealed their place in the 2026 World Cup final, but why did France collapse so easily?"
-    },
-    {
-      "id": "9a53f51db71f",
-      "title": "World Cup Daily live: Argentina fans take over Atl...",
-      "url": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
-      "published_at": "Wed, 15 Jul 2026 05:00:10 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final."
-    },
-    {
-      "id": "70ffa1165b56",
-      "title": "Why England vs. Argentina is World Cup's best, ang...",
-      "url": "https://www.espn.com/soccer/story/_/id/49353029/england-argentina-world-cup-rivalry-antonio-rattin-diego-maradona-hand-god-michael-owen-david-beckham",
-      "published_at": "Wed, 15 Jul 2026 03:08:58 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Wednesday will see England and Argentina meet for the first time since 2005, and it's a rivalry that has defined the World Cup thanks to some unforgettable encounters. Here's why this game is so compe"
-    },
-    {
-      "id": "29e762e9c6c6",
-      "title": "2026 World Cup Stock Watch: Who has impressed? Who...",
-      "url": "https://www.espn.com/soccer/story/_/id/49294190/2026-fifa-world-cup-stock-watch-which-players-starred-struggled",
-      "published_at": "Wed, 15 Jul 2026 03:35:22 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?"
-    },
-    {
-      "id": "0fdb53fca64e",
-      "title": "The USMNT's struggles at the World Cup can't be fixed by overhauling youth development",
-      "url": "https://www.espn.com/soccer/story/_/id/49353204/the-usmnt-struggles-world-cup-fixed-overhauling-youth-development",
-      "published_at": "Tue, 14 Jul 2026 11:29:22 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Everyone thinks they can fix the USMNT. But maybe the U.S. is actually making progress and luck just hasn't been on its side -- what then?"
-    },
-    {
-      "id": "5c5cd93d8c69",
-      "title": "Odds to win the World Cup: Spain new World Cup fav...",
-      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-      "published_at": "Tue, 14 Jul 2026 18:13:26 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Updated odds for the remaining teams to advance to the final and to win the 2026 World Cup."
-    },
     {
       "id": "6ca8a1bb19b0",
       "title": "Sunderland sign Belgium World Cup defender Meunier",
@@ -100,6 +46,15 @@
       "summary": "Watch all 17 of Argentina's goals from World Cup 2026 on their way to the semi-final, where they face England."
     },
     {
+      "id": "a66ff80d8b49",
+      "title": "Chris Sutton's World Cup semi-final predictions",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 13 Jul 2026 09:55:54 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the semi-final ties at the 2026 World Cup."
+    },
+    {
       "id": "e573c27550cf",
       "title": "Bellingham best player at World Cup - Rooney",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5yzy0kl2gzo?at_medium=RSS&at_campaign=rss",
@@ -118,22 +73,31 @@
       "summary": "Will you get today's player in as few attempts as possible?"
     },
     {
-      "id": "613b1dd71025",
-      "title": "The 91-year-old Argentine journalist covering his 18th World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqj1j0x8811o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 15 Jul 2026 06:43:53 GMT",
-      "source": "BBC Sport Football",
+      "id": "27babdb8c550",
+      "title": "World Cup-winner Stiles' death linked to heading footballs, coroner rules",
+      "url": "https://www.skysports.com/football/news/12040/13563741/nobby-stiles-former-man-utd-midfielder-and-england-world-cup-winners-death-linked-to-heading-footballs-coroner-rules",
+      "published_at": "Wed, 15 Jul 2026 16:10:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Enrique Macaya Marquez has covered every World Cup since 1958, where a 17-year-old Pele featured. "
+      "summary": "England 1966 World Cup winner Nobby Stiles died with a brain condition caused by repeatedly heading a football, a coroner has ruled."
     },
     {
-      "id": "5e74300b02f2",
-      "title": "World Cup final half-time to last up to 25 minutes",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1wyw9wx19yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 22:01:52 GMT",
-      "source": "BBC Sport Football",
+      "id": "bf70e85752fc",
+      "title": "World Cup format changes revealed by ICC",
+      "url": "https://www.skysports.com/cricket/news/12040/13563666/world-cup-odi-and-t20-cricket-format-changes-revealed-by-icc-including-12-team-main-group-for-2027",
+      "published_at": "Wed, 15 Jul 2026 11:57:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The half-time break in Sunday's World Cup final is expected to last between 20 and 25 minutes."
+      "summary": "The ICC has announced revamped structures for its two men's World Cup tournaments, including the creation of new 'Super Series' and 'Super 7' rounds at next year's 50-over tournament."
+    },
+    {
+      "id": "2baef0c1ae05",
+      "title": "Will The Open tee times change if England reach the World Cup final?",
+      "url": "https://www.skysports.com/golf/news/12040/13563600/the-open-will-tee-times-change-for-sundays-final-round-at-royal-birkdale-if-england-reach-the-world-cup-final",
+      "published_at": "Wed, 15 Jul 2026 12:20:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "R&A chief executive Mark Darbon has confirmed that plans are \"under review\" on whether to change Sunday's final-round tee times at The Open, should England reach the FIFA World Cup final. "
     },
     {
       "id": "e2bab9501627",
@@ -143,15 +107,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "France's attacking firepower was the focus of the build-up to their World Cup semi-final against Spain. If it wasn't Kylian Mbappe who did the damage, it would surely be Ousmane Dembele. Or Michael Ol"
-    },
-    {
-      "id": "c1aaa19895a1",
-      "title": "Golf 'coming home' too?! England's stars face World Cup dilemma at The Open",
-      "url": "https://www.skysports.com/golf/news/12040/13563371/the-open-englands-golfers-face-dilemma-over-world-cup-semi-final-ahead-of-bids-for-elusive-major-win-at-royal-birkdale",
-      "published_at": "Wed, 15 Jul 2026 06:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "In a week where England look to end their 60-year wait for World Cup glory, the nation&#8217;s golfers also aim to break their own lengthy winless run at The Open. "
     }
   ]
 }
