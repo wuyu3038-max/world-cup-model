@@ -1,22 +1,31 @@
 {
-  "updated": "2026-07-16T10:29:17.751243",
-  "total_articles": 13,
+  "updated": "2026-07-16T17:46:11.156707",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 10,
+    "bbc_sport": 7,
     "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "0d9c004b2e19",
-      "title": "Kane unsure if he will play at next World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1k13mvgyljo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 16 Jul 2026 06:35:15 GMT",
+      "id": "ff3ec56a207c",
+      "title": "Why you should care about World Cup third-place play-off",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly5we2lgq4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 16 Jul 2026 10:44:03 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Harry Kane says it is \"too early\" to judge whether he could play on for England until the 2030 World Cup following the painful semi-final defeat by Argentina."
+      "summary": "It might feel like the last thing anyone wants right now - but here is why, actually, you do want to watch the World Cup's third-place play-off."
+    },
+    {
+      "id": "2059245cd8a0",
+      "title": "All 11 last-minute winners at the World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cp8xn9y46xdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 16 Jul 2026 13:41:00 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch all 11 winning goals scored in stoppage time at the 2026 Fifa World Cup."
     },
     {
       "id": "0c2f1fd6bd6e",
@@ -55,76 +64,40 @@
       "summary": "Defending champions Argentina celebrate at full time, after beating England 2-1 to make it through to their second successive World Cup final."
     },
     {
-      "id": "901d330e18a9",
-      "title": "'That's why he's the king' - Messi sets up third World Cup final",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 15 Jul 2026 23:42:19 GMT",
+      "id": "96d4903452d1",
+      "title": "60 years of hurt - England's World Cup wait in numbers",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czrjgpy48pgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 16 Jul 2026 13:03:03 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport looks at Lionel Messi's masterclass on the right wing to knock England out of the World Cup."
+      "summary": "England’s wait for another World Cup triumph wait told through the football, people and moments that have shaped the world since 1966."
     },
     {
-      "id": "e860a9d66438",
-      "title": "Who am I? Guess World Cup star No 39",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cg5pn8vm1nyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 16 Jul 2026 06:18:31 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
-    },
-    {
-      "id": "f56a97dd9f95",
-      "title": "Final two World Cup matches to be shown live on BBC",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp8xn7178x1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 15 Jul 2026 21:16:12 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Saturday's World Cup third-place play-off between England and France and Sunday's World Cup final will both be  live on BBC TV."
-    },
-    {
-      "id": "5c6fdb513f63",
-      "title": "Does third place play-off count towards World Cup golden boot?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn8nl41xr59o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 16 Jul 2026 08:30:44 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's Ask Me Anything team looks into the history of World Cup golden boot winners and the third-place play-off"
-    },
-    {
-      "id": "931d7a2af815",
-      "title": "Quiz: Name every team to knock England out of a World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgzrjj9n7mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 16 Jul 2026 09:39:22 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England have lost their 12th game during the knockout stage of a World Cup - can you name every country that struck a blow? "
-    },
-    {
-      "id": "c63812f786af",
-      "title": "85, 90+2! Argentina's late show breaks England hearts to end World Cup dream",
-      "url": "https://www.skysports.com/football/england-vs-argentina/report/549867",
-      "published_at": "Wed, 15 Jul 2026 22:12:00 BST",
+      "id": "3344b565497f",
+      "title": "The big questions facing Tuchel and England after World Cup exit",
+      "url": "https://www.skysports.com/football/news/12040/13563938/england-out-of-the-world-cup-the-big-questions-facing-thomas-tuchel-and-the-three-lions-after-losing-to-argentina",
+      "published_at": "Thu, 16 Jul 2026 14:35:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England missed out on their first World Cup final since 1966 after a stunning late turnaround from rivals Argentina saw the holders earn a 2-1 victory thanks to Lautaro Martinez's stoppage-time winner"
+      "summary": "After England's World Cup semi-final defeat to Argentina, Sky Sports looks at the big questions facing Thomas Tuchel and the Three Lions squad."
     },
     {
-      "id": "27babdb8c550",
-      "title": "World Cup-winner Stiles' death linked to heading footballs, coroner rules",
-      "url": "https://www.skysports.com/football/news/12040/13563741/nobby-stiles-former-man-utd-midfielder-and-england-world-cup-winners-death-linked-to-heading-footballs-coroner-rules",
-      "published_at": "Wed, 15 Jul 2026 16:10:00 BST",
+      "id": "c305eaef2342",
+      "title": "Alcaraz set to make return from wrist injury at Cincinnati Open in August",
+      "url": "https://www.skysports.com/tennis/news/12040/13564087/carlos-alcaraz-set-to-make-return-from-wrist-injury-at-cincinnati-open-in-august-live-on-sky-sports",
+      "published_at": "Thu, 16 Jul 2026 16:16:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England 1966 World Cup winner Nobby Stiles died with a brain condition caused by repeatedly heading a football, a coroner has ruled."
+      "summary": "Carlos Alcaraz has entered next month's &#8204;Cincinnati Open, which is live on Sky Sports, as he targets a return from a long-term wrist &#8204;injury."
     },
     {
-      "id": "bf70e85752fc",
-      "title": "World Cup format changes revealed by ICC",
-      "url": "https://www.skysports.com/cricket/news/12040/13563666/world-cup-odi-and-t20-cricket-format-changes-revealed-by-icc-including-12-team-main-group-for-2027",
-      "published_at": "Wed, 15 Jul 2026 11:57:00 BST",
+      "id": "9129490f1101",
+      "title": "The Open: Full R2 groupings and tee times for Royal Birkdale",
+      "url": "https://www.skysports.com/golf/news/12040/13563967/the-open-2026-tee-times-full-r2-groupings-and-start-times-for-second-round-of-mens-major-at-royal-birkdale",
+      "published_at": "Thu, 16 Jul 2026 16:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The ICC has announced revamped structures for its two men's World Cup tournaments, including the creation of new 'Super Series' and 'Super 7' rounds at next year's 50-over tournament."
+      "summary": "Groupings and tee times for the second round of The 154th Open, held at Royal Birkdale in Southport, Merseyside."
     }
   ]
 }
