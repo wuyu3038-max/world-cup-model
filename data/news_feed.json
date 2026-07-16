@@ -1,14 +1,68 @@
 {
-  "updated": "2026-07-15T17:47:00.435272",
-  "total_articles": 11,
+  "updated": "2026-07-16T03:45:17.398005",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 7,
-    "sky_sports": 4,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "901d330e18a9",
+      "title": "'That's why he's the king' - Messi sets up third World Cup final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 23:42:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport looks at Lionel Messi's masterclass on the right wing to knock England out of the World Cup."
+    },
+    {
+      "id": "0c2f1fd6bd6e",
+      "title": "Argentina shatter England's World Cup dreams in semi-final",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cwy059qwdg4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 22:05:15 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Argentina shatter England's World Cup dreams, scoring two late goals to come from behind and knock out Thomas Tuchel's side, in a dramatic semi-final in Atlanta."
+    },
+    {
+      "id": "af4fd6a6713a",
+      "title": "'Gutted' - Kane disappointed over World Cup exit",
+      "url": "https://www.bbc.co.uk/sport/football/videos/czrjg3j4jx1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 22:23:56 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England captain Harry Kane gives his analysis on their defeat against Argentina in the 2026 World Cup semi-final at Atlanta Stadium."
+    },
+    {
+      "id": "d18ec7819bf4",
+      "title": "Late Martinez header sends Argentina to World Cup final",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckg3184ymemo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 21:18:38 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Substitute Lautaro Martinez is in the right place at the right time to head home Lionel Messi's 92nd-minute cross to send Argentina to the World Cup final at the expense of England."
+    },
+    {
+      "id": "1b6312720e26",
+      "title": "Argentina celebrate progressing to World Cup final",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9w0jlx451go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 21:53:27 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Defending champions Argentina celebrate at full time, after beating England 2-1 to make it through to their second successive World Cup final."
+    },
+    {
+      "id": "f56a97dd9f95",
+      "title": "Final two World Cup matches to be shown live on BBC",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp8xn7178x1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 21:16:12 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Saturday's World Cup third-place play-off between England and France and Sunday's World Cup final will both be  live on BBC TV."
+    },
     {
       "id": "6ca8a1bb19b0",
       "title": "Sunderland sign Belgium World Cup defender Meunier",
@@ -19,58 +73,13 @@
       "summary": "Experienced Belgian defender Thomas Meunier signs for Sunderland after his contract with Lille comes to an end."
     },
     {
-      "id": "081a0af62b43",
-      "title": "Spain into World Cup final with victory over France ",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq6160n8y71o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 14 Jul 2026 21:32:59 GMT",
-      "source": "BBC Sport Football",
+      "id": "c63812f786af",
+      "title": "85, 90+2! Argentina's late show breaks England hearts to end World Cup dream",
+      "url": "https://www.skysports.com/football/england-vs-argentina/report/549867",
+      "published_at": "Wed, 15 Jul 2026 22:12:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Spain are into the 2026 World Cup final after goals from Mikel Oyarzabal and Pedro Porro see them convincingly beat France 2-0 in their semi-final in Dallas.  "
-    },
-    {
-      "id": "664e457b9656",
-      "title": "All the goals from England's 2026 World Cup campaign so far",
-      "url": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 15 Jul 2026 04:56:53 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "As England gear up to face Norway at the Miami Stadium for the World Cup quarter-finals, re-live all the goals that got Thomas Tuchel's side there."
-    },
-    {
-      "id": "2edce172b02f",
-      "title": "All of Argentina's goals from the World Cup so far",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cevlr32zzrno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 15 Jul 2026 04:56:42 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch all 17 of Argentina's goals from World Cup 2026 on their way to the semi-final, where they face England."
-    },
-    {
-      "id": "a66ff80d8b49",
-      "title": "Chris Sutton's World Cup semi-final predictions",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 09:55:54 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the semi-final ties at the 2026 World Cup."
-    },
-    {
-      "id": "e573c27550cf",
-      "title": "Bellingham best player at World Cup - Rooney",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzy0kl2gzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 15 Jul 2026 05:40:35 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Jude Bellingham has been the best player at the World Cup so far, says former England striker Wayne Rooney."
-    },
-    {
-      "id": "9de4c79b94cd",
-      "title": "Who am I? Guess World Cup star No 38",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9d3n10pwvqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 15 Jul 2026 05:52:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "England missed out on their first World Cup final since 1966 after a stunning late turnaround from rivals Argentina saw the holders earn a 2-1 victory thanks to Lautaro Martinez's stoppage-time winner"
     },
     {
       "id": "27babdb8c550",
@@ -89,24 +98,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "The ICC has announced revamped structures for its two men's World Cup tournaments, including the creation of new 'Super Series' and 'Super 7' rounds at next year's 50-over tournament."
-    },
-    {
-      "id": "2baef0c1ae05",
-      "title": "Will The Open tee times change if England reach the World Cup final?",
-      "url": "https://www.skysports.com/golf/news/12040/13563600/the-open-will-tee-times-change-for-sundays-final-round-at-royal-birkdale-if-england-reach-the-world-cup-final",
-      "published_at": "Wed, 15 Jul 2026 12:20:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "R&A chief executive Mark Darbon has confirmed that plans are \"under review\" on whether to change Sunday's final-round tee times at The Open, should England reach the FIFA World Cup final. "
-    },
-    {
-      "id": "e2bab9501627",
-      "title": "Spain show teamwork may win out in 'World Cup of superstars'",
-      "url": "https://www.skysports.com/football/news/12040/13563541/spain-show-teamwork-may-yet-win-out-in-world-cup-of-superstars-as-kylian-mbappe-and-france-eliminated",
-      "published_at": "Tue, 14 Jul 2026 23:45:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "France's attacking firepower was the focus of the build-up to their World Cup semi-final against Spain. If it wasn't Kylian Mbappe who did the damage, it would surely be Ousmane Dembele. Or Michael Ol"
     }
   ]
 }
