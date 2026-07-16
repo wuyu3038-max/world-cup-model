@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-16T03:45:17.398005",
-  "total_articles": 10,
+  "updated": "2026-07-16T10:29:17.751243",
+  "total_articles": 13,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 7,
+    "bbc_sport": 10,
     "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "901d330e18a9",
-      "title": "'That's why he's the king' - Messi sets up third World Cup final",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 15 Jul 2026 23:42:19 GMT",
+      "id": "0d9c004b2e19",
+      "title": "Kane unsure if he will play at next World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1k13mvgyljo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 16 Jul 2026 06:35:15 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport looks at Lionel Messi's masterclass on the right wing to knock England out of the World Cup."
+      "summary": "Harry Kane says it is \"too early\" to judge whether he could play on for England until the 2030 World Cup following the painful semi-final defeat by Argentina."
     },
     {
       "id": "0c2f1fd6bd6e",
@@ -55,6 +55,24 @@
       "summary": "Defending champions Argentina celebrate at full time, after beating England 2-1 to make it through to their second successive World Cup final."
     },
     {
+      "id": "901d330e18a9",
+      "title": "'That's why he's the king' - Messi sets up third World Cup final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 15 Jul 2026 23:42:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport looks at Lionel Messi's masterclass on the right wing to knock England out of the World Cup."
+    },
+    {
+      "id": "e860a9d66438",
+      "title": "Who am I? Guess World Cup star No 39",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cg5pn8vm1nyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 16 Jul 2026 06:18:31 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
       "id": "f56a97dd9f95",
       "title": "Final two World Cup matches to be shown live on BBC",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp8xn7178x1o?at_medium=RSS&at_campaign=rss",
@@ -64,13 +82,22 @@
       "summary": "Saturday's World Cup third-place play-off between England and France and Sunday's World Cup final will both be  live on BBC TV."
     },
     {
-      "id": "6ca8a1bb19b0",
-      "title": "Sunderland sign Belgium World Cup defender Meunier",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgjxjqpgq4xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 15 Jul 2026 09:44:49 GMT",
+      "id": "5c6fdb513f63",
+      "title": "Does third place play-off count towards World Cup golden boot?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn8nl41xr59o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 16 Jul 2026 08:30:44 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Experienced Belgian defender Thomas Meunier signs for Sunderland after his contract with Lille comes to an end."
+      "summary": "BBC Sport's Ask Me Anything team looks into the history of World Cup golden boot winners and the third-place play-off"
+    },
+    {
+      "id": "931d7a2af815",
+      "title": "Quiz: Name every team to knock England out of a World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgzrjj9n7mo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 16 Jul 2026 09:39:22 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England have lost their 12th game during the knockout stage of a World Cup - can you name every country that struck a blow? "
     },
     {
       "id": "c63812f786af",

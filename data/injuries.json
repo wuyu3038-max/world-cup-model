@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-16T03:45:17.460633",
+    "last_updated": "2026-07-16T10:29:17.802183",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -790,6 +790,16 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss",
       "summary": "BBC Sport looks at Lionel Messi's masterclass on the right wing to knock England out of the World Cup.",
       "published": "Wed, 15 Jul 2026 23:42:19 GMT"
+    },
+    {
+      "title": "Quiz: Name every team to knock England out of a World Cup",
+      "nations": [
+        "England"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgzrjj9n7mo?at_medium=RSS&at_campaign=rss",
+      "summary": "England have lost their 12th game during the knockout stage of a World Cup - can you name every country that struck a blow? ",
+      "published": "Thu, 16 Jul 2026 09:39:22 GMT"
     }
   ]
 }
