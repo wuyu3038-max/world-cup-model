@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-17T03:45:04.358071",
-  "total_articles": 12,
+  "updated": "2026-07-17T10:20:11.605498",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 9,
-    "sky_sports": 3,
+    "bbc_sport": 10,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -19,22 +19,31 @@
       "summary": "Officials in New York and New Jersey issue an air quality health alert because of wildfire smoke just days before the World Cup final."
     },
     {
-      "id": "e0315747468f",
-      "title": "Fifa 'assessing match reports' over Falklands banner",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c75gnkl30vlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 16 Jul 2026 18:44:43 GMT",
+      "id": "a61101efaec0",
+      "title": "World Cup rings for winners as Trump attendance confirmed",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgmk7mnnyjeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 17 Jul 2026 08:40:55 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa is \"assessing the match reports\" before deciding whether to punish Argentina after players held a banner in support of their country's claims to the Falkland Islands."
+      "summary": "Donald Trump will present the trophy to the World Cup final winners on Sunday, and rings will be presented to the victorious side."
     },
     {
-      "id": "55ee8af6d22b",
-      "title": "Arsenal to assess Saliba back injury with surgery an option",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp87np4282po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 16 Jul 2026 21:55:52 GMT",
+      "id": "9b9f536282c1",
+      "title": "World Cup stars who could move this summer",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c87ng4xq9nwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 17 Jul 2026 06:30:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Arsenal will assess William Saliba's back injury when he reports back to the club after World Cup duty."
+      "summary": "As the World Cup approaches its end, attentions are turning to the 2026-27 club season - and the players who could be on the move this summer."
+    },
+    {
+      "id": "548db52c7bad",
+      "title": "Spain 2010 v Spain 2026: How do the two XIs compare?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzy1rzxepo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 17 Jul 2026 09:36:52 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "How do Spain's 2010 World Cup winners compare to the current contingent who are looking to match their feat in the 2026 tournament? BBC Sport takes a look."
     },
     {
       "id": "2059245cd8a0",
@@ -82,40 +91,22 @@
       "summary": "Defending champions Argentina celebrate at full time, after beating England 2-1 to make it through to their second successive World Cup final."
     },
     {
-      "id": "ff3ec56a207c",
-      "title": "Why you should care about World Cup third-place play-off",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly5we2lgq4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 16 Jul 2026 10:44:03 GMT",
+      "id": "d2f033f00fdb",
+      "title": "The financial winners and losers from the World Cup",
+      "url": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 17 Jul 2026 09:40:17 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "It might feel like the last thing anyone wants right now - but here is why, actually, you do want to watch the World Cup's third-place play-off."
+      "summary": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?"
     },
     {
-      "id": "7e64de43a11e",
-      "title": "Papers: Tuchel unhappy with Mainoo training during World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13564202/kobbie-mainoo-england-boss-thomas-tuchel-was-unimpressed-by-unused-manchester-united-midfielder-during-world-cup-training-paper-talk",
-      "published_at": "Thu, 16 Jul 2026 22:25:00 BST",
+      "id": "e7a2b6bf3c9e",
+      "title": "England switch Buenos Aires hotel to avoid Argentina World Cup party",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13564257/nations-championship-england-switch-buenos-aires-hotel-to-avoid-possible-argentina-world-cup-party",
+      "published_at": "Fri, 17 Jul 2026 09:46:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The top stories and transfer rumours from Friday's newspapers..."
-    },
-    {
-      "id": "3344b565497f",
-      "title": "The big questions facing Tuchel and England after World Cup exit",
-      "url": "https://www.skysports.com/football/news/12040/13563938/england-out-of-the-world-cup-the-big-questions-facing-thomas-tuchel-and-the-three-lions-after-losing-to-argentina",
-      "published_at": "Thu, 16 Jul 2026 14:35:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "After England's World Cup semi-final defeat to Argentina, Sky Sports looks at the big questions facing Thomas Tuchel and the Three Lions squad."
-    },
-    {
-      "id": "f17e504d33b0",
-      "title": "Tuchel blames English football's 'DNA' for World Cup exit",
-      "url": "https://www.skysports.com/football/news/12040/13564152/thomas-tuchel-england-boss-defends-tactics-against-argentina-and-blames-english-footballs-dna-for-world-cup-exit",
-      "published_at": "Thu, 16 Jul 2026 20:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Thomas Tuchel says he is \"100 per cent\" committed to continuing his role as England boss into the next European Championships in two years, and he has hit back at critics who have questioned his tacti"
+      "summary": "England have been forced to change hotel in Buenos Aires on Sunday night to avoid being caught up in any celebrations should Argentina win the World Cup."
     }
   ]
 }
