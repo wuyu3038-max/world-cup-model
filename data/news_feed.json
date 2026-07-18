@@ -1,31 +1,31 @@
 {
-  "updated": "2026-07-18T03:40:02.803319",
-  "total_articles": 10,
+  "updated": "2026-07-18T10:00:37.287625",
+  "total_articles": 11,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 10,
+    "bbc_sport": 11,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "f2f39828dcf6",
-      "title": "Keep calm and carry on - Spain trust team identity to deliver World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/czxedvre7ryo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 15:04:58 GMT",
+      "id": "90f47fa3d459",
+      "title": "More games and more controversy - has World Cup been a success?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce8k0njm23yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 09:16:54 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Former Spain captain Cesar Azpilicueta explains why Luis de la Fuente's side have confidence in the collective as they prepare for Sunday's World Cup final against Argentina."
+      "summary": "From high ticket prices to hydration breaks, new laws and political interventions, there has rarely been a dull moment at the 2026 World Cup."
     },
     {
-      "id": "f90434a8126f",
-      "title": "Five reasons for England to be cheerful despite World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyxllv7lmpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 13:45:13 GMT",
+      "id": "d8a175fb1c85",
+      "title": "Best finishers, defensive kings & runners - World Cup finalists in numbers",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0rd8zrwvwno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 07:35:40 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Despite the heartbreak of a World Cup semi-final loss, there are plenty of reasons to be optimistic about England's footballing future."
+      "summary": "European champions Spain will face World Cup holders and South American champions Argentina in the final. How do they compare? BBC Sport takes a look at the numbers."
     },
     {
       "id": "2059245cd8a0",
@@ -73,6 +73,24 @@
       "summary": "Defending champions Argentina celebrate at full time, after beating England 2-1 to make it through to their second successive World Cup final."
     },
     {
+      "id": "9663817f6631",
+      "title": "Who am I? Guess World Cup star No 41",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyp7m9qg4po?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 05:51:36 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "f90434a8126f",
+      "title": "Five reasons for England to be cheerful despite World Cup exit",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyxllv7lmpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 17 Jul 2026 13:45:13 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Despite the heartbreak of a World Cup semi-final loss, there are plenty of reasons to be optimistic about England's footballing future."
+    },
+    {
       "id": "f75a30d29f08",
       "title": "'Chaos v calm' - Sutton's World Cup final and third-place predictions",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g3zrgxkzdo?at_medium=RSS&at_campaign=rss",
@@ -89,15 +107,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?"
-    },
-    {
-      "id": "aa96dc0a6679",
-      "title": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgjx946py51o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 11:54:14 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Pele and Brazil at the Azteca in 1970? Lionel Messi's first World Cup? England winning it on home soil in 1966? BBC Sport attempts to rank the best finals."
     }
   ]
 }
