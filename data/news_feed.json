@@ -1,23 +1,14 @@
 {
-  "updated": "2026-07-17T17:37:40.041323",
-  "total_articles": 14,
+  "updated": "2026-07-18T03:40:02.803319",
+  "total_articles": 10,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 14,
+    "bbc_sport": 10,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "f90434a8126f",
-      "title": "Five reasons for England to be cheerful despite World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyxllv7lmpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 13:45:13 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Despite the heartbreak of a World Cup semi-final loss, there are plenty of reasons to be optimistic about England's footballing future."
-    },
     {
       "id": "f2f39828dcf6",
       "title": "Keep calm and carry on - Spain trust team identity to deliver World Cup",
@@ -28,22 +19,13 @@
       "summary": "Former Spain captain Cesar Azpilicueta explains why Luis de la Fuente's side have confidence in the collective as they prepare for Sunday's World Cup final against Argentina."
     },
     {
-      "id": "f75a30d29f08",
-      "title": "'Chaos v calm' - Sutton's World Cup final and third-place predictions",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4g3zrgxkzdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 16:26:43 GMT",
+      "id": "f90434a8126f",
+      "title": "Five reasons for England to be cheerful despite World Cup exit",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyxllv7lmpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 17 Jul 2026 13:45:13 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton makes his prediction for Spain against Argentina in the World Cup final, and the bronze final between France and England."
-    },
-    {
-      "id": "a89fac2075bd",
-      "title": "Are Argentina being treated favourably at World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 16:26:43 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?"
+      "summary": "Despite the heartbreak of a World Cup semi-final loss, there are plenty of reasons to be optimistic about England's footballing future."
     },
     {
       "id": "2059245cd8a0",
@@ -53,15 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch all 11 winning goals scored in stoppage time at the 2026 Fifa World Cup."
-    },
-    {
-      "id": "aa96dc0a6679",
-      "title": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgjx946py51o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 11:54:14 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Pele and Brazil at the Azteca in 1970? Lionel Messi's first World Cup? England winning it on home soil in 1966? BBC Sport attempts to rank the best finals."
     },
     {
       "id": "0c2f1fd6bd6e",
@@ -100,40 +73,31 @@
       "summary": "Defending champions Argentina celebrate at full time, after beating England 2-1 to make it through to their second successive World Cup final."
     },
     {
-      "id": "013feac75ffc",
-      "title": "How World Cup final could be pivotal in Ballon d'Or race",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c87ngl370p4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 12:56:23 GMT",
+      "id": "f75a30d29f08",
+      "title": "'Chaos v calm' - Sutton's World Cup final and third-place predictions",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4g3zrgxkzdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 17 Jul 2026 16:26:43 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "With the Ballon d'Or race tighter than ever before, BBC Sport looks at how the World Cup final could determine the 2026 winner."
+      "summary": "BBC Sport's football expert Chris Sutton makes his prediction for Spain against Argentina in the World Cup final, and the bronze final between France and England."
     },
     {
-      "id": "a61101efaec0",
-      "title": "World Cup rings for winners as Trump attendance confirmed",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgmk7mnnyjeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 08:40:55 GMT",
+      "id": "a89fac2075bd",
+      "title": "Are Argentina being treated favourably at World Cup?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 17 Jul 2026 16:26:43 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Donald Trump will present the trophy to the World Cup final winners on Sunday, and rings will be presented to the victorious side."
+      "summary": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?"
     },
     {
-      "id": "548db52c7bad",
-      "title": "Spain 2010 v Spain 2026: How do the two XIs compare?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yzy1rzxepo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 09:36:52 GMT",
+      "id": "aa96dc0a6679",
+      "title": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgjx946py51o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 17 Jul 2026 11:54:14 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "How do Spain's 2010 World Cup winners compare to the current contingent who are looking to match their feat in the 2026 tournament? BBC Sport takes a look."
-    },
-    {
-      "id": "94528ac2c31a",
-      "title": "World Cup quiz: Can you name finalists since 1930?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj4pw98d29eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 13:33:33 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "As we approach Sunday's World Cup final, test your knowledge of the teams who have made it to this stage before."
+      "summary": "Pele and Brazil at the Azteca in 1970? Lionel Messi's first World Cup? England winning it on home soil in 1966? BBC Sport attempts to rank the best finals."
     }
   ]
 }
