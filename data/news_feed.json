@@ -1,31 +1,49 @@
 {
-  "updated": "2026-07-18T10:00:37.287625",
-  "total_articles": 11,
+  "updated": "2026-07-18T17:29:36.837693",
+  "total_articles": 13,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 11,
-    "sky_sports": 0,
+    "bbc_sport": 12,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "90f47fa3d459",
-      "title": "More games and more controversy - has World Cup been a success?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce8k0njm23yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 09:16:54 GMT",
+      "id": "6eeea10d92cd",
+      "title": "Will the World Cup affect Arsenal's transfer plans? ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gj5z33e2lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 14:47:45 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "From high ticket prices to hydration breaks, new laws and political interventions, there has rarely been a dull moment at the 2026 World Cup."
+      "summary": "With the World Cup final taking place on Sunday and the start of the Premier League just over a month away, supporters are starting to think about how their side is shaping up for the new campaign."
     },
     {
-      "id": "d8a175fb1c85",
-      "title": "Best finishers, defensive kings & runners - World Cup finalists in numbers",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0rd8zrwvwno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 07:35:40 GMT",
+      "id": "3638390f649b",
+      "title": "The harrowing dark side of England's World Cup exit",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwymljn8y10o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 09:59:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "European champions Spain will face World Cup holders and South American champions Argentina in the final. How do they compare? BBC Sport takes a look at the numbers."
+      "summary": "During a major football tournament such as the World Cup, some women and girls are constantly living in fear - because domestic abuse rises when England play, research shows."
+    },
+    {
+      "id": "ea9d911828a2",
+      "title": "Huge rise in harmful social media posts this World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c7vg6q24e18o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 13:07:27 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "There have been 14 times more harmful social media posts and comments during this World Cup than in 2022, Fifa finds."
+    },
+    {
+      "id": "87c144209cfd",
+      "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 10:43:40 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Former Spain international Joan Capdevila has made a plea to US President Donald Trump for help after he says he was denied a travel permit to enter the United States before  Sunday's World Cup final."
     },
     {
       "id": "2059245cd8a0",
@@ -73,40 +91,40 @@
       "summary": "Defending champions Argentina celebrate at full time, after beating England 2-1 to make it through to their second successive World Cup final."
     },
     {
-      "id": "9663817f6631",
-      "title": "Who am I? Guess World Cup star No 41",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyp7m9qg4po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 05:51:36 GMT",
+      "id": "e1e261e4fa2e",
+      "title": "A bit 'blah' or a worthy host? Is MetLife  right World Cup final choice?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgj5dlr45zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 11:30:47 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "North America correspondent Nada Tawfik explores the decision to award the World Cup final to MetLife Stadium amid competition from rival venues."
     },
     {
-      "id": "f90434a8126f",
-      "title": "Five reasons for England to be cheerful despite World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyxllv7lmpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 13:45:13 GMT",
+      "id": "5bf29edfb79b",
+      "title": "Quiz: Name every men's World Cup final host city",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgzp820y9xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 12:55:03 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Despite the heartbreak of a World Cup semi-final loss, there are plenty of reasons to be optimistic about England's footballing future."
+      "summary": "The World Cup final is where heroes are made and dreams come true for players and fans alike. Can you name every city that has ever hosted the showpiece?"
     },
     {
-      "id": "f75a30d29f08",
-      "title": "'Chaos v calm' - Sutton's World Cup final and third-place predictions",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4g3zrgxkzdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 16:26:43 GMT",
+      "id": "90f47fa3d459",
+      "title": "More games, more controversy - good and bad of biggest World Cup yet",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce8k0njm23yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 09:16:54 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport's football expert Chris Sutton makes his prediction for Spain against Argentina in the World Cup final, and the bronze final between France and England."
+      "summary": "From high ticket prices to hydration breaks, new laws and political interventions, there has rarely been a dull moment at the 2026 World Cup."
     },
     {
-      "id": "a89fac2075bd",
-      "title": "Are Argentina being treated favourably at World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 17 Jul 2026 16:26:43 GMT",
-      "source": "BBC Sport Football",
+      "id": "716f4acefd42",
+      "title": "World Matchplay 2026 LIVE! Build-up to night one with Littler in action",
+      "url": "https://www.skysports.com/darts/live-blog/12040/13564343/world-matchplay-2026-live-updates-video-commentary-scores-analysis-results-as-luke-littler-luke-humphries-go-for-glory-in-blackpool",
+      "published_at": "Sat, 18 Jul 2026 18:15:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Egypt have alleged bias in favour of Argentina and favouritism towards their star player, Lionel Messi. Is this fair?"
+      "summary": ""
     }
   ]
 }
