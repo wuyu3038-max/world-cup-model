@@ -1,14 +1,32 @@
 {
-  "updated": "2026-07-19T04:01:58.208995",
-  "total_articles": 13,
+  "updated": "2026-07-19T10:08:45.167209",
+  "total_articles": 14,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 12,
-    "sky_sports": 1,
+    "bbc_sport": 11,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "415dff0482cf",
+      "title": "Messi on the brink of history - will it be his last World Cup game?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 09:55:22 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Argentina captain Lionel Messi will play his 32nd World Cup match in Sunday's final, but will it be his last appearance?"
+    },
+    {
+      "id": "7b470e06af7d",
+      "title": "I've been a World Cup official - I promise you there is no favouritism",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm2g9g3v5gmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 09:55:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Darren Cann speaks to BBC Sport about the conspiracy theories around the World Cup and what referees really think."
+    },
     {
       "id": "7c4811d6bd4a",
       "title": "England's best World Cup for 60 years - but how should it be judged?",
@@ -37,24 +55,6 @@
       "summary": "Jude Bellingham becomes the first Englishman to score seven goals at a single World Cup with a late strike against France."
     },
     {
-      "id": "0f310e2b5ac8",
-      "title": "Hydration breaks not popular and Fifa will review - Wenger",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c24m30v0gy9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 21:42:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Arsene Wenger says he accepts the hydration breaks introduced at the 2026 World Cup have not been popular and Fifa will review their impact after the tournament."
-    },
-    {
-      "id": "feab6af32903",
-      "title": "Spain's final training session before World Cup final cancelled",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly878gpgrlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 17:32:45 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey."
-    },
-    {
       "id": "2059245cd8a0",
       "title": "All 11 last-minute winners at the World Cup",
       "url": "https://www.bbc.co.uk/sport/football/videos/cp8xn9y46xdo?at_medium=RSS&at_campaign=rss",
@@ -71,6 +71,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Argentina shatter England's World Cup dreams, scoring two late goals to come from behind and knock out Thomas Tuchel's side, in a dramatic semi-final in Atlanta."
+    },
+    {
+      "id": "2f0a3ae9fca9",
+      "title": "Who am I? Guess World Cup star No 42",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4g02zp311po?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 05:51:01 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "feab6af32903",
+      "title": "Spain's final training session before World Cup final cancelled",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly878gpgrlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 17:32:45 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey."
     },
     {
       "id": "3638390f649b",
@@ -91,31 +109,13 @@
       "summary": "North America correspondent Nada Tawfik explores the decision to award the World Cup final to MetLife Stadium amid competition from rival venues."
     },
     {
-      "id": "90f47fa3d459",
-      "title": "More games, more controversy - good and bad of biggest World Cup yet",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce8k0njm23yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 09:16:54 GMT",
-      "source": "BBC Sport Football",
+      "id": "5c7747b206c0",
+      "title": "An opportunity missed?  | England World Cup Verdict",
+      "url": "https://www.skysports.com/watch/video/13564902/world-cup-2026-englands-tournament-analysed",
+      "published_at": "Sun, 19 Jul 2026 10:46:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "From high ticket prices to hydration breaks, new laws and political interventions, there has rarely been a dull moment at the 2026 World Cup."
-    },
-    {
-      "id": "ea9d911828a2",
-      "title": "Huge rise in harmful social media posts this World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c7vg6q24e18o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 13:07:27 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "There have been 14 times more harmful social media posts and comments during this World Cup than in 2022, Fifa finds."
-    },
-    {
-      "id": "87c144209cfd",
-      "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 10:43:40 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Former Spain international Joan Capdevila has made a plea to US President Donald Trump for help after he says he was denied a travel permit to enter the United States before  Sunday's World Cup final."
+      "summary": "Sky Sports football correspondent Rob Dorsett has been with England every step of the way at the World Cup - he reflects on England's performance at the tournament and what could have been."
     },
     {
       "id": "baf84040b238",
@@ -125,6 +125,15 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Bukayo Saka&#8217;s hat-trick helped England to a remarkable 6-4 bronze medal win over France in Miami to achieve their best World Cup finish since 1966."
+    },
+    {
+      "id": "395880ef46ef",
+      "title": "World Cup final predictions: Back Spain to surge as Argentina's engine empties ",
+      "url": "https://www.skysports.com/football/news/12040/13564773/world-cup-final-predictions-and-best-bets-back-spain-to-surge-as-argentinas-engine-empties",
+      "published_at": "Sun, 19 Jul 2026 00:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "This one certainly should live up to the billing."
     }
   ]
 }
