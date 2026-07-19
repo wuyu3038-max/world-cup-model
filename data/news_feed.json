@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-19T10:08:45.167209",
-  "total_articles": 14,
+  "updated": "2026-07-19T17:31:37.584520",
+  "total_articles": 18,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 11,
+    "bbc_sport": 15,
     "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "0bed8de1585d",
+      "title": "Trump presence means two-hour queues for World Cup final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c304p73m3zgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 16:17:06 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Supporters are facing hours of queues to get into New York New Jersey Stadium amid heightened security for the 2026 World Cup final."
+    },
     {
       "id": "415dff0482cf",
       "title": "Messi on the brink of history - will it be his last World Cup game?",
@@ -16,7 +25,16 @@
       "published_at": "Sun, 19 Jul 2026 09:55:22 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Argentina captain Lionel Messi will play his 32nd World Cup match in Sunday's final, but will it be his last appearance?"
+      "summary": "Argentina captain Lionel Messi will play his 34th World Cup match in Sunday's final, but will it be his last appearance?"
+    },
+    {
+      "id": "20b260c27f59",
+      "title": "How the World Cup has affected your Premier League team",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3ek99pz1wgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 13:29:34 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Once the trophy is lifted by either Spain or Argentina in New Jersey on Sunday night, attention will shift from the 2026 World Cup to the upcoming domestic season."
     },
     {
       "id": "7b470e06af7d",
@@ -28,22 +46,13 @@
       "summary": "Darren Cann speaks to BBC Sport about the conspiracy theories around the World Cup and what referees really think."
     },
     {
-      "id": "7c4811d6bd4a",
-      "title": "England's best World Cup for 60 years - but how should it be judged?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c78g1p05025o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 00:23:05 GMT",
+      "id": "ddf2bb4fc9d3",
+      "title": "'Legend' or 'regrets'? A final that will define Lamine Yamal's World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdx8r45w2gzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 10:11:29 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England have secured their best men's World Cup finish since winning the tournament 60 years ago. Is their performance at the 2026 edition being under-appreciated?"
-    },
-    {
-      "id": "6d6401fd50e8",
-      "title": "How did England players rate during the World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2jljx84rwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 23:31:46 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport England reporter Alex Howell assess how the Three Lions' players fared in North America."
+      "summary": "Lamine Yamal may not have had a sparkling World Cup but victory for Spain in Sunday's World Cup final would write a very different narrative."
     },
     {
       "id": "d5454332e436",
@@ -53,6 +62,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Jude Bellingham becomes the first Englishman to score seven goals at a single World Cup with a late strike against France."
+    },
+    {
+      "id": "fcec2746865d",
+      "title": "World Cup quiz: Can you name every winner?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2k2zxdl5edo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 13:00:51 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "With the World Cup final taking place on Sunday, put your knowledge of the previous winners to the test."
+    },
+    {
+      "id": "5e74300b02f2",
+      "title": "World Cup set for longest half-time in tournament's history",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1wyw9wx19yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 01:43:45 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Half-time at the World Cup final between Spain and Argentina is set to be the longest in the tournament's history."
     },
     {
       "id": "2059245cd8a0",
@@ -73,6 +100,15 @@
       "summary": "Argentina shatter England's World Cup dreams, scoring two late goals to come from behind and knock out Thomas Tuchel's side, in a dramatic semi-final in Atlanta."
     },
     {
+      "id": "f13b8a10470a",
+      "title": "World Cup error will make Lammens stronger - Heaton",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjej09nx5q8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 14:47:08 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Tom Heaton is backing Manchester United team-mate Senne Lammens to emerge as a stronger character from his World Cup disappointment."
+    },
+    {
       "id": "2f0a3ae9fca9",
       "title": "Who am I? Guess World Cup star No 42",
       "url": "https://www.bbc.co.uk/sport/football/articles/c4g02zp311po?at_medium=RSS&at_campaign=rss",
@@ -80,6 +116,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "7c4811d6bd4a",
+      "title": "England's best World Cup for 60 years - but how should it be judged?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c78g1p05025o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 00:23:05 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England have secured their best men's World Cup finish since winning the tournament 60 years ago. Is their performance at the 2026 edition being under-appreciated?"
+    },
+    {
+      "id": "6d6401fd50e8",
+      "title": "How did England players rate during the World Cup?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2jljx84rwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 18 Jul 2026 23:31:46 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport England reporter Alex Howell assess how the Three Lions' players fared in North America."
     },
     {
       "id": "feab6af32903",
@@ -91,24 +145,6 @@
       "summary": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey."
     },
     {
-      "id": "3638390f649b",
-      "title": "The harrowing dark side of England's World Cup exit",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwymljn8y10o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 09:59:34 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "During a major football tournament such as the World Cup, some women and girls are constantly living in fear - because domestic abuse rises when England play, research shows."
-    },
-    {
-      "id": "e1e261e4fa2e",
-      "title": "A bit 'blah' or a worthy host? Is MetLife  right World Cup final choice?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgj5dlr45zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 18 Jul 2026 11:30:47 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "North America correspondent Nada Tawfik explores the decision to award the World Cup final to MetLife Stadium amid competition from rival venues."
-    },
-    {
       "id": "5c7747b206c0",
       "title": "An opportunity missed?  | England World Cup Verdict",
       "url": "https://www.skysports.com/watch/video/13564902/world-cup-2026-englands-tournament-analysed",
@@ -118,6 +154,15 @@
       "summary": "Sky Sports football correspondent Rob Dorsett has been with England every step of the way at the World Cup - he reflects on England's performance at the tournament and what could have been."
     },
     {
+      "id": "cb9661d51453",
+      "title": "World Cup final: Spain unchanged as Argentina switch three LIVE!",
+      "url": "https://www.skysports.com/football/spain-vs-argentina/live/549869",
+      "published_at": "Sun, 19 Jul 2026 16:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
       "id": "baf84040b238",
       "title": "England claim third at World Cup with win in 10-goal thriller over France",
       "url": "https://www.skysports.com/football/france-vs-england/report/549868",
@@ -125,15 +170,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Bukayo Saka&#8217;s hat-trick helped England to a remarkable 6-4 bronze medal win over France in Miami to achieve their best World Cup finish since 1966."
-    },
-    {
-      "id": "395880ef46ef",
-      "title": "World Cup final predictions: Back Spain to surge as Argentina's engine empties ",
-      "url": "https://www.skysports.com/football/news/12040/13564773/world-cup-final-predictions-and-best-bets-back-spain-to-surge-as-argentinas-engine-empties",
-      "published_at": "Sun, 19 Jul 2026 00:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "This one certainly should live up to the billing."
     }
   ]
 }
