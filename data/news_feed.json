@@ -1,14 +1,32 @@
 {
-  "updated": "2026-07-20T04:12:13.929766",
-  "total_articles": 19,
+  "updated": "2026-07-20T11:23:54.157413",
+  "total_articles": 21,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 17,
-    "sky_sports": 3,
+    "bbc_sport": 15,
+    "sky_sports": 6,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "04a9ecfcaa85",
+      "title": "Best goal, best player, best fans - BBC reporters' World Cup awards",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdxd1pq4nrko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 10:29:04 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport reporters pick their best moments of the tournament - and you can vote for yours."
+    },
+    {
+      "id": "618cc4dd09f3",
+      "title": "Why Beckham was face of World Cup in the US",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwyq1ew4830o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 10:45:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "After arriving in Los Angeles 19 years ago promising to grow the game, David Beckham is still helping sell football to America."
+    },
     {
       "id": "1945a7c5bdeb",
       "title": "Victory for football? Spain beat Argentina to win World Cup",
@@ -17,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "It might seem like a trite cliche, but you won't find many neutrals disagreeing with that verdict on the World Cup final."
+    },
+    {
+      "id": "5043c6d7d3fd",
+      "title": "'A date with history and we got there first' - Spain react to World Cup win",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c1k1n1g4m8po?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 10:55:30 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Spain manager Luis de la Fuente and his players react to winning their second World Cup title after beating Argentina 1-0 after extra time in the final."
     },
     {
       "id": "1fff31329b40",
@@ -28,60 +55,6 @@
       "summary": "Ferran Torres scores the only goal of the game as Spain dominate Argentina 1-0, to win their second FIFA World Cup at the New York New Jersey Stadium."
     },
     {
-      "id": "9a38c3581919",
-      "title": "Trump, Bieber and Shakira - a World Cup final like never before",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gjx7nvk4go?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 00:44:03 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The 2026 World Cup final may not linger long in the memory for what happened on the pitch but it will for all that surrounded it, with an appearance by President Trump, the longest half-time in footba"
-    },
-    {
-      "id": "5dcc08a7f5a2",
-      "title": "Mbappe first to win Golden Boot twice as Rodri named World Cup's best player",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cre4z58pzj9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 23:00:56 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Kylian Mbappe has become the first player to win the World Cup Golden Boot twice after earning the award for top scorer at the 2026 tournament, while Spain's Rodri lands the Golden Ball as the best pl"
-    },
-    {
-      "id": "5e41d705691e",
-      "title": "Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show",
-      "url": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 22:16:39 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Robbie Williams and Jennifer Hudson also performed, with Kylie Jenner and Timothee Chalamet among the celebrities in the crowds."
-    },
-    {
-      "id": "32124040ab76",
-      "title": "Who made the difference for Spain? World Cup final player ratings",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjgp7656xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 22:44:27 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport journalist Neil Johnston rates the players after the World Cup final between Spain and Argentina."
-    },
-    {
-      "id": "20b260c27f59",
-      "title": "How the World Cup has affected your Premier League team",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3ek99pz1wgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 22:31:09 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Now Spain have been crowned world champions after victory over Argentina in New Jersey, attention will quickly shift to the new domestic season."
-    },
-    {
-      "id": "b565811fb30e",
-      "title": "When the World Cup finishes, the football continues on BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9w2zr9wzj1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 11 Jul 2026 06:03:35 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "When the World Cup ends we'll still have loads of great content every day as we build up to the new football season."
-    },
-    {
       "id": "a94c4fa51897",
       "title": "'The reaction is terrible' - World Cup final turns ugly at full-time",
       "url": "https://www.bbc.co.uk/sport/football/videos/c5yrxql8wd3o?at_medium=RSS&at_campaign=rss",
@@ -89,6 +62,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The frustration of some Argentina players boils over at the end of the 2026 World Cup final, after the 2022 winners are beaten by Spain in extra time."
+    },
+    {
+      "id": "064415d5b4da",
+      "title": "Mbappe wins race for the 2026 World Cup golden boot",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c3v0l1yk7xpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 08:03:37 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "All the goals from the race for the 2026 World Cup golden boot as Kylian Mbappe leads the way from Lionel Messi, Jude Bellingham and Erling Haaland."
     },
     {
       "id": "62f4a8df5c28",
@@ -109,31 +91,49 @@
       "summary": "Madonna, BTS, Justin Bieber, and Shakira entertain the crowd at half-time in the World Cup final, with a special appearance from Ronaldo and Ronaldinho at the New York New Jersey Stadium."
     },
     {
-      "id": "cafa5a560727",
-      "title": "Football Daily: Spain win the World Cup",
-      "url": "https://www.bbc.co.uk/sounds/play/p0nzr634?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 23:39:00 GMT",
+      "id": "32124040ab76",
+      "title": "Who made the difference for Spain? World Cup final player ratings",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgjgp7656xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 22:44:27 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Spain won 1-0 against Argentina after extra time in New Jersey."
+      "summary": "BBC Sport journalist Neil Johnston rates the players after the World Cup final between Spain and Argentina."
     },
     {
-      "id": "7c4811d6bd4a",
-      "title": "England's best World Cup for 60 years - but how should it be judged?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c78g1p05025o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 00:23:05 GMT",
+      "id": "9a38c3581919",
+      "title": "Trump, Bieber and Shakira - a World Cup final like never before",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gjx7nvk4go?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 00:44:03 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England have secured their best men's World Cup finish since winning the tournament 60 years ago. Is their performance at the 2026 edition being under-appreciated?"
+      "summary": "The 2026 World Cup final may not linger long in the memory for what happened on the pitch but it will for all that surrounded it, with an appearance by President Trump, the longest half-time in footba"
     },
     {
-      "id": "d5454332e436",
-      "title": "Bellingham breaks England World Cup goals record",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0qvzqlp4pdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 00:47:11 GMT",
+      "id": "20b260c27f59",
+      "title": "How the World Cup has affected your Premier League team",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3ek99pz1wgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 22:31:09 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Jude Bellingham becomes the first Englishman to score seven goals at a single World Cup with a late strike against France."
+      "summary": "Now Spain have been crowned world champions after victory over Argentina in New Jersey, attention will quickly shift to the new domestic season."
+    },
+    {
+      "id": "794fca0e788b",
+      "title": "Who am I? Guess World Cup star No 43",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn0png1j1lno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 05:44:11 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Will you get today's player in as few attempts as possible?"
+    },
+    {
+      "id": "5e41d705691e",
+      "title": "Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show",
+      "url": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 19 Jul 2026 22:16:39 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Robbie Williams and Jennifer Hudson also performed, with Kylie Jenner and Timothee Chalamet among the celebrities in the crowds."
     },
     {
       "id": "6d6401fd50e8",
@@ -145,17 +145,35 @@
       "summary": "BBC Sport England reporter Alex Howell assess how the Three Lions' players fared in North America."
     },
     {
-      "id": "2f0a3ae9fca9",
-      "title": "Who am I? Guess World Cup star No 42",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4g02zp311po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 05:51:01 GMT",
-      "source": "BBC Sport Football",
+      "id": "c46fddb609bd",
+      "title": "Tuchel's subs, Rodri's rank, Messi's masterclass - World Cup highs & lows",
+      "url": "https://www.skysports.com/football/news/12040/13563289/2026-world-cup-awards-thomas-tuchel-rodri-harry-kane-and-lionel-messi-all-feature-in-tournament-highs-and-lows",
+      "published_at": "Tue, 14 Jul 2026 10:10:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Will you get today's player in as few attempts as possible?"
+      "summary": "As the World Cup draws to a close, with Spain crowned champions for the second time in their history, Sky Sports writers reflect on a tournament that captured the world's attention - but also suffered"
+    },
+    {
+      "id": "b2babb77f8fa",
+      "title": "What would a 64-team World Cup look like - and could it work in 2030?",
+      "url": "https://www.skysports.com/football/news/12040/13563086/world-cup-becoming-a-64-team-tournament-would-create-logistical-challenges-so-can-gianni-infantinos-idea-work",
+      "published_at": "Mon, 20 Jul 2026 10:20:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "This year's World Cup is finally over - and after 48 teams took part, it was a long, long tournament. But just as we bid to say goodbye to the 2026 edition, this competition may be getting even bigger"
+    },
+    {
+      "id": "69ccbeaf5dbc",
+      "title": "England's World Cup assessed - by Sky Sports readers",
+      "url": "https://www.skysports.com/football/news/12040/13564884/englands-world-cup-assessed-by-sky-sports-readers-thomas-tuchel-tactics-players-expectations-and-what-next-for-euro-2028",
+      "published_at": "Mon, 20 Jul 2026 08:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "It's all over - and, once again, it's not coming home."
     },
     {
       "id": "49daf5ff77f9",
-      "title": "Spain beat Argentina to win World Cup",
+      "title": "'We were the better team' - Spain beat Argentina to win World Cup",
       "url": "https://www.skysports.com/football/spain-vs-argentina/report/549869",
       "published_at": "Sun, 19 Jul 2026 23:10:00 BST",
       "source": "Sky Sports Football",
@@ -163,22 +181,22 @@
       "summary": "Spain won their second World Cup title after Ferran Torres' 106th-minute smashed finish earned a 1-0 win against defending champions Argentina in the 2026 final."
     },
     {
-      "id": "4502d296df56",
-      "title": "World Cup final player ratings: Messi peters out as super-subs inspire Spain",
-      "url": "https://www.skysports.com/football/news/12040/13564993/spain-vs-argentina-player-ratings-lionel-messi-fails-to-produce-one-last-moment-of-magic-as-super-subs-guide-spain-to-world-cup-triumph",
-      "published_at": "Sun, 19 Jul 2026 23:45:00 BST",
+      "id": "6f671cea0aa1",
+      "title": "The Verdict: No 'fairytale finale' for Messi as Spain win second World Cup",
+      "url": "https://www.skysports.com/watch/video/13565123/world-cup-2026-messis-argentina-fairy-tale-title-defence-ends-as-spain-claim-second-crown",
+      "published_at": "Mon, 20 Jul 2026 06:58:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Spain beat Argentina 1-0 in one of the most one-sided World Cup finals in history. From Ferran Torres' heroics to Lionel Messi's last dance, here are the player ratings as Luis de la Fuente's side cla"
+      "summary": "Sky Sports football correspondent Rob Dorsett analyses Spain's victory over Argentina in the World Cup final - plus the first half-time show in the history of the tournament."
     },
     {
-      "id": "d66aa14bb7c4",
-      "title": "Rodri named World Cup Best Player as Spain dominate awards",
-      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
-      "published_at": "Sun, 19 Jul 2026 23:30:00 BST",
+      "id": "579088f4cfaa",
+      "title": "Bellingham, kits and team names: What’s changed in The Hundred for 2026?",
+      "url": "https://www.skysports.com/cricket/news/12040/13564597/whats-changed-for-the-hundred-in-2026-jude-bellingham-takes-small-share-in-birmingham-phoenix-plus-new-trophy-team-names-and-kits",
+      "published_at": "Mon, 20 Jul 2026 07:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "As The Hundred returns for 2026 - live on Sky Sports from Tuesday July 21 to Sunday August 16 - we look at what has changed for the ECB's 100-ball competition&#8230;"
     }
   ]
 }
