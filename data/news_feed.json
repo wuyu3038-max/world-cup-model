@@ -1,40 +1,31 @@
 {
-  "updated": "2026-07-21T10:39:31.201388",
-  "total_articles": 12,
+  "updated": "2026-07-21T17:53:18.079046",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 8,
-    "sky_sports": 4,
+    "bbc_sport": 5,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "d331bdd79895",
-      "title": "Fifa opens investigation into Argentina post-final trouble - what happens next?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyxjk0z5y7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 19:32:37 GMT",
+      "id": "294e2cf6c79d",
+      "title": "Infantino's 'time is up' with Fifa - La Liga boss",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqjxzy44l0vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 21 Jul 2026 12:26:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed."
+      "summary": "La Liga president Javier Tebas calls for Fifa president Gianni Infantino to quit, and claims the governing body is \"destroying the football industry\"."
     },
     {
-      "id": "3716324ad245",
-      "title": "Fake kits worth £18m seized by police during World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0rdgrkx552o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 21 Jul 2026 05:12:13 GMT",
+      "id": "15664e24f8a5",
+      "title": "The defining moments of the 2026 World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cdrv06y1pdlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 21 Jul 2026 15:45:11 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Counterfeit football shirts worth over £18m were seized in the UK during the course of the World Cup because of safety concerns, with the Fire Service warning the outfits can be a danger to those who "
-    },
-    {
-      "id": "9bd262e23428",
-      "title": "Why World Cup can be game-changer for ambitious MLS",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1418rm5p10o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 21 Jul 2026 06:55:11 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Can the success of the 2026 World Cup help MLS become one of the world's elite leagues?"
+      "summary": "From historic World Cup debuts and emotional first victories, to new stars and the brilliance of legends - relive the defining moments of the 2026 Fifa World Cup.\n\n\n"
     },
     {
       "id": "5c0fbfa8483d",
@@ -46,76 +37,40 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
-      "id": "5043c6d7d3fd",
-      "title": "'A date with history and we got there first' - Spain react to World Cup win",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c1k1n1g4m8po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 10:55:30 GMT",
+      "id": "3716324ad245",
+      "title": "Fake kits worth £18m seized by police during World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0rdgrkx552o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 21 Jul 2026 05:12:13 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Spain manager Luis de la Fuente and his players react to winning their second World Cup title after beating Argentina 1-0 after extra time in the final."
+      "summary": "Counterfeit football shirts worth over £18m were seized in the UK during the course of the World Cup because of safety concerns, with the Fire Service warning the outfits can be a danger to those who "
     },
     {
-      "id": "1fff31329b40",
-      "title": "Dominant Spain beat Argentina to win World Cup after extra time",
-      "url": "https://www.bbc.co.uk/sport/football/videos/clyvgx9e00do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 19 Jul 2026 23:17:00 GMT",
+      "id": "d331bdd79895",
+      "title": "Fifa opens investigation into Argentina post-final trouble - what happens next?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyxjk0z5y7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 19:32:37 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Ferran Torres scores the only goal of the game as Spain dominate Argentina 1-0, to win their second FIFA World Cup at the New York New Jersey Stadium."
+      "summary": "Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed."
     },
     {
-      "id": "f2703df0c7c0",
-      "title": "Messi says 'pain is immense' after losing World Cup final",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz97gwpk01yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 19:13:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Lionel Messi says \"the pain is immense\" and that it \"will take time to heal\" after Argentina lost 1-0 to Spain in the World Cup final."
-    },
-    {
-      "id": "ba6724293484",
-      "title": "Thousands of websites taken down for illegal World Cup streams",
-      "url": "https://www.bbc.co.uk/news/articles/cqx7wx4vqv1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 20:08:56 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "More than 1,000 illegal streaming sites were shut down in the US during the tournament, with a similar amount blocked in Colombia."
-    },
-    {
-      "id": "10577e075318",
-      "title": "The 58 transfers to watch now the World Cup is over",
-      "url": "https://www.skysports.com/football/news/12040/13565342/transfer-news-the-players-who-could-move-before-deadline-day-now-the-world-cup-is-over",
-      "published_at": "Tue, 21 Jul 2026 08:00:00 BST",
+      "id": "9cc8510787f8",
+      "title": "SunRisers thrash MI London in Hundred opener as Cross suffers injury scare",
+      "url": "https://www.skysports.com/cricket/news/12040/13565712/the-hundred-sunrisers-leeds-thump-mi-london-in-first-womens-match-of-season-but-sweating-on-fitness-of-kate-cross",
+      "published_at": "Tue, 21 Jul 2026 17:05:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The World Cup is over but there are still more than six weeks to go in the transfer window. Here are 58 players to keep an eye on for the rest of the summer."
+      "summary": "SunRisers Leeds Women kicked off a new era for The Hundred with a seven-wicket win over MI London as two teams who have undergone name changes following heavy overseas investment met at The Kia Oval."
     },
     {
-      "id": "bbcab64a32d5",
-      "title": "England latest: Latest FIFA rankings published - where do Three Lions sit?",
-      "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "published_at": "Mon, 20 Jul 2026 21:21:00 BST",
+      "id": "eba58675c143",
+      "title": "Arsenal most impacted? The clubs hit hardest by World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13565569/arsenal-aston-villa-and-man-utd-among-premier-league-clubs-most-impacted-by-injuries-and-possible-world-cup-fatigue",
+      "published_at": "Tue, 21 Jul 2026 11:44:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "d66aa14bb7c4",
-      "title": "Talks confirmed for 64-team World Cup in 2030",
-      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
-      "published_at": "Mon, 20 Jul 2026 19:55:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "2ce0ec83bc1c",
-      "title": "F1 2026 team-mate head-to-heads after Belgian GP",
-      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
-      "published_at": "Mon, 20 Jul 2026 17:30:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
+      "summary": "The World Cup is over but could Premier League clubs feel the effects of the tournament as they prepare for the new season?"
     }
   ]
 }
