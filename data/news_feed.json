@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-21T03:53:04.309584",
-  "total_articles": 15,
+  "updated": "2026-07-21T10:39:31.201388",
+  "total_articles": 12,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 10,
-    "sky_sports": 5,
+    "bbc_sport": 8,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
@@ -19,40 +19,22 @@
       "summary": "Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed."
     },
     {
-      "id": "f2703df0c7c0",
-      "title": "Messi says 'pain is immense' after losing World Cup final",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz97gwpk01yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 19:13:58 GMT",
+      "id": "3716324ad245",
+      "title": "Fake kits worth £18m seized by police during World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0rdgrkx552o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 21 Jul 2026 05:12:13 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Lionel Messi says \"the pain is immense\" and that it \"will take time to heal\" after Argentina lost 1-0 to Spain in the World Cup final."
+      "summary": "Counterfeit football shirts worth over £18m were seized in the UK during the course of the World Cup because of safety concerns, with the Fire Service warning the outfits can be a danger to those who "
     },
     {
-      "id": "c9268341a462",
-      "title": "Gallery: Spain celebrate World Cup triumph in Madrid",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgje79d6q64o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 21:50:12 GMT",
+      "id": "9bd262e23428",
+      "title": "Why World Cup can be game-changer for ambitious MLS",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1418rm5p10o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 21 Jul 2026 06:55:11 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Thousands of fans take to the streets of Madrid as the Spain squad enjoy a bus parade after winning the World Cup."
-    },
-    {
-      "id": "f8934f412a84",
-      "title": "Uefa president boycotts World Cup final in protest against Fifa",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr59mg77ep2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 16:44:02 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Uefa president Aleksander Ceferin did not attend the World Cup final between Argentina and Spain in protest against Fifa."
-    },
-    {
-      "id": "d6be7c8a9809",
-      "title": "Thank you for making this a World Cup to remember on the BBC",
-      "url": "https://www.bbc.co.uk/sport/articles/c1l1g3pjl3yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 16:51:31 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Director of Sport Alex Kay-Jelski's message as BBC Sport delivers a record-breaking World Cup across TV, radio, online and social."
+      "summary": "Can the success of the 2026 World Cup help MLS become one of the world's elite leagues?"
     },
     {
       "id": "5c0fbfa8483d",
@@ -82,28 +64,46 @@
       "summary": "Ferran Torres scores the only goal of the game as Spain dominate Argentina 1-0, to win their second FIFA World Cup at the New York New Jersey Stadium."
     },
     {
-      "id": "1dc4facb6e38",
-      "title": "Could Infantino really push through a 64-team World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly7ley50g9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 11:57:57 GMT",
+      "id": "f2703df0c7c0",
+      "title": "Messi says 'pain is immense' after losing World Cup final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz97gwpk01yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 19:13:58 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "If we have learned one thing from Gianni Infantino's Fifa tenure, it is that more is better. That could mean 64 teams at the World Cup."
+      "summary": "Lionel Messi says \"the pain is immense\" and that it \"will take time to heal\" after Argentina lost 1-0 to Spain in the World Cup final."
     },
     {
-      "id": "04a9ecfcaa85",
-      "title": "Best goal, best player, best fans - BBC reporters' World Cup awards",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdxd1pq4nrko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 10:29:04 GMT",
+      "id": "ba6724293484",
+      "title": "Thousands of websites taken down for illegal World Cup streams",
+      "url": "https://www.bbc.co.uk/news/articles/cqx7wx4vqv1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 20:08:56 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "BBC Sport reporters pick their best moments of the tournament - and you can vote for yours."
+      "summary": "More than 1,000 illegal streaming sites were shut down in the US during the tournament, with a similar amount blocked in Colombia."
+    },
+    {
+      "id": "10577e075318",
+      "title": "The 58 transfers to watch now the World Cup is over",
+      "url": "https://www.skysports.com/football/news/12040/13565342/transfer-news-the-players-who-could-move-before-deadline-day-now-the-world-cup-is-over",
+      "published_at": "Tue, 21 Jul 2026 08:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The World Cup is over but there are still more than six weeks to go in the transfer window. Here are 58 players to keep an eye on for the rest of the summer."
     },
     {
       "id": "bbcab64a32d5",
       "title": "England latest: Latest FIFA rankings published - where do Three Lions sit?",
       "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
       "published_at": "Mon, 20 Jul 2026 21:21:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "d66aa14bb7c4",
+      "title": "Talks confirmed for 64-team World Cup in 2030",
+      "url": "https://www.skysports.com/football/live-blog/12040/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-latest-including-trump-tickets-and-fans",
+      "published_at": "Mon, 20 Jul 2026 19:55:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
@@ -116,33 +116,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
-    },
-    {
-      "id": "74c7e613576b",
-      "title": "The trends that defined the World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13563675/world-cup-2026-data-analysis-record-goals-bigger-fifa-ranking-gaps-older-starting-xis-travel-heat-penalties-substitutes-and-how-spain-won-it",
-      "published_at": "Mon, 20 Jul 2026 17:40:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The biggest World Cup in history produced numbers to match. Forty-eight teams, 104 games and three host countries delivered a record 308 goals before Spain were crowned champions."
-    },
-    {
-      "id": "c5e87c6869d7",
-      "title": "What does Rogers' move mean for Chelsea's squad?",
-      "url": "https://www.skysports.com/football/news/12040/13565270/morgan-rogers-to-chelsea-what-does-the-arrival-of-the-england-forward-mean-for-the-blues-squad",
-      "published_at": "Mon, 20 Jul 2026 15:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Morgan Rogers is set to join Chelsea in a British-record &#163;117m from Aston Villa - and his arrival is set to have a knock-on effect for Xabi Alonso's Blues."
-    },
-    {
-      "id": "db27057c9c3b",
-      "title": "A tribute to Kevin Keegan | 1951-2026",
-      "url": "https://www.skysports.com/watch/video/13565319/kevin-keegan-dies-at-the-age-of-75-1951-2026",
-      "published_at": "Mon, 20 Jul 2026 15:38:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Sky Sports takes a look back at the incredible career of former England manager and legendary footballer Kevin Keegan, who has died at the age of 75."
     }
   ]
 }
