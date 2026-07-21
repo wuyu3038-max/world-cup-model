@@ -1,14 +1,41 @@
 {
-  "updated": "2026-07-20T18:28:46.194960",
-  "total_articles": 14,
+  "updated": "2026-07-21T03:53:04.309584",
+  "total_articles": 15,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 9,
+    "bbc_sport": 10,
     "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "d331bdd79895",
+      "title": "Fifa opens investigation into Argentina post-final trouble - what happens next?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyxjk0z5y7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 19:32:37 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed."
+    },
+    {
+      "id": "f2703df0c7c0",
+      "title": "Messi says 'pain is immense' after losing World Cup final",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz97gwpk01yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 19:13:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Lionel Messi says \"the pain is immense\" and that it \"will take time to heal\" after Argentina lost 1-0 to Spain in the World Cup final."
+    },
+    {
+      "id": "c9268341a462",
+      "title": "Gallery: Spain celebrate World Cup triumph in Madrid",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgje79d6q64o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 21:50:12 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Thousands of fans take to the streets of Madrid as the Spain squad enjoy a bus parade after winning the World Cup."
+    },
     {
       "id": "f8934f412a84",
       "title": "Uefa president boycotts World Cup final in protest against Fifa",
@@ -26,15 +53,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Director of Sport Alex Kay-Jelski's message as BBC Sport delivers a record-breaking World Cup across TV, radio, online and social."
-    },
-    {
-      "id": "1dc4facb6e38",
-      "title": "Could Infantino really push through a 64-team World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cly7ley50g9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 11:57:57 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "If we have learned one thing from Gianni Infantino's Fifa tenure, it is that more is better. That could mean 64 teams at the World Cup."
     },
     {
       "id": "5c0fbfa8483d",
@@ -64,6 +82,15 @@
       "summary": "Ferran Torres scores the only goal of the game as Spain dominate Argentina 1-0, to win their second FIFA World Cup at the New York New Jersey Stadium."
     },
     {
+      "id": "1dc4facb6e38",
+      "title": "Could Infantino really push through a 64-team World Cup?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cly7ley50g9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 20 Jul 2026 11:57:57 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "If we have learned one thing from Gianni Infantino's Fifa tenure, it is that more is better. That could mean 64 teams at the World Cup."
+    },
+    {
       "id": "04a9ecfcaa85",
       "title": "Best goal, best player, best fans - BBC reporters' World Cup awards",
       "url": "https://www.bbc.co.uk/sport/football/articles/cdxd1pq4nrko?at_medium=RSS&at_campaign=rss",
@@ -73,22 +100,13 @@
       "summary": "BBC Sport reporters pick their best moments of the tournament - and you can vote for yours."
     },
     {
-      "id": "8c8bc31e8405",
-      "title": "World Cup final watched by 15.8m people on BBC",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq89v9jgwpzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 13:57:41 GMT",
-      "source": "BBC Sport Football",
+      "id": "bbcab64a32d5",
+      "title": "England latest: Latest FIFA rankings published - where do Three Lions sit?",
+      "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "published_at": "Mon, 20 Jul 2026 21:21:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Spain's victory in Sunday's World Cup final attracts a peak audience of 15.8 million on BBC One and BBC iPlayer."
-    },
-    {
-      "id": "75bba934d4d6",
-      "title": "Who are the World Cup record-holders?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx217277w8wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 13 Jul 2026 15:09:31 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's Ask Me Anything team looks at the record-holders in World Cup history ahead of the 2026 tournament."
+      "summary": ""
     },
     {
       "id": "2ce0ec83bc1c",
@@ -125,15 +143,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Sky Sports takes a look back at the incredible career of former England manager and legendary footballer Kevin Keegan, who has died at the age of 75."
-    },
-    {
-      "id": "cdf68a9a97b3",
-      "title": "World Cup 2026 in Numbers!",
-      "url": "https://www.skysports.com/watch/video/13565224/the-world-cup-2026-in-numbers",
-      "published_at": "Mon, 20 Jul 2026 12:11:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "How many goals, red cards and penalties? Take a look at the World Cup in 2026 in Numbers."
     }
   ]
 }
