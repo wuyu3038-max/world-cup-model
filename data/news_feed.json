@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-22T03:54:07.205988",
-  "total_articles": 5,
+  "updated": "2026-07-22T10:39:40.317966",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 1,
+    "bbc_sport": 3,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -16,7 +16,7 @@
       "published_at": "Tue, 21 Jul 2026 15:45:11 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "From historic World Cup debuts and emotional first victories, to new stars and the brilliance of legends - relive the defining moments of the 2026 Fifa World Cup.\n\n\n"
+      "summary": "From historic World Cup debuts and emotional first victories, to new stars and the brilliance of legends - relive the defining moments of the 2026 FIFA World Cup.\n\n\n"
     },
     {
       "id": "5c0fbfa8483d",
@@ -35,24 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "La Liga president Javier Tebas calls for Fifa president Gianni Infantino to quit, and claims the governing body is \"destroying the football industry\"."
-    },
-    {
-      "id": "d331bdd79895",
-      "title": "Fifa opens investigation into Argentina post-final trouble - what happens next?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyxjk0z5y7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 19:32:37 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed."
-    },
-    {
-      "id": "9cc8510787f8",
-      "title": "SunRisers thrash MI London in Hundred opener as Cross suffers injury scare",
-      "url": "https://www.skysports.com/cricket/news/12040/13565712/the-hundred-sunrisers-leeds-thump-mi-london-in-first-womens-match-of-season-but-sweating-on-fitness-of-kate-cross",
-      "published_at": "Tue, 21 Jul 2026 17:05:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "SunRisers Leeds Women kicked off a new era for The Hundred with a seven-wicket win over MI London as two teams who have undergone name changes following heavy overseas investment met at The Kia Oval."
     }
   ]
 }
