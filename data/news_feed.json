@@ -1,23 +1,14 @@
 {
-  "updated": "2026-07-21T17:53:18.079046",
-  "total_articles": 7,
+  "updated": "2026-07-22T03:54:07.205988",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
-    "sky_sports": 2,
+    "bbc_sport": 4,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "294e2cf6c79d",
-      "title": "Infantino's 'time is up' with Fifa - La Liga boss",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqjxzy44l0vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 21 Jul 2026 12:26:34 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "La Liga president Javier Tebas calls for Fifa president Gianni Infantino to quit, and claims the governing body is \"destroying the football industry\"."
-    },
     {
       "id": "15664e24f8a5",
       "title": "The defining moments of the 2026 World Cup",
@@ -37,13 +28,13 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
-      "id": "3716324ad245",
-      "title": "Fake kits worth £18m seized by police during World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0rdgrkx552o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 21 Jul 2026 05:12:13 GMT",
+      "id": "294e2cf6c79d",
+      "title": "Infantino's 'time is up' with Fifa - La Liga boss",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqjxzy44l0vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 21 Jul 2026 12:26:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Counterfeit football shirts worth over £18m were seized in the UK during the course of the World Cup because of safety concerns, with the Fire Service warning the outfits can be a danger to those who "
+      "summary": "La Liga president Javier Tebas calls for Fifa president Gianni Infantino to quit, and claims the governing body is \"destroying the football industry\"."
     },
     {
       "id": "d331bdd79895",
@@ -62,15 +53,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "SunRisers Leeds Women kicked off a new era for The Hundred with a seven-wicket win over MI London as two teams who have undergone name changes following heavy overseas investment met at The Kia Oval."
-    },
-    {
-      "id": "eba58675c143",
-      "title": "Arsenal most impacted? The clubs hit hardest by World Cup",
-      "url": "https://www.skysports.com/football/news/12040/13565569/arsenal-aston-villa-and-man-utd-among-premier-league-clubs-most-impacted-by-injuries-and-possible-world-cup-fatigue",
-      "published_at": "Tue, 21 Jul 2026 11:44:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The World Cup is over but could Premier League clubs feel the effects of the tournament as they prepare for the new season?"
     }
   ]
 }
