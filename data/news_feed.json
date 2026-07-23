@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-23T03:51:40.989329",
-  "total_articles": 4,
+  "updated": "2026-07-23T10:40:48.485497",
+  "total_articles": 6,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 1,
+    "bbc_sport": 4,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "2c34d1a9da18",
+      "title": "Ruiz & Gavi's reward for World Cup win... 150kg of tomatoes",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg840jye74o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 23 Jul 2026 07:54:03 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Spain's Fabian Ruiz and Gavi receive their body weight in tomatoes when they return to their hometown Los Palacios y Villafranca."
+    },
     {
       "id": "2ad325bc26b0",
       "title": "Saliba to miss extended period with back injury",
@@ -35,6 +44,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
+    },
+    {
+      "id": "b81da108ee82",
+      "title": "Arsenal interested in Stones, Konsa after Saliba injury blow",
+      "url": "https://www.skysports.com/football/news/12040/13566206/arsenal-transfer-news-gunners-interested-in-john-stones-and-ezri-konsa-after-william-saliba-injury-blow",
+      "published_at": "Thu, 23 Jul 2026 10:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Arsenal hold an interest in John Stones and Ezri Konsa as they look to sign a centre-back this summer following news of an extended period on the sidelines for <a href='https://www.skysports.com/footb"
     },
     {
       "id": "ece0f1912de8",
