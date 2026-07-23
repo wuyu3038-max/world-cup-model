@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-22T17:50:05.276145",
-  "total_articles": 2,
+  "updated": "2026-07-23T03:51:40.989329",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 0,
+    "bbc_sport": 3,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "2ad325bc26b0",
+      "title": "Saliba to miss extended period with back injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yveezg9q3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 22 Jul 2026 20:33:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Arsenal confirm defender William Saliba is set to miss an \"extended period\" after suffering a back injury while at the World Cup with France. "
+    },
     {
       "id": "15664e24f8a5",
       "title": "The defining moments of the 2026 World Cup",
@@ -26,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
+    },
+    {
+      "id": "ece0f1912de8",
+      "title": "Saliba out for 'extended period' with back injury",
+      "url": "https://www.skysports.com/football/news/12040/13566125/william-saliba-injury-arsenal-confirm-france-international-will-miss-extended-period-after-returning-from-world-cup-with-back-problem",
+      "published_at": "Wed, 22 Jul 2026 21:21:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Arsenal have confirmed William Saliba will be out for an extended period with a back injury."
     }
   ]
 }
