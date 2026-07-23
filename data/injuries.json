@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-23T10:40:48.545536",
+    "last_updated": "2026-07-23T17:54:48.682924",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Saliba to miss extended period with back injury",
-      "nations": [
-        "France"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yveezg9q3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Arsenal confirm defender William Saliba is set to miss an \"extended period\" after suffering a back injury while at the World Cup with France. ",
-      "published": "Wed, 22 Jul 2026 20:33:58 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }

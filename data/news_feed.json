@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T10:40:48.485497",
+  "updated": "2026-07-23T17:54:48.634240",
   "total_articles": 6,
   "source_counts": {
     "dongqiudi": 0,
@@ -10,22 +10,13 @@
   },
   "articles": [
     {
-      "id": "2c34d1a9da18",
-      "title": "Ruiz & Gavi's reward for World Cup win... 150kg of tomatoes",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg840jye74o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 23 Jul 2026 07:54:03 GMT",
+      "id": "c8941b0652ab",
+      "title": "Norway consider complaint over Balogun World Cup ban suspension",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1l1vz4n484o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 23 Jul 2026 12:43:30 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Spain's Fabian Ruiz and Gavi receive their body weight in tomatoes when they return to their hometown Los Palacios y Villafranca."
-    },
-    {
-      "id": "2ad325bc26b0",
-      "title": "Saliba to miss extended period with back injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yveezg9q3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 22 Jul 2026 20:33:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Arsenal confirm defender William Saliba is set to miss an \"extended period\" after suffering a back injury while at the World Cup with France. "
+      "summary": "The Norwegian Football Federation is considering filing a formal complaint to Fifa's ethics committee."
     },
     {
       "id": "15664e24f8a5",
@@ -46,22 +37,31 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
-      "id": "b81da108ee82",
-      "title": "Arsenal interested in Stones, Konsa after Saliba injury blow",
-      "url": "https://www.skysports.com/football/news/12040/13566206/arsenal-transfer-news-gunners-interested-in-john-stones-and-ezri-konsa-after-william-saliba-injury-blow",
-      "published_at": "Thu, 23 Jul 2026 10:30:00 BST",
-      "source": "Sky Sports Football",
+      "id": "2c34d1a9da18",
+      "title": "Ruiz & Gavi's reward for World Cup win... 150kg of tomatoes",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg840jye74o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 23 Jul 2026 07:54:03 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Arsenal hold an interest in John Stones and Ezri Konsa as they look to sign a centre-back this summer following news of an extended period on the sidelines for <a href='https://www.skysports.com/footb"
+      "summary": "Spain's Fabian Ruiz and Gavi receive their body weight in tomatoes when they return to their hometown Los Palacios y Villafranca."
     },
     {
-      "id": "ece0f1912de8",
-      "title": "Saliba out for 'extended period' with back injury",
-      "url": "https://www.skysports.com/football/news/12040/13566125/william-saliba-injury-arsenal-confirm-france-international-will-miss-extended-period-after-returning-from-world-cup-with-back-problem",
-      "published_at": "Wed, 22 Jul 2026 21:21:00 BST",
+      "id": "fb29170796e8",
+      "title": "F1 considering Malaysian GP return as 2026 replacement race",
+      "url": "https://www.skysports.com/f1/news/12040/13566259/malaysian-gp-formula-1-considering-sepang-return-to-2026-calendar-as-replacement-race-before-singapore-grand-prix",
+      "published_at": "Thu, 23 Jul 2026 18:05:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Arsenal have confirmed William Saliba will be out for an extended period with a back injury."
+      "summary": "Formula 1 bosses are in talks with organisers of the Malaysian Grand Prix to see the Sepang race make a surprise return to the calendar this year as a stand-in event."
+    },
+    {
+      "id": "ab546688bdf9",
+      "title": "Domestic abuse reports reach record UK highs during 2026 World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13566371/world-cup-2026-domestic-abuse-reports-reached-record-high-in-uk-with-major-increase-in-incidents-around-england-games",
+      "published_at": "Thu, 23 Jul 2026 16:49:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Domestic abuse reports reached record highs in the UK during the 2026 World Cup, figures have shown."
     }
   ]
 }
