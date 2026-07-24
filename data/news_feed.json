@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-23T17:54:48.634240",
-  "total_articles": 6,
+  "updated": "2026-07-24T03:51:20.591323",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
+    "bbc_sport": 3,
     "sky_sports": 2,
     "goal_com": 0
   },
@@ -35,15 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
-    },
-    {
-      "id": "2c34d1a9da18",
-      "title": "Ruiz & Gavi's reward for World Cup win... 150kg of tomatoes",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg840jye74o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 23 Jul 2026 07:54:03 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Spain's Fabian Ruiz and Gavi receive their body weight in tomatoes when they return to their hometown Los Palacios y Villafranca."
     },
     {
       "id": "fb29170796e8",
