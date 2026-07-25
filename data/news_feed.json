@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-24T17:59:02.660363",
-  "total_articles": 4,
+  "updated": "2026-07-25T03:45:17.529492",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 3,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -35,15 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Former head coach Scott Rogers has said it is \"criminal\" that England men's amputee football team could miss the 2026 World Cup due to a lack of funding."
-    },
-    {
-      "id": "c4565f6530a4",
-      "title": "Spain coach says Argentina behaviour 'intolerable' after World Cup final",
-      "url": "https://www.skysports.com/football/news/12040/13566607/argentina-behaviour-after-world-cup-final-was-intolerable-and-unacceptable-says-spain-head-coach-luis-de-la-fuente",
-      "published_at": "Fri, 24 Jul 2026 12:24:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Spain head coach Luis de la Fuente has described the conduct of Argentina players after the World Cup final as \"intolerable and unacceptable\"."
     }
   ]
 }
