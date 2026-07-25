@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-25T03:45:17.529492",
-  "total_articles": 3,
+  "updated": "2026-07-25T10:10:10.275688",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
+    "bbc_sport": 2,
     "sky_sports": 0,
     "goal_com": 0
   },
@@ -26,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
-    },
-    {
-      "id": "d93e07a072a0",
-      "title": "England amputee team's World Cup dream on hold",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c62x54zedp1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 24 Jul 2026 09:43:39 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Former head coach Scott Rogers has said it is \"criminal\" that England men's amputee football team could miss the 2026 World Cup due to a lack of funding."
     }
   ]
 }
