@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-25T17:30:06.419439",
-  "total_articles": 2,
+  "updated": "2026-07-26T04:04:03.847349",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -26,6 +26,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
+    },
+    {
+      "id": "e060d64990f9",
+      "title": "England women ramp up Rugby League World Cup preparations with win in France",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13566994/england-women-ramp-up-preparations-for-rugby-league-world-cup-with-win-against-france-in-toulouse",
+      "published_at": "Sat, 25 Jul 2026 20:26:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England women ramped up preparations for the Rugby League World Cup in their mid-season international against France on Saturday, with a dominant performance in Toulouse."
     }
   ]
 }
