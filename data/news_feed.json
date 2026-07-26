@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-26T04:04:03.847349",
-  "total_articles": 3,
+  "updated": "2026-07-26T10:19:28.783789",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 3,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "bf10044a7f50",
+      "title": "Gomez injury overshadows winning start for Iraola",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm2genrg72do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 26 Jul 2026 06:25:17 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Liverpool start life under Andoni Iraola with a 4-2 win over Sunderland thanks to goals from Kieran Morrison, Dominik Szoboszlai, Federico Chiesa and Lewis Koumas. "
+    },
     {
       "id": "15664e24f8a5",
       "title": "The defining moments of the 2026 World Cup",
