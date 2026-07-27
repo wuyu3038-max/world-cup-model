@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T17:31:56.083363",
+  "updated": "2026-07-27T04:12:04.828782",
   "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
@@ -37,6 +37,15 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
+      "id": "a5a638ddb449",
+      "title": "Sivo injury mars Leeds' win over Bradford as hopes of try record dented",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13567212/super-league-leeds-rhinos-beat-bradford-bulls-but-suffer-big-blow-with-maika-sivo-sustaining-suspected-broken-arm",
+      "published_at": "Sun, 26 Jul 2026 18:15:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Maika Sivo's suspected broken arm marred Leeds Rhinos' 42-12 victory over Bradford Bulls that took them two points clear at the top of Super League with the Fijian winger's hopes of breaking the recor"
+    },
+    {
       "id": "b41090c859fd",
       "title": "Norris wins first race of 2026 as Hamilton suffers more penalty pain",
       "url": "https://www.skysports.com/f1/news/12040/13567065/hungarian-gp-lando-norris-wins-first-race-of-2026-formula-1-season-after-early-oscar-piastri-squabble",
@@ -44,15 +53,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Lando Norris won his first race of 2026 after an early squabble with McLaren team-mate Oscar Piastri at the Hungarian Grand Prix."
-    },
-    {
-      "id": "681a8a0590fa",
-      "title": "Malaysia added to 2026 F1 calendar",
-      "url": "https://www.skysports.com/f1/news/12040/13566600/malaysia-added-to-2026-f1-calendar-in-october-to-host-postponed-bahrain-gp-amid-continued-conflict-in-middle-east",
-      "published_at": "Sun, 26 Jul 2026 11:30:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Formula 1 has added Malaysia to its 2026 schedule as the host of the Bahrain Grand Prix that was postponed earlier in the season."
     }
   ]
 }
