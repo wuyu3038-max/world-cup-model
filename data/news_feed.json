@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T04:12:04.828782",
+  "updated": "2026-07-27T11:53:58.691455",
   "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
@@ -9,15 +9,6 @@
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "bf10044a7f50",
-      "title": "Gomez injury overshadows winning start for Iraola",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm2genrg72do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 26 Jul 2026 06:25:17 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Liverpool start life under Andoni Iraola with a 4-2 win over Sunderland thanks to goals from Kieran Morrison, Dominik Szoboszlai, Federico Chiesa and Lewis Koumas. "
-    },
     {
       "id": "15664e24f8a5",
       "title": "The defining moments of the 2026 World Cup",
@@ -37,22 +28,31 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
-      "id": "a5a638ddb449",
-      "title": "Sivo injury mars Leeds' win over Bradford as hopes of try record dented",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13567212/super-league-leeds-rhinos-beat-bradford-bulls-but-suffer-big-blow-with-maika-sivo-sustaining-suspected-broken-arm",
-      "published_at": "Sun, 26 Jul 2026 18:15:00 BST",
-      "source": "Sky Sports Football",
+      "id": "bf10044a7f50",
+      "title": "Gomez injury overshadows winning start for Iraola",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm2genrg72do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 26 Jul 2026 06:25:17 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Maika Sivo's suspected broken arm marred Leeds Rhinos' 42-12 victory over Bradford Bulls that took them two points clear at the top of Super League with the Fijian winger's hopes of breaking the recor"
+      "summary": "Liverpool start life under Andoni Iraola with a 4-2 win over Sunderland thanks to goals from Kieran Morrison, Dominik Szoboszlai, Federico Chiesa and Lewis Koumas. "
     },
     {
-      "id": "b41090c859fd",
-      "title": "Norris wins first race of 2026 as Hamilton suffers more penalty pain",
-      "url": "https://www.skysports.com/f1/news/12040/13567065/hungarian-gp-lando-norris-wins-first-race-of-2026-formula-1-season-after-early-oscar-piastri-squabble",
-      "published_at": "Sun, 26 Jul 2026 16:00:00 BST",
+      "id": "5dbaf755c086",
+      "title": "Football news: Infantino tells World Cup critics to 'meditate and pray'",
+      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
+      "published_at": "Mon, 27 Jul 2026 10:12:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Lando Norris won his first race of 2026 after an early squabble with McLaren team-mate Oscar Piastri at the Hungarian Grand Prix."
+      "summary": ""
+    },
+    {
+      "id": "2ce0ec83bc1c",
+      "title": "F1 2026 team-mate head-to-heads at summer break",
+      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
+      "published_at": "Mon, 20 Jul 2026 10:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }
