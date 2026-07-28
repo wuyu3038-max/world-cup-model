@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-27T18:03:01.301678",
-  "total_articles": 5,
+  "updated": "2026-07-28T03:43:46.975732",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -37,22 +37,13 @@
       "summary": ""
     },
     {
-      "id": "f91d1562699f",
-      "title": "Clean sweep? What the rest of 2026 looks like for Littler",
-      "url": "https://www.skysports.com/darts/news/12040/13567381/luke-littler-what-does-rest-of-2026-look-like-for-world-no-1-as-he-targets-the-clean-sweep-of-majors-after-world-matchplay-triumph",
-      "published_at": "Mon, 27 Jul 2026 18:00:00 BST",
+      "id": "13d0761739be",
+      "title": "Draper withdraws from DC Open with arm injury",
+      "url": "https://www.skysports.com/tennis/news/12040/13567553/mubadala-dc-open-jack-draper-withdraws-from-dc-open-with-left-arm-injury-ahead-of-us-open-qualifying-campaign",
+      "published_at": "Mon, 27 Jul 2026 19:56:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "When Luke Littler arrived in Blackpool for the World Matchplay he made one thing clear: the outcome of this tournament would determine how the rest of his 2026 unfolded. "
-    },
-    {
-      "id": "2ce0ec83bc1c",
-      "title": "F1 2026 team-mate head-to-heads at summer break",
-      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
-      "published_at": "Mon, 20 Jul 2026 10:30:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
+      "summary": "Jack Draper has withdrawn from the DC Open with a left arm injury."
     }
   ]
 }
