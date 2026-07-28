@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-28T03:43:46.975732",
-  "total_articles": 4,
+  "updated": "2026-07-28T10:58:57.509379",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -35,15 +35,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
-    },
-    {
-      "id": "13d0761739be",
-      "title": "Draper withdraws from DC Open with arm injury",
-      "url": "https://www.skysports.com/tennis/news/12040/13567553/mubadala-dc-open-jack-draper-withdraws-from-dc-open-with-left-arm-injury-ahead-of-us-open-qualifying-campaign",
-      "published_at": "Mon, 27 Jul 2026 19:56:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Jack Draper has withdrawn from the DC Open with a left arm injury."
     }
   ]
 }
