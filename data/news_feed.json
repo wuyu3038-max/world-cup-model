@@ -1,22 +1,40 @@
 {
-  "updated": "2026-07-29T11:04:16.079033",
-  "total_articles": 7,
+  "updated": "2026-07-29T17:47:16.433314",
+  "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
+    "bbc_sport": 6,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "36028fb82ccf",
-      "title": "FA concerns over Fifa plan that could lead to Uefa World Cup boycott",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg7vglq9wpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 29 Jul 2026 09:46:28 GMT",
+      "id": "4104777ae5a5",
+      "title": "Is World Cup sell-off plan a step too far by Infantino?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjejl274xx8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 29 Jul 2026 13:48:10 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The Football Association says it is concerned by Fifa's proposals to sell stakes in its major competitions as Uefa's 55 member associations hold an emergency meeting to discuss the issue."
+      "summary": "BBC Sport explores why Fifa president Gianni Infantino feels powerful enough to sell off stakes in the World Cup - and what the consequences could be."
+    },
+    {
+      "id": "29ac1f59c271",
+      "title": "Fifa opens disciplinary proceedings against Argentina",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 29 Jul 2026 17:21:57 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa opens disciplinary proceedings against Argentina over their behaviour after their World Cup final loss to Spain and throughout the tournament. "
+    },
+    {
+      "id": "36028fb82ccf",
+      "title": "Fifa offers $40m if nations back controversial plan",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg7vglq9wpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 29 Jul 2026 14:56:22 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa has set a deadline of 19 September for member associations to access cash as FA voice disapproval of world governing body's funding plan before emergency Uefa meeting."
     },
     {
       "id": "3e35e5d29da7",
@@ -46,13 +64,13 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
-      "id": "5344035e89a9",
-      "title": "Uefa and PM criticise Infantino World Cup plan",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 28 Jul 2026 15:36:29 GMT",
-      "source": "BBC Sport Football",
+      "id": "c9b3ab5e8c71",
+      "title": "Argentina face FIFA proceedings over Falklands banner and World Cup final actions",
+      "url": "https://www.skysports.com/football/news/12040/13568194/world-cup-2026-fifa-opens-disciplinary-proceedings-against-argentina-over-several-potential-breaches-including-falklands-banner",
+      "published_at": "Wed, 29 Jul 2026 17:27:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Uefa and Prime Minister Andy Burnham criticise proposals from Fifa to seek private investment in its competitions, including the World Cup."
+      "summary": "FIFA has opened disciplinary proceedings against Argentina over potential breaches of multiple laws during the World Cup."
     },
     {
       "id": "90df5274590b",
@@ -61,16 +79,7 @@
       "published_at": "Wed, 29 Jul 2026 11:15:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Gianni Infantino has given football associations until September 19 to back his plan to sell off part of FIFA to private investors - with a $40m (&#163;30.1m) incentive to accept, a letter has reveale"
-    },
-    {
-      "id": "08a0e1241363",
-      "title": "F1 Driver Ratings: Our verdict on 2026's stars so far",
-      "url": "https://www.skysports.com/f1/news/12040/13567458/f1-driver-ratings-kimi-antonelli-lewis-hamilton-george-russell-lando-norris-max-verstappen-and-rest-of-2026-formula-1-field-rated",
-      "published_at": "Wed, 29 Jul 2026 06:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Formula 1 in 2026 is shaping up to give us a fascinating second half of the season as Kimi Antonelli looks to become the youngest world champion in the sport's history."
+      "summary": "Gianni Infantino has given football associations until September 19 to back his plan to sell off part of FIFA to private investors with a &#163;30.1m ($40m) incentive to accept, a letter has revealed."
     }
   ]
 }
