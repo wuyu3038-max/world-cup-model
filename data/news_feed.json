@@ -1,31 +1,22 @@
 {
-  "updated": "2026-07-30T10:39:23.291670",
-  "total_articles": 9,
+  "updated": "2026-07-30T17:56:31.435666",
+  "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 7,
-    "sky_sports": 2,
+    "bbc_sport": 5,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "155e339431fd",
-      "title": "Fifa could receive first money from Infantino plan in October",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz64gdj9e25o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 30 Jul 2026 09:29:58 GMT",
+      "id": "29f93a7d6603",
+      "title": "Uefa to boycott World Cups if Fifa plans approved",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 30 Jul 2026 16:47:40 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa could bank first lot of private World Cup cash by end of October as European football's governing body Uefa will hold a meeting of all 55 member associations on Thursday afternoon to discuss its "
-    },
-    {
-      "id": "29ac1f59c271",
-      "title": "Fifa opens disciplinary proceedings against Argentina",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 29 Jul 2026 17:21:57 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa opens disciplinary proceedings against Argentina over their behaviour after their World Cup final loss to Spain and throughout the tournament. "
+      "summary": "Uefa's 55 member associations vote to boycott the World Cup if Fifa proceeds with its plan to sell stakes in its competitions."
     },
     {
       "id": "3e35e5d29da7",
@@ -55,40 +46,40 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
-      "id": "36028fb82ccf",
-      "title": "Fifa offers $40m if nations back controversial plan",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvg7vglq9wpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 29 Jul 2026 14:56:22 GMT",
+      "id": "155e339431fd",
+      "title": "Fifa could receive first money from Infantino plan in October",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz64gdj9e25o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 30 Jul 2026 09:29:58 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa has set a deadline of 19 September for member associations to access cash as FA voice disapproval of world governing body's funding plan before emergency Uefa meeting."
+      "summary": "Fifa could bank first lot of private World Cup cash by end of October as European football's governing body Uefa will hold a meeting of all 55 member associations on Thursday afternoon to discuss its "
     },
     {
-      "id": "4104777ae5a5",
-      "title": "Is World Cup sell-off plan a step too far by Infantino?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjejl274xx8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 29 Jul 2026 13:48:10 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport explores why Fifa president Gianni Infantino feels powerful enough to sell off stakes in the World Cup - and what the consequences could be."
-    },
-    {
-      "id": "af42c019cec1",
-      "title": "Women's Super League fixtures announced for 2026/27 season",
-      "url": "https://www.skysports.com/football/news/12040/13567659/womens-super-league-fixtures-2026-27-man-city-host-birmingham-city-and-london-city-lionesses-face-man-utd-in-opening-round",
-      "published_at": "Thu, 30 Jul 2026 10:00:00 BST",
+      "id": "db083fad2dbf",
+      "title": "Q&A: Why are UEFA boycotting FIFA tournaments and can it stop Infantino?",
+      "url": "https://www.skysports.com/football/news/12040/13568527/uefa-to-boycott-fifa-tournaments-qa-why-they-are-doing-can-it-stop-gianni-infantino-and-where-do-other-confederations-stand",
+      "published_at": "Thu, 30 Jul 2026 17:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Manchester City will begin their Women's Super League title defence against newly-promoted Birmingham City after London City Lionesses have opened the 2026/27 season against Manchester United, live on"
+      "summary": "UEFA announced on Thursday that it will boycott FIFA tournaments until plans from president Gianni Infantino to sell off stakes in the World Cup are ended."
     },
     {
-      "id": "c9b3ab5e8c71",
-      "title": "Argentina face FIFA action over Falklands banner and World Cup final behaviour",
-      "url": "https://www.skysports.com/football/news/12040/13568194/world-cup-2026-fifa-opens-disciplinary-proceedings-against-argentina-over-several-potential-breaches-including-falklands-banner",
-      "published_at": "Wed, 29 Jul 2026 17:27:00 BST",
+      "id": "02d223395cad",
+      "title": "UEFA to boycott FIFA tournaments if World Cup sell-off goes ahead",
+      "url": "https://www.skysports.com/football/news/12040/13568511/uefa-will-boycott-fifa-tournaments-if-gianni-infantino-continues-with-plans-to-sell-off-stake-in-world-cup",
+      "published_at": "Thu, 30 Jul 2026 16:15:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "FIFA has opened disciplinary proceedings against Argentina over potential breaches of multiple laws during the World Cup."
+      "summary": "UEFA will boycott FIFA tournaments if Gianni Infantino goes ahead with his proposal to sell off a stake in the World Cup."
+    },
+    {
+      "id": "9276f06bbb87",
+      "title": "AIG Women's Open: Full R2 groupings and Royal Lytham tee times",
+      "url": "https://www.skysports.com/golf/news/12040/13568349/aig-womens-open-2026-tee-times-full-r2-groupings-and-start-times-for-second-round-at-royal-lytham-st-annes",
+      "published_at": "Thu, 30 Jul 2026 15:25:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Groupings and tee times for the second round of the 50th AIG Women's Open, held at Royal Lytham & St Annes Golf Club in Lancashire. "
     }
   ]
 }
