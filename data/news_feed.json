@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-29T17:47:16.433314",
-  "total_articles": 8,
+  "updated": "2026-07-30T03:39:19.108442",
+  "total_articles": 9,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 6,
+    "bbc_sport": 7,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "29ac1f59c271",
+      "title": "Alleged assaults and Falklands banner - Argentina face Fifa charges",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 29 Jul 2026 17:21:57 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa opens disciplinary proceedings against Argentina over their behaviour after their World Cup final loss to Spain and throughout the tournament. "
+    },
     {
       "id": "4104777ae5a5",
       "title": "Is World Cup sell-off plan a step too far by Infantino?",
@@ -17,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Sport explores why Fifa president Gianni Infantino feels powerful enough to sell off stakes in the World Cup - and what the consequences could be."
-    },
-    {
-      "id": "29ac1f59c271",
-      "title": "Fifa opens disciplinary proceedings against Argentina",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 29 Jul 2026 17:21:57 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa opens disciplinary proceedings against Argentina over their behaviour after their World Cup final loss to Spain and throughout the tournament. "
     },
     {
       "id": "36028fb82ccf",
@@ -64,8 +64,17 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
+      "id": "0537e864e592",
+      "title": "Are Fifa and Infantino Selling the World Cup?",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p1k1qx?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 29 Jul 2026 19:00:00 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "World football's governing body plans to sell off stakes in its football competitions."
+    },
+    {
       "id": "c9b3ab5e8c71",
-      "title": "Argentina face FIFA proceedings over Falklands banner and World Cup final actions",
+      "title": "Argentina face FIFA action over Falklands banner and World Cup final behaviour",
       "url": "https://www.skysports.com/football/news/12040/13568194/world-cup-2026-fifa-opens-disciplinary-proceedings-against-argentina-over-several-potential-breaches-including-falklands-banner",
       "published_at": "Wed, 29 Jul 2026 17:27:00 BST",
       "source": "Sky Sports Football",
