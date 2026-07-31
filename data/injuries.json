@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-07-31T03:58:13.623610",
+    "last_updated": "2026-07-31T11:07:44.375031",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
+      "nations": [
+        "England"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c235g2vngk9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Chelsea and England forward Aggie Beever-Jones had her \"hardest\" season in 2025-26 and she had a big decision to make about her future when it ended. ",
+      "published": "Fri, 31 Jul 2026 08:09:34 GMT"
+    }
+  ]
 }
