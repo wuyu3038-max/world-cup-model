@@ -1,14 +1,23 @@
 {
-  "updated": "2026-07-30T17:56:31.435666",
-  "total_articles": 8,
+  "updated": "2026-07-31T03:58:13.562277",
+  "total_articles": 9,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
+    "bbc_sport": 6,
     "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "4ccff2ff1e83",
+      "title": "Is Infantino finished? Could Uefa boycott World Cup? What happens now?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9984d9x1eyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 30 Jul 2026 21:40:21 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "It's been a seismic 48 hours for football after Uefa threatened to boycott the World Cup and Concacaf rejected Gianni Infantino's funding plan - what happens now, and can Fifa's president survive?"
+    },
     {
       "id": "29f93a7d6603",
       "title": "Uefa to boycott World Cups if Fifa plans approved",
@@ -16,7 +25,7 @@
       "published_at": "Thu, 30 Jul 2026 16:47:40 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Uefa's 55 member associations vote to boycott the World Cup if Fifa proceeds with its plan to sell stakes in its competitions."
+      "summary": "Uefa says \"the World Cup is not for sale\" after its 55 member associations vote to boycott future tournaments if Fifa and its president, Gianni Infantino, do not back down on their investment proposal"
     },
     {
       "id": "3e35e5d29da7",
@@ -46,13 +55,13 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
-      "id": "155e339431fd",
-      "title": "Fifa could receive first money from Infantino plan in October",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cz64gdj9e25o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 30 Jul 2026 09:29:58 GMT",
+      "id": "1831286b8064",
+      "title": "Uefa threatens full Fifa boycott over World Cup sale plans",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p1tg5d?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 30 Jul 2026 19:48:00 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa could bank first lot of private World Cup cash by end of October as European football's governing body Uefa will hold a meeting of all 55 member associations on Thursday afternoon to discuss its "
+      "summary": "UEFA’s 55 associations threaten a full FIFA boycott over plans to sell the World Cup."
     },
     {
       "id": "db083fad2dbf",
