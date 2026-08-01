@@ -1,49 +1,22 @@
 {
-  "updated": "2026-07-31T18:02:55.620061",
-  "total_articles": 11,
+  "updated": "2026-08-01T03:58:20.595531",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 10,
-    "sky_sports": 1,
+    "bbc_sport": 7,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "4db2061d27a6",
-      "title": "'At least I'll sleep well tonight' - Fifa executive joins Burnham in questioning Infantino",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2dkj03jp34o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 31 Jul 2026 17:45:11 GMT",
+      "id": "928625aa15c4",
+      "title": "Fifa scraps controversial World Cup investment plan",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 01 Aug 2026 00:12:06 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa's chief operating officer strongly criticises Gianni Infantino's plan to sell stakes in competitions to private investors."
-    },
-    {
-      "id": "b3343b005555",
-      "title": "Courting controversy and befriending Trump - the story of Fifa boss Infantino",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwyg5887vp3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 31 Jul 2026 07:25:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Gianni Infantino has clashed with unions and European football, but after 10 years as Fifa president he remains in a powerful position."
-    },
-    {
-      "id": "d1b2ccfe7072",
-      "title": "Why women's football is first casualty of Fifa plans",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp8xzl54wyzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 31 Jul 2026 13:25:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa's president Gianni Infantino's plans will make women's football \"the first casualties\" according to former England defender Anita Asante."
-    },
-    {
-      "id": "28ee2873c661",
-      "title": "The Premier League clubs fighting a World Cup hangover",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c87n3wydzjzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 31 Jul 2026 08:08:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Which Premier League clubs have carried the biggest World Cup workload?"
+      "summary": "Football's world governing body abandons plans to sell off stakes in its major competitions after widespread opposition to president Gianni Infantino's proposal."
     },
     {
       "id": "3e35e5d29da7",
@@ -73,22 +46,22 @@
       "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
     },
     {
-      "id": "4ccff2ff1e83",
-      "title": "Is Infantino finished? Could Uefa boycott World Cup? What happens now?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9984d9x1eyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 31 Jul 2026 05:14:17 GMT",
+      "id": "b3343b005555",
+      "title": "Courting controversy and befriending Trump - the story of Fifa boss Infantino",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwyg5887vp3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 31 Jul 2026 07:25:19 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "It's been a seismic 48 hours for football after Uefa threatened to boycott the World Cup and Concacaf rejected Gianni Infantino's funding plan - what happens now, and can Fifa's president survive?"
+      "summary": "Gianni Infantino has clashed with unions and European football, but after 10 years as Fifa president he remains in a powerful position."
     },
     {
-      "id": "fbf94911d24b",
-      "title": "Why Africa might back controversial Fifa plan",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy07qjzzexzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 31 Jul 2026 17:34:40 GMT",
+      "id": "28ee2873c661",
+      "title": "The Premier League clubs fighting a World Cup hangover",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c87n3wydzjzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 31 Jul 2026 08:08:23 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa's plan sell stakes in its competitions to private investors has been heavily criticised, but the body running African football is yet to take a side."
+      "summary": "Which Premier League clubs have carried the biggest World Cup workload?"
     },
     {
       "id": "9e4d181fd581",
@@ -98,15 +71,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Chelsea and England forward Aggie Beever-Jones had her \"hardest\" season in 2025-26 and she had a big decision to make about her future when it ended. "
-    },
-    {
-      "id": "c60519bebca5",
-      "title": "Infantino pressure increases as Burnham says president 'wrong man' for FIFA",
-      "url": "https://www.skysports.com/football/news/12040/13568656/fifa-insists-nobody-is-selling-football-after-uefa-threatens-to-boycott-tournaments-if-plans-to-sell-off-stake-in-world-cup-go-ahead",
-      "published_at": "Fri, 31 Jul 2026 06:03:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Prime Minister Andy Burnham has described Gianni Infantino as \"the wrong man\" to lead FIFA, increasing the pressure on world football's president after a key advisor resigned over his controversial pl"
     }
   ]
 }
