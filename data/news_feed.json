@@ -1,22 +1,31 @@
 {
-  "updated": "2026-08-01T03:58:20.595531",
-  "total_articles": 7,
+  "updated": "2026-08-01T10:17:36.920569",
+  "total_articles": 9,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 7,
-    "sky_sports": 0,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
+      "id": "cd5da5260c1f",
+      "title": "Uefa has 'lost confidence' in Fifa leadership",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 01 Aug 2026 09:51:05 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Uefa says it has lost confidence in Gianni Infantino's Fifa leadership as the fallout from the scrapped controversial investment plan intensifies."
+    },
+    {
       "id": "928625aa15c4",
       "title": "Fifa scraps controversial World Cup investment plan",
       "url": "https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 01 Aug 2026 00:12:06 GMT",
+      "published_at": "Sat, 01 Aug 2026 05:42:31 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Football's world governing body abandons plans to sell off stakes in its major competitions after widespread opposition to president Gianni Infantino's proposal."
+      "summary": "Football's world governing body Fifa abandons plans to sell off stakes in its major competitions after widespread opposition to president Gianni Infantino's proposal."
     },
     {
       "id": "3e35e5d29da7",
@@ -37,24 +46,6 @@
       "summary": "From historic World Cup debuts and emotional first victories, to new stars and the brilliance of legends - relive the defining moments of the 2026 FIFA World Cup.\n\n\n"
     },
     {
-      "id": "5c0fbfa8483d",
-      "title": "Watch the BBC's closing World Cup montage",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c5y4r79prw4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 20 Jul 2026 12:50:36 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever."
-    },
-    {
-      "id": "b3343b005555",
-      "title": "Courting controversy and befriending Trump - the story of Fifa boss Infantino",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwyg5887vp3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 31 Jul 2026 07:25:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Gianni Infantino has clashed with unions and European football, but after 10 years as Fifa president he remains in a powerful position."
-    },
-    {
       "id": "28ee2873c661",
       "title": "The Premier League clubs fighting a World Cup hangover",
       "url": "https://www.bbc.co.uk/sport/football/articles/c87n3wydzjzo?at_medium=RSS&at_campaign=rss",
@@ -64,6 +55,15 @@
       "summary": "Which Premier League clubs have carried the biggest World Cup workload?"
     },
     {
+      "id": "b3343b005555",
+      "title": "Courting controversy and befriending Trump - the story of Fifa boss Infantino",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwyg5887vp3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 01 Aug 2026 10:03:34 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Gianni Infantino has clashed with unions and European football, but after 10 years as Fifa president he remains in a powerful position."
+    },
+    {
       "id": "9e4d181fd581",
       "title": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
       "url": "https://www.bbc.co.uk/sport/football/articles/c235g2vngk9o?at_medium=RSS&at_campaign=rss",
@@ -71,6 +71,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Chelsea and England forward Aggie Beever-Jones had her \"hardest\" season in 2025-26 and she had a big decision to make about her future when it ended. "
+    },
+    {
+      "id": "5ea75ef603b1",
+      "title": "'Desperate attempt to save his job!' | Infantino scraps plan to sell-off World Cup",
+      "url": "https://www.skysports.com/watch/video/13568962/fifa-president-gianni-infantino-scraps-plan-to-sell-off-world-cup",
+      "published_at": "Sat, 01 Aug 2026 08:14:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Sky Sports' chief correspondent Kaveh Solhekol provides the latest update as FIFA scrap plans to sell off part of the World Cup to private investments."
+    },
+    {
+      "id": "2a9e77cb023d",
+      "title": "Infantino abandons plan to sell off stake in World Cup",
+      "url": "https://www.skysports.com/football/news/12040/13568949/fifa-president-gianni-infantino-abandons-plans-to-sell-world-cup-profits-to-private-equity-after-widespread-criticism",
+      "published_at": "Sat, 01 Aug 2026 07:24:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "FIFA president Gianni Infantino has abandoned his controversial plan to sell a stake in future World Cup profits to private equity investors after fierce opposition from football's governing bodies."
     }
   ]
 }
