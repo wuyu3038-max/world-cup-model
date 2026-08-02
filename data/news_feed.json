@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-01T17:30:24.975154",
-  "total_articles": 3,
+  "updated": "2026-08-02T04:02:02.552168",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
+    "bbc_sport": 4,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "07c571d82017",
+      "title": "A bruising 24 hours - what next for Fifa and under-pressure Infantino?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 01 Aug 2026 22:23:20 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The pressure is building on Gianni Infantino. Can he survive as Fifa president?"
+    },
     {
       "id": "3e35e5d29da7",
       "title": "Relive Zidane's World Cup masterclass as he's named France head coach",
