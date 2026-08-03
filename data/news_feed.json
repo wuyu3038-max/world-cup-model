@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T04:04:04.614856",
+  "updated": "2026-08-03T11:58:18.633577",
   "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
@@ -10,6 +10,15 @@
   },
   "articles": [
     {
+      "id": "d557b6d5d00c",
+      "title": "FA set to withdraw support for Fifa president Infantino",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp30vg829nxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 03 Aug 2026 07:49:33 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The English Football Association is set to write to Fifa president Gianni Infantino withdrawing its support amid the fallout from his scrapped plans to sell off stakes in Fifa competitions to private "
+    },
+    {
       "id": "07c571d82017",
       "title": "A bruising 24 hours - what next for Fifa and under-pressure Infantino?",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o?at_medium=RSS&at_campaign=rss",
@@ -17,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Pressure is building on Gianni Infantino. Can he survive as Fifa president after the implosion of the controversial World Cup investment plan?"
-    },
-    {
-      "id": "3e35e5d29da7",
-      "title": "Relive Zidane's World Cup masterclass as he's named France head coach",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cpvwkdnpgkpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 28 Jul 2026 13:36:50 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "New France head coach Zinedine Zidane produces a masterclass against Brazil in the quarter-finals of the 2006 World Cup."
     }
   ]
 }
