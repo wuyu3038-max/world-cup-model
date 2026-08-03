@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-03T11:58:18.633577",
-  "total_articles": 2,
+  "updated": "2026-08-03T18:16:10.112623",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -19,13 +19,22 @@
       "summary": "The English Football Association is set to write to Fifa president Gianni Infantino withdrawing its support amid the fallout from his scrapped plans to sell off stakes in Fifa competitions to private "
     },
     {
-      "id": "07c571d82017",
-      "title": "A bruising 24 hours - what next for Fifa and under-pressure Infantino?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 01 Aug 2026 22:23:20 GMT",
+      "id": "628d67bf6679",
+      "title": "If Infantino goes, who might replace him as Fifa president?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgwvdvwn80o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 03 Aug 2026 13:14:12 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Pressure is building on Gianni Infantino. Can he survive as Fifa president after the implosion of the controversial World Cup investment plan?"
+      "summary": "Pressure is building on Fifa president Gianni Infantino but if he goes, who comes in?"
+    },
+    {
+      "id": "2e49217e5251",
+      "title": "All you need to know about the 2026 Solheim Cup",
+      "url": "https://www.skysports.com/golf/news/12040/13313909/solheim-cup-2026-teams-captains-venue-format-and-how-players-will-qualify-for-europe-vs-usa-in-the-netherlands",
+      "published_at": "Mon, 03 Aug 2026 15:38:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Where and when will the next Solheim Cup take place? How does the scoring system work? Which players can qualify? All you need to know about the 2026 edition..."
     }
   ]
 }
