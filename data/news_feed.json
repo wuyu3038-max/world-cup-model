@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-04T11:04:49.778212",
+  "updated": "2026-08-04T18:10:49.927669",
   "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 0,
+    "bbc_sport": 1,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -19,13 +19,13 @@
       "summary": "Fifa's chief of global football development Arsene Wenger says the decision to scrap the plan to have private investment in Fifa competitions was \"absolutely necessary\"."
     },
     {
-      "id": "d557b6d5d00c",
-      "title": "Infantino opponents threaten 'non co-operation' with Fifa",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp30vg829nxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 03 Aug 2026 07:49:33 GMT",
-      "source": "BBC Sport Football",
+      "id": "2b3483af64c5",
+      "title": "Liverpool's squad lacks depth: What areas does Iraola needs to strengthen?",
+      "url": "https://www.skysports.com/football/news/12040/13569738/liverpool-transfer-news-andoni-iraolas-squad-lacks-depth-where-should-reds-strengthen",
+      "published_at": "Tue, 04 Aug 2026 13:46:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Opponents of Fifa president Gianni Infantino are threatening \"non co-operation\" with the governing body unless he steps down, according to senior Uefa sources."
+      "summary": "Liverpool are short in a number of positions just three weeks out from their Premier League opener and seemingly no closer to bringing in any further additions this summer."
     }
   ]
 }
