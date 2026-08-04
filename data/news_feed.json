@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-03T18:16:10.112623",
-  "total_articles": 3,
+  "updated": "2026-08-04T03:45:32.093180",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 1,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
       "id": "d557b6d5d00c",
-      "title": "FA set to withdraw support for Fifa president Infantino",
+      "title": "Infantino opponents threaten 'non co-operation' with Fifa",
       "url": "https://www.bbc.co.uk/sport/football/articles/cp30vg829nxo?at_medium=RSS&at_campaign=rss",
       "published_at": "Mon, 03 Aug 2026 07:49:33 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The English Football Association is set to write to Fifa president Gianni Infantino withdrawing its support amid the fallout from his scrapped plans to sell off stakes in Fifa competitions to private "
+      "summary": "Opponents of Fifa president Gianni Infantino are threatening \"non co-operation\" with the governing body unless he steps down, according to senior Uefa sources."
     },
     {
       "id": "628d67bf6679",
@@ -28,6 +28,15 @@
       "summary": "Pressure is building on Fifa president Gianni Infantino but if he goes, who comes in?"
     },
     {
+      "id": "b207ad9099f0",
+      "title": "Monday Night Club: Fifa's climbdown, Vinicius to Arsenal and Newcastle's new era",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p2gx1z?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 03 Aug 2026 20:21:00 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Andros Townsend, Don Hutchison & Adam Crafton analyse football's biggest talking points."
+    },
+    {
       "id": "2e49217e5251",
       "title": "All you need to know about the 2026 Solheim Cup",
       "url": "https://www.skysports.com/golf/news/12040/13313909/solheim-cup-2026-teams-captains-venue-format-and-how-players-will-qualify-for-europe-vs-usa-in-the-netherlands",
@@ -35,6 +44,15 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Where and when will the next Solheim Cup take place? How does the scoring system work? Which players can qualify? All you need to know about the 2026 edition..."
+    },
+    {
+      "id": "9e4f27b705b5",
+      "title": "UEFA threatens legal action against FIFA over Infantino World Cup plan",
+      "url": "https://www.skysports.com/football/news/12040/13569337/gianni-infantino-english-fa-set-to-withdraw-support-for-fifa-president-as-uefa-considers-legal-action",
+      "published_at": "Mon, 03 Aug 2026 14:45:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "UEFA has threatened legal action against FIFA over Gianni Infantino's World Cup sell-off plan."
     }
   ]
 }
