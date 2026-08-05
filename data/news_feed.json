@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-05T11:01:36.294294",
-  "total_articles": 3,
+  "updated": "2026-08-05T18:03:36.468836",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 2,
+    "bbc_sport": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -19,22 +19,13 @@
       "summary": "Fifa president Gianni Infantino will face senior leaders of football's world governing body on Wednesday. This is what is expected to happen."
     },
     {
-      "id": "9a1363893da6",
-      "title": "Draper in tears amid injury concern during defeat in Montreal",
-      "url": "https://www.skysports.com/tennis/news/12040/13569819/jack-draper-in-tears-amid-injury-concern-during-defeat-to-terence-atmane-on-return-to-action-in-montreal",
-      "published_at": "Tue, 04 Aug 2026 22:30:00 BST",
-      "source": "Sky Sports Football",
+      "id": "f3404de0a9bb",
+      "title": "Parkinson gets England-U20s call before World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 05 Aug 2026 16:03:10 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Jack Draper was left in tears after losing to Terence Atmane as the Brit's long-term arm injury appeared to resurface and hamper him on his return to action at the Canadian Open."
-    },
-    {
-      "id": "c856c1a1f7ca",
-      "title": "Infantino to hold crisis meeting with senior FIFA staff",
-      "url": "https://www.skysports.com/football/news/12040/13569849/gianni-infantino-fifa-president-asks-senior-staff-to-attend-crisis-meeting-in-morocco-on-wednesday",
-      "published_at": "Tue, 04 Aug 2026 20:04:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Under-pressure FIFA president Gianni Infantino will hold a crisis meeting with senior staff in Morocco on Wednesday."
+      "summary": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. "
     }
   ]
 }
