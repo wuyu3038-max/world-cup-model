@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-05T03:41:34.014170",
-  "total_articles": 2,
+  "updated": "2026-08-05T11:01:36.294294",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 1,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "7cc1bbaf0e46",
+      "title": "Key questions as Infantino faces Fifa executives",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62vd95ljp0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 05 Aug 2026 10:08:49 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa president Gianni Infantino will face senior leaders of football's world governing body on Wednesday. This is what is expected to happen."
+    },
     {
       "id": "9a1363893da6",
       "title": "Draper in tears amid injury concern during defeat in Montreal",
