@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-08-04T18:10:49.989842",
+    "last_updated": "2026-08-05T03:41:34.072683",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Draper in tears amid injury concern during defeat in Montreal",
+      "nations": [
+        "Canada"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/tennis/news/12040/13569819/jack-draper-in-tears-amid-injury-concern-during-defeat-to-terence-atmane-on-return-to-action-in-montreal",
+      "summary": "Jack Draper was left in tears after losing to Terence Atmane as the Brit's long-term arm injury appeared to resurface and hamper him on his return to action at the Canadian Open.",
+      "published": "Tue, 04 Aug 2026 22:30:00 BST"
+    }
+  ]
 }

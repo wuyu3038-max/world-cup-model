@@ -1,31 +1,31 @@
 {
-  "updated": "2026-08-04T18:10:49.927669",
+  "updated": "2026-08-05T03:41:34.014170",
   "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 1,
+    "bbc_sport": 0,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "b7500d55e5d3",
-      "title": "Fifa private money plan had to be scrapped - Wenger ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2k7p4nxdy4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 04 Aug 2026 10:45:14 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa's chief of global football development Arsene Wenger says the decision to scrap the plan to have private investment in Fifa competitions was \"absolutely necessary\"."
-    },
-    {
-      "id": "2b3483af64c5",
-      "title": "Liverpool's squad lacks depth: What areas does Iraola needs to strengthen?",
-      "url": "https://www.skysports.com/football/news/12040/13569738/liverpool-transfer-news-andoni-iraolas-squad-lacks-depth-where-should-reds-strengthen",
-      "published_at": "Tue, 04 Aug 2026 13:46:00 BST",
+      "id": "9a1363893da6",
+      "title": "Draper in tears amid injury concern during defeat in Montreal",
+      "url": "https://www.skysports.com/tennis/news/12040/13569819/jack-draper-in-tears-amid-injury-concern-during-defeat-to-terence-atmane-on-return-to-action-in-montreal",
+      "published_at": "Tue, 04 Aug 2026 22:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Liverpool are short in a number of positions just three weeks out from their Premier League opener and seemingly no closer to bringing in any further additions this summer."
+      "summary": "Jack Draper was left in tears after losing to Terence Atmane as the Brit's long-term arm injury appeared to resurface and hamper him on his return to action at the Canadian Open."
+    },
+    {
+      "id": "c856c1a1f7ca",
+      "title": "Infantino to hold crisis meeting with senior FIFA staff",
+      "url": "https://www.skysports.com/football/news/12040/13569849/gianni-infantino-fifa-president-asks-senior-staff-to-attend-crisis-meeting-in-morocco-on-wednesday",
+      "published_at": "Tue, 04 Aug 2026 20:04:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Under-pressure FIFA president Gianni Infantino will hold a crisis meeting with senior staff in Morocco on Wednesday."
     }
   ]
 }
