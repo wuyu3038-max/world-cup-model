@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-06T03:47:20.985590",
-  "total_articles": 5,
+  "updated": "2026-08-06T11:02:57.340273",
+  "total_articles": 6,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
+    "bbc_sport": 4,
     "sky_sports": 2,
     "goal_com": 0
   },
@@ -16,25 +16,34 @@
       "published_at": "Wed, 05 Aug 2026 21:37:08 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Gianni Infantino will remain as Fifa president after receiving the backing of senior executives, but \"sincerely apologises\" for errors made in his controversial private investment plans."
+      "summary": "Gianni Infantino will remain Fifa president after receiving backing from senior executives, but \"sincerely apologises\" for errors in his controversial private investment plans."
     },
     {
-      "id": "7cc1bbaf0e46",
-      "title": "Key questions as Infantino faces Fifa executives",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c62vd95ljp0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 05 Aug 2026 10:08:49 GMT",
+      "id": "213231790ff4",
+      "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 06 Aug 2026 10:02:31 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa president Gianni Infantino will face senior leaders of football's world governing body on Wednesday. This is what is expected to happen."
+      "summary": "The Argentine Football Association announces 15 July as National Football Teams Day to mark Argentina's 2026 World Cup semi-final victory over England. "
     },
     {
-      "id": "f3404de0a9bb",
-      "title": "Parkinson gets England-U20s call before World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 05 Aug 2026 16:03:10 GMT",
+      "id": "b1c510a31557",
+      "title": "'Show me they want me' - will World Cup hero Torres stay at Barcelona?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2r5v3ykjyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 06 Aug 2026 06:45:27 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. "
+      "summary": "Ferran Torres has come under fire from Barcelona supporters after leaving the door open to a potential move away from the club."
+    },
+    {
+      "id": "8e6d9a7153fe",
+      "title": "Players who turned World Cup heroics into big transfers",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj4kqdy4w4eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 06 Aug 2026 06:16:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport looks back at some of the players whose standout performances at the World Cup earned a big transfer."
     },
     {
       "id": "ccb8fa87e5c8",
