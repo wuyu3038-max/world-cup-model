@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-07T03:22:52.780088",
-  "total_articles": 4,
+  "updated": "2026-08-07T09:34:11.046789",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "5d9bc78c83ad",
+      "title": "Who will exit Chelsea? How Blues could cut 41-man squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0jle24ln68o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 07 Aug 2026 05:34:16 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "With 25 days until the transfer window closes, Chelsea will be working hard to cut their 41-man senior squad. But who could be heading out?"
+    },
     {
       "id": "213231790ff4",
       "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
@@ -17,33 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The Argentine Football Association announces 15 July as National Football Teams Day to mark Argentina's 2026 World Cup semi-final victory over England. "
-    },
-    {
-      "id": "8e6d9a7153fe",
-      "title": "Players who turned World Cup heroics into big transfers",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj4kqdy4w4eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 06 Aug 2026 06:16:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport looks back at some of the players whose standout performances at the World Cup earned a big transfer."
-    },
-    {
-      "id": "ab3878843156",
-      "title": "Brighton latest: Baleba picks up ankle injury",
-      "url": "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "published_at": "Sat, 01 Aug 2026 18:40:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "51e7300f3667",
-      "title": "Players union slams FIFA 'abuse of power' as UEFA doubles down on boycott",
-      "url": "https://www.skysports.com/football/news/12040/13570447/gianni-infantino-players-union-fifpro-slams-fifa-and-abuse-of-presidential-power-as-uefa-doubles-down-on-boycott",
-      "published_at": "Thu, 06 Aug 2026 17:18:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The world players' union FIFPRO has condemned Gianni Infantino's \"abuse of presidential power\" and called for change at the top of FIFA following his botched World Cup stake sale plans."
     }
   ]
 }
