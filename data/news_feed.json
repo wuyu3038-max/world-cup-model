@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-07T09:34:11.046789",
-  "total_articles": 2,
+  "updated": "2026-08-07T17:23:03.520435",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "ef51c8829df5",
+      "title": "France set to take part in U20 Women's World Cup despite Uefa boycott threat",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c87nrpwg20vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 07 Aug 2026 15:35:22 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "France say they are still planning to compete in the Under-20 Women's World Cup next month despite a threat from Uefa to boycott Fifa competitions."
+    },
     {
       "id": "5d9bc78c83ad",
       "title": "Who will exit Chelsea? How Blues could cut 41-man squad",
@@ -19,13 +28,13 @@
       "summary": "With 25 days until the transfer window closes, Chelsea will be working hard to cut their 41-man senior squad. But who could be heading out?"
     },
     {
-      "id": "213231790ff4",
-      "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 06 Aug 2026 10:02:31 GMT",
-      "source": "BBC Sport Football",
+      "id": "8a6d7c1cea1b",
+      "title": "Draper will play Cincinnati Open despite arm injury fears",
+      "url": "https://www.skysports.com/tennis/news/12040/13570654/jack-draper-confirmed-for-cincinnati-open-despite-being-left-in-tears-following-defeat-at-the-national-bank-open-in-montreal",
+      "published_at": "Fri, 07 Aug 2026 14:35:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The Argentine Football Association announces 15 July as National Football Teams Day to mark Argentina's 2026 World Cup semi-final victory over England. "
+      "summary": "Jack Draper has been confirmed for next week's Cincinnati Open despite being left in a flood of tears following defeat at the National Bank Open in Montreal."
     }
   ]
 }
