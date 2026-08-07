@@ -1,23 +1,14 @@
 {
-  "updated": "2026-08-06T11:02:57.340273",
-  "total_articles": 6,
+  "updated": "2026-08-07T03:22:52.780088",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
+    "bbc_sport": 2,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "be6eaf9b101f",
-      "title": "Infantino sorry for errors but stays Fifa president",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 05 Aug 2026 21:37:08 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Gianni Infantino will remain Fifa president after receiving backing from senior executives, but \"sincerely apologises\" for errors in his controversial private investment plans."
-    },
     {
       "id": "213231790ff4",
       "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
@@ -26,15 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The Argentine Football Association announces 15 July as National Football Teams Day to mark Argentina's 2026 World Cup semi-final victory over England. "
-    },
-    {
-      "id": "b1c510a31557",
-      "title": "'Show me they want me' - will World Cup hero Torres stay at Barcelona?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2r5v3ykjyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 06 Aug 2026 06:45:27 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Ferran Torres has come under fire from Barcelona supporters after leaving the door open to a potential move away from the club."
     },
     {
       "id": "8e6d9a7153fe",
@@ -46,22 +28,22 @@
       "summary": "BBC Sport looks back at some of the players whose standout performances at the World Cup earned a big transfer."
     },
     {
-      "id": "ccb8fa87e5c8",
-      "title": "Infantino remains FIFA president following crisis meeting",
-      "url": "https://www.skysports.com/football/news/12040/13570210/gianni-infantino-fifa-leaders-back-under-fire-president-following-crisis-meeting-as-he-apologises-for-mistakes-over-world-cup-sell-off",
-      "published_at": "Wed, 05 Aug 2026 20:58:00 BST",
+      "id": "ab3878843156",
+      "title": "Brighton latest: Baleba picks up ankle injury",
+      "url": "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "published_at": "Sat, 01 Aug 2026 18:40:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Under-fire FIFA president Gianni Infantino has shaken off calls to resign - for now - with the backing of the governing body's leaders, though apologised for \"mistakes\" in his botched attempts to sell"
+      "summary": ""
     },
     {
-      "id": "27f5bef93a4b",
-      "title": "Hull says injuries have stopped her from playing her best in 2026",
-      "url": "https://www.skysports.com/golf/news/12040/13569967/charley-hull-says-injuries-have-stopped-her-from-playing-her-best-during-hit-and-miss-season-despite-strong-form-at-majors",
-      "published_at": "Wed, 05 Aug 2026 09:52:00 BST",
+      "id": "51e7300f3667",
+      "title": "Players union slams FIFA 'abuse of power' as UEFA doubles down on boycott",
+      "url": "https://www.skysports.com/football/news/12040/13570447/gianni-infantino-players-union-fifpro-slams-fifa-and-abuse-of-presidential-power-as-uefa-doubles-down-on-boycott",
+      "published_at": "Thu, 06 Aug 2026 17:18:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Charley Hull is buoyed by how well she has played this season but admitted injuries have prevented her from performing at her best."
+      "summary": "The world players' union FIFPRO has condemned Gianni Infantino's \"abuse of presidential power\" and called for change at the top of FIFA following his botched World Cup stake sale plans."
     }
   ]
 }
