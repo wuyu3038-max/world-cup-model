@@ -1,31 +1,22 @@
 {
-  "updated": "2026-08-08T09:12:22.658190",
-  "total_articles": 2,
+  "updated": "2026-08-08T17:02:45.584129",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 1,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "8651aef0cf9f",
-      "title": "Politicians, private jets and power - the life of a Fifa president",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx2rp0n9pydo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 07 Aug 2026 17:45:06 GMT",
+      "id": "fbab6ca9b062",
+      "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
+      "url": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 08 Aug 2026 13:41:32 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa president Gianni Infantino appears to be trying to return to business as usual after the failed World Cup private investment plan - but it may not be that easy."
-    },
-    {
-      "id": "ef51c8829df5",
-      "title": "France set to take part in U20 Women's World Cup despite Uefa boycott threat",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c87nrpwg20vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 07 Aug 2026 15:35:22 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "France say they are still planning to compete in the Under-20 Women's World Cup next month despite a threat from Uefa to boycott Fifa competitions."
+      "summary": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable? "
     }
   ]
 }
