@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-07T17:23:03.520435",
-  "total_articles": 3,
+  "updated": "2026-08-08T02:26:38.230536",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "8651aef0cf9f",
+      "title": "Politicians, private jets and power - the life of a Fifa president",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2rp0n9pydo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 07 Aug 2026 17:45:06 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa president Gianni Infantino appears to be trying to return to business as usual after the failed World Cup private investment plan - but it may not be that easy."
+    },
     {
       "id": "ef51c8829df5",
       "title": "France set to take part in U20 Women's World Cup despite Uefa boycott threat",
@@ -17,24 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "France say they are still planning to compete in the Under-20 Women's World Cup next month despite a threat from Uefa to boycott Fifa competitions."
-    },
-    {
-      "id": "5d9bc78c83ad",
-      "title": "Who will exit Chelsea? How Blues could cut 41-man squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0jle24ln68o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 07 Aug 2026 05:34:16 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "With 25 days until the transfer window closes, Chelsea will be working hard to cut their 41-man senior squad. But who could be heading out?"
-    },
-    {
-      "id": "8a6d7c1cea1b",
-      "title": "Draper will play Cincinnati Open despite arm injury fears",
-      "url": "https://www.skysports.com/tennis/news/12040/13570654/jack-draper-confirmed-for-cincinnati-open-despite-being-left-in-tears-following-defeat-at-the-national-bank-open-in-montreal",
-      "published_at": "Fri, 07 Aug 2026 14:35:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Jack Draper has been confirmed for next week's Cincinnati Open despite being left in a flood of tears following defeat at the National Bank Open in Montreal."
     }
   ]
 }
