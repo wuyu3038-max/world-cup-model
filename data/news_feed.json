@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-08T17:02:45.584129",
-  "total_articles": 1,
+  "updated": "2026-08-09T02:33:36.243363",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "572a5e955830",
+      "title": "Fifa criticises campaign to oust president Infantino",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 08 Aug 2026 22:06:44 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa strongly criticises what it calls a \"concerted and ongoing effort\" to \"undermine\" the organisation and its president Gianni Infantino. "
+    },
     {
       "id": "fbab6ca9b062",
       "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
@@ -17,6 +26,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable? "
+    },
+    {
+      "id": "9c883becaa3a",
+      "title": "South Africa edge Argentina in thriller but Kolisi suffers injury",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13571253/argentina-10-17-south-africa-springboks-win-buenos-aires-thriller-but-siya-kolisi-suffers-injury-ahead-of-new-zealand-series",
+      "published_at": "Sat, 08 Aug 2026 22:09:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "South Africa scraped past Argentina 17-10 in Test rugby at the possible expense of inspirational captain Siya Kolisi in Buenos Aires on Saturday."
     }
   ]
 }

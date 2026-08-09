@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-08-08T17:02:45.643393",
+    "last_updated": "2026-08-09T02:33:36.306158",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,17 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "South Africa edge Argentina in thriller but Kolisi suffers injury",
+      "nations": [
+        "Argentina",
+        "South Africa"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13571253/argentina-10-17-south-africa-springboks-win-buenos-aires-thriller-but-siya-kolisi-suffers-injury-ahead-of-new-zealand-series",
+      "summary": "South Africa scraped past Argentina 17-10 in Test rugby at the possible expense of inspirational captain Siya Kolisi in Buenos Aires on Saturday.",
+      "published": "Sat, 08 Aug 2026 22:09:00 BST"
+    }
+  ]
 }
