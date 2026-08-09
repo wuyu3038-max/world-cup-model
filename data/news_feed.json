@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-09T02:33:36.243363",
-  "total_articles": 3,
+  "updated": "2026-08-09T09:19:08.866781",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 1,
     "sky_sports": 1,
     "goal_com": 0
   },
@@ -19,22 +19,13 @@
       "summary": "Fifa strongly criticises what it calls a \"concerted and ongoing effort\" to \"undermine\" the organisation and its president Gianni Infantino. "
     },
     {
-      "id": "fbab6ca9b062",
-      "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
-      "url": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 08 Aug 2026 13:41:32 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable? "
-    },
-    {
-      "id": "9c883becaa3a",
-      "title": "South Africa edge Argentina in thriller but Kolisi suffers injury",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13571253/argentina-10-17-south-africa-springboks-win-buenos-aires-thriller-but-siya-kolisi-suffers-injury-ahead-of-new-zealand-series",
-      "published_at": "Sat, 08 Aug 2026 22:09:00 BST",
+      "id": "adfe0ade13e1",
+      "title": "FIFA hits out at critics trying to 'undermine' Infantino ",
+      "url": "https://www.skysports.com/football/news/12040/13571297/gianni-infantino-fifa-hits-out-at-critics-trying-to-undermine-president-amid-ongoing-allegations",
+      "published_at": "Sun, 09 Aug 2026 08:02:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "South Africa scraped past Argentina 17-10 in Test rugby at the possible expense of inspirational captain Siya Kolisi in Buenos Aires on Saturday."
+      "summary": "FIFA has hit out at \"a concerted and ongoing effort by some to undermine\" the governing body and president Gianni Infantino over claims surrounding his conduct at UEFA."
     }
   ]
 }
