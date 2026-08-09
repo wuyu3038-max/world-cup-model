@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-09T09:19:08.866781",
-  "total_articles": 2,
+  "updated": "2026-08-09T17:04:04.799364",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -19,13 +19,22 @@
       "summary": "Fifa strongly criticises what it calls a \"concerted and ongoing effort\" to \"undermine\" the organisation and its president Gianni Infantino. "
     },
     {
-      "id": "adfe0ade13e1",
-      "title": "FIFA hits out at critics trying to 'undermine' Infantino ",
-      "url": "https://www.skysports.com/football/news/12040/13571297/gianni-infantino-fifa-hits-out-at-critics-trying-to-undermine-president-amid-ongoing-allegations",
-      "published_at": "Sun, 09 Aug 2026 08:02:00 BST",
+      "id": "17b342532d45",
+      "title": "Five-time Super League winner Makinson to retire at end of 2026 campaign",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13571338/tommy-makinson-catalans-dragons-wing-and-former-st-helens-try-machine-announces-he-will-retire-at-end-of-2026-campaign",
+      "published_at": "Sun, 09 Aug 2026 12:43:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "FIFA has hit out at \"a concerted and ongoing effort by some to undermine\" the governing body and president Gianni Infantino over claims surrounding his conduct at UEFA."
+      "summary": "Tommy Makinson has announced he will retire from rugby league at the end of the current 2026 Super League campaign.&#160;"
+    },
+    {
+      "id": "307295fd4428",
+      "title": "Sinner withdraws from Cincinnati Open as knee injury raises US Open fears",
+      "url": "https://www.skysports.com/tennis/news/12040/13571440/jannik-sinner-withdraws-from-cincinnati-open-as-knee-injury-raises-us-open-fitness-concerns",
+      "published_at": "Sun, 09 Aug 2026 17:44:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Jannik Sinner has withdrawn from the Cincinnati Open with an injury to his right knee."
     }
   ]
 }
