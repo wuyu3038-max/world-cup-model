@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-10T09:59:09.639378",
+  "updated": "2026-08-10T17:24:44.187061",
   "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "c63c71ab376a",
-      "title": "African quartet secure Women's World Cup places",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gw456e3xxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 09 Aug 2026 22:06:43 GMT",
-      "source": "BBC Sport Football",
+      "id": "9dbcb4d3fcd6",
+      "title": "Scotland, Netherlands criticise Cricket World Cup format changes ",
+      "url": "https://www.skysports.com/cricket/news/12040/13571677/cricket-world-cup-scotland-and-netherlands-criticise-format-changes-to-50-over-tournament-announced-by-icc",
+      "published_at": "Mon, 10 Aug 2026 15:00:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Algeria, Morocco, Cameroon and Malawi all qualify for the 2027 Women's World Cup in Brazil by reaching the semi-finals of the Women's Africa Cup of Nations."
+      "summary": "Scotland and the Netherlands have criticised the restructuring of next year's 50-over World Cup, saying the changes \"risk weakening the integrity and credibility of international cricket\"."
     }
   ]
 }
