@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-10T02:39:26.529236",
-  "total_articles": 2,
+  "updated": "2026-08-10T09:59:09.639378",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -17,15 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Algeria, Morocco, Cameroon and Malawi all qualify for the 2027 Women's World Cup in Brazil by reaching the semi-finals of the Women's Africa Cup of Nations."
-    },
-    {
-      "id": "17b342532d45",
-      "title": "Five-time Super League winner Makinson to retire at end of 2026 campaign",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13571338/tommy-makinson-catalans-dragons-wing-and-former-st-helens-try-machine-announces-he-will-retire-at-end-of-2026-campaign",
-      "published_at": "Sun, 09 Aug 2026 12:43:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Tommy Makinson has announced he will retire from rugby league at the end of the current 2026 Super League campaign.&#160;"
     }
   ]
 }
