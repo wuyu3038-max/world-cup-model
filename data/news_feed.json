@@ -1,22 +1,31 @@
 {
-  "updated": "2026-08-11T02:32:43.371357",
-  "total_articles": 1,
+  "updated": "2026-08-11T09:33:05.319131",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "9dbcb4d3fcd6",
-      "title": "Scotland, Netherlands criticise Cricket World Cup format changes ",
-      "url": "https://www.skysports.com/cricket/news/12040/13571677/cricket-world-cup-scotland-and-netherlands-criticise-format-changes-to-50-over-tournament-announced-by-icc",
-      "published_at": "Mon, 10 Aug 2026 15:00:00 BST",
+      "id": "877710f67528",
+      "title": "Trump warns of 'terrible mistake' if FIFA replaces Infantino",
+      "url": "https://www.skysports.com/football/news/12040/13571834/gianni-infantino-donald-trump-warns-of-terrible-mistake-if-fifa-replaces-under-pressure-president",
+      "published_at": "Tue, 11 Aug 2026 07:04:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Scotland and the Netherlands have criticised the restructuring of next year's 50-over World Cup, saying the changes \"risk weakening the integrity and credibility of international cricket\"."
+      "summary": "US President Donald Trump has warned FIFA would be making a \"terrible mistake\" if it got rid of Gianni Infantino as head of world football&#8217;s governing body."
+    },
+    {
+      "id": "dfc0513474eb",
+      "title": "England's World Cup place guaranteed but West Indies need to qualify",
+      "url": "https://www.skysports.com/cricket/news/12040/13571828/england-guaranteed-place-in-2027-cricket-world-cup-but-west-indies-will-have-to-enter-qualifying-tournament-again",
+      "published_at": "Tue, 11 Aug 2026 07:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Panic over, England fans - your team will NOT have to qualify for the 2027 Cricket World Cup."
     }
   ]
 }
