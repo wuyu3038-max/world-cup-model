@@ -1,14 +1,32 @@
 {
-  "updated": "2026-08-11T09:33:05.319131",
-  "total_articles": 2,
+  "updated": "2026-08-11T17:26:51.708834",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 2,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "d67180cbe80c",
+      "title": "Striker snubbed by Scotland for World Cup signs for Sevilla",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 11 Aug 2026 09:42:20 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Sevilla announce £5.5m move, rising to potential £7.6m, for former Scotland youth international striker Robbie Ure to join from Swedish club IK Sirius."
+    },
+    {
+      "id": "6d4cbf9b2aca",
+      "title": "Rangers' Chermiti out for 'significant period' with knee injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwyrkkk1kzqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 11 Aug 2026 12:22:08 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Youssef Chermiti faces a long recovery from anterior cruciate ligament damage sustained shortly after Rangers turned down an offer for the striker."
+    },
     {
       "id": "877710f67528",
       "title": "Trump warns of 'terrible mistake' if FIFA replaces Infantino",
