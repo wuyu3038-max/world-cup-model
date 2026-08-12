@@ -1,22 +1,12 @@
 {
-  "updated": "2026-08-12T09:42:32.905157",
-  "total_articles": 1,
+  "updated": "2026-08-12T17:27:59.758671",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "14ad2af84690",
-      "title": "Doku 'not against' journalist who criticised him at World Cup ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20e3q4l4pgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 11 Aug 2026 22:21:56 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Jeremy Doku says he is \"not against\" the journalist who criticised his plan to leave the Belgium camp during the World Cup to attend the birth of his first child."
-    }
-  ]
+  "articles": []
 }
