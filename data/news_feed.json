@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-12T03:01:48.859969",
-  "total_articles": 4,
+  "updated": "2026-08-12T09:42:32.905157",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -17,33 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Jeremy Doku says he is \"not against\" the journalist who criticised his plan to leave the Belgium camp during the World Cup to attend the birth of his first child."
-    },
-    {
-      "id": "d67180cbe80c",
-      "title": "Striker snubbed by Scotland for World Cup signs for Sevilla",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 11 Aug 2026 09:42:20 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Sevilla announce £5.5m move, rising to potential £7.6m, for former Scotland youth international striker Robbie Ure to join from Swedish club IK Sirius."
-    },
-    {
-      "id": "6d4cbf9b2aca",
-      "title": "Rangers' Chermiti out for 'significant period' with knee injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwyrkkk1kzqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 11 Aug 2026 12:22:08 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Youssef Chermiti faces a long recovery from anterior cruciate ligament damage sustained shortly after Rangers turned down an offer for the striker."
-    },
-    {
-      "id": "877710f67528",
-      "title": "Trump warns of 'terrible mistake' if FIFA replaces Infantino",
-      "url": "https://www.skysports.com/football/news/12040/13571834/gianni-infantino-donald-trump-warns-of-terrible-mistake-if-fifa-replaces-under-pressure-president",
-      "published_at": "Tue, 11 Aug 2026 07:04:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "US President Donald Trump has warned FIFA would be making a \"terrible mistake\" if it got rid of Gianni Infantino as head of world football&#8217;s governing body."
     }
   ]
 }
