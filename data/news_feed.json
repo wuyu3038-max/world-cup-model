@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-11T17:26:51.708834",
+  "updated": "2026-08-12T03:01:48.859969",
   "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 2,
+    "bbc_sport": 3,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "14ad2af84690",
+      "title": "Doku 'not against' journalist who criticised him at World Cup ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20e3q4l4pgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 11 Aug 2026 22:21:56 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Jeremy Doku says he is \"not against\" the journalist who criticised his plan to leave the Belgium camp during the World Cup to attend the birth of his first child."
+    },
     {
       "id": "d67180cbe80c",
       "title": "Striker snubbed by Scotland for World Cup signs for Sevilla",
@@ -35,15 +44,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "US President Donald Trump has warned FIFA would be making a \"terrible mistake\" if it got rid of Gianni Infantino as head of world football&#8217;s governing body."
-    },
-    {
-      "id": "dfc0513474eb",
-      "title": "England's World Cup place guaranteed but West Indies need to qualify",
-      "url": "https://www.skysports.com/cricket/news/12040/13571828/england-guaranteed-place-in-2027-cricket-world-cup-but-west-indies-will-have-to-enter-qualifying-tournament-again",
-      "published_at": "Tue, 11 Aug 2026 07:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Panic over, England fans - your team will NOT have to qualify for the 2027 Cricket World Cup."
     }
   ]
 }
