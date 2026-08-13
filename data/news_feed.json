@@ -1,12 +1,22 @@
 {
-  "updated": "2026-08-13T03:05:21.982203",
-  "total_articles": 0,
+  "updated": "2026-08-13T09:42:11.566559",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "48af3b12e3d7",
+      "title": "'Where has this tennis been?' | Swiatek beats Svitolina to reach first final of 2026",
+      "url": "https://www.skysports.com/watch/video/13572456/iga-swiatek-vs-elina-svitolina-canadian-open-highlights",
+      "published_at": "Thu, 13 Aug 2026 07:01:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Highlights of the Canadian Open match between Iga Swiatek and Elina Svitolina."
+    }
+  ]
 }
