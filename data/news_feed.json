@@ -1,22 +1,40 @@
 {
-  "updated": "2026-08-13T09:42:11.566559",
-  "total_articles": 1,
+  "updated": "2026-08-13T17:28:16.901423",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 2,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "48af3b12e3d7",
-      "title": "'Where has this tennis been?' | Swiatek beats Svitolina to reach first final of 2026",
-      "url": "https://www.skysports.com/watch/video/13572456/iga-swiatek-vs-elina-svitolina-canadian-open-highlights",
-      "published_at": "Thu, 13 Aug 2026 07:01:00 BST",
+      "id": "b2607724d3be",
+      "title": "Why half of England's World Cup defenders are on the move",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 13 Aug 2026 14:41:24 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England came third in this summer's World Cup - their best performance in a men's competition in 60 years - and now their players are in demand in the transfer market."
+    },
+    {
+      "id": "d1a9806d6482",
+      "title": "What are Fifa's rules on switching nationalities? ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c1wg41llr01o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 11 May 2026 08:37:32 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's Ask Me Anything team explains the rules on players switching nations in international football."
+    },
+    {
+      "id": "16d8a2aa5006",
+      "title": "Rangers vs Jagiellonia Bialystok team news LIVE!",
+      "url": "https://www.skysports.com/football/rangers-vs-jagiellonia-bialystok/live/571444",
+      "published_at": "Thu, 13 Aug 2026 18:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Highlights of the Canadian Open match between Iga Swiatek and Elina Svitolina."
+      "summary": ""
     }
   ]
 }
