@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-08-14T03:04:12.116569",
+    "last_updated": "2026-08-14T09:37:42.391136",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,18 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
-      "nations": [
-        "Ghana",
-        "Nigeria",
-        "South Africa"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgk46yrk2pjo?at_medium=RSS&at_campaign=rss",
-      "summary": "South Africa and Ghana progress to an inter-confederation qualifier for the 2027 Women's World Cup, but Nigeria will miss the tournament for the first time.",
-      "published": "Thu, 13 Aug 2026 22:49:29 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }

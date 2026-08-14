@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-14T03:04:12.054192",
-  "total_articles": 3,
+  "updated": "2026-08-14T09:37:42.342147",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
+    "bbc_sport": 2,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "92fa41072e30",
-      "title": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgk46yrk2pjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 13 Aug 2026 22:49:29 GMT",
+      "id": "8ea99e482131",
+      "title": "Listen: 2026-27 EFL season preview",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 11 Aug 2026 20:13:00 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "South Africa and Ghana progress to an inter-confederation qualifier for the 2027 Women's World Cup, but Nigeria will miss the tournament for the first time."
+      "summary": "Aaron Paul is joined by Andy Woodman, Luke Chambers and Lyle Taylor."
     },
     {
       "id": "767bcf5ea147",
@@ -26,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
-    },
-    {
-      "id": "b2607724d3be",
-      "title": "Why half of England's World Cup defenders are on the move",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 13 Aug 2026 14:41:24 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England came third in this summer's World Cup - their best performance in a men's competition in 60 years - and now their players are in demand in the transfer market."
     }
   ]
 }
