@@ -1,14 +1,32 @@
 {
-  "updated": "2026-08-13T17:28:16.901423",
+  "updated": "2026-08-14T03:04:12.054192",
   "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 1,
+    "bbc_sport": 3,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "92fa41072e30",
+      "title": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cgk46yrk2pjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 13 Aug 2026 22:49:29 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "South Africa and Ghana progress to an inter-confederation qualifier for the 2027 Women's World Cup, but Nigeria will miss the tournament for the first time."
+    },
+    {
+      "id": "767bcf5ea147",
+      "title": "Carrick pushing to improve the squad this summer",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 13 Aug 2026 17:56:48 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
+    },
     {
       "id": "b2607724d3be",
       "title": "Why half of England's World Cup defenders are on the move",
@@ -17,24 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "England came third in this summer's World Cup - their best performance in a men's competition in 60 years - and now their players are in demand in the transfer market."
-    },
-    {
-      "id": "d1a9806d6482",
-      "title": "What are Fifa's rules on switching nationalities? ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1wg41llr01o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 11 May 2026 08:37:32 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's Ask Me Anything team explains the rules on players switching nations in international football."
-    },
-    {
-      "id": "16d8a2aa5006",
-      "title": "Rangers vs Jagiellonia Bialystok team news LIVE!",
-      "url": "https://www.skysports.com/football/rangers-vs-jagiellonia-bialystok/live/571444",
-      "published_at": "Thu, 13 Aug 2026 18:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
