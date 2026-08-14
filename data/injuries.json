@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-08-14T09:37:42.391136",
+    "last_updated": "2026-08-14T17:28:15.900652",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Gay bags pair in Test warm-up as Pakistan captain Babar suffers injury scare",
+      "nations": [
+        "England"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/cricket/news/12040/13573038/england-batter-emilio-gay-bags-second-duck-of-test-warm-up-as-pakistan-captain-babar-azam-suffers-injury-scare",
+      "summary": "England opener Emilio Gay bagged a pair and Pakistan captain Babar Azam suffered an injury scare on an eventful second day of the Test match-warm up in Beckenham.",
+      "published": "Fri, 14 Aug 2026 18:00:00 BST"
+    }
+  ]
 }
