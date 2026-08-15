@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-15T01:54:39.648272",
-  "total_articles": 3,
+  "updated": "2026-08-15T08:56:48.717428",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -26,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
-    },
-    {
-      "id": "b4620bf4a051",
-      "title": "Gay bags pair in Test warm-up as Pakistan captain Babar suffers injury scare",
-      "url": "https://www.skysports.com/cricket/news/12040/13573038/england-batter-emilio-gay-bags-second-duck-of-test-warm-up-as-pakistan-captain-babar-azam-suffers-injury-scare",
-      "published_at": "Fri, 14 Aug 2026 18:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England opener Emilio Gay bagged a pair and Pakistan captain Babar Azam suffered an injury scare on an eventful second day of the Test match-warm up in Beckenham."
     }
   ]
 }
