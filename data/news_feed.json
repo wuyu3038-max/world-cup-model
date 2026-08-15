@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T08:56:48.717428",
+  "updated": "2026-08-15T16:49:57.628354",
   "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
@@ -10,15 +10,6 @@
   },
   "articles": [
     {
-      "id": "8ea99e482131",
-      "title": "Listen: 2026-27 EFL season preview",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p3yymr?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 11 Aug 2026 20:13:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Aaron Paul is joined by Andy Woodman, Luke Chambers and Lyle Taylor."
-    },
-    {
       "id": "767bcf5ea147",
       "title": "Carrick pushing to improve the squad this summer",
       "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
@@ -26,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
+    },
+    {
+      "id": "57f140c0e5fe",
+      "title": "PSG sign World Cup winner Torres from Barcelona",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 15 Aug 2026 09:37:31 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Ferran Torres, who scored the winning goal for Spain at the World Cup, has joined European champions Paris St-Germain from Barcelona."
     }
   ]
 }
