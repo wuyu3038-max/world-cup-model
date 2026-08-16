@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-16T08:58:00.304255",
-  "total_articles": 2,
+  "updated": "2026-08-16T16:50:18.130537",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 0,
+    "bbc_sport": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -19,13 +19,22 @@
       "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
     },
     {
-      "id": "57f140c0e5fe",
-      "title": "PSG sign World Cup winner Torres from Barcelona",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 15 Aug 2026 09:37:31 GMT",
-      "source": "BBC Sport Football",
+      "id": "44ea51d20372",
+      "title": "Liverpool vs Como team news as Jacquet starts LIVE!",
+      "url": "https://www.skysports.com/football/liverpool-vs-como/live/556108",
+      "published_at": "Sun, 16 Aug 2026 16:22:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Ferran Torres, who scored the winning goal for Spain at the World Cup, has joined European champions Paris St-Germain from Barcelona."
+      "summary": ""
+    },
+    {
+      "id": "94cc21b9c74f",
+      "title": "Man City latest: Savinho and Reijnders left out of Community Shield squad ",
+      "url": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "published_at": "Sun, 16 Aug 2026 14:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }
