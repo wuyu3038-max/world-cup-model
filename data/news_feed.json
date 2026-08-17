@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-17T09:11:02.497220",
-  "total_articles": 2,
+  "updated": "2026-08-17T16:55:19.560000",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 0,
+    "bbc_sport": 4,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "3cc8c5e1f1a7",
+      "title": "Scottish FA withdraws support for Fifa president Infantino",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crrv4092pvlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 17 Aug 2026 12:43:23 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The Scottish Football Association has lost confidence in Gianni Infantino and will not be voting for his re-election as president of Fifa, chief executive Ian Maxwell has told BBC Sport."
+    },
     {
       "id": "a7aedbd87bfc",
       "title": "Signings impress but squad issues remain - learnings from Man Utd's summer",
@@ -26,6 +35,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
+    },
+    {
+      "id": "23e237443e3f",
+      "title": "From Chelsea bomb squad to new chapter at Como for Chalobah",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 17 Aug 2026 13:30:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "After ending his near 20-year association with Chelsea by joining Como 1907 this summer, Trevoh Chalobah credits his time at Stamford Bridge with building his resilience."
+    },
+    {
+      "id": "7d133d44ec42",
+      "title": "F1 is back...again! Rewatch the 2026 season defining moments so far",
+      "url": "https://www.skysports.com/watch/video/13572849/formula-one-story-of-the-2026-season",
+      "published_at": "Mon, 17 Aug 2026 06:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "With the Formula One season set to resume after the summer break, we look back at how Mercedes driver Kimi Antonelli has built a 50-point lead in the driver standings."
     }
   ]
 }
