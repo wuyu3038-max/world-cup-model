@@ -1,31 +1,22 @@
 {
-  "updated": "2026-08-17T16:55:19.560000",
-  "total_articles": 5,
+  "updated": "2026-08-18T01:55:52.655585",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
+    "bbc_sport": 3,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "3cc8c5e1f1a7",
-      "title": "Scottish FA withdraws support for Fifa president Infantino",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crrv4092pvlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 17 Aug 2026 12:43:23 GMT",
+      "id": "b6d1c2ba9180",
+      "title": "Top Fifa official sacked after Infantino plan criticism",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn7n4d6vy03o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 17 Aug 2026 20:46:08 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The Scottish Football Association has lost confidence in Gianni Infantino and will not be voting for his re-election as president of Fifa, chief executive Ian Maxwell has told BBC Sport."
-    },
-    {
-      "id": "a7aedbd87bfc",
-      "title": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 17 Aug 2026 08:29:10 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Positives, negatives and areas to address urgently - how are Michael Carrick's Manchester United shaping up now pre-season is over?"
+      "summary": "Senior Fifa figure Kevin Lamour is sacked by football's world governing body three weeks after criticising its president Gianni Infantino."
     },
     {
       "id": "767bcf5ea147",
@@ -37,13 +28,13 @@
       "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
     },
     {
-      "id": "23e237443e3f",
-      "title": "From Chelsea bomb squad to new chapter at Como for Chalobah",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c141dl0l0p6o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 17 Aug 2026 13:30:18 GMT",
+      "id": "3cc8c5e1f1a7",
+      "title": "Scottish FA withdraws support for Fifa president Infantino",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crrv4092pvlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 17 Aug 2026 12:43:23 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "After ending his near 20-year association with Chelsea by joining Como 1907 this summer, Trevoh Chalobah credits his time at Stamford Bridge with building his resilience."
+      "summary": "The Scottish Football Association has lost confidence in Gianni Infantino and will not be voting for his re-election as president of Fifa, chief executive Ian Maxwell has told BBC Sport."
     },
     {
       "id": "7d133d44ec42",
