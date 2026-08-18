@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-18T01:55:52.655585",
-  "total_articles": 4,
+  "updated": "2026-08-18T09:04:53.639161",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 1,
+    "bbc_sport": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -26,24 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
-    },
-    {
-      "id": "3cc8c5e1f1a7",
-      "title": "Scottish FA withdraws support for Fifa president Infantino",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crrv4092pvlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 17 Aug 2026 12:43:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The Scottish Football Association has lost confidence in Gianni Infantino and will not be voting for his re-election as president of Fifa, chief executive Ian Maxwell has told BBC Sport."
-    },
-    {
-      "id": "7d133d44ec42",
-      "title": "F1 is back...again! Rewatch the 2026 season defining moments so far",
-      "url": "https://www.skysports.com/watch/video/13572849/formula-one-story-of-the-2026-season",
-      "published_at": "Mon, 17 Aug 2026 06:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "With the Formula One season set to resume after the summer break, we look back at how Mercedes driver Kimi Antonelli has built a 50-point lead in the driver standings."
     }
   ]
 }
