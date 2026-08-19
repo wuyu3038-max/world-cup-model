@@ -1,23 +1,14 @@
 {
-  "updated": "2026-08-19T09:06:33.297778",
-  "total_articles": 4,
+  "updated": "2026-08-19T16:55:45.883404",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
+    "bbc_sport": 1,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "8250fdc4c083",
-      "title": "Premier League chief Masters says Fifa self-destructed over World Cup plan",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cgjeqez58wno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 18 Aug 2026 16:18:37 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Premier League chief executive Richard Masters has criticised Fifa president Gianni Infantino's World Cup sell-off plan, saying the organisation has \"pressed the self-destruct button\" by delivering \"a"
-    },
     {
       "id": "767bcf5ea147",
       "title": "Carrick pushing to improve the squad this summer",
@@ -26,24 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
-    },
-    {
-      "id": "a24bded074fc",
-      "title": "New-look Villa turn to Scandinavia as they rebuild squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqjxpn1v19ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 19 Aug 2026 07:26:37 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Aston Villa, following a disappointing ninth place finish in the Women's Super League last season, have replaced several departed senior players by transplanting a new Scandinavian heart into their te"
-    },
-    {
-      "id": "7f01c6cfd4af",
-      "title": "Premier League chief on Fifa crisis, Man City charges & World Cup expansion",
-      "url": "https://www.bbc.co.uk/sounds/play/p0p5540m?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 18 Aug 2026 17:03:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Richard Masters speaks to Dan Roan ahead of the new season."
     }
   ]
 }
