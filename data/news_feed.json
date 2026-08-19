@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-18T16:57:34.804393",
-  "total_articles": 2,
+  "updated": "2026-08-19T01:57:33.894657",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 3,
     "sky_sports": 0,
     "goal_com": 0
   },
@@ -17,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Premier League chief executive Richard Masters has criticised Fifa president Gianni Infantino's World Cup sell-off plan, saying the organisation has \"pressed the self-destruct button\" by delivering \"a"
+    },
+    {
+      "id": "d90d2e1bd44b",
+      "title": "Fifa sacking 'deeply troubling' - Uefa executive",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqlxwnz71qgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 18 Aug 2026 17:51:14 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa's decision to dismiss senior executive Kevin Lamour following his criticism of president Gianni Infantino sends a \"deeply troubling message to all of us seeking change\", says UEFA vice-president "
     },
     {
       "id": "767bcf5ea147",
