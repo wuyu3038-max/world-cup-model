@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-20T09:07:09.115411",
-  "total_articles": 4,
+  "updated": "2026-08-20T17:00:52.556798",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -26,24 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Sport's Ask Me Anything looks at all of the key changes coming to Fantasy Premier League for the 2026-27 season"
-    },
-    {
-      "id": "513fbd493fc6",
-      "title": "Masters, Webb criticise FIFA over Balogun red card controversy ",
-      "url": "https://www.skysports.com/football/news/12040/13574783/richard-masters-and-howard-webb-criticise-fifa-over-folarin-baloguns-red-card-controversy-at-2026-world-cup",
-      "published_at": "Wed, 19 Aug 2026 17:55:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Two of the most powerful men in English football have joined forces to hit out at FIFA and the U-turn which allowed USA striker Folarin Balogun to play on at the World Cup last month, despite the red "
-    },
-    {
-      "id": "a9cd00692a7e",
-      "title": "Jaissle: Club aligned on Newcastle squad needing adjustments",
-      "url": "https://www.skysports.com/football/news/12040/13574826/matthias-jaissle-newcastle-head-coach-says-squad-needs-adjustments-in-transfer-window-and-previews-liverpool-game",
-      "published_at": "Wed, 19 Aug 2026 19:45:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Newcastle head coach Matthias Jaissle says the club are aligned on the need for \"adjustments\" to the squad in the final few weeks of the summer transfer window."
     }
   ]
 }
