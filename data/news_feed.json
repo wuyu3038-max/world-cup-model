@@ -1,22 +1,31 @@
 {
-  "updated": "2026-08-20T01:56:36.220416",
+  "updated": "2026-08-20T09:07:09.115411",
   "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 3,
+    "bbc_sport": 2,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "86dcf9a364ba",
-      "title": "Algorithms amplified World Cup racism, says report",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2k7en0lxkjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 19 Aug 2026 23:02:14 GMT",
+      "id": "bca6f1774d38",
+      "title": "Premier League predictions 2026-27: BBC Sport pundits pick their top four",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp8edryd7plo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 20 Aug 2026 05:24:16 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Racist abuse aimed at England footballers on social media was amplified during the World Cup by algorithms designed to maximise engagement and profit, according to new research."
+      "summary": "We ask 26 BBC Sport football pundits to predict who will win the 2026-27 Premier League title, and which clubs will finish in the top four."
+    },
+    {
+      "id": "61b1109ddd7b",
+      "title": "What has changed in FPL for 2026-27 season?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gk9980l0yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 13 Aug 2026 12:53:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport's Ask Me Anything looks at all of the key changes coming to Fantasy Premier League for the 2026-27 season"
     },
     {
       "id": "513fbd493fc6",
@@ -35,15 +44,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Newcastle head coach Matthias Jaissle says the club are aligned on the need for \"adjustments\" to the squad in the final few weeks of the summer transfer window."
-    },
-    {
-      "id": "e306282f1a85",
-      "title": "Chelsea latest: Four players training away from first team as squad numbers revealed",
-      "url": "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "published_at": "Wed, 19 Aug 2026 17:50:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
