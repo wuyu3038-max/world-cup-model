@@ -1,14 +1,32 @@
 {
-  "updated": "2026-08-21T09:09:19.314765",
-  "total_articles": 5,
+  "updated": "2026-08-21T17:01:11.738700",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 3,
+    "bbc_sport": 3,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "adc565ec5a53",
+      "title": "Argentina's Paredes banned for 10 games after World Cup clashes",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c98v7p1pr3eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 21 Aug 2026 15:26:05 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa ban Argentina midfielder Leandro Paredes for 10 matches over his role in clashes with Spanish players after the World Cup final."
+    },
+    {
+      "id": "661cd3cc4ae7",
+      "title": "England Women U20s squad named amid boycott threat",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2el8j10vl3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 21 Aug 2026 13:00:06 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Manager Lydia Bedford has named her England squad for the upcoming Fifa U20s Women's World Cup amid ongoing threat of a boycott from European nations. "
+    },
     {
       "id": "61b1109ddd7b",
       "title": "What has changed in FPL for 2026-27 season?",
@@ -19,40 +37,13 @@
       "summary": "BBC Sport's Ask Me Anything looks at all of the key changes coming to Fantasy Premier League for the 2026-27 season"
     },
     {
-      "id": "767bcf5ea147",
-      "title": "Carrick pushing to improve the squad this summer",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 13 Aug 2026 17:56:48 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
-    },
-    {
-      "id": "1f4462207b33",
-      "title": "Hadjar hopeful of Italian GP return after wrist injury",
-      "url": "https://www.skysports.com/f1/news/12040/13575278/isack-hadjar-red-bull-driver-hopeful-of-monza-return-after-wrist-injury-forces-him-out-of-dutch-grand-prix",
-      "published_at": "Fri, 21 Aug 2026 09:40:00 BST",
+      "id": "aa53571a04bd",
+      "title": "Draper ruled out of US Open as injury absence continues",
+      "url": "https://www.skysports.com/tennis/news/12040/13575532/jack-draper-british-star-ruled-out-of-the-us-open-due-to-ongoing-injury-woes",
+      "published_at": "Fri, 21 Aug 2026 17:12:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Isack Hadjar is hopeful he can return for the next Formula 1 race after a wrist injury forced him to miss this weekend's Dutch Grand Prix."
-    },
-    {
-      "id": "09ec254c9174",
-      "title": "Pegula survives injury scare and tie-break to beat Ansimova to advance into semis",
-      "url": "https://www.skysports.com/watch/video/13575181/amanda-anisimova-vs-jessica-pegula-cincinnati-open-highlights",
-      "published_at": "Thu, 20 Aug 2026 20:31:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Highlights of Amanda Anisimova against Jessica Pegula from the Cincinnati Open."
-    },
-    {
-      "id": "59a558f67b49",
-      "title": "Swiatek to face Pegula in Cincinnati Open semis after Rybakina injury",
-      "url": "https://www.skysports.com/tennis/news/12040/13575234/cincinnati-open-iga-swiatek-to-face-jessica-pegula-in-semi-finals-after-elena-rybakina-suffers-injury",
-      "published_at": "Fri, 21 Aug 2026 06:13:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Elena Rybakina was forced to retire from her quarter-final against Iga Swiatek at the Cincinnati Open due to an ankle injury."
+      "summary": "British star Jack Draper has been ruled out of the US Open as he continues to battle a bone bruise in his dominant left arm."
     }
   ]
 }
