@@ -1,23 +1,14 @@
 {
-  "updated": "2026-08-20T17:00:52.556798",
-  "total_articles": 2,
+  "updated": "2026-08-21T02:03:25.164187",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 3,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "bca6f1774d38",
-      "title": "Premier League predictions 2026-27: BBC Sport pundits pick their top four",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp8edryd7plo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 20 Aug 2026 05:24:16 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "We ask 26 BBC Sport football pundits to predict who will win the 2026-27 Premier League title, and which clubs will finish in the top four."
-    },
     {
       "id": "61b1109ddd7b",
       "title": "What has changed in FPL for 2026-27 season?",
@@ -26,6 +17,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Sport's Ask Me Anything looks at all of the key changes coming to Fantasy Premier League for the 2026-27 season"
+    },
+    {
+      "id": "767bcf5ea147",
+      "title": "Carrick pushing to improve the squad this summer",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 13 Aug 2026 17:56:48 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
+    },
+    {
+      "id": "bca6f1774d38",
+      "title": "Premier League predictions 2026-27: BBC Sport pundits pick their top four",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp8edryd7plo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 20 Aug 2026 05:24:16 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "We ask 26 BBC Sport football pundits to predict who will win the 2026-27 Premier League title, and which clubs will finish in the top four."
     }
   ]
 }
