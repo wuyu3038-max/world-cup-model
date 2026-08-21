@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-08-21T02:03:25.226235",
+    "last_updated": "2026-08-21T09:09:19.370509",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,17 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Hadjar hopeful of Italian GP return after wrist injury",
+      "nations": [
+        "Netherlands",
+        "Italy"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/f1/news/12040/13575278/isack-hadjar-red-bull-driver-hopeful-of-monza-return-after-wrist-injury-forces-him-out-of-dutch-grand-prix",
+      "summary": "Isack Hadjar is hopeful he can return for the next Formula 1 race after a wrist injury forced him to miss this weekend's Dutch Grand Prix.",
+      "published": "Fri, 21 Aug 2026 09:40:00 BST"
+    }
+  ]
 }

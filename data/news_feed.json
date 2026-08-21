@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-21T02:03:25.164187",
-  "total_articles": 3,
+  "updated": "2026-08-21T09:09:19.314765",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 0,
+    "bbc_sport": 2,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
@@ -28,13 +28,31 @@
       "summary": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress."
     },
     {
-      "id": "bca6f1774d38",
-      "title": "Premier League predictions 2026-27: BBC Sport pundits pick their top four",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp8edryd7plo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 20 Aug 2026 05:24:16 GMT",
-      "source": "BBC Sport Football",
+      "id": "1f4462207b33",
+      "title": "Hadjar hopeful of Italian GP return after wrist injury",
+      "url": "https://www.skysports.com/f1/news/12040/13575278/isack-hadjar-red-bull-driver-hopeful-of-monza-return-after-wrist-injury-forces-him-out-of-dutch-grand-prix",
+      "published_at": "Fri, 21 Aug 2026 09:40:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "We ask 26 BBC Sport football pundits to predict who will win the 2026-27 Premier League title, and which clubs will finish in the top four."
+      "summary": "Isack Hadjar is hopeful he can return for the next Formula 1 race after a wrist injury forced him to miss this weekend's Dutch Grand Prix."
+    },
+    {
+      "id": "09ec254c9174",
+      "title": "Pegula survives injury scare and tie-break to beat Ansimova to advance into semis",
+      "url": "https://www.skysports.com/watch/video/13575181/amanda-anisimova-vs-jessica-pegula-cincinnati-open-highlights",
+      "published_at": "Thu, 20 Aug 2026 20:31:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Highlights of Amanda Anisimova against Jessica Pegula from the Cincinnati Open."
+    },
+    {
+      "id": "59a558f67b49",
+      "title": "Swiatek to face Pegula in Cincinnati Open semis after Rybakina injury",
+      "url": "https://www.skysports.com/tennis/news/12040/13575234/cincinnati-open-iga-swiatek-to-face-jessica-pegula-in-semi-finals-after-elena-rybakina-suffers-injury",
+      "published_at": "Fri, 21 Aug 2026 06:13:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Elena Rybakina was forced to retire from her quarter-final against Iga Swiatek at the Cincinnati Open due to an ankle injury."
     }
   ]
 }
