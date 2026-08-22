@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-21T17:01:11.738700",
-  "total_articles": 4,
+  "updated": "2026-08-22T01:55:24.570872",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 1,
+    "bbc_sport": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -26,24 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Manager Lydia Bedford has named her England squad for the upcoming Fifa U20s Women's World Cup amid ongoing threat of a boycott from European nations. "
-    },
-    {
-      "id": "61b1109ddd7b",
-      "title": "What has changed in FPL for 2026-27 season?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c4gk9980l0yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 13 Aug 2026 12:53:59 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport's Ask Me Anything looks at all of the key changes coming to Fantasy Premier League for the 2026-27 season"
-    },
-    {
-      "id": "aa53571a04bd",
-      "title": "Draper ruled out of US Open as injury absence continues",
-      "url": "https://www.skysports.com/tennis/news/12040/13575532/jack-draper-british-star-ruled-out-of-the-us-open-due-to-ongoing-injury-woes",
-      "published_at": "Fri, 21 Aug 2026 17:12:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "British star Jack Draper has been ruled out of the US Open as he continues to battle a bone bruise in his dominant left arm."
     }
   ]
 }
