@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-22T08:58:43.554065",
-  "total_articles": 3,
+  "updated": "2026-08-22T16:49:34.222665",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
+    "bbc_sport": 2,
     "sky_sports": 0,
     "goal_com": 0
   },
@@ -26,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Tottenham midfielder James Maddison discusses life under boss Roberto de Zerbi and how the distraction of having five children under five at home kept him busy while he was out with a long-term injury"
-    },
-    {
-      "id": "adc565ec5a53",
-      "title": "Argentina's Paredes banned for 10 games after World Cup clashes",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c98v7p1pr3eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 21 Aug 2026 15:26:05 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa ban Argentina midfielder Leandro Paredes for 10 matches over his role in clashes with Spanish players after the World Cup final."
     }
   ]
 }
