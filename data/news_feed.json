@@ -1,14 +1,32 @@
 {
-  "updated": "2026-08-22T01:55:24.570872",
-  "total_articles": 2,
+  "updated": "2026-08-22T08:58:43.554065",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 3,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "83ea9ce08672",
+      "title": "Second set of twins a good distraction from injury - Maddison",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c20j3vx6ne4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 22 Aug 2026 05:28:50 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Tottenham midfielder James Maddison says having five children aged four and under - including a second set of twins - helpfully distracted him from his ACL injury last season."
+    },
+    {
+      "id": "32be77d08615",
+      "title": "My family got me through injury - Maddison",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c4g30ewkx75o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 22 Aug 2026 05:20:29 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Tottenham midfielder James Maddison discusses life under boss Roberto de Zerbi and how the distraction of having five children under five at home kept him busy while he was out with a long-term injury"
+    },
     {
       "id": "adc565ec5a53",
       "title": "Argentina's Paredes banned for 10 games after World Cup clashes",
@@ -17,15 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Fifa ban Argentina midfielder Leandro Paredes for 10 matches over his role in clashes with Spanish players after the World Cup final."
-    },
-    {
-      "id": "661cd3cc4ae7",
-      "title": "England Women U20s squad named amid boycott threat",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2el8j10vl3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 21 Aug 2026 13:00:06 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Manager Lydia Bedford has named her England squad for the upcoming Fifa U20s Women's World Cup amid ongoing threat of a boycott from European nations. "
     }
   ]
 }
