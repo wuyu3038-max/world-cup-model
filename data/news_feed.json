@@ -1,31 +1,22 @@
 {
-  "updated": "2026-08-22T16:49:34.222665",
-  "total_articles": 2,
+  "updated": "2026-08-23T02:07:02.509526",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 0,
+    "bbc_sport": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "83ea9ce08672",
-      "title": "Second set of twins a good distraction from injury - Maddison",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20j3vx6ne4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 22 Aug 2026 05:28:50 GMT",
-      "source": "BBC Sport Football",
+      "id": "ca3e84f7c4ff",
+      "title": "Sherrock claims first Women's Series title of 2026 in the absence of Greaves",
+      "url": "https://www.skysports.com/darts/news/12040/13576068/fallon-sherrock-sweeps-aside-lisa-ashton-5-0-to-claim-her-first-womens-series-title-of-2026",
+      "published_at": "Sat, 22 Aug 2026 19:45:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Tottenham midfielder James Maddison says having five children aged four and under - including a second set of twins - helpfully distracted him from his ACL injury last season."
-    },
-    {
-      "id": "32be77d08615",
-      "title": "My family got me through injury - Maddison",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c4g30ewkx75o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 22 Aug 2026 05:20:29 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Tottenham midfielder James Maddison discusses life under boss Roberto de Zerbi and how the distraction of having five children under five at home kept him busy while he was out with a long-term injury"
+      "summary": "Lisa Ashton and Fallon Sherrock shared the spoils at Events 17-18 of the PDC Women&#8217;s Series on Saturday, as the duo scooped a title each to reinforce their positions of second and third in the r"
     }
   ]
 }
