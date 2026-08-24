@@ -1,22 +1,31 @@
 {
-  "updated": "2026-08-24T02:03:09.722849",
-  "total_articles": 1,
+  "updated": "2026-08-24T09:25:13.267117",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 1,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "5dbaf755c086",
-      "title": "FIFA president Infantino defiant after joint Nordic no-confidence statement",
-      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
-      "published_at": "Sun, 23 Aug 2026 17:20:00 BST",
+      "id": "2bb7f600a943",
+      "title": "Uefa chief Ceferin rules out Fifa presidency bid",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp878rp71v2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 23 Aug 2026 23:20:31 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Uefa president Aleksander Ceferin rules himself out of the running to replace Gianni Infantino, but expects a candidate to challenge the Fifa president's leadership in March."
+    },
+    {
+      "id": "2ce0ec83bc1c",
+      "title": "F1 2026 team-mate head-to-heads after Dutch GP",
+      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
+      "published_at": "Mon, 24 Aug 2026 09:37:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }
