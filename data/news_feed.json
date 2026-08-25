@@ -1,31 +1,12 @@
 {
-  "updated": "2026-08-25T09:09:53.805576",
-  "total_articles": 2,
+  "updated": "2026-08-25T17:04:47.250899",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 1,
+    "bbc_sport": 0,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "bf9f65e7d799",
-      "title": "'Change is necessary' - players unite against Fifa",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy4zl2mz9rko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 25 Aug 2026 06:31:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "A number of current and former footballers unite against Fifa president Gianni Infantino, stating that \"change is necessary\" at the global governing body."
-    },
-    {
-      "id": "2e49217e5251",
-      "title": "All you need to know about the 2026 Solheim Cup",
-      "url": "https://www.skysports.com/golf/news/12040/13313909/solheim-cup-2026-teams-captains-venue-format-and-how-players-will-qualify-for-europe-vs-usa-in-the-netherlands",
-      "published_at": "Mon, 03 Aug 2026 15:38:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Where and when will the next Solheim Cup take place? How does the scoring system work? Which players can qualify? All you need to know about the 2026 edition..."
-    }
-  ]
+  "articles": []
 }
