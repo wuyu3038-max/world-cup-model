@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-24T17:04:39.353988",
+  "updated": "2026-08-25T01:57:19.059687",
   "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "2bb7f600a943",
-      "title": "Uefa chief Ceferin rules out Fifa presidency bid",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp878rp71v2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 23 Aug 2026 23:20:31 GMT",
-      "source": "BBC Sport Football",
+      "id": "2e49217e5251",
+      "title": "All you need to know about the 2026 Solheim Cup",
+      "url": "https://www.skysports.com/golf/news/12040/13313909/solheim-cup-2026-teams-captains-venue-format-and-how-players-will-qualify-for-europe-vs-usa-in-the-netherlands",
+      "published_at": "Mon, 03 Aug 2026 15:38:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Uefa president Aleksander Ceferin rules himself out of the running to replace Gianni Infantino, but expects a candidate to challenge the Fifa president's leadership in March."
+      "summary": "Where and when will the next Solheim Cup take place? How does the scoring system work? Which players can qualify? All you need to know about the 2026 edition..."
     }
   ]
 }
