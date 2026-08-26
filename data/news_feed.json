@@ -1,12 +1,22 @@
 {
-  "updated": "2026-08-26T09:20:13.297503",
-  "total_articles": 0,
+  "updated": "2026-08-26T18:15:08.923043",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 1,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "0da40321b900",
+      "title": "Uefa set to drop Fifa tournament boycott threat",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5ye3j5n8vyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 26 Aug 2026 14:17:36 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Uefa is set to drop its threat of boycotting Fifa competitions, having received assurances there will be no repeat of Gianni Infantino's plan to sell off stakes in the World Cup to private investors, "
+    }
+  ]
 }
