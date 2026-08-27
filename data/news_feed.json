@@ -1,22 +1,31 @@
 {
-  "updated": "2026-08-26T18:15:08.923043",
-  "total_articles": 1,
+  "updated": "2026-08-27T10:02:46.011104",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "0da40321b900",
-      "title": "Uefa set to drop Fifa tournament boycott threat",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5ye3j5n8vyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 26 Aug 2026 14:17:36 GMT",
+      "id": "b26aa114e794",
+      "title": "Fan backlash as gay World Cup star joins Saudi club",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgyl2dvvv0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 27 Aug 2026 08:52:41 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Uefa is set to drop its threat of boycotting Fifa competitions, having received assurances there will be no repeat of Gianni Infantino's plan to sell off stakes in the World Cup to private investors, "
+      "summary": "Spain forward Esther Gonzalez attracts backlash after signing for Saudi Women's Premier League side Al Qadsiah."
+    },
+    {
+      "id": "37b7ea45eb7d",
+      "title": "US Open men's title up for grabs as Sinner injury throws field wide open",
+      "url": "https://www.skysports.com/tennis/news/12040/13576337/us-open-this-years-mens-tournament-is-up-for-grabs-with-carlos-alcaraz-and-novak-djokovic-leading-way",
+      "published_at": "Thu, 27 Aug 2026 07:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "This year's US Open men's singles tournament appears to be up for grabs with Carlos Alcaraz and Novak Djokovic joined by a whole host of players in the mix."
     }
   ]
 }
