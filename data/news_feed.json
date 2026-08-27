@@ -1,31 +1,22 @@
 {
-  "updated": "2026-08-27T10:02:46.011104",
-  "total_articles": 2,
+  "updated": "2026-08-27T19:13:50.357237",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "b26aa114e794",
-      "title": "Fan backlash as gay World Cup star joins Saudi club",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgyl2dvvv0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 27 Aug 2026 08:52:41 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Spain forward Esther Gonzalez attracts backlash after signing for Saudi Women's Premier League side Al Qadsiah."
-    },
-    {
-      "id": "37b7ea45eb7d",
-      "title": "US Open men's title up for grabs as Sinner injury throws field wide open",
-      "url": "https://www.skysports.com/tennis/news/12040/13576337/us-open-this-years-mens-tournament-is-up-for-grabs-with-carlos-alcaraz-and-novak-djokovic-leading-way",
-      "published_at": "Thu, 27 Aug 2026 07:00:00 BST",
+      "id": "484e53c19d60",
+      "title": "York Knights takeover by new local group revealed",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13577854/york-knights-local-ownership-group-led-by-david-dickson-agree-to-buy-majority-share-of-super-league-club",
+      "published_at": "Thu, 27 Aug 2026 16:17:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "This year's US Open men's singles tournament appears to be up for grabs with Carlos Alcaraz and Novak Djokovic joined by a whole host of players in the mix."
+      "summary": "York Knights have confirmed that a \"locally-based ownership group\" has agreed to take over a majority share of the club."
     }
   ]
 }
