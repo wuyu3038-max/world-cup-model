@@ -1,31 +1,12 @@
 {
-  "updated": "2026-08-28T01:02:52.904395",
-  "total_articles": 2,
+  "updated": "2026-08-28T11:34:18.966797",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 1,
+    "bbc_sport": 0,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "570845e4f480",
-      "title": "Ipswich sign Argentina World Cup winner Palacios",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c77048xg87jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 27 Aug 2026 20:54:31 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Argentina midfielder Exequiel Palacios becomes the first World Cup winner to sign for Ipswich Town after joining from Bayer Leverkusen. "
-    },
-    {
-      "id": "484e53c19d60",
-      "title": "York Knights takeover by new local group revealed",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13577854/york-knights-local-ownership-group-led-by-david-dickson-agree-to-buy-majority-share-of-super-league-club",
-      "published_at": "Thu, 27 Aug 2026 16:17:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "York Knights have confirmed that a \"locally-based ownership group\" has agreed to take over a majority share of the club."
-    }
-  ]
+  "articles": []
 }
