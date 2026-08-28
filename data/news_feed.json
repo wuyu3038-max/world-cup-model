@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-27T19:13:50.357237",
-  "total_articles": 1,
+  "updated": "2026-08-28T01:02:52.904395",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 1,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "570845e4f480",
+      "title": "Ipswich sign Argentina World Cup winner Palacios",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c77048xg87jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 27 Aug 2026 20:54:31 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Argentina midfielder Exequiel Palacios becomes the first World Cup winner to sign for Ipswich Town after joining from Bayer Leverkusen. "
+    },
     {
       "id": "484e53c19d60",
       "title": "York Knights takeover by new local group revealed",
