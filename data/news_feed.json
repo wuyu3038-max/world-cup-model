@@ -1,12 +1,31 @@
 {
-  "updated": "2026-08-28T11:34:18.966797",
-  "total_articles": 0,
+  "updated": "2026-08-28T20:20:09.800377",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 2,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "c1f1f2b08f46",
+      "title": "'I need competition' - Alcaraz returns from injury in time for US Open defence",
+      "url": "https://www.skysports.com/tennis/news/12040/13578200/us-open-carlos-alcaraz-admits-he-needs-competition-as-he-prepares-for-his-title-defence-after-wrist-injury",
+      "published_at": "Fri, 28 Aug 2026 20:20:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "\"I need competition.\""
+    },
+    {
+      "id": "9635cc2169f0",
+      "title": "'Bomba!' De Zerbi delighted as Spurs transfers create 'great squad'",
+      "url": "https://www.skysports.com/football/news/12040/13578157/tottenham-roberto-de-zerbi-delighted-with-spurs-transfer-business-after-dramatic-premier-league-survival-last-season",
+      "published_at": "Fri, 28 Aug 2026 15:14:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "\"Savio is 'bomba'. All players we brought, I think are 'bomba'!\""
+    }
+  ]
 }
