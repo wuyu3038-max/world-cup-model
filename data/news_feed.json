@@ -1,22 +1,12 @@
 {
-  "updated": "2026-08-29T07:12:38.581525",
-  "total_articles": 1,
+  "updated": "2026-08-29T13:58:27.963246",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "c1f1f2b08f46",
-      "title": "'I need competition' - Alcaraz returns from injury in time for US Open defence",
-      "url": "https://www.skysports.com/tennis/news/12040/13578200/us-open-carlos-alcaraz-admits-he-needs-competition-as-he-prepares-for-his-title-defence-after-wrist-injury",
-      "published_at": "Fri, 28 Aug 2026 20:20:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "\"I need competition.\""
-    }
-  ]
+  "articles": []
 }
