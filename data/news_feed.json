@@ -1,12 +1,22 @@
 {
-  "updated": "2026-08-30T05:34:22.964961",
-  "total_articles": 0,
+  "updated": "2026-08-30T13:57:31.405434",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "38db55d011b5",
+      "title": "Man Utd vs Ipswich team news LIVE! ",
+      "url": "https://www.skysports.com/football/manchester-united-vs-ipswich-town/live/559461",
+      "published_at": "Tue, 28 Jul 2026 09:26:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    }
+  ]
 }
