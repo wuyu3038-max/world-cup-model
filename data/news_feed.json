@@ -1,14 +1,23 @@
 {
-  "updated": "2026-08-31T16:19:51.641791",
-  "total_articles": 2,
+  "updated": "2026-08-31T21:33:01.556477",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 2,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "6869f0095bf3",
+      "title": "Kushner states regret over World Cup sell-off plan",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c780w17lw02o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 31 Aug 2026 18:38:55 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Venture capitalist Joshua Kushner says he would not have got involved in Fifa president Gianni Infantino's scrapped plan to sell off stakes in the World Cup if he had known how the football world reac"
+    },
     {
       "id": "f9220c0b78fd",
       "title": "How Messi broke Klose's World Cup goalscoring record",
@@ -19,13 +28,13 @@
       "summary": "Watch all of Lionel Messi's World Cup goals as he breaks Miroslav Klose's individual scoring record with a 17th goal in Argentina's group stage match against Austria."
     },
     {
-      "id": "411fc4ad5627",
-      "title": "'It's like the first day of school' - Earps on being part of LCL's new superstar squad",
-      "url": "https://www.skysports.com/football/news/12040/13570623/mary-earps-exclusive-london-city-lionesses-goalkeeper-on-busy-summer-transfer-window-and-facing-man-utd-in-wsl-opener",
-      "published_at": "Mon, 31 Aug 2026 12:00:00 BST",
+      "id": "4dee47bac0a3",
+      "title": "Alcaraz impresses on return from injury as Sabalenka also wins",
+      "url": "https://www.skysports.com/tennis/news/12040/13579551/us-open-2026-carlos-alcaraz-impresses-on-return-from-injury-as-aryna-sabalenka-harriet-dart-also-win",
+      "published_at": "Mon, 31 Aug 2026 21:06:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Mary Earps is used to leading from the front, whether as an England goalkeeper or highlighting issues in the women's game. This summer, she was the first one through the door as London City Lionesses "
+      "summary": "Carlos Alcaraz impressed on his return to tennis with a straight-sets win over Russia's Roman Safiullin in the first round of the US Open."
     }
   ]
 }
