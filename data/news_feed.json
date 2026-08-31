@@ -1,12 +1,22 @@
 {
-  "updated": "2026-08-30T19:23:04.394803",
-  "total_articles": 0,
+  "updated": "2026-08-31T05:49:56.390609",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "de667e6e7714",
+      "title": "PGA Tour: Every result from the 2026 FedExCup season ",
+      "url": "https://www.skysports.com/golf/news/12040/13415204/pga-tour-2026-schedule-dates-venues-events-for-the-new-fedexcup-season-signature-events-and-golf-majors",
+      "published_at": "Sun, 30 Aug 2026 23:20:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Every PGA Tour result from the 2026 FedExCup season, with nine Signature Events across a 35-tournament calendar."
+    }
+  ]
 }
