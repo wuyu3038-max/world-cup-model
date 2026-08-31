@@ -1,22 +1,31 @@
 {
-  "updated": "2026-08-31T05:49:56.390609",
-  "total_articles": 1,
+  "updated": "2026-08-31T16:19:51.641791",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 1,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "de667e6e7714",
-      "title": "PGA Tour: Every result from the 2026 FedExCup season ",
-      "url": "https://www.skysports.com/golf/news/12040/13415204/pga-tour-2026-schedule-dates-venues-events-for-the-new-fedexcup-season-signature-events-and-golf-majors",
-      "published_at": "Sun, 30 Aug 2026 23:20:00 BST",
+      "id": "f9220c0b78fd",
+      "title": "How Messi broke Klose's World Cup goalscoring record",
+      "url": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 18:11:50 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch all of Lionel Messi's World Cup goals as he breaks Miroslav Klose's individual scoring record with a 17th goal in Argentina's group stage match against Austria."
+    },
+    {
+      "id": "411fc4ad5627",
+      "title": "'It's like the first day of school' - Earps on being part of LCL's new superstar squad",
+      "url": "https://www.skysports.com/football/news/12040/13570623/mary-earps-exclusive-london-city-lionesses-goalkeeper-on-busy-summer-transfer-window-and-facing-man-utd-in-wsl-opener",
+      "published_at": "Mon, 31 Aug 2026 12:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Every PGA Tour result from the 2026 FedExCup season, with nine Signature Events across a 35-tournament calendar."
+      "summary": "Mary Earps is used to leading from the front, whether as an England goalkeeper or highlighting issues in the women's game. This summer, she was the first one through the door as London City Lionesses "
     }
   ]
 }
