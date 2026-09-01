@@ -1,14 +1,23 @@
 {
-  "updated": "2026-09-01T13:38:53.313343",
+  "updated": "2026-09-01T19:28:15.586534",
   "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 1,
+    "bbc_sport": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "2a8c91dc756f",
+      "title": "Miedema to miss start of season with knee injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0rez8re11ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 01 Sep 2026 18:26:12 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Vivianne Miedema will miss the start of the Women's Super League season because of a knee injury."
+    },
     {
       "id": "f9220c0b78fd",
       "title": "How Messi broke Klose's World Cup goalscoring record",
@@ -17,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch all of Lionel Messi's World Cup goals as he breaks Miroslav Klose's individual scoring record with a 17th goal in Argentina's group stage match against Austria."
-    },
-    {
-      "id": "4dee47bac0a3",
-      "title": "Alcaraz impresses on return from injury as Sabalenka also wins",
-      "url": "https://www.skysports.com/tennis/news/12040/13579551/us-open-2026-carlos-alcaraz-impresses-on-return-from-injury-as-aryna-sabalenka-harriet-dart-also-win",
-      "published_at": "Mon, 31 Aug 2026 21:06:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Carlos Alcaraz impressed on his return to tennis with a straight-sets win over Russia's Roman Safiullin in the first round of the US Open."
     }
   ]
 }
