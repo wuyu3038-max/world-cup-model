@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-01T05:22:37.231061",
+  "updated": "2026-09-01T13:38:52.195664",
   "source": "simulated_from_bookmaker_odds",
   "betfair_index": {
     "total_matched": 100000.0,
     "market_type": "WORLD_CUP_WINNER",
-    "timestamp": "2026-09-01T05:22:37.231046",
+    "timestamp": "2026-09-01T13:38:52.195648",
     "runners": {
       "Spain": {
         "betfair_index": 0.1486,

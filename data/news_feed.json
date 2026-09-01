@@ -1,23 +1,14 @@
 {
-  "updated": "2026-09-01T05:22:38.302831",
-  "total_articles": 3,
+  "updated": "2026-09-01T13:38:53.313343",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 1,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "6869f0095bf3",
-      "title": "Kushner states regret over World Cup sell-off plan",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c780w17lw02o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 31 Aug 2026 18:38:55 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Venture capitalist Joshua Kushner says he would not have got involved in Fifa president Gianni Infantino's scrapped plan to sell off stakes in the World Cup if he had known how the football world reac"
-    },
     {
       "id": "f9220c0b78fd",
       "title": "How Messi broke Klose's World Cup goalscoring record",
