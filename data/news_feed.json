@@ -1,12 +1,31 @@
 {
-  "updated": "2026-09-02T12:55:44.308580",
-  "total_articles": 0,
+  "updated": "2026-09-02T19:27:03.001382",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 2,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "1a55dd1c15c9",
+      "title": "Carse left out of England squad for third Pakistan Test",
+      "url": "https://www.skysports.com/cricket/news/12040/13580419/england-vs-pakistan-brydon-carse-left-out-for-third-and-final-test-at-edgbaston-as-joe-roots-15-man-squad-revealed",
+      "published_at": "Wed, 02 Sep 2026 15:42:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Brydon Carse and Matthew Fisher have both been left out of England's 15-man squad for the third and final Test against Pakistan at Edgbaston."
+    },
+    {
+      "id": "a144d274bb53",
+      "title": "Hadjar to miss Italian GP with ongoing wrist injury",
+      "url": "https://www.skysports.com/f1/news/12040/13580313/isack-hadjar-to-miss-italian-grand-prix-with-wrist-injury-as-liam-lawson-gets-another-red-bull-opportunity-at-monza",
+      "published_at": "Wed, 02 Sep 2026 15:05:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Isack Hadjar will miss this weekend's Italian Grand Prix due to his ongoing wrist injury, with Liam Lawson replacing him for a second consecutive event at Red Bull."
+    }
+  ]
 }
