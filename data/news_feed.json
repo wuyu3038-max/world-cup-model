@@ -1,23 +1,14 @@
 {
-  "updated": "2026-09-01T19:28:15.586534",
-  "total_articles": 2,
+  "updated": "2026-09-02T04:48:39.710718",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 1,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "2a8c91dc756f",
-      "title": "Miedema to miss start of season with knee injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c0rez8re11ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 01 Sep 2026 18:26:12 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Vivianne Miedema will miss the start of the Women's Super League season because of a knee injury."
-    },
     {
       "id": "f9220c0b78fd",
       "title": "How Messi broke Klose's World Cup goalscoring record",
