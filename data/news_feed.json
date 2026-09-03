@@ -1,14 +1,23 @@
 {
-  "updated": "2026-09-02T19:27:03.001382",
+  "updated": "2026-09-03T04:47:12.406211",
   "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 2,
+    "bbc_sport": 1,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "f9220c0b78fd",
+      "title": "How Messi broke Klose's World Cup goalscoring record",
+      "url": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 22 Jun 2026 18:11:50 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch all of Lionel Messi's World Cup goals as he breaks Miroslav Klose's individual scoring record with a 17th goal in Argentina's group stage match against Austria."
+    },
     {
       "id": "1a55dd1c15c9",
       "title": "Carse left out of England squad for third Pakistan Test",
@@ -17,15 +26,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Brydon Carse and Matthew Fisher have both been left out of England's 15-man squad for the third and final Test against Pakistan at Edgbaston."
-    },
-    {
-      "id": "a144d274bb53",
-      "title": "Hadjar to miss Italian GP with ongoing wrist injury",
-      "url": "https://www.skysports.com/f1/news/12040/13580313/isack-hadjar-to-miss-italian-grand-prix-with-wrist-injury-as-liam-lawson-gets-another-red-bull-opportunity-at-monza",
-      "published_at": "Wed, 02 Sep 2026 15:05:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Isack Hadjar will miss this weekend's Italian Grand Prix due to his ongoing wrist injury, with Liam Lawson replacing him for a second consecutive event at Red Bull."
     }
   ]
 }
