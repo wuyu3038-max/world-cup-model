@@ -1,31 +1,58 @@
 {
-  "updated": "2026-09-03T12:58:04.542334",
-  "total_articles": 2,
+  "updated": "2026-09-03T19:21:37.288801",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 1,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "f9220c0b78fd",
-      "title": "How Messi broke Klose's World Cup goalscoring record",
-      "url": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 18:11:50 GMT",
+      "id": "cfe03a942e6c",
+      "title": "Fifa accuses Uefa of 'smear campaign' against Infantino ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8e3p780n3do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 03 Sep 2026 19:01:43 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Watch all of Lionel Messi's World Cup goals as he breaks Miroslav Klose's individual scoring record with a 17th goal in Argentina's group stage match against Austria."
+      "summary": "The governing bodies have traded blows since Fifa president Gianni Infantino's scrapped plan to sell off stakes in the World Cup to private investors."
     },
     {
-      "id": "550441f77bf9",
-      "title": "Liverpool spent big but this squad is still imbalanced and it could be a problem",
-      "url": "https://www.skysports.com/football/news/12040/13580278/liverpools-first-transfer-window-under-andoni-iraola-sees-bradley-barcola-sign-but-this-squad-is-still-not-balanced",
-      "published_at": "Thu, 03 Sep 2026 09:00:00 BST",
+      "id": "2087e691f312",
+      "title": "Spurs omit Richarlison from Premier League squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c79038z3q4yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 03 Sep 2026 17:46:55 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Richarlison is left out of Tottenham's Premier League squad as he does not figure in the club's plans this season."
+    },
+    {
+      "id": "29e328bc3ba5",
+      "title": "Leeds' Rodon out for up to 10 weeks with hamstring injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crm93nv8n7yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 03 Sep 2026 14:39:30 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Leeds United manager Daniel Farke says centre-back Joe Rodon will be out for eight to 10 weeks because of a \"serious hamstring injury\"."
+    },
+    {
+      "id": "93039fc78470",
+      "title": "FIFA accuses UEFA of launching 'smear campaign' against Gianni Infantino",
+      "url": "https://www.skysports.com/football/news/12040/13580984/gianni-infantino-latest-fifa-accuses-uefa-of-launching-a-smear-campaign-after-legal-cases-filed-in-american-courts",
+      "published_at": "Thu, 03 Sep 2026 19:12:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "It might be surprising to discover that Liverpool&#8217;s net spend this summer was actually bigger than it was last summer. Another &#163;200m plus invested. But Andoni Iraola finishes the transfer w"
+      "summary": "FIFA has accused European football&#8217;s governing body of launching a &#8220;smear campaign&#8221; against Gianni Infantino in a challenge to legal action over the aborted attempt to sell part of t"
+    },
+    {
+      "id": "9cf75f1bd2ca",
+      "title": "A squad once worth over £1bn! The free agents your club could still sign",
+      "url": "https://www.skysports.com/football/news/12040/13580813/free-agents-jadon-sancho-paul-pogba-and-dele-alli-among-players-available-on-free-transfer-after-summer-window-shuts",
+      "published_at": "Thu, 03 Sep 2026 19:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The summer transfer window might be shut, but a host of free agents once worth a combined value of &#163;1.15bn are still available to sign."
     }
   ]
 }
