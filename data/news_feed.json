@@ -1,49 +1,22 @@
 {
-  "updated": "2026-09-04T19:03:09.334377",
-  "total_articles": 4,
+  "updated": "2026-09-05T04:42:29.597584",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 2,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "92a43949889f",
-      "title": "Villa leave Harwood-Bellis out of Champions League squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgypj5j47lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 04 Sep 2026 14:37:09 GMT",
+      "id": "2900853f4448",
+      "title": "FA to canvass England players in World Cup review",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyr1ly8z4xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 04 Sep 2026 21:28:23 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Aston Villa leave new signing Taylor Harwood-Bellis and teenage striker Brian Madjo out of their squad for the league stage of the Champions League."
-    },
-    {
-      "id": "f9220c0b78fd",
-      "title": "How Messi broke Klose's World Cup goalscoring record",
-      "url": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 22 Jun 2026 18:11:50 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch all of Lionel Messi's World Cup goals as he breaks Miroslav Klose's individual scoring record with a 17th goal in Argentina's group stage match against Austria."
-    },
-    {
-      "id": "e306282f1a85",
-      "title": "Chelsea latest: Alonso 'happy' with squad despite Camara deal collapse",
-      "url": "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "published_at": "Fri, 04 Sep 2026 14:12:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "3f8bb14e41df",
-      "title": "O'Neill satisfied with Celtic signings | McInnes has Rangers squad he craved ",
-      "url": "https://www.skysports.com/football/news/12040/13581374/old-firm-celtic-manager-martin-oneill-satisfied-with-signings-derek-mcinnes-believes-he-has-rangers-squad-he-craved",
-      "published_at": "Fri, 04 Sep 2026 16:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Martin O'Neill declared himself happy with Celtic's transfer business while Derek McInnes insists he now has the type of dressing room he desires at Rangers. "
+      "summary": "The Football Association's review into England's World Cup campaign will canvass the opinions of players involved in the tournament."
     }
   ]
 }
