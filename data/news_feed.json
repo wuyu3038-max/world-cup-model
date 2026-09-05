@@ -1,22 +1,12 @@
 {
-  "updated": "2026-09-05T11:58:58.236268",
-  "total_articles": 1,
+  "updated": "2026-09-05T18:29:40.763303",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "2900853f4448",
-      "title": "FA to canvass England players in World Cup review",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyr1ly8z4xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 04 Sep 2026 21:28:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The Football Association's review into England's World Cup campaign will canvass the opinions of players involved in the tournament."
-    }
-  ]
+  "articles": []
 }
