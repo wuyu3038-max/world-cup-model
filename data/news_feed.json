@@ -1,12 +1,22 @@
 {
-  "updated": "2026-09-05T18:29:40.763303",
-  "total_articles": 0,
+  "updated": "2026-09-06T04:52:13.599431",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 1,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "c1423fc96d03",
+      "title": "Who will carry Rangers' goal threat after 'significant' Shankland injury?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8e3640rrp1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 05 Sep 2026 18:49:30 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Rangers captain Lawrence Shankland is set for a spell on the sidelines after picking up a \"significant\" hamstring injury in Saturday's Scottish Premiership victory over Motherwell."
+    }
+  ]
 }

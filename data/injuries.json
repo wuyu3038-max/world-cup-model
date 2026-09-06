@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-05T18:29:40.825574",
+    "last_updated": "2026-09-06T04:52:13.659135",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Who will carry Rangers' goal threat after 'significant' Shankland injury?",
+      "nations": [
+        "Scotland"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8e3640rrp1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rangers captain Lawrence Shankland is set for a spell on the sidelines after picking up a \"significant\" hamstring injury in Saturday's Scottish Premiership victory over Motherwell.",
+      "published": "Sat, 05 Sep 2026 18:49:30 GMT"
+    }
+  ]
 }
