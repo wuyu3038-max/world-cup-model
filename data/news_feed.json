@@ -1,22 +1,40 @@
 {
-  "updated": "2026-09-07T04:58:07.851455",
-  "total_articles": 1,
+  "updated": "2026-09-07T14:24:10.532340",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 0,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "6d96ec0ce2e3",
-      "title": "Fifa president Infantino will stand for re-election",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c99d1dlpkp4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 06 Sep 2026 13:01:17 GMT",
-      "source": "BBC Sport Football",
+      "id": "d9109358a422",
+      "title": "Red Roses name experienced squad for home leg of WXV Global Series",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13582740/red-roses-name-25-world-cup-winners-in-36-player-squad-for-home-leg-of-wxv-global-series",
+      "published_at": "Mon, 07 Sep 2026 11:21:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Fifa president Gianni Infantino will stand for re-election in March, the world governing body has confirmed."
+      "summary": "Red Roses head coach John Mitchell has named an experienced 36-player squad for the home leg of the WXV Global Series, with 25 World Cup winners included."
+    },
+    {
+      "id": "3fae4696f288",
+      "title": "NFL games live on Sky in Week One as 2026 season starts on Wednesday",
+      "url": "https://www.skysports.com/nfl/news/12040/13582747/nfl-2026-season-live-on-sky-sports-fixtures-kick-off-times-tv-channel-for-games-this-week-and-weekend",
+      "published_at": "Mon, 07 Sep 2026 11:41:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The 2026 NFL season gets under way with a Super Bowl rematch as defending champions Seattle Seahawks host New England Patriots on Wednesday night."
+    },
+    {
+      "id": "2ce0ec83bc1c",
+      "title": "F1 2026 team-mate head-to-heads after Italian GP",
+      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
+      "published_at": "Mon, 07 Sep 2026 10:25:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }
