@@ -1,14 +1,23 @@
 {
-  "updated": "2026-09-07T14:24:10.532340",
-  "total_articles": 3,
+  "updated": "2026-09-07T20:05:21.219009",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "b4ef93c879b0",
+      "title": "Red Bull's Hadjar to miss Spanish GP as injury absence continue",
+      "url": "https://www.skysports.com/f1/news/12040/13582838/isack-hadjar-to-miss-spanish-grand-prix-in-madrid-due-to-wrist-injury-as-liam-lawson-continues-at-red-bull",
+      "published_at": "Mon, 07 Sep 2026 18:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Isack Hadjar will miss this weekend's Spanish Grand Prix in Madrid as he continues to recover from a fractured wrist."
+    },
     {
       "id": "d9109358a422",
       "title": "Red Roses name experienced squad for home leg of WXV Global Series",
@@ -17,24 +26,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Red Roses head coach John Mitchell has named an experienced 36-player squad for the home leg of the WXV Global Series, with 25 World Cup winners included."
-    },
-    {
-      "id": "3fae4696f288",
-      "title": "NFL games live on Sky in Week One as 2026 season starts on Wednesday",
-      "url": "https://www.skysports.com/nfl/news/12040/13582747/nfl-2026-season-live-on-sky-sports-fixtures-kick-off-times-tv-channel-for-games-this-week-and-weekend",
-      "published_at": "Mon, 07 Sep 2026 11:41:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The 2026 NFL season gets under way with a Super Bowl rematch as defending champions Seattle Seahawks host New England Patriots on Wednesday night."
-    },
-    {
-      "id": "2ce0ec83bc1c",
-      "title": "F1 2026 team-mate head-to-heads after Italian GP",
-      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
-      "published_at": "Mon, 07 Sep 2026 10:25:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }

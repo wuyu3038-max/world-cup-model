@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-07T14:24:10.575488",
+    "last_updated": "2026-09-07T20:05:21.262585",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Red Bull's Hadjar to miss Spanish GP as injury absence continue",
+      "nations": [
+        "Spain"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/f1/news/12040/13582838/isack-hadjar-to-miss-spanish-grand-prix-in-madrid-due-to-wrist-injury-as-liam-lawson-continues-at-red-bull",
+      "summary": "Isack Hadjar will miss this weekend's Spanish Grand Prix in Madrid as he continues to recover from a fractured wrist.",
+      "published": "Mon, 07 Sep 2026 18:00:00 BST"
+    }
+  ]
 }
