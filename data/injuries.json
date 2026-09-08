@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-07T20:05:21.262585",
+    "last_updated": "2026-09-08T04:54:16.808605",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -782,7 +782,7 @@
   },
   "_news_injury_alerts": [
     {
-      "title": "Red Bull's Hadjar to miss Spanish GP as injury absence continue",
+      "title": "Red Bull's Hadjar to miss Spanish GP as injury absence continues",
       "nations": [
         "Spain"
       ],
