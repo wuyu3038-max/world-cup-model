@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-08T04:54:16.760342",
-  "total_articles": 2,
+  "updated": "2026-09-08T13:01:26.811829",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -17,15 +17,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Isack Hadjar will miss this weekend's Spanish Grand Prix in Madrid as he continues to recover from a fractured wrist."
-    },
-    {
-      "id": "d9109358a422",
-      "title": "Red Roses name experienced squad for home leg of WXV Global Series",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13582740/red-roses-name-25-world-cup-winners-in-36-player-squad-for-home-leg-of-wxv-global-series",
-      "published_at": "Mon, 07 Sep 2026 11:21:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Red Roses head coach John Mitchell has named an experienced 36-player squad for the home leg of the WXV Global Series, with 25 World Cup winners included."
     }
   ]
 }
