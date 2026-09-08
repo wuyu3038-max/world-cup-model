@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-08T13:01:26.861154",
+    "last_updated": "2026-09-08T19:29:37.049260",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -782,14 +782,15 @@
   },
   "_news_injury_alerts": [
     {
-      "title": "Red Bull's Hadjar to miss Spanish GP as injury absence continues",
+      "title": "Team USA play down injury fears and ready to take down 'tough' Europe",
       "nations": [
-        "Spain"
+        "Netherlands",
+        "United States"
       ],
       "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/f1/news/12040/13582838/isack-hadjar-to-miss-spanish-grand-prix-in-madrid-due-to-wrist-injury-as-liam-lawson-continues-at-red-bull",
-      "summary": "Isack Hadjar will miss this weekend's Spanish Grand Prix in Madrid as he continues to recover from a fractured wrist.",
-      "published": "Mon, 07 Sep 2026 18:00:00 BST"
+      "url": "https://www.skysports.com/golf/news/12040/13583024/solheim-cup-2026-team-usa-play-down-fitness-concern-over-angel-yin-and-relish-chance-to-take-down-tough-team-europe",
+      "summary": "Team USA captain Angela Stanford insists Angel Yin will be fit to feature against Team Europe this week at the Solheim Cup and has backed her side to claim away victory in the Netherlands. ",
+      "published": "Tue, 08 Sep 2026 17:00:00 BST"
     }
   ]
 }
