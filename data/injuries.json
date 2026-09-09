@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-08T19:29:37.049260",
+    "last_updated": "2026-09-09T04:55:33.439421",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,17 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Team USA play down injury fears and ready to take down 'tough' Europe",
-      "nations": [
-        "Netherlands",
-        "United States"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/golf/news/12040/13583024/solheim-cup-2026-team-usa-play-down-fitness-concern-over-angel-yin-and-relish-chance-to-take-down-tough-team-europe",
-      "summary": "Team USA captain Angela Stanford insists Angel Yin will be fit to feature against Team Europe this week at the Solheim Cup and has backed her side to claim away victory in the Netherlands. ",
-      "published": "Tue, 08 Sep 2026 17:00:00 BST"
-    }
-  ]
+  "_news_injury_alerts": []
 }

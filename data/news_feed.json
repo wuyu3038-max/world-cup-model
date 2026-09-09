@@ -1,31 +1,12 @@
 {
-  "updated": "2026-09-08T19:29:36.990082",
-  "total_articles": 2,
+  "updated": "2026-09-09T04:55:33.377759",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 1,
+    "bbc_sport": 0,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "0d8beba86847",
-      "title": "Legal action against Fifa includes 'abusive conduct' towards women's game",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cy4z0l1erzlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 08 Sep 2026 13:30:30 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Legal action from the top European leagues and global players' union Fifpro against Fifa is extended to include the world governing body's \"abusive conduct\" towards the women's game."
-    },
-    {
-      "id": "87880b77216b",
-      "title": "Team USA play down injury fears and ready to take down 'tough' Europe",
-      "url": "https://www.skysports.com/golf/news/12040/13583024/solheim-cup-2026-team-usa-play-down-fitness-concern-over-angel-yin-and-relish-chance-to-take-down-tough-team-europe",
-      "published_at": "Tue, 08 Sep 2026 17:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Team USA captain Angela Stanford insists Angel Yin will be fit to feature against Team Europe this week at the Solheim Cup and has backed her side to claim away victory in the Netherlands. "
-    }
-  ]
+  "articles": []
 }
