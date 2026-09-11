@@ -1,22 +1,12 @@
 {
-  "updated": "2026-09-10T19:11:05.892666",
-  "total_articles": 1,
+  "updated": "2026-09-11T04:54:34.869721",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "c9cb2ba2afaa",
-      "title": "France wants to transform Fifa after withdrawing Infantino support",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c70d1k6k2pjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 10 Sep 2026 13:04:31 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "French football leaders have proposed to seek ways to transform how Fifa is run after the country's football body became the latest to withdraw support for Gianni Infantino's presidency."
-    }
-  ]
+  "articles": []
 }
