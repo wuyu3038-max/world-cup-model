@@ -1,12 +1,22 @@
 {
-  "updated": "2026-09-13T05:02:07.618940",
-  "total_articles": 0,
+  "updated": "2026-09-13T13:26:02.210981",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "b6419fadc2d5",
+      "title": "Leeds Rhinos make up majority of 2026 Super League Dream Team",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13585131/2026-super-league-dream-team-leeds-rhinos-lead-with-six-inclusions-with-wigan-wakefield-warrington-leigh-toulouse-represented",
+      "published_at": "Sun, 13 Sep 2026 12:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The Super League Dream Team for 2026 has been revealed, with six Leeds Rhinos players included."
+    }
+  ]
 }
