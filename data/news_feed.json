@@ -1,12 +1,40 @@
 {
-  "updated": "2026-09-14T05:11:29.150946",
-  "total_articles": 0,
+  "updated": "2026-09-14T15:12:19.144478",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 0,
+    "bbc_sport": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "e4c602703d3a",
+      "title": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdr76rvylv1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 14 Sep 2026 09:21:02 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Sebastien Pocognoli will name his first Scotland squad on Tuesday, but what can we expect? Will the new head coach use this clean slate as time to call upon new names? BBC Sport Scotland takes a look "
+    },
+    {
+      "id": "bb33d5b1d094",
+      "title": "How is NI squad shaping up for quadruple-header?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c87v3420n5xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 14 Sep 2026 07:03:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Northern Ireland will face four Nations League games in 11 days later this month with injuries, summer switches and individual form all making for an interesting selection when Michael O'Neill names h"
+    },
+    {
+      "id": "2ce0ec83bc1c",
+      "title": "F1 2026 team-mate head-to-heads after Spanish GP",
+      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
+      "published_at": "Mon, 14 Sep 2026 13:43:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
+    }
+  ]
 }
