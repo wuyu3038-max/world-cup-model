@@ -1,31 +1,22 @@
 {
-  "updated": "2026-09-14T20:23:36.516974",
-  "total_articles": 2,
+  "updated": "2026-09-15T05:04:25.586703",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "e4c602703d3a",
-      "title": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdr76rvylv1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 14 Sep 2026 09:21:02 GMT",
+      "id": "211bf5af2b45",
+      "title": "Graham & Ure make Pocognoli's first Scotland squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw94zzyx1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 14 Sep 2026 21:00:42 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Sebastien Pocognoli will name his first Scotland squad on Tuesday, but what can we expect? Will the new head coach use this clean slate as time to call upon new names? BBC Sport Scotland takes a look "
-    },
-    {
-      "id": "37a370d261bc",
-      "title": "Spurs latest: Richarlison responds after being left out of Carabao Cup squad",
-      "url": "https://www.skysports.com/football/live-blog/12040/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "published_at": "Mon, 14 Sep 2026 20:55:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
+      "summary": "Stoke City centre-half Luke Graham and Sevilla striker Robbie Ure will receive their first full Scotland call-ups on Tuesday when Sebastien Pocognoli names his first squad as head coach."
     }
   ]
 }
