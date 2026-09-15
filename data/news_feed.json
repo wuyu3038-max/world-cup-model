@@ -1,22 +1,58 @@
 {
-  "updated": "2026-09-15T05:04:25.586703",
-  "total_articles": 1,
+  "updated": "2026-09-15T13:48:50.689897",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 2,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "211bf5af2b45",
-      "title": "Graham & Ure make Pocognoli's first Scotland squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw94zzyx1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 14 Sep 2026 21:00:42 GMT",
+      "id": "343765c5c20e",
+      "title": "McBurnie & seven uncapped players in Scotland squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq770klrzmvyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 15 Sep 2026 11:23:30 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Stoke City centre-half Luke Graham and Sevilla striker Robbie Ure will receive their first full Scotland call-ups on Tuesday when Sebastien Pocognoli names his first squad as head coach."
+      "summary": "Hull City forward Oli McBurnie is called up to the Scotland squad for the first time in five years while seven uncapped make new head coach Sebastien Pocognoli's first selection."
+    },
+    {
+      "id": "f776df6de903",
+      "title": "O'Neill and Graham retain places in NI squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crlyqz2x9kleo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 15 Sep 2026 10:13:04 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Premier League teenagers Ceadach O'Neill and Braiden Graham keep their places in Northern Ireland's squad for the upcoming Nations League quadruple-header. "
+    },
+    {
+      "id": "ee6c8fa8a57e",
+      "title": "England confirm Williams as captain for Rugby League World Cup",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13586102/george-williams-england-coach-brian-mcdermott-confirms-warrington-wolves-star-as-captain-for-rugby-league-world-cup",
+      "published_at": "Tue, 15 Sep 2026 12:05:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England head coach Brian McDermott has confirmed George Williams will be his captain at next month's Rugby League World Cup."
+    },
+    {
+      "id": "5dbaf755c086",
+      "title": "Wilson returns for Wales as Northern Ireland name squad",
+      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
+      "published_at": "Tue, 15 Sep 2026 10:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "e0eb7a70f0b5",
+      "title": "Five newcomers included in Pocognoli's first Scotland squad",
+      "url": "https://www.skysports.com/football/news/12040/13585835/scotland-robbie-ure-luis-binks-and-colby-donovan-among-five-newcomers-included-in-sebastien-pocognolis-first-squad",
+      "published_at": "Tue, 15 Sep 2026 11:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Sevilla striker Robbie Ure and Brondby's Luis Binks are among five players handed their maiden full Scotland call-ups in new head coach Sebastien Pocognoli's first squad."
     }
   ]
 }
