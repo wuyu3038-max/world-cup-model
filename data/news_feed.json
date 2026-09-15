@@ -1,14 +1,23 @@
 {
-  "updated": "2026-09-15T13:48:50.689897",
+  "updated": "2026-09-15T19:46:25.526809",
   "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 3,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "952d1e3dbe6e",
+      "title": "The key talking points from Pocognoli's bold Scotland squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c51kxlek7471o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 15 Sep 2026 15:12:03 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The Sebastien Pocognoli Scotland era is already creating serious intrigue - and the Belgian's squad are yet to assemble for a training-ground rondo, never mind play a game."
+    },
     {
       "id": "343765c5c20e",
       "title": "McBurnie & seven uncapped players in Scotland squad",
@@ -44,15 +53,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
-    },
-    {
-      "id": "e0eb7a70f0b5",
-      "title": "Five newcomers included in Pocognoli's first Scotland squad",
-      "url": "https://www.skysports.com/football/news/12040/13585835/scotland-robbie-ure-luis-binks-and-colby-donovan-among-five-newcomers-included-in-sebastien-pocognolis-first-squad",
-      "published_at": "Tue, 15 Sep 2026 11:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Sevilla striker Robbie Ure and Brondby's Luis Binks are among five players handed their maiden full Scotland call-ups in new head coach Sebastien Pocognoli's first squad."
     }
   ]
 }
