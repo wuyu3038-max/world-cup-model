@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-16T05:00:27.339984",
-  "total_articles": 4,
+  "updated": "2026-09-16T13:41:00.550517",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 0,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -19,6 +19,15 @@
       "summary": "Argentina name Lionel Messi in their squad for a friendly against Benin in October in a match which is set to be the forward's farewell to international football."
     },
     {
+      "id": "eff493c9aaea",
+      "title": "Glasgow, 16, makes Docherty's Scotland U21 squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmn452vgll31o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 16 Sep 2026 09:36:20 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Sixteen-year-old Kyle Glasgow has been included in Tony Docherty's first Scotland Under-21 squad."
+    },
+    {
       "id": "952d1e3dbe6e",
       "title": "The key talking points from Pocognoli's bold Scotland squad",
       "url": "https://www.bbc.co.uk/sport/football/articles/c51kxlek7471o?at_medium=RSS&at_campaign=rss",
@@ -28,22 +37,22 @@
       "summary": "The Sebastien Pocognoli Scotland era is already creating serious intrigue - and the Belgian's squad are yet to assemble for a training-ground rondo, never mind play a game."
     },
     {
-      "id": "343765c5c20e",
-      "title": "McBurnie & seven uncapped players in Scotland squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq770klrzmvyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 15 Sep 2026 11:23:30 GMT",
-      "source": "BBC Sport Football",
+      "id": "e9f879c3c7a5",
+      "title": "Raducanu withdraws from China Open in latest injury setback",
+      "url": "https://www.skysports.com/tennis/live-blog/12040/13525472/emma-raducanu-tennis-schedule-next-match-ranking-latest-results-video-and-how-to-watch-live-on-sky-sports-tennis",
+      "published_at": "Wed, 16 Sep 2026 12:30:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Hull City forward Oli McBurnie is called up to the Scotland squad for the first time in five years while seven uncapped make new head coach Sebastien Pocognoli's first selection."
+      "summary": ""
     },
     {
-      "id": "343d29d7baff",
-      "title": "NI squad only picked on merit - O'Neill",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked7wng4557o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 15 Sep 2026 21:01:37 GMT",
-      "source": "BBC Sport Football",
+      "id": "31350a58d84f",
+      "title": "Real Madrid score injury-time winner to move level on points with leaders Barcelona",
+      "url": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "published_at": "Wed, 16 Sep 2026 07:00:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Northern Ireland manager Michael O'Neill says he would never take Fifa eligibility rules into consideration when selecting his squad."
+      "summary": ""
     }
   ]
 }
