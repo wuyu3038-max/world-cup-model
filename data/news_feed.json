@@ -1,14 +1,23 @@
 {
-  "updated": "2026-09-15T19:46:25.526809",
-  "total_articles": 5,
+  "updated": "2026-09-16T05:00:27.339984",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 2,
+    "bbc_sport": 4,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "cde90dc0b9b8",
+      "title": "Messi in Argentina squad for farewell friendly",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8ly49lv3vx1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 15 Sep 2026 22:50:04 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Argentina name Lionel Messi in their squad for a friendly against Benin in October in a match which is set to be the forward's farewell to international football."
+    },
     {
       "id": "952d1e3dbe6e",
       "title": "The key talking points from Pocognoli's bold Scotland squad",
@@ -28,31 +37,13 @@
       "summary": "Hull City forward Oli McBurnie is called up to the Scotland squad for the first time in five years while seven uncapped make new head coach Sebastien Pocognoli's first selection."
     },
     {
-      "id": "f776df6de903",
-      "title": "O'Neill and Graham retain places in NI squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crlyqz2x9kleo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 15 Sep 2026 10:13:04 GMT",
+      "id": "343d29d7baff",
+      "title": "NI squad only picked on merit - O'Neill",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cked7wng4557o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 15 Sep 2026 21:01:37 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Premier League teenagers Ceadach O'Neill and Braiden Graham keep their places in Northern Ireland's squad for the upcoming Nations League quadruple-header. "
-    },
-    {
-      "id": "ee6c8fa8a57e",
-      "title": "England confirm Williams as captain for Rugby League World Cup",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13586102/george-williams-england-coach-brian-mcdermott-confirms-warrington-wolves-star-as-captain-for-rugby-league-world-cup",
-      "published_at": "Tue, 15 Sep 2026 12:05:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England head coach Brian McDermott has confirmed George Williams will be his captain at next month's Rugby League World Cup."
-    },
-    {
-      "id": "5dbaf755c086",
-      "title": "Wilson returns for Wales as Northern Ireland name squad",
-      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
-      "published_at": "Tue, 15 Sep 2026 10:30:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
+      "summary": "Northern Ireland manager Michael O'Neill says he would never take Fifa eligibility rules into consideration when selecting his squad."
     }
   ]
 }
