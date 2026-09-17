@@ -1,22 +1,40 @@
 {
-  "updated": "2026-09-17T05:02:29.338003",
-  "total_articles": 1,
+  "updated": "2026-09-17T13:43:43.471424",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "79e451c3f2ba",
-      "title": "'It's my scar, not yours' - Tuchel defends World Cup semi-final subs",
-      "url": "https://www.skysports.com/football/news/12040/13588663/thomas-tuchel-england-head-coach-defends-controversial-world-cup-semi-final-substitutions-with-argentina-adding-its-my-scar-not-yours",
-      "published_at": "Wed, 16 Sep 2026 17:36:00 BST",
+      "id": "9c485a8671ea",
+      "title": "Coleman not included in Republic of Ireland squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqlym1n2wrx1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 17 Sep 2026 11:33:55 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Seamus Coleman is not included in the Republic of Ireland squad for the forthcoming Nations League matches against Kosovo, Israel and Austria but Sheffield United's Liam Kitching receives a first call"
+    },
+    {
+      "id": "beb3c1457e33",
+      "title": "NFL 2026: UK times and weekly match schedule",
+      "url": "https://www.skysports.com/nfl/news/12040/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
+      "published_at": "Thu, 17 Sep 2026 11:02:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Thomas Tuchel has passionately defended his controversial defensive substitutions during England's World Cup semi-final defeat to Argentina."
+      "summary": "All the fixtures and UK timings for the NFL's 2026 season as the chase to lift the Vince Lombardi Trophy starts all over again."
+    },
+    {
+      "id": "5dbaf755c086",
+      "title": "45 players! Klopp picks TWO separate Germany squads for international break",
+      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
+      "published_at": "Tue, 15 Sep 2026 23:45:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }
