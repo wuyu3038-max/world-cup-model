@@ -1,23 +1,14 @@
 {
-  "updated": "2026-09-16T19:38:19.215840",
-  "total_articles": 3,
+  "updated": "2026-09-17T05:02:29.338003",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 2,
+    "bbc_sport": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "cde90dc0b9b8",
-      "title": "Messi in Argentina squad for farewell friendly",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8ly49lv3vx1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 15 Sep 2026 22:50:04 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Argentina name Lionel Messi in their squad for a friendly against Benin in October in a match which is set to be the forward's farewell to international football."
-    },
     {
       "id": "79e451c3f2ba",
       "title": "'It's my scar, not yours' - Tuchel defends World Cup semi-final subs",
@@ -26,15 +17,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Thomas Tuchel has passionately defended his controversial defensive substitutions during England's World Cup semi-final defeat to Argentina."
-    },
-    {
-      "id": "e9f879c3c7a5",
-      "title": "Raducanu withdraws from China Open in latest injury setback",
-      "url": "https://www.skysports.com/tennis/live-blog/12040/13525472/emma-raducanu-tennis-schedule-next-match-ranking-latest-results-video-and-how-to-watch-live-on-sky-sports-tennis",
-      "published_at": "Wed, 16 Sep 2026 12:30:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
