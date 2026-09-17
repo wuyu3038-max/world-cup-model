@@ -1,22 +1,40 @@
 {
-  "updated": "2026-09-17T13:43:43.471424",
-  "total_articles": 3,
+  "updated": "2026-09-17T19:47:32.961994",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 2,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "9c485a8671ea",
-      "title": "Coleman not included in Republic of Ireland squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqlym1n2wrx1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 17 Sep 2026 11:33:55 GMT",
+      "id": "47734fb31ff6",
+      "title": "The big questions for Tuchel's first England squad since World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq804jkle8j3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 17 Sep 2026 16:47:18 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Seamus Coleman is not included in the Republic of Ireland squad for the forthcoming Nations League matches against Kosovo, Israel and Austria but Sheffield United's Liam Kitching receives a first call"
+      "summary": "Before Thomas Tuchel names his first squad since the World Cup on Friday, BBC Sport looks at the big questions facing the England boss."
+    },
+    {
+      "id": "b50ed2304a16",
+      "title": "FA chair demands Infantino release World Cup sell-off documents",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckqxvd41z93qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 17 Sep 2026 14:26:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa president Gianni Infantino has been told to release all documents relating to his controversial plan to sell off a stake in the World Cup."
+    },
+    {
+      "id": "8acb091ee5d9",
+      "title": "Will Palmer, Foden and Trent be recalled to England squad?",
+      "url": "https://www.skysports.com/football/news/12040/13588982/england-squad-will-cole-palmer-phil-foden-and-trent-alexander-arnold-be-left-out-again-after-world-cup-snubs",
+      "published_at": "Thu, 17 Sep 2026 16:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Cole Palmer's outstanding form this season has put him in a strong position for an England recall, with the Chelsea man the most likely to be included from all the big names left out of the World Cup "
     },
     {
       "id": "beb3c1457e33",
@@ -26,15 +44,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "All the fixtures and UK timings for the NFL's 2026 season as the chase to lift the Vince Lombardi Trophy starts all over again."
-    },
-    {
-      "id": "5dbaf755c086",
-      "title": "45 players! Klopp picks TWO separate Germany squads for international break",
-      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
-      "published_at": "Tue, 15 Sep 2026 23:45:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
