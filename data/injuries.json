@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-18T04:55:39.007818",
+    "last_updated": "2026-09-18T13:06:37.371348",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Will Palmer, Foden and Trent be recalled to England squad?",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/football/news/12040/13588982/england-squad-will-cole-palmer-phil-foden-and-trent-alexander-arnold-be-left-out-again-after-world-cup-snubs",
-      "summary": "Cole Palmer's outstanding form this season has put him in a strong position for an England recall, with the Chelsea man the most likely to be included from all the big names left out of the World Cup ",
-      "published": "Thu, 17 Sep 2026 16:30:00 BST"
-    }
-  ]
+  "_news_injury_alerts": []
 }

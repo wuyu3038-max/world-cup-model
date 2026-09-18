@@ -1,40 +1,58 @@
 {
-  "updated": "2026-09-18T04:55:38.960714",
-  "total_articles": 3,
+  "updated": "2026-09-18T13:06:37.310397",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 1,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "47734fb31ff6",
-      "title": "The big questions for Tuchel's first England squad since World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq804jkle8j3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 17 Sep 2026 16:47:18 GMT",
+      "id": "8cacc6627e99",
+      "title": "Ronaldo named in Jesus' first Portugal squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 18 Sep 2026 12:45:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Before Thomas Tuchel names his first squad since the World Cup on Friday, BBC Sport looks at the big questions facing the England boss."
+      "summary": "Cristiano Ronaldo is named in the first squad selected by new Portugal coach Jorge Jesus for their upcoming Nations League games."
     },
     {
-      "id": "b50ed2304a16",
-      "title": "FA chair demands Infantino release World Cup sell-off documents",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckqxvd41z93qo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 17 Sep 2026 14:26:53 GMT",
+      "id": "38a7eb4e26a1",
+      "title": "From depression after Chelsea injury to playing non-league at 37",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm89jqxpvy3xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 18 Sep 2026 07:10:13 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa president Gianni Infantino has been told to release all documents relating to his controversial plan to sell off a stake in the World Cup."
+      "summary": "Sam Hutchinson is getting ready to play for Farnham Town in the second qualifying round of the FA Cup - 19 years after making his Chelsea debut under Jose Mourinho."
     },
     {
-      "id": "8acb091ee5d9",
-      "title": "Will Palmer, Foden and Trent be recalled to England squad?",
-      "url": "https://www.skysports.com/football/news/12040/13588982/england-squad-will-cole-palmer-phil-foden-and-trent-alexander-arnold-be-left-out-again-after-world-cup-snubs",
-      "published_at": "Thu, 17 Sep 2026 16:30:00 BST",
+      "id": "ad188063ef46",
+      "title": "'Tuchel's learned from World Cup mistakes' - Tuchel's England squad EXPLAINED",
+      "url": "https://www.skysports.com/watch/video/13589218/england-squad-whos-in-and-whos-out",
+      "published_at": "Fri, 18 Sep 2026 10:10:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Cole Palmer's outstanding form this season has put him in a strong position for an England recall, with the Chelsea man the most likely to be included from all the big names left out of the World Cup "
+      "summary": "Sky Sports chief correspondent Kaveh Solhekol is at Wembley with the latest on Thomas Tuchel's England squad."
+    },
+    {
+      "id": "4f8d4f203f41",
+      "title": "How will Garrett injury impact Rams?",
+      "url": "https://www.skysports.com/watch/video/13589183/inside-the-huddle-how-will-garrett-injury-impact-rams",
+      "published_at": "Fri, 18 Sep 2026 06:49:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Speaking on Inside The Huddle, Neil Reynolds and Phoebe Schecter discuss what impact Myles Garrett's injury will have on the Los Angeles Rams."
+    },
+    {
+      "id": "c98f40e165ff",
+      "title": "Palmer and Alexander-Arnold recalled to England squad",
+      "url": "https://www.skysports.com/football/news/12040/13589193/trent-alexander-arnold-and-cole-palmer-recalled-to-england-squad-for-nations-league-games-by-thomas-tuchel",
+      "published_at": "Fri, 18 Sep 2026 10:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Trent Alexander-Arnold and Cole Palmer have been recalled to the England squad by Thomas Tuchel for the upcoming Nations League games."
     }
   ]
 }
