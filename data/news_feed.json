@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-18T13:06:37.310397",
-  "total_articles": 5,
+  "updated": "2026-09-18T19:06:26.905165",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 3,
+    "bbc_sport": 3,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "8cacc6627e99",
-      "title": "Ronaldo named in Jesus' first Portugal squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 18 Sep 2026 12:45:25 GMT",
+      "id": "387e2890e739",
+      "title": "Uefa & Concacaf demand Fifa pays $10m to all 211 members",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6158x85pv19o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 18 Sep 2026 16:26:56 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Cristiano Ronaldo is named in the first squad selected by new Portugal coach Jorge Jesus for their upcoming Nations League games."
+      "summary": "Uefa and Concacaf issue a joint statement calling on Fifa to pay $10m from its cash reserves to each of the 211 member associations."
     },
     {
       "id": "38a7eb4e26a1",
@@ -28,6 +28,15 @@
       "summary": "Sam Hutchinson is getting ready to play for Farnham Town in the second qualifying round of the FA Cup - 19 years after making his Chelsea debut under Jose Mourinho."
     },
     {
+      "id": "8cacc6627e99",
+      "title": "Ronaldo named in Jesus' first Portugal squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 18 Sep 2026 12:45:25 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Cristiano Ronaldo is named in the first squad selected by new Portugal coach Jorge Jesus for their upcoming Nations League games."
+    },
+    {
       "id": "ad188063ef46",
       "title": "'Tuchel's learned from World Cup mistakes' - Tuchel's England squad EXPLAINED",
       "url": "https://www.skysports.com/watch/video/13589218/england-squad-whos-in-and-whos-out",
@@ -35,24 +44,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Sky Sports chief correspondent Kaveh Solhekol is at Wembley with the latest on Thomas Tuchel's England squad."
-    },
-    {
-      "id": "4f8d4f203f41",
-      "title": "How will Garrett injury impact Rams?",
-      "url": "https://www.skysports.com/watch/video/13589183/inside-the-huddle-how-will-garrett-injury-impact-rams",
-      "published_at": "Fri, 18 Sep 2026 06:49:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Speaking on Inside The Huddle, Neil Reynolds and Phoebe Schecter discuss what impact Myles Garrett's injury will have on the Los Angeles Rams."
-    },
-    {
-      "id": "c98f40e165ff",
-      "title": "Palmer and Alexander-Arnold recalled to England squad",
-      "url": "https://www.skysports.com/football/news/12040/13589193/trent-alexander-arnold-and-cole-palmer-recalled-to-england-squad-for-nations-league-games-by-thomas-tuchel",
-      "published_at": "Fri, 18 Sep 2026 10:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Trent Alexander-Arnold and Cole Palmer have been recalled to the England squad by Thomas Tuchel for the upcoming Nations League games."
     }
   ]
 }
