@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-17T19:47:32.961994",
-  "total_articles": 4,
+  "updated": "2026-09-18T04:55:38.960714",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -35,15 +35,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Cole Palmer's outstanding form this season has put him in a strong position for an England recall, with the Chelsea man the most likely to be included from all the big names left out of the World Cup "
-    },
-    {
-      "id": "beb3c1457e33",
-      "title": "NFL 2026: UK times and weekly match schedule",
-      "url": "https://www.skysports.com/nfl/news/12040/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
-      "published_at": "Thu, 17 Sep 2026 11:02:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "All the fixtures and UK timings for the NFL's 2026 season as the chase to lift the Vince Lombardi Trophy starts all over again."
     }
   ]
 }
