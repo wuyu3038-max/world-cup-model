@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-18T19:06:26.905165",
-  "total_articles": 4,
+  "updated": "2026-09-19T04:47:16.294275",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 1,
+    "bbc_sport": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -26,24 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Sam Hutchinson is getting ready to play for Farnham Town in the second qualifying round of the FA Cup - 19 years after making his Chelsea debut under Jose Mourinho."
-    },
-    {
-      "id": "8cacc6627e99",
-      "title": "Ronaldo named in Jesus' first Portugal squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 18 Sep 2026 12:45:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Cristiano Ronaldo is named in the first squad selected by new Portugal coach Jorge Jesus for their upcoming Nations League games."
-    },
-    {
-      "id": "ad188063ef46",
-      "title": "'Tuchel's learned from World Cup mistakes' - Tuchel's England squad EXPLAINED",
-      "url": "https://www.skysports.com/watch/video/13589218/england-squad-whos-in-and-whos-out",
-      "published_at": "Fri, 18 Sep 2026 10:10:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Sky Sports chief correspondent Kaveh Solhekol is at Wembley with the latest on Thomas Tuchel's England squad."
     }
   ]
 }
