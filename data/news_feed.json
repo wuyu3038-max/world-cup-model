@@ -1,49 +1,22 @@
 {
-  "updated": "2026-09-19T12:39:19.534579",
-  "total_articles": 4,
+  "updated": "2026-09-19T18:42:27.119942",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 2,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "38a7eb4e26a1",
-      "title": "From depression after Chelsea injury to playing non-league at 37",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm89jqxpvy3xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 18 Sep 2026 07:10:13 GMT",
+      "id": "4becf744d533",
+      "title": "Ratcliffe 'must go' says Man Utd Muslim fan group",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw4663j9zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 19 Sep 2026 14:52:38 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Sam Hutchinson is getting ready to play for Farnham Town in the second qualifying round of the FA Cup - 19 years after making his Chelsea debut under Jose Mourinho."
-    },
-    {
-      "id": "387e2890e739",
-      "title": "Uefa & Concacaf demand Fifa pays $10m to all 211 members",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6158x85pv19o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 18 Sep 2026 16:26:56 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Uefa and Concacaf issue a joint statement calling on Fifa to pay $10m from its cash reserves to each of the 211 member associations."
-    },
-    {
-      "id": "934200578b27",
-      "title": "Everton vs Ipswich team news LIVE!",
-      "url": "https://www.skysports.com/football/everton-vs-ipswich-town/live/559487",
-      "published_at": "Sat, 19 Sep 2026 13:23:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "b7f8ec4c2943",
-      "title": "Newcastle vs Hull City team news LIVE!",
-      "url": "https://www.skysports.com/football/newcastle-united-vs-hull-city/live/559491",
-      "published_at": "Sat, 19 Sep 2026 12:45:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
+      "summary": "The Manchester United Muslim Supporters Club says United co-owner Sir Jim Ratcliffe \"must go\" after he spoke out against immigration and said the country was \"on the slide\"."
     }
   ]
 }
