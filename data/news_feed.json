@@ -1,12 +1,40 @@
 {
-  "updated": "2026-09-21T05:10:55.282497",
-  "total_articles": 0,
+  "updated": "2026-09-21T15:17:15.216829",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 3,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "2d9dc8bd7555",
+      "title": "Palmer & Rice among five withdrawals from England squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c617j2prweejo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 21 Sep 2026 09:36:36 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Tino Livramento, Kobbie Mainoo, Cole Palmer, Marcus Rashford and Declan Rice all pull out of England's squad for forthcoming Nations League matches."
+    },
+    {
+      "id": "63705f63d772",
+      "title": "How is Scotland squad shaping up for Pocognoli debut?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck8d38yz4yymo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 21 Sep 2026 13:49:13 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Sebastien Pocognoli's faces his first test as Scotland head coach against Slovenia on Saturday, but how are his squad shaping up for his debut?"
+    },
+    {
+      "id": "151d5e56c0a9",
+      "title": "Wilson, Darlow and Broadhead out of Wales squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw8r68mv415lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 21 Sep 2026 11:15:06 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Wales suffer a triple blow before their Nations League A campaign with Harry Wilson, Nathan Broadhead and Karl Darlow all out of Craig Bellamy's squad."
+    }
+  ]
 }
