@@ -1,22 +1,12 @@
 {
-  "updated": "2026-09-20T18:57:27.168363",
-  "total_articles": 1,
+  "updated": "2026-09-21T05:10:55.282497",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "4becf744d533",
-      "title": "Ratcliffe 'must go' says Man Utd Muslim fan group",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw4663j9zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 19 Sep 2026 14:52:38 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The Manchester United Muslim Supporters Club says United co-owner Sir Jim Ratcliffe \"must go\" after he spoke out against immigration and said the country was \"on the slide\"."
-    }
-  ]
+  "articles": []
 }
