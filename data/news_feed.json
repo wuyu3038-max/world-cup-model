@@ -1,19 +1,28 @@
 {
-  "updated": "2026-09-21T15:17:15.216829",
-  "total_articles": 3,
+  "updated": "2026-09-21T20:29:50.901395",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 3,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
+      "id": "9f5d707a5c3d",
+      "title": "Infantino proposes external review of Fifa governance",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c639m2yggm1ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 21 Sep 2026 19:50:57 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa president Gianni Infantino has proposed an external review of the governance of world football's governing body."
+    },
+    {
       "id": "2d9dc8bd7555",
       "title": "Palmer & Rice among five withdrawals from England squad",
       "url": "https://www.bbc.co.uk/sport/football/articles/c617j2prweejo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 21 Sep 2026 09:36:36 GMT",
+      "published_at": "Mon, 21 Sep 2026 16:06:03 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Tino Livramento, Kobbie Mainoo, Cole Palmer, Marcus Rashford and Declan Rice all pull out of England's squad for forthcoming Nations League matches."
@@ -22,19 +31,19 @@
       "id": "63705f63d772",
       "title": "How is Scotland squad shaping up for Pocognoli debut?",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck8d38yz4yymo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 21 Sep 2026 13:49:13 GMT",
+      "published_at": "Mon, 21 Sep 2026 17:38:31 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Sebastien Pocognoli's faces his first test as Scotland head coach against Slovenia on Saturday, but how are his squad shaping up for his debut?"
     },
     {
-      "id": "151d5e56c0a9",
-      "title": "Wilson, Darlow and Broadhead out of Wales squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw8r68mv415lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 21 Sep 2026 11:15:06 GMT",
-      "source": "BBC Sport Football",
+      "id": "5dbaf755c086",
+      "title": "Infantino pens letter to FIFA members after backlash over scrapped investment plan",
+      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
+      "published_at": "Mon, 21 Sep 2026 12:09:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Wales suffer a triple blow before their Nations League A campaign with Harry Wilson, Nathan Broadhead and Karl Darlow all out of Craig Bellamy's squad."
+      "summary": ""
     }
   ]
 }
