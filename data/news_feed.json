@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-22T13:37:00.550732",
-  "total_articles": 8,
+  "updated": "2026-09-22T19:49:05.976061",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
-    "sky_sports": 3,
+    "bbc_sport": 4,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "9f5d707a5c3d",
-      "title": "Infantino says he is open to talks over Fifa reform",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c639m2yggm1ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 21 Sep 2026 19:50:57 GMT",
+      "id": "95abfafa442b",
+      "title": "Welsh football chief Mooney challenges Infantino's Fifa reform claims",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck9802yzr716o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 22 Sep 2026 13:48:47 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa president Gianni Infantino has proposed an external review of how world football's governing body operates. shifting tone as he seeks support to stay on."
+      "summary": "Football Association of Wales chief executive Noel Mooney challenges suggestions Fifa is planning major reforms."
     },
     {
       "id": "9757a5b2b1ed",
@@ -28,15 +28,6 @@
       "summary": "New data shows fans were shown more than 28 hours of adverts for unhealthy food and drinks during World Cup matches this summer."
     },
     {
-      "id": "2d9dc8bd7555",
-      "title": "Palmer & Rice among five withdrawals from England squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c617j2prweejo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 21 Sep 2026 16:06:03 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Tino Livramento, Kobbie Mainoo, Cole Palmer, Marcus Rashford and Declan Rice all pull out of England's squad for forthcoming Nations League matches."
-    },
-    {
       "id": "38aa1a2dd0de",
       "title": "How do players withdraw from an international squad?",
       "url": "https://www.bbc.co.uk/sport/football/articles/crz6z2y31pvlo?at_medium=RSS&at_campaign=rss",
@@ -46,13 +37,13 @@
       "summary": "BBC Sport looks at how players withdraw from international squads, after five players dropped out of the England line-up"
     },
     {
-      "id": "63705f63d772",
-      "title": "How is Scotland squad shaping up for Pocognoli debut?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck8d38yz4yymo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 21 Sep 2026 17:38:31 GMT",
+      "id": "9f5d707a5c3d",
+      "title": "Infantino says he is open to talks over Fifa reform",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c639m2yggm1ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 21 Sep 2026 19:50:57 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Sebastien Pocognoli's faces his first test as Scotland head coach against Slovenia on Saturday, but how are his squad shaping up for his debut?"
+      "summary": "Fifa president Gianni Infantino has proposed an external review of how world football's governing body operates. shifting tone as he seeks support to stay on."
     },
     {
       "id": "423511fa5476",
@@ -62,24 +53,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Red Bull driver Isack Hadjar will return to action at the Azerbaijan Grand Prix after missing three races with a wrist injury."
-    },
-    {
-      "id": "4c401ef0b7ef",
-      "title": "Papers: Dowman to link up with England squad",
-      "url": "https://www.skysports.com/football/news/12040/13590534/arsenal-starlet-max-dowman-to-link-up-with-england-senior-squad-after-mass-withdrawals-paper-talk",
-      "published_at": "Mon, 21 Sep 2026 22:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The top stories and transfer rumours from Tuesday's newspapers..."
-    },
-    {
-      "id": "439d3cda6e28",
-      "title": "Stafford, Adams star as Rams beat Giants after Dart's injury",
-      "url": "https://www.skysports.com/nfl/news/12040/13590567/new-york-giants-6-28-los-angeles-rams-matthew-stafford-davante-adams-star-for-super-bowl-favourites-in-statement-win",
-      "published_at": "Tue, 22 Sep 2026 06:20:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The Los Angeles Rams bounced back from their dismal season opener in Australia to deliver a statement performance in their 28-6 victory against the New York Giants."
     }
   ]
 }
