@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-22T05:11:33.304324",
-  "total_articles": 6,
+  "updated": "2026-09-22T13:37:00.550732",
+  "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 2,
+    "bbc_sport": 5,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
@@ -25,7 +25,7 @@
       "published_at": "Mon, 21 Sep 2026 23:03:05 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": " "
+      "summary": "New data shows fans were shown more than 28 hours of adverts for unhealthy food and drinks during World Cup matches this summer."
     },
     {
       "id": "2d9dc8bd7555",
@@ -37,6 +37,15 @@
       "summary": "Tino Livramento, Kobbie Mainoo, Cole Palmer, Marcus Rashford and Declan Rice all pull out of England's squad for forthcoming Nations League matches."
     },
     {
+      "id": "38aa1a2dd0de",
+      "title": "How do players withdraw from an international squad?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crz6z2y31pvlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 22 Sep 2026 09:06:04 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "BBC Sport looks at how players withdraw from international squads, after five players dropped out of the England line-up"
+    },
+    {
       "id": "63705f63d772",
       "title": "How is Scotland squad shaping up for Pocognoli debut?",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck8d38yz4yymo?at_medium=RSS&at_campaign=rss",
@@ -44,6 +53,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Sebastien Pocognoli's faces his first test as Scotland head coach against Slovenia on Saturday, but how are his squad shaping up for his debut?"
+    },
+    {
+      "id": "423511fa5476",
+      "title": "Red Bull's Hadjar to return from injury at Azerbaijan GP",
+      "url": "https://www.skysports.com/f1/news/12040/13590366/isack-hadjar-red-bull-driver-to-return-to-action-at-azerbaijan-gp-after-missing-three-races-with-wrist-injury",
+      "published_at": "Tue, 22 Sep 2026 09:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Red Bull driver Isack Hadjar will return to action at the Azerbaijan Grand Prix after missing three races with a wrist injury."
     },
     {
       "id": "4c401ef0b7ef",
@@ -55,13 +73,13 @@
       "summary": "The top stories and transfer rumours from Tuesday's newspapers..."
     },
     {
-      "id": "5dbaf755c086",
-      "title": "Infantino pens letter to FIFA members after backlash over scrapped investment plan",
-      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
-      "published_at": "Mon, 21 Sep 2026 12:09:00 BST",
+      "id": "439d3cda6e28",
+      "title": "Stafford, Adams star as Rams beat Giants after Dart's injury",
+      "url": "https://www.skysports.com/nfl/news/12040/13590567/new-york-giants-6-28-los-angeles-rams-matthew-stafford-davante-adams-star-for-super-bowl-favourites-in-statement-win",
+      "published_at": "Tue, 22 Sep 2026 06:20:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "The Los Angeles Rams bounced back from their dismal season opener in Australia to deliver a statement performance in their 28-6 victory against the New York Giants."
     }
   ]
 }

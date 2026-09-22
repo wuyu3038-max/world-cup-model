@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-22T05:11:33.366101",
+    "last_updated": "2026-09-22T13:37:00.615387",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -790,6 +790,26 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c617j2prweejo?at_medium=RSS&at_campaign=rss",
       "summary": "Tino Livramento, Kobbie Mainoo, Cole Palmer, Marcus Rashford and Declan Rice all pull out of England's squad for forthcoming Nations League matches.",
       "published": "Mon, 21 Sep 2026 16:06:03 GMT"
+    },
+    {
+      "title": "How do players withdraw from an international squad?",
+      "nations": [
+        "England"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crz6z2y31pvlo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Sport looks at how players withdraw from international squads, after five players dropped out of the England line-up",
+      "published": "Tue, 22 Sep 2026 09:06:04 GMT"
+    },
+    {
+      "title": "Stafford, Adams star as Rams beat Giants after Dart's injury",
+      "nations": [
+        "Australia"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/nfl/news/12040/13590567/new-york-giants-6-28-los-angeles-rams-matthew-stafford-davante-adams-star-for-super-bowl-favourites-in-statement-win",
+      "summary": "The Los Angeles Rams bounced back from their dismal season opener in Australia to deliver a statement performance in their 28-6 victory against the New York Giants.",
+      "published": "Tue, 22 Sep 2026 06:20:00 BST"
     }
   ]
 }
