@@ -1,40 +1,31 @@
 {
-  "updated": "2026-09-23T04:55:50.108074",
-  "total_articles": 3,
+  "updated": "2026-09-23T13:48:37.548345",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
+    "bbc_sport": 2,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "9757a5b2b1ed",
-      "title": "'Constant bombardment' - fans shown 65,000 junk food ads at World Cup ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq4g528drx79o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 21 Sep 2026 23:03:05 GMT",
+      "id": "bacc18c99247",
+      "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 23 Sep 2026 12:34:52 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "New data shows fans were shown more than 28 hours of adverts for unhealthy food and drinks during World Cup matches this summer."
+      "summary": "Sam Kerr and Martha Thomas are named in their first Scotland squad in almost a year for next month's World Cup round one play-offs against the Czech Republic."
     },
     {
-      "id": "95abfafa442b",
-      "title": "Welsh football chief Mooney challenges Infantino's Fifa reform claims",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck9802yzr716o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 22 Sep 2026 13:48:47 GMT",
+      "id": "7bd3337b627d",
+      "title": "'It can't be brushed over' - Republic of Ireland squad to discuss Israel games",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6wyzk2xyz90o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 23 Sep 2026 11:20:34 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Football Association of Wales chief executive Noel Mooney challenges suggestions Fifa is planning major reforms."
-    },
-    {
-      "id": "38aa1a2dd0de",
-      "title": "How do players withdraw from an international squad?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crz6z2y31pvlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 22 Sep 2026 09:06:04 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "BBC Sport looks at how players withdraw from international squads, after five players dropped out of the England line-up"
+      "summary": "Dara O'Shea says the Republic of Ireland squad will wait until after Thursday's Kosovo game before discussing how they approach Sunday's contentious fixture against Israel. "
     }
   ]
 }
