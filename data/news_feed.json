@@ -1,23 +1,14 @@
 {
-  "updated": "2026-09-22T19:49:05.976061",
-  "total_articles": 5,
+  "updated": "2026-09-23T04:55:50.108074",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 1,
+    "bbc_sport": 3,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "95abfafa442b",
-      "title": "Welsh football chief Mooney challenges Infantino's Fifa reform claims",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck9802yzr716o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 22 Sep 2026 13:48:47 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Football Association of Wales chief executive Noel Mooney challenges suggestions Fifa is planning major reforms."
-    },
     {
       "id": "9757a5b2b1ed",
       "title": "'Constant bombardment' - fans shown 65,000 junk food ads at World Cup ",
@@ -28,6 +19,15 @@
       "summary": "New data shows fans were shown more than 28 hours of adverts for unhealthy food and drinks during World Cup matches this summer."
     },
     {
+      "id": "95abfafa442b",
+      "title": "Welsh football chief Mooney challenges Infantino's Fifa reform claims",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck9802yzr716o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 22 Sep 2026 13:48:47 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Football Association of Wales chief executive Noel Mooney challenges suggestions Fifa is planning major reforms."
+    },
+    {
       "id": "38aa1a2dd0de",
       "title": "How do players withdraw from an international squad?",
       "url": "https://www.bbc.co.uk/sport/football/articles/crz6z2y31pvlo?at_medium=RSS&at_campaign=rss",
@@ -35,24 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Sport looks at how players withdraw from international squads, after five players dropped out of the England line-up"
-    },
-    {
-      "id": "9f5d707a5c3d",
-      "title": "Infantino says he is open to talks over Fifa reform",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c639m2yggm1ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 21 Sep 2026 19:50:57 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa president Gianni Infantino has proposed an external review of how world football's governing body operates. shifting tone as he seeks support to stay on."
-    },
-    {
-      "id": "423511fa5476",
-      "title": "Red Bull's Hadjar to return from injury at Azerbaijan GP",
-      "url": "https://www.skysports.com/f1/news/12040/13590366/isack-hadjar-red-bull-driver-to-return-to-action-at-azerbaijan-gp-after-missing-three-races-with-wrist-injury",
-      "published_at": "Tue, 22 Sep 2026 09:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Red Bull driver Isack Hadjar will return to action at the Azerbaijan Grand Prix after missing three races with a wrist injury."
     }
   ]
 }
