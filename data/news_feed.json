@@ -1,22 +1,31 @@
 {
-  "updated": "2026-09-23T13:48:37.548345",
-  "total_articles": 2,
+  "updated": "2026-09-23T19:45:07.521688",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 4,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "bacc18c99247",
-      "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 23 Sep 2026 12:34:52 GMT",
+      "id": "4dcb02c448e9",
+      "title": "England players carrying World Cup scar - Saka",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 23 Sep 2026 14:03:42 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Sam Kerr and Martha Thomas are named in their first Scotland squad in almost a year for next month's World Cup round one play-offs against the Czech Republic."
+      "summary": "England winger Bukayo Saka says the team are still carrying the \"scar\" of their heartbreaking World Cup semi-final exit to Argentina."
+    },
+    {
+      "id": "eda237e09ee0",
+      "title": "The footballer who had a heart transplant - then became a World Cup winner",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 23 Sep 2026 17:45:20 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Martyn Jackson never thought he'd play football again when he had a heart transplant in 2024. Less than two years later, he was a World Cup winner with England."
     },
     {
       "id": "7bd3337b627d",
@@ -26,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Dara O'Shea says the Republic of Ireland squad will wait until after Thursday's Kosovo game before discussing how they approach Sunday's contentious fixture against Israel. "
+    },
+    {
+      "id": "bacc18c99247",
+      "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 23 Sep 2026 12:34:52 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Sam Kerr and Martha Thomas are named in their first Scotland squad in almost a year for next month's World Cup round one play-offs against the Czech Republic."
     }
   ]
 }

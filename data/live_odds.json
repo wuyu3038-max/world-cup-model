@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T13:48:36.024826",
+  "updated": "2026-09-23T19:45:06.052873",
   "source": "reference_odds",
   "matches": {
     "Mexico_vs_South Africa": {
@@ -180,5 +180,5 @@
     }
   },
   "api_error": "No API key. Set ODDS_API_KEY env var or sign up at the-odds-api.com",
-  "refresh_count": 392
+  "refresh_count": 393
 }
