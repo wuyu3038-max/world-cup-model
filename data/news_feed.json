@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-23T19:45:07.521688",
-  "total_articles": 4,
+  "updated": "2026-09-24T05:05:47.982851",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 4,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -44,6 +44,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Sam Kerr and Martha Thomas are named in their first Scotland squad in almost a year for next month's World Cup round one play-offs against the Czech Republic."
+    },
+    {
+      "id": "eb0229f1d727",
+      "title": "Giants QB Dart ruled out for 2026 season with knee injury ",
+      "url": "https://www.skysports.com/nfl/news/12040/13591231/nfl-new-york-giants-quarterback-jaxson-dart-ruled-out-for-the-2026-season-due-to-knee-injury",
+      "published_at": "Wed, 23 Sep 2026 23:37:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "New York Giants quarterback Jaxson Dart will miss the remainder of the 2026 NFL season due to a knee injury."
     }
   ]
 }
