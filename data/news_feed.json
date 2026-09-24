@@ -1,31 +1,22 @@
 {
-  "updated": "2026-09-24T05:05:47.982851",
-  "total_articles": 5,
+  "updated": "2026-09-24T13:43:45.415064",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 1,
+    "bbc_sport": 3,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "4dcb02c448e9",
-      "title": "England players carrying World Cup scar - Saka",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 23 Sep 2026 14:03:42 GMT",
+      "id": "0901c3f80e98",
+      "title": "How Man City overhauled their squad from a 650,000-strong database",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm1wx51gyly5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 24 Sep 2026 09:31:22 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England winger Bukayo Saka says the team are still carrying the \"scar\" of their heartbreaking World Cup semi-final exit to Argentina."
-    },
-    {
-      "id": "eda237e09ee0",
-      "title": "The footballer who had a heart transplant - then became a World Cup winner",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 23 Sep 2026 17:45:20 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Martyn Jackson never thought he'd play football again when he had a heart transplant in 2024. Less than two years later, he was a World Cup winner with England."
+      "summary": "BBC Sport goes inside Manchester City's data team, who have been a key part of their rebuild over the past 18 months."
     },
     {
       "id": "7bd3337b627d",
@@ -37,22 +28,13 @@
       "summary": "Dara O'Shea says the Republic of Ireland squad will wait until after Thursday's Kosovo game before discussing how they approach Sunday's contentious fixture against Israel. "
     },
     {
-      "id": "bacc18c99247",
-      "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 23 Sep 2026 12:34:52 GMT",
+      "id": "eda237e09ee0",
+      "title": "The footballer who had a heart transplant - then became a World Cup winner",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 23 Sep 2026 17:45:20 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Sam Kerr and Martha Thomas are named in their first Scotland squad in almost a year for next month's World Cup round one play-offs against the Czech Republic."
-    },
-    {
-      "id": "eb0229f1d727",
-      "title": "Giants QB Dart ruled out for 2026 season with knee injury ",
-      "url": "https://www.skysports.com/nfl/news/12040/13591231/nfl-new-york-giants-quarterback-jaxson-dart-ruled-out-for-the-2026-season-due-to-knee-injury",
-      "published_at": "Wed, 23 Sep 2026 23:37:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "New York Giants quarterback Jaxson Dart will miss the remainder of the 2026 NFL season due to a knee injury."
+      "summary": "Martyn Jackson never thought he'd play football again when he had a heart transplant in 2024. Less than two years later, he was a World Cup winner with England."
     }
   ]
 }
