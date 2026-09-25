@@ -1,23 +1,14 @@
 {
-  "updated": "2026-09-25T14:06:17.564392",
-  "total_articles": 3,
+  "updated": "2026-09-25T20:05:06.043738",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "a836ae8300bc",
-      "title": "Premier League joins call for Fifa reforms",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq62k9pzy21do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 25 Sep 2026 11:53:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The Premier League joins three of its top European counterparts in calling for \"fundamental\" reform of the way that world football's governing body Fifa is run."
-    },
     {
       "id": "a161551740fb",
       "title": "New-look squad, but how will Pocognoli's Scotland line-up?",
@@ -28,13 +19,13 @@
       "summary": "Former Scotland forwards James McFadden and Pat Nevin try to guess who new head coach Sebastien Pocognoli will pick to start in Slovenia on Saturday."
     },
     {
-      "id": "0bbdc47b57fc",
-      "title": "'Exploitative ideas' - Top leagues criticise Infantino and call for FIFA reform",
-      "url": "https://www.skysports.com/football/news/12040/13591689/fifa-gianni-infantino-exploitative-ideas-criticised-as-premier-league-bundesliga-laliga-and-serie-a-unite-to-call-for-reform",
-      "published_at": "Tue, 04 Aug 2026 14:39:00 BST",
-      "source": "Sky Sports Football",
+      "id": "a836ae8300bc",
+      "title": "Premier League joins call for Fifa reforms",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq62k9pzy21do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 25 Sep 2026 11:53:25 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "A joint statement from Europe's top leagues has hit out at \"exploitative ideas\" pushed by FIFA president Gianni Infantino and called for \"essential\" reform of football's governing body."
+      "summary": "The Premier League joins three of its top European counterparts in calling for \"fundamental\" reform of the way that world football's governing body Fifa is run."
     }
   ]
 }
