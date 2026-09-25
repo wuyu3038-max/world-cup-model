@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T20:03:40.228961",
+  "updated": "2026-09-25T05:08:03.796884",
   "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
@@ -19,6 +19,15 @@
       "summary": "BBC Sport goes inside Manchester City's data team, who have been a key part of their rebuild over the past 18 months."
     },
     {
+      "id": "57dd5932a8cf",
+      "title": "Buttler injury derails England as Sri Lanka level ODI series",
+      "url": "https://www.skysports.com/cricket/news/12040/13591400/england-vs-sri-lanka-visitors-pull-off-shock-16-run-victory-after-jos-buttler-injury-derails-hosts-chase",
+      "published_at": "Thu, 24 Sep 2026 12:58:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Sri Lanka showed great fight to halt England&#8217;s chase and clinch a 16-run victory, levelling the three-match ODI series at 1-1 at Headingley in Leeds."
+    },
+    {
       "id": "fda3e17be017",
       "title": "Premier League in joint call for FIFA reform amid Infantino crisis",
       "url": "https://www.skysports.com/football/news/12040/13591530/gianni-infantino-premier-league-and-three-other-top-european-leagues-to-demand-fifa-reform",
@@ -26,15 +35,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "The Premier League and three of its top European counterparts will on Friday issue a joint call for urgent governance reform at FIFA amid the crisis engulfing its president, Gianni Infantino."
-    },
-    {
-      "id": "5d5f4c52eb16",
-      "title": "Buttler injury halts England as Sri Lanka level series",
-      "url": "https://www.skysports.com/cricket/news/12040/13591400/england-vs-sri-lanka-visitors-pull-off-shock-16-run-victory-after-jos-buttler-injury-derails-england-chase",
-      "published_at": "Thu, 24 Sep 2026 12:58:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Sri Lanka showed great fight to halt England&#8217;s chase and clinch a 16-run victory, levelling the three-match ODI series at 1-1 at Headingley in Leeds."
     }
   ]
 }
