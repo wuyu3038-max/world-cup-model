@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-25T05:08:03.857353",
+    "last_updated": "2026-09-25T14:06:17.627791",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Buttler injury derails England as Sri Lanka level ODI series",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/cricket/news/12040/13591400/england-vs-sri-lanka-visitors-pull-off-shock-16-run-victory-after-jos-buttler-injury-derails-hosts-chase",
-      "summary": "Sri Lanka showed great fight to halt England&#8217;s chase and clinch a 16-run victory, levelling the three-match ODI series at 1-1 at Headingley in Leeds.",
-      "published": "Thu, 24 Sep 2026 12:58:00 BST"
-    }
-  ]
+  "_news_injury_alerts": []
 }
