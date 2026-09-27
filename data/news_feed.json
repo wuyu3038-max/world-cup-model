@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-27T14:14:00.638482",
+  "updated": "2026-09-27T19:49:48.832692",
   "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "2ce0ec83bc1c",
-      "title": "F1 2026 team-mate head-to-heads after Azerbaijan GP",
-      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
-      "published_at": "Sun, 27 Sep 2026 07:05:00 BST",
-      "source": "Sky Sports Football",
+      "id": "3dab1d1e5439",
+      "title": "Fernandes, Gakpo & Dorgu join international break's injury list",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm0qxknzpn8jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 27 Sep 2026 19:05:33 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
+      "summary": "Bruno Fernandes, Cody Gakpo and Patrick Dorgu all join the international break's high-profile injury list after suffering issues that have curtailed their involvement in Nations League matches."
     }
   ]
 }
