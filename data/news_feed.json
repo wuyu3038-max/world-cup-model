@@ -1,31 +1,22 @@
 {
-  "updated": "2026-09-27T05:28:38.672498",
-  "total_articles": 2,
+  "updated": "2026-09-27T14:14:00.638482",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 0,
+    "bbc_sport": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "406a7abaf27d",
-      "title": "Ngumoha not in England squad to face Spain",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqn744el41d8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 26 Sep 2026 10:27:29 GMT",
-      "source": "BBC Sport Football",
+      "id": "2ce0ec83bc1c",
+      "title": "F1 2026 team-mate head-to-heads after Azerbaijan GP",
+      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
+      "published_at": "Sun, 27 Sep 2026 07:05:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Liverpool teenager Rio Ngumoha is not named in England's matchday squad for Saturday's Nations League opener against Spain."
-    },
-    {
-      "id": "69c8f9ef6dce",
-      "title": "Bellamy support crucial after serious injury - Wales' Burns",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cklyjv02ygeeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 26 Sep 2026 09:18:28 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Winger Wes Burns hopes to repay Craig Bellamy's support during a long-term injury by making an impact for Wales in the Nations League."
+      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }
