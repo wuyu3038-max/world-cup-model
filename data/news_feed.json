@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-28T05:37:37.893404",
-  "total_articles": 1,
+  "updated": "2026-09-28T16:57:41.642472",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 0,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
@@ -17,6 +17,42 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Bruno Fernandes, Cody Gakpo and Patrick Dorgu all join the international break's high-profile injury list after suffering issues that have curtailed their involvement in Nations League matches."
+    },
+    {
+      "id": "3c4638a40ea1",
+      "title": "Liverpool latest: Gakpo withdraws from Netherlands squad with injury",
+      "url": "https://www.skysports.com/football/live-blog/12040/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "published_at": "Mon, 28 Sep 2026 14:09:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "12c3f3757089",
+      "title": "Giants trade for McCarthy after Dart injury ",
+      "url": "https://www.skysports.com/nfl/news/12040/13592984/j-j-mccarthy-new-york-giants-trade-for-minnesota-vikings-quarterback-after-jaxson-darts-season-ending-injury",
+      "published_at": "Mon, 28 Sep 2026 17:20:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The New York Giants are trading for Minnesota Vikings quarterback J.J. McCarthy after losing Jaxson Dart for the rest of the 2026 NFL season."
+    },
+    {
+      "id": "8659b29e0269",
+      "title": "Super League Grand Final 2026: Everything you need to know",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13592670/super-league-grand-final-2026-date-venue-timings-as-warrington-wolves-and-wakefield-trinity-look-to-become-sixth-ever-winner",
+      "published_at": "Mon, 28 Sep 2026 10:45:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Ahead of the Super League Grand Final between Warrington Wolves and Wakefield Trinity, on Saturday October 3 at Old Trafford, we take you through everything you need to know..."
+    },
+    {
+      "id": "4b71b96d0979",
+      "title": "England Women name Rugby League World Cup squad",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13592874/england-women-name-2026-rugby-league-world-cup-squad-with-four-potential-debutants-included",
+      "published_at": "Mon, 28 Sep 2026 13:55:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England Women head coach Stuart Barrow has named his 23-player squad for the 2026 Rugby League World Cup."
     }
   ]
 }

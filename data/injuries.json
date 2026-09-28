@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-28T05:37:37.943554",
+    "last_updated": "2026-09-28T16:57:41.704126",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Liverpool latest: Gakpo withdraws from Netherlands squad with injury",
+      "nations": [
+        "Netherlands"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/football/live-blog/12040/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "summary": "",
+      "published": "Mon, 28 Sep 2026 14:09:00 BST"
+    }
+  ]
 }
