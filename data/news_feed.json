@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-28T16:57:41.642472",
-  "total_articles": 5,
+  "updated": "2026-09-28T22:12:59.992374",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 4,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
@@ -44,15 +44,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Ahead of the Super League Grand Final between Warrington Wolves and Wakefield Trinity, on Saturday October 3 at Old Trafford, we take you through everything you need to know..."
-    },
-    {
-      "id": "4b71b96d0979",
-      "title": "England Women name Rugby League World Cup squad",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13592874/england-women-name-2026-rugby-league-world-cup-squad-with-four-potential-debutants-included",
-      "published_at": "Mon, 28 Sep 2026 13:55:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England Women head coach Stuart Barrow has named his 23-player squad for the 2026 Rugby League World Cup."
     }
   ]
 }
