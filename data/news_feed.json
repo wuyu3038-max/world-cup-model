@@ -1,58 +1,94 @@
 {
-  "updated": "2026-09-29T05:54:57.112258",
-  "total_articles": 5,
+  "updated": "2026-09-29T15:01:45.099989",
+  "total_articles": 9,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 4,
+    "bbc_sport": 6,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "49261254ce58",
-      "title": "Infantino makes bigger cash pledge to Fifa members",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6n4k9exz4v3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 28 Sep 2026 22:32:29 GMT",
+      "id": "382bed92ed85",
+      "title": "Toone and Kelly miss out on Lionesses squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 29 Sep 2026 11:39:35 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa president Gianni Infantino indicates more money could be distributed to the governing body's members from its cash reserves."
+      "summary": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month."
     },
     {
-      "id": "33d8995f1149",
-      "title": "Whyte wants Fisher after injury hell - 'I fought Itauma with a broken foot!'",
-      "url": "https://www.skysports.com/boxing/news/12040/13592926/dillian-whyte-was-suffering-from-a-broken-foot-in-moses-itauma-defeat-but-wants-to-return-in-british-battle-with-johnny-fisher",
-      "published_at": "Tue, 29 Sep 2026 06:00:00 BST",
+      "id": "0717c077c83d",
+      "title": "Fifa accuses Uefa of 'misinformation campaign'",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqn0jdx9j01no?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 29 Sep 2026 07:22:33 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Uefa's suggestions that Fifa president Gianni Infantino \"violated any law or ethical principle are categorically without merit\" says world football's governing body."
+    },
+    {
+      "id": "ca81cb6468f8",
+      "title": "Life bright for Gilmour after baseball and World Cup heartache ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm046wnwkvnvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 29 Sep 2026 09:42:29 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Scotland midfielder Billy Gilmour opens up on the pain of missing out of this summer's World Cup."
+    },
+    {
+      "id": "a34adcfba0c0",
+      "title": "O'Reilly to miss Czech Republic game but Konsa in squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj62eyx9grzxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 29 Sep 2026 06:58:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Nico O'Reilly is ruled out of England's Nations League match against the Czech Republic on Tuesday night bu Ezri Konsa is set to be in the squad."
+    },
+    {
+      "id": "ca4afcd86bfd",
+      "title": "Wales without seven players for World Cup play-off",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck1l63y88e3vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 29 Sep 2026 09:00:03 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Ceri Holland is one of seven players who will miss out through injury when a depleted Wales squad take on Albania in their Women's World Cup play-off semi-final next month."
+    },
+    {
+      "id": "ee737bf5b14d",
+      "title": "All you need to know about 2027 Women's World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyk6wpppxeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 29 Sep 2026 09:06:13 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Our Ask Me Anything team take a look at everything you need to know for the 2027 Women's World Cup."
+    },
+    {
+      "id": "f63fc9082890",
+      "title": "Buttler: McCullum can go 'all in' on Cricket World Cup without Test role",
+      "url": "https://www.skysports.com/cricket/news/12040/13593308/joss-buttler-says-brendon-mccullums-removal-as-england-test-coach-may-have-boosted-cricket-world-cup-chances",
+      "published_at": "Tue, 29 Sep 2026 15:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Dillian Whyte provided a gruesome description while explaining the agonising injury that he suffered, just weeks before his last fight against Moses Itauma."
+      "summary": "Jos Buttler believes Brendon McCullum's removal as Test coach may have boosted England's World Cup chances, with the New Zealander now \"all in\" on lifting the trophy next winter."
     },
     {
-      "id": "3c4638a40ea1",
-      "title": "Liverpool latest: Gakpo withdraws from Netherlands squad with injury",
-      "url": "https://www.skysports.com/football/live-blog/12040/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "published_at": "Mon, 28 Sep 2026 14:09:00 BST",
+      "id": "5dbaf755c086",
+      "title": "Hallgrimsson says Ireland squad are ‘all uncomfortable’ ahead of Israel tie",
+      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
+      "published_at": "Tue, 29 Sep 2026 08:07:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
     },
     {
-      "id": "12c3f3757089",
-      "title": "Giants trade for McCarthy after Dart injury ",
-      "url": "https://www.skysports.com/nfl/news/12040/13592984/j-j-mccarthy-new-york-giants-trade-for-minnesota-vikings-quarterback-after-jaxson-darts-season-ending-injury",
-      "published_at": "Mon, 28 Sep 2026 17:20:00 BST",
+      "id": "75484222573a",
+      "title": "Super League Grand Final 2026: Wakefield and Warrington get prepped ",
+      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13592793/super-league-grand-final-2026-live-updates-video-commentary-scores-results-as-warrington-wolves-and-wakefield-trinity-go-to-battle",
+      "published_at": "Tue, 29 Sep 2026 13:30:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The New York Giants are trading for Minnesota Vikings quarterback J.J. McCarthy after losing Jaxson Dart for the rest of the 2026 NFL season."
-    },
-    {
-      "id": "8659b29e0269",
-      "title": "Super League Grand Final 2026: Everything you need to know",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13592670/super-league-grand-final-2026-date-venue-timings-as-warrington-wolves-and-wakefield-trinity-look-to-become-sixth-ever-winner",
-      "published_at": "Mon, 28 Sep 2026 10:45:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Ahead of the Super League Grand Final between Warrington Wolves and Wakefield Trinity, on Saturday October 3 at Old Trafford, we take you through everything you need to know..."
+      "summary": ""
     }
   ]
 }
