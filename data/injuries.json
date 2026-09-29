@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-29T15:01:45.150355",
+    "last_updated": "2026-09-29T20:57:16.296987",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -800,17 +800,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cm046wnwkvnvo?at_medium=RSS&at_campaign=rss",
       "summary": "Scotland midfielder Billy Gilmour opens up on the pain of missing out of this summer's World Cup.",
       "published": "Tue, 29 Sep 2026 09:42:29 GMT"
-    },
-    {
-      "title": "O'Reilly to miss Czech Republic game but Konsa in squad",
-      "nations": [
-        "England",
-        "Czech Republic"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj62eyx9grzxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Nico O'Reilly is ruled out of England's Nations League match against the Czech Republic on Tuesday night bu Ezri Konsa is set to be in the squad.",
-      "published": "Tue, 29 Sep 2026 06:58:53 GMT"
     }
   ]
 }

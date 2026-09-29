@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-29T15:01:45.099989",
-  "total_articles": 9,
+  "updated": "2026-09-29T20:57:16.227913",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 6,
-    "sky_sports": 3,
+    "bbc_sport": 3,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -37,33 +37,6 @@
       "summary": "Scotland midfielder Billy Gilmour opens up on the pain of missing out of this summer's World Cup."
     },
     {
-      "id": "a34adcfba0c0",
-      "title": "O'Reilly to miss Czech Republic game but Konsa in squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj62eyx9grzxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 29 Sep 2026 06:58:53 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Nico O'Reilly is ruled out of England's Nations League match against the Czech Republic on Tuesday night bu Ezri Konsa is set to be in the squad."
-    },
-    {
-      "id": "ca4afcd86bfd",
-      "title": "Wales without seven players for World Cup play-off",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck1l63y88e3vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 29 Sep 2026 09:00:03 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Ceri Holland is one of seven players who will miss out through injury when a depleted Wales squad take on Albania in their Women's World Cup play-off semi-final next month."
-    },
-    {
-      "id": "ee737bf5b14d",
-      "title": "All you need to know about 2027 Women's World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyk6wpppxeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 29 Sep 2026 09:06:13 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Our Ask Me Anything team take a look at everything you need to know for the 2027 Women's World Cup."
-    },
-    {
       "id": "f63fc9082890",
       "title": "Buttler: McCullum can go 'all in' on Cricket World Cup without Test role",
       "url": "https://www.skysports.com/cricket/news/12040/13593308/joss-buttler-says-brendon-mccullums-removal-as-england-test-coach-may-have-boosted-cricket-world-cup-chances",
@@ -71,24 +44,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Jos Buttler believes Brendon McCullum's removal as Test coach may have boosted England's World Cup chances, with the New Zealander now \"all in\" on lifting the trophy next winter."
-    },
-    {
-      "id": "5dbaf755c086",
-      "title": "Hallgrimsson says Ireland squad are ‘all uncomfortable’ ahead of Israel tie",
-      "url": "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
-      "published_at": "Tue, 29 Sep 2026 08:07:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "75484222573a",
-      "title": "Super League Grand Final 2026: Wakefield and Warrington get prepped ",
-      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13592793/super-league-grand-final-2026-live-updates-video-commentary-scores-results-as-warrington-wolves-and-wakefield-trinity-go-to-battle",
-      "published_at": "Tue, 29 Sep 2026 13:30:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
