@@ -1,22 +1,31 @@
 {
-  "updated": "2026-09-28T22:12:59.992374",
-  "total_articles": 4,
+  "updated": "2026-09-29T05:54:57.112258",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 3,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "3dab1d1e5439",
-      "title": "Fernandes, Gakpo & Dorgu join international break's injury list",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm0qxknzpn8jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 27 Sep 2026 19:05:33 GMT",
+      "id": "49261254ce58",
+      "title": "Infantino makes bigger cash pledge to Fifa members",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n4k9exz4v3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 28 Sep 2026 22:32:29 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Bruno Fernandes, Cody Gakpo and Patrick Dorgu all join the international break's high-profile injury list after suffering issues that have curtailed their involvement in Nations League matches."
+      "summary": "Fifa president Gianni Infantino indicates more money could be distributed to the governing body's members from its cash reserves."
+    },
+    {
+      "id": "33d8995f1149",
+      "title": "Whyte wants Fisher after injury hell - 'I fought Itauma with a broken foot!'",
+      "url": "https://www.skysports.com/boxing/news/12040/13592926/dillian-whyte-was-suffering-from-a-broken-foot-in-moses-itauma-defeat-but-wants-to-return-in-british-battle-with-johnny-fisher",
+      "published_at": "Tue, 29 Sep 2026 06:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Dillian Whyte provided a gruesome description while explaining the agonising injury that he suffered, just weeks before his last fight against Moses Itauma."
     },
     {
       "id": "3c4638a40ea1",
