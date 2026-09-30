@@ -1,49 +1,31 @@
 {
-  "updated": "2026-09-30T05:45:14.425661",
-  "total_articles": 4,
+  "updated": "2026-09-30T15:11:24.654616",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
+    "bbc_sport": 1,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "382bed92ed85",
-      "title": "Toone and Kelly miss out on Lionesses squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 29 Sep 2026 11:39:35 GMT",
+      "id": "4a4c828ba7fe",
+      "title": "Elmore and Grant named in Northern Ireland squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj3v4gy5ek7qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 30 Sep 2026 15:04:14 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month."
+      "summary": "Sparta Prague forward Kess Elmore is a surprise first call-up for Northern Ireland's 2027 Women's World Cup play-off with Portugal."
     },
     {
-      "id": "0717c077c83d",
-      "title": "Fifa accuses Uefa of 'misinformation campaign'",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqn0jdx9j01no?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 29 Sep 2026 07:22:33 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Uefa's suggestions that Fifa president Gianni Infantino \"violated any law or ethical principle are categorically without merit\" says world football's governing body."
-    },
-    {
-      "id": "ca81cb6468f8",
-      "title": "Life bright for Gilmour after baseball and World Cup heartache ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm046wnwkvnvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 29 Sep 2026 09:42:29 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Scotland midfielder Billy Gilmour opens up on the pain of missing out of this summer's World Cup."
-    },
-    {
-      "id": "f63fc9082890",
-      "title": "Buttler: McCullum can go 'all in' on Cricket World Cup without Test role",
-      "url": "https://www.skysports.com/cricket/news/12040/13593308/joss-buttler-says-brendon-mccullums-removal-as-england-test-coach-may-have-boosted-cricket-world-cup-chances",
-      "published_at": "Tue, 29 Sep 2026 15:30:00 BST",
+      "id": "cba350fe8feb",
+      "title": "Ocon to leave Haas at end of 2026 season",
+      "url": "https://www.skysports.com/f1/news/12040/13593556/esteban-ocon-haas-driver-to-leave-team-at-end-of-2026-f1-season-after-two-years-with-american-owned-squad",
+      "published_at": "Wed, 30 Sep 2026 09:10:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Jos Buttler believes Brendon McCullum's removal as Test coach may have boosted England's World Cup chances, with the New Zealander now \"all in\" on lifting the trophy next winter."
+      "summary": "Esteban Ocon will leave Haas at the end of the 2026 Formula 1 season, both driver and team have confirmed. "
     }
   ]
 }

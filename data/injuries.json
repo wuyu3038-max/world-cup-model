@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-09-30T05:45:14.511946",
+    "last_updated": "2026-09-30T15:11:24.718083",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,26 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Toone and Kelly miss out on Lionesses squad",
-      "nations": [
-        "England"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
-      "summary": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-      "published": "Tue, 29 Sep 2026 11:39:35 GMT"
-    },
-    {
-      "title": "Life bright for Gilmour after baseball and World Cup heartache ",
-      "nations": [
-        "Scotland"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm046wnwkvnvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Scotland midfielder Billy Gilmour opens up on the pain of missing out of this summer's World Cup.",
-      "published": "Tue, 29 Sep 2026 09:42:29 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }
