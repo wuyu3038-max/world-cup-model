@@ -1,23 +1,14 @@
 {
-  "updated": "2026-09-30T15:11:24.654616",
-  "total_articles": 2,
+  "updated": "2026-09-30T20:55:58.710594",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "4a4c828ba7fe",
-      "title": "Elmore and Grant named in Northern Ireland squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj3v4gy5ek7qo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 30 Sep 2026 15:04:14 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Sparta Prague forward Kess Elmore is a surprise first call-up for Northern Ireland's 2027 Women's World Cup play-off with Portugal."
-    },
     {
       "id": "cba350fe8feb",
       "title": "Ocon to leave Haas at end of 2026 season",
