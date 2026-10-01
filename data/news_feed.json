@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-01T15:36:42.329424",
-  "total_articles": 2,
+  "updated": "2026-10-01T21:11:36.929892",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -17,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Nico O'Reilly withdraws from the England squad for their final two Nations League games of the international break because of injury."
+    },
+    {
+      "id": "5ee1eda4f99f",
+      "title": "England avoid Australia and India in 2027 World Cup group stage ",
+      "url": "https://www.skysports.com/cricket/news/12040/13594096/2027-cricket-world-cup-england-avoid-australia-and-india-in-group-stage-as-fixtures-revealed-for-50-over-tournament",
+      "published_at": "Thu, 01 Oct 2026 18:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England have avoided fellow heavyweights Australia and India in the group stage of the 2027 Men's 50-over World Cup in Africa."
     },
     {
       "id": "61288268bc1b",
