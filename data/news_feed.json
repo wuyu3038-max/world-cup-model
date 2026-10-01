@@ -1,12 +1,31 @@
 {
-  "updated": "2026-10-01T06:12:19.160554",
-  "total_articles": 0,
+  "updated": "2026-10-01T15:36:42.329424",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 0,
+    "bbc_sport": 1,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "74ee687c6374",
+      "title": "Injured O'Reilly withdraws from England squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6kg0gkjngzmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 01 Oct 2026 14:36:12 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Nico O'Reilly withdraws from the England squad for their final two Nations League games of the international break because of injury."
+    },
+    {
+      "id": "61288268bc1b",
+      "title": "Rashid, Curran return from injury as England rest Archer for ODI tri-series",
+      "url": "https://www.skysports.com/cricket/news/12040/13593907/england-recall-fit-again-adil-rashid-and-sam-curran-as-jofra-archer-rested-for-odi-tri-series-against-pakistan-and-sri-lanka",
+      "published_at": "Thu, 01 Oct 2026 11:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Adil Rashid and Sam Curran have been recalled to England's ODI squad after recovering from injury, but Jofra Archer will be rested for the tri-series against Pakistan and Sri Lanka. "
+    }
+  ]
 }
