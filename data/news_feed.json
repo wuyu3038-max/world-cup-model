@@ -1,22 +1,12 @@
 {
-  "updated": "2026-09-30T20:55:58.710594",
-  "total_articles": 1,
+  "updated": "2026-10-01T06:12:19.160554",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "cba350fe8feb",
-      "title": "Ocon to leave Haas at end of 2026 season",
-      "url": "https://www.skysports.com/f1/news/12040/13593556/esteban-ocon-haas-driver-to-leave-team-at-end-of-2026-f1-season-after-two-years-with-american-owned-squad",
-      "published_at": "Wed, 30 Sep 2026 09:10:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Esteban Ocon will leave Haas at the end of the 2026 Formula 1 season, both driver and team have confirmed. "
-    }
-  ]
+  "articles": []
 }
