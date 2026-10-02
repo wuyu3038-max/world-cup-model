@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-01T21:11:36.929892",
-  "total_articles": 3,
+  "updated": "2026-10-02T05:55:37.791542",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -17,24 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Nico O'Reilly withdraws from the England squad for their final two Nations League games of the international break because of injury."
-    },
-    {
-      "id": "5ee1eda4f99f",
-      "title": "England avoid Australia and India in 2027 World Cup group stage ",
-      "url": "https://www.skysports.com/cricket/news/12040/13594096/2027-cricket-world-cup-england-avoid-australia-and-india-in-group-stage-as-fixtures-revealed-for-50-over-tournament",
-      "published_at": "Thu, 01 Oct 2026 18:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England have avoided fellow heavyweights Australia and India in the group stage of the 2027 Men's 50-over World Cup in Africa."
-    },
-    {
-      "id": "61288268bc1b",
-      "title": "Rashid, Curran return from injury as England rest Archer for ODI tri-series",
-      "url": "https://www.skysports.com/cricket/news/12040/13593907/england-recall-fit-again-adil-rashid-and-sam-curran-as-jofra-archer-rested-for-odi-tri-series-against-pakistan-and-sri-lanka",
-      "published_at": "Thu, 01 Oct 2026 11:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Adil Rashid and Sam Curran have been recalled to England's ODI squad after recovering from injury, but Jofra Archer will be rested for the tri-series against Pakistan and Sri Lanka. "
     }
   ]
 }
