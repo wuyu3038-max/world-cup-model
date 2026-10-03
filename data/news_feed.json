@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-02T20:52:17.176120",
-  "total_articles": 1,
+  "updated": "2026-10-03T05:30:36.053326",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -17,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Sport looks at how Manchester City's guilty verdict will affect their existing players' futures and the club's dealings in the transfer market."
+    },
+    {
+      "id": "2a1d3028666d",
+      "title": "Scandinavia seeks sixth Group 1 in Prix du Cadran",
+      "url": "https://www.skysports.com/racing/news/12040/13594041/today-on-sky-sports-racing-scandinavia-seeks-sixth-group-1-in-prix-du-cadran",
+      "published_at": "Sat, 03 Oct 2026 06:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Scandinavia takes on Queenstown and Caballo De Mar as Arc weekend gets underway - live on Sky Sports Racing."
     }
   ]
 }
