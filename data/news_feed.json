@@ -1,14 +1,23 @@
 {
-  "updated": "2026-10-03T13:38:07.467781",
+  "updated": "2026-10-03T19:20:08.000671",
   "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 1,
+    "bbc_sport": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "b3215b47b918",
+      "title": "Group has 'exploded' after Wales win - Bellamy ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmkgewx77521o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 03 Oct 2026 16:11:50 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Craig Bellamy says Wales' win over Norway has \"thrown a hand grenade\" into their Nations League group as they go in search of another victory against Denmark in Cardiff on Sunday."
+    },
     {
       "id": "a80d52c9a246",
       "title": "What does Man City guilty verdict mean for their squad?",
@@ -17,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Sport looks at how Manchester City's guilty verdict will affect their existing players' futures and the club's dealings in the transfer market."
-    },
-    {
-      "id": "2a1d3028666d",
-      "title": "Scandinavia seeks sixth Group 1 in Prix du Cadran",
-      "url": "https://www.skysports.com/racing/news/12040/13594041/today-on-sky-sports-racing-scandinavia-seeks-sixth-group-1-in-prix-du-cadran",
-      "published_at": "Sat, 03 Oct 2026 06:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Scandinavia takes on Queenstown and Caballo De Mar as Arc weekend gets underway - live on Sky Sports Racing."
     }
   ]
 }
