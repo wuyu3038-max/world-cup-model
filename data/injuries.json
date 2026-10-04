@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-10-04T06:05:12.081516",
+    "last_updated": "2026-10-04T14:18:26.745492",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Star man Connor left out of England squad for Rugby League World Cup",
+      "nations": [
+        "England"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13595023/rugby-league-world-cup-leeds-rhinos-star-man-jake-connor-left-out-of-england-23-player-squad",
+      "summary": "Leeds Rhinos' star man Jake Connor has been left out of England's 23-player squad for the upcoming Rugby League World Cup.",
+      "published": "Sun, 04 Oct 2026 14:09:00 BST"
+    }
+  ]
 }
