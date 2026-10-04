@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-04T14:18:26.685197",
-  "total_articles": 3,
+  "updated": "2026-10-04T19:44:38.766213",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -17,24 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Scotland speaks to Kieron Bowie after he scores his first goal for his country against North Macedonia."
-    },
-    {
-      "id": "b3215b47b918",
-      "title": "Group has 'exploded' after Wales win - Bellamy ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmkgewx77521o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 03 Oct 2026 16:11:50 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Craig Bellamy says Wales' win over Norway has \"thrown a hand grenade\" into their Nations League group as they go in search of another victory against Denmark in Cardiff on Sunday."
-    },
-    {
-      "id": "6f06e169c50e",
-      "title": "Star man Connor left out of England squad for Rugby League World Cup",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13595023/rugby-league-world-cup-leeds-rhinos-star-man-jake-connor-left-out-of-england-23-player-squad",
-      "published_at": "Sun, 04 Oct 2026 14:09:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Leeds Rhinos' star man Jake Connor has been left out of England's 23-player squad for the upcoming Rugby League World Cup."
     }
   ]
 }
