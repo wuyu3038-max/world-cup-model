@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-04T19:44:38.766213",
-  "total_articles": 1,
+  "updated": "2026-10-05T05:57:53.479010",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -17,6 +17,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "BBC Scotland speaks to Kieron Bowie after he scores his first goal for his country against North Macedonia."
+    },
+    {
+      "id": "34ad7156018a",
+      "title": "Fans group questions Desmond's priorities amid Celtic protest row",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c60qke217knjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 04 Oct 2026 21:28:34 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The Celtic Fans Collective has criticised Dermot Desmond's \"priorities\" after the Scottish champions withdrew recognition of the group following a protest against the major shareholder at the Alfred D"
+    },
+    {
+      "id": "972012486b2a",
+      "title": "F1 Sprint format: How does it work in 2026?",
+      "url": "https://www.skysports.com/f1/news/12040/13518235/f1-sprint-schedule-points-results-format-explained-qualifying-race-and-venues-for-2026-season",
+      "published_at": "Mon, 05 Oct 2026 06:05:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Everything you need to know about Formula 1's Sprint weekend format for the 2026 F1 season."
     }
   ]
 }
