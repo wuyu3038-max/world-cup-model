@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-10-05T17:19:53.740349",
+    "last_updated": "2026-10-05T22:50:21.236959",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Monday Night Club: England, Alex Scott injury & Robbie Savage on his new job",
+      "nations": [
+        "England"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pf4nx4?at_medium=RSS&at_campaign=rss",
+      "summary": "What are the benefits of players going abroad to play their club football?",
+      "published": "Mon, 05 Oct 2026 20:31:00 GMT"
+    }
+  ]
 }
