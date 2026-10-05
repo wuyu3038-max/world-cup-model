@@ -1,14 +1,23 @@
 {
-  "updated": "2026-10-05T05:57:53.479010",
-  "total_articles": 3,
+  "updated": "2026-10-05T17:19:53.677313",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "02f376f3076b",
+      "title": "Player welfare, injury worries & boredom - has extended break worked?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq8jz7verm24o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 05 Oct 2026 14:54:39 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The extended international break was brought in with player welfare in mind, but has it been a success?"
+    },
     {
       "id": "ea179b54df18",
       "title": "Bowie seizing Scotland shot after World Cup disappointment",
@@ -19,22 +28,22 @@
       "summary": "BBC Scotland speaks to Kieron Bowie after he scores his first goal for his country against North Macedonia."
     },
     {
-      "id": "34ad7156018a",
-      "title": "Fans group questions Desmond's priorities amid Celtic protest row",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c60qke217knjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 04 Oct 2026 21:28:34 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The Celtic Fans Collective has criticised Dermot Desmond's \"priorities\" after the Scottish champions withdrew recognition of the group following a protest against the major shareholder at the Alfred D"
-    },
-    {
-      "id": "972012486b2a",
-      "title": "F1 Sprint format: How does it work in 2026?",
-      "url": "https://www.skysports.com/f1/news/12040/13518235/f1-sprint-schedule-points-results-format-explained-qualifying-race-and-venues-for-2026-season",
-      "published_at": "Mon, 05 Oct 2026 06:05:00 BST",
+      "id": "781d5cea96be",
+      "title": "Connor out, Lewis in - England's World Cup squad confirmed",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13595250/rugby-league-world-cup-2026-england-coach-brian-mcdermott-names-23-player-squad-as-leeds-star-jake-connor-misses-out",
+      "published_at": "Mon, 05 Oct 2026 09:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Everything you need to know about Formula 1's Sprint weekend format for the 2026 F1 season."
+      "summary": "Brian McDermott has named his 23-player England squad for the 2026 Rugby League World Cup, with Mikey Lewis selected ahead of Jake Connor."
+    },
+    {
+      "id": "2ce0ec83bc1c",
+      "title": "F1 2026 team-mate head-to-heads after Bahrain GP in Malaysia",
+      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
+      "published_at": "Mon, 05 Oct 2026 08:25:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }
