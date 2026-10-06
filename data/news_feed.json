@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-06T15:24:22.149829",
+  "updated": "2026-10-06T21:06:34.691370",
   "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 3,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -28,6 +28,15 @@
       "summary": "The extended international break was brought in with player welfare in mind, but has it been a success?"
     },
     {
+      "id": "f7536c13dfb5",
+      "title": "What's it like to be the World Cup final referee?",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ck86zq03wznlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 06 Oct 2026 13:35:46 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Slavko Vincic, who refereed the 2026 World Cup final, reveals what it's like to take charge of the biggest game in football."
+    },
+    {
       "id": "ccc190cd6c15",
       "title": "Alcaraz wins Japan Open in first final since wrist injury",
       "url": "https://www.skysports.com/tennis/news/12040/13595696/carlos-alcaraz-spaniard-wins-japan-open-in-first-final-since-coming-back-from-injury-lay-off-for-wrist-injury",
@@ -44,15 +53,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "World No 1 &#8204;Jannik Sinner will miss the rest of the 2026 season due to the knee injury that has kept him on the sidelines since winning Wimbledon."
-    },
-    {
-      "id": "31a4e970a7c1",
-      "title": "India's World Cup-winning captain Harmanpreet steps down",
-      "url": "https://www.skysports.com/cricket/news/12040/13595632/harmanpreet-kaur-indias-world-cup-winning-captain-steps-down-from-role-across-all-three-formats-of-cricket",
-      "published_at": "Tue, 06 Oct 2026 08:45:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "India's World Cup-winning captain Harmanpreet Kaur has stepped down from the role across all three formats."
     }
   ]
 }
