@@ -1,14 +1,23 @@
 {
-  "updated": "2026-10-06T06:36:04.554680",
-  "total_articles": 3,
+  "updated": "2026-10-06T15:24:22.149829",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 1,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "cc9bf7e7054c",
+      "title": "US group given SFA green light in bid to buy Shrewsbury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n49218ky0yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 06 Oct 2026 13:28:53 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "The US group trying to buy Shrewsbury Town get clearance to hold controlling interests in two clubs after the Scottish FA give green light over involvement with Spartans FC."
+    },
     {
       "id": "02f376f3076b",
       "title": "Player welfare, injury worries & boredom - has extended break worked?",
@@ -19,22 +28,31 @@
       "summary": "The extended international break was brought in with player welfare in mind, but has it been a success?"
     },
     {
-      "id": "f34e87942aca",
-      "title": "Monday Night Club: England, Alex Scott injury & Robbie Savage on his new job",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pf4nx4?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 05 Oct 2026 20:31:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "What are the benefits of players going abroad to play their club football?"
-    },
-    {
-      "id": "a8878c8d7e82",
-      "title": "Inside JJ Gabriel's Man Utd future and why he was in first-team squad photo",
-      "url": "https://www.skysports.com/football/news/12040/13595519/jj-gabriel-man-utd-prodigy-still-expected-to-leave-despite-first-team-photo-inclusion-this-is-how-it-unfolded",
-      "published_at": "Mon, 05 Oct 2026 17:52:00 BST",
+      "id": "ccc190cd6c15",
+      "title": "Alcaraz wins Japan Open in first final since wrist injury",
+      "url": "https://www.skysports.com/tennis/news/12040/13595696/carlos-alcaraz-spaniard-wins-japan-open-in-first-final-since-coming-back-from-injury-lay-off-for-wrist-injury",
+      "published_at": "Tue, 06 Oct 2026 11:58:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "JJ Gabriel is still expected to leave Manchester United despite featuring in the club's squad photo for the 2026/27 season."
+      "summary": "Carlos Alcaraz has won his first final since coming back from a long injury lay-off for a right wrist injury with success at the Japan Open."
+    },
+    {
+      "id": "966ebafc5a70",
+      "title": "World No 1 Sinner to miss rest of 2026 season",
+      "url": "https://www.skysports.com/tennis/news/12040/13595661/jannik-sinner-world-no-1-to-miss-rest-of-season-due-to-knee-injury-and-has-not-played-since-winning-wimbledon",
+      "published_at": "Tue, 06 Oct 2026 09:48:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "World No 1 &#8204;Jannik Sinner will miss the rest of the 2026 season due to the knee injury that has kept him on the sidelines since winning Wimbledon."
+    },
+    {
+      "id": "31a4e970a7c1",
+      "title": "India's World Cup-winning captain Harmanpreet steps down",
+      "url": "https://www.skysports.com/cricket/news/12040/13595632/harmanpreet-kaur-indias-world-cup-winning-captain-steps-down-from-role-across-all-three-formats-of-cricket",
+      "published_at": "Tue, 06 Oct 2026 08:45:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "India's World Cup-winning captain Harmanpreet Kaur has stepped down from the role across all three formats."
     }
   ]
 }

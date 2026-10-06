@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-10-06T06:36:04.624166",
+    "last_updated": "2026-10-06T15:24:22.215987",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -782,14 +782,14 @@
   },
   "_news_injury_alerts": [
     {
-      "title": "Monday Night Club: England, Alex Scott injury & Robbie Savage on his new job",
+      "title": "Alcaraz wins Japan Open in first final since wrist injury",
       "nations": [
-        "England"
+        "Japan"
       ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pf4nx4?at_medium=RSS&at_campaign=rss",
-      "summary": "What are the benefits of players going abroad to play their club football?",
-      "published": "Mon, 05 Oct 2026 20:31:00 GMT"
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/tennis/news/12040/13595696/carlos-alcaraz-spaniard-wins-japan-open-in-first-final-since-coming-back-from-injury-lay-off-for-wrist-injury",
+      "summary": "Carlos Alcaraz has won his first final since coming back from a long injury lay-off for a right wrist injury with success at the Japan Open.",
+      "published": "Tue, 06 Oct 2026 11:58:00 BST"
     }
   ]
 }
