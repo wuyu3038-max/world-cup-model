@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-07T15:43:09.184923",
-  "total_articles": 4,
+  "updated": "2026-10-07T21:27:54.029770",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 2,
+    "bbc_sport": 1,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -13,19 +13,10 @@
       "id": "a44610705c15",
       "title": "Ex-Spurs player Vega set to run for Fifa president",
       "url": "https://www.bbc.co.uk/sport/football/articles/c607397pjv37o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 07 Oct 2026 15:16:40 GMT",
+      "published_at": "Wed, 07 Oct 2026 19:24:19 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Former Tottenham Hotspur defender Ramon Vega says he intends to stand as a candidate in next year's Fifa presidential election."
-    },
-    {
-      "id": "0d0574860334",
-      "title": "'Nothing can take my attention' - Ward on World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg07v9xrz4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 07 Oct 2026 08:57:21 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Republic of Ireland manager Carla Ward says that \"nothing is tempting\" her away from her job as they prepare for a World Cup qualifying double-header against Kazakhstan. "
+      "summary": "Former Tottenham defender Ramon Vega says he intends to run in next year's Fifa presidential election - becoming the first person to confirm they want to challenge Gianni Infantino."
     },
     {
       "id": "18624eb5804c",
@@ -35,15 +26,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "The Wembley crowd was in party mood and the fans sang Thomas Tuchel's name. Three straight wins without conceding, Harry Kane feted as England's greatest ever servant, a Nations League quarter-final a"
-    },
-    {
-      "id": "0d5ebd8c817c",
-      "title": "'No excuses' for Reed after injury as he looks to increase Race to Dubai lead",
-      "url": "https://www.skysports.com/golf/news/12040/13596001/open-de-espana-patrick-reed-looking-to-extend-lead-over-rory-mcilroy-in-race-to-dubai-as-he-makes-return-from-injury",
-      "published_at": "Wed, 07 Oct 2026 07:02:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Race to Dubai leader Patrick Reed says becoming the second American to be crowned European No 1 would mean \"a lot\" and insists he has \"no excuses\" as he looks to extend his advantage over Rory McIlroy"
     }
   ]
 }
