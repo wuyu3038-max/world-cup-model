@@ -1,14 +1,23 @@
 {
-  "updated": "2026-10-08T15:48:55.788375",
-  "total_articles": 7,
+  "updated": "2026-10-08T21:25:57.009929",
+  "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 5,
-    "sky_sports": 2,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "66db2266543b",
+      "title": "Maresca says 'feeling is fantastic' among Man City squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n4ex2lgg2ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 08 Oct 2026 20:40:15 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Enzo Maresca says his players \"don't care too much about the noise\" surrounding Manchester City over the 115 Premier League charges."
+    },
     {
       "id": "80e6b6bdf361",
       "title": "Toone comes into England squad as Bronze withdraws",
@@ -37,15 +46,6 @@
       "summary": "England, Wales, Northern Ireland, Scotland and the Republic of Ireland are among those hoping to qualify for next year's Women's World Cup. What awaits them in the play-offs?"
     },
     {
-      "id": "a44610705c15",
-      "title": "Ex-Spurs player Vega set to run for Fifa president",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c607397pjv37o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 07 Oct 2026 19:24:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Former Tottenham defender Ramon Vega says he intends to run in next year's Fifa presidential election - becoming the first person to confirm they want to challenge Gianni Infantino."
-    },
-    {
       "id": "7a97e303fe26",
       "title": "Watch: Every Messi World Cup goal for Argentina",
       "url": "https://www.bbc.co.uk/sport/football/videos/c61kdn0nwld4o?at_medium=RSS&at_campaign=rss",
@@ -62,6 +62,15 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Stephen Bunting will begin his defence of the Swiss Darts Trophy against Jeffrey de Graaf or Sietse Lap as the race for European Championship qualification continues."
+    },
+    {
+      "id": "468947d66bc2",
+      "title": "How England snub could boost Toone’s World Cup chances",
+      "url": "https://www.skysports.com/football/news/12040/13596592/greece-vs-england-how-ella-toones-lionesses-snub-could-boost-her-world-cup-chances",
+      "published_at": "Thu, 08 Oct 2026 18:58:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Ella Toone may have started this international break on the outside looking in, but she looks set to emerge from it with her chances of making it to Brazil next summer strengthened."
     },
     {
       "id": "694061eda99b",
