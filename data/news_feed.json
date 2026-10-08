@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-07T21:27:54.029770",
-  "total_articles": 2,
+  "updated": "2026-10-08T06:22:07.189556",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -17,15 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Former Tottenham defender Ramon Vega says he intends to run in next year's Fifa presidential election - becoming the first person to confirm they want to challenge Gianni Infantino."
-    },
-    {
-      "id": "18624eb5804c",
-      "title": "World Cup criticism still stings Tuchel despite Nations League positives",
-      "url": "https://www.skysports.com/football/news/12040/13596119/england-thomas-tuchel-still-stinging-from-world-cup-criticism-despite-nations-league-positives",
-      "published_at": "Wed, 07 Oct 2026 12:38:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The Wembley crowd was in party mood and the fans sang Thomas Tuchel's name. Three straight wins without conceding, Harry Kane feted as England's greatest ever servant, a Nations League quarter-final a"
     }
   ]
 }
