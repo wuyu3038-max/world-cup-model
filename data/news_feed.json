@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-08T21:25:57.009929",
+  "updated": "2026-10-09T06:23:44.251934",
   "total_articles": 8,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
-    "sky_sports": 3,
+    "bbc_sport": 6,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -17,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Enzo Maresca says his players \"don't care too much about the noise\" surrounding Manchester City over the 115 Premier League charges."
+    },
+    {
+      "id": "dea2f77f6329",
+      "title": "Wales captain James has World Cup on her mind ",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwp8gnj1n7yyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 09 Oct 2026 03:27:58 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Wales take on Albania over two legs in the semi-finals of the play-offs motivated by reaching a World Cup for the first time."
     },
     {
       "id": "80e6b6bdf361",
@@ -71,15 +80,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Ella Toone may have started this international break on the outside looking in, but she looks set to emerge from it with her chances of making it to Brazil next summer strengthened."
-    },
-    {
-      "id": "694061eda99b",
-      "title": "James: England must keep looking forward in quest for World Cup place",
-      "url": "https://www.skysports.com/football/news/12040/13595901/england-lauren-james-says-sarina-wiegmans-side-must-have-no-regrets-as-greece-world-cup-play-off-awaits",
-      "published_at": "Thu, 08 Oct 2026 12:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Lauren James says England cannot do anything about the situation they find themselves in and just need to beat Greece in their play-off double-header in an effort to secure their place at next summer&"
     }
   ]
 }
