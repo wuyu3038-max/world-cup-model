@@ -1,85 +1,22 @@
 {
-  "updated": "2026-10-09T06:23:44.251934",
-  "total_articles": 8,
+  "updated": "2026-10-09T15:31:03.793676",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 6,
-    "sky_sports": 2,
+    "bbc_sport": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "66db2266543b",
-      "title": "Maresca says 'feeling is fantastic' among Man City squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6n4ex2lgg2ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 08 Oct 2026 20:40:15 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Enzo Maresca says his players \"don't care too much about the noise\" surrounding Manchester City over the 115 Premier League charges."
-    },
-    {
-      "id": "dea2f77f6329",
-      "title": "Wales captain James has World Cup on her mind ",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwp8gnj1n7yyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 09 Oct 2026 03:27:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Wales take on Albania over two legs in the semi-finals of the play-offs motivated by reaching a World Cup for the first time."
-    },
-    {
-      "id": "80e6b6bdf361",
-      "title": "Toone comes into England squad as Bronze withdraws",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 08 Oct 2026 09:04:00 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece."
-    },
-    {
-      "id": "06de336e9339",
-      "title": "Wales target clean sheet in World Cup play-off first leg",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwr7yv4yl59do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 08 Oct 2026 14:38:30 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Rhian Wilkinson makes a clean sheet the first target for Wales in Friday's Women's World Cup play-off semi-final first leg against Albania."
-    },
-    {
-      "id": "f04ae14e3d47",
-      "title": "How can home nations reach Women's World Cup?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqzrdmjp5162o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 08 Oct 2026 07:01:10 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England, Wales, Northern Ireland, Scotland and the Republic of Ireland are among those hoping to qualify for next year's Women's World Cup. What awaits them in the play-offs?"
-    },
-    {
-      "id": "7a97e303fe26",
-      "title": "Watch: Every Messi World Cup goal for Argentina",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c61kdn0nwld4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 07 Oct 2026 05:24:54 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch every World Cup goal scored by Lionel Messi, as the Argentina forward retires from international football."
-    },
-    {
-      "id": "50159eef1982",
-      "title": "Swiss Darts Trophy 2026: Schedule, draw, dates as Bunting defends his title ",
-      "url": "https://www.skysports.com/darts/news/12040/13596573/swiss-darts-trophy-2026-schedule-draw-dates-as-stephen-bunting-defends-his-title-and-european-championship-race-hots-up",
-      "published_at": "Thu, 08 Oct 2026 16:02:00 BST",
+      "id": "3f526b8daa2e",
+      "title": "Edwards signs with Argentina as defence coach until after 2027 World Cup",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13596902/shaun-edwards-coveted-defence-coach-signs-contract-with-argentina-until-after-2027-rugby-world-cup",
+      "published_at": "Fri, 09 Oct 2026 14:24:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Stephen Bunting will begin his defence of the Swiss Darts Trophy against Jeffrey de Graaf or Sietse Lap as the race for European Championship qualification continues."
-    },
-    {
-      "id": "468947d66bc2",
-      "title": "How England snub could boost Toone’s World Cup chances",
-      "url": "https://www.skysports.com/football/news/12040/13596592/greece-vs-england-how-ella-toones-lionesses-snub-could-boost-her-world-cup-chances",
-      "published_at": "Thu, 08 Oct 2026 18:58:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Ella Toone may have started this international break on the outside looking in, but she looks set to emerge from it with her chances of making it to Brazil next summer strengthened."
+      "summary": "Coveted defence coach Shaun Edwards has signed a contract with Argentina until after the 2027 Rugby World Cup in Australia, ending any possibility of him linking up with Steve Borthwick's England."
     }
   ]
 }
