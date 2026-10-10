@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-09T21:06:28.486845",
-  "total_articles": 3,
+  "updated": "2026-10-10T06:04:59.590924",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 3,
     "sky_sports": 1,
     "goal_com": 0
   },
@@ -17,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Little more than two months since news broke of Infantino's Fifa Forward Enterprise proposal, the chances appear slim that Gianni Infantino might be removed as president."
+    },
+    {
+      "id": "9b7388a12a9c",
+      "title": "NI World Cup hopes gone from 'improbable to impossible'",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6gqw03lxxnno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 09 Oct 2026 21:24:28 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Michael McArdle admits Northern Ireland's chances of beating Portugal in a Women's World Cup play-off have \"gone from improbable to impossible\" after a 4-0 first leg defeat."
     },
     {
       "id": "7a97e303fe26",
