@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-10T06:04:59.590924",
+  "updated": "2026-10-10T14:38:33.594198",
   "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 1,
+    "bbc_sport": 4,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "435a25f8b718",
-      "title": "Will anyone stop re-election of Infantino as Fifa president?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjn5v7zdrp5po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 09 Oct 2026 16:28:23 GMT",
+      "id": "92935e72fe87",
+      "title": "Raphinha's brilliant Barcelona start interrupted by injury concerns",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckz65plq04nqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 10 Oct 2026 08:27:28 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Little more than two months since news broke of Infantino's Fifa Forward Enterprise proposal, the chances appear slim that Gianni Infantino might be removed as president."
+      "summary": "Raphinha will miss Barcelona's next two fixtures after returning from international break with an injury."
     },
     {
       "id": "9b7388a12a9c",
@@ -28,6 +28,15 @@
       "summary": "Michael McArdle admits Northern Ireland's chances of beating Portugal in a Women's World Cup play-off have \"gone from improbable to impossible\" after a 4-0 first leg defeat."
     },
     {
+      "id": "435a25f8b718",
+      "title": "Will anyone stop re-election of Infantino as Fifa president?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjn5v7zdrp5po?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 09 Oct 2026 16:28:23 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Little more than two months since news broke of Infantino's Fifa Forward Enterprise proposal, the chances appear slim that Gianni Infantino might be removed as president."
+    },
+    {
       "id": "7a97e303fe26",
       "title": "Watch: Every Messi World Cup goal for Argentina",
       "url": "https://www.bbc.co.uk/sport/football/videos/c61kdn0nwld4o?at_medium=RSS&at_campaign=rss",
@@ -35,15 +44,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch every World Cup goal scored by Lionel Messi, as the Argentina forward retires from international football."
-    },
-    {
-      "id": "79a4630212ea",
-      "title": "England take control of World Cup play-off with win in Greece",
-      "url": "https://www.skysports.com/football/greece-women-vs-england-women/report/559077",
-      "published_at": "Fri, 09 Oct 2026 19:30:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England are in control of their World Cup play-off with Greece after winning the first leg 3-1 in Crete."
     }
   ]
 }
