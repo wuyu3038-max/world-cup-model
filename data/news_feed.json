@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-10T20:13:39.098654",
-  "total_articles": 1,
+  "updated": "2026-10-11T06:03:04.399683",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -17,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Heroics and battling performances have already become a theme of Arsenal's season with Bruno Guimaraes coming to the rescue again. "
+    },
+    {
+      "id": "dad6cf312119",
+      "title": "Papers: Wenger urged to stand for FIFA presidency",
+      "url": "https://www.skysports.com/football/news/12040/13597627/arsene-wenger-urged-to-stand-against-gianni-infantino-for-fifa-presidency-paper-talk",
+      "published_at": "Sat, 10 Oct 2026 22:36:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The top stories and transfer rumours from Sunday's newspapers..."
     }
   ]
 }
