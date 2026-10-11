@@ -1,14 +1,23 @@
 {
-  "updated": "2026-10-11T15:02:11.499247",
+  "updated": "2026-10-11T20:28:34.028492",
   "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 1,
+    "bbc_sport": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "eb0500debcc1",
+      "title": "Hughes focused on Albania before World Cup dream",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq1m4ngv99mvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 11 Oct 2026 16:08:42 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Wales forward Elise Hughes admits reaching the World Cup would fulfil a lifelong ambition."
+    },
     {
       "id": "64dfbef226a3",
       "title": "Hincapie injury adds to Arsenal issues after Guimaraes rescue act",
@@ -17,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Heroics and battling performances have already become a theme of Arsenal's season with Bruno Guimaraes coming to the rescue again. "
-    },
-    {
-      "id": "dad6cf312119",
-      "title": "Papers: Wenger urged to stand for FIFA presidency",
-      "url": "https://www.skysports.com/football/news/12040/13597627/arsene-wenger-urged-to-stand-against-gianni-infantino-for-fifa-presidency-paper-talk",
-      "published_at": "Sat, 10 Oct 2026 22:36:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The top stories and transfer rumours from Sunday's newspapers..."
     }
   ]
 }
