@@ -1,31 +1,49 @@
 {
-  "updated": "2026-10-12T06:13:26.668726",
-  "total_articles": 2,
+  "updated": "2026-10-12T18:08:50.750730",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 4,
     "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "eb0500debcc1",
-      "title": "Hughes focused on Albania before World Cup dream",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq1m4ngv99mvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 11 Oct 2026 16:08:42 GMT",
+      "id": "628e8429f6b1",
+      "title": "Alcohol allowed at seats for Scotland's World Cup play-off",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c50mew3yw79no?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 12 Oct 2026 15:01:24 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Wales forward Elise Hughes admits reaching the World Cup would fulfil a lifelong ambition."
+      "summary": "Spectators will be able to consume alcohol at their seats when Scotland host the Czech Republic in the second leg of their Women's World Cup play-off in Paisley on Tuesday."
     },
     {
-      "id": "64dfbef226a3",
-      "title": "Hincapie injury adds to Arsenal issues after Guimaraes rescue act",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c63r5w20ez3do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 10 Oct 2026 15:44:14 GMT",
+      "id": "5aecfdec3d6e",
+      "title": "Northern Ireland will have 'one last swing' at World Cup place",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg2r4ewgqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 12 Oct 2026 15:46:33 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Heroics and battling performances have already become a theme of Arsenal's season with Bruno Guimaraes coming to the rescue again. "
+      "summary": "Boss Michael McArdle says Northern Ireland will have \"one last swing\" at trying to reach a first Women's World Cup as they look to overcome a four-goal play-off deficit in Portugal."
+    },
+    {
+      "id": "203f0fed02f3",
+      "title": "Wales wary but eye record run in World Cup bid",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmd6d5980jz3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 12 Oct 2026 15:31:33 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Rhian Wilkinson warns favourites Wales not to underestimate Albania in the second leg of their World Cup play-off semi-final."
+    },
+    {
+      "id": "f04ae14e3d47",
+      "title": "How do Women's World Cup hopes look for home nations?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqzrdmjp5162o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 12 Oct 2026 09:27:17 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England, Wales, Northern Ireland, Scotland and the Republic of Ireland are under way in their Women's World Cup play-offs. How are their prospects looking?"
     }
   ]
 }
