@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-12T18:08:50.750730",
-  "total_articles": 4,
+  "updated": "2026-10-12T23:08:17.678219",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
+    "bbc_sport": 3,
     "sky_sports": 0,
     "goal_com": 0
   },
@@ -35,15 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Rhian Wilkinson warns favourites Wales not to underestimate Albania in the second leg of their World Cup play-off semi-final."
-    },
-    {
-      "id": "f04ae14e3d47",
-      "title": "How do Women's World Cup hopes look for home nations?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqzrdmjp5162o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 12 Oct 2026 09:27:17 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England, Wales, Northern Ireland, Scotland and the Republic of Ireland are under way in their Women's World Cup play-offs. How are their prospects looking?"
     }
   ]
 }
