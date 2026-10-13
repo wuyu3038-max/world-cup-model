@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-12T23:08:17.678219",
-  "total_articles": 3,
+  "updated": "2026-10-13T06:55:15.025968",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
+    "bbc_sport": 2,
     "sky_sports": 0,
     "goal_com": 0
   },
@@ -26,15 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Boss Michael McArdle says Northern Ireland will have \"one last swing\" at trying to reach a first Women's World Cup as they look to overcome a four-goal play-off deficit in Portugal."
-    },
-    {
-      "id": "203f0fed02f3",
-      "title": "Wales wary but eye record run in World Cup bid",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmd6d5980jz3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 12 Oct 2026 15:31:33 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Rhian Wilkinson warns favourites Wales not to underestimate Albania in the second leg of their World Cup play-off semi-final."
     }
   ]
 }
