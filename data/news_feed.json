@@ -1,32 +1,14 @@
 {
-  "updated": "2026-10-13T16:19:47.821462",
-  "total_articles": 3,
+  "updated": "2026-10-13T21:24:46.173414",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 0,
+    "bbc_sport": 1,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "f04ae14e3d47",
-      "title": "Huge night for Women's World Cup hopes - how are home nations set?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqzrdmjp5162o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 13 Oct 2026 11:43:31 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England, Wales, Northern Ireland, Scotland and the Republic of Ireland are under way in their Women's World Cup play-offs. How are their prospects looking?"
-    },
-    {
-      "id": "1400e7950536",
-      "title": "Lille considering legal action after Santos injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c623d0mmym4xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 13 Oct 2026 07:30:58 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The club have described the tackle on defender Tiago Santos as 'uncontrolled and dangerous'. "
-    },
     {
       "id": "bd49a3c8a421",
       "title": "Netflix secures 2030 World Cup TV rights in Spain",
@@ -35,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Netflix will broadcast World Cup games for the first time in 2030 as it secures the rights to show World Cup games in co-host Spain and Andorra."
+    },
+    {
+      "id": "09b8f60a757b",
+      "title": "Russo, James both score twice as England beat Greece in World Cup play-off",
+      "url": "https://www.skysports.com/football/england-women-vs-greece-women/report/559088",
+      "published_at": "Tue, 13 Oct 2026 21:35:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Alessia Russo and Lauren James reiterated their importance to England as both scored twice in a 5-0 win against Greece in the second leg of their World Cup play-off first-round tie, winning 8-1 on agg"
     }
   ]
 }
