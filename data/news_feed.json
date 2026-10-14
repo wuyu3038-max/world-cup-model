@@ -1,14 +1,23 @@
 {
-  "updated": "2026-10-14T13:58:14.687275",
-  "total_articles": 4,
+  "updated": "2026-10-14T20:17:04.539707",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 2,
-    "sky_sports": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "a65198ed117f",
+      "title": "Fifa to offer extra £2.6bn for football development",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c64g1ex2d7gvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 14 Oct 2026 15:59:59 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fifa is set to propose a $3.4bn increase in the amount of money it hands out for football development across the world."
+    },
     {
       "id": "839cea1524e5",
       "title": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
@@ -19,15 +28,6 @@
       "summary": "The ease in which England saw off Greece in round one of the Women's World Cup qualifying play-offs showed just how inefficient the structure currently is."
     },
     {
-      "id": "28bc0bdaa75e",
-      "title": "Why play-off win may not send Wales to World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c90k0x61ej7mo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 14 Oct 2026 10:49:27 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Wales face Norway in the Women's World Cup play-off final knowing even a famous victory may not be enough to send them to Brazil in 2027."
-    },
-    {
       "id": "6317423983a6",
       "title": "England rocked by injury on eve of World Cup",
       "url": "https://www.skysports.com/rugby-league/news/12040/13599247/rugby-league-world-cup-england-rocked-by-injury-with-perth-bears-bound-morgan-smithies-ruled-out",
@@ -35,15 +35,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "England have been rocked by injury on the eve of the Rugby League World Cup with Perth Bears-bound Morgan Smithies ruled out of the tournament."
-    },
-    {
-      "id": "5f4005bf193d",
-      "title": "England Women's World Cup half-back dilemma",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13596190/rugby-league-world-cup-england-women-face-halfback-selection-dilemma-as-jenna-foubister-izzy-rowe-and-georgia-roche-battle-for-spots",
-      "published_at": "Wed, 14 Oct 2026 07:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "If there is one position that highlights the growth of the women's game in England, it is the competition for the half-back spot at the Rugby League World Cup."
     }
   ]
 }
