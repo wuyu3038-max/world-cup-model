@@ -1,31 +1,22 @@
 {
-  "updated": "2026-10-13T21:24:46.173414",
-  "total_articles": 2,
+  "updated": "2026-10-14T05:06:49.862031",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "bd49a3c8a421",
-      "title": "Netflix secures 2030 World Cup TV rights in Spain",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3zxj4k7kz9eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 13 Oct 2026 14:54:31 GMT",
+      "id": "d2ae17970271",
+      "title": "Republic of Ireland to 'lock in' for World Cup dream",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8x235vx1d49o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 13 Oct 2026 21:52:37 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Netflix will broadcast World Cup games for the first time in 2030 as it secures the rights to show World Cup games in co-host Spain and Andorra."
-    },
-    {
-      "id": "09b8f60a757b",
-      "title": "Russo, James both score twice as England beat Greece in World Cup play-off",
-      "url": "https://www.skysports.com/football/england-women-vs-greece-women/report/559088",
-      "published_at": "Tue, 13 Oct 2026 21:35:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Alessia Russo and Lauren James reiterated their importance to England as both scored twice in a 5-0 win against Greece in the second leg of their World Cup play-off first-round tie, winning 8-1 on agg"
+      "summary": "Republic of Ireland captain Katie McCabe is already focused on the final World Cup play-off with Poland after a big win over Kazakhstan."
     }
   ]
 }
