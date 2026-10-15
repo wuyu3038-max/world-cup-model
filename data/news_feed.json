@@ -1,40 +1,31 @@
 {
-  "updated": "2026-10-15T13:38:12.614478",
-  "total_articles": 3,
+  "updated": "2026-10-15T19:58:46.397621",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 1,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "9357ba13a2bd",
-      "title": "Could Wenger really take on Infantino and run for Fifa presidency?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx30e8dqmnzgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 15 Oct 2026 06:35:39 GMT",
+      "id": "c0d9fdea57a3",
+      "title": "Infantino apologises to Fifa Council - but told he is still not fit to lead",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qgj3zwero?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 15 Oct 2026 14:46:09 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Senior figures in European football tell BBC Sport they want former Arsenal manager Arsene Wenger to run as a surprise candidate against Gianni Infantino."
+      "summary": "President Gianni Infantino apologises to the Fifa Council for his World Cup sell-off plan - but is asked to go further."
     },
     {
-      "id": "78a9c77b7c28",
-      "title": "Hibs ban fans group for three games after disorder",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmde8dx2263lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 15 Oct 2026 10:38:50 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Hibernian ban their Block Seven supporter group from their next three matches after pictures showed some visiting fans clashing with police and stewards at Saturday's Scottish Premiership game away to"
-    },
-    {
-      "id": "28a4f0446f3b",
-      "title": "Australia pull off stunning win over New Zealand in World Cup opener",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13599169/rugby-league-world-cup-jack-bostock-hat-trick-inspires-australia-to-thrilling-24-22-victory-over-new-zealand-in-opener",
-      "published_at": "Wed, 14 Oct 2026 12:00:00 BST",
+      "id": "e42fd8a164fe",
+      "title": "Infantino sorry for World Cup plan and set to ditch award previously given to Trump",
+      "url": "https://www.skysports.com/football/news/12040/13569748/gianni-infantino-fifa-president-apologises-for-world-cup-sell-off-plan-but-fa-and-other-european-leaders-still-want-him-to-resign",
+      "published_at": "Thu, 15 Oct 2026 16:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Australia started the Rugby League World Cup with a stunning 24-22 victory over New Zealand at the Allianz Stadium in Sydney. "
+      "summary": "FIFA president Gianni Infantino has apologised for his World Cup sell-off plan at a three-hour FIFA Council meeting in Zurich on Thursday - and the Peace Prize he awarded to US President Donald Trump "
     }
   ]
 }
