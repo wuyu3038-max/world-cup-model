@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-14T20:17:04.539707",
-  "total_articles": 3,
+  "updated": "2026-10-15T04:54:54.053307",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -17,24 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Fifa is set to propose a $3.4bn increase in the amount of money it hands out for football development across the world."
-    },
-    {
-      "id": "839cea1524e5",
-      "title": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq0k0x1l8gndo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 14 Oct 2026 13:25:56 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The ease in which England saw off Greece in round one of the Women's World Cup qualifying play-offs showed just how inefficient the structure currently is."
-    },
-    {
-      "id": "6317423983a6",
-      "title": "England rocked by injury on eve of World Cup",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13599247/rugby-league-world-cup-england-rocked-by-injury-with-perth-bears-bound-morgan-smithies-ruled-out",
-      "published_at": "Wed, 14 Oct 2026 14:22:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England have been rocked by injury on the eve of the Rugby League World Cup with Perth Bears-bound Morgan Smithies ruled out of the tournament."
     }
   ]
 }

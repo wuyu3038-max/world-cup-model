@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-10-14T20:17:04.601710",
+    "last_updated": "2026-10-15T04:54:54.103976",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "England rocked by injury on eve of World Cup",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13599247/rugby-league-world-cup-england-rocked-by-injury-with-perth-bears-bound-morgan-smithies-ruled-out",
-      "summary": "England have been rocked by injury on the eve of the Rugby League World Cup with Perth Bears-bound Morgan Smithies ruled out of the tournament.",
-      "published": "Wed, 14 Oct 2026 14:22:00 BST"
-    }
-  ]
+  "_news_injury_alerts": []
 }
