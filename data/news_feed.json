@@ -1,22 +1,40 @@
 {
-  "updated": "2026-10-15T04:54:54.053307",
-  "total_articles": 1,
+  "updated": "2026-10-15T13:38:12.614478",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "a65198ed117f",
-      "title": "Fifa to offer extra £2.6bn for football development",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c64g1ex2d7gvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 14 Oct 2026 15:59:59 GMT",
+      "id": "9357ba13a2bd",
+      "title": "Could Wenger really take on Infantino and run for Fifa presidency?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx30e8dqmnzgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 15 Oct 2026 06:35:39 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Fifa is set to propose a $3.4bn increase in the amount of money it hands out for football development across the world."
+      "summary": "Senior figures in European football tell BBC Sport they want former Arsenal manager Arsene Wenger to run as a surprise candidate against Gianni Infantino."
+    },
+    {
+      "id": "78a9c77b7c28",
+      "title": "Hibs ban fans group for three games after disorder",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmde8dx2263lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 15 Oct 2026 10:38:50 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Hibernian ban their Block Seven supporter group from their next three matches after pictures showed some visiting fans clashing with police and stewards at Saturday's Scottish Premiership game away to"
+    },
+    {
+      "id": "28a4f0446f3b",
+      "title": "Australia pull off stunning win over New Zealand in World Cup opener",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13599169/rugby-league-world-cup-jack-bostock-hat-trick-inspires-australia-to-thrilling-24-22-victory-over-new-zealand-in-opener",
+      "published_at": "Wed, 14 Oct 2026 12:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Australia started the Rugby League World Cup with a stunning 24-22 victory over New Zealand at the Allianz Stadium in Sydney. "
     }
   ]
 }
