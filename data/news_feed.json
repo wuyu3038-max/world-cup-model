@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-16T04:45:24.541330",
-  "total_articles": 2,
+  "updated": "2026-10-16T13:28:21.063933",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
@@ -19,13 +19,31 @@
       "summary": "President Gianni Infantino apologises to the Fifa Council for his World Cup sell-off plan - but is asked to go further."
     },
     {
-      "id": "e42fd8a164fe",
-      "title": "Infantino sorry for World Cup plan and set to ditch award previously given to Trump",
-      "url": "https://www.skysports.com/football/news/12040/13569748/gianni-infantino-fifa-president-apologises-for-world-cup-sell-off-plan-but-fa-and-other-european-leaders-still-want-him-to-resign",
-      "published_at": "Thu, 15 Oct 2026 16:00:00 BST",
+      "id": "c4f7258cebcd",
+      "title": "'We've moved on' - Martinez in Man Utd squad to face Leeds",
+      "url": "https://www.skysports.com/football/news/12040/13599948/lisandro-martinez-man-utd-defender-in-squad-for-leeds-trip-and-situation-resolved-after-criticism-of-hierarchy-insists-michael-carrick",
+      "published_at": "Fri, 16 Oct 2026 13:33:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "FIFA president Gianni Infantino has apologised for his World Cup sell-off plan at a three-hour FIFA Council meeting in Zurich on Thursday - and the Peace Prize he awarded to US President Donald Trump "
+      "summary": "Lisandro Martinez is set to be in Manchester United&#8217;s squad for Sunday's trip to Leeds United after he apologised for the public nature of his outburst about the club's hierarchy."
+    },
+    {
+      "id": "f0bb5e19c461",
+      "title": "Rugby League World Cup 2026: Samoa rout France in men's competition",
+      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13599564/rugby-league-world-cup-2026-reports-news-scores-fixtures-from-across-the-mens-womens-and-wheelchair-tournaments",
+      "published_at": "Fri, 16 Oct 2026 11:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "1b38e64545d2",
+      "title": "Man Utd latest: Carrick stands firm on Martinez, Wilcox and squad harmony",
+      "url": "https://www.skysports.com/football/live-blog/12040/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "published_at": "Fri, 16 Oct 2026 13:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }
