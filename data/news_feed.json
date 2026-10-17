@@ -1,22 +1,40 @@
 {
-  "updated": "2026-10-17T04:43:22.899455",
-  "total_articles": 1,
+  "updated": "2026-10-17T12:20:30.227109",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 0,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "c0d9fdea57a3",
-      "title": "Infantino apologises to Fifa Council - but told he is still not fit to lead",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qgj3zwero?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 15 Oct 2026 14:46:09 GMT",
-      "source": "BBC Sport Football",
+      "id": "791e69cb2eb5",
+      "title": "England thumped by Tonga in World Cup opener",
+      "url": "https://www.skysports.com/rugby-league/england-vs-tonga/report/64270",
+      "published_at": "Sat, 17 Oct 2026 12:00:00 BST",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "President Gianni Infantino apologises to the Fifa Council for his World Cup sell-off plan - but is asked to go further."
+      "summary": "England were handed a Rugby League World Cup reality check after a 30-12 thumping by Tonga in their tournament opener."
+    },
+    {
+      "id": "e0934cf85d41",
+      "title": "England record dominant win over Wales at Women's Rugby League World Cup",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13600103/england-70-6-wales-connie-boyd-and-anna-davies-hat-tricks-propel-lionesses-to-dominant-opening-womens-rugby-league-world-cup-win",
+      "published_at": "Sat, 17 Oct 2026 07:42:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Connie Boyd and Anna Davies both notched hat-tricks as England recorded a dominant 70-6 rout of Wales in their opening game of the Women's Rugby League World Cup."
+    },
+    {
+      "id": "f0bb5e19c461",
+      "title": "Rugby League World Cup 2026: Papua New Guinea impress against Lebanon",
+      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13599564/rugby-league-world-cup-2026-reports-news-scores-fixtures-from-across-the-mens-womens-and-wheelchair-tournaments",
+      "published_at": "Sat, 17 Oct 2026 08:22:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }
