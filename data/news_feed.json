@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-16T19:38:04.192780",
+  "updated": "2026-10-17T04:43:22.899455",
   "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "f0bb5e19c461",
-      "title": "Rugby League World Cup 2026: Australia thrash Samoa in women’s opener",
-      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13599564/rugby-league-world-cup-2026-reports-news-scores-fixtures-from-across-the-mens-womens-and-wheelchair-tournaments",
-      "published_at": "Fri, 16 Oct 2026 11:00:00 BST",
-      "source": "Sky Sports Football",
+      "id": "c0d9fdea57a3",
+      "title": "Infantino apologises to Fifa Council - but told he is still not fit to lead",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qgj3zwero?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 15 Oct 2026 14:46:09 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": ""
+      "summary": "President Gianni Infantino apologises to the Fifa Council for his World Cup sell-off plan - but is asked to go further."
     }
   ]
 }
