@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-18T04:49:32.660720",
-  "total_articles": 0,
+  "updated": "2026-10-18T12:45:44.910600",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "e80067fbc481",
+      "title": "Celtic vs Hearts team news LIVE!",
+      "url": "https://www.skysports.com/football/celtic-vs-hearts/live/558382",
+      "published_at": "Sun, 18 Oct 2026 13:30:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    }
+  ]
 }
