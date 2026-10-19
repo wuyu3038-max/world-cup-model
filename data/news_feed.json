@@ -1,22 +1,40 @@
 {
-  "updated": "2026-10-19T04:57:45.244735",
-  "total_articles": 1,
+  "updated": "2026-10-19T15:49:26.441753",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 1,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "beb3c1457e33",
-      "title": "NFL 2026: UK times and weekly match schedule",
-      "url": "https://www.skysports.com/nfl/news/12040/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
-      "published_at": "Tue, 06 Oct 2026 06:50:00 BST",
+      "id": "b16c8b835a20",
+      "title": "NBA on Sky Sports: Live matches and big moments in 2026/27",
+      "url": "https://www.skysports.com/nba/news/12040/13599587/nba-on-sky-sports-dates-schedule-uk-start-times-and-how-to-watch-or-stream-live-regular-season-and-playoff-action",
+      "published_at": "Mon, 19 Oct 2026 07:00:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "All the fixtures and UK timings for the NFL's 2026 season as the chase to lift the Vince Lombardi Trophy starts all over again."
+      "summary": "The 2026/27 NBA season is here and Sky Sports viewers have lots to look forward to."
+    },
+    {
+      "id": "ff03e1897c66",
+      "title": "Celtic winger Jota back stronger after wrestling 'demons' during injury lay-off",
+      "url": "https://www.skysports.com/football/news/12040/13601009/jota-celtic-winger-insists-he-is-stronger-after-wrestling-demons-during-18-month-injury-absence",
+      "published_at": "Mon, 19 Oct 2026 16:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Celtic winger Jota says he has found extra gratitude and strength after wrestling with his \"demons\" during an 18-month lay-off."
+    },
+    {
+      "id": "3f7dca4d7c84",
+      "title": "What did we learn from England in the first round of RLWC 2026?",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13600528/rugby-league-world-cup-2026-what-we-learnt-from-englands-opener-the-australia-test-and-ignoring-points-require",
+      "published_at": "Mon, 19 Oct 2026 12:20:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "It was a week of highs and lows for England men and women in the Rugby League World Cup, with England women's massive 70-4 win over Wales women being followed by a tough 30-12 loss for England against"
     }
   ]
 }
