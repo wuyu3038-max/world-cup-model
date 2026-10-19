@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-18T18:46:25.297632",
-  "total_articles": 0,
+  "updated": "2026-10-19T04:57:45.244735",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "beb3c1457e33",
+      "title": "NFL 2026: UK times and weekly match schedule",
+      "url": "https://www.skysports.com/nfl/news/12040/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
+      "published_at": "Tue, 06 Oct 2026 06:50:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "All the fixtures and UK timings for the NFL's 2026 season as the chase to lift the Vince Lombardi Trophy starts all over again."
+    }
+  ]
 }
