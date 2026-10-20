@@ -1,31 +1,22 @@
 {
-  "updated": "2026-10-20T05:03:03.589876",
-  "total_articles": 2,
+  "updated": "2026-10-20T13:48:07.563937",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "b18803da65f0",
-      "title": "Jota 'met some demons' during long injury absence",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c820vzrq695xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 19 Oct 2026 15:43:31 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Jota admits he \"met some demons\" during his long injury absence but believes there is no need to \"rush\" his return to full match fitness at Celtic."
-    },
-    {
-      "id": "334163a56a9c",
-      "title": "UEFA demands answers from FIFA over Infantino dealings in urgent letter",
-      "url": "https://www.skysports.com/football/news/12040/13601072/uefa-writes-letter-to-fifa-demanding-answers-over-gianni-infantinos-presidency-and-his-relationship-with-donald-trump",
-      "published_at": "Mon, 19 Oct 2026 19:25:00 BST",
+      "id": "a50b583852ee",
+      "title": "England unchanged for World Cup clash vs France with Lewis absent again",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13601200/rugby-league-world-cup-mikey-lewis-absent-again-as-england-unchanged-for-clash-vs-france-despite-opening-defeat",
+      "published_at": "Tue, 20 Oct 2026 06:51:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "UEFA is increasing the pressure on Gianni Infantino and has sent FIFA an urgent letter demanding answers to 42 detailed questions about his presidency."
+      "summary": "England head coach&#160;Brian McDermott has stuck with the same 19-man squad that were thrashed 30-12 by Tonga in the tournament opener for Saturday's Rugby League World Cup clash against France."
     }
   ]
 }

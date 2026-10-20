@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-10-20T05:03:03.653207",
+    "last_updated": "2026-10-20T13:48:07.626493",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,17 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "England unchanged for World Cup clash vs France with Lewis absent again",
+      "nations": [
+        "France",
+        "England"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13601200/rugby-league-world-cup-mikey-lewis-absent-again-as-england-unchanged-for-clash-vs-france-despite-opening-defeat",
+      "summary": "England head coach&#160;Brian McDermott has stuck with the same 19-man squad that were thrashed 30-12 by Tonga in the tournament opener for Saturday's Rugby League World Cup clash against France.",
+      "published": "Tue, 20 Oct 2026 06:51:00 BST"
+    }
+  ]
 }
