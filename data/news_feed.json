@@ -1,14 +1,23 @@
 {
-  "updated": "2026-10-21T20:17:32.839542",
-  "total_articles": 2,
+  "updated": "2026-10-22T05:06:01.604726",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 2,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "bc9f46c5ec62",
+      "title": "Saka injury 'does not look good' - how will Arsenal cope?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg5j1zdn4m3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 21 Oct 2026 22:51:56 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Mikel Arteta says the quadriceps injury Arsenal's Bukayo Saka picked up in the Champions League draw with Bayern Munich \"does not look good at all\"."
+    },
     {
       "id": "6b85cf88da60",
       "title": "Animal rights group asks Crystal Palace to retire eagle mascot",
