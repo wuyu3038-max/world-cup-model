@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-22T05:06:01.604726",
-  "total_articles": 3,
+  "updated": "2026-10-22T14:01:36.769769",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 1,
     "sky_sports": 1,
     "goal_com": 0
   },
@@ -19,22 +19,13 @@
       "summary": "Mikel Arteta says the quadriceps injury Arsenal's Bukayo Saka picked up in the Champions League draw with Bayern Munich \"does not look good at all\"."
     },
     {
-      "id": "6b85cf88da60",
-      "title": "Animal rights group asks Crystal Palace to retire eagle mascot",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmx2302r04r4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 21 Oct 2026 07:24:35 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Animal rights group Peta is urging Crystal Palace to retire their bald eagle mascot, saying a \"bright stadium filled with boisterous fans is no place for animals\"."
-    },
-    {
-      "id": "fbbb279b3d5b",
-      "title": "Conan, Doris, Crowley absent from Ireland's Nations Championship squad",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13601857/nations-championship-ireland-without-injured-trio-jack-conan-caelan-doris-jack-crowley-but-jamison-gibson-park-included",
-      "published_at": "Wed, 21 Oct 2026 11:04:00 BST",
+      "id": "5ca1ce0973a7",
+      "title": "McDermott blasts 'harsh' RL World Cup format | 'Lewis has shown humility'",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13602198/rugby-league-world-cup-england-head-coach-brian-mcdermot-blasts-harsh-format-and-explains-mikey-lewis-absence",
+      "published_at": "Thu, 22 Oct 2026 10:50:00 BST",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Andy Farrell's Ireland will head into November's Nations Championship without injured trio Jack Conan, Caelan Doris and Jack Crowley, but Jamison Gibson-Park has been included."
+      "summary": "England head coach Brian McDermott has branded the format of the Rugby League World Cup as \"harsh\" with his side up against it to progress."
     }
   ]
 }
