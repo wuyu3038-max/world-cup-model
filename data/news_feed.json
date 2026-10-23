@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-22T20:14:39.889848",
-  "total_articles": 1,
+  "updated": "2026-10-23T05:05:44.226992",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -17,6 +17,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Arsenal are named as one of the teams to compete at the inaugural Women's Club World Cup, to be hosted in the United States in 2028."
+    },
+    {
+      "id": "bc9f46c5ec62",
+      "title": "Saka injury 'does not look good' - how will Arsenal cope?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg5j1zdn4m3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 21 Oct 2026 22:51:56 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Mikel Arteta says the quadriceps injury Arsenal's Bukayo Saka picked up in the Champions League draw with Bayern Munich \"does not look good at all\"."
+    },
+    {
+      "id": "9ba05c5cc74d",
+      "title": "Verstappen criticises 'unacceptable' COTA surface amid concerns over injury",
+      "url": "https://www.skysports.com/f1/news/12040/13602372/max-verstappen-red-bull-driver-hits-out-at-unacceptable-bumpy-united-states-gp-surface-at-cota-amid-safety-concerns",
+      "published_at": "Fri, 23 Oct 2026 00:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Max Verstappen revealed concerns over the state of his spine as he unleashed a scathing criticism of the \"out of control\" bumpy track surface at Circuit of The Americas."
     }
   ]
 }
