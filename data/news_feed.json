@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-23T13:44:29.421430",
+  "updated": "2026-10-23T20:01:22.009716",
   "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "60bc6f85a4c5",
-      "title": "Rugby League World Cup 2026: Latest results and schedule ",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13598071/rugby-league-world-cup-2026-schedule-dates-format-results-from-mens-womens-and-wheelchair-tournaments",
-      "published_at": "Fri, 23 Oct 2026 10:00:00 BST",
-      "source": "Sky Sports Football",
+      "id": "4ef42e19fd18",
+      "title": "All you need to know about the 2026 Ballon d'Or",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw0541g4qzgeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 23 Oct 2026 11:55:45 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Latest scores and results from the 2026 Rugby League World Cup, with Australia, New Zealand, and Papua New Guinea playing host to the men's, women's and wheelchair tournaments."
+      "summary": "Our Ask Me Anything team tells you all you need to know about the 70th Ballon d'Or Ceremony."
     }
   ]
 }
