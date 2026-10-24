@@ -1,12 +1,40 @@
 {
-  "updated": "2026-10-24T04:50:00.548195",
-  "total_articles": 0,
+  "updated": "2026-10-24T12:52:52.723231",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 3,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "893a1c79b639",
+      "title": "England crush France to remain in hunt for World Cup semi-final spot",
+      "url": "https://www.skysports.com/rugby-league/england-vs-france/report/64274",
+      "published_at": "Sat, 24 Oct 2026 07:17:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England kept alive their faint hopes of reaching the Rugby League World Cup semi-finals with an 82-0 trouncing of France."
+    },
+    {
+      "id": "341896c30049",
+      "title": "'Like a mini World Cup' - Jacks sees positives in England's tri-series troubles",
+      "url": "https://www.skysports.com/cricket/news/12040/13602869/will-jacks-england-in-mini-world-cup-scenario-as-they-enter-must-win-territory-in-tri-series-with-pakistan-and-sri-lanka",
+      "published_at": "Sat, 24 Oct 2026 07:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Will Jacks intends to treat England's next two tri-series matches as a mini World Cup after defeats by Pakistan and Sri Lanka in their opening two matches boxed them into must-win territory."
+    },
+    {
+      "id": "f33d1e3c90dd",
+      "title": "What do England need to avoid historic early World Cup exit? ",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13602986/rugby-league-world-cup-how-can-england-still-qualify-for-the-semi-finals-scenarios-to-avoid-historic-group-stage-exit",
+      "published_at": "Sat, 24 Oct 2026 12:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England kept their slim Rugby League World Cup hopes alive with victory over France, but what do Brian McDermott&#8217;s side still need to reach the semi-finals? "
+    }
+  ]
 }
