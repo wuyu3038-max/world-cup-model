@@ -1,22 +1,12 @@
 {
-  "updated": "2026-10-23T20:01:22.009716",
-  "total_articles": 1,
+  "updated": "2026-10-24T04:50:00.548195",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "4ef42e19fd18",
-      "title": "All you need to know about the 2026 Ballon d'Or",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw0541g4qzgeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 23 Oct 2026 11:55:45 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Our Ask Me Anything team tells you all you need to know about the 70th Ballon d'Or Ceremony."
-    }
-  ]
+  "articles": []
 }
