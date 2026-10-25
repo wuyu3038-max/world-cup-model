@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-10-25T13:19:33.025135",
+    "last_updated": "2026-10-25T19:10:30.832130",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Cunningham-South out of three-day England training squad due to injury ",
+      "nations": [
+        "England"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13603673/england-rugby-squad-chandler-cunningham-south-ruled-out-of-three-day-training-camp-as-steve-borthwick-names-group",
+      "summary": "England will be without Chandler Cunningham-South and Benhard Janse van Rensburg for their upcoming three-day training camp ahead of the Autumn Nations Series due to injury.",
+      "published": "Sun, 25 Oct 2026 17:00:00 GMT"
+    }
+  ]
 }

@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-25T13:19:32.961568",
-  "total_articles": 3,
+  "updated": "2026-10-25T19:10:30.782443",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 2,
     "sky_sports": 2,
     "goal_com": 0
   },
@@ -19,22 +19,31 @@
       "summary": "Sam Dewhirst and David Porcher score the goals as England beat the United States in the final of the Cerebral Palsy World Cup in Atlanta.\n\n"
     },
     {
-      "id": "db9b6ceaca41",
-      "title": "Fernandes benched! Man Utd vs Bournemouth team news LIVE!",
-      "url": "https://www.skysports.com/football/manchester-united-vs-bournemouth/live/559522",
-      "published_at": "Sun, 25 Oct 2026 12:30:00 GMT",
+      "id": "4ef42e19fd18",
+      "title": "All you need to know about the 2026 Ballon d'Or",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw0541g4qzgeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 23 Oct 2026 11:55:45 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Our Ask Me Anything team tells you all you need to know about the 70th Ballon d'Or Ceremony."
+    },
+    {
+      "id": "bde28b670ecc",
+      "title": "Cunningham-South out of three-day England training squad due to injury ",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13603673/england-rugby-squad-chandler-cunningham-south-ruled-out-of-three-day-training-camp-as-steve-borthwick-names-group",
+      "published_at": "Sun, 25 Oct 2026 17:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England will be without Chandler Cunningham-South and Benhard Janse van Rensburg for their upcoming three-day training camp ahead of the Autumn Nations Series due to injury."
+    },
+    {
+      "id": "9332e8ba4a64",
+      "title": "Barcelona vs Real Madrid team news LIVE!",
+      "url": "https://www.skysports.com/football/barcelona-vs-real-madrid/live/563017",
+      "published_at": "Sun, 25 Oct 2026 12:52:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
-    },
-    {
-      "id": "132b99c9282f",
-      "title": "'Dream come true!' - Britain's Palmowski becomes 2026 F1 Academy champion",
-      "url": "https://www.skysports.com/f1/news/12040/13603359/f1-academy-alisha-palmowski-becomes-2026-champion-with-three-races-of-season-to-spare-in-austin",
-      "published_at": "Sun, 25 Oct 2026 01:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Britain's Alisha Palmowski became the 2026 F1 Academy champion with three races to spare after building an unassailable lead in Austin."
     }
   ]
 }
