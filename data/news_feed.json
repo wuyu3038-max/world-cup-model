@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-24T18:54:59.784460",
+  "updated": "2026-10-25T04:59:35.603435",
   "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "4ef42e19fd18",
-      "title": "All you need to know about the 2026 Ballon d'Or",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw0541g4qzgeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 23 Oct 2026 11:55:45 GMT",
-      "source": "BBC Sport Football",
+      "id": "132b99c9282f",
+      "title": "'Dream come true!' - Britain's Palmowski becomes 2026 F1 Academy champion",
+      "url": "https://www.skysports.com/f1/news/12040/13603359/f1-academy-alisha-palmowski-becomes-2026-champion-with-three-races-of-season-to-spare-in-austin",
+      "published_at": "Sun, 25 Oct 2026 01:00:00 GMT",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Our Ask Me Anything team tells you all you need to know about the 70th Ballon d'Or Ceremony."
+      "summary": "Britain's Alisha Palmowski became the 2026 F1 Academy champion with three races to spare after building an unassailable lead in Austin."
     }
   ]
 }
