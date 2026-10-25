@@ -1,14 +1,32 @@
 {
-  "updated": "2026-10-25T04:59:35.603435",
-  "total_articles": 1,
+  "updated": "2026-10-25T13:19:32.961568",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "3706d353b5dd",
+      "title": "England win cerebral palsy World Cup for first time",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 25 Oct 2026 12:13:40 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Sam Dewhirst and David Porcher score the goals as England beat the United States in the final of the Cerebral Palsy World Cup in Atlanta.\n\n"
+    },
+    {
+      "id": "db9b6ceaca41",
+      "title": "Fernandes benched! Man Utd vs Bournemouth team news LIVE!",
+      "url": "https://www.skysports.com/football/manchester-united-vs-bournemouth/live/559522",
+      "published_at": "Sun, 25 Oct 2026 12:30:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
     {
       "id": "132b99c9282f",
       "title": "'Dream come true!' - Britain's Palmowski becomes 2026 F1 Academy champion",
