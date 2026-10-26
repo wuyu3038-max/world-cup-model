@@ -1,31 +1,22 @@
 {
-  "updated": "2026-10-25T19:10:30.782443",
-  "total_articles": 4,
+  "updated": "2026-10-26T05:03:35.306896",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 2,
+    "bbc_sport": 1,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "3706d353b5dd",
-      "title": "England win cerebral palsy World Cup for first time",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 25 Oct 2026 12:13:40 GMT",
+      "id": "4ee77a7c4f71",
+      "title": "Weir would swap Ballon d'Or nominations for World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 25 Oct 2026 19:34:15 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Sam Dewhirst and David Porcher score the goals as England beat the United States in the final of the Cerebral Palsy World Cup in Atlanta.\n\n"
-    },
-    {
-      "id": "4ef42e19fd18",
-      "title": "All you need to know about the 2026 Ballon d'Or",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw0541g4qzgeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 23 Oct 2026 11:55:45 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Our Ask Me Anything team tells you all you need to know about the 70th Ballon d'Or Ceremony."
+      "summary": "Caroline Weir reflects on her Ballon d'Or nomination while eyeing a World Cup spot with Scotland."
     },
     {
       "id": "bde28b670ecc",
@@ -35,15 +26,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "England will be without Chandler Cunningham-South and Benhard Janse van Rensburg for their upcoming three-day training camp ahead of the Autumn Nations Series due to injury."
-    },
-    {
-      "id": "9332e8ba4a64",
-      "title": "Barcelona vs Real Madrid team news LIVE!",
-      "url": "https://www.skysports.com/football/barcelona-vs-real-madrid/live/563017",
-      "published_at": "Sun, 25 Oct 2026 12:52:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
