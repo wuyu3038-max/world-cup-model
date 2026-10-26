@@ -1,22 +1,31 @@
 {
-  "updated": "2026-10-26T15:24:23.416328",
-  "total_articles": 4,
+  "updated": "2026-10-26T21:07:39.692893",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 3,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "4ee77a7c4f71",
-      "title": "Weir would swap Ballon d'Or nominations for World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 25 Oct 2026 19:34:15 GMT",
+      "id": "4cf5d2571e45",
+      "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 26 Oct 2026 18:17:25 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Caroline Weir reflects on her Ballon d'Or nomination while eyeing a World Cup spot with Scotland."
+      "summary": "The Under-15 World Cup Group C match between England and Republic of Ireland is abandoned after England allege an opposition player made a racist comment."
+    },
+    {
+      "id": "a582f78f8392",
+      "title": "Carney: England have it all to do to avoid Rugby League World Cup exit",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13604136/rugby-league-world-cup-brian-carney-warns-england-have-it-all-to-do-to-avoid-group-stage-exit",
+      "published_at": "Mon, 26 Oct 2026 18:47:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Brian Carney says England &#8216;have it all to do&#8217; to reach the Rugby League World Cup semi-finals and avoid a historic group-stage exit."
     },
     {
       "id": "b03fec7cb522",
