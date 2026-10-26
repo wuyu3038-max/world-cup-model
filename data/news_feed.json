@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-26T05:03:35.306896",
-  "total_articles": 2,
+  "updated": "2026-10-26T15:24:23.416328",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
@@ -19,13 +19,31 @@
       "summary": "Caroline Weir reflects on her Ballon d'Or nomination while eyeing a World Cup spot with Scotland."
     },
     {
-      "id": "bde28b670ecc",
-      "title": "Cunningham-South out of three-day England training squad due to injury ",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13603673/england-rugby-squad-chandler-cunningham-south-ruled-out-of-three-day-training-camp-as-steve-borthwick-names-group",
-      "published_at": "Sun, 25 Oct 2026 17:00:00 GMT",
+      "id": "b03fec7cb522",
+      "title": "Kane, Mbappe and Lamine Yamal - who should win men's 2026 Ballon d'Or?",
+      "url": "https://www.skysports.com/football/news/12040/13601847/ballon-dor-2026-harry-kane-kylian-mbappe-and-lamine-yamal-in-race-for-mens-award-stats-and-pundits-opinions",
+      "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England will be without Chandler Cunningham-South and Benhard Janse van Rensburg for their upcoming three-day training camp ahead of the Autumn Nations Series due to injury."
+      "summary": "Harry Kane is the odds-on favourite to win the 2026 men&#8217;s Ballon d&#8217;Or, which could be one of the tightest results in recent history."
+    },
+    {
+      "id": "d05dc7a4c6da",
+      "title": "Thunder star Williams stretched off with leg injury",
+      "url": "https://www.skysports.com/basketball/news/12040/13603869/jalen-williams-oklahoma-city-thunder-star-stretchered-off-with-significant-leg-injury-in-win-over-los-angeles-clippers",
+      "published_at": "Mon, 26 Oct 2026 06:40:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Oklahoma City Thunder star Jalen Williams was taken off the court on a stretcher after suffering a significant lower-leg injury during their 108-101 victory over the Los Angeles Clippers."
+    },
+    {
+      "id": "2ce0ec83bc1c",
+      "title": "F1 2026 team-mate head-to-heads after United States GP",
+      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
+      "published_at": "Mon, 26 Oct 2026 12:20:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }
