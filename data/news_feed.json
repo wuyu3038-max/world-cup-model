@@ -1,14 +1,23 @@
 {
-  "updated": "2026-10-27T05:19:05.752037",
-  "total_articles": 5,
+  "updated": "2026-10-27T14:51:12.795772",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 4,
+    "bbc_sport": 2,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "99df44c17a82",
+      "title": "Milne out for season as Hearts' injury woes continue",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6gr8zzewz5ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 27 Oct 2026 13:58:04 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Heart of Midlothian defender Harry Milne's season is over after he sustains an anterior cruciate ligament (ACL) injury, head coach Wouter Vrancken confirms."
+    },
     {
       "id": "4cf5d2571e45",
       "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
@@ -19,40 +28,49 @@
       "summary": "The Under-15 World Cup Group C match between England and Republic of Ireland is abandoned after England allege an opposition player made a racist comment."
     },
     {
-      "id": "7a6c635d90e0",
-      "title": "All the 2026 Ballon d'Or winners as Spain and Barcelona dominate...",
-      "url": "https://www.skysports.com/football/live-blog/12040/13601936/ballon-dor-2026-ceremony-live-harry-kane-alexia-putellas-among-favourites-for-france-football-award",
-      "published_at": "Mon, 26 Oct 2026 23:30:00 GMT",
+      "id": "bc1330b9179d",
+      "title": "Brundle's verdict on 'outstanding' Antonelli and Piastri 'pain' in 2026 cars",
+      "url": "https://www.skysports.com/f1/news/12040/13604035/united-states-gp-martin-brundles-verdict-on-outstanding-kimi-antonelli-win-in-austin-and-oscar-piastris-struggles-in-2026-f1-cars",
+      "published_at": "Tue, 27 Oct 2026 10:30:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Given that Red Bull and Ferrari, and from time to time McLaren, have undoubtedly closed down the pace advantage enjoyed by Mercedes in the first half of the season, it was looking possible that Kimi A"
+    },
+    {
+      "id": "5b911ff99bc6",
+      "title": "Smith ruled out of Cape Town Test late due to neck injury",
+      "url": "https://www.skysports.com/cricket/news/12040/13604271/australia-vs-south-africa-steve-smith-ruled-out-of-cape-town-test-due-to-injury",
+      "published_at": "Tue, 27 Oct 2026 08:02:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Steve Smith has been ruled out of Australia's third Test decider against South Africa in Cape Town after it was confirmed late on Tuesday morning that the batter had not fully recovered from a neck in"
+    },
+    {
+      "id": "ed7625b4d5d0",
+      "title": "Winning MOMENT! Harry Kane claims 2026 Ballon d'Or award!",
+      "url": "https://www.skysports.com/watch/video/13604240/moment-harry-kane-claims-2026-ballon-dor-award",
+      "published_at": "Tue, 27 Oct 2026 06:45:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Harry Kane wins 2026 Ballon d'Or at London ceremony as Bayern Munich striker becomes first English winner of award in 25 years."
+    },
+    {
+      "id": "a20f86367635",
+      "title": "Ireland's Ringrose ruled out of Nations Championship due to injury",
+      "url": "https://www.skysports.com/rugby-union/live-blog/12040/13604349/nations-championship-2026-latest-news-and-video-from-northern-hemisphere-series-with-england-ireland-scotland-wales-in-action",
+      "published_at": "Tue, 27 Oct 2026 12:07:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
     },
     {
-      "id": "a582f78f8392",
-      "title": "Carney: England have it all to do to avoid Rugby League World Cup exit",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13604136/rugby-league-world-cup-brian-carney-warns-england-have-it-all-to-do-to-avoid-group-stage-exit",
-      "published_at": "Mon, 26 Oct 2026 18:47:00 GMT",
+      "id": "459e3fb759ab",
+      "title": "Litten, Knowles to start for England in crunch World Cup match",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13604249/rugby-league-world-cup-england-draft-jez-litten-and-morgan-knowles-into-starting-line-up-for-crunch-papua-new-guinea-match",
+      "published_at": "Tue, 27 Oct 2026 07:25:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Brian Carney says England &#8216;have it all to do&#8217; to reach the Rugby League World Cup semi-finals and avoid a historic group-stage exit."
-    },
-    {
-      "id": "b03fec7cb522",
-      "title": "Kane, Mbappe and Lamine Yamal - who should win men's 2026 Ballon d'Or?",
-      "url": "https://www.skysports.com/football/news/12040/13601847/ballon-dor-2026-harry-kane-kylian-mbappe-and-lamine-yamal-in-race-for-mens-award-stats-and-pundits-opinions",
-      "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Harry Kane is the odds-on favourite to win the 2026 men&#8217;s Ballon d&#8217;Or, which could be one of the tightest results in recent history."
-    },
-    {
-      "id": "d05dc7a4c6da",
-      "title": "Thunder star Williams stretched off with leg injury",
-      "url": "https://www.skysports.com/basketball/news/12040/13603869/jalen-williams-oklahoma-city-thunder-star-stretchered-off-with-significant-leg-injury-in-win-over-los-angeles-clippers",
-      "published_at": "Mon, 26 Oct 2026 06:40:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Oklahoma City Thunder star Jalen Williams was taken off the court on a stretcher after suffering a significant lower-leg injury during their 108-101 victory over the Los Angeles Clippers."
+      "summary": "Jez Litten and Morgan Knowles have been drafted into England's starting line-up for their crunch Rugby League World Cup clash against Papua New Guinea on Friday."
     }
   ]
 }

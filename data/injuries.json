@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-10-27T05:19:05.813778",
+    "last_updated": "2026-10-27T14:51:12.856288",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,17 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Smith ruled out of Cape Town Test late due to neck injury",
+      "nations": [
+        "Australia",
+        "South Africa"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/cricket/news/12040/13604271/australia-vs-south-africa-steve-smith-ruled-out-of-cape-town-test-due-to-injury",
+      "summary": "Steve Smith has been ruled out of Australia's third Test decider against South Africa in Cape Town after it was confirmed late on Tuesday morning that the batter had not fully recovered from a neck in",
+      "published": "Tue, 27 Oct 2026 08:02:00 GMT"
+    }
+  ]
 }
