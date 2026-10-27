@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T21:07:39.692893",
+  "updated": "2026-10-27T05:19:05.752037",
   "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
@@ -17,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The Under-15 World Cup Group C match between England and Republic of Ireland is abandoned after England allege an opposition player made a racist comment."
+    },
+    {
+      "id": "7a6c635d90e0",
+      "title": "All the 2026 Ballon d'Or winners as Spain and Barcelona dominate...",
+      "url": "https://www.skysports.com/football/live-blog/12040/13601936/ballon-dor-2026-ceremony-live-harry-kane-alexia-putellas-among-favourites-for-france-football-award",
+      "published_at": "Mon, 26 Oct 2026 23:30:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     },
     {
       "id": "a582f78f8392",
@@ -44,15 +53,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Oklahoma City Thunder star Jalen Williams was taken off the court on a stretcher after suffering a significant lower-leg injury during their 108-101 victory over the Los Angeles Clippers."
-    },
-    {
-      "id": "2ce0ec83bc1c",
-      "title": "F1 2026 team-mate head-to-heads after United States GP",
-      "url": "https://www.skysports.com/f1/news/12040/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
-      "published_at": "Mon, 26 Oct 2026 12:20:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
     }
   ]
 }
