@@ -1,12 +1,31 @@
 {
-  "updated": "2026-10-28T05:58:28.448740",
-  "total_articles": 0,
+  "updated": "2026-10-28T15:21:34.647388",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 0,
+    "bbc_sport": 1,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "4447fd4b78d8",
+      "title": "Can clubs stop team news leaking out through FPL picks?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwly0myd08reo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 28 Oct 2026 08:36:46 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Chelsea striker Joao Pedro's injury was leaked through the Fantasy Premier League game, but is there anything clubs can do?"
+    },
+    {
+      "id": "ab0442ed6586",
+      "title": "Lewis: I've earned my England RL World Cup spot ",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13604799/mikey-lewis-ive-earned-my-england-rugby-league-world-cup-spot",
+      "published_at": "Wed, 28 Oct 2026 13:31:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Mikey Lewis insists he has &#8216;earned&#8217; his place in England&#8217;s Rugby League World Cup squad despite limited game time so far."
+    }
+  ]
 }
