@@ -1,40 +1,12 @@
 {
-  "updated": "2026-10-27T20:50:08.263398",
-  "total_articles": 3,
+  "updated": "2026-10-28T05:58:28.448740",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 2,
+    "bbc_sport": 0,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "99df44c17a82",
-      "title": "Milne out for season as Hearts' injury woes continue",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6gr8zzewz5ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 27 Oct 2026 13:58:04 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Heart of Midlothian defender Harry Milne's season is over after he sustains an anterior cruciate ligament (ACL) injury, head coach Wouter Vrancken confirms."
-    },
-    {
-      "id": "6c4a1bb59f25",
-      "title": "Borthwick lays down World Cup challenge to England",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13604478/steve-borthwick-lays-down-englands-rugby-world-cup-challenge-with-just-10-tests-left-before-naming-his-squad",
-      "published_at": "Tue, 27 Oct 2026 17:51:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "With just 12 Tests remaining before the Rugby World Cup, Steve Borthwick has made it clear that he wants an England group packed with genuine contenders for a place in the final squad."
-    },
-    {
-      "id": "bc1330b9179d",
-      "title": "Brundle's verdict on 'outstanding' Antonelli and Piastri 'pain' in 2026 cars",
-      "url": "https://www.skysports.com/f1/news/12040/13604035/united-states-gp-martin-brundles-verdict-on-outstanding-kimi-antonelli-win-in-austin-and-oscar-piastris-struggles-in-2026-f1-cars",
-      "published_at": "Tue, 27 Oct 2026 10:30:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Given that Red Bull and Ferrari, and from time to time McLaren, have undoubtedly closed down the pace advantage enjoyed by Mercedes in the first half of the season, it was looking possible that Kimi A"
-    }
-  ]
+  "articles": []
 }
