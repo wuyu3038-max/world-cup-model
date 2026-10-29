@@ -1,22 +1,12 @@
 {
-  "updated": "2026-10-29T15:27:55.606949",
-  "total_articles": 1,
+  "updated": "2026-10-29T21:18:11.829512",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "5b324c12f6a5",
-      "title": "Man Utd's Sesko ruled out until January with shin injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq33xl50vyj2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 28 Oct 2026 19:57:04 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Manchester United striker Benjamin Sesko is expected to be out until at least January with a shin injury."
-    }
-  ]
+  "articles": []
 }
