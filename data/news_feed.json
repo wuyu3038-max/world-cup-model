@@ -1,40 +1,22 @@
 {
-  "updated": "2026-10-29T06:04:52.351705",
-  "total_articles": 3,
+  "updated": "2026-10-29T15:27:55.606949",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
       "id": "5b324c12f6a5",
-      "title": "Sesko ruled out until January with shin injury",
+      "title": "Man Utd's Sesko ruled out until January with shin injury",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq33xl50vyj2o?at_medium=RSS&at_campaign=rss",
       "published_at": "Wed, 28 Oct 2026 19:57:04 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Manchester United striker Benjamin Sesko is expected to be out until at least January with a shin injury."
-    },
-    {
-      "id": "4447fd4b78d8",
-      "title": "Can clubs stop team news leaking out through FPL picks?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwly0myd08reo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 28 Oct 2026 08:36:46 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Chelsea striker Joao Pedro's injury was leaked through the Fantasy Premier League game, but is there anything clubs can do?"
-    },
-    {
-      "id": "bf6eb9f08a15",
-      "title": "How England’s underdog spirit can fuel RL World Cup semi-final hopes",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13604915/how-england-must-harness-their-underdog-spirit-to-reach-the-rugby-league-world-cup-semi-finals",
-      "published_at": "Thu, 29 Oct 2026 06:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England&#8217;s men find themselves in an unusual position: they are favourites to beat Papua New Guinea in their final group game, but underdogs to emerge from the combined Groups B and C and reach t"
     }
   ]
 }
