@@ -1,31 +1,12 @@
 {
-  "updated": "2026-10-30T20:58:05.402599",
-  "total_articles": 2,
+  "updated": "2026-10-31T06:00:00.246815",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "eabc87670df3",
-      "title": "Bompastor: WSL rivals are too strong to allow Chelsea squad rotation",
-      "url": "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
-      "published_at": "Fri, 30 Oct 2026 17:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "e123d4229a9e",
-      "title": "Wilkin: Rugby League World Cup format 'fundamentally flawed' ",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13605797/rugby-league-world-cup-jon-wilkin-says-tournament-format-is-fundamentally-flawed-as-england-on-brink-of-historic-exit",
-      "published_at": "Fri, 30 Oct 2026 15:25:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Sky Sports' Jon Wilkin believes the Rugby League World Cup format is \"fundamentally flawed\" after England were left on the brink of their first group-stage exit in the tournament's history. &#160;"
-    }
-  ]
+  "articles": []
 }
