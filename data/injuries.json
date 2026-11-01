@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-01T06:28:45.348310",
+    "last_updated": "2026-11-01T15:25:08.165601",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "England out of World Cup after Tonga edge out Samoa",
+      "nations": [
+        "England"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13606600/rugby-league-world-cup-englands-elimination-confirmed-after-tonga-beat-samoa-in-the-final-group-match",
+      "summary": "England's elimination from the World Cup was confirmed after Tonga beat Samoa 20-18 in the final group match.",
+      "published": "Sun, 01 Nov 2026 11:45:00 GMT"
+    }
+  ]
 }
