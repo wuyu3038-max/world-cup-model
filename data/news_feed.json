@@ -1,31 +1,12 @@
 {
-  "updated": "2026-11-01T15:25:08.093493",
-  "total_articles": 2,
+  "updated": "2026-11-01T20:41:54.288257",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "259159ed3fdc",
-      "title": "England out of World Cup after Tonga edge out Samoa",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13606600/rugby-league-world-cup-englands-elimination-confirmed-after-tonga-beat-samoa-in-the-final-group-match",
-      "published_at": "Sun, 01 Nov 2026 11:45:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England's elimination from the World Cup was confirmed after Tonga beat Samoa 20-18 in the final group match."
-    },
-    {
-      "id": "f0bb5e19c461",
-      "title": "Australia rack up record win over Wales at Rugby League World Cup",
-      "url": "https://www.skysports.com/rugby-league/live-blog/12040/13599564/rugby-league-world-cup-2026-reports-news-scores-fixtures-from-across-the-mens-womens-and-wheelchair-tournaments",
-      "published_at": "Sun, 01 Nov 2026 11:25:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    }
-  ]
+  "articles": []
 }
