@@ -1,12 +1,58 @@
 {
-  "updated": "2026-11-02T06:30:09.239310",
-  "total_articles": 0,
+  "updated": "2026-11-02T18:45:03.666221",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 0,
+    "bbc_sport": 2,
+    "sky_sports": 3,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "94ebdc41585b",
+      "title": "Key questions as Pocognoli prepares to name Scotland squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 02 Nov 2026 17:35:14 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Sebastien Pocognoli names his second Scotland squad on Tuesday, with various dilemmas to address."
+    },
+    {
+      "id": "0c99334a12ae",
+      "title": "Tenerife player in intensive care with injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 02 Nov 2026 18:18:55 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Tenerife striker Jesus de Miguel is in a stable condition in intensive care after suffering a serious injury during a Spanish second division match on Monday."
+    },
+    {
+      "id": "e9f96235f219",
+      "title": "Newcastle vs Everton team news LIVE!",
+      "url": "https://www.skysports.com/football/newcastle-united-vs-everton/live/559532",
+      "published_at": "Mon, 02 Nov 2026 18:30:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "867a1ea27f0d",
+      "title": "England to host South Africa live on Sky Sports in Netball World Cup prep",
+      "url": "https://www.skysports.com/netball/news/12040/13607188/england-to-host-south-africa-in-three-test-netball-series-live-on-sky-sports-in-february-as-world-cup-preparation",
+      "published_at": "Mon, 02 Nov 2026 18:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England's Vitality Roses will host South Africa in a three-Test netball series in February, with all matches live on Sky Sports."
+    },
+    {
+      "id": "10625afb4a38",
+      "title": "Borthwick names Nations Championship squad with Mitchell ruled out",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13607177/nations-championship-alex-mitchell-out-as-steve-borthwick-names-england-squad",
+      "published_at": "Mon, 02 Nov 2026 16:30:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England head coach Steve Borthwick has named a 36-player squad for the forthcoming Nations Championship."
+    }
+  ]
 }
