@@ -1,14 +1,23 @@
 {
-  "updated": "2026-11-02T18:45:03.666221",
+  "updated": "2026-11-02T23:38:46.518795",
   "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 3,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "55a2158a932c",
+      "title": "Fifa to share 'key documents' over World Cup sell-off plan",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6vgj0p4ey17o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Mon, 02 Nov 2026 20:23:55 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Council members will need to travel to Fifa's headquarters in Zurich to see the documents, and will be subject to \"strict review protocols\"."
+    },
     {
       "id": "94ebdc41585b",
       "title": "Key questions as Pocognoli prepares to name Scotland squad",
@@ -28,15 +37,6 @@
       "summary": "Tenerife striker Jesus de Miguel is in a stable condition in intensive care after suffering a serious injury during a Spanish second division match on Monday."
     },
     {
-      "id": "e9f96235f219",
-      "title": "Newcastle vs Everton team news LIVE!",
-      "url": "https://www.skysports.com/football/newcastle-united-vs-everton/live/559532",
-      "published_at": "Mon, 02 Nov 2026 18:30:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
       "id": "867a1ea27f0d",
       "title": "England to host South Africa live on Sky Sports in Netball World Cup prep",
       "url": "https://www.skysports.com/netball/news/12040/13607188/england-to-host-south-africa-in-three-test-netball-series-live-on-sky-sports-in-february-as-world-cup-preparation",
@@ -46,13 +46,13 @@
       "summary": "England's Vitality Roses will host South Africa in a three-Test netball series in February, with all matches live on Sky Sports."
     },
     {
-      "id": "10625afb4a38",
-      "title": "Borthwick names Nations Championship squad with Mitchell ruled out",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13607177/nations-championship-alex-mitchell-out-as-steve-borthwick-names-england-squad",
-      "published_at": "Mon, 02 Nov 2026 16:30:00 GMT",
+      "id": "e47dd90c58ae",
+      "title": "Carney urges RFL to adopt strategic plan after England's World Cup exits ",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13606981/rugby-league-world-cup-brian-carney-urges-rfl-to-implement-plan-to-fix-sports-key-issues-after-englands-exits",
+      "published_at": "Mon, 02 Nov 2026 09:20:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "England head coach Steve Borthwick has named a 36-player squad for the forthcoming Nations Championship."
+      "summary": "Brian Carney has urged the Rugby Football League (RFL) to get serious about its ambitions to strengthen the domestic game in England by implementing a strategic plan."
     }
   ]
 }
