@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-03T07:02:09.397010",
+    "last_updated": "2026-11-03T16:27:29.686239",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Tenerife player in intensive care with injury",
-      "nations": [
-        "Spain"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Tenerife striker Jesus de Miguel is in a stable condition in intensive care after suffering a serious injury during a Spanish second division match on Monday.",
-      "published": "Mon, 02 Nov 2026 18:18:55 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }

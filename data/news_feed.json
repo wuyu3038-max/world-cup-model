@@ -1,58 +1,22 @@
 {
-  "updated": "2026-11-03T07:02:09.333840",
-  "total_articles": 5,
+  "updated": "2026-11-03T16:27:29.641390",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 2,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "55a2158a932c",
-      "title": "Fifa to share 'key documents' over World Cup sell-off plan",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6vgj0p4ey17o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 02 Nov 2026 20:23:55 GMT",
+      "id": "b3d59e50fb7c",
+      "title": "Wrexham suffer 'significant' Smith injury blow",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqrmyr0m3ydxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 03 Nov 2026 15:20:23 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Council members will need to travel to Fifa's headquarters in Zurich to see the documents, and will be subject to \"strict review protocols\"."
-    },
-    {
-      "id": "94ebdc41585b",
-      "title": "Key questions as Pocognoli prepares to name Scotland squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 02 Nov 2026 17:35:14 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Sebastien Pocognoli names his second Scotland squad on Tuesday, with various dilemmas to address."
-    },
-    {
-      "id": "0c99334a12ae",
-      "title": "Tenerife player in intensive care with injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 02 Nov 2026 18:18:55 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Tenerife striker Jesus de Miguel is in a stable condition in intensive care after suffering a serious injury during a Spanish second division match on Monday."
-    },
-    {
-      "id": "867a1ea27f0d",
-      "title": "England to host South Africa live on Sky Sports in Netball World Cup prep",
-      "url": "https://www.skysports.com/netball/news/12040/13607188/england-to-host-south-africa-in-three-test-netball-series-live-on-sky-sports-in-february-as-world-cup-preparation",
-      "published_at": "Mon, 02 Nov 2026 18:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England's Vitality Roses will host South Africa in a three-Test netball series in February, with all matches live on Sky Sports."
-    },
-    {
-      "id": "e47dd90c58ae",
-      "title": "Carney urges RFL to adopt strategic plan after England's World Cup exits ",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13606981/rugby-league-world-cup-brian-carney-urges-rfl-to-implement-plan-to-fix-sports-key-issues-after-englands-exits",
-      "published_at": "Mon, 02 Nov 2026 09:20:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Brian Carney has urged the Rugby Football League (RFL) to get serious about its ambitions to strengthen the domestic game in England by implementing a strategic plan."
+      "summary": "Wrexham forward Sam Smith faces a \"significant\" spell out of action due to a knee injury, manager Phil Parkinson confirms."
     }
   ]
 }
