@@ -1,12 +1,22 @@
 {
-  "updated": "2026-11-04T16:30:04.975365",
-  "total_articles": 0,
+  "updated": "2026-11-04T22:02:29.885363",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "b68f9823c6d6",
+      "title": "Lions' Campbell has full movement in lower body after neck injury",
+      "url": "https://www.skysports.com/nfl/news/12040/13608069/nfl-detroit-lions-jack-campbell-has-full-movement-in-lower-body-after-neck-injury-suffered-in-win-over-the-minnesota-vikings",
+      "published_at": "Wed, 04 Nov 2026 18:45:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Detroit Lions linebacker&#160;Jack Campbell says he has full movement in his lower body after he was taken to hospital with a neck injury during Sunday's&#160;NFL win over the Minnesota Vikings."
+    }
+  ]
 }
