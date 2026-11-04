@@ -1,22 +1,12 @@
 {
-  "updated": "2026-11-03T21:53:39.535781",
-  "total_articles": 1,
+  "updated": "2026-11-04T06:45:20.364422",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "b3d59e50fb7c",
-      "title": "Wrexham suffer 'significant' Smith injury blow",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqrmyr0m3ydxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 03 Nov 2026 15:20:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Wrexham forward Sam Smith faces a \"significant\" spell out of action due to a knee injury, manager Phil Parkinson confirms."
-    }
-  ]
+  "articles": []
 }
