@@ -1,31 +1,40 @@
 {
-  "updated": "2026-11-05T07:05:34.999351",
-  "total_articles": 2,
+  "updated": "2026-11-05T16:41:54.959426",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 1,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "66ba25cfbf41",
-      "title": "Papers: Arteta using NASA to help fix Arsenal's injury woes",
-      "url": "https://www.skysports.com/football/news/12040/13608204/mikel-arteta-is-using-nasa-to-help-fix-arsenals-injury-woes-with-google-and-apple-helping-too-paper-talk",
-      "published_at": "Tue, 03 Nov 2026 23:10:00 GMT",
-      "source": "Sky Sports Football",
+      "id": "b198a810d750",
+      "title": "Japan's Tashima to stand against Infantino for Fifa presidency",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwvgdyd80g9do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 05 Nov 2026 12:55:13 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The top stories and transfer rumours from Thursday's newspapers..."
+      "summary": "Japan's Kozo Tashima has announced his candidacy for Fifa's upcoming presidential election."
     },
     {
-      "id": "b68f9823c6d6",
-      "title": "Lions' Campbell has full movement in lower body after neck injury",
-      "url": "https://www.skysports.com/nfl/news/12040/13608069/nfl-detroit-lions-jack-campbell-has-full-movement-in-lower-body-after-neck-injury-suffered-in-win-over-the-minnesota-vikings",
-      "published_at": "Wed, 04 Nov 2026 18:45:00 GMT",
+      "id": "4875709af6c9",
+      "title": "Europa League LIVE! Palace and Bournemouth team news",
+      "url": "https://www.skysports.com/football/crystal-palace-vs-tsg-hoffenheim/live/577801",
+      "published_at": "Thu, 05 Nov 2026 16:25:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Detroit Lions linebacker&#160;Jack Campbell says he has full movement in his lower body after he was taken to hospital with a neck injury during Sunday's&#160;NFL win over the Minnesota Vikings."
+      "summary": ""
+    },
+    {
+      "id": "4b4f0091b35e",
+      "title": "Infantino faces fight for FIFA presidency as first challenger emerges",
+      "url": "https://www.skysports.com/football/news/12040/13608441/gianni-infantino-fifa-president-faces-challenge-from-japan-fa-chief-kohzo-tashima-in-2027-election",
+      "published_at": "Thu, 05 Nov 2026 14:57:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Gianni Infantino is facing his first serious challenger for the FIFA presidency after Japanese football chief Kohzo Tashima announced his intention to stand in March's election."
     }
   ]
 }
