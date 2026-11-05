@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-05T16:41:54.959426",
-  "total_articles": 3,
+  "updated": "2026-11-05T22:10:54.957129",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 2,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
@@ -19,22 +19,31 @@
       "summary": "Japan's Kozo Tashima has announced his candidacy for Fifa's upcoming presidential election."
     },
     {
-      "id": "4875709af6c9",
-      "title": "Europa League LIVE! Palace and Bournemouth team news",
-      "url": "https://www.skysports.com/football/crystal-palace-vs-tsg-hoffenheim/live/577801",
-      "published_at": "Thu, 05 Nov 2026 16:25:00 GMT",
+      "id": "9a587bb1fba2",
+      "title": "Russell questions frequency of 'atrocious luck' during 2026 F1 season",
+      "url": "https://www.skysports.com/f1/news/12040/13608315/george-russell-mercedes-driver-questions-frequency-of-atrocious-luck-during-2026-f1-season-after-team-mate-kimi-antonelli-crowned-champion",
+      "published_at": "Thu, 05 Nov 2026 20:30:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "George Russell has questioned the frequency of the \"atrocious luck\" he believes he has suffered during the 2026 Formula 1 season."
     },
     {
-      "id": "4b4f0091b35e",
-      "title": "Infantino faces fight for FIFA presidency as first challenger emerges",
-      "url": "https://www.skysports.com/football/news/12040/13608441/gianni-infantino-fifa-president-faces-challenge-from-japan-fa-chief-kohzo-tashima-in-2027-election",
-      "published_at": "Thu, 05 Nov 2026 14:57:00 GMT",
+      "id": "975b92c24da2",
+      "title": "Kamada earns Palace injury-time Hoffenheim draw and offers Sage respite",
+      "url": "https://www.skysports.com/football/crystal-palace-vs-tsg-hoffenheim/report/577801",
+      "published_at": "Thu, 05 Nov 2026 20:00:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Gianni Infantino is facing his first serious challenger for the FIFA presidency after Japanese football chief Kohzo Tashima announced his intention to stand in March's election."
+      "summary": "Pierre Sage was handed a much-needed lifeline as Crystal Palace snatched a dramatic late 1-1 draw against Hoffenheim in the Europa League, despite playing the final stages with 10 men following Adam W"
+    },
+    {
+      "id": "2467a0425285",
+      "title": "Fury's camp deny injury claims ahead of Joshua fight",
+      "url": "https://www.skysports.com/boxing/news/12040/13608487/tyson-fury-camp-deny-injury-claims-ahead-of-the-gypsy-kings-fight-with-anthony-joshua-in-cardiff",
+      "published_at": "Thu, 05 Nov 2026 17:10:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Tyson Fury's camp have denied claims their fighter is injured ahead of his eagerly-anticipated clash with Anthony Joshua next month."
     }
   ]
 }
