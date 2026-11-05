@@ -1,14 +1,23 @@
 {
-  "updated": "2026-11-04T22:02:29.885363",
-  "total_articles": 1,
+  "updated": "2026-11-05T07:05:34.999351",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "66ba25cfbf41",
+      "title": "Papers: Arteta using NASA to help fix Arsenal's injury woes",
+      "url": "https://www.skysports.com/football/news/12040/13608204/mikel-arteta-is-using-nasa-to-help-fix-arsenals-injury-woes-with-google-and-apple-helping-too-paper-talk",
+      "published_at": "Tue, 03 Nov 2026 23:10:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "The top stories and transfer rumours from Thursday's newspapers..."
+    },
     {
       "id": "b68f9823c6d6",
       "title": "Lions' Campbell has full movement in lower body after neck injury",
