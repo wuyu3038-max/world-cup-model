@@ -1,14 +1,23 @@
 {
-  "updated": "2026-11-06T07:04:46.127599",
+  "updated": "2026-11-06T16:09:57.780438",
   "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 2,
+    "bbc_sport": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "4723cea38d48",
+      "title": "The Fifa hopeful hoping to take Infantino down with 'samurai spirit'",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyvv7pkqrno?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 06 Nov 2026 15:21:40 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Gianni Infantino's first challenger for the presidency tells BBC Sport why he is standing in the election."
+    },
     {
       "id": "6d679b7b3bf5",
       "title": "Six tournaments, 11 goals - Ronaldo's World Cup legacy ",
@@ -19,22 +28,13 @@
       "summary": "Portugal legend Cristiano Ronaldo retires from international football having scored 146 goals and 234 caps for his country. Here's a look back at his 11 World Cup goals, across six tournaments since 2"
     },
     {
-      "id": "9a587bb1fba2",
-      "title": "Russell questions frequency of 'atrocious luck' during 2026 F1 season",
-      "url": "https://www.skysports.com/f1/news/12040/13608315/george-russell-mercedes-driver-questions-frequency-of-atrocious-luck-during-2026-f1-season-after-team-mate-kimi-antonelli-crowned-champion",
-      "published_at": "Thu, 05 Nov 2026 20:30:00 GMT",
+      "id": "40dabad05a5b",
+      "title": "Palmer left out of England squad as Jobe and King called up",
+      "url": "https://www.skysports.com/football/news/12040/13608698/england-squad-cole-palmer-phil-foden-and-kobbie-mainoo-left-out-as-jobe-bellingham-and-josh-king-called-up",
+      "published_at": "Fri, 06 Nov 2026 10:00:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "George Russell has questioned the frequency of the \"atrocious luck\" he believes he has suffered during the 2026 Formula 1 season."
-    },
-    {
-      "id": "975b92c24da2",
-      "title": "Kamada earns Palace injury-time Hoffenheim draw and offers Sage respite",
-      "url": "https://www.skysports.com/football/crystal-palace-vs-tsg-hoffenheim/report/577801",
-      "published_at": "Thu, 05 Nov 2026 20:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Pierre Sage was handed a much-needed lifeline as Crystal Palace snatched a dramatic late 1-1 draw against Hoffenheim in the Europa League, despite playing the final stages with 10 men following Adam W"
+      "summary": "Thomas Tuchel has left Cole Palmer out of the England squad, along with Phil Foden and Kobbie Mainoo, but Jude Bellingham&#8217;s brother Jobe and Fulham midfielder Josh King have earned their first s"
     }
   ]
 }
