@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-05T22:10:54.957129",
-  "total_articles": 4,
+  "updated": "2026-11-06T07:04:46.127599",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "b198a810d750",
-      "title": "Japan's Tashima to stand against Infantino for Fifa presidency",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwvgdyd80g9do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 05 Nov 2026 12:55:13 GMT",
+      "id": "6d679b7b3bf5",
+      "title": "Six tournaments, 11 goals - Ronaldo's World Cup legacy ",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cwr5y0yj716do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 05 Nov 2026 13:15:21 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Japan's Kozo Tashima has announced his candidacy for Fifa's upcoming presidential election."
+      "summary": "Portugal legend Cristiano Ronaldo retires from international football having scored 146 goals and 234 caps for his country. Here's a look back at his 11 World Cup goals, across six tournaments since 2"
     },
     {
       "id": "9a587bb1fba2",
@@ -35,15 +35,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Pierre Sage was handed a much-needed lifeline as Crystal Palace snatched a dramatic late 1-1 draw against Hoffenheim in the Europa League, despite playing the final stages with 10 men following Adam W"
-    },
-    {
-      "id": "2467a0425285",
-      "title": "Fury's camp deny injury claims ahead of Joshua fight",
-      "url": "https://www.skysports.com/boxing/news/12040/13608487/tyson-fury-camp-deny-injury-claims-ahead-of-the-gypsy-kings-fight-with-anthony-joshua-in-cardiff",
-      "published_at": "Thu, 05 Nov 2026 17:10:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Tyson Fury's camp have denied claims their fighter is injured ahead of his eagerly-anticipated clash with Anthony Joshua next month."
     }
   ]
 }
