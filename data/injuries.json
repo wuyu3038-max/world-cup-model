@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-07T15:01:57.773811",
+    "last_updated": "2026-11-07T20:24:32.525219",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Injured Welsh replaced by Porteous in Scotland squad",
-      "nations": [
-        "Scotland"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/football/live-blog/12040/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
-      "summary": "",
-      "published": "Sat, 07 Nov 2026 14:48:00 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }

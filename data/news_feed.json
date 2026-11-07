@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T15:01:57.724372",
+  "updated": "2026-11-07T20:24:32.461947",
   "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
@@ -10,22 +10,22 @@
   },
   "articles": [
     {
-      "id": "4723cea38d48",
-      "title": "The Fifa hopeful hoping to take Infantino down with 'samurai spirit'",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyvv7pkqrno?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 06 Nov 2026 15:21:40 GMT",
+      "id": "faa646b535ed",
+      "title": "Argentina set to go to Cas after Fifa rejects appeals",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crn4ekzyz8jlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 07 Nov 2026 18:33:18 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Gianni Infantino's first challenger for the presidency tells BBC Sport why he is standing in the election."
+      "summary": "The Argentina Football Association says it is planning to go to the Court of Arbitration for Sport over Fifa rejecting its appeals against World Cup punishments."
     },
     {
-      "id": "efaeba6c282c",
-      "title": "Injured Welsh replaced by Porteous in Scotland squad",
-      "url": "https://www.skysports.com/football/live-blog/12040/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
-      "published_at": "Sat, 07 Nov 2026 14:48:00 GMT",
+      "id": "3c633e067567",
+      "title": "Rybakina pulls out of 2026 WTA Finals at Indian Wells",
+      "url": "https://www.skysports.com/tennis/news/12040/13609520/elena-rybakina-pulls-out-of-2026-wta-finals-at-indian-wells-due-to-medical-issue-and-is-replaced-by-marta-kostyuk",
+      "published_at": "Sat, 07 Nov 2026 19:33:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": ""
+      "summary": "Defending champion Elena Rybakina has withdrawal from the 2026 WTA Finals on the eve of the season-ending tournament citing a medical issue."
     }
   ]
 }
