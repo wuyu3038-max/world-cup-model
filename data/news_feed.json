@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-06T21:42:15.091534",
-  "total_articles": 2,
+  "updated": "2026-11-07T06:17:47.770233",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 1,
     "sky_sports": 0,
     "goal_com": 0
   },
@@ -17,15 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Gianni Infantino's first challenger for the presidency tells BBC Sport why he is standing in the election."
-    },
-    {
-      "id": "6d679b7b3bf5",
-      "title": "Six tournaments, 11 goals - Ronaldo's World Cup legacy ",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cwr5y0yj716do?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 05 Nov 2026 13:15:21 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Portugal legend Cristiano Ronaldo retires from international football having scored 146 goals and 234 caps for his country. Here's a look back at his 11 World Cup goals, across six tournaments since 2"
     }
   ]
 }
