@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-07T06:17:47.770233",
-  "total_articles": 1,
+  "updated": "2026-11-07T15:01:57.724372",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -17,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Gianni Infantino's first challenger for the presidency tells BBC Sport why he is standing in the election."
+    },
+    {
+      "id": "efaeba6c282c",
+      "title": "Injured Welsh replaced by Porteous in Scotland squad",
+      "url": "https://www.skysports.com/football/live-blog/12040/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
+      "published_at": "Sat, 07 Nov 2026 14:48:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }
