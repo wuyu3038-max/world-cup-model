@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T15:31:06.723995",
+  "updated": "2026-11-08T20:40:27.395074",
   "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
@@ -10,15 +10,6 @@
   },
   "articles": [
     {
-      "id": "9564575f8510",
-      "title": "Last season difficult with injury and miscarriage - Muniz",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 08 Nov 2026 11:56:01 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fulham striker Rodrigo Muniz, who scored for his side in a 1-1 draw against Newcastle United, speaks of the struggles he endured last season."
-    },
-    {
       "id": "5792286957a8",
       "title": "England await Guehi scan results after injury concern",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmwyq8x6nx5lo?at_medium=RSS&at_campaign=rss",
@@ -28,6 +19,24 @@
       "summary": "Manchester City defender Marc Guehi will undergo a scan on a hip complaint on Sunday to determine whether he can report for England duty this week."
     },
     {
+      "id": "9564575f8510",
+      "title": "Last season difficult with injury and miscarriage - Muniz",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 08 Nov 2026 11:56:01 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Fulham striker Rodrigo Muniz, who scored for his side in a 1-1 draw against Newcastle United, speaks of the struggles he endured last season."
+    },
+    {
+      "id": "aec220af4dca",
+      "title": "Borthwick and Itoje reject reports of England squad rift - 'Not accurate' ",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13609859/steve-borthwick-and-maro-itoje-reject-reports-of-friction-between-england-head-coach-and-players-after-australia-win",
+      "published_at": "Sun, 08 Nov 2026 17:34:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "England head coach Steve Borthwick and captain Maro Itoje have rejected claims made in a newspaper article this week of a squad rift, saying it \"does not represent the environment\" they recognise.&#16"
+    },
+    {
       "id": "a924c68d47c4",
       "title": "Australia reach World Cup final as Samoa fume at decisions",
       "url": "https://www.skysports.com/rugby-league/australia-vs-samoa/report/63154",
@@ -35,15 +44,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Australia are one win away from a record-extending 13th men's Rugby League World Cup title after beating Samoa 44-12 in a fractious clash to secure a showdown with New Zealand in next weekend's Brisba"
-    },
-    {
-      "id": "8d32037efb81",
-      "title": "Man Utd vs Aston Villa team news LIVE!",
-      "url": "https://www.skysports.com/football/manchester-united-vs-aston-villa/live/559541",
-      "published_at": "Sun, 08 Nov 2026 15:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
