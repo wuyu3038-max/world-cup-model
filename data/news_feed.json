@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-07T20:24:32.461947",
-  "total_articles": 2,
+  "updated": "2026-11-08T06:23:05.724759",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -17,15 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "The Argentina Football Association says it is planning to go to the Court of Arbitration for Sport over Fifa rejecting its appeals against World Cup punishments."
-    },
-    {
-      "id": "3c633e067567",
-      "title": "Rybakina pulls out of 2026 WTA Finals at Indian Wells",
-      "url": "https://www.skysports.com/tennis/news/12040/13609520/elena-rybakina-pulls-out-of-2026-wta-finals-at-indian-wells-due-to-medical-issue-and-is-replaced-by-marta-kostyuk",
-      "published_at": "Sat, 07 Nov 2026 19:33:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Defending champion Elena Rybakina has withdrawal from the 2026 WTA Finals on the eve of the season-ending tournament citing a medical issue."
     }
   ]
 }
