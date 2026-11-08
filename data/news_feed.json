@@ -1,22 +1,49 @@
 {
-  "updated": "2026-11-08T06:23:05.724759",
-  "total_articles": 1,
+  "updated": "2026-11-08T15:31:06.723995",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 0,
+    "bbc_sport": 2,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "faa646b535ed",
-      "title": "Argentina set to go to Cas after Fifa rejects appeals",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crn4ekzyz8jlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 07 Nov 2026 18:33:18 GMT",
+      "id": "9564575f8510",
+      "title": "Last season difficult with injury and miscarriage - Muniz",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 08 Nov 2026 11:56:01 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The Argentina Football Association says it is planning to go to the Court of Arbitration for Sport over Fifa rejecting its appeals against World Cup punishments."
+      "summary": "Fulham striker Rodrigo Muniz, who scored for his side in a 1-1 draw against Newcastle United, speaks of the struggles he endured last season."
+    },
+    {
+      "id": "5792286957a8",
+      "title": "England await Guehi scan results after injury concern",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyq8x6nx5lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 08 Nov 2026 15:03:01 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Manchester City defender Marc Guehi will undergo a scan on a hip complaint on Sunday to determine whether he can report for England duty this week."
+    },
+    {
+      "id": "a924c68d47c4",
+      "title": "Australia reach World Cup final as Samoa fume at decisions",
+      "url": "https://www.skysports.com/rugby-league/australia-vs-samoa/report/63154",
+      "published_at": "Sun, 08 Nov 2026 11:30:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Australia are one win away from a record-extending 13th men's Rugby League World Cup title after beating Samoa 44-12 in a fractious clash to secure a showdown with New Zealand in next weekend's Brisba"
+    },
+    {
+      "id": "8d32037efb81",
+      "title": "Man Utd vs Aston Villa team news LIVE!",
+      "url": "https://www.skysports.com/football/manchester-united-vs-aston-villa/live/559541",
+      "published_at": "Sun, 08 Nov 2026 15:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }

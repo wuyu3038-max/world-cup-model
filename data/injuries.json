@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-08T06:23:05.763294",
+    "last_updated": "2026-11-08T15:31:06.785776",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,16 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "England await Guehi scan results after injury concern",
+      "nations": [
+        "England"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyq8x6nx5lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Manchester City defender Marc Guehi will undergo a scan on a hip complaint on Sunday to determine whether he can report for England duty this week.",
+      "published": "Sun, 08 Nov 2026 15:03:01 GMT"
+    }
+  ]
 }
