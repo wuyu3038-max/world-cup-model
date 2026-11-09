@@ -1,31 +1,22 @@
 {
-  "updated": "2026-11-08T20:40:27.395074",
-  "total_articles": 4,
+  "updated": "2026-11-09T06:56:08.907068",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 0,
     "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "5792286957a8",
-      "title": "England await Guehi scan results after injury concern",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyq8x6nx5lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 08 Nov 2026 15:03:01 GMT",
-      "source": "BBC Sport Football",
+      "id": "07656d522046",
+      "title": "NFL round-up: Mahomes overcomes injury in Chiefs win and Packers beat Pats",
+      "url": "https://www.skysports.com/nfl/live-blog/12040/13609973/nfl-2026-results-and-highlights-patrick-mahomes-overcomes-injury-to-lead-kansas-city-chiefs-to-victory",
+      "published_at": "Sun, 08 Nov 2026 20:11:00 GMT",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Manchester City defender Marc Guehi will undergo a scan on a hip complaint on Sunday to determine whether he can report for England duty this week."
-    },
-    {
-      "id": "9564575f8510",
-      "title": "Last season difficult with injury and miscarriage - Muniz",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 08 Nov 2026 11:56:01 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fulham striker Rodrigo Muniz, who scored for his side in a 1-1 draw against Newcastle United, speaks of the struggles he endured last season."
+      "summary": ""
     },
     {
       "id": "aec220af4dca",
@@ -35,15 +26,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "England head coach Steve Borthwick and captain Maro Itoje have rejected claims made in a newspaper article this week of a squad rift, saying it \"does not represent the environment\" they recognise.&#16"
-    },
-    {
-      "id": "a924c68d47c4",
-      "title": "Australia reach World Cup final as Samoa fume at decisions",
-      "url": "https://www.skysports.com/rugby-league/australia-vs-samoa/report/63154",
-      "published_at": "Sun, 08 Nov 2026 11:30:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Australia are one win away from a record-extending 13th men's Rugby League World Cup title after beating Samoa 44-12 in a fractious clash to secure a showdown with New Zealand in next weekend's Brisba"
     }
   ]
 }
