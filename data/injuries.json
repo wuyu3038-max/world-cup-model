@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-09T06:56:08.967529",
+    "last_updated": "2026-11-09T19:03:09.292957",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,18 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Burn replaces injured Guehi in England squad",
+      "nations": [
+        "Spain",
+        "England",
+        "Croatia"
+      ],
+      "source": "BBC Sport Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyq8x6nx5lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Newcastle's Dan Burn is added to the England squad to play Croatia and Spain in the Nations League this week after Marc Guehi pulls out with a hip injury.",
+      "published": "Mon, 09 Nov 2026 12:06:19 GMT"
+    }
+  ]
 }
