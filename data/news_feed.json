@@ -1,14 +1,23 @@
 {
-  "updated": "2026-11-10T16:33:42.437075",
-  "total_articles": 5,
+  "updated": "2026-11-10T21:52:40.129510",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 2,
+    "bbc_sport": 4,
+    "sky_sports": 3,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "3a2f75401257",
+      "title": "McTominay reveals heart treatment at World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw5ynynx204zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 10 Nov 2026 16:46:31 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Scott McTominay reveals he received treatment on his heart two days before Scotland's World Cup win over Haiti in June."
+    },
     {
       "id": "4b2c2d25d819",
       "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
@@ -28,13 +37,31 @@
       "summary": "A Christian group set up for footballers says it wants to \"demonstrate love and respect towards everyone\" following criticism from fans."
     },
     {
-      "id": "e29198bfaca3",
-      "title": "Kane and Bellingham air strong views in England World Cup review",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 09 Nov 2026 17:30:23 GMT",
+      "id": "64a72d37fd7f",
+      "title": "Pocognoli to lean on Scotland's 'captain group of five'",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmde8e8wjyzgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 10 Nov 2026 20:49:11 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "England players are understood to have aired strong views about their World Cup semi-final defeat by Argentina in a team meeting."
+      "summary": "Sebastien Pocognoli is delighted to welcome \"exciting\" Scott McTominay into his squad, saying the Napoli midfielder is one of the \"fantastic leaders\" that helped persuade him to become Scotland head c"
+    },
+    {
+      "id": "b2ca49fa856f",
+      "title": "England focused on Curry and Feyi-Waboso winning World Cup fitness race",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13610706/england-focused-on-ensuring-immanuel-feyi-waboso-and-tom-curry-get-fit-for-rugby-world-cup",
+      "published_at": "Tue, 10 Nov 2026 16:44:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Immanuel Feyi-Waboso and Tom Curry will be carefully managed between now and the World Cup as England look to give two key personnel the best possible chance of being available for the tournament."
+    },
+    {
+      "id": "705aa6fedb0c",
+      "title": "McTominay had heart 'shocked' two days before Scotland's World Cup opener",
+      "url": "https://www.skysports.com/football/news/12040/13610728/scott-mctominay-scotland-midfielder-had-heart-shocked-two-days-before-world-cup-opener-against-haiti",
+      "published_at": "Tue, 10 Nov 2026 16:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Scott McTominay has revealed he needed to have his heart &#8220;shocked&#8221; two days before Scotland's World Cup opener against Haiti."
     },
     {
       "id": "4be435d7416d",
@@ -44,15 +71,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "No further engine upgrade opportunities have been granted to Formula 1's power unit manufacturers following the third and final review period of the 2026 season, the FIA has confirmed."
-    },
-    {
-      "id": "60b3e33c0440",
-      "title": "England Wheelchair rout Australia to reach World Cup final",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13610543/rugby-league-world-cup-england-wheelchair-score-record-points-total-against-home-nation-australia-to-reach-final",
-      "published_at": "Tue, 10 Nov 2026 10:17:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "England Wheelchair scored a record points total against rival Australia to rout their opponents 86-18 and reach their fifth successive Rugby League World Cup final."
     }
   ]
 }
