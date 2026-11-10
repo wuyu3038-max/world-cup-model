@@ -1,14 +1,23 @@
 {
-  "updated": "2026-11-10T00:21:15.745383",
-  "total_articles": 3,
+  "updated": "2026-11-10T07:32:47.736161",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 1,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "4b2c2d25d819",
+      "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 10 Nov 2026 06:24:50 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
+    },
     {
       "id": "e29198bfaca3",
       "title": "Kane and Bellingham air strong views in England World Cup review",
@@ -26,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Newcastle's Dan Burn is added to the England squad to play Croatia and Spain in the Nations League this week after Marc Guehi pulls out with a hip injury."
+    },
+    {
+      "id": "a0365243b03d",
+      "title": "Grand Slam of Darts 2026: Schedule, new format, players, prize money, past winners",
+      "url": "https://www.skysports.com/darts/news/12040/13610214/grand-slam-of-darts-2026-schedule-new-format-players-prize-money-past-winners-as-luke-littler-looks-to-retain-title",
+      "published_at": "Tue, 10 Nov 2026 07:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Ahead of the Grand Slam of Darts 2026, take a look at everything you need to know including the new format, schedule, past winners, and increased prize money up for grabs..."
     },
     {
       "id": "e1a626261ec3",
