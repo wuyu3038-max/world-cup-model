@@ -1,40 +1,31 @@
 {
-  "updated": "2026-11-11T06:50:27.898166",
-  "total_articles": 4,
+  "updated": "2026-11-11T16:30:18.119868",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 0,
+    "bbc_sport": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "3a2f75401257",
-      "title": "McTominay reveals heart treatment at World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw5ynynx204zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 10 Nov 2026 16:46:31 GMT",
+      "id": "a24a177c6f38",
+      "title": "Scotland without captain Weir for World Cup play-off",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 11 Nov 2026 11:59:18 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Scott McTominay reveals he received treatment on his heart two days before Scotland's World Cup win over Haiti in June."
+      "summary": "Scotland will be without Caroline Weir for the World Cup play-off final with Sweden following a setback in the influential midfielder's recovery from a muscle injury."
     },
     {
-      "id": "64a72d37fd7f",
-      "title": "Pocognoli to lean on Scotland's 'captain group of five'",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmde8e8wjyzgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 10 Nov 2026 20:49:11 GMT",
+      "id": "866d9515c5f1",
+      "title": "Turkey-based Bates replaces Binks in Scotland squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c539gkdrn7yeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 11 Nov 2026 13:37:08 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Sebastien Pocognoli is delighted to welcome \"exciting\" Scott McTominay into his squad, saying the Napoli midfielder is one of the \"fantastic leaders\" that helped persuade him to become Scotland head c"
-    },
-    {
-      "id": "1f8add0bca10",
-      "title": "Dortmund fans' group criticises Nmecha celebration",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm3696yy9z64o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 10 Nov 2026 12:48:21 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "A Christian group set up for footballers says it wants to \"demonstrate love and respect towards everyone\" following criticism from fans."
+      "summary": "David Bates has been called up to the Scotland squad as fellow defender Luis Binks drops out for the matches against North Macedonia and Switzerland."
     },
     {
       "id": "4b2c2d25d819",
@@ -44,6 +35,24 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
+    },
+    {
+      "id": "2821e827df0a",
+      "title": "Coyd family one step from England Wheelchair World Cup glory ",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13610977/wheelchair-rugby-league-world-cup-tom-and-joe-coyd-looking-to-take-england-to-successive-world-cup-titles-as-france-await-in-final",
+      "published_at": "Wed, 11 Nov 2026 13:50:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "A second successive World Cup win would take England Wheelchair men's side to unparalleled heights in Rugby League - but for Tom and Joe Coyd, the matter of the final is still very much a family affai"
+    },
+    {
+      "id": "a9afa3b6bde2",
+      "title": "Australia in turmoil, Bethell's injury and Patterson-White's England Test call up",
+      "url": "https://www.skysports.com/podcasts/36578/11933948/sky-sports-cricket-podcast-with-nasser-hussain-and-michael-atherton",
+      "published_at": "Sun, 20 Sep 2026 08:00:00 BST",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
     }
   ]
 }
