@@ -1,23 +1,14 @@
 {
-  "updated": "2026-11-11T16:30:18.119868",
-  "total_articles": 5,
+  "updated": "2026-11-11T22:54:44.289401",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 3,
-    "sky_sports": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "a24a177c6f38",
-      "title": "Scotland without captain Weir for World Cup play-off",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 11 Nov 2026 11:59:18 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Scotland will be without Caroline Weir for the World Cup play-off final with Sweden following a setback in the influential midfielder's recovery from a muscle injury."
-    },
     {
       "id": "866d9515c5f1",
       "title": "Turkey-based Bates replaces Binks in Scotland squad",
@@ -28,6 +19,15 @@
       "summary": "David Bates has been called up to the Scotland squad as fellow defender Luis Binks drops out for the matches against North Macedonia and Switzerland."
     },
     {
+      "id": "a24a177c6f38",
+      "title": "Scotland without captain Weir for World Cup play-off",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 11 Nov 2026 11:59:18 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Scotland will be without Caroline Weir for the World Cup play-off final with Sweden following a setback in the influential midfielder's recovery from a muscle injury."
+    },
+    {
       "id": "4b2c2d25d819",
       "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
@@ -35,24 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
-    },
-    {
-      "id": "2821e827df0a",
-      "title": "Coyd family one step from England Wheelchair World Cup glory ",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13610977/wheelchair-rugby-league-world-cup-tom-and-joe-coyd-looking-to-take-england-to-successive-world-cup-titles-as-france-await-in-final",
-      "published_at": "Wed, 11 Nov 2026 13:50:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "A second successive World Cup win would take England Wheelchair men's side to unparalleled heights in Rugby League - but for Tom and Joe Coyd, the matter of the final is still very much a family affai"
-    },
-    {
-      "id": "a9afa3b6bde2",
-      "title": "Australia in turmoil, Bethell's injury and Patterson-White's England Test call up",
-      "url": "https://www.skysports.com/podcasts/36578/11933948/sky-sports-cricket-podcast-with-nasser-hussain-and-michael-atherton",
-      "published_at": "Sun, 20 Sep 2026 08:00:00 BST",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }

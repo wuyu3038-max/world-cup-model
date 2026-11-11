@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-11T16:30:18.183974",
+    "last_updated": "2026-11-11T22:54:44.339825",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -791,17 +791,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
       "summary": "Scotland will be without Caroline Weir for the World Cup play-off final with Sweden following a setback in the influential midfielder's recovery from a muscle injury.",
       "published": "Wed, 11 Nov 2026 11:59:18 GMT"
-    },
-    {
-      "title": "Australia in turmoil, Bethell's injury and Patterson-White's England Test call up",
-      "nations": [
-        "England",
-        "Australia"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/podcasts/36578/11933948/sky-sports-cricket-podcast-with-nasser-hussain-and-michael-atherton",
-      "summary": "",
-      "published": "Sun, 20 Sep 2026 08:00:00 BST"
     }
   ]
 }
