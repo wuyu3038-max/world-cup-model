@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-10T21:52:40.129510",
-  "total_articles": 7,
+  "updated": "2026-11-11T06:50:27.898166",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 4,
-    "sky_sports": 3,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -19,13 +19,13 @@
       "summary": "Scott McTominay reveals he received treatment on his heart two days before Scotland's World Cup win over Haiti in June."
     },
     {
-      "id": "4b2c2d25d819",
-      "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 10 Nov 2026 06:24:50 GMT",
+      "id": "64a72d37fd7f",
+      "title": "Pocognoli to lean on Scotland's 'captain group of five'",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmde8e8wjyzgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 10 Nov 2026 20:49:11 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
+      "summary": "Sebastien Pocognoli is delighted to welcome \"exciting\" Scott McTominay into his squad, saying the Napoli midfielder is one of the \"fantastic leaders\" that helped persuade him to become Scotland head c"
     },
     {
       "id": "1f8add0bca10",
@@ -37,40 +37,13 @@
       "summary": "A Christian group set up for footballers says it wants to \"demonstrate love and respect towards everyone\" following criticism from fans."
     },
     {
-      "id": "64a72d37fd7f",
-      "title": "Pocognoli to lean on Scotland's 'captain group of five'",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmde8e8wjyzgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 10 Nov 2026 20:49:11 GMT",
+      "id": "4b2c2d25d819",
+      "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 10 Nov 2026 06:24:50 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Sebastien Pocognoli is delighted to welcome \"exciting\" Scott McTominay into his squad, saying the Napoli midfielder is one of the \"fantastic leaders\" that helped persuade him to become Scotland head c"
-    },
-    {
-      "id": "b2ca49fa856f",
-      "title": "England focused on Curry and Feyi-Waboso winning World Cup fitness race",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13610706/england-focused-on-ensuring-immanuel-feyi-waboso-and-tom-curry-get-fit-for-rugby-world-cup",
-      "published_at": "Tue, 10 Nov 2026 16:44:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Immanuel Feyi-Waboso and Tom Curry will be carefully managed between now and the World Cup as England look to give two key personnel the best possible chance of being available for the tournament."
-    },
-    {
-      "id": "705aa6fedb0c",
-      "title": "McTominay had heart 'shocked' two days before Scotland's World Cup opener",
-      "url": "https://www.skysports.com/football/news/12040/13610728/scott-mctominay-scotland-midfielder-had-heart-shocked-two-days-before-world-cup-opener-against-haiti",
-      "published_at": "Tue, 10 Nov 2026 16:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Scott McTominay has revealed he needed to have his heart &#8220;shocked&#8221; two days before Scotland's World Cup opener against Haiti."
-    },
-    {
-      "id": "4be435d7416d",
-      "title": "No further F1 engine upgrades handed out after final 2026 review period",
-      "url": "https://www.skysports.com/f1/news/12040/13610600/f1-aduo-fia-announces-no-further-engine-upgrades-handed-out-after-final-review-period-of-2026-season",
-      "published_at": "Tue, 10 Nov 2026 12:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "No further engine upgrade opportunities have been granted to Formula 1's power unit manufacturers following the third and final review period of the 2026 season, the FIA has confirmed."
+      "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
     }
   ]
 }
