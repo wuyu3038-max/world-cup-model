@@ -1,40 +1,31 @@
 {
-  "updated": "2026-11-12T07:27:53.362804",
-  "total_articles": 3,
+  "updated": "2026-11-12T17:00:26.804747",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 0,
+    "bbc_sport": 1,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "a24a177c6f38",
-      "title": "Scotland without captain Weir for World Cup play-off",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 11 Nov 2026 11:59:18 GMT",
+      "id": "0bd6d8ef9baf",
+      "title": "USA withdraw from U17 World Cup",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6y49yz77pppo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 12 Nov 2026 07:44:21 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Scotland will be without Caroline Weir for the World Cup play-off final with Sweden following a setback in the influential midfielder's recovery from a muscle injury."
+      "summary": "The USA pull out of the Under-17 World Cup, which starts in Qatar next week, because of the risk of armed conflict."
     },
     {
-      "id": "866d9515c5f1",
-      "title": "Turkey-based Bates replaces Binks in Scotland squad",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c539gkdrn7yeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 11 Nov 2026 13:37:08 GMT",
-      "source": "BBC Sport Football",
+      "id": "cf80cbfa6168",
+      "title": "'Concern is high' as Curry exits Warriors loss with abdominal injury",
+      "url": "https://www.skysports.com/nba/news/12040/13611306/steph-curry-injured-golden-state-warriors-concern-is-high-as-four-time-nba-champion-exits-houston-rockets-loss",
+      "published_at": "Thu, 12 Nov 2026 07:55:00 GMT",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "David Bates has been called up to the Scotland squad as fellow defender Luis Binks drops out for the matches against North Macedonia and Switzerland."
-    },
-    {
-      "id": "4b2c2d25d819",
-      "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 10 Nov 2026 06:24:50 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
+      "summary": "Four-time NBA champion Steph Curry exited the Golden State Warriors' 115-108 loss to the Houston Rockets with right abdominal soreness."
     }
   ]
 }
