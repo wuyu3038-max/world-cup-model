@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-12T17:00:26.856450",
+    "last_updated": "2026-11-12T22:23:13.609527",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,17 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "USA withdraw from U17 World Cup",
-      "nations": [
-        "United States",
-        "Qatar"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6y49yz77pppo?at_medium=RSS&at_campaign=rss",
-      "summary": "The USA pull out of the Under-17 World Cup, which starts in Qatar next week, because of the risk of armed conflict.",
-      "published": "Thu, 12 Nov 2026 07:44:21 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }

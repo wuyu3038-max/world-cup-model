@@ -1,31 +1,12 @@
 {
-  "updated": "2026-11-12T17:00:26.804747",
-  "total_articles": 2,
+  "updated": "2026-11-12T22:23:13.558129",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 1,
+    "bbc_sport": 0,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "0bd6d8ef9baf",
-      "title": "USA withdraw from U17 World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6y49yz77pppo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 12 Nov 2026 07:44:21 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "The USA pull out of the Under-17 World Cup, which starts in Qatar next week, because of the risk of armed conflict."
-    },
-    {
-      "id": "cf80cbfa6168",
-      "title": "'Concern is high' as Curry exits Warriors loss with abdominal injury",
-      "url": "https://www.skysports.com/nba/news/12040/13611306/steph-curry-injured-golden-state-warriors-concern-is-high-as-four-time-nba-champion-exits-houston-rockets-loss",
-      "published_at": "Thu, 12 Nov 2026 07:55:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Four-time NBA champion Steph Curry exited the Golden State Warriors' 115-108 loss to the Houston Rockets with right abdominal soreness."
-    }
-  ]
+  "articles": []
 }
