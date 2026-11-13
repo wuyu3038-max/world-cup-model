@@ -1,12 +1,22 @@
 {
-  "updated": "2026-11-13T06:59:22.011102",
-  "total_articles": 0,
+  "updated": "2026-11-13T16:41:19.027571",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 1,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "f6494740df9f",
+      "title": "Ravens quarterback Jackson to miss up to 10 weeks with thumb injury",
+      "url": "https://www.skysports.com/nfl/news/12040/13611953/nfl-baltimore-ravens-quarterback-lamar-jackson-to-miss-up-to-10-weeks-with-broken-and-dislocated-thumb",
+      "published_at": "Fri, 13 Nov 2026 15:47:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Baltimore Ravens quarterback Lamar Jackson will miss between &#8204;six and 10 weeks as he recovers from a broken and &#8204;dislocated thumb."
+    }
+  ]
 }
