@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-13T16:41:19.076974",
+    "last_updated": "2026-11-13T22:04:03.287432",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,5 +780,17 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": []
+  "_news_injury_alerts": [
+    {
+      "title": "Injury-hit France still leading South Africa in thriller LIVE!",
+      "nations": [
+        "France",
+        "South Africa"
+      ],
+      "source": "Sky Sports Football",
+      "url": "https://www.skysports.com/rugby-union/live-blog/12040/13611964/france-vs-south-africa-live-nations-championship-updates-latest-scores-team-news-commentary-from-stade-de-france",
+      "summary": "",
+      "published": "Fri, 13 Nov 2026 16:12:00 GMT"
+    }
+  ]
 }
