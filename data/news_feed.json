@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-14T06:47:55.028485",
-  "total_articles": 3,
+  "updated": "2026-11-14T15:17:18.786140",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 1,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
@@ -17,24 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
-    },
-    {
-      "id": "0a0481d71a8f",
-      "title": "Salah scores twice as Egypt and Nigeria win Afcon 2027 qualifiers",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 13 Nov 2026 22:11:27 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Nigeria beat Tanzania to boost their hopes of reaching the 2027 Africa Cup of Nations, while Mohamed Salah scores twice as Egypt cruise to victory over Malawi."
-    },
-    {
-      "id": "f6494740df9f",
-      "title": "Ravens quarterback Jackson to miss up to 10 weeks with thumb injury",
-      "url": "https://www.skysports.com/nfl/news/12040/13611953/nfl-baltimore-ravens-quarterback-lamar-jackson-to-miss-up-to-10-weeks-with-broken-and-dislocated-thumb",
-      "published_at": "Fri, 13 Nov 2026 15:47:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Baltimore Ravens quarterback Lamar Jackson will miss between &#8204;six and 10 weeks as he recovers from a broken and &#8204;dislocated thumb."
     }
   ]
 }
