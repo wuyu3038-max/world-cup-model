@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-13T22:04:03.245813",
+  "updated": "2026-11-14T06:47:55.028485",
   "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 2,
+    "bbc_sport": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "0a0481d71a8f",
-      "title": "Arokodare double secures Nigeria win in Afcon 2027 qualifier",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 13 Nov 2026 18:36:27 GMT",
+      "id": "4b2c2d25d819",
+      "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 10 Nov 2026 06:24:50 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Tolu Arokodare scores twice in the second half as Nigeria claim a 3-1 win over Tanzania to bolster their hopes of reaching the 2027 Africa Cup of Nations."
+      "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
     },
     {
-      "id": "e1879645be41",
-      "title": "Injury-hit France still leading South Africa in thriller LIVE!",
-      "url": "https://www.skysports.com/rugby-union/live-blog/12040/13611964/france-vs-south-africa-live-nations-championship-updates-latest-scores-team-news-commentary-from-stade-de-france",
-      "published_at": "Fri, 13 Nov 2026 16:12:00 GMT",
-      "source": "Sky Sports Football",
+      "id": "0a0481d71a8f",
+      "title": "Salah scores twice as Egypt and Nigeria win Afcon 2027 qualifiers",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 13 Nov 2026 22:11:27 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": ""
+      "summary": "Nigeria beat Tanzania to boost their hopes of reaching the 2027 Africa Cup of Nations, while Mohamed Salah scores twice as Egypt cruise to victory over Malawi."
     },
     {
       "id": "f6494740df9f",
