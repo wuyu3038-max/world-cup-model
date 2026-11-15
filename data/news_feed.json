@@ -1,14 +1,32 @@
 {
-  "updated": "2026-11-15T06:52:44.774058",
-  "total_articles": 2,
+  "updated": "2026-11-15T15:49:04.549915",
+  "total_articles": 9,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 0,
+    "bbc_sport": 4,
+    "sky_sports": 5,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "bd18a2faa35f",
+      "title": "Wenger decides not to challenge Fifa chief Infantino",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c539gn33z1l3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 15 Nov 2026 11:28:25 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Arsene Wenger decides against running for the Fifa presidency, in a boost to Gianni Infantino's hopes of a fourth term."
+    },
+    {
+      "id": "7976e642e053",
+      "title": "Club's first match since player's death abandoned because of serious injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sun, 15 Nov 2026 14:06:19 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Hendon's first match since the death of midfielder Ezekiel Williams is abandoned because of a serious injury to Ethan Creary."
+    },
     {
       "id": "0b140a381eca",
       "title": "Spain test will reveal if Tuchel and England have learned World Cup lessons",
@@ -26,6 +44,51 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch highlights as Northern Ireland beat Ukraine 1-0 at Windsor Park in the Nations League."
+    },
+    {
+      "id": "319afcdcc4d2",
+      "title": "Arsenal vs London City Lionesses team news LIVE!",
+      "url": "https://www.skysports.com/football/arsenal-women-vs-london-city-lionesses/live/575818",
+      "published_at": "Sun, 15 Nov 2026 15:20:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "9656e95ea612",
+      "title": "One for the World Cup? England's new-ball switch to Baker pays dividends",
+      "url": "https://www.skysports.com/cricket/news/12040/13612458/england-beat-australia-in-second-odi-sonny-baker-new-ball-switch-from-jofra-archer-pays-off-in-adelaide",
+      "published_at": "Sun, 15 Nov 2026 14:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "As England impressively levelled their three-match ODI series against Australia with a 135-run win in Adelaide, might they have stumbled upon the perfect bowling formula with one eye on the 2027 Crick"
+    },
+    {
+      "id": "42b91dd528eb",
+      "title": "Australia brush off New Zealand to win fourth straight Rugby League World Cup",
+      "url": "https://www.skysports.com/rugby-league/news/12040/13612427/mens-rugby-league-world-cup-final-australia-32-12-new-zealand-kangaroos-brush-off-kiwis-to-win-fourth-straight-world-title",
+      "published_at": "Sun, 15 Nov 2026 10:27:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Jack Bostock and Liam Martin both starred as Australia swept away New Zealand 32-12 in the men's Rugby League World Cup final to be crowned world champions for the fourth time in a row."
+    },
+    {
+      "id": "82b1d5776442",
+      "title": "Australia win record fourth Women's Rugby League World Cup",
+      "url": "https://www.skysports.com/rugby-league/australia-vs-new-zealand/report/64249",
+      "published_at": "Sun, 15 Nov 2026 10:07:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Jaime Chapman guided Australia to a historic 34-10 victory in the Women's Rugby League World Cup final on Sunday in Brisbane."
+    },
+    {
+      "id": "4ff72c0f4cd7",
+      "title": "DP World Tour: Every result from the 2026 Race to Dubai season",
+      "url": "https://www.skysports.com/golf/news/12040/13428182/dp-world-tour-2026-schedule-tournament-dates-and-venues-for-golf-majors-rolex-series-events-and-more",
+      "published_at": "Sun, 15 Nov 2026 12:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Week-by-week results from the 2026 DP World Tour season, where Rory McIlroy claimed a record-equalling eighth Race to Dubai title. "
     }
   ]
 }
