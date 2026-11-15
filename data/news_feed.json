@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-14T20:52:07.495209",
-  "total_articles": 1,
+  "updated": "2026-11-15T06:52:44.774058",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 2,
     "sky_sports": 0,
     "goal_com": 0
   },
@@ -17,6 +17,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "England's game with world champions Spain will reveal if head coach Thomas Tuchel has learned from summer disappointment, says chief football writer Phil McNulty."
+    },
+    {
+      "id": "3514438ede01",
+      "title": "Devlin nets winner as NI top Nations League group",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6z9dxk71538o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 14 Nov 2026 22:38:02 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch highlights as Northern Ireland beat Ukraine 1-0 at Windsor Park in the Nations League."
     }
   ]
 }
