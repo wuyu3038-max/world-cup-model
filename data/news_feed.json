@@ -1,58 +1,49 @@
 {
-  "updated": "2026-11-16T06:54:27.875074",
-  "total_articles": 5,
+  "updated": "2026-11-16T18:49:38.007961",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 1,
-    "bbc_sport": 3,
-    "sky_sports": 1,
+    "espn_fc": 0,
+    "bbc_sport": 0,
+    "sky_sports": 4,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "75734b82c7e8",
-      "title": "Every eliminated team: What worked and what didn't in 2026, what needs improving in 2027?",
-      "url": "https://www.espn.com/soccer/story/_/id/50388883/every-eliminated-mls-team-worked-didnt-2026-needs-improving-2027",
-      "published_at": "Wed, 11 Nov 2026 09:25:53 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Detailing the best and worst of teams that have been eliminated, and their priorities for 2027."
-    },
-    {
-      "id": "bd18a2faa35f",
-      "title": "Wenger decides not to challenge Fifa chief Infantino",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c539gn33z1l3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 15 Nov 2026 11:28:25 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Arsene Wenger decides against running for the Fifa presidency, in a boost to Gianni Infantino's hopes of a fourth term."
-    },
-    {
-      "id": "7976e642e053",
-      "title": "Club's first match since player's death abandoned because of serious injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sun, 15 Nov 2026 14:06:19 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Hendon's first match since the death of midfielder Ezekiel Williams is abandoned because of a serious injury to Ethan Creary."
-    },
-    {
-      "id": "3514438ede01",
-      "title": "Devlin nets winner as NI top Nations League group",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6z9dxk71538o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 14 Nov 2026 22:38:02 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Watch highlights as Northern Ireland beat Ukraine 1-0 at Windsor Park in the Nations League."
-    },
-    {
-      "id": "9656e95ea612",
-      "title": "One for the World Cup? England's new-ball switch to Baker pays dividends",
-      "url": "https://www.skysports.com/cricket/news/12040/13612458/england-beat-australia-in-second-odi-sonny-baker-new-ball-switch-from-jofra-archer-pays-off-in-adelaide",
-      "published_at": "Sun, 15 Nov 2026 14:00:00 GMT",
+      "id": "8f62317a9f42",
+      "title": "Ratcliffe's Ineos Group settles £10m-plus claim with Ainslie's firm over yacht",
+      "url": "https://www.skysports.com/sailing/news/12040/13612816/jim-ratcliffes-ineos-group-settles-10m-plus-claim-with-sir-ben-ainslies-athena-racing-over-alleged-non-return-of-yacht",
+      "published_at": "Mon, 16 Nov 2026 12:50:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "As England impressively levelled their three-match ODI series against Australia with a 135-run win in Adelaide, might they have stumbled upon the perfect bowling formula with one eye on the 2027 Crick"
+      "summary": "A company connected to Sir Jim Ratcliffe's Ineos Group said it has settled a High Court claim against a firm founded by Sir Ben Ainslie."
+    },
+    {
+      "id": "fcd99cf7f6cc",
+      "title": "Who is the best female tennis player of 2026?",
+      "url": "https://www.skysports.com/watch/video/13612814/tennis-who-is-the-best-female-player-of-2026",
+      "published_at": "Mon, 16 Nov 2026 12:42:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Tim Henman and Jamie Murray discuss who they think is the best female tennis player this year."
+    },
+    {
+      "id": "be7591d46d59",
+      "title": "Hutchinson celebration results in season-ending injury ",
+      "url": "https://www.skysports.com/nfl/news/12040/13612573/nfl-detroit-lions-star-aidan-hutchinson-out-for-rest-of-season-after-suffering-knee-injury-during-celebration",
+      "published_at": "Mon, 16 Nov 2026 15:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Detroit Lions star Aidan Hutchinson has been ruled out for the season after suffering a knee injury while celebrating a sack against the New England Patriots."
+    },
+    {
+      "id": "8ac746a7ac1e",
+      "title": "Patriots QB Maye feared to be out for season with ankle injury",
+      "url": "https://www.skysports.com/nfl/news/12040/13612836/nfl-new-england-patriots-quarterback-drake-maye-could-miss-rest-of-the-season-with-ankle-injury-suffered-against-detroit-lions",
+      "published_at": "Mon, 16 Nov 2026 14:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "New England Patriots quarterback Drake Maye could miss the remainder of the 2026 NFL season after suffering a suspected ankle fracture in Sunday's loss to the Detroit Lions. "
     }
   ]
 }
