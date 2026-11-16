@@ -1,14 +1,23 @@
 {
-  "updated": "2026-11-15T21:08:54.756403",
+  "updated": "2026-11-16T06:54:27.875074",
   "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
+    "espn_fc": 1,
     "bbc_sport": 3,
-    "sky_sports": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "75734b82c7e8",
+      "title": "Every eliminated team: What worked and what didn't in 2026, what needs improving in 2027?",
+      "url": "https://www.espn.com/soccer/story/_/id/50388883/every-eliminated-mls-team-worked-didnt-2026-needs-improving-2027",
+      "published_at": "Wed, 11 Nov 2026 09:25:53 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "Detailing the best and worst of teams that have been eliminated, and their priorities for 2027."
+    },
     {
       "id": "bd18a2faa35f",
       "title": "Wenger decides not to challenge Fifa chief Infantino",
@@ -44,15 +53,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "As England impressively levelled their three-match ODI series against Australia with a 135-run win in Adelaide, might they have stumbled upon the perfect bowling formula with one eye on the 2027 Crick"
-    },
-    {
-      "id": "42b91dd528eb",
-      "title": "Australia brush off New Zealand to win fourth straight Rugby League World Cup",
-      "url": "https://www.skysports.com/rugby-league/news/12040/13612427/mens-rugby-league-world-cup-final-australia-32-12-new-zealand-kangaroos-brush-off-kiwis-to-win-fourth-straight-world-title",
-      "published_at": "Sun, 15 Nov 2026 10:27:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Jack Bostock and Liam Martin both starred as Australia swept away New Zealand 32-12 in the men's Rugby League World Cup final to be crowned world champions for the fourth time in a row."
     }
   ]
 }
