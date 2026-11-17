@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-16T18:49:38.007961",
-  "total_articles": 4,
+  "updated": "2026-11-17T00:21:52.488163",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 4,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -17,33 +17,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "A company connected to Sir Jim Ratcliffe's Ineos Group said it has settled a High Court claim against a firm founded by Sir Ben Ainslie."
-    },
-    {
-      "id": "fcd99cf7f6cc",
-      "title": "Who is the best female tennis player of 2026?",
-      "url": "https://www.skysports.com/watch/video/13612814/tennis-who-is-the-best-female-player-of-2026",
-      "published_at": "Mon, 16 Nov 2026 12:42:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Tim Henman and Jamie Murray discuss who they think is the best female tennis player this year."
-    },
-    {
-      "id": "be7591d46d59",
-      "title": "Hutchinson celebration results in season-ending injury ",
-      "url": "https://www.skysports.com/nfl/news/12040/13612573/nfl-detroit-lions-star-aidan-hutchinson-out-for-rest-of-season-after-suffering-knee-injury-during-celebration",
-      "published_at": "Mon, 16 Nov 2026 15:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Detroit Lions star Aidan Hutchinson has been ruled out for the season after suffering a knee injury while celebrating a sack against the New England Patriots."
-    },
-    {
-      "id": "8ac746a7ac1e",
-      "title": "Patriots QB Maye feared to be out for season with ankle injury",
-      "url": "https://www.skysports.com/nfl/news/12040/13612836/nfl-new-england-patriots-quarterback-drake-maye-could-miss-rest-of-the-season-with-ankle-injury-suffered-against-detroit-lions",
-      "published_at": "Mon, 16 Nov 2026 14:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "New England Patriots quarterback Drake Maye could miss the remainder of the 2026 NFL season after suffering a suspected ankle fracture in Sunday's loss to the Detroit Lions. "
     }
   ]
 }

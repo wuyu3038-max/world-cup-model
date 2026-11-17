@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-16T18:49:38.068159",
+    "last_updated": "2026-11-17T00:21:52.532140",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,26 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Hutchinson celebration results in season-ending injury ",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/nfl/news/12040/13612573/nfl-detroit-lions-star-aidan-hutchinson-out-for-rest-of-season-after-suffering-knee-injury-during-celebration",
-      "summary": "Detroit Lions star Aidan Hutchinson has been ruled out for the season after suffering a knee injury while celebrating a sack against the New England Patriots.",
-      "published": "Mon, 16 Nov 2026 15:00:00 GMT"
-    },
-    {
-      "title": "Patriots QB Maye feared to be out for season with ankle injury",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/nfl/news/12040/13612836/nfl-new-england-patriots-quarterback-drake-maye-could-miss-rest-of-the-season-with-ankle-injury-suffered-against-detroit-lions",
-      "summary": "New England Patriots quarterback Drake Maye could miss the remainder of the 2026 NFL season after suffering a suspected ankle fracture in Sunday's loss to the Detroit Lions. ",
-      "published": "Mon, 16 Nov 2026 14:00:00 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }
