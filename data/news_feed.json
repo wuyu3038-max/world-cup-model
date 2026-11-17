@@ -1,14 +1,32 @@
 {
-  "updated": "2026-11-17T17:49:06.259586",
-  "total_articles": 2,
+  "updated": "2026-11-17T23:36:02.366394",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 0,
+    "bbc_sport": 4,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "4b2c2d25d819",
+      "title": "Last chance to vote for BBC Women's Footballer of the Year 2026",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 17 Nov 2026 17:13:24 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
+    },
+    {
+      "id": "4a2ce0accfaf",
+      "title": "Senegal and Morocco lead Afcon qualifiers but Tunisia protest",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5evrgrvw1ezo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 17 Nov 2026 22:54:51 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Senegal, Cameroon and Morocco qualify for the 2027 Africa Cup of Nations, but Nigeria are in trouble, and struggling Tunisia fail with an impassioned penalty protest."
+    },
     {
       "id": "15477d49b948",
       "title": "Will Infantino feel he's already won as Fifa challengers are revealed?",
@@ -19,13 +37,22 @@
       "summary": "Uefa has finally identified a candidate next year's Fifa presidential election, but can anyone stop Gianni Infantino from winning?"
     },
     {
-      "id": "4b2c2d25d819",
-      "title": "Last chance to vote for BBC Women's Footballer of the Year 2026",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 17 Nov 2026 17:13:24 GMT",
+      "id": "da40d15f2a9f",
+      "title": "Highlights: Ten-man Portugal beat Wales to top group",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmwy8p49xp25o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 17 Nov 2026 21:56:04 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
+      "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
+    },
+    {
+      "id": "a5742a726db6",
+      "title": "Scholes ruled out for season with injury",
+      "url": "https://www.skysports.com/netball/news/12040/13613355/vitality-roses-alicia-scholes-ruled-out-for-the-season-with-olivia-tchine-and-sasha-glasgow-out-of-jamaica-games",
+      "published_at": "Tue, 17 Nov 2026 18:14:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Alicia Scholes has been ruled out of the remainder of the 2026 season after she suffered a ruptured ACL during a training camp with England's Vitality Roses."
     }
   ]
 }
