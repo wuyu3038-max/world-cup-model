@@ -1,22 +1,31 @@
 {
-  "updated": "2026-11-17T08:11:46.854310",
-  "total_articles": 1,
+  "updated": "2026-11-17T17:49:06.259586",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
-    "sky_sports": 1,
+    "bbc_sport": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "8f62317a9f42",
-      "title": "Ratcliffe's Ineos Group settles £10m-plus claim with Ainslie's firm over yacht",
-      "url": "https://www.skysports.com/sailing/news/12040/13612816/jim-ratcliffes-ineos-group-settles-10m-plus-claim-with-sir-ben-ainslies-athena-racing-over-alleged-non-return-of-yacht",
-      "published_at": "Mon, 16 Nov 2026 12:50:00 GMT",
-      "source": "Sky Sports Football",
+      "id": "15477d49b948",
+      "title": "Will Infantino feel he's already won as Fifa challengers are revealed?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 17 Nov 2026 10:32:07 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "A company connected to Sir Jim Ratcliffe's Ineos Group said it has settled a High Court claim against a firm founded by Sir Ben Ainslie."
+      "summary": "Uefa has finally identified a candidate next year's Fifa presidential election, but can anyone stop Gianni Infantino from winning?"
+    },
+    {
+      "id": "4b2c2d25d819",
+      "title": "Last chance to vote for BBC Women's Footballer of the Year 2026",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 17 Nov 2026 17:13:24 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
     }
   ]
 }
