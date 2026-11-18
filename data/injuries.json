@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-18T07:45:55.231751",
+    "last_updated": "2026-11-18T17:28:51.667394",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Scholes ruled out for season with injury",
-      "nations": [
-        "England"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/netball/news/12040/13613355/vitality-roses-alicia-scholes-ruled-out-for-the-season-with-olivia-tchine-and-sasha-glasgow-out-of-jamaica-games",
-      "summary": "Alicia Scholes has been ruled out of the remainder of the 2026 season after she suffered a ruptured ACL during a training camp with England's Vitality Roses.",
-      "published": "Tue, 17 Nov 2026 18:14:00 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }

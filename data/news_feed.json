@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-18T07:45:55.172215",
-  "total_articles": 7,
+  "updated": "2026-11-18T17:28:51.628614",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 5,
-    "sky_sports": 2,
+    "bbc_sport": 3,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
       "id": "c2fae7acefad",
-      "title": "The 3pm football blackout: outdated or still relevant in 2026?",
+      "title": "The 3pm football blackout: Outdated or still relevant in 2026?",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwvg2mxkd4x8o?at_medium=RSS&at_campaign=rss",
       "published_at": "Wed, 18 Nov 2026 06:27:11 GMT",
       "source": "BBC Sport Football",
@@ -19,22 +19,13 @@
       "summary": "After 60 years, is time finally running out on the 3pm blackout in football?"
     },
     {
-      "id": "4b2c2d25d819",
-      "title": "Last chance to vote for BBC Women's Footballer of the Year 2026",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 17 Nov 2026 17:13:24 GMT",
+      "id": "3b66820a7ed5",
+      "title": "NI will carry momentum into Euro 2028 qualifiers",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck9q8jg1l45do?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 18 Nov 2026 10:04:44 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist."
-    },
-    {
-      "id": "4a2ce0accfaf",
-      "title": "Senegal and Morocco lead Afcon qualifiers but Tunisia protest",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5evrgrvw1ezo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 17 Nov 2026 22:54:51 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Senegal, Cameroon and Morocco qualify for the 2027 Africa Cup of Nations, but Nigeria are in trouble, and struggling Tunisia fail with an impassioned penalty protest."
+      "summary": "Northern Ireland manager Michael O'Neill says his Nations League promotion winners will plot their next 12 months after the Euro 2028 qualifying draw in December. "
     },
     {
       "id": "da40d15f2a9f",
@@ -46,31 +37,13 @@
       "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
     },
     {
-      "id": "15477d49b948",
-      "title": "Will Infantino feel he's already won as Fifa challengers are revealed?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 17 Nov 2026 10:32:07 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Uefa has finally identified a candidate next year's Fifa presidential election, but can anyone stop Gianni Infantino from winning?"
-    },
-    {
-      "id": "1dc1c7ad009c",
-      "title": "What's still to play for in 2026 as F1 hits Vegas?",
-      "url": "https://www.skysports.com/f1/news/12040/13611983/las-vegas-gp-whats-still-to-play-for-over-final-three-races-of-f1-2026-season-with-battles-in-drivers-and-constructors-championships",
-      "published_at": "Wed, 18 Nov 2026 06:00:00 GMT",
+      "id": "fd48b08c91de",
+      "title": "CME Group Tour Championship: Can Hull and Woad stop Korda?",
+      "url": "https://www.skysports.com/golf/news/12040/13613433/cme-group-tour-championship-field-format-prize-money-as-nelly-korda-charley-hull-lottie-woad-battle-for-win-at-lpga-finale",
+      "published_at": "Wed, 18 Nov 2026 16:00:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "The 2026 Formula 1 season has three races left to go with the Las Vegas Grand Prix opening the final triple header of the year this weekend."
-    },
-    {
-      "id": "a5742a726db6",
-      "title": "Scholes ruled out for season with injury",
-      "url": "https://www.skysports.com/netball/news/12040/13613355/vitality-roses-alicia-scholes-ruled-out-for-the-season-with-olivia-tchine-and-sasha-glasgow-out-of-jamaica-games",
-      "published_at": "Tue, 17 Nov 2026 18:14:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Alicia Scholes has been ruled out of the remainder of the 2026 season after she suffered a ruptured ACL during a training camp with England's Vitality Roses."
+      "summary": "Who will be crowned the LPGA Tour&#8217;s Race to the CME Globe Champion? Who can stop Nelly Korda from winning? Can Brits Charley Hull and Lottie Woad claim victory? We get you up to speed ahead of t"
     }
   ]
 }
