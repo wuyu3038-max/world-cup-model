@@ -1,14 +1,23 @@
 {
-  "updated": "2026-11-17T23:36:02.366394",
-  "total_articles": 5,
+  "updated": "2026-11-18T07:45:55.172215",
+  "total_articles": 7,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 4,
-    "sky_sports": 1,
+    "bbc_sport": 5,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "c2fae7acefad",
+      "title": "The 3pm football blackout: outdated or still relevant in 2026?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwvg2mxkd4x8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Wed, 18 Nov 2026 06:27:11 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "After 60 years, is time finally running out on the 3pm blackout in football?"
+    },
     {
       "id": "4b2c2d25d819",
       "title": "Last chance to vote for BBC Women's Footballer of the Year 2026",
@@ -28,6 +37,15 @@
       "summary": "Senegal, Cameroon and Morocco qualify for the 2027 Africa Cup of Nations, but Nigeria are in trouble, and struggling Tunisia fail with an impassioned penalty protest."
     },
     {
+      "id": "da40d15f2a9f",
+      "title": "Highlights: Ten-man Portugal beat Wales to top group",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmwy8p49xp25o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 17 Nov 2026 21:56:04 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
+    },
+    {
       "id": "15477d49b948",
       "title": "Will Infantino feel he's already won as Fifa challengers are revealed?",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
@@ -37,13 +55,13 @@
       "summary": "Uefa has finally identified a candidate next year's Fifa presidential election, but can anyone stop Gianni Infantino from winning?"
     },
     {
-      "id": "da40d15f2a9f",
-      "title": "Highlights: Ten-man Portugal beat Wales to top group",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmwy8p49xp25o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 17 Nov 2026 21:56:04 GMT",
-      "source": "BBC Sport Football",
+      "id": "1dc1c7ad009c",
+      "title": "What's still to play for in 2026 as F1 hits Vegas?",
+      "url": "https://www.skysports.com/f1/news/12040/13611983/las-vegas-gp-whats-still-to-play-for-over-final-three-races-of-f1-2026-season-with-battles-in-drivers-and-constructors-championships",
+      "published_at": "Wed, 18 Nov 2026 06:00:00 GMT",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
+      "summary": "The 2026 Formula 1 season has three races left to go with the Las Vegas Grand Prix opening the final triple header of the year this weekend."
     },
     {
       "id": "a5742a726db6",
