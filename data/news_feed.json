@@ -1,32 +1,14 @@
 {
-  "updated": "2026-11-19T17:34:56.615862",
-  "total_articles": 8,
+  "updated": "2026-11-19T23:08:54.724571",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 2,
-    "bbc_sport": 5,
+    "espn_fc": 0,
+    "bbc_sport": 3,
     "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "15fc6aacd4ee",
-      "title": "FIFA confirms Infantino rivals for 2027 presidential election",
-      "url": "https://www.espn.com/soccer/story/_/id/50529522/fifa-gianni-infantino-phillipe-diallo-kohzo-tashima",
-      "published_at": "Thu, 19 Nov 2026 10:57:23 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "FIFA have named Philippe Diallo and Kohzo Tashima as Gianni Infantino's rivals in next year's presidential election."
-    },
-    {
-      "id": "a30cf06e4fa7",
-      "title": "World Cup 2030 Early Power Rankings: Spain still No. 1? No USMNT in top 15",
-      "url": "https://www.espn.com/soccer/story/_/id/50506499/soccer-world-cup-power-rankings-usmnt-spain",
-      "published_at": "Wed, 18 Nov 2026 09:02:00 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "England's statement win over Spain has shaken up ESPN's World Cup Power Rankings, but our experts still back La Roja as the team to beat."
-    },
     {
       "id": "a76e34e58ddb",
       "title": "Five return for Wales' World Cup play-off final",
@@ -35,15 +17,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury."
-    },
-    {
-      "id": "15477d49b948",
-      "title": "Will Infantino feel he's already won as Fifa challengers confirmed?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 19 Nov 2026 10:21:10 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa has confirmed Philippe Diallo and Kozo Tashima will also stand in next year's presidential election - but can either stop Gianni Infantino from winning?"
     },
     {
       "id": "da40d15f2a9f",
@@ -55,31 +28,22 @@
       "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
     },
     {
-      "id": "441e23121fcf",
-      "title": "Magill returns to NI squad for Greece friendlies",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqly43n1vjm8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 19 Nov 2026 11:12:20 GMT",
+      "id": "15477d49b948",
+      "title": "Will Infantino feel he's already won as Fifa challengers confirmed?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 19 Nov 2026 10:21:10 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Northern Ireland manager Michael McArdle has made five changes to his squad for the upcoming friendlies against Greece, with the return of experienced striker Simone Magill among the notable returnees"
+      "summary": "Fifa has confirmed Philippe Diallo and Kozo Tashima will also stand in next year's presidential election - but can either stop Gianni Infantino from winning?"
     },
     {
-      "id": "c2fae7acefad",
-      "title": "The 3pm football blackout: Outdated or still relevant in 2026?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwvg2mxkd4x8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Wed, 18 Nov 2026 06:27:11 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "After 60 years, is time finally running out on the 3pm blackout in football?"
-    },
-    {
-      "id": "2a2aa5514c52",
-      "title": "Golf leaderboards: LPGA Tour's CME Group Tour Championship and more",
-      "url": "https://www.skysports.com/golf/news/12040/12950625/golf-leaderboards-pga-tour-lpga-tour-liv-golf-dp-world-tour-ladies-european-tour-major-championships-and-more",
-      "published_at": "Thu, 19 Nov 2026 16:00:00 GMT",
+      "id": "1278acaa2f9d",
+      "title": "Hull one shot off the lead at the CME Group Tour Championship",
+      "url": "https://www.skysports.com/watch/video/13614193/cme-group-tour-championship-day-one-highlights",
+      "published_at": "Thu, 19 Nov 2026 22:21:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Latest golf scores and results from around the world, including the DP World Tour Championship, PGA Tour, LPGA Tour and more. "
+      "summary": "Highlights from day one of the CME Group Tour Championship at Tibur&#243;n Golf Club, Florida."
     }
   ]
 }
