@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-19T23:08:54.724571",
-  "total_articles": 4,
+  "updated": "2026-11-20T07:32:58.625691",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 1,
+    "bbc_sport": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "a76e34e58ddb",
-      "title": "Five return for Wales' World Cup play-off final",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 19 Nov 2026 13:40:43 GMT",
+      "id": "abcf7147952b",
+      "title": "Loneliness & mood swings - what's it like to miss a season through injury?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg27m9xp1xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 20 Nov 2026 06:13:23 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury."
+      "summary": "Not pleasant to be around and staring at a wall for hours after being told you are not going to the World Cup - what's it like for footballers when they miss a season due to serious injury?"
     },
     {
       "id": "da40d15f2a9f",
@@ -26,24 +26,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
-    },
-    {
-      "id": "15477d49b948",
-      "title": "Will Infantino feel he's already won as Fifa challengers confirmed?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 19 Nov 2026 10:21:10 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa has confirmed Philippe Diallo and Kozo Tashima will also stand in next year's presidential election - but can either stop Gianni Infantino from winning?"
-    },
-    {
-      "id": "1278acaa2f9d",
-      "title": "Hull one shot off the lead at the CME Group Tour Championship",
-      "url": "https://www.skysports.com/watch/video/13614193/cme-group-tour-championship-day-one-highlights",
-      "published_at": "Thu, 19 Nov 2026 22:21:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Highlights from day one of the CME Group Tour Championship at Tibur&#243;n Golf Club, Florida."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-19T23:08:54.771544",
+    "last_updated": "2026-11-20T07:32:58.684769",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Five return for Wales' World Cup play-off final",
-      "nations": [
-        "Norway"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
-      "published": "Thu, 19 Nov 2026 13:40:43 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }
