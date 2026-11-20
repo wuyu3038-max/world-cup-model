@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-20T17:10:06.194459",
-  "total_articles": 4,
+  "updated": "2026-11-20T22:45:12.313067",
+  "total_articles": 5,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 3,
-    "sky_sports": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
@@ -35,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
+    },
+    {
+      "id": "d090bb52802a",
+      "title": "Kane set to miss three months with ankle injury",
+      "url": "https://www.skysports.com/football/news/12040/13614559/harry-kane-england-and-bayern-munich-striker-set-to-miss-three-months-with-ankle-injury",
+      "published_at": "Fri, 20 Nov 2026 22:26:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Harry Kane is expected to be sidelined for three months after suffering an ankle injury during Bayern Munich's Bundesliga game with Cologne on Friday."
     },
     {
       "id": "f36d2842080a",
