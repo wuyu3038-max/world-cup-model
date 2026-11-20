@@ -1,17 +1,26 @@
 {
-  "updated": "2026-11-20T07:32:58.625691",
-  "total_articles": 2,
+  "updated": "2026-11-20T17:10:06.194459",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
-    "sky_sports": 0,
+    "bbc_sport": 3,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
     {
+      "id": "ff1612401e04",
+      "title": "Arteta warns Arsenal players over FPL team news leak",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62pz5r16pro?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 20 Nov 2026 14:08:55 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Mikel Arteta says his Arsenal players have been warned against inadvertently leaking team news via Fantasy Premier League."
+    },
+    {
       "id": "abcf7147952b",
-      "title": "Loneliness & mood swings - what's it like to miss a season through injury?",
+      "title": "'I felt like I was a ghost' - when players miss a season through injury",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqvg27m9xp1xo?at_medium=RSS&at_campaign=rss",
       "published_at": "Fri, 20 Nov 2026 06:13:23 GMT",
       "source": "BBC Sport Football",
@@ -26,6 +35,15 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
+    },
+    {
+      "id": "f36d2842080a",
+      "title": "Celtic suffer Baur injury blow",
+      "url": "https://www.skysports.com/football/news/12040/13614395/mika-baur-celtic-midfielder-ruled-out-for-considerable-period-with-ankle-ligament-damage",
+      "published_at": "Fri, 20 Nov 2026 15:30:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Celtic midfielder Mika Baur faces a lengthy period on the sidelines with an ankle injury."
     }
   ]
 }
