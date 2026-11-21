@@ -1,14 +1,23 @@
 {
-  "updated": "2026-11-21T07:29:15.658293",
-  "total_articles": 4,
+  "updated": "2026-11-21T16:20:06.774606",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 3,
-    "sky_sports": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "caf899c6c00b",
+      "title": "Bayern draw with Cologne as Kane picks up ankle injury",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Sat, 21 Nov 2026 13:29:40 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "England captain Harry Kane will be out \"for the next few months\" after undergoing surgery on torn ankle ligaments sustained during Bayern Munich's 1-1 Bundesliga draw with Cologne on Friday."
+    },
     {
       "id": "ff1612401e04",
       "title": "Arteta warns Arsenal players over FPL team news leak",
@@ -26,24 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
-    },
-    {
-      "id": "abcf7147952b",
-      "title": "'I felt like I was a ghost' - when players miss a season through injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg27m9xp1xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 20 Nov 2026 06:13:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Not pleasant to be around and staring at a wall for hours after being told you are not going to the World Cup - what's it like for footballers when they miss a season due to serious injury?"
-    },
-    {
-      "id": "d090bb52802a",
-      "title": "Kane set to miss three months with ankle injury",
-      "url": "https://www.skysports.com/football/news/12040/13614559/harry-kane-england-and-bayern-munich-striker-set-to-miss-three-months-with-ankle-injury",
-      "published_at": "Fri, 20 Nov 2026 22:26:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Harry Kane is expected to be sidelined for three months after suffering an ankle injury during Bayern Munich's Bundesliga game with Cologne on Friday."
     }
   ]
 }
