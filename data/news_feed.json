@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-20T22:45:12.313067",
-  "total_articles": 5,
+  "updated": "2026-11-21T07:29:15.658293",
+  "total_articles": 4,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 3,
-    "sky_sports": 2,
+    "sky_sports": 1,
     "goal_com": 0
   },
   "articles": [
@@ -19,15 +19,6 @@
       "summary": "Mikel Arteta says his Arsenal players have been warned against inadvertently leaking team news via Fantasy Premier League."
     },
     {
-      "id": "abcf7147952b",
-      "title": "'I felt like I was a ghost' - when players miss a season through injury",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg27m9xp1xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Fri, 20 Nov 2026 06:13:23 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Not pleasant to be around and staring at a wall for hours after being told you are not going to the World Cup - what's it like for footballers when they miss a season due to serious injury?"
-    },
-    {
       "id": "da40d15f2a9f",
       "title": "Highlights: Ten-man Portugal beat Wales to top group",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmwy8p49xp25o?at_medium=RSS&at_campaign=rss",
@@ -37,6 +28,15 @@
       "summary": "Watch the best of the action as Portugal beat Wales in the Nations League in Cardiff."
     },
     {
+      "id": "abcf7147952b",
+      "title": "'I felt like I was a ghost' - when players miss a season through injury",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg27m9xp1xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 20 Nov 2026 06:13:23 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Not pleasant to be around and staring at a wall for hours after being told you are not going to the World Cup - what's it like for footballers when they miss a season due to serious injury?"
+    },
+    {
       "id": "d090bb52802a",
       "title": "Kane set to miss three months with ankle injury",
       "url": "https://www.skysports.com/football/news/12040/13614559/harry-kane-england-and-bayern-munich-striker-set-to-miss-three-months-with-ankle-injury",
@@ -44,15 +44,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Harry Kane is expected to be sidelined for three months after suffering an ankle injury during Bayern Munich's Bundesliga game with Cologne on Friday."
-    },
-    {
-      "id": "f36d2842080a",
-      "title": "Celtic suffer Baur injury blow",
-      "url": "https://www.skysports.com/football/news/12040/13614395/mika-baur-celtic-midfielder-ruled-out-for-considerable-period-with-ankle-ligament-damage",
-      "published_at": "Fri, 20 Nov 2026 15:30:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Celtic midfielder Mika Baur faces a lengthy period on the sidelines with an ankle injury."
     }
   ]
 }
