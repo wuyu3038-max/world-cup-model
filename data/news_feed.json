@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-21T21:47:16.707041",
-  "total_articles": 3,
+  "updated": "2026-11-22T07:09:45.963802",
+  "total_articles": 2,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 2,
+    "bbc_sport": 1,
     "sky_sports": 1,
     "goal_com": 0
   },
@@ -19,19 +19,10 @@
       "summary": "Arsenal goalkeeper David Raya is set to have a scan on his shoulder after going off injured during Saturday's 2-2 draw with Newcastle."
     },
     {
-      "id": "caf899c6c00b",
-      "title": "Bayern draw with Cologne as Kane picks up ankle injury",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Sat, 21 Nov 2026 13:29:40 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "England captain Harry Kane will be out \"for the next few months\" after undergoing surgery on torn ankle ligaments sustained during Bayern Munich's 1-1 Bundesliga draw with Cologne on Friday."
-    },
-    {
-      "id": "e67afce8a5e0",
-      "title": "Arsenal latest: Arteta gives update on Raya injury",
-      "url": "https://www.skysports.com/football/live-blog/12040/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "published_at": "Sat, 21 Nov 2026 20:33:00 GMT",
+      "id": "31350a58d84f",
+      "title": "Euro latest: PSG's Doue suffers serious knee injury",
+      "url": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "published_at": "Sat, 21 Nov 2026 21:00:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""

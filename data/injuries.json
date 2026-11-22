@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-21T21:47:16.758914",
+    "last_updated": "2026-11-22T07:09:46.023982",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Bayern draw with Cologne as Kane picks up ankle injury",
-      "nations": [
-        "England"
-      ],
-      "source": "BBC Sport Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss",
-      "summary": "England captain Harry Kane will be out \"for the next few months\" after undergoing surgery on torn ankle ligaments sustained during Bayern Munich's 1-1 Bundesliga draw with Cologne on Friday.",
-      "published": "Sat, 21 Nov 2026 13:29:40 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }
