@@ -1,22 +1,31 @@
 {
-  "updated": "2026-11-22T21:55:47.432131",
-  "total_articles": 2,
+  "updated": "2026-11-23T07:56:20.096135",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 1,
-    "sky_sports": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
       "id": "5b2e638b59d2",
-      "title": "Fifa to confirm UK bid to host 2035 Women's World Cup",
+      "title": "Fifa to confirm UK as host for 2035 Women's World Cup",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
       "published_at": "Sun, 22 Nov 2026 21:44:37 GMT",
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Fifa is set to confirm on Monday that a first football World Cup will be hosted in the United Kingdom since 1966."
+    },
+    {
+      "id": "eb296c50e94f",
+      "title": "Thitikul wins CME Group Tour Championship for third year in a row",
+      "url": "https://www.skysports.com/watch/video/13615463/cme-group-tour-championship-day-four-highlights",
+      "published_at": "Sun, 22 Nov 2026 22:05:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Jeeno Thitikul has won the LPGA Tour's season-ending CME Group Tour Championship for a third consecutive year after storming to a two-shot victory in Florida."
     },
     {
       "id": "2ce0ec83bc1c",
