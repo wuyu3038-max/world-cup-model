@@ -1,32 +1,14 @@
 {
-  "updated": "2026-11-24T02:59:04.896473",
-  "total_articles": 7,
+  "updated": "2026-11-24T10:09:38.954852",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 2,
+    "espn_fc": 0,
     "bbc_sport": 3,
-    "sky_sports": 2,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
-    {
-      "id": "8f15644bd1a3",
-      "title": "Women's World Cup returning to U.S. shows how the game has grown since 1999",
-      "url": "https://www.espn.com/soccer/story/_/id/50576097/us-host-2031-womens-world-cup",
-      "published_at": "Mon, 23 Nov 2026 18:28:55 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "Women's soccer was forever changed when the U.S. hosted the 1999 World Cup. With it returning in 2031, ESPN charts the game's explosive growth."
-    },
-    {
-      "id": "e7d59c2c40e6",
-      "title": "U.S. to co-host Women's World Cup in 2031; U.K. wins bid for 2035",
-      "url": "https://www.espn.com/soccer/story/_/id/50571732/womens-world-cup-united-states-united-kindgom",
-      "published_at": "Mon, 23 Nov 2026 19:58:00 EST",
-      "source": "ESPN FC",
-      "language": "en",
-      "summary": "The United States has been confirmed as co-hosts of the 2031 Women's World Cup, before the United Kingdom hosts the tournament four years later."
-    },
     {
       "id": "5b2e638b59d2",
       "title": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
@@ -53,24 +35,6 @@
       "source": "BBC Sport Football",
       "language": "en",
       "summary": "Scotland intend to bring fancied Sweden's World Cup dream \"crashing down - and do it in a truly Scottish way\", says manager Melissa Andreatta."
-    },
-    {
-      "id": "f0046c4c0505",
-      "title": "UK confirmed as  2035 Women's World Cup hosts - which stadiums will be used?",
-      "url": "https://www.skysports.com/football/news/12040/13615555/womens-world-cup-uk-announced-as-2035-hosts-as-costa-rica-jamaica-mexico-and-usa-host-in-2031",
-      "published_at": "Mon, 23 Nov 2026 15:05:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "The UK has been confirmed as the host of the 2035 Women's World Cup."
-    },
-    {
-      "id": "909b4778eb86",
-      "title": "Raya injury 'not too serious' says relieved Arteta",
-      "url": "https://www.skysports.com/football/news/12040/13615438/david-raya-injury-arsenal-goalkeeper-avoids-surgery-and-blow-is-not-as-bad-as-first-feared-says-mikel-arteta",
-      "published_at": "Mon, 23 Nov 2026 14:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Mikel Arteta has revealed that David Raya's shoulder injury is not as bad as first feared, but is unsure when the Arsenal goalkeeper will return to action."
     }
   ]
 }
