@@ -1,40 +1,40 @@
 {
-  "updated": "2026-11-24T10:09:38.954852",
+  "updated": "2026-11-24T19:39:55.051547",
   "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 3,
-    "sky_sports": 0,
+    "bbc_sport": 1,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "5b2e638b59d2",
-      "title": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 23 Nov 2026 15:09:50 GMT",
+      "id": "1b2deaaa75f8",
+      "title": "FA chief signs NDA to view Fifa sell-off plot documents",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqx2x4k74ryxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Tue, 24 Nov 2026 16:34:18 GMT",
       "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The United Kingdom will host a football World Cup for the first time since 1966."
+      "summary": "Debbie Hewitt is among several football chiefs to view documents made available by Fifa, but cannot speak about them."
     },
     {
-      "id": "8d648537aa82",
-      "title": "Raya to miss Dortmund game but injury 'not serious'",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 23 Nov 2026 15:23:09 GMT",
-      "source": "BBC Sport Football",
+      "id": "d0cc7245d168",
+      "title": "Man City vs Napoli team news as De Bruyne starts LIVE!",
+      "url": "https://www.skysports.com/football/manchester-city-vs-napoli/live/577674",
+      "published_at": "Tue, 24 Nov 2026 12:40:00 GMT",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Arsenal goalkeeper David Raya will miss Tuesday's Champions League game against Borussia Dortmund but his shoulder injury will not require an operation."
+      "summary": ""
     },
     {
-      "id": "706e5c81775e",
-      "title": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c94gn2mmjr4eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Mon, 23 Nov 2026 11:49:40 GMT",
-      "source": "BBC Sport Football",
+      "id": "660124ee1468",
+      "title": "Humphries hoping to make Players Championship despite shoulder injury",
+      "url": "https://www.skysports.com/darts/news/12040/13616056/luke-humphriess-hopeful-of-playing-in-players-championship-after-suffering-shoulder-injury",
+      "published_at": "Tue, 24 Nov 2026 17:30:00 GMT",
+      "source": "Sky Sports Football",
       "language": "en",
-      "summary": "Scotland intend to bring fancied Sweden's World Cup dream \"crashing down - and do it in a truly Scottish way\", says manager Melissa Andreatta."
+      "summary": "Luke Humphries is hopeful of playing in this week's Players Championship, Sky Sports News understands."
     }
   ]
 }
