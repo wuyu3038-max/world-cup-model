@@ -1,12 +1,40 @@
 {
-  "updated": "2026-11-25T08:54:53.422696",
-  "total_articles": 0,
+  "updated": "2026-11-25T18:47:52.737010",
+  "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
     "bbc_sport": 0,
-    "sky_sports": 0,
+    "sky_sports": 3,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "69a6d8504b1f",
+      "title": "Club Brugge vs Liverpool team news LIVE!",
+      "url": "https://www.skysports.com/football/club-brugge-vs-liverpool/live/577679",
+      "published_at": "Wed, 25 Nov 2026 17:58:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    },
+    {
+      "id": "d4bb0b5032a8",
+      "title": "Hansen ruled out of Ireland's clash with Australia due to injury",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13616405/ireland-vs-australia-mack-hansen-out-with-injury-as-nick-timoney-replaces-suspended-dan-sheehan-for-nations-championship-clash",
+      "published_at": "Wed, 25 Nov 2026 16:10:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Mack Hansen has been ruled out of Ireland's starting XV to face Australia in this Friday's Nations Championship finals clash at Allianz Stadium."
+    },
+    {
+      "id": "50278fd76748",
+      "title": "Sporting vs Man Utd team news LIVE!",
+      "url": "https://www.skysports.com/football/sporting-lisbon-vs-manchester-united/live/577686",
+      "published_at": "Wed, 25 Nov 2026 17:51:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": ""
+    }
+  ]
 }
