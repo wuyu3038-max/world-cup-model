@@ -1,40 +1,12 @@
 {
-  "updated": "2026-11-24T19:39:55.051547",
-  "total_articles": 3,
+  "updated": "2026-11-25T00:58:44.724664",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
-    "sky_sports": 2,
+    "bbc_sport": 0,
+    "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "1b2deaaa75f8",
-      "title": "FA chief signs NDA to view Fifa sell-off plot documents",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqx2x4k74ryxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "Tue, 24 Nov 2026 16:34:18 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Debbie Hewitt is among several football chiefs to view documents made available by Fifa, but cannot speak about them."
-    },
-    {
-      "id": "d0cc7245d168",
-      "title": "Man City vs Napoli team news as De Bruyne starts LIVE!",
-      "url": "https://www.skysports.com/football/manchester-city-vs-napoli/live/577674",
-      "published_at": "Tue, 24 Nov 2026 12:40:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
-    },
-    {
-      "id": "660124ee1468",
-      "title": "Humphries hoping to make Players Championship despite shoulder injury",
-      "url": "https://www.skysports.com/darts/news/12040/13616056/luke-humphriess-hopeful-of-playing-in-players-championship-after-suffering-shoulder-injury",
-      "published_at": "Tue, 24 Nov 2026 17:30:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Luke Humphries is hopeful of playing in this week's Players Championship, Sky Sports News understands."
-    }
-  ]
+  "articles": []
 }
