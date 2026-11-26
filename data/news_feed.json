@@ -1,40 +1,22 @@
 {
-  "updated": "2026-11-26T08:40:12.996547",
-  "total_articles": 3,
+  "updated": "2026-11-26T18:35:23.126193",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 1,
-    "bbc_sport": 0,
-    "sky_sports": 2,
+    "espn_fc": 0,
+    "bbc_sport": 1,
+    "sky_sports": 0,
     "goal_com": 0
   },
   "articles": [
     {
-      "id": "3bd8930adef8",
-      "title": "Concacaf W Championship: How USWNT can qualify for World Cup, matchups, format",
-      "url": "https://www.espn.com/soccer/story/_/id/50474392/concacaf-w-championship-uswnt-world-cup-qualification",
-      "published_at": "Wed, 25 Nov 2026 19:40:56 EST",
-      "source": "ESPN FC",
+      "id": "550c3b244e73",
+      "title": "Fifa confirms internal data stolen in cyber attack",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crd61nvg4d84o?at_medium=RSS&at_campaign=rss",
+      "published_at": "Thu, 26 Nov 2026 11:30:07 GMT",
+      "source": "BBC Sport Football",
       "language": "en",
-      "summary": "The United States can seal its place at the 2027 Women's World Cup at the Concacaf W Championship. Here's everything you need to know."
-    },
-    {
-      "id": "122f0fdb87ba",
-      "title": "England's All Blacks Tests 'World Cup practice' | 'Ireland still not contenders'",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13616429/nations-championship-steve-borthwick-targets-world-cup-preparation-against-all-blacks-as-andy-farrell-plays-down-irelands-title-credentials",
-      "published_at": "Thu, 26 Nov 2026 00:00:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Head coaches Steve Borthwick of England, Andy Farrell of Ireland and Dave Rennie of New Zealand speak to media ahead of the final weekend of the inaugural Nations Championship. "
-    },
-    {
-      "id": "3c4638a40ea1",
-      "title": "Liverpool latest: Munoz adds to injury concern ahead of derby",
-      "url": "https://www.skysports.com/football/live-blog/12040/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "published_at": "Wed, 25 Nov 2026 22:59:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
+      "summary": "Fifa has confirmed it has been the victim of a cyber-attack which resulted in personal and business information being stolen."
     }
   ]
 }
