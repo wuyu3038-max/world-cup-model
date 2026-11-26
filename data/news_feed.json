@@ -1,14 +1,23 @@
 {
-  "updated": "2026-11-26T00:34:28.518260",
+  "updated": "2026-11-26T08:40:12.996547",
   "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
-    "espn_fc": 0,
+    "espn_fc": 1,
     "bbc_sport": 0,
-    "sky_sports": 3,
+    "sky_sports": 2,
     "goal_com": 0
   },
   "articles": [
+    {
+      "id": "3bd8930adef8",
+      "title": "Concacaf W Championship: How USWNT can qualify for World Cup, matchups, format",
+      "url": "https://www.espn.com/soccer/story/_/id/50474392/concacaf-w-championship-uswnt-world-cup-qualification",
+      "published_at": "Wed, 25 Nov 2026 19:40:56 EST",
+      "source": "ESPN FC",
+      "language": "en",
+      "summary": "The United States can seal its place at the 2027 Women's World Cup at the Concacaf W Championship. Here's everything you need to know."
+    },
     {
       "id": "122f0fdb87ba",
       "title": "England's All Blacks Tests 'World Cup practice' | 'Ireland still not contenders'",
@@ -26,15 +35,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
-    },
-    {
-      "id": "d4bb0b5032a8",
-      "title": "Hansen ruled out of Ireland's clash with Australia due to injury",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13616405/ireland-vs-australia-mack-hansen-out-with-injury-as-nick-timoney-replaces-suspended-dan-sheehan-for-nations-championship-clash",
-      "published_at": "Wed, 25 Nov 2026 16:10:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": "Mack Hansen has been ruled out of Ireland's starting XV to face Australia in this Friday's Nations Championship finals clash at Allianz Stadium."
     }
   ]
 }

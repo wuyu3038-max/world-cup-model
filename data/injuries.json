@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "2026 World Cup — Player Injuries & Availability Tracker",
-    "last_updated": "2026-11-26T00:34:28.568961",
+    "last_updated": "2026-11-26T08:40:13.040942",
     "sources": [
       "ESPN",
       "BBC Sport",
@@ -780,16 +780,5 @@
       "moderate_out": []
     }
   },
-  "_news_injury_alerts": [
-    {
-      "title": "Hansen ruled out of Ireland's clash with Australia due to injury",
-      "nations": [
-        "Australia"
-      ],
-      "source": "Sky Sports Football",
-      "url": "https://www.skysports.com/rugby-union/news/12040/13616405/ireland-vs-australia-mack-hansen-out-with-injury-as-nick-timoney-replaces-suspended-dan-sheehan-for-nations-championship-clash",
-      "summary": "Mack Hansen has been ruled out of Ireland's starting XV to face Australia in this Friday's Nations Championship finals clash at Allianz Stadium.",
-      "published": "Wed, 25 Nov 2026 16:10:00 GMT"
-    }
-  ]
+  "_news_injury_alerts": []
 }
