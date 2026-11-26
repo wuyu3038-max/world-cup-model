@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T18:47:52.737010",
+  "updated": "2026-11-26T00:34:28.518260",
   "total_articles": 3,
   "source_counts": {
     "dongqiudi": 0,
@@ -10,10 +10,19 @@
   },
   "articles": [
     {
-      "id": "69a6d8504b1f",
-      "title": "Club Brugge vs Liverpool team news LIVE!",
-      "url": "https://www.skysports.com/football/club-brugge-vs-liverpool/live/577679",
-      "published_at": "Wed, 25 Nov 2026 17:58:00 GMT",
+      "id": "122f0fdb87ba",
+      "title": "England's All Blacks Tests 'World Cup practice' | 'Ireland still not contenders'",
+      "url": "https://www.skysports.com/rugby-union/news/12040/13616429/nations-championship-steve-borthwick-targets-world-cup-preparation-against-all-blacks-as-andy-farrell-plays-down-irelands-title-credentials",
+      "published_at": "Thu, 26 Nov 2026 00:00:00 GMT",
+      "source": "Sky Sports Football",
+      "language": "en",
+      "summary": "Head coaches Steve Borthwick of England, Andy Farrell of Ireland and Dave Rennie of New Zealand speak to media ahead of the final weekend of the inaugural Nations Championship. "
+    },
+    {
+      "id": "3c4638a40ea1",
+      "title": "Liverpool latest: Munoz adds to injury concern ahead of derby",
+      "url": "https://www.skysports.com/football/live-blog/12040/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "published_at": "Wed, 25 Nov 2026 22:59:00 GMT",
       "source": "Sky Sports Football",
       "language": "en",
       "summary": ""
@@ -26,15 +35,6 @@
       "source": "Sky Sports Football",
       "language": "en",
       "summary": "Mack Hansen has been ruled out of Ireland's starting XV to face Australia in this Friday's Nations Championship finals clash at Allianz Stadium."
-    },
-    {
-      "id": "50278fd76748",
-      "title": "Sporting vs Man Utd team news LIVE!",
-      "url": "https://www.skysports.com/football/sporting-lisbon-vs-manchester-united/live/577686",
-      "published_at": "Wed, 25 Nov 2026 17:51:00 GMT",
-      "source": "Sky Sports Football",
-      "language": "en",
-      "summary": ""
     }
   ]
 }
