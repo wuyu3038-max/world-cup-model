@@ -1,22 +1,12 @@
 {
-  "updated": "2026-11-26T18:35:23.126193",
-  "total_articles": 1,
+  "updated": "2026-11-27T00:43:07.363547",
+  "total_articles": 0,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 1,
+    "bbc_sport": 0,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": [
-    {
-      "id": "550c3b244e73",
-      "title": "Fifa confirms internal data stolen in cyber attack",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crd61nvg4d84o?at_medium=RSS&at_campaign=rss",
-      "published_at": "Thu, 26 Nov 2026 11:30:07 GMT",
-      "source": "BBC Sport Football",
-      "language": "en",
-      "summary": "Fifa has confirmed it has been the victim of a cyber-attack which resulted in personal and business information being stolen."
-    }
-  ]
+  "articles": []
 }
