@@ -1,12 +1,22 @@
 {
-  "updated": "2026-11-27T08:51:26.386056",
-  "total_articles": 0,
+  "updated": "2026-11-27T18:23:46.601563",
+  "total_articles": 1,
   "source_counts": {
     "dongqiudi": 0,
     "espn_fc": 0,
-    "bbc_sport": 0,
+    "bbc_sport": 1,
     "sky_sports": 0,
     "goal_com": 0
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "e71faa673989",
+      "title": "Spurs' Savio to miss festive fixtures after injury setback",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw4gnm4p3zxlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "Fri, 27 Nov 2026 16:05:30 GMT",
+      "source": "BBC Sport Football",
+      "language": "en",
+      "summary": "Tottenham winger Savio will miss the club's Christmas fixtures with injury and could be out for up to 80 days, manager Roberto de Zerbi confirms."
+    }
+  ]
 }
